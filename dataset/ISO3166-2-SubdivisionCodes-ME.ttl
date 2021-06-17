@@ -1,0 +1,687 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-me: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Montenegro Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-me" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Montenegro, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ME.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	.
+
+lcc-3166-2-me:Andrijevica
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Andrijevica" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Andrijevica in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Andrijevica" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Bar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Bar in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Bar" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Berane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Berane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Berane in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Berane" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:BijeloPolje
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bijelo Polje" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Bijelo Polje in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Bijelo Polje" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Budva
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Budva" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Budva in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Budva" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Cetinje
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cetinje" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Cetinje in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Cetinje" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Danilovgrad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Danilovgrad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Danilovgrad in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Danilovgrad" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Gusinje
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gusinje" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Gusinje in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Gusinje" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Herceg-Novi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Herceg-Novi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Herceg-Novi in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Herceg-Novi" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Kolasin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kolašin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Kolašin in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Kolašin" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Kotor
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kotor" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Kotor in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Kotor" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:ME-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Andrijevica in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Andrijevica ;
+	lcc-lr:hasTag "ME-01" ;
+	lcc-lr:identifies lcc-3166-2-me:Andrijevica ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Bar in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Bar ;
+	lcc-lr:hasTag "ME-02" ;
+	lcc-lr:identifies lcc-3166-2-me:Bar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Berane in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Berane ;
+	lcc-lr:hasTag "ME-03" ;
+	lcc-lr:identifies lcc-3166-2-me:Berane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Bijelo Polje in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:BijeloPolje ;
+	lcc-lr:hasTag "ME-04" ;
+	lcc-lr:identifies lcc-3166-2-me:BijeloPolje ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Budva in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Budva ;
+	lcc-lr:hasTag "ME-05" ;
+	lcc-lr:identifies lcc-3166-2-me:Budva ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Cetinje in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Cetinje ;
+	lcc-lr:hasTag "ME-06" ;
+	lcc-lr:identifies lcc-3166-2-me:Cetinje ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Danilovgrad in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Danilovgrad ;
+	lcc-lr:hasTag "ME-07" ;
+	lcc-lr:identifies lcc-3166-2-me:Danilovgrad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Herceg-Novi in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Herceg-Novi ;
+	lcc-lr:hasTag "ME-08" ;
+	lcc-lr:identifies lcc-3166-2-me:Herceg-Novi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Kolašin in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Kolasin ;
+	lcc-lr:hasTag "ME-09" ;
+	lcc-lr:identifies lcc-3166-2-me:Kolasin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Kotor in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Kotor ;
+	lcc-lr:hasTag "ME-10" ;
+	lcc-lr:identifies lcc-3166-2-me:Kotor ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Mojkovac in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Mojkovac ;
+	lcc-lr:hasTag "ME-11" ;
+	lcc-lr:identifies lcc-3166-2-me:Mojkovac ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Nikšić in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Niksic ;
+	lcc-lr:hasTag "ME-12" ;
+	lcc-lr:identifies lcc-3166-2-me:Niksic ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Plav in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Plav ;
+	lcc-lr:hasTag "ME-13" ;
+	lcc-lr:identifies lcc-3166-2-me:Plav ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Pljevlja in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Pljevlja ;
+	lcc-lr:hasTag "ME-14" ;
+	lcc-lr:identifies lcc-3166-2-me:Pljevlja ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Plužine in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Pluzine ;
+	lcc-lr:hasTag "ME-15" ;
+	lcc-lr:identifies lcc-3166-2-me:Pluzine ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Podgorica in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Podgorica ;
+	lcc-lr:hasTag "ME-16" ;
+	lcc-lr:identifies lcc-3166-2-me:Podgorica ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Rožaje in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Rozaje ;
+	lcc-lr:hasTag "ME-17" ;
+	lcc-lr:identifies lcc-3166-2-me:Rozaje ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Šavnik in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Savnik ;
+	lcc-lr:hasTag "ME-18" ;
+	lcc-lr:identifies lcc-3166-2-me:Savnik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Tivat in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Tivat ;
+	lcc-lr:hasTag "ME-19" ;
+	lcc-lr:identifies lcc-3166-2-me:Tivat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Ulcinj in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Ulcinj ;
+	lcc-lr:hasTag "ME-20" ;
+	lcc-lr:identifies lcc-3166-2-me:Ulcinj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Žabljak in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Zabljak ;
+	lcc-lr:hasTag "ME-21" ;
+	lcc-lr:identifies lcc-3166-2-me:Zabljak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Gusinje in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Gusinje ;
+	lcc-lr:hasTag "ME-22" ;
+	lcc-lr:identifies lcc-3166-2-me:Gusinje ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:ME-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ME-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision code for the municipality of Petnjica in the country of Montenegro" ;
+	lcc-lr:denotes lcc-3166-2-me:Petnjica ;
+	lcc-lr:hasTag "ME-23" ;
+	lcc-lr:identifies lcc-3166-2-me:Petnjica ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-me:Mojkovac
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mojkovac" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Mojkovac in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Mojkovac" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "subdivision category municipality in the country of Montenegro" ;
+	.
+
+lcc-3166-2-me:Niksic
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nikšić" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Nikšić in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Nikšić" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Petnjica
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Petnjica" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Petnjica in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Petnjica" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Plav
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plav" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Plav in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Plav" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Pljevlja
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pljevlja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Pljevlja in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Pljevlja" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Pluzine
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plužine" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Plužine in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Plužine" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Podgorica
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Podgorica" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Podgorica in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Podgorica" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Rozaje
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rožaje" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Rožaje in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Rožaje" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Savnik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šavnik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Šavnik in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Šavnik" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Tivat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tivat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Tivat in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Tivat" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Ulcinj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ulcinj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Ulcinj in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Ulcinj" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-2-me:Zabljak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Žabljak" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ME/> ;
+	skos:definition "The municipality of Žabljak in the country of Montenegro" ;
+	lcc-cr:hasLocalShortName "Žabljak" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-me:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Montenegro ;
+	.
+

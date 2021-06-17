@@ -1,0 +1,2435 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ma: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Morocco Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ma" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Morocco, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MA.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	.
+
+lcc-3166-2-ma:Agadir-Ida-Ou-Tanane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Agadir-Ida-Ou-Tanane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Agadir-Ida-Ou-Tanane in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Agadir-Ida-Ou-Tanane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Souss-Massa ;
+	.
+
+lcc-3166-2-ma:AlHaouz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Haouz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Al Haouz in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Al Haouz"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:AlHoceima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Hoceïma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Al Hoceïma in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Al Hoceïma"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:Aousserd
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aousserd (EH)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Aousserd (EH) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Aousserd (EH)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Dakhla-OuedEd-Dahab ;
+	.
+
+lcc-3166-2-ma:Assa-Zag
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Assa-Zag (EH-partial)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Assa-Zag (EH-partial) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Assa-Zag (EH-partial)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Guelmim-OuedNoun ;
+	.
+
+lcc-3166-2-ma:Azilal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Azilal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Azilal in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Azilal"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:BeniMellal-Khenifra ;
+	.
+
+lcc-3166-2-ma:BeniMellal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Béni Mellal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Béni Mellal in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Béni Mellal"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:BeniMellal-Khenifra ;
+	.
+
+lcc-3166-2-ma:BeniMellal-Khenifra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Béni Mellal-Khénifra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Béni Mellal-Khénifra in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Béni Mellal-Khénifra"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Benslimane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Benslimane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Benslimane in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Benslimane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:Berkane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Berkane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Berkane in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Berkane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:Berrechid
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Berrechid" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Berrechid in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Berrechid"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:Boujdour
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boujdour (EH)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Boujdour (EH) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Boujdour (EH)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Laayoune-SakiaElHamra ;
+	.
+
+lcc-3166-2-ma:Boulemane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boulemane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Boulemane in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Boulemane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Casablanca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Casablanca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Casablanca in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Casablanca"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Draa-Tafilalet ;
+	.
+
+lcc-3166-2-ma:Casablanca-Settat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Casablanca-Settat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Casablanca-Settat in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Casablanca-Settat"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Chefchaouen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chefchaouen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Chefchaouen in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Chefchaouen"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:Chichaoua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chichaoua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Chichaoua in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Chichaoua"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:Chtouka-AitBaha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chtouka-Ait Baha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Chtouka-Ait Baha in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Chtouka-Ait Baha"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:Dakhla-OuedEd-Dahab
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dakhla-Oued Ed-Dahab (EH)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Dakhla-Oued Ed-Dahab (EH) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Dakhla-Oued Ed-Dahab (EH)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Draa-Tafilalet
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Drâa-Tafilalet" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Drâa-Tafilalet in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Drâa-Tafilalet"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Driouch
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Driouch" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Driouch in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Driouch"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:ElHajeb
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Hajeb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of El Hajeb in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "El Hajeb"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:ElJadida
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Jadida" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of El Jadida in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "El Jadida"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:ElKelaaDesSraghna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Kelâa des Sraghna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of El Kelâa des Sraghna in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "El Kelâa des Sraghna"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:Errachidia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Errachidia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Errachidia in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Errachidia"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Draa-Tafilalet ;
+	.
+
+lcc-3166-2-ma:Es-Semara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Es-Semara (EH-partial)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Es-Semara (EH-partial) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Es-Semara (EH-partial)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Laayoune-SakiaElHamra ;
+	.
+
+lcc-3166-2-ma:Essaouira
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Essaouira" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Essaouira in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Essaouira"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:Fahs-Anjra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fahs-Anjra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Fahs-Anjra in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Fahs-Anjra"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:Fes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fès" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Fès in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Fès"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Fes-Meknes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fès- Meknès" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Fès- Meknès in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Fès- Meknès"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Figuig
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Figuig" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Figuig in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Figuig"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:FquihBenSalah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fquih Ben Salah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Fquih Ben Salah in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Fquih Ben Salah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:BeniMellal-Khenifra ;
+	.
+
+lcc-3166-2-ma:Guelmim
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guelmim" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Guelmim in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Guelmim"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Guelmim-OuedNoun ;
+	.
+
+lcc-3166-2-ma:Guelmim-OuedNoun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guelmim-Oued Noun (EH-partial)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Guelmim-Oued Noun (EH-partial) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Guelmim-Oued Noun (EH-partial)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Guercif
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guercif" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Guercif in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Guercif"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:Ifrane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ifrane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Ifrane in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Ifrane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Inezgane-AitMelloul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Inezgane-Ait Melloul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Inezgane-Ait Melloul in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Inezgane-Ait Melloul"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Souss-Massa ;
+	.
+
+lcc-3166-2-ma:Jerada
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jerada" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Jerada in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Jerada"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:Kenitra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kénitra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Kénitra in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Kénitra"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	.
+
+lcc-3166-2-ma:Khemisset
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khemisset" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Khemisset in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Khemisset"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	.
+
+lcc-3166-2-ma:Khenifra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khenifra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Khenifra in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Khenifra"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:BeniMellal-Khenifra ;
+	.
+
+lcc-3166-2-ma:Khouribga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khouribga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Khouribga in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Khouribga"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:BeniMellal-Khenifra ;
+	.
+
+lcc-3166-2-ma:LOriental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "L'Oriental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of L'Oriental in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "L'Oriental"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Laayoune
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Laâyoune (EH)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Laâyoune (EH) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Laâyoune (EH)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Laayoune-SakiaElHamra ;
+	.
+
+lcc-3166-2-ma:Laayoune-SakiaElHamra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Laâyoune-Sakia El Hamra (EH-partial)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Laâyoune-Sakia El Hamra (EH-partial) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Laâyoune-Sakia El Hamra (EH-partial)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Larache
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Larache" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Larache in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Larache"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:MA-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Tanger-Tétouan-Al Hoceïma in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	lcc-lr:hasTag "MA-01" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of L'Oriental in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:LOriental ;
+	lcc-lr:hasTag "MA-02" ;
+	lcc-lr:identifies lcc-3166-2-ma:LOriental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Fès- Meknès in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Fes-Meknes ;
+	lcc-lr:hasTag "MA-03" ;
+	lcc-lr:identifies lcc-3166-2-ma:Fes-Meknes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Rabat-Salé-Kénitra in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	lcc-lr:hasTag "MA-04" ;
+	lcc-lr:identifies lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Béni Mellal-Khénifra in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:BeniMellal-Khenifra ;
+	lcc-lr:hasTag "MA-05" ;
+	lcc-lr:identifies lcc-3166-2-ma:BeniMellal-Khenifra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Casablanca-Settat in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Casablanca-Settat ;
+	lcc-lr:hasTag "MA-06" ;
+	lcc-lr:identifies lcc-3166-2-ma:Casablanca-Settat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Marrakech-Safi in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Marrakech-Safi ;
+	lcc-lr:hasTag "MA-07" ;
+	lcc-lr:identifies lcc-3166-2-ma:Marrakech-Safi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Drâa-Tafilalet in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Draa-Tafilalet ;
+	lcc-lr:hasTag "MA-08" ;
+	lcc-lr:identifies lcc-3166-2-ma:Draa-Tafilalet ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Souss-Massa in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Souss-Massa ;
+	lcc-lr:hasTag "MA-09" ;
+	lcc-lr:identifies lcc-3166-2-ma:Souss-Massa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Guelmim-Oued Noun (EH-partial) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Guelmim-OuedNoun ;
+	lcc-lr:hasTag "MA-10" ;
+	lcc-lr:identifies lcc-3166-2-ma:Guelmim-OuedNoun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Laâyoune-Sakia El Hamra (EH-partial) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Laayoune-SakiaElHamra ;
+	lcc-lr:hasTag "MA-11" ;
+	lcc-lr:identifies lcc-3166-2-ma:Laayoune-SakiaElHamra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the region of Dakhla-Oued Ed-Dahab (EH) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Dakhla-OuedEd-Dahab ;
+	lcc-lr:hasTag "MA-12" ;
+	lcc-lr:identifies lcc-3166-2-ma:Dakhla-OuedEd-Dahab ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-AGD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-AGD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Agadir-Ida-Ou-Tanane in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Agadir-Ida-Ou-Tanane ;
+	lcc-lr:hasTag "MA-AGD" ;
+	lcc-lr:identifies lcc-3166-2-ma:Agadir-Ida-Ou-Tanane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-AOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-AOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Aousserd (EH) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Aousserd ;
+	lcc-lr:hasTag "MA-AOU" ;
+	lcc-lr:identifies lcc-3166-2-ma:Aousserd ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-ASZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-ASZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Assa-Zag (EH-partial) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Assa-Zag ;
+	lcc-lr:hasTag "MA-ASZ" ;
+	lcc-lr:identifies lcc-3166-2-ma:Assa-Zag ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-AZI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-AZI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Azilal in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Azilal ;
+	lcc-lr:hasTag "MA-AZI" ;
+	lcc-lr:identifies lcc-3166-2-ma:Azilal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-BEM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-BEM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Béni Mellal in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:BeniMellal ;
+	lcc-lr:hasTag "MA-BEM" ;
+	lcc-lr:identifies lcc-3166-2-ma:BeniMellal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-BER
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-BER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Berkane in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Berkane ;
+	lcc-lr:hasTag "MA-BER" ;
+	lcc-lr:identifies lcc-3166-2-ma:Berkane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-BES
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-BES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Benslimane in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Benslimane ;
+	lcc-lr:hasTag "MA-BES" ;
+	lcc-lr:identifies lcc-3166-2-ma:Benslimane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-BOD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-BOD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Boujdour (EH) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Boujdour ;
+	lcc-lr:hasTag "MA-BOD" ;
+	lcc-lr:identifies lcc-3166-2-ma:Boujdour ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-BOM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-BOM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Boulemane in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Boulemane ;
+	lcc-lr:hasTag "MA-BOM" ;
+	lcc-lr:identifies lcc-3166-2-ma:Boulemane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-BRR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-BRR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Berrechid in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Berrechid ;
+	lcc-lr:hasTag "MA-BRR" ;
+	lcc-lr:identifies lcc-3166-2-ma:Berrechid ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-CAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-CAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Casablanca in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Casablanca ;
+	lcc-lr:hasTag "MA-CAS" ;
+	lcc-lr:identifies lcc-3166-2-ma:Casablanca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-CHE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-CHE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Chefchaouen in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Chefchaouen ;
+	lcc-lr:hasTag "MA-CHE" ;
+	lcc-lr:identifies lcc-3166-2-ma:Chefchaouen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-CHI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-CHI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Chichaoua in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Chichaoua ;
+	lcc-lr:hasTag "MA-CHI" ;
+	lcc-lr:identifies lcc-3166-2-ma:Chichaoua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-CHT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-CHT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Chtouka-Ait Baha in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Chtouka-AitBaha ;
+	lcc-lr:hasTag "MA-CHT" ;
+	lcc-lr:identifies lcc-3166-2-ma:Chtouka-AitBaha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-DRI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-DRI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Driouch in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Driouch ;
+	lcc-lr:hasTag "MA-DRI" ;
+	lcc-lr:identifies lcc-3166-2-ma:Driouch ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-ERR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-ERR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Errachidia in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Errachidia ;
+	lcc-lr:hasTag "MA-ERR" ;
+	lcc-lr:identifies lcc-3166-2-ma:Errachidia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-ESI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-ESI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Essaouira in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Essaouira ;
+	lcc-lr:hasTag "MA-ESI" ;
+	lcc-lr:identifies lcc-3166-2-ma:Essaouira ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-ESM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-ESM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Es-Semara (EH-partial) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Es-Semara ;
+	lcc-lr:hasTag "MA-ESM" ;
+	lcc-lr:identifies lcc-3166-2-ma:Es-Semara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-FAH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-FAH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Fahs-Anjra in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Fahs-Anjra ;
+	lcc-lr:hasTag "MA-FAH" ;
+	lcc-lr:identifies lcc-3166-2-ma:Fahs-Anjra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-FES
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-FES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Fès in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Fes ;
+	lcc-lr:hasTag "MA-FES" ;
+	lcc-lr:identifies lcc-3166-2-ma:Fes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-FIG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-FIG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Figuig in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Figuig ;
+	lcc-lr:hasTag "MA-FIG" ;
+	lcc-lr:identifies lcc-3166-2-ma:Figuig ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-FQH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-FQH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Fquih Ben Salah in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:FquihBenSalah ;
+	lcc-lr:hasTag "MA-FQH" ;
+	lcc-lr:identifies lcc-3166-2-ma:FquihBenSalah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-GUE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-GUE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Guelmim in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Guelmim ;
+	lcc-lr:hasTag "MA-GUE" ;
+	lcc-lr:identifies lcc-3166-2-ma:Guelmim ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-GUF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-GUF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Guercif in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Guercif ;
+	lcc-lr:hasTag "MA-GUF" ;
+	lcc-lr:identifies lcc-3166-2-ma:Guercif ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-HAJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-HAJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of El Hajeb in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:ElHajeb ;
+	lcc-lr:hasTag "MA-HAJ" ;
+	lcc-lr:identifies lcc-3166-2-ma:ElHajeb ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-HAO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-HAO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Al Haouz in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:AlHaouz ;
+	lcc-lr:hasTag "MA-HAO" ;
+	lcc-lr:identifies lcc-3166-2-ma:AlHaouz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-HOC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-HOC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Al Hoceïma in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:AlHoceima ;
+	lcc-lr:hasTag "MA-HOC" ;
+	lcc-lr:identifies lcc-3166-2-ma:AlHoceima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-IFR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-IFR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Ifrane in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Ifrane ;
+	lcc-lr:hasTag "MA-IFR" ;
+	lcc-lr:identifies lcc-3166-2-ma:Ifrane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-INE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-INE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Inezgane-Ait Melloul in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Inezgane-AitMelloul ;
+	lcc-lr:hasTag "MA-INE" ;
+	lcc-lr:identifies lcc-3166-2-ma:Inezgane-AitMelloul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-JDI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-JDI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of El Jadida in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:ElJadida ;
+	lcc-lr:hasTag "MA-JDI" ;
+	lcc-lr:identifies lcc-3166-2-ma:ElJadida ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-JRA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-JRA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Jerada in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Jerada ;
+	lcc-lr:hasTag "MA-JRA" ;
+	lcc-lr:identifies lcc-3166-2-ma:Jerada ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-KEN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-KEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Kénitra in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Kenitra ;
+	lcc-lr:hasTag "MA-KEN" ;
+	lcc-lr:identifies lcc-3166-2-ma:Kenitra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-KES
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-KES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of El Kelâa des Sraghna in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:ElKelaaDesSraghna ;
+	lcc-lr:hasTag "MA-KES" ;
+	lcc-lr:identifies lcc-3166-2-ma:ElKelaaDesSraghna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-KHE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-KHE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Khemisset in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Khemisset ;
+	lcc-lr:hasTag "MA-KHE" ;
+	lcc-lr:identifies lcc-3166-2-ma:Khemisset ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-KHN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-KHN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Khenifra in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Khenifra ;
+	lcc-lr:hasTag "MA-KHN" ;
+	lcc-lr:identifies lcc-3166-2-ma:Khenifra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-KHO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-KHO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Khouribga in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Khouribga ;
+	lcc-lr:hasTag "MA-KHO" ;
+	lcc-lr:identifies lcc-3166-2-ma:Khouribga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-LAA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-LAA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Laâyoune (EH) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Laayoune ;
+	lcc-lr:hasTag "MA-LAA" ;
+	lcc-lr:identifies lcc-3166-2-ma:Laayoune ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-LAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-LAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Larache in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Larache ;
+	lcc-lr:hasTag "MA-LAR" ;
+	lcc-lr:identifies lcc-3166-2-ma:Larache ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-MAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-MAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Marrakech in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Marrakech ;
+	lcc-lr:hasTag "MA-MAR" ;
+	lcc-lr:identifies lcc-3166-2-ma:Marrakech ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-MDF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-MDF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of M’diq-Fnideq in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Mdiq-Fnideq ;
+	lcc-lr:hasTag "MA-MDF" ;
+	lcc-lr:identifies lcc-3166-2-ma:Mdiq-Fnideq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-MED
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-MED" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Médiouna in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Mediouna ;
+	lcc-lr:hasTag "MA-MED" ;
+	lcc-lr:identifies lcc-3166-2-ma:Mediouna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-MEK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-MEK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Meknès in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Meknes ;
+	lcc-lr:hasTag "MA-MEK" ;
+	lcc-lr:identifies lcc-3166-2-ma:Meknes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-MID
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-MID" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Midelt in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Midelt ;
+	lcc-lr:hasTag "MA-MID" ;
+	lcc-lr:identifies lcc-3166-2-ma:Midelt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-MOH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-MOH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Mohammadia in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Mohammadia ;
+	lcc-lr:hasTag "MA-MOH" ;
+	lcc-lr:identifies lcc-3166-2-ma:Mohammadia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-MOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-MOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Moulay Yacoub in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:MoulayYacoub ;
+	lcc-lr:hasTag "MA-MOU" ;
+	lcc-lr:identifies lcc-3166-2-ma:MoulayYacoub ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-NAD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-NAD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Nador in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Nador ;
+	lcc-lr:hasTag "MA-NAD" ;
+	lcc-lr:identifies lcc-3166-2-ma:Nador ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-NOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-NOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Nouaceur in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Nouaceur ;
+	lcc-lr:hasTag "MA-NOU" ;
+	lcc-lr:identifies lcc-3166-2-ma:Nouaceur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-OUA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-OUA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Ouarzazate in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Ouarzazate ;
+	lcc-lr:hasTag "MA-OUA" ;
+	lcc-lr:identifies lcc-3166-2-ma:Ouarzazate ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-OUD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-OUD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Oued Ed-Dahab (EH) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:OuedEd-Dahab ;
+	lcc-lr:hasTag "MA-OUD" ;
+	lcc-lr:identifies lcc-3166-2-ma:OuedEd-Dahab ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-OUJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-OUJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Oujda-Angad in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Oujda-Angad ;
+	lcc-lr:hasTag "MA-OUJ" ;
+	lcc-lr:identifies lcc-3166-2-ma:Oujda-Angad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-OUZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-OUZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Ouezzane in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Ouezzane ;
+	lcc-lr:hasTag "MA-OUZ" ;
+	lcc-lr:identifies lcc-3166-2-ma:Ouezzane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-RAB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-RAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Rabat in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Rabat ;
+	lcc-lr:hasTag "MA-RAB" ;
+	lcc-lr:identifies lcc-3166-2-ma:Rabat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-REH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-REH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Rehamna in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Rehamna ;
+	lcc-lr:hasTag "MA-REH" ;
+	lcc-lr:identifies lcc-3166-2-ma:Rehamna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SAF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SAF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Safi in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Safi ;
+	lcc-lr:hasTag "MA-SAF" ;
+	lcc-lr:identifies lcc-3166-2-ma:Safi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Salé in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Sale ;
+	lcc-lr:hasTag "MA-SAL" ;
+	lcc-lr:identifies lcc-3166-2-ma:Sale ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SEF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SEF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Sefrou in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Sefrou ;
+	lcc-lr:hasTag "MA-SEF" ;
+	lcc-lr:identifies lcc-3166-2-ma:Sefrou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SET
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SET" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Settat in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Settat ;
+	lcc-lr:hasTag "MA-SET" ;
+	lcc-lr:identifies lcc-3166-2-ma:Settat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SIB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SIB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Sidi Bennour in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:SidiBennour ;
+	lcc-lr:hasTag "MA-SIB" ;
+	lcc-lr:identifies lcc-3166-2-ma:SidiBennour ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SIF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SIF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Sidi Ifni in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:SidiIfni ;
+	lcc-lr:hasTag "MA-SIF" ;
+	lcc-lr:identifies lcc-3166-2-ma:SidiIfni ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SIK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SIK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Sidi Kacem in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:SidiKacem ;
+	lcc-lr:hasTag "MA-SIK" ;
+	lcc-lr:identifies lcc-3166-2-ma:SidiKacem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SIL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SIL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Sidi Slimane in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:SidiSlimane ;
+	lcc-lr:hasTag "MA-SIL" ;
+	lcc-lr:identifies lcc-3166-2-ma:SidiSlimane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-SKH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-SKH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Skhirate-Témara in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Skhirate-Temara ;
+	lcc-lr:hasTag "MA-SKH" ;
+	lcc-lr:identifies lcc-3166-2-ma:Skhirate-Temara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TAF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TAF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Tarfaya (EH-partial) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tarfaya ;
+	lcc-lr:hasTag "MA-TAF" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tarfaya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TAI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TAI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Taourirt in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Taourirt ;
+	lcc-lr:hasTag "MA-TAI" ;
+	lcc-lr:identifies lcc-3166-2-ma:Taourirt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TAO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TAO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Taounate in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Taounate ;
+	lcc-lr:hasTag "MA-TAO" ;
+	lcc-lr:identifies lcc-3166-2-ma:Taounate ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Taroudant in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Taroudant ;
+	lcc-lr:hasTag "MA-TAR" ;
+	lcc-lr:identifies lcc-3166-2-ma:Taroudant ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TAT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TAT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Tata in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tata ;
+	lcc-lr:hasTag "MA-TAT" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tata ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TAZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TAZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Taza in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Taza ;
+	lcc-lr:hasTag "MA-TAZ" ;
+	lcc-lr:identifies lcc-3166-2-ma:Taza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TET
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TET" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Tétouan in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tetouan ;
+	lcc-lr:hasTag "MA-TET" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tetouan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TIN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TIN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Tinghir in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tinghir ;
+	lcc-lr:hasTag "MA-TIN" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tinghir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TIZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TIZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Tiznit in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tiznit ;
+	lcc-lr:hasTag "MA-TIZ" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tiznit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TNG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TNG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the prefecture of Tanger-Assilah in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tanger-Assilah ;
+	lcc-lr:hasTag "MA-TNG" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tanger-Assilah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-TNT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-TNT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Tan-Tan (EH-partial) in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Tan-Tan ;
+	lcc-lr:hasTag "MA-TNT" ;
+	lcc-lr:identifies lcc-3166-2-ma:Tan-Tan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-YUS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-YUS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Youssoufia in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Youssoufia ;
+	lcc-lr:hasTag "MA-YUS" ;
+	lcc-lr:identifies lcc-3166-2-ma:Youssoufia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:MA-ZAG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MA-ZAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision code for the province of Zagora in the country of Morocco" ;
+	lcc-lr:denotes lcc-3166-2-ma:Zagora ;
+	lcc-lr:hasTag "MA-ZAG" ;
+	lcc-lr:identifies lcc-3166-2-ma:Zagora ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ma:Marrakech
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marrakech" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Marrakech in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Marrakech"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:Marrakech-Safi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marrakech-Safi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Marrakech-Safi in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Marrakech-Safi"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Mdiq-Fnideq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "M’diq-Fnideq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of M’diq-Fnideq in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "M’diq-Fnideq"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:Mediouna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Médiouna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Médiouna in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Médiouna"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:Meknes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Meknès" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Meknès in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Meknès"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Midelt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Midelt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Midelt in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Midelt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Draa-Tafilalet ;
+	.
+
+lcc-3166-2-ma:Mohammadia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mohammadia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Mohammadia in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Mohammadia"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:MoulayYacoub
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moulay Yacoub" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Moulay Yacoub in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Moulay Yacoub"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Nador
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nador" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Nador in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Nador"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:Nouaceur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nouaceur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Nouaceur in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Nouaceur"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	.
+
+lcc-3166-2-ma:Ouarzazate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ouarzazate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Ouarzazate in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Ouarzazate"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Draa-Tafilalet ;
+	.
+
+lcc-3166-2-ma:OuedEd-Dahab
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oued Ed-Dahab (EH)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Oued Ed-Dahab (EH) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Oued Ed-Dahab (EH)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Dakhla-OuedEd-Dahab ;
+	.
+
+lcc-3166-2-ma:Ouezzane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ouezzane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Ouezzane in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Ouezzane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:Oujda-Angad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oujda-Angad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Oujda-Angad in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Oujda-Angad"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:Prefecture
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "prefecture" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision category prefecture in the country of Morocco" ;
+	.
+
+lcc-3166-2-ma:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision category province in the country of Morocco" ;
+	.
+
+lcc-3166-2-ma:Rabat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rabat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Rabat in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Rabat"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	.
+
+lcc-3166-2-ma:Rabat-Sale-Kenitra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rabat-Salé-Kénitra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Rabat-Salé-Kénitra in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Rabat-Salé-Kénitra"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "subdivision category region in the country of Morocco" ;
+	.
+
+lcc-3166-2-ma:Rehamna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rehamna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Rehamna in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Rehamna"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:Safi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Safi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Safi in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Safi"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:Sale
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Salé in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Salé"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	.
+
+lcc-3166-2-ma:Sefrou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sefrou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Sefrou in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Sefrou"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Settat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Settat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Settat in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Settat"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Draa-Tafilalet ;
+	.
+
+lcc-3166-2-ma:SidiBennour
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sidi Bennour" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Sidi Bennour in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Sidi Bennour"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:SidiIfni
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sidi Ifni" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Sidi Ifni in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Sidi Ifni"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Guelmim-OuedNoun ;
+	.
+
+lcc-3166-2-ma:SidiKacem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sidi Kacem" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Sidi Kacem in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Sidi Kacem"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Casablanca-Settat ;
+	.
+
+lcc-3166-2-ma:SidiSlimane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sidi Slimane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Sidi Slimane in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Sidi Slimane"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	.
+
+lcc-3166-2-ma:Skhirate-Temara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skhirate-Témara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Skhirate-Témara in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Skhirate-Témara"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Rabat-Sale-Kenitra ;
+	.
+
+lcc-3166-2-ma:Souss-Massa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Souss-Massa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Souss-Massa in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Souss-Massa"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Tan-Tan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tan-Tan (EH-partial)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Tan-Tan (EH-partial) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tan-Tan (EH-partial)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Guelmim-OuedNoun ;
+	.
+
+lcc-3166-2-ma:Tanger-Assilah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tanger-Assilah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The prefecture of Tanger-Assilah in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tanger-Assilah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:Tanger-Tetouan-AlHoceima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tanger-Tétouan-Al Hoceïma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The region of Tanger-Tétouan-Al Hoceïma in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tanger-Tétouan-Al Hoceïma"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-2-ma:Taounate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taounate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Taounate in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Taounate"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Taourirt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taourirt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Taourirt in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Taourirt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:LOriental ;
+	.
+
+lcc-3166-2-ma:Tarfaya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarfaya (EH-partial)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Tarfaya (EH-partial) in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tarfaya (EH-partial)"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Laayoune-SakiaElHamra ;
+	.
+
+lcc-3166-2-ma:Taroudant
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taroudant" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Taroudant in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Taroudant"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Souss-Massa ;
+	.
+
+lcc-3166-2-ma:Tata
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tata" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Tata in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tata"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Souss-Massa ;
+	.
+
+lcc-3166-2-ma:Taza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Taza in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Taza"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Fes-Meknes ;
+	.
+
+lcc-3166-2-ma:Tetouan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tétouan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Tétouan in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tétouan"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Tanger-Tetouan-AlHoceima ;
+	.
+
+lcc-3166-2-ma:Tinghir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tinghir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Tinghir in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tinghir"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Draa-Tafilalet ;
+	.
+
+lcc-3166-2-ma:Tiznit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tiznit" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Tiznit in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Tiznit"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Souss-Massa ;
+	.
+
+lcc-3166-2-ma:Youssoufia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Youssoufia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Youssoufia in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Youssoufia"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Marrakech-Safi ;
+	.
+
+lcc-3166-2-ma:Zagora
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zagora" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MA/> ;
+	skos:definition "The province of Zagora in the country of Morocco" ;
+	lcc-cr:hasLocalShortName "Zagora"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ma:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ma:Draa-Tafilalet ;
+	.
+

@@ -1,0 +1,570 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bi: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Burundi Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bi" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Burundi, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BI.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	.
+
+lcc-3166-2-bi:BI-BB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-BB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Bubanza in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Bubanza ;
+	lcc-lr:hasTag "BI-BB" ;
+	lcc-lr:identifies lcc-3166-2-bi:Bubanza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-BL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Bujumbura Rural in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:BujumburaRural ;
+	lcc-lr:hasTag "BI-BL" ;
+	lcc-lr:identifies lcc-3166-2-bi:BujumburaRural ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-BM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-BM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Bujumbura Mairie in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:BujumburaMairie ;
+	lcc-lr:hasTag "BI-BM" ;
+	lcc-lr:identifies lcc-3166-2-bi:BujumburaMairie ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Bururi in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Bururi ;
+	lcc-lr:hasTag "BI-BR" ;
+	lcc-lr:identifies lcc-3166-2-bi:Bururi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-CA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Cankuzo in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Cankuzo ;
+	lcc-lr:hasTag "BI-CA" ;
+	lcc-lr:identifies lcc-3166-2-bi:Cankuzo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-CI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-CI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Cibitoke in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Cibitoke ;
+	lcc-lr:hasTag "BI-CI" ;
+	lcc-lr:identifies lcc-3166-2-bi:Cibitoke ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-GI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-GI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Gitega in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Gitega ;
+	lcc-lr:hasTag "BI-GI" ;
+	lcc-lr:identifies lcc-3166-2-bi:Gitega ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-KI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-KI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Kirundo in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Kirundo ;
+	lcc-lr:hasTag "BI-KI" ;
+	lcc-lr:identifies lcc-3166-2-bi:Kirundo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-KR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-KR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Karuzi in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Karuzi ;
+	lcc-lr:hasTag "BI-KR" ;
+	lcc-lr:identifies lcc-3166-2-bi:Karuzi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-KY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-KY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Kayanza in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Kayanza ;
+	lcc-lr:hasTag "BI-KY" ;
+	lcc-lr:identifies lcc-3166-2-bi:Kayanza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Makamba in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Makamba ;
+	lcc-lr:hasTag "BI-MA" ;
+	lcc-lr:identifies lcc-3166-2-bi:Makamba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-MU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Muramvya in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Muramvya ;
+	lcc-lr:hasTag "BI-MU" ;
+	lcc-lr:identifies lcc-3166-2-bi:Muramvya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-MW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-MW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Mwaro in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Mwaro ;
+	lcc-lr:hasTag "BI-MW" ;
+	lcc-lr:identifies lcc-3166-2-bi:Mwaro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-MY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-MY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Muyinga in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Muyinga ;
+	lcc-lr:hasTag "BI-MY" ;
+	lcc-lr:identifies lcc-3166-2-bi:Muyinga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-NG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-NG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Ngozi in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Ngozi ;
+	lcc-lr:hasTag "BI-NG" ;
+	lcc-lr:identifies lcc-3166-2-bi:Ngozi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-RM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-RM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Rumonge in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Rumonge ;
+	lcc-lr:hasTag "BI-RM" ;
+	lcc-lr:identifies lcc-3166-2-bi:Rumonge ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-RT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-RT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Rutana in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Rutana ;
+	lcc-lr:hasTag "BI-RT" ;
+	lcc-lr:identifies lcc-3166-2-bi:Rutana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:BI-RY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BI-RY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision code for the province of Ruyigi in the country of Burundi" ;
+	lcc-lr:denotes lcc-3166-2-bi:Ruyigi ;
+	lcc-lr:hasTag "BI-RY" ;
+	lcc-lr:identifies lcc-3166-2-bi:Ruyigi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bi:Bubanza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bubanza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Bubanza in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Bubanza"@fr ;
+	lcc-cr:hasLocalShortName "Bubanza"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:BujumburaMairie
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bujumbura Mairie" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Bujumbura Mairie in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Bujumbura Mairie"@fr ;
+	lcc-cr:hasLocalShortName "Bujumbura Mairie"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:BujumburaRural
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bujumbura Rural" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Bujumbura Rural in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Bujumbura Rural"@fr ;
+	lcc-cr:hasLocalShortName "Bujumbura Rural"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Bururi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bururi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Bururi in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Bururi"@fr ;
+	lcc-cr:hasLocalShortName "Bururi"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Cankuzo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cankuzo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Cankuzo in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Cankuzo"@fr ;
+	lcc-cr:hasLocalShortName "Cankuzo"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Cibitoke
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cibitoke" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Cibitoke in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Cibitoke"@fr ;
+	lcc-cr:hasLocalShortName "Cibitoke"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Gitega
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gitega" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Gitega in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Gitega"@fr ;
+	lcc-cr:hasLocalShortName "Gitega"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Karuzi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karuzi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Karuzi in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Karuzi"@fr ;
+	lcc-cr:hasLocalShortName "Karuzi"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Kayanza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kayanza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Kayanza in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Kayanza"@fr ;
+	lcc-cr:hasLocalShortName "Kayanza"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Kirundo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kirundo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Kirundo in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Kirundo"@fr ;
+	lcc-cr:hasLocalShortName "Kirundo"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Makamba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Makamba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Makamba in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Makamba"@fr ;
+	lcc-cr:hasLocalShortName "Makamba"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Muramvya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Muramvya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Muramvya in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Muramvya"@fr ;
+	lcc-cr:hasLocalShortName "Muramvya"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Muyinga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Muyinga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Muyinga in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Muyinga"@fr ;
+	lcc-cr:hasLocalShortName "Muyinga"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Mwaro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mwaro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Mwaro in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Mwaro"@fr ;
+	lcc-cr:hasLocalShortName "Mwaro"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Ngozi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngozi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Ngozi in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Ngozi"@fr ;
+	lcc-cr:hasLocalShortName "Ngozi"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "subdivision category province in the country of Burundi" ;
+	.
+
+lcc-3166-2-bi:Rumonge
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rumonge" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Rumonge in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Rumonge"@fr ;
+	lcc-cr:hasLocalShortName "Rumonge"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Rutana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rutana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Rutana in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Rutana"@fr ;
+	lcc-cr:hasLocalShortName "Rutana"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-2-bi:Ruyigi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ruyigi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BI/> ;
+	skos:definition "The province of Ruyigi in the country of Burundi" ;
+	lcc-cr:hasFrenchShortName "Ruyigi"@fr ;
+	lcc-cr:hasLocalShortName "Ruyigi"@rn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bi:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Burundi ;
+	.
+

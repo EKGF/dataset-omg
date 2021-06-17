@@ -1,0 +1,471 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ee: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Estonia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ee" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Estonia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-EE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	.
+
+lcc-3166-2-ee:County
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "county" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision category county in the country of Estonia" ;
+	.
+
+lcc-3166-2-ee:EE-37
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Harjumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Harjumaa ;
+	lcc-lr:hasTag "EE-37" ;
+	lcc-lr:identifies lcc-3166-2-ee:Harjumaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-39
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Hiiumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Hiiumaa ;
+	lcc-lr:hasTag "EE-39" ;
+	lcc-lr:identifies lcc-3166-2-ee:Hiiumaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-44
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Ida-Virumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Ida-Virumaa ;
+	lcc-lr:hasTag "EE-44" ;
+	lcc-lr:identifies lcc-3166-2-ee:Ida-Virumaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-49
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Jõgevamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Jogevamaa ;
+	lcc-lr:hasTag "EE-49" ;
+	lcc-lr:identifies lcc-3166-2-ee:Jogevamaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-51
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Järvamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Jarvamaa ;
+	lcc-lr:hasTag "EE-51" ;
+	lcc-lr:identifies lcc-3166-2-ee:Jarvamaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-57
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Läänemaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Laanemaa ;
+	lcc-lr:hasTag "EE-57" ;
+	lcc-lr:identifies lcc-3166-2-ee:Laanemaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-59
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Lääne-Virumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Laane-Virumaa ;
+	lcc-lr:hasTag "EE-59" ;
+	lcc-lr:identifies lcc-3166-2-ee:Laane-Virumaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-65
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-65" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Põlvamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Polvamaa ;
+	lcc-lr:hasTag "EE-65" ;
+	lcc-lr:identifies lcc-3166-2-ee:Polvamaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-67
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Pärnumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Parnumaa ;
+	lcc-lr:hasTag "EE-67" ;
+	lcc-lr:identifies lcc-3166-2-ee:Parnumaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-70
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-70" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Raplamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Raplamaa ;
+	lcc-lr:hasTag "EE-70" ;
+	lcc-lr:identifies lcc-3166-2-ee:Raplamaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-74
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-74" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Saaremaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Saaremaa ;
+	lcc-lr:hasTag "EE-74" ;
+	lcc-lr:identifies lcc-3166-2-ee:Saaremaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-78
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-78" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Tartumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Tartumaa ;
+	lcc-lr:hasTag "EE-78" ;
+	lcc-lr:identifies lcc-3166-2-ee:Tartumaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-82
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-82" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Valgamaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Valgamaa ;
+	lcc-lr:hasTag "EE-82" ;
+	lcc-lr:identifies lcc-3166-2-ee:Valgamaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-84
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-84" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Viljandimaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Viljandimaa ;
+	lcc-lr:hasTag "EE-84" ;
+	lcc-lr:identifies lcc-3166-2-ee:Viljandimaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:EE-86
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EE-86" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "subdivision code for the county of Võrumaa in the country of Estonia" ;
+	lcc-lr:denotes lcc-3166-2-ee:Vorumaa ;
+	lcc-lr:hasTag "EE-86" ;
+	lcc-lr:identifies lcc-3166-2-ee:Vorumaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ee:Harjumaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Harjumaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Harjumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Harjumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Hiiumaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hiiumaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Hiiumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Hiiumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Ida-Virumaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ida-Virumaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Ida-Virumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Ida-Virumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Jarvamaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Järvamaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Järvamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Järvamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Jogevamaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jõgevamaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Jõgevamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Jõgevamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Laane-Virumaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lääne-Virumaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Lääne-Virumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Lääne-Virumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Laanemaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Läänemaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Läänemaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Läänemaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Parnumaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pärnumaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Pärnumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Pärnumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Polvamaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Põlvamaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Põlvamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Põlvamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Raplamaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Raplamaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Raplamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Raplamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Saaremaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saaremaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Saaremaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Saaremaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Tartumaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tartumaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Tartumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Tartumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Valgamaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valgamaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Valgamaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Valgamaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Viljandimaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viljandimaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Viljandimaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Viljandimaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-2-ee:Vorumaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Võrumaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EE/> ;
+	skos:definition "The county of Võrumaa in the country of Estonia" ;
+	lcc-cr:hasLocalShortName "Võrumaa"@et ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ee:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Estonia ;
+	.
+

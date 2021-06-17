@@ -1,0 +1,1075 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ng: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Nigeria Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ng" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Nigeria, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	.
+
+lcc-3166-2-ng:Abia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Abia in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Abia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:AbujaFederalCapitalTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abuja Federal Capital Territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The capital territory of Abuja Federal Capital Territory in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Abuja Federal Capital Territory"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:CapitalTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Adamawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Adamawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Adamawa in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Adamawa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:AkwaIbom
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Akwa Ibom" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Akwa Ibom in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Akwa Ibom"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Anambra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anambra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Anambra in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Anambra"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Bauchi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bauchi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Bauchi in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Bauchi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Bayelsa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bayelsa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Bayelsa in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Bayelsa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Benue
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Benue" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Benue in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Benue"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Borno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Borno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Borno in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Borno"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:CapitalTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "capital territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision category capital territory in the country of Nigeria" ;
+	.
+
+lcc-3166-2-ng:CrossRiver
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cross River" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Cross River in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Cross River"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Delta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Delta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Delta in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Delta"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Ebonyi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ebonyi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Ebonyi in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Ebonyi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Edo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Edo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Edo in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Edo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Ekiti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ekiti" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Ekiti in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Ekiti"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Enugu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Enugu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Enugu in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Enugu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Gombe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gombe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Gombe in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Gombe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Imo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Imo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Imo in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Imo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Jigawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jigawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Jigawa in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Jigawa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Kaduna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaduna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Kaduna in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Kaduna"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Kano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Kano in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Kano"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Katsina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Katsina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Katsina in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Katsina"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Kebbi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kebbi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Kebbi in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Kebbi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Kogi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kogi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Kogi in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Kogi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Kwara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kwara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Kwara in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Kwara"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Lagos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lagos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Lagos in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Lagos"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:NG-AB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Abia in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Abia ;
+	lcc-lr:hasTag "NG-AB" ;
+	lcc-lr:identifies lcc-3166-2-ng:Abia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-AD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-AD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Adamawa in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Adamawa ;
+	lcc-lr:hasTag "NG-AD" ;
+	lcc-lr:identifies lcc-3166-2-ng:Adamawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-AK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-AK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Akwa Ibom in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:AkwaIbom ;
+	lcc-lr:hasTag "NG-AK" ;
+	lcc-lr:identifies lcc-3166-2-ng:AkwaIbom ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-AN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Anambra in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Anambra ;
+	lcc-lr:hasTag "NG-AN" ;
+	lcc-lr:identifies lcc-3166-2-ng:Anambra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Bauchi in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Bauchi ;
+	lcc-lr:hasTag "NG-BA" ;
+	lcc-lr:identifies lcc-3166-2-ng:Bauchi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-BE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Benue in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Benue ;
+	lcc-lr:hasTag "NG-BE" ;
+	lcc-lr:identifies lcc-3166-2-ng:Benue ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-BO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Borno in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Borno ;
+	lcc-lr:hasTag "NG-BO" ;
+	lcc-lr:identifies lcc-3166-2-ng:Borno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-BY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-BY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Bayelsa in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Bayelsa ;
+	lcc-lr:hasTag "NG-BY" ;
+	lcc-lr:identifies lcc-3166-2-ng:Bayelsa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-CR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Cross River in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:CrossRiver ;
+	lcc-lr:hasTag "NG-CR" ;
+	lcc-lr:identifies lcc-3166-2-ng:CrossRiver ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-DE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-DE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Delta in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Delta ;
+	lcc-lr:hasTag "NG-DE" ;
+	lcc-lr:identifies lcc-3166-2-ng:Delta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-EB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-EB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Ebonyi in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Ebonyi ;
+	lcc-lr:hasTag "NG-EB" ;
+	lcc-lr:identifies lcc-3166-2-ng:Ebonyi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-ED
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-ED" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Edo in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Edo ;
+	lcc-lr:hasTag "NG-ED" ;
+	lcc-lr:identifies lcc-3166-2-ng:Edo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-EK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-EK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Ekiti in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Ekiti ;
+	lcc-lr:hasTag "NG-EK" ;
+	lcc-lr:identifies lcc-3166-2-ng:Ekiti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-EN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-EN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Enugu in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Enugu ;
+	lcc-lr:hasTag "NG-EN" ;
+	lcc-lr:identifies lcc-3166-2-ng:Enugu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-FC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-FC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the capital territory of Abuja Federal Capital Territory in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:AbujaFederalCapitalTerritory ;
+	lcc-lr:hasTag "NG-FC" ;
+	lcc-lr:identifies lcc-3166-2-ng:AbujaFederalCapitalTerritory ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-GO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-GO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Gombe in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Gombe ;
+	lcc-lr:hasTag "NG-GO" ;
+	lcc-lr:identifies lcc-3166-2-ng:Gombe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-IM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-IM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Imo in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Imo ;
+	lcc-lr:hasTag "NG-IM" ;
+	lcc-lr:identifies lcc-3166-2-ng:Imo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-JI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-JI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Jigawa in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Jigawa ;
+	lcc-lr:hasTag "NG-JI" ;
+	lcc-lr:identifies lcc-3166-2-ng:Jigawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-KD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-KD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Kaduna in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Kaduna ;
+	lcc-lr:hasTag "NG-KD" ;
+	lcc-lr:identifies lcc-3166-2-ng:Kaduna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-KE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-KE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Kebbi in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Kebbi ;
+	lcc-lr:hasTag "NG-KE" ;
+	lcc-lr:identifies lcc-3166-2-ng:Kebbi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-KN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-KN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Kano in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Kano ;
+	lcc-lr:hasTag "NG-KN" ;
+	lcc-lr:identifies lcc-3166-2-ng:Kano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-KO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-KO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Kogi in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Kogi ;
+	lcc-lr:hasTag "NG-KO" ;
+	lcc-lr:identifies lcc-3166-2-ng:Kogi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-KT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-KT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Katsina in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Katsina ;
+	lcc-lr:hasTag "NG-KT" ;
+	lcc-lr:identifies lcc-3166-2-ng:Katsina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-KW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-KW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Kwara in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Kwara ;
+	lcc-lr:hasTag "NG-KW" ;
+	lcc-lr:identifies lcc-3166-2-ng:Kwara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-LA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Lagos in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Lagos ;
+	lcc-lr:hasTag "NG-LA" ;
+	lcc-lr:identifies lcc-3166-2-ng:Lagos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-NA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Nasarawa in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Nasarawa ;
+	lcc-lr:hasTag "NG-NA" ;
+	lcc-lr:identifies lcc-3166-2-ng:Nasarawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-NI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Niger in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Niger ;
+	lcc-lr:hasTag "NG-NI" ;
+	lcc-lr:identifies lcc-3166-2-ng:Niger ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-OG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-OG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Ogun in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Ogun ;
+	lcc-lr:hasTag "NG-OG" ;
+	lcc-lr:identifies lcc-3166-2-ng:Ogun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-ON
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-ON" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Ondo in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Ondo ;
+	lcc-lr:hasTag "NG-ON" ;
+	lcc-lr:identifies lcc-3166-2-ng:Ondo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-OS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-OS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Osun in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Osun ;
+	lcc-lr:hasTag "NG-OS" ;
+	lcc-lr:identifies lcc-3166-2-ng:Osun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-OY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-OY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Oyo in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Oyo ;
+	lcc-lr:hasTag "NG-OY" ;
+	lcc-lr:identifies lcc-3166-2-ng:Oyo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-PL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-PL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Plateau in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Plateau ;
+	lcc-lr:hasTag "NG-PL" ;
+	lcc-lr:identifies lcc-3166-2-ng:Plateau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-RI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Rivers in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Rivers ;
+	lcc-lr:hasTag "NG-RI" ;
+	lcc-lr:identifies lcc-3166-2-ng:Rivers ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Sokoto in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Sokoto ;
+	lcc-lr:hasTag "NG-SO" ;
+	lcc-lr:identifies lcc-3166-2-ng:Sokoto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Taraba in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Taraba ;
+	lcc-lr:hasTag "NG-TA" ;
+	lcc-lr:identifies lcc-3166-2-ng:Taraba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-YO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-YO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Yobe in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Yobe ;
+	lcc-lr:hasTag "NG-YO" ;
+	lcc-lr:identifies lcc-3166-2-ng:Yobe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:NG-ZA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NG-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision code for the state of Zamfara in the country of Nigeria" ;
+	lcc-lr:denotes lcc-3166-2-ng:Zamfara ;
+	lcc-lr:hasTag "NG-ZA" ;
+	lcc-lr:identifies lcc-3166-2-ng:Zamfara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ng:Nasarawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nasarawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Nasarawa in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Nasarawa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Niger
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niger" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Niger in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Niger"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Ogun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ogun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Ogun in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Ogun"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Ondo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ondo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Ondo in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Ondo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Osun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Osun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Osun in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Osun"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Oyo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oyo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Oyo in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Oyo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Plateau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plateau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Plateau in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Plateau"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Rivers
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rivers" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Rivers in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Rivers"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Sokoto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sokoto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Sokoto in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Sokoto"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "subdivision category state in the country of Nigeria" ;
+	.
+
+lcc-3166-2-ng:Taraba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taraba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Taraba in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Taraba"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Yobe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yobe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Yobe in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Yobe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-2-ng:Zamfara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zamfara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NG/> ;
+	skos:definition "The state of Zamfara in the country of Nigeria" ;
+	lcc-cr:hasEnglishShortName "Zamfara"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ng:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nigeria ;
+	.
+

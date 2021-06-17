@@ -1,0 +1,346 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ht: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Haiti Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ht" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Haiti, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-HT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	.
+
+lcc-3166-2-ht:Artibonite
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Artibonite" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Artibonite in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Artibonite"@fr ;
+	lcc-cr:hasLocalShortName "Latibonit"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision category department in the country of Haiti" ;
+	.
+
+lcc-3166-2-ht:Grandans
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grandans" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Grandans in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Grande’Anse"@fr ;
+	lcc-cr:hasLocalShortName "Grandans"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:HT-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Artibonite in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Artibonite ;
+	lcc-lr:hasTag "HT-AR" ;
+	lcc-lr:identifies lcc-3166-2-ht:Artibonite ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-CE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Sant in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Sant ;
+	lcc-lr:hasTag "HT-CE" ;
+	lcc-lr:identifies lcc-3166-2-ht:Sant ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-GA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Grandans in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Grandans ;
+	lcc-lr:hasTag "HT-GA" ;
+	lcc-lr:identifies lcc-3166-2-ht:Grandans ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-ND
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-ND" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Nò in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:No ;
+	lcc-lr:hasTag "HT-ND" ;
+	lcc-lr:identifies lcc-3166-2-ht:No ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-NE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-NE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Nòdès in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Nodes ;
+	lcc-lr:hasTag "HT-NE" ;
+	lcc-lr:identifies lcc-3166-2-ht:Nodes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-NI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Nip in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Nip ;
+	lcc-lr:hasTag "HT-NI" ;
+	lcc-lr:identifies lcc-3166-2-ht:Nip ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-NO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-NO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Nord-Ouest in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Nord-Ouest ;
+	lcc-lr:hasTag "HT-NO" ;
+	lcc-lr:identifies lcc-3166-2-ht:Nord-Ouest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-OU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-OU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Lwès in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Lwes ;
+	lcc-lr:hasTag "HT-OU" ;
+	lcc-lr:identifies lcc-3166-2-ht:Lwes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Sid in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Sid ;
+	lcc-lr:hasTag "HT-SD" ;
+	lcc-lr:identifies lcc-3166-2-ht:Sid ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:HT-SE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HT-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "subdivision code for the department of Sud-Est in the country of Haiti" ;
+	lcc-lr:denotes lcc-3166-2-ht:Sud-Est ;
+	lcc-lr:hasTag "HT-SE" ;
+	lcc-lr:identifies lcc-3166-2-ht:Sud-Est ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ht:Lwes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lwès" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Lwès in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Ouest"@fr ;
+	lcc-cr:hasLocalShortName "Lwès"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:Nip
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nip" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Nip in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Nippes"@fr ;
+	lcc-cr:hasLocalShortName "Nip"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:No
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nò" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Nò in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Nord"@fr ;
+	lcc-cr:hasLocalShortName "Nò"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:Nodes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nòdès" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Nòdès in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Nord-Est"@fr ;
+	lcc-cr:hasLocalShortName "Nòdès"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:Nord-Ouest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nord-Ouest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Nord-Ouest in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Nord-Ouest"@fr ;
+	lcc-cr:hasLocalShortName "Nòdwès"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:Sant
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sant" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Sant in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Centre"@fr ;
+	lcc-cr:hasLocalShortName "Sant"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:Sid
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sid" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Sid in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Sud"@fr ;
+	lcc-cr:hasLocalShortName "Sid"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-2-ht:Sud-Est
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sud-Est" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HT/> ;
+	skos:definition "The department of Sud-Est in the country of Haiti" ;
+	lcc-cr:hasFrenchShortName "Sud-Est"@fr ;
+	lcc-cr:hasLocalShortName "Sidès"@ht ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ht:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Haiti ;
+	.
+

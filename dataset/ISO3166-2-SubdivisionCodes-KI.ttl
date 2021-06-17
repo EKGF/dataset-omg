@@ -1,0 +1,255 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ki: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Kiribati Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ki" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Kiribati, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KI.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	.
+
+lcc-3166-2-ki:Abariringa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Abariringa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "The territory of Abariringa in the country of Kiribati" ;
+	lcc-cr:hasEnglishShortName "Abariringa"@en ;
+	lcc-cr:hasFrenchShortName "Abariringa"@fr ;
+	lcc-cr:hasNumericRegionCode "1000" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:Banaba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Banaba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "The territory of Banaba in the country of Kiribati" ;
+	lcc-cr:hasEnglishShortName "Banaba"@en ;
+	lcc-cr:hasFrenchShortName "Banaba"@fr ;
+	lcc-cr:hasNumericRegionCode "1018" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:EnderburyIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Enderbury Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "The territory of Enderbury Island in the country of Kiribati" ;
+	lcc-cr:hasEnglishShortName "Enderbury Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Enderbury"@fr ;
+	lcc-cr:hasNumericRegionCode "1056" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:GilbertIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Gilbert Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition
+		"The group of islands (20 inhabited islands) of Gilbert Islands in the country of Kiribati" ,
+		"The territory of Gilbert Islands in the country of Kiribati"
+		;
+	lcc-cr:hasEnglishShortName "Gilbert Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Gilbert"@fr ;
+	lcc-cr:hasNumericRegionCode "1067" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-ki:GroupOfIslands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:GroupOfIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "group of islands (20 inhabited islands)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "subdivision category group of islands (20 inhabited islands) in the country of Kiribati" ;
+	.
+
+lcc-3166-2-ki:KI-G
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KI-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "subdivision code for the group of islands (20 inhabited islands) of Gilbert Islands in the country of Kiribati" ;
+	lcc-lr:denotes lcc-3166-2-ki:GilbertIslands ;
+	lcc-lr:hasTag "KI-G" ;
+	lcc-lr:identifies lcc-3166-2-ki:GilbertIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ki:KI-L
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KI-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "subdivision code for the group of islands (20 inhabited islands) of Line Islands in the country of Kiribati" ;
+	lcc-lr:denotes lcc-3166-2-ki:LineIslands ;
+	lcc-lr:hasTag "KI-L" ;
+	lcc-lr:identifies lcc-3166-2-ki:LineIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ki:KI-P
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KI-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "subdivision code for the group of islands (20 inhabited islands) of Phoenix Islands in the country of Kiribati" ;
+	lcc-lr:denotes lcc-3166-2-ki:PhoenixIslands ;
+	lcc-lr:hasTag "KI-P" ;
+	lcc-lr:identifies lcc-3166-2-ki:PhoenixIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ki:Kiritimati
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Kiritimati" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "The territory of Kiritimati in the country of Kiribati" ;
+	lcc-cr:hasEnglishShortName "Kiritimati"@en ;
+	lcc-cr:hasFrenchShortName "Kiritimati"@fr ;
+	lcc-cr:hasNumericRegionCode "1099" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:LineIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Line Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "The group of islands (20 inhabited islands) of Line Islands in the country of Kiribati" ;
+	lcc-cr:hasEnglishShortName "Line Islands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ki:GroupOfIslands ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:PartOfLineIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "part of Line Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "The territory of part of Line Islands in the country of Kiribati" ;
+	lcc-cr:hasEnglishShortName "part of Line Islands"@en ;
+	lcc-cr:hasFrenchShortName "une partie des Îles de la Ligne"@fr ;
+	lcc-cr:hasNumericRegionCode "1103" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:PhoenixIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Phoenix Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition
+		"The group of islands (20 inhabited islands) of Phoenix Islands in the country of Kiribati" ,
+		"The territory of Phoenix Islands in the country of Kiribati"
+		;
+	lcc-cr:hasEnglishShortName "Phoenix Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Phoenix"@fr ;
+	lcc-cr:hasNumericRegionCode "1150" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-ki:GroupOfIslands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-2-ki:Tarawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Tarawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KI/> ;
+	skos:definition "The territory of Tarawa in the country of Kiribati" ;
+	lcc-cr:hasEnglishShortName "Tarawa"@en ;
+	lcc-cr:hasFrenchShortName "Tarawa"@fr ;
+	lcc-cr:hasNumericRegionCode "1208" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kiribati ;
+	.
+

@@ -1,0 +1,471 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-lr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Liberia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-lr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Liberia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	.
+
+lcc-3166-2-lr:Bomi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bomi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Bomi in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Bomi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:Bong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bong" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Bong in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Bong"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:County
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "county" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision category county in the country of Liberia" ;
+	.
+
+lcc-3166-2-lr:Gbarpolu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gbarpolu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Gbarpolu in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Gbarpolu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:GrandBassa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Bassa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Grand Bassa in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Grand Bassa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:GrandCapeMount
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Cape Mount" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Grand Cape Mount in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Grand Cape Mount"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:GrandGedeh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Gedeh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Grand Gedeh in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Grand Gedeh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:GrandKru
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Kru" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Grand Kru in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Grand Kru"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:LR-BG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-BG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Bong in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Bong ;
+	lcc-lr:hasTag "LR-BG" ;
+	lcc-lr:identifies lcc-3166-2-lr:Bong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-BM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-BM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Bomi in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Bomi ;
+	lcc-lr:hasTag "LR-BM" ;
+	lcc-lr:identifies lcc-3166-2-lr:Bomi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-CM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-CM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Grand Cape Mount in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:GrandCapeMount ;
+	lcc-lr:hasTag "LR-CM" ;
+	lcc-lr:identifies lcc-3166-2-lr:GrandCapeMount ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-GB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-GB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Grand Bassa in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:GrandBassa ;
+	lcc-lr:hasTag "LR-GB" ;
+	lcc-lr:identifies lcc-3166-2-lr:GrandBassa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-GG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-GG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Grand Gedeh in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:GrandGedeh ;
+	lcc-lr:hasTag "LR-GG" ;
+	lcc-lr:identifies lcc-3166-2-lr:GrandGedeh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-GK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-GK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Grand Kru in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:GrandKru ;
+	lcc-lr:hasTag "LR-GK" ;
+	lcc-lr:identifies lcc-3166-2-lr:GrandKru ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-GP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-GP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Gbarpolu in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Gbarpolu ;
+	lcc-lr:hasTag "LR-GP" ;
+	lcc-lr:identifies lcc-3166-2-lr:Gbarpolu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-LO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Lofa in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Lofa ;
+	lcc-lr:hasTag "LR-LO" ;
+	lcc-lr:identifies lcc-3166-2-lr:Lofa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-MG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-MG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Margibi in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Margibi ;
+	lcc-lr:hasTag "LR-MG" ;
+	lcc-lr:identifies lcc-3166-2-lr:Margibi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Montserrado in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Montserrado ;
+	lcc-lr:hasTag "LR-MO" ;
+	lcc-lr:identifies lcc-3166-2-lr:Montserrado ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-MY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-MY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Maryland in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Maryland ;
+	lcc-lr:hasTag "LR-MY" ;
+	lcc-lr:identifies lcc-3166-2-lr:Maryland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-NI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Nimba in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Nimba ;
+	lcc-lr:hasTag "LR-NI" ;
+	lcc-lr:identifies lcc-3166-2-lr:Nimba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-RG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-RG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of River Gee in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:RiverGee ;
+	lcc-lr:hasTag "LR-RG" ;
+	lcc-lr:identifies lcc-3166-2-lr:RiverGee ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-RI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of River Cess in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:RiverCess ;
+	lcc-lr:hasTag "LR-RI" ;
+	lcc-lr:identifies lcc-3166-2-lr:RiverCess ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:LR-SI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LR-SI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "subdivision code for the county of Sinoe in the country of Liberia" ;
+	lcc-lr:denotes lcc-3166-2-lr:Sinoe ;
+	lcc-lr:hasTag "LR-SI" ;
+	lcc-lr:identifies lcc-3166-2-lr:Sinoe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lr:Lofa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lofa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Lofa in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Lofa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:Margibi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Margibi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Margibi in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Margibi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:Maryland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maryland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Maryland in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Maryland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:Montserrado
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Montserrado" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Montserrado in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Montserrado"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:Nimba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nimba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Nimba in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Nimba"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:RiverCess
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "River Cess" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of River Cess in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "River Cess"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:RiverGee
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "River Gee" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of River Gee in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "River Gee"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-2-lr:Sinoe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sinoe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LR/> ;
+	skos:definition "The county of Sinoe in the country of Liberia" ;
+	lcc-cr:hasEnglishShortName "Sinoe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liberia ;
+	.
+

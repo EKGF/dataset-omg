@@ -1,0 +1,221 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-to: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Tonga Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-to" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Tonga, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	.
+
+lcc-3166-2-to:Division
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "division" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "subdivision category division in the country of Tonga" ;
+	.
+
+lcc-3166-2-to:Eua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "'Eua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "The division of 'Eua in the country of Tonga" ;
+	lcc-cr:hasEnglishShortName "'Eua"@en ;
+	lcc-cr:hasLocalShortName "'Eua"@to ;
+	lcc-cr:isClassifiedBy lcc-3166-2-to:Division ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tonga ;
+	.
+
+lcc-3166-2-to:Haapai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ha'apai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "The division of Ha'apai in the country of Tonga" ;
+	lcc-cr:hasEnglishShortName "Ha'apai"@en ;
+	lcc-cr:hasLocalShortName "Ha'apai"@to ;
+	lcc-cr:isClassifiedBy lcc-3166-2-to:Division ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tonga ;
+	.
+
+lcc-3166-2-to:Niuas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niuas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "The division of Niuas in the country of Tonga" ;
+	lcc-cr:hasEnglishShortName "Niuas"@en ;
+	lcc-cr:hasLocalShortName "Niuas"@to ;
+	lcc-cr:isClassifiedBy lcc-3166-2-to:Division ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tonga ;
+	.
+
+lcc-3166-2-to:TO-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TO-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "subdivision code for the division of 'Eua in the country of Tonga" ;
+	lcc-lr:denotes lcc-3166-2-to:Eua ;
+	lcc-lr:hasTag "TO-01" ;
+	lcc-lr:identifies lcc-3166-2-to:Eua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-to:TO-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TO-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "subdivision code for the division of Ha'apai in the country of Tonga" ;
+	lcc-lr:denotes lcc-3166-2-to:Haapai ;
+	lcc-lr:hasTag "TO-02" ;
+	lcc-lr:identifies lcc-3166-2-to:Haapai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-to:TO-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TO-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "subdivision code for the division of Niuas in the country of Tonga" ;
+	lcc-lr:denotes lcc-3166-2-to:Niuas ;
+	lcc-lr:hasTag "TO-03" ;
+	lcc-lr:identifies lcc-3166-2-to:Niuas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-to:TO-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TO-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "subdivision code for the division of Tongatapu in the country of Tonga" ;
+	lcc-lr:denotes lcc-3166-2-to:Tongatapu ;
+	lcc-lr:hasTag "TO-04" ;
+	lcc-lr:identifies lcc-3166-2-to:Tongatapu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-to:TO-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TO-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "subdivision code for the division of Vava'u in the country of Tonga" ;
+	lcc-lr:denotes lcc-3166-2-to:Vavau ;
+	lcc-lr:hasTag "TO-05" ;
+	lcc-lr:identifies lcc-3166-2-to:Vavau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-to:Tongatapu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label
+		"Tongatapu" ,
+		"Tongatapu (principal island)"
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition
+		"The division of Tongatapu in the country of Tonga" ,
+		"The territory of Tongatapu (principal island) in the country of Tonga"
+		;
+	lcc-cr:hasEnglishShortName
+		"Tongatapu"@en ,
+		"Tongatapu (principal island)"@en
+		;
+	lcc-cr:hasFrenchShortName "Tongatapu (île principale)"@fr ;
+	lcc-cr:hasLocalShortName "Tongatapu"@to ;
+	lcc-cr:hasNumericRegionCode "1210" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-to:Division
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Tonga ;
+	.
+
+lcc-3166-2-to:Vavau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vava'u" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TO/> ;
+	skos:definition "The division of Vava'u in the country of Tonga" ;
+	lcc-cr:hasEnglishShortName "Vava'u"@en ;
+	lcc-cr:hasLocalShortName "Vava'u"@to ;
+	lcc-cr:isClassifiedBy lcc-3166-2-to:Division ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tonga ;
+	.
+

@@ -1,0 +1,336 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-dm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Dominica Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-dm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Dominica, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-DM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	.
+
+lcc-3166-2-dm:DM-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint Andrew in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintAndrew ;
+	lcc-lr:hasTag "DM-02" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintAndrew ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint David in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintDavid ;
+	lcc-lr:hasTag "DM-03" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintDavid ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint George in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintGeorge ;
+	lcc-lr:hasTag "DM-04" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintGeorge ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint John in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintJohn ;
+	lcc-lr:hasTag "DM-05" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintJohn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint Joseph in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintJoseph ;
+	lcc-lr:hasTag "DM-06" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintJoseph ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint Luke in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintLuke ;
+	lcc-lr:hasTag "DM-07" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintLuke ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint Mark in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintMark ;
+	lcc-lr:hasTag "DM-08" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintMark ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint Patrick in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintPatrick ;
+	lcc-lr:hasTag "DM-09" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintPatrick ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint Paul in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintPaul ;
+	lcc-lr:hasTag "DM-10" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintPaul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:DM-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DM-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision code for the parish of Saint Peter in the country of Dominica" ;
+	lcc-lr:denotes lcc-3166-2-dm:SaintPeter ;
+	lcc-lr:hasTag "DM-11" ;
+	lcc-lr:identifies lcc-3166-2-dm:SaintPeter ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dm:Parish
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "parish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "subdivision category parish in the country of Dominica" ;
+	.
+
+lcc-3166-2-dm:SaintAndrew
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Andrew" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint Andrew in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint Andrew"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintDavid
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint David" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint David in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint David"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintGeorge
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint George" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint George in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint George"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintJohn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint John" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint John in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint John"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintJoseph
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Joseph" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint Joseph in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint Joseph"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintLuke
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Luke" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint Luke in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint Luke"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintMark
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Mark" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint Mark in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint Mark"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintPatrick
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Patrick" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint Patrick in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint Patrick"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintPaul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Paul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint Paul in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint Paul"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-2-dm:SaintPeter
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Peter" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DM/> ;
+	skos:definition "The parish of Saint Peter in the country of Dominica" ;
+	lcc-cr:hasEnglishShortName "Saint Peter"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Dominica ;
+	.
+

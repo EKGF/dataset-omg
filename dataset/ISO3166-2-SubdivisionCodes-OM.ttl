@@ -1,0 +1,378 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-om: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Oman Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-om" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Oman, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-OM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	.
+
+lcc-3166-2-om:AdDakhiliyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ad Dākhilīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Ad Dākhilīyah in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Ad Dākhilīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:AlBuraymi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Buraymī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Al Buraymī in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Al Buraymī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:AlWusta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Wusţá" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Al Wusţá in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Al Wusţá"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:AzZahirah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Az̧ Z̧āhirah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Az̧ Z̧āhirah in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Az̧ Z̧āhirah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:Governorate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "governorate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision category governorate in the country of Oman" ;
+	.
+
+lcc-3166-2-om:JanubAlBatinah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Janūb al Bāţinah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Janūb al Bāţinah in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Janūb al Bāţinah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:JanubAshSharqiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Janūb ash Sharqīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Janūb ash Sharqīyah in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Janūb ash Sharqīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:Masqat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Masqaţ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Masqaţ in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Masqaţ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:Musandam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Musandam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Musandam in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Musandam"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:OM-BJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-BJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Janūb al Bāţinah in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:JanubAlBatinah ;
+	lcc-lr:hasTag "OM-BJ" ;
+	lcc-lr:identifies lcc-3166-2-om:JanubAlBatinah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-BS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-BS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Shamāl al Bāţinah in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:ShamalAlBatinah ;
+	lcc-lr:hasTag "OM-BS" ;
+	lcc-lr:identifies lcc-3166-2-om:ShamalAlBatinah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-BU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Al Buraymī in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:AlBuraymi ;
+	lcc-lr:hasTag "OM-BU" ;
+	lcc-lr:identifies lcc-3166-2-om:AlBuraymi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-DA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-DA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Ad Dākhilīyah in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:AdDakhiliyah ;
+	lcc-lr:hasTag "OM-DA" ;
+	lcc-lr:identifies lcc-3166-2-om:AdDakhiliyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Masqaţ in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:Masqat ;
+	lcc-lr:hasTag "OM-MA" ;
+	lcc-lr:identifies lcc-3166-2-om:Masqat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-MU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Musandam in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:Musandam ;
+	lcc-lr:hasTag "OM-MU" ;
+	lcc-lr:identifies lcc-3166-2-om:Musandam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-SJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-SJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Janūb ash Sharqīyah in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:JanubAshSharqiyah ;
+	lcc-lr:hasTag "OM-SJ" ;
+	lcc-lr:identifies lcc-3166-2-om:JanubAshSharqiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-SS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Shamāl ash Sharqīyah in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:ShamalAshSharqiyah ;
+	lcc-lr:hasTag "OM-SS" ;
+	lcc-lr:identifies lcc-3166-2-om:ShamalAshSharqiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-WU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-WU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Al Wusţá in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:AlWusta ;
+	lcc-lr:hasTag "OM-WU" ;
+	lcc-lr:identifies lcc-3166-2-om:AlWusta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-ZA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Az̧ Z̧āhirah in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:AzZahirah ;
+	lcc-lr:hasTag "OM-ZA" ;
+	lcc-lr:identifies lcc-3166-2-om:AzZahirah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:OM-ZU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "OM-ZU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "subdivision code for the governorate of Z̧ufār in the country of Oman" ;
+	lcc-lr:denotes lcc-3166-2-om:Zufar ;
+	lcc-lr:hasTag "OM-ZU" ;
+	lcc-lr:identifies lcc-3166-2-om:Zufar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-om:PartOfTheMusandamPeninsula
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "part of the Musandam Peninsula" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The territory of part of the Musandam Peninsula in the country of Oman" ;
+	lcc-cr:hasEnglishShortName "part of the Musandam Peninsula"@en ;
+	lcc-cr:hasFrenchShortName "partie de la Presqu'île de Musandam"@fr ;
+	lcc-cr:hasNumericRegionCode "1133" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:ShamalAlBatinah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shamāl al Bāţinah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Shamāl al Bāţinah in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Shamāl al Bāţinah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:ShamalAshSharqiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shamāl ash Sharqīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Shamāl ash Sharqīyah in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Shamāl ash Sharqīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+
+lcc-3166-2-om:Zufar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Z̧ufār" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-OM/> ;
+	skos:definition "The governorate of Z̧ufār in the country of Oman" ;
+	lcc-cr:hasLocalShortName "Z̧ufār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-om:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Oman ;
+	.
+

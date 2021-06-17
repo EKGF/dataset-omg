@@ -1,0 +1,282 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-is: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Iceland Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-is" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Iceland, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IS.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	.
+
+lcc-3166-2-is:Austurland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Austurland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Austurland in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Austurland"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:Hofuborgarsvi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Höfuðborgarsvæði" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Höfuðborgarsvæði in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Höfuðborgarsvæði"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:IS-1
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Höfuðborgarsvæði in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:Hofuborgarsvi ;
+	lcc-lr:hasTag "IS-1" ;
+	lcc-lr:identifies lcc-3166-2-is:Hofuborgarsvi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Suðurnes in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:Suurnes ;
+	lcc-lr:hasTag "IS-2" ;
+	lcc-lr:identifies lcc-3166-2-is:Suurnes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-3
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Vesturland in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:Vesturland ;
+	lcc-lr:hasTag "IS-3" ;
+	lcc-lr:identifies lcc-3166-2-is:Vesturland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-4
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Vestfirðir in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:Vestfirir ;
+	lcc-lr:hasTag "IS-4" ;
+	lcc-lr:identifies lcc-3166-2-is:Vestfirir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-5
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Norðurland vestra in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:NorurlandVestra ;
+	lcc-lr:hasTag "IS-5" ;
+	lcc-lr:identifies lcc-3166-2-is:NorurlandVestra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-6
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Norðurland eystra in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:NorurlandEystra ;
+	lcc-lr:hasTag "IS-6" ;
+	lcc-lr:identifies lcc-3166-2-is:NorurlandEystra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-7
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Austurland in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:Austurland ;
+	lcc-lr:hasTag "IS-7" ;
+	lcc-lr:identifies lcc-3166-2-is:Austurland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:IS-8
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IS-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision code for the region of Suðurland in the country of Iceland" ;
+	lcc-lr:denotes lcc-3166-2-is:Suurland ;
+	lcc-lr:hasTag "IS-8" ;
+	lcc-lr:identifies lcc-3166-2-is:Suurland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-is:NorurlandEystra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norðurland eystra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Norðurland eystra in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Norðurland eystra"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:NorurlandVestra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norðurland vestra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Norðurland vestra in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Norðurland vestra"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "subdivision category region in the country of Iceland" ;
+	.
+
+lcc-3166-2-is:Suurland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suðurland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Suðurland in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Suðurland"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:Suurnes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suðurnes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Suðurnes in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Suðurnes"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:Vestfirir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vestfirðir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Vestfirðir in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Vestfirðir"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-2-is:Vesturland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vesturland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IS/> ;
+	skos:definition "The region of Vesturland in the country of Iceland" ;
+	lcc-cr:hasLocalShortName "Vesturland"@is ;
+	lcc-cr:isClassifiedBy lcc-3166-2-is:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iceland ;
+	.
+

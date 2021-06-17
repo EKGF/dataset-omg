@@ -1,0 +1,309 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-at: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Austria Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-at" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Austria, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	.
+
+lcc-3166-2-at:AT-1
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Burgenland in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Burgenland ;
+	lcc-lr:hasTag "AT-1" ;
+	lcc-lr:identifies lcc-3166-2-at:Burgenland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Kärnten in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Karnten ;
+	lcc-lr:hasTag "AT-2" ;
+	lcc-lr:identifies lcc-3166-2-at:Karnten ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-3
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Niederösterreich in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Niederosterreich ;
+	lcc-lr:hasTag "AT-3" ;
+	lcc-lr:identifies lcc-3166-2-at:Niederosterreich ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-4
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Oberösterreich in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Oberosterreich ;
+	lcc-lr:hasTag "AT-4" ;
+	lcc-lr:identifies lcc-3166-2-at:Oberosterreich ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-5
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Salzburg in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Salzburg ;
+	lcc-lr:hasTag "AT-5" ;
+	lcc-lr:identifies lcc-3166-2-at:Salzburg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-6
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Steiermark in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Steiermark ;
+	lcc-lr:hasTag "AT-6" ;
+	lcc-lr:identifies lcc-3166-2-at:Steiermark ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-7
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Tirol in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Tirol ;
+	lcc-lr:hasTag "AT-7" ;
+	lcc-lr:identifies lcc-3166-2-at:Tirol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-8
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Vorarlberg in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Vorarlberg ;
+	lcc-lr:hasTag "AT-8" ;
+	lcc-lr:identifies lcc-3166-2-at:Vorarlberg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:AT-9
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AT-9" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision code for the state of Wien in the country of Austria" ;
+	lcc-lr:denotes lcc-3166-2-at:Wien ;
+	lcc-lr:hasTag "AT-9" ;
+	lcc-lr:identifies lcc-3166-2-at:Wien ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-at:Burgenland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Burgenland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Burgenland in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Burgenland"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:Karnten
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kärnten" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Kärnten in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Kärnten"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:Niederosterreich
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niederösterreich" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Niederösterreich in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Niederösterreich"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:Oberosterreich
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oberösterreich" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Oberösterreich in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Oberösterreich"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:Salzburg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salzburg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Salzburg in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Salzburg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "subdivision category state in the country of Austria" ;
+	.
+
+lcc-3166-2-at:Steiermark
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Steiermark" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Steiermark in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Steiermark"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:Tirol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tirol" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Tirol in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Tirol"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:Vorarlberg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vorarlberg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Vorarlberg in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Vorarlberg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+
+lcc-3166-2-at:Wien
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wien" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AT/> ;
+	skos:definition "The state of Wien in the country of Austria" ;
+	lcc-cr:hasLocalShortName "Wien"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-at:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Austria ;
+	.
+

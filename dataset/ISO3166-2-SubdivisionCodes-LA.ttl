@@ -1,0 +1,562 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-la: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Lao People's Democratic Republic (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-la" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Lao People's Democratic Republic (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LA.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	.
+
+lcc-3166-2-la:Attapu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Attapu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Attapu in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Attapu"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Bokeo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bokèo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Bokèo in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Bokèo"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Bolikhamxai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolikhamxai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Bolikhamxai in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Bolikhamxai"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Champasak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Champasak" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Champasak in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Champasak"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Houaphan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Houaphan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Houaphan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Houaphan"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Khammouan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khammouan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Khammouan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Khammouan"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:LA-AT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-AT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Attapu in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Attapu ;
+	lcc-lr:hasTag "LA-AT" ;
+	lcc-lr:identifies lcc-3166-2-la:Attapu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-BK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-BK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Bokèo in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Bokeo ;
+	lcc-lr:hasTag "LA-BK" ;
+	lcc-lr:identifies lcc-3166-2-la:Bokeo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-BL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Bolikhamxai in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Bolikhamxai ;
+	lcc-lr:hasTag "LA-BL" ;
+	lcc-lr:identifies lcc-3166-2-la:Bolikhamxai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-CH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-CH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Champasak in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Champasak ;
+	lcc-lr:hasTag "LA-CH" ;
+	lcc-lr:identifies lcc-3166-2-la:Champasak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-HO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-HO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Houaphan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Houaphan ;
+	lcc-lr:hasTag "LA-HO" ;
+	lcc-lr:identifies lcc-3166-2-la:Houaphan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-KH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-KH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Khammouan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Khammouan ;
+	lcc-lr:hasTag "LA-KH" ;
+	lcc-lr:identifies lcc-3166-2-la:Khammouan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-LM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-LM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Louang Namtha in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:LouangNamtha ;
+	lcc-lr:hasTag "LA-LM" ;
+	lcc-lr:identifies lcc-3166-2-la:LouangNamtha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-LP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-LP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Louangphabang in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Louangphabang ;
+	lcc-lr:hasTag "LA-LP" ;
+	lcc-lr:identifies lcc-3166-2-la:Louangphabang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-OU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-OU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Oudômxai in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Oudomxai ;
+	lcc-lr:hasTag "LA-OU" ;
+	lcc-lr:identifies lcc-3166-2-la:Oudomxai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-PH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-PH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Phôngsali in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Phongsali ;
+	lcc-lr:hasTag "LA-PH" ;
+	lcc-lr:identifies lcc-3166-2-la:Phongsali ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-SL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-SL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Salavan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Salavan ;
+	lcc-lr:hasTag "LA-SL" ;
+	lcc-lr:identifies lcc-3166-2-la:Salavan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-SV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Savannakhét in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Savannakhet ;
+	lcc-lr:hasTag "LA-SV" ;
+	lcc-lr:identifies lcc-3166-2-la:Savannakhet ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-VI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-VI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Viangchan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Viangchan ;
+	lcc-lr:hasTag "LA-VI" ;
+	lcc-lr:identifies lcc-3166-2-la:Viangchan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-VT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-VT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the prefecture of Viangchan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Viangchan-Prefecture ;
+	lcc-lr:hasTag "LA-VT" ;
+	lcc-lr:identifies lcc-3166-2-la:Viangchan-Prefecture ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-XA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-XA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Xaignabouli in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Xaignabouli ;
+	lcc-lr:hasTag "LA-XA" ;
+	lcc-lr:identifies lcc-3166-2-la:Xaignabouli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-XE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-XE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Xékong in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Xekong ;
+	lcc-lr:hasTag "LA-XE" ;
+	lcc-lr:identifies lcc-3166-2-la:Xekong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-XI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-XI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Xiangkhouang in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Xiangkhouang ;
+	lcc-lr:hasTag "LA-XI" ;
+	lcc-lr:identifies lcc-3166-2-la:Xiangkhouang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LA-XS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LA-XS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision code for the province of Xaisômboun in the country of Lao People's Democratic Republic (the)" ;
+	lcc-lr:denotes lcc-3166-2-la:Xaisomboun ;
+	lcc-lr:hasTag "LA-XS" ;
+	lcc-lr:identifies lcc-3166-2-la:Xaisomboun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-la:LouangNamtha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Louang Namtha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Louang Namtha in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Louang Namtha"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Louangphabang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Louangphabang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Louangphabang in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Louangphabang"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Oudomxai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oudômxai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Oudômxai in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Oudômxai"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Phongsali
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phôngsali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Phôngsali in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Phôngsali"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Prefecture
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "prefecture" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision category prefecture in the country of Lao People's Democratic Republic (the)" ;
+	.
+
+lcc-3166-2-la:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "subdivision category province in the country of Lao People's Democratic Republic (the)" ;
+	.
+
+lcc-3166-2-la:Salavan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salavan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Salavan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Salavan"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Savannakhet
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Savannakhét" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Savannakhét in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Savannakhét"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Viangchan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viangchan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Viangchan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Viangchan"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Viangchan-Prefecture
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viangchan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The prefecture of Viangchan in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Viangchan"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Xaignabouli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xaignabouli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Xaignabouli in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Xaignabouli"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Xaisomboun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xaisômboun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Xaisômboun in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Xaisômboun"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Xekong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xékong" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Xékong in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Xékong"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-2-la:Xiangkhouang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xiangkhouang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LA/> ;
+	skos:definition "The province of Xiangkhouang in the country of Lao People's Democratic Republic (the)" ;
+	lcc-cr:hasLocalShortName "Xiangkhouang"@lo ;
+	lcc-cr:isClassifiedBy lcc-3166-2-la:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+

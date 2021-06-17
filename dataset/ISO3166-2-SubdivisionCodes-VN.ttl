@@ -1,0 +1,1777 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-vn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Viet Nam Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-vn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Viet Nam, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-VN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	.
+
+lcc-3166-2-vn:AnGiang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "An Giang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of An Giang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "An Giang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BaRia-VungTau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bà Rịa - Vũng Tàu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bà Rịa - Vũng Tàu in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bà Rịa - Vũng Tàu"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BacGiang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bắc Giang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bắc Giang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bắc Giang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BacKan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bắc Kạn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bắc Kạn in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bắc Kạn"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BacLieu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bạc Liêu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bạc Liêu in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bạc Liêu"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BacNinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bắc Ninh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bắc Ninh in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bắc Ninh"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BenTre
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bến Tre" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bến Tre in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bến Tre"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BinhDuong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bình Dương" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bình Dương in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bình Dương"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BinhPhuoc
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bình Phước" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bình Phước in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bình Phước"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:BinhThuan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bình Thuận" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bình Thuận in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bình Thuận"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:Binhinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bình Định" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Bình Định in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Bình Định"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:CaMau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cà Mau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Cà Mau in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Cà Mau"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:CanTho
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Can Tho" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The municipality of Can Tho in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Can Tho"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:CaoBang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cao Bằng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Cao Bằng in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Cao Bằng"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:DaNang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Da Nang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The municipality of Da Nang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Da Nang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:GiaLai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gia Lai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Gia Lai in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Gia Lai"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HaGiang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hà Giang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Hà Giang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hà Giang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HaNam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hà Nam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Hà Nam in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hà Nam"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HaNoi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ha Noi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The municipality of Ha Noi in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Ha Noi"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HaTinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hà Tĩnh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Hà Tĩnh in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hà Tĩnh"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HaiDuong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hải Dương" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Hải Dương in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hải Dương"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HaiPhong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hai Phong" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The municipality of Hai Phong in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hai Phong"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HauGiang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hậu Giang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Hậu Giang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hậu Giang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HoChiMinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ho Chi Minh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The municipality of Ho Chi Minh in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Ho Chi Minh"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HoaBinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hòa Bình" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Hòa Bình in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hòa Bình"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:HungYen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hưng Yên" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Hưng Yên in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Hưng Yên"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:KhanhHoa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khánh Hòa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Khánh Hòa in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Khánh Hòa"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:KienGiang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kiến Giang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Kiến Giang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Kiến Giang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:KonTum
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kon Tum" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Kon Tum in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Kon Tum"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:LaiChau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lai Châu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Lai Châu in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Lai Châu"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:Lamong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lâm Đồng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Lâm Đồng in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Lâm Đồng"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:LangSon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lạng Sơn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Lạng Sơn in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Lạng Sơn"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:LaoCai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lào Cai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Lào Cai in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Lào Cai"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:LongAn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Long An" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Long An in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Long An"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision category municipality in the country of Viet Nam" ;
+	.
+
+lcc-3166-2-vn:Naminh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nam Định" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Nam Định in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Nam Định"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:NgheAn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nghệ An" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Nghệ An in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Nghệ An"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:NinhBinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ninh Bình" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Ninh Bình in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Ninh Bình"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:NinhThuan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ninh Thuận" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Ninh Thuận in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Ninh Thuận"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:PhuTho
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phú Thọ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Phú Thọ in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Phú Thọ"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:PhuYen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phú Yên" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Phú Yên in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Phú Yên"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision category province in the country of Viet Nam" ;
+	.
+
+lcc-3166-2-vn:QuangBinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quảng Bình" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Quảng Bình in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Quảng Bình"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:QuangNam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quảng Nam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Quảng Nam in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Quảng Nam"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:QuangNgai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quảng Ngãi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Quảng Ngãi in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Quảng Ngãi"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:QuangNinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quảng Ninh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Quảng Ninh in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Quảng Ninh"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:QuangTri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quảng Trị" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Quảng Trị in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Quảng Trị"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:SocTrang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sóc Trăng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Sóc Trăng in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Sóc Trăng"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:SonLa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sơn La" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Sơn La in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Sơn La"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:TayNinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tây Ninh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Tây Ninh in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Tây Ninh"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:ThaiBinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thái Bình" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Thái Bình in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Thái Bình"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:ThaiNguyen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thái Nguyên" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Thái Nguyên in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Thái Nguyên"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:ThanhHoa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thanh Hóa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Thanh Hóa in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Thanh Hóa"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:ThuaThien-Hue
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thừa Thiên-Huế" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Thừa Thiên-Huế in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Thừa Thiên-Huế"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:TienGiang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tiền Giang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Tiền Giang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Tiền Giang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:TraVinh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trà Vinh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Trà Vinh in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Trà Vinh"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:TuyenQuang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tuyên Quang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Tuyên Quang in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Tuyên Quang"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:VN-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Lai Châu in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:LaiChau ;
+	lcc-lr:hasTag "VN-01" ;
+	lcc-lr:identifies lcc-3166-2-vn:LaiChau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Lào Cai in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:LaoCai ;
+	lcc-lr:hasTag "VN-02" ;
+	lcc-lr:identifies lcc-3166-2-vn:LaoCai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Hà Giang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HaGiang ;
+	lcc-lr:hasTag "VN-03" ;
+	lcc-lr:identifies lcc-3166-2-vn:HaGiang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Cao Bằng in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:CaoBang ;
+	lcc-lr:hasTag "VN-04" ;
+	lcc-lr:identifies lcc-3166-2-vn:CaoBang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Sơn La in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:SonLa ;
+	lcc-lr:hasTag "VN-05" ;
+	lcc-lr:identifies lcc-3166-2-vn:SonLa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Yên Bái in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:YenBai ;
+	lcc-lr:hasTag "VN-06" ;
+	lcc-lr:identifies lcc-3166-2-vn:YenBai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Tuyên Quang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:TuyenQuang ;
+	lcc-lr:hasTag "VN-07" ;
+	lcc-lr:identifies lcc-3166-2-vn:TuyenQuang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Lạng Sơn in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:LangSon ;
+	lcc-lr:hasTag "VN-09" ;
+	lcc-lr:identifies lcc-3166-2-vn:LangSon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Quảng Ninh in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:QuangNinh ;
+	lcc-lr:hasTag "VN-13" ;
+	lcc-lr:identifies lcc-3166-2-vn:QuangNinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Hòa Bình in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HoaBinh ;
+	lcc-lr:hasTag "VN-14" ;
+	lcc-lr:identifies lcc-3166-2-vn:HoaBinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Ninh Bình in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:NinhBinh ;
+	lcc-lr:hasTag "VN-18" ;
+	lcc-lr:identifies lcc-3166-2-vn:NinhBinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Thái Bình in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:ThaiBinh ;
+	lcc-lr:hasTag "VN-20" ;
+	lcc-lr:identifies lcc-3166-2-vn:ThaiBinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Thanh Hóa in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:ThanhHoa ;
+	lcc-lr:hasTag "VN-21" ;
+	lcc-lr:identifies lcc-3166-2-vn:ThanhHoa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Nghệ An in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:NgheAn ;
+	lcc-lr:hasTag "VN-22" ;
+	lcc-lr:identifies lcc-3166-2-vn:NgheAn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Hà Tĩnh in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HaTinh ;
+	lcc-lr:hasTag "VN-23" ;
+	lcc-lr:identifies lcc-3166-2-vn:HaTinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-24
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Quảng Bình in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:QuangBinh ;
+	lcc-lr:hasTag "VN-24" ;
+	lcc-lr:identifies lcc-3166-2-vn:QuangBinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Quảng Trị in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:QuangTri ;
+	lcc-lr:hasTag "VN-25" ;
+	lcc-lr:identifies lcc-3166-2-vn:QuangTri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Thừa Thiên-Huế in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:ThuaThien-Hue ;
+	lcc-lr:hasTag "VN-26" ;
+	lcc-lr:identifies lcc-3166-2-vn:ThuaThien-Hue ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-27
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Quảng Nam in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:QuangNam ;
+	lcc-lr:hasTag "VN-27" ;
+	lcc-lr:identifies lcc-3166-2-vn:QuangNam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-28
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Kon Tum in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:KonTum ;
+	lcc-lr:hasTag "VN-28" ;
+	lcc-lr:identifies lcc-3166-2-vn:KonTum ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-29
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Quảng Ngãi in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:QuangNgai ;
+	lcc-lr:hasTag "VN-29" ;
+	lcc-lr:identifies lcc-3166-2-vn:QuangNgai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-30
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Gia Lai in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:GiaLai ;
+	lcc-lr:hasTag "VN-30" ;
+	lcc-lr:identifies lcc-3166-2-vn:GiaLai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-31
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bình Định in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:Binhinh ;
+	lcc-lr:hasTag "VN-31" ;
+	lcc-lr:identifies lcc-3166-2-vn:Binhinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Phú Yên in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:PhuYen ;
+	lcc-lr:hasTag "VN-32" ;
+	lcc-lr:identifies lcc-3166-2-vn:PhuYen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-33
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Đắk Lắk in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:akLak ;
+	lcc-lr:hasTag "VN-33" ;
+	lcc-lr:identifies lcc-3166-2-vn:akLak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-34
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Khánh Hòa in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:KhanhHoa ;
+	lcc-lr:hasTag "VN-34" ;
+	lcc-lr:identifies lcc-3166-2-vn:KhanhHoa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-35
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Lâm Đồng in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:Lamong ;
+	lcc-lr:hasTag "VN-35" ;
+	lcc-lr:identifies lcc-3166-2-vn:Lamong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-36
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Ninh Thuận in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:NinhThuan ;
+	lcc-lr:hasTag "VN-36" ;
+	lcc-lr:identifies lcc-3166-2-vn:NinhThuan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-37
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Tây Ninh in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:TayNinh ;
+	lcc-lr:hasTag "VN-37" ;
+	lcc-lr:identifies lcc-3166-2-vn:TayNinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-39
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Đồng Nai in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:ongNai ;
+	lcc-lr:hasTag "VN-39" ;
+	lcc-lr:identifies lcc-3166-2-vn:ongNai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-40
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bình Thuận in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BinhThuan ;
+	lcc-lr:hasTag "VN-40" ;
+	lcc-lr:identifies lcc-3166-2-vn:BinhThuan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Long An in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:LongAn ;
+	lcc-lr:hasTag "VN-41" ;
+	lcc-lr:identifies lcc-3166-2-vn:LongAn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-43
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bà Rịa - Vũng Tàu in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BaRia-VungTau ;
+	lcc-lr:hasTag "VN-43" ;
+	lcc-lr:identifies lcc-3166-2-vn:BaRia-VungTau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-44
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of An Giang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:AnGiang ;
+	lcc-lr:hasTag "VN-44" ;
+	lcc-lr:identifies lcc-3166-2-vn:AnGiang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-45
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Đồng Tháp in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:ongThap ;
+	lcc-lr:hasTag "VN-45" ;
+	lcc-lr:identifies lcc-3166-2-vn:ongThap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-46
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Tiền Giang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:TienGiang ;
+	lcc-lr:hasTag "VN-46" ;
+	lcc-lr:identifies lcc-3166-2-vn:TienGiang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-47
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Kiến Giang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:KienGiang ;
+	lcc-lr:hasTag "VN-47" ;
+	lcc-lr:identifies lcc-3166-2-vn:KienGiang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-49
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Vĩnh Long in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:VinhLong ;
+	lcc-lr:hasTag "VN-49" ;
+	lcc-lr:identifies lcc-3166-2-vn:VinhLong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-50
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bến Tre in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BenTre ;
+	lcc-lr:hasTag "VN-50" ;
+	lcc-lr:identifies lcc-3166-2-vn:BenTre ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-51
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Trà Vinh in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:TraVinh ;
+	lcc-lr:hasTag "VN-51" ;
+	lcc-lr:identifies lcc-3166-2-vn:TraVinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-52
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Sóc Trăng in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:SocTrang ;
+	lcc-lr:hasTag "VN-52" ;
+	lcc-lr:identifies lcc-3166-2-vn:SocTrang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-53
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bắc Kạn in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BacKan ;
+	lcc-lr:hasTag "VN-53" ;
+	lcc-lr:identifies lcc-3166-2-vn:BacKan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-54
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-54" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bắc Giang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BacGiang ;
+	lcc-lr:hasTag "VN-54" ;
+	lcc-lr:identifies lcc-3166-2-vn:BacGiang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-55
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bạc Liêu in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BacLieu ;
+	lcc-lr:hasTag "VN-55" ;
+	lcc-lr:identifies lcc-3166-2-vn:BacLieu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-56
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bắc Ninh in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BacNinh ;
+	lcc-lr:hasTag "VN-56" ;
+	lcc-lr:identifies lcc-3166-2-vn:BacNinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-57
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bình Dương in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BinhDuong ;
+	lcc-lr:hasTag "VN-57" ;
+	lcc-lr:identifies lcc-3166-2-vn:BinhDuong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-58
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-58" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Bình Phước in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:BinhPhuoc ;
+	lcc-lr:hasTag "VN-58" ;
+	lcc-lr:identifies lcc-3166-2-vn:BinhPhuoc ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-59
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Cà Mau in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:CaMau ;
+	lcc-lr:hasTag "VN-59" ;
+	lcc-lr:identifies lcc-3166-2-vn:CaMau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-61
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Hải Dương in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HaiDuong ;
+	lcc-lr:hasTag "VN-61" ;
+	lcc-lr:identifies lcc-3166-2-vn:HaiDuong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-63
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Hà Nam in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HaNam ;
+	lcc-lr:hasTag "VN-63" ;
+	lcc-lr:identifies lcc-3166-2-vn:HaNam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-66
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-66" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Hưng Yên in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HungYen ;
+	lcc-lr:hasTag "VN-66" ;
+	lcc-lr:identifies lcc-3166-2-vn:HungYen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-67
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Nam Định in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:Naminh ;
+	lcc-lr:hasTag "VN-67" ;
+	lcc-lr:identifies lcc-3166-2-vn:Naminh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-68
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-68" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Phú Thọ in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:PhuTho ;
+	lcc-lr:hasTag "VN-68" ;
+	lcc-lr:identifies lcc-3166-2-vn:PhuTho ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-69
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-69" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Thái Nguyên in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:ThaiNguyen ;
+	lcc-lr:hasTag "VN-69" ;
+	lcc-lr:identifies lcc-3166-2-vn:ThaiNguyen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-70
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-70" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Vĩnh Phúc in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:VinhPhuc ;
+	lcc-lr:hasTag "VN-70" ;
+	lcc-lr:identifies lcc-3166-2-vn:VinhPhuc ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-71
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Điện Biên in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:ienBien ;
+	lcc-lr:hasTag "VN-71" ;
+	lcc-lr:identifies lcc-3166-2-vn:ienBien ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-72
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Đắk Nông in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:akNong ;
+	lcc-lr:hasTag "VN-72" ;
+	lcc-lr:identifies lcc-3166-2-vn:akNong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-73
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-73" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the province of Hậu Giang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HauGiang ;
+	lcc-lr:hasTag "VN-73" ;
+	lcc-lr:identifies lcc-3166-2-vn:HauGiang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-CT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the municipality of Can Tho in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:CanTho ;
+	lcc-lr:hasTag "VN-CT" ;
+	lcc-lr:identifies lcc-3166-2-vn:CanTho ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-DN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-DN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the municipality of Da Nang in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:DaNang ;
+	lcc-lr:hasTag "VN-DN" ;
+	lcc-lr:identifies lcc-3166-2-vn:DaNang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-HN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-HN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the municipality of Ha Noi in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HaNoi ;
+	lcc-lr:hasTag "VN-HN" ;
+	lcc-lr:identifies lcc-3166-2-vn:HaNoi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-HP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-HP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the municipality of Hai Phong in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HaiPhong ;
+	lcc-lr:hasTag "VN-HP" ;
+	lcc-lr:identifies lcc-3166-2-vn:HaiPhong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VN-SG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VN-SG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "subdivision code for the municipality of Ho Chi Minh in the country of Viet Nam" ;
+	lcc-lr:denotes lcc-3166-2-vn:HoChiMinh ;
+	lcc-lr:hasTag "VN-SG" ;
+	lcc-lr:identifies lcc-3166-2-vn:HoChiMinh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vn:VinhLong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vĩnh Long" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Vĩnh Long in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Vĩnh Long"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:VinhPhuc
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vĩnh Phúc" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Vĩnh Phúc in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Vĩnh Phúc"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:YenBai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yên Bái" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Yên Bái in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Yên Bái"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:akLak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Đắk Lắk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Đắk Lắk in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Đắk Lắk"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:akNong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Đắk Nông" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Đắk Nông in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Đắk Nông"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:ienBien
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Điện Biên" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Điện Biên in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Điện Biên"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:ongNai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Đồng Nai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Đồng Nai in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Đồng Nai"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-2-vn:ongThap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Đồng Tháp" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VN/> ;
+	skos:definition "The province of Đồng Tháp in the country of Viet Nam" ;
+	lcc-cr:hasLocalShortName "Đồng Tháp"@vi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:VietNam ;
+	.
+

@@ -1,0 +1,795 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-eg: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Egypt Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-eg" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Egypt, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-EG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	.
+
+lcc-3166-2-eg:AdDaqahliyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ad Daqahlīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Ad Daqahlīyah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Ad Daqahlīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlBahrAlAhmar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Baḩr al Aḩmar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Baḩr al Aḩmar in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Baḩr al Aḩmar"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlBuhayrah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Buḩayrah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Buḩayrah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Buḩayrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlFayyum
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Fayyūm" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Fayyūm in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Fayyūm"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlGharbiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Gharbīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Gharbīyah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Gharbīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlIskandariyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Iskandarīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Iskandarīyah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Iskandarīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlIsmailiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Ismā'īlīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Ismā'īlīyah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Ismā'īlīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlJizah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jīzah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Jīzah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Jīzah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlMinufiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Minūfīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Minūfīyah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Minūfīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlMinya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Minyā" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Minyā in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Minyā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlQahirah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Qāhirah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Qāhirah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Qāhirah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlQalyubiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Qalyūbīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Qalyūbīyah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Qalyūbīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlUqsur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Uqşur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Uqşur in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Uqşur"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AlWadiAlJadid
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Wādī al Jadīd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Al Wādī al Jadīd in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Al Wādī al Jadīd"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AsSuways
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "As Suways" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of As Suways in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "As Suways"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:AshSharqiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ash Sharqīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Ash Sharqīyah in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Ash Sharqīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:Aswan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aswān" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Aswān in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Aswān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:Asyut
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Asyūţ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Asyūţ in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Asyūţ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:BaniSuwayf
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banī Suwayf" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Banī Suwayf in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Banī Suwayf"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:BurSaid
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Būr Sa‘īd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Būr Sa‘īd in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Būr Sa‘īd"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:Dumyat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dumyāţ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Dumyāţ in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Dumyāţ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:EG-ALX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-ALX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Iskandarīyah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlIskandariyah ;
+	lcc-lr:hasTag "EG-ALX" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlIskandariyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-ASN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-ASN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Aswān in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:Aswan ;
+	lcc-lr:hasTag "EG-ASN" ;
+	lcc-lr:identifies lcc-3166-2-eg:Aswan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-AST
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-AST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Asyūţ in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:Asyut ;
+	lcc-lr:hasTag "EG-AST" ;
+	lcc-lr:identifies lcc-3166-2-eg:Asyut ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Baḩr al Aḩmar in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlBahrAlAhmar ;
+	lcc-lr:hasTag "EG-BA" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlBahrAlAhmar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-BH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-BH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Buḩayrah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlBuhayrah ;
+	lcc-lr:hasTag "EG-BH" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlBuhayrah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-BNS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-BNS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Banī Suwayf in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:BaniSuwayf ;
+	lcc-lr:hasTag "EG-BNS" ;
+	lcc-lr:identifies lcc-3166-2-eg:BaniSuwayf ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Qāhirah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlQahirah ;
+	lcc-lr:hasTag "EG-C" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlQahirah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-DK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-DK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Ad Daqahlīyah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AdDaqahliyah ;
+	lcc-lr:hasTag "EG-DK" ;
+	lcc-lr:identifies lcc-3166-2-eg:AdDaqahliyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-DT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-DT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Dumyāţ in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:Dumyat ;
+	lcc-lr:hasTag "EG-DT" ;
+	lcc-lr:identifies lcc-3166-2-eg:Dumyat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-FYM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-FYM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Fayyūm in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlFayyum ;
+	lcc-lr:hasTag "EG-FYM" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlFayyum ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-GH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-GH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Gharbīyah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlGharbiyah ;
+	lcc-lr:hasTag "EG-GH" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlGharbiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-GZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-GZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Jīzah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlJizah ;
+	lcc-lr:hasTag "EG-GZ" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlJizah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-IS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-IS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Ismā'īlīyah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlIsmailiyah ;
+	lcc-lr:hasTag "EG-IS" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlIsmailiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-JS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-JS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Janūb Sīnā' in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:JanubSina ;
+	lcc-lr:hasTag "EG-JS" ;
+	lcc-lr:identifies lcc-3166-2-eg:JanubSina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-KB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-KB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Qalyūbīyah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlQalyubiyah ;
+	lcc-lr:hasTag "EG-KB" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlQalyubiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-KFS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-KFS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Kafr ash Shaykh in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:KafrAshShaykh ;
+	lcc-lr:hasTag "EG-KFS" ;
+	lcc-lr:identifies lcc-3166-2-eg:KafrAshShaykh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-KN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-KN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Qinā in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:Qina ;
+	lcc-lr:hasTag "EG-KN" ;
+	lcc-lr:identifies lcc-3166-2-eg:Qina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-LX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-LX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Uqşur in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlUqsur ;
+	lcc-lr:hasTag "EG-LX" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlUqsur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-MN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Minyā in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlMinya ;
+	lcc-lr:hasTag "EG-MN" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlMinya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-MNF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-MNF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Minūfīyah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlMinufiyah ;
+	lcc-lr:hasTag "EG-MNF" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlMinufiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-MT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-MT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Maţrūḩ in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:Matruh ;
+	lcc-lr:hasTag "EG-MT" ;
+	lcc-lr:identifies lcc-3166-2-eg:Matruh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-PTS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-PTS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Būr Sa‘īd in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:BurSaid ;
+	lcc-lr:hasTag "EG-PTS" ;
+	lcc-lr:identifies lcc-3166-2-eg:BurSaid ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-SHG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-SHG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Sūhāj in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:Suhaj ;
+	lcc-lr:hasTag "EG-SHG" ;
+	lcc-lr:identifies lcc-3166-2-eg:Suhaj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-SHR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-SHR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Ash Sharqīyah in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AshSharqiyah ;
+	lcc-lr:hasTag "EG-SHR" ;
+	lcc-lr:identifies lcc-3166-2-eg:AshSharqiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-SIN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-SIN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Shamāl Sīnā' in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:ShamalSina ;
+	lcc-lr:hasTag "EG-SIN" ;
+	lcc-lr:identifies lcc-3166-2-eg:ShamalSina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-SUZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-SUZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of As Suways in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AsSuways ;
+	lcc-lr:hasTag "EG-SUZ" ;
+	lcc-lr:identifies lcc-3166-2-eg:AsSuways ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:EG-WAD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EG-WAD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision code for the governorate of Al Wādī al Jadīd in the country of Egypt" ;
+	lcc-lr:denotes lcc-3166-2-eg:AlWadiAlJadid ;
+	lcc-lr:hasTag "EG-WAD" ;
+	lcc-lr:identifies lcc-3166-2-eg:AlWadiAlJadid ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-eg:Governorate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "governorate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "subdivision category governorate in the country of Egypt" ;
+	.
+
+lcc-3166-2-eg:JanubSina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Janūb Sīnā'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Janūb Sīnā' in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Janūb Sīnā'"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:KafrAshShaykh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kafr ash Shaykh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Kafr ash Shaykh in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Kafr ash Shaykh"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:Matruh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maţrūḩ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Maţrūḩ in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Maţrūḩ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:Qina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qinā" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Qinā in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Qinā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:ShamalSina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shamāl Sīnā'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Shamāl Sīnā' in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Shamāl Sīnā'"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-2-eg:Suhaj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sūhāj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EG/> ;
+	skos:definition "The governorate of Sūhāj in the country of Egypt" ;
+	lcc-cr:hasLocalShortName "Sūhāj"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-eg:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Egypt ;
+	.
+

@@ -1,0 +1,724 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ar: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Argentina Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ar" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Argentina, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	.
+
+lcc-3166-2-ar:AR-A
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Salta in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Salta ;
+	lcc-lr:hasTag "AR-A" ;
+	lcc-lr:identifies lcc-3166-2-ar:Salta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Buenos Aires in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:BuenosAires ;
+	lcc-lr:hasTag "AR-B" ;
+	lcc-lr:identifies lcc-3166-2-ar:BuenosAires ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the city of Ciudad Autónoma de Buenos Aires in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:CiudadAutonomaDeBuenosAires ;
+	lcc-lr:hasTag "AR-C" ;
+	lcc-lr:identifies lcc-3166-2-ar:CiudadAutonomaDeBuenosAires ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-D
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of San Luis in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:SanLuis ;
+	lcc-lr:hasTag "AR-D" ;
+	lcc-lr:identifies lcc-3166-2-ar:SanLuis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-E
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Entre Ríos in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:EntreRios ;
+	lcc-lr:hasTag "AR-E" ;
+	lcc-lr:identifies lcc-3166-2-ar:EntreRios ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-F
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of La Rioja in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:LaRioja ;
+	lcc-lr:hasTag "AR-F" ;
+	lcc-lr:identifies lcc-3166-2-ar:LaRioja ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-G
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Santiago del Estero in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:SantiagoDelEstero ;
+	lcc-lr:hasTag "AR-G" ;
+	lcc-lr:identifies lcc-3166-2-ar:SantiagoDelEstero ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-H
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Chaco in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Chaco ;
+	lcc-lr:hasTag "AR-H" ;
+	lcc-lr:identifies lcc-3166-2-ar:Chaco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-J
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-J" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of San Juan in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:SanJuan ;
+	lcc-lr:hasTag "AR-J" ;
+	lcc-lr:identifies lcc-3166-2-ar:SanJuan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-K
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-K" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Catamarca in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Catamarca ;
+	lcc-lr:hasTag "AR-K" ;
+	lcc-lr:identifies lcc-3166-2-ar:Catamarca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-L
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of La Pampa in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:LaPampa ;
+	lcc-lr:hasTag "AR-L" ;
+	lcc-lr:identifies lcc-3166-2-ar:LaPampa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-M
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Mendoza in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Mendoza ;
+	lcc-lr:hasTag "AR-M" ;
+	lcc-lr:identifies lcc-3166-2-ar:Mendoza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-N
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Misiones in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Misiones ;
+	lcc-lr:hasTag "AR-N" ;
+	lcc-lr:identifies lcc-3166-2-ar:Misiones ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-P
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Formosa in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Formosa ;
+	lcc-lr:hasTag "AR-P" ;
+	lcc-lr:identifies lcc-3166-2-ar:Formosa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-Q
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-Q" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Neuquén in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Neuquen ;
+	lcc-lr:hasTag "AR-Q" ;
+	lcc-lr:identifies lcc-3166-2-ar:Neuquen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-R
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-R" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Río Negro in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:RioNegro ;
+	lcc-lr:hasTag "AR-R" ;
+	lcc-lr:identifies lcc-3166-2-ar:RioNegro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Santa Fe in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:SantaFe ;
+	lcc-lr:hasTag "AR-S" ;
+	lcc-lr:identifies lcc-3166-2-ar:SantaFe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-T
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Tucumán in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Tucuman ;
+	lcc-lr:hasTag "AR-T" ;
+	lcc-lr:identifies lcc-3166-2-ar:Tucuman ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-U
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-U" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Chubut in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Chubut ;
+	lcc-lr:hasTag "AR-U" ;
+	lcc-lr:identifies lcc-3166-2-ar:Chubut ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-V
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-V" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Tierra del Fuego in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:TierraDelFuego ;
+	lcc-lr:hasTag "AR-V" ;
+	lcc-lr:identifies lcc-3166-2-ar:TierraDelFuego ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-W
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-W" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Corrientes in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Corrientes ;
+	lcc-lr:hasTag "AR-W" ;
+	lcc-lr:identifies lcc-3166-2-ar:Corrientes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-X
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-X" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Córdoba in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Cordoba ;
+	lcc-lr:hasTag "AR-X" ;
+	lcc-lr:identifies lcc-3166-2-ar:Cordoba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-Y
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-Y" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Jujuy in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:Jujuy ;
+	lcc-lr:hasTag "AR-Y" ;
+	lcc-lr:identifies lcc-3166-2-ar:Jujuy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:AR-Z
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AR-Z" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision code for the province of Santa Cruz in the country of Argentina" ;
+	lcc-lr:denotes lcc-3166-2-ar:SantaCruz ;
+	lcc-lr:hasTag "AR-Z" ;
+	lcc-lr:identifies lcc-3166-2-ar:SantaCruz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ar:BuenosAires
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buenos Aires" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Buenos Aires in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Buenos Aires"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Catamarca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Catamarca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Catamarca in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Catamarca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Chaco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chaco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Chaco in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Chaco"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Chubut
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chubut" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Chubut in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Chubut"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision category city in the country of Argentina" ;
+	.
+
+lcc-3166-2-ar:CiudadAutonomaDeBuenosAires
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ciudad Autónoma de Buenos Aires" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The city of Ciudad Autónoma de Buenos Aires in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Ciudad Autónoma de Buenos Aires"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Cordoba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Córdoba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Córdoba in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Córdoba"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Corrientes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Corrientes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Corrientes in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Corrientes"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:EntreRios
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Entre Ríos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Entre Ríos in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Entre Ríos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Formosa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Formosa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Formosa in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Formosa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Jujuy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jujuy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Jujuy in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Jujuy"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:LaPampa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Pampa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of La Pampa in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "La Pampa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:LaRioja
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Rioja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of La Rioja in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "La Rioja"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Mendoza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mendoza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Mendoza in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Mendoza"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Misiones
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Misiones" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Misiones in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Misiones"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Neuquen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Neuquén" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Neuquén in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Neuquén"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "subdivision category province in the country of Argentina" ;
+	.
+
+lcc-3166-2-ar:RioNegro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Río Negro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Río Negro in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Río Negro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Salta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Salta in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Salta"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:SanJuan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Juan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of San Juan in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "San Juan"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:SanLuis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Luis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of San Luis in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "San Luis"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:SantaCruz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Cruz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Santa Cruz in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Santa Cruz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:SantaFe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Fe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Santa Fe in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Santa Fe"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:SantiagoDelEstero
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santiago del Estero" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Santiago del Estero in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Santiago del Estero"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:TierraDelFuego
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tierra del Fuego" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Tierra del Fuego in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Tierra del Fuego"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-2-ar:Tucuman
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tucumán" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AR/> ;
+	skos:definition "The province of Tucumán in the country of Argentina" ;
+	lcc-cr:hasLocalShortName "Tucumán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ar:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Argentina ;
+	.
+

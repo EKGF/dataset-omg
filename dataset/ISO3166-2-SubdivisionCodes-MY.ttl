@@ -1,0 +1,543 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-my: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Malaysia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-my" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Malaysia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	.
+
+lcc-3166-2-my:FederalTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "federal territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision category federal territory in the country of Malaysia" ;
+	.
+
+lcc-3166-2-my:Johor
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Johor" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Johor in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Johor"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Kedah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kedah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Kedah in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Kedah"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Kelantan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kelantan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Kelantan in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Kelantan"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:MY-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Johor in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Johor ;
+	lcc-lr:hasTag "MY-01" ;
+	lcc-lr:identifies lcc-3166-2-my:Johor ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Kedah in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Kedah ;
+	lcc-lr:hasTag "MY-02" ;
+	lcc-lr:identifies lcc-3166-2-my:Kedah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Kelantan in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Kelantan ;
+	lcc-lr:hasTag "MY-03" ;
+	lcc-lr:identifies lcc-3166-2-my:Kelantan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Melaka in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Melaka ;
+	lcc-lr:hasTag "MY-04" ;
+	lcc-lr:identifies lcc-3166-2-my:Melaka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Negeri Sembilan in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:NegeriSembilan ;
+	lcc-lr:hasTag "MY-05" ;
+	lcc-lr:identifies lcc-3166-2-my:NegeriSembilan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Pahang in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Pahang ;
+	lcc-lr:hasTag "MY-06" ;
+	lcc-lr:identifies lcc-3166-2-my:Pahang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Pulau Pinang in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:PulauPinang ;
+	lcc-lr:hasTag "MY-07" ;
+	lcc-lr:identifies lcc-3166-2-my:PulauPinang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Perak in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Perak ;
+	lcc-lr:hasTag "MY-08" ;
+	lcc-lr:identifies lcc-3166-2-my:Perak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Perlis in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Perlis ;
+	lcc-lr:hasTag "MY-09" ;
+	lcc-lr:identifies lcc-3166-2-my:Perlis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Selangor in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Selangor ;
+	lcc-lr:hasTag "MY-10" ;
+	lcc-lr:identifies lcc-3166-2-my:Selangor ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Terengganu in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Terengganu ;
+	lcc-lr:hasTag "MY-11" ;
+	lcc-lr:identifies lcc-3166-2-my:Terengganu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Sabah in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Sabah ;
+	lcc-lr:hasTag "MY-12" ;
+	lcc-lr:identifies lcc-3166-2-my:Sabah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the state of Sarawak in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:Sarawak ;
+	lcc-lr:hasTag "MY-13" ;
+	lcc-lr:identifies lcc-3166-2-my:Sarawak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the federal territory of Wilayah Persekutuan Kuala Lumpur in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:WilayahPersekutuanKualaLumpur ;
+	lcc-lr:hasTag "MY-14" ;
+	lcc-lr:identifies lcc-3166-2-my:WilayahPersekutuanKualaLumpur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the federal territory of Wilayah Persekutuan Labuan in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:WilayahPersekutuanLabuan ;
+	lcc-lr:hasTag "MY-15" ;
+	lcc-lr:identifies lcc-3166-2-my:WilayahPersekutuanLabuan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:MY-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MY-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision code for the federal territory of Wilayah Persekutuan Putrajaya in the country of Malaysia" ;
+	lcc-lr:denotes lcc-3166-2-my:WilayahPersekutuanPutrajaya ;
+	lcc-lr:hasTag "MY-16" ;
+	lcc-lr:identifies lcc-3166-2-my:WilayahPersekutuanPutrajaya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-my:Melaka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Melaka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Melaka in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Melaka"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:NegeriSembilan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Negeri Sembilan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Negeri Sembilan in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Negeri Sembilan"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Pahang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pahang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Pahang in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Pahang"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:PeninsularMalaysia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Peninsular Malaysia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The territory of Peninsular Malaysia in the country of Malaysia" ;
+	lcc-cr:hasEnglishShortName "Peninsular Malaysia"@en ;
+	lcc-cr:hasFrenchShortName "la Malaisie péninsulaire"@fr ;
+	lcc-cr:hasNumericRegionCode "1114" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Perak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Perak" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Perak in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Perak"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Perlis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Perlis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Perlis in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Perlis"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:PulauPinang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pulau Pinang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Pulau Pinang in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Pulau Pinang"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Sabah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Sabah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition
+		"The state of Sabah in the country of Malaysia" ,
+		"The territory of Sabah in the country of Malaysia"
+		;
+	lcc-cr:hasEnglishShortName "Sabah"@en ;
+	lcc-cr:hasFrenchShortName "Sabah"@fr ;
+	lcc-cr:hasLocalShortName "Sabah"@ms ;
+	lcc-cr:hasNumericRegionCode "1162" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-my:State
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Sarawak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Sarawak" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition
+		"The state of Sarawak in the country of Malaysia" ,
+		"The territory of Sarawak in the country of Malaysia"
+		;
+	lcc-cr:hasEnglishShortName "Sarawak"@en ;
+	lcc-cr:hasFrenchShortName "Sarawak"@fr ;
+	lcc-cr:hasLocalShortName "Sarawak"@ms ;
+	lcc-cr:hasNumericRegionCode "1190" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-my:State
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:Selangor
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Selangor" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Selangor in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Selangor"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "subdivision category state in the country of Malaysia" ;
+	.
+
+lcc-3166-2-my:Terengganu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Terengganu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The state of Terengganu in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Terengganu"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:WilayahPersekutuanKualaLumpur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wilayah Persekutuan Kuala Lumpur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The federal territory of Wilayah Persekutuan Kuala Lumpur in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Wilayah Persekutuan Kuala Lumpur"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:FederalTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:WilayahPersekutuanLabuan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wilayah Persekutuan Labuan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The federal territory of Wilayah Persekutuan Labuan in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Wilayah Persekutuan Labuan"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:FederalTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-2-my:WilayahPersekutuanPutrajaya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wilayah Persekutuan Putrajaya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MY/> ;
+	skos:definition "The federal territory of Wilayah Persekutuan Putrajaya in the country of Malaysia" ;
+	lcc-cr:hasLocalShortName "Wilayah Persekutuan Putrajaya"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-my:FederalTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malaysia ;
+	.
+

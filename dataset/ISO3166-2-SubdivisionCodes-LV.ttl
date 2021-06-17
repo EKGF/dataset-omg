@@ -1,0 +1,3289 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-lv: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Latvia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-lv" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Latvia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LV.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	.
+
+lcc-3166-2-lv:AdazuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ādažu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ādažu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ādažu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AglonasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aglonas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Aglonas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Aglonas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AizkrauklesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aizkraukles novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Aizkraukles novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Aizkraukles novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AizputesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aizputes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Aizputes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Aizputes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AknistesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aknīstes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Aknīstes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Aknīstes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AlojasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alojas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Alojas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Alojas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AlsungasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alsungas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Alsungas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Alsungas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AluksnesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alūksnes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Alūksnes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Alūksnes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AmatasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amatas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Amatas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Amatas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:ApesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Apes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Apes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Apes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:AucesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Auces novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Auces novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Auces novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BabitesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Babītes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Babītes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Babītes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BaldonesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baldones novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Baldones novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Baldones novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BaltinavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baltinavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Baltinavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Baltinavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BalvuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balvu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Balvu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Balvu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BauskasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bauskas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Bauskas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Bauskas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BeverinasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Beverīnas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Beverīnas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Beverīnas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BrocenuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brocēnu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Brocēnu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Brocēnu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:BurtniekuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Burtnieku novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Burtnieku novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Burtnieku novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:CarnikavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Carnikavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Carnikavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Carnikavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:CesuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cēsu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Cēsu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Cēsu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:CesvainesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cesvaines novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Cesvaines novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Cesvaines novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:CiblasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ciblas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ciblas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ciblas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:DagdasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dagdas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Dagdas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Dagdas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Daugavpils
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Daugavpils" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Daugavpils in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Daugavpils"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:DaugavpilsNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Daugavpils novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Daugavpils novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Daugavpils novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:DobelesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dobeles novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Dobeles novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Dobeles novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:DundagasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dundagas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Dundagas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Dundagas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:DurbesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Durbes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Durbes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Durbes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:EnguresNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Engures novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Engures novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Engures novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:ErgluNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ērgļu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ērgļu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ērgļu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:GarkalnesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Garkalnes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Garkalnes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Garkalnes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:GrobinasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grobiņas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Grobiņas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Grobiņas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:GulbenesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gulbenes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Gulbenes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Gulbenes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:IecavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iecavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Iecavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Iecavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:IkskilesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ikšķiles novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ikšķiles novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ikšķiles novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:IlukstesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilūkstes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ilūkstes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ilūkstes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:IncukalnaNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Inčukalna novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Inčukalna novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Inčukalna novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:JaunjelgavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jaunjelgavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Jaunjelgavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jaunjelgavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:JaunpiebalgasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jaunpiebalgas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Jaunpiebalgas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jaunpiebalgas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:JaunpilsNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jaunpils novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Jaunpils novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jaunpils novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Jekabpils
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jēkabpils" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Jēkabpils in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jēkabpils"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:JekabpilsNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jēkabpils novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Jēkabpils novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jēkabpils novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Jelgava
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jelgava" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Jelgava in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jelgava"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:JelgavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jelgavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Jelgavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jelgavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Jurmala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jūrmala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Jūrmala in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Jūrmala"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KandavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kandavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Kandavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Kandavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KarsavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kārsavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Kārsavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Kārsavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KegumaNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ķeguma novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ķeguma novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ķeguma novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KekavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ķekavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ķekavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ķekavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KocenuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kocēnu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Kocēnu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Kocēnu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KoknesesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kokneses novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Kokneses novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Kokneses novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KraslavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Krāslavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Krāslavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Krāslavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KrimuldasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Krimuldas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Krimuldas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Krimuldas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KrustpilsNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Krustpils novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Krustpils novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Krustpils novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:KuldigasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kuldīgas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Kuldīgas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Kuldīgas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:LV-001
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-001" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Aglonas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AglonasNovads ;
+	lcc-lr:hasTag "LV-001" ;
+	lcc-lr:identifies lcc-3166-2-lv:AglonasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-002
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-002" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Aizkraukles novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AizkrauklesNovads ;
+	lcc-lr:hasTag "LV-002" ;
+	lcc-lr:identifies lcc-3166-2-lv:AizkrauklesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-003
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-003" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Aizputes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AizputesNovads ;
+	lcc-lr:hasTag "LV-003" ;
+	lcc-lr:identifies lcc-3166-2-lv:AizputesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-004
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-004" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Aknīstes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AknistesNovads ;
+	lcc-lr:hasTag "LV-004" ;
+	lcc-lr:identifies lcc-3166-2-lv:AknistesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-005
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-005" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Alojas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AlojasNovads ;
+	lcc-lr:hasTag "LV-005" ;
+	lcc-lr:identifies lcc-3166-2-lv:AlojasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-006
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-006" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Alsungas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AlsungasNovads ;
+	lcc-lr:hasTag "LV-006" ;
+	lcc-lr:identifies lcc-3166-2-lv:AlsungasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-007
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-007" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Alūksnes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AluksnesNovads ;
+	lcc-lr:hasTag "LV-007" ;
+	lcc-lr:identifies lcc-3166-2-lv:AluksnesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-008
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-008" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Amatas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AmatasNovads ;
+	lcc-lr:hasTag "LV-008" ;
+	lcc-lr:identifies lcc-3166-2-lv:AmatasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-009
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-009" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Apes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:ApesNovads ;
+	lcc-lr:hasTag "LV-009" ;
+	lcc-lr:identifies lcc-3166-2-lv:ApesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-010
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-010" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Auces novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AucesNovads ;
+	lcc-lr:hasTag "LV-010" ;
+	lcc-lr:identifies lcc-3166-2-lv:AucesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-011
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-011" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ādažu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:AdazuNovads ;
+	lcc-lr:hasTag "LV-011" ;
+	lcc-lr:identifies lcc-3166-2-lv:AdazuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-012
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-012" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Babītes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BabitesNovads ;
+	lcc-lr:hasTag "LV-012" ;
+	lcc-lr:identifies lcc-3166-2-lv:BabitesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-013
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-013" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Baldones novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BaldonesNovads ;
+	lcc-lr:hasTag "LV-013" ;
+	lcc-lr:identifies lcc-3166-2-lv:BaldonesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-014
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-014" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Baltinavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BaltinavasNovads ;
+	lcc-lr:hasTag "LV-014" ;
+	lcc-lr:identifies lcc-3166-2-lv:BaltinavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-015
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-015" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Balvu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BalvuNovads ;
+	lcc-lr:hasTag "LV-015" ;
+	lcc-lr:identifies lcc-3166-2-lv:BalvuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-016
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-016" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Bauskas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BauskasNovads ;
+	lcc-lr:hasTag "LV-016" ;
+	lcc-lr:identifies lcc-3166-2-lv:BauskasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-017
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-017" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Beverīnas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BeverinasNovads ;
+	lcc-lr:hasTag "LV-017" ;
+	lcc-lr:identifies lcc-3166-2-lv:BeverinasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-018
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-018" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Brocēnu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BrocenuNovads ;
+	lcc-lr:hasTag "LV-018" ;
+	lcc-lr:identifies lcc-3166-2-lv:BrocenuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-019
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-019" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Burtnieku novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:BurtniekuNovads ;
+	lcc-lr:hasTag "LV-019" ;
+	lcc-lr:identifies lcc-3166-2-lv:BurtniekuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-020
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-020" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Carnikavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:CarnikavasNovads ;
+	lcc-lr:hasTag "LV-020" ;
+	lcc-lr:identifies lcc-3166-2-lv:CarnikavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-021
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-021" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Cesvaines novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:CesvainesNovads ;
+	lcc-lr:hasTag "LV-021" ;
+	lcc-lr:identifies lcc-3166-2-lv:CesvainesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-022
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-022" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Cēsu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:CesuNovads ;
+	lcc-lr:hasTag "LV-022" ;
+	lcc-lr:identifies lcc-3166-2-lv:CesuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-023
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-023" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ciblas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:CiblasNovads ;
+	lcc-lr:hasTag "LV-023" ;
+	lcc-lr:identifies lcc-3166-2-lv:CiblasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-024
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-024" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Dagdas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:DagdasNovads ;
+	lcc-lr:hasTag "LV-024" ;
+	lcc-lr:identifies lcc-3166-2-lv:DagdasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-025
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-025" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Daugavpils novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:DaugavpilsNovads ;
+	lcc-lr:hasTag "LV-025" ;
+	lcc-lr:identifies lcc-3166-2-lv:DaugavpilsNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-026
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-026" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Dobeles novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:DobelesNovads ;
+	lcc-lr:hasTag "LV-026" ;
+	lcc-lr:identifies lcc-3166-2-lv:DobelesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-027
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-027" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Dundagas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:DundagasNovads ;
+	lcc-lr:hasTag "LV-027" ;
+	lcc-lr:identifies lcc-3166-2-lv:DundagasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-028
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-028" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Durbes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:DurbesNovads ;
+	lcc-lr:hasTag "LV-028" ;
+	lcc-lr:identifies lcc-3166-2-lv:DurbesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-029
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-029" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Engures novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:EnguresNovads ;
+	lcc-lr:hasTag "LV-029" ;
+	lcc-lr:identifies lcc-3166-2-lv:EnguresNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-030
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-030" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ērgļu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:ErgluNovads ;
+	lcc-lr:hasTag "LV-030" ;
+	lcc-lr:identifies lcc-3166-2-lv:ErgluNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-031
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-031" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Garkalnes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:GarkalnesNovads ;
+	lcc-lr:hasTag "LV-031" ;
+	lcc-lr:identifies lcc-3166-2-lv:GarkalnesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-032
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-032" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Grobiņas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:GrobinasNovads ;
+	lcc-lr:hasTag "LV-032" ;
+	lcc-lr:identifies lcc-3166-2-lv:GrobinasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-033
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-033" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Gulbenes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:GulbenesNovads ;
+	lcc-lr:hasTag "LV-033" ;
+	lcc-lr:identifies lcc-3166-2-lv:GulbenesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-034
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-034" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Iecavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:IecavasNovads ;
+	lcc-lr:hasTag "LV-034" ;
+	lcc-lr:identifies lcc-3166-2-lv:IecavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-035
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-035" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ikšķiles novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:IkskilesNovads ;
+	lcc-lr:hasTag "LV-035" ;
+	lcc-lr:identifies lcc-3166-2-lv:IkskilesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-036
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-036" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ilūkstes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:IlukstesNovads ;
+	lcc-lr:hasTag "LV-036" ;
+	lcc-lr:identifies lcc-3166-2-lv:IlukstesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-037
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-037" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Inčukalna novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:IncukalnaNovads ;
+	lcc-lr:hasTag "LV-037" ;
+	lcc-lr:identifies lcc-3166-2-lv:IncukalnaNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-038
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-038" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Jaunjelgavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:JaunjelgavasNovads ;
+	lcc-lr:hasTag "LV-038" ;
+	lcc-lr:identifies lcc-3166-2-lv:JaunjelgavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-039
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-039" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Jaunpiebalgas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:JaunpiebalgasNovads ;
+	lcc-lr:hasTag "LV-039" ;
+	lcc-lr:identifies lcc-3166-2-lv:JaunpiebalgasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-040
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-040" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Jaunpils novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:JaunpilsNovads ;
+	lcc-lr:hasTag "LV-040" ;
+	lcc-lr:identifies lcc-3166-2-lv:JaunpilsNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-041
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-041" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Jelgavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:JelgavasNovads ;
+	lcc-lr:hasTag "LV-041" ;
+	lcc-lr:identifies lcc-3166-2-lv:JelgavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-042
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-042" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Jēkabpils novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:JekabpilsNovads ;
+	lcc-lr:hasTag "LV-042" ;
+	lcc-lr:identifies lcc-3166-2-lv:JekabpilsNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-043
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-043" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Kandavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KandavasNovads ;
+	lcc-lr:hasTag "LV-043" ;
+	lcc-lr:identifies lcc-3166-2-lv:KandavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-044
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-044" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Kārsavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KarsavasNovads ;
+	lcc-lr:hasTag "LV-044" ;
+	lcc-lr:identifies lcc-3166-2-lv:KarsavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-045
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-045" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Kocēnu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KocenuNovads ;
+	lcc-lr:hasTag "LV-045" ;
+	lcc-lr:identifies lcc-3166-2-lv:KocenuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-046
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-046" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Kokneses novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KoknesesNovads ;
+	lcc-lr:hasTag "LV-046" ;
+	lcc-lr:identifies lcc-3166-2-lv:KoknesesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-047
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-047" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Krāslavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KraslavasNovads ;
+	lcc-lr:hasTag "LV-047" ;
+	lcc-lr:identifies lcc-3166-2-lv:KraslavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-048
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-048" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Krimuldas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KrimuldasNovads ;
+	lcc-lr:hasTag "LV-048" ;
+	lcc-lr:identifies lcc-3166-2-lv:KrimuldasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-049
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-049" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Krustpils novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KrustpilsNovads ;
+	lcc-lr:hasTag "LV-049" ;
+	lcc-lr:identifies lcc-3166-2-lv:KrustpilsNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-050
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-050" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Kuldīgas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KuldigasNovads ;
+	lcc-lr:hasTag "LV-050" ;
+	lcc-lr:identifies lcc-3166-2-lv:KuldigasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-051
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-051" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ķeguma novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KegumaNovads ;
+	lcc-lr:hasTag "LV-051" ;
+	lcc-lr:identifies lcc-3166-2-lv:KegumaNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-052
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-052" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ķekavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:KekavasNovads ;
+	lcc-lr:hasTag "LV-052" ;
+	lcc-lr:identifies lcc-3166-2-lv:KekavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-053
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-053" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Lielvārdes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:LielvardesNovads ;
+	lcc-lr:hasTag "LV-053" ;
+	lcc-lr:identifies lcc-3166-2-lv:LielvardesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-054
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-054" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Limbažu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:LimbazuNovads ;
+	lcc-lr:hasTag "LV-054" ;
+	lcc-lr:identifies lcc-3166-2-lv:LimbazuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-055
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-055" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Līgatnes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:LigatnesNovads ;
+	lcc-lr:hasTag "LV-055" ;
+	lcc-lr:identifies lcc-3166-2-lv:LigatnesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-056
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-056" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Līvānu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:LivanuNovads ;
+	lcc-lr:hasTag "LV-056" ;
+	lcc-lr:identifies lcc-3166-2-lv:LivanuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-057
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-057" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Lubānas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:LubanasNovads ;
+	lcc-lr:hasTag "LV-057" ;
+	lcc-lr:identifies lcc-3166-2-lv:LubanasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-058
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-058" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ludzas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:LudzasNovads ;
+	lcc-lr:hasTag "LV-058" ;
+	lcc-lr:identifies lcc-3166-2-lv:LudzasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-059
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-059" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Madonas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:MadonasNovads ;
+	lcc-lr:hasTag "LV-059" ;
+	lcc-lr:identifies lcc-3166-2-lv:MadonasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-060
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-060" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Mazsalacas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:MazsalacasNovads ;
+	lcc-lr:hasTag "LV-060" ;
+	lcc-lr:identifies lcc-3166-2-lv:MazsalacasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-061
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-061" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Mālpils novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:MalpilsNovads ;
+	lcc-lr:hasTag "LV-061" ;
+	lcc-lr:identifies lcc-3166-2-lv:MalpilsNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-062
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-062" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Mārupes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:MarupesNovads ;
+	lcc-lr:hasTag "LV-062" ;
+	lcc-lr:identifies lcc-3166-2-lv:MarupesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-063
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-063" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Mērsraga novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:MersragaNovads ;
+	lcc-lr:hasTag "LV-063" ;
+	lcc-lr:identifies lcc-3166-2-lv:MersragaNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-064
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-064" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Naukšēnu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:NauksenuNovads ;
+	lcc-lr:hasTag "LV-064" ;
+	lcc-lr:identifies lcc-3166-2-lv:NauksenuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-065
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-065" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Neretas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:NeretasNovads ;
+	lcc-lr:hasTag "LV-065" ;
+	lcc-lr:identifies lcc-3166-2-lv:NeretasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-066
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-066" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Nīcas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:NicasNovads ;
+	lcc-lr:hasTag "LV-066" ;
+	lcc-lr:identifies lcc-3166-2-lv:NicasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-067
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-067" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ogres novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:OgresNovads ;
+	lcc-lr:hasTag "LV-067" ;
+	lcc-lr:identifies lcc-3166-2-lv:OgresNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-068
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-068" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Olaines novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:OlainesNovads ;
+	lcc-lr:hasTag "LV-068" ;
+	lcc-lr:identifies lcc-3166-2-lv:OlainesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-069
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-069" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ozolnieku novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:OzolniekuNovads ;
+	lcc-lr:hasTag "LV-069" ;
+	lcc-lr:identifies lcc-3166-2-lv:OzolniekuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-070
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-070" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Pārgaujas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:PargaujasNovads ;
+	lcc-lr:hasTag "LV-070" ;
+	lcc-lr:identifies lcc-3166-2-lv:PargaujasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-071
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-071" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Pāvilostas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:PavilostasNovads ;
+	lcc-lr:hasTag "LV-071" ;
+	lcc-lr:identifies lcc-3166-2-lv:PavilostasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-072
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-072" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Pļaviņu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:PlavinuNovads ;
+	lcc-lr:hasTag "LV-072" ;
+	lcc-lr:identifies lcc-3166-2-lv:PlavinuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-073
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-073" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Preiļu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:PreiluNovads ;
+	lcc-lr:hasTag "LV-073" ;
+	lcc-lr:identifies lcc-3166-2-lv:PreiluNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-074
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-074" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Priekules novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:PriekulesNovads ;
+	lcc-lr:hasTag "LV-074" ;
+	lcc-lr:identifies lcc-3166-2-lv:PriekulesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-075
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-075" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Priekuļu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:PriekuluNovads ;
+	lcc-lr:hasTag "LV-075" ;
+	lcc-lr:identifies lcc-3166-2-lv:PriekuluNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-076
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-076" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Raunas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RaunasNovads ;
+	lcc-lr:hasTag "LV-076" ;
+	lcc-lr:identifies lcc-3166-2-lv:RaunasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-077
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-077" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Rēzeknes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RezeknesNovads ;
+	lcc-lr:hasTag "LV-077" ;
+	lcc-lr:identifies lcc-3166-2-lv:RezeknesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-078
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-078" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Riebiņu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RiebinuNovads ;
+	lcc-lr:hasTag "LV-078" ;
+	lcc-lr:identifies lcc-3166-2-lv:RiebinuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-079
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-079" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Rojas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RojasNovads ;
+	lcc-lr:hasTag "LV-079" ;
+	lcc-lr:identifies lcc-3166-2-lv:RojasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-080
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-080" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ropažu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RopazuNovads ;
+	lcc-lr:hasTag "LV-080" ;
+	lcc-lr:identifies lcc-3166-2-lv:RopazuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-081
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-081" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Rucavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RucavasNovads ;
+	lcc-lr:hasTag "LV-081" ;
+	lcc-lr:identifies lcc-3166-2-lv:RucavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-082
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-082" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Rugāju novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RugajuNovads ;
+	lcc-lr:hasTag "LV-082" ;
+	lcc-lr:identifies lcc-3166-2-lv:RugajuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-083
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-083" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Rundāles novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RundalesNovads ;
+	lcc-lr:hasTag "LV-083" ;
+	lcc-lr:identifies lcc-3166-2-lv:RundalesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-084
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-084" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Rūjienas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:RujienasNovads ;
+	lcc-lr:hasTag "LV-084" ;
+	lcc-lr:identifies lcc-3166-2-lv:RujienasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-085
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-085" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Salas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SalasNovads ;
+	lcc-lr:hasTag "LV-085" ;
+	lcc-lr:identifies lcc-3166-2-lv:SalasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-086
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-086" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Salacgrīvas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SalacgrivasNovads ;
+	lcc-lr:hasTag "LV-086" ;
+	lcc-lr:identifies lcc-3166-2-lv:SalacgrivasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-087
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-087" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Salaspils novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SalaspilsNovads ;
+	lcc-lr:hasTag "LV-087" ;
+	lcc-lr:identifies lcc-3166-2-lv:SalaspilsNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-088
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-088" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Saldus novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SaldusNovads ;
+	lcc-lr:hasTag "LV-088" ;
+	lcc-lr:identifies lcc-3166-2-lv:SaldusNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-089
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-089" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Saulkrastu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SaulkrastuNovads ;
+	lcc-lr:hasTag "LV-089" ;
+	lcc-lr:identifies lcc-3166-2-lv:SaulkrastuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-090
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-090" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Sējas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SejasNovads ;
+	lcc-lr:hasTag "LV-090" ;
+	lcc-lr:identifies lcc-3166-2-lv:SejasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-091
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-091" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Siguldas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SiguldasNovads ;
+	lcc-lr:hasTag "LV-091" ;
+	lcc-lr:identifies lcc-3166-2-lv:SiguldasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-092
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-092" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Skrīveru novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SkriveruNovads ;
+	lcc-lr:hasTag "LV-092" ;
+	lcc-lr:identifies lcc-3166-2-lv:SkriveruNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-093
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-093" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Skrundas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SkrundasNovads ;
+	lcc-lr:hasTag "LV-093" ;
+	lcc-lr:identifies lcc-3166-2-lv:SkrundasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-094
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-094" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Smiltenes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:SmiltenesNovads ;
+	lcc-lr:hasTag "LV-094" ;
+	lcc-lr:identifies lcc-3166-2-lv:SmiltenesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-095
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-095" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Stopiņu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:StopinuNovads ;
+	lcc-lr:hasTag "LV-095" ;
+	lcc-lr:identifies lcc-3166-2-lv:StopinuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-096
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-096" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Strenču novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:StrencuNovads ;
+	lcc-lr:hasTag "LV-096" ;
+	lcc-lr:identifies lcc-3166-2-lv:StrencuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-097
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-097" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Talsu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:TalsuNovads ;
+	lcc-lr:hasTag "LV-097" ;
+	lcc-lr:identifies lcc-3166-2-lv:TalsuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-098
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-098" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Tērvetes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:TervetesNovads ;
+	lcc-lr:hasTag "LV-098" ;
+	lcc-lr:identifies lcc-3166-2-lv:TervetesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-099
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-099" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Tukuma novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:TukumaNovads ;
+	lcc-lr:hasTag "LV-099" ;
+	lcc-lr:identifies lcc-3166-2-lv:TukumaNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-100
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-100" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Vaiņodes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VainodesNovads ;
+	lcc-lr:hasTag "LV-100" ;
+	lcc-lr:identifies lcc-3166-2-lv:VainodesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-101
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-101" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Valkas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:ValkasNovads ;
+	lcc-lr:hasTag "LV-101" ;
+	lcc-lr:identifies lcc-3166-2-lv:ValkasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-102
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-102" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Varakļānu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VaraklanuNovads ;
+	lcc-lr:hasTag "LV-102" ;
+	lcc-lr:identifies lcc-3166-2-lv:VaraklanuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-103
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-103" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Vārkavas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VarkavasNovads ;
+	lcc-lr:hasTag "LV-103" ;
+	lcc-lr:identifies lcc-3166-2-lv:VarkavasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-104
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-104" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Vecpiebalgas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VecpiebalgasNovads ;
+	lcc-lr:hasTag "LV-104" ;
+	lcc-lr:identifies lcc-3166-2-lv:VecpiebalgasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-105
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-105" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Vecumnieku novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VecumniekuNovads ;
+	lcc-lr:hasTag "LV-105" ;
+	lcc-lr:identifies lcc-3166-2-lv:VecumniekuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-106
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-106" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Ventspils novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VentspilsNovads ;
+	lcc-lr:hasTag "LV-106" ;
+	lcc-lr:identifies lcc-3166-2-lv:VentspilsNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-107
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-107" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Viesītes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:ViesitesNovads ;
+	lcc-lr:hasTag "LV-107" ;
+	lcc-lr:identifies lcc-3166-2-lv:ViesitesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-108
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-108" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Viļakas novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VilakasNovads ;
+	lcc-lr:hasTag "LV-108" ;
+	lcc-lr:identifies lcc-3166-2-lv:VilakasNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-109
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-109" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Viļānu novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:VilanuNovads ;
+	lcc-lr:hasTag "LV-109" ;
+	lcc-lr:identifies lcc-3166-2-lv:VilanuNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-110
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-110" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the municipality of Zilupes novads in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:ZilupesNovads ;
+	lcc-lr:hasTag "LV-110" ;
+	lcc-lr:identifies lcc-3166-2-lv:ZilupesNovads ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-DGV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-DGV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Daugavpils in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Daugavpils ;
+	lcc-lr:hasTag "LV-DGV" ;
+	lcc-lr:identifies lcc-3166-2-lv:Daugavpils ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-JEL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-JEL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Jelgava in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Jelgava ;
+	lcc-lr:hasTag "LV-JEL" ;
+	lcc-lr:identifies lcc-3166-2-lv:Jelgava ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-JKB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-JKB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Jēkabpils in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Jekabpils ;
+	lcc-lr:hasTag "LV-JKB" ;
+	lcc-lr:identifies lcc-3166-2-lv:Jekabpils ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-JUR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-JUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Jūrmala in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Jurmala ;
+	lcc-lr:hasTag "LV-JUR" ;
+	lcc-lr:identifies lcc-3166-2-lv:Jurmala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-LPX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-LPX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Liepāja in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Liepaja ;
+	lcc-lr:hasTag "LV-LPX" ;
+	lcc-lr:identifies lcc-3166-2-lv:Liepaja ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-REZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-REZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Rēzekne in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Rezekne ;
+	lcc-lr:hasTag "LV-REZ" ;
+	lcc-lr:identifies lcc-3166-2-lv:Rezekne ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-RIX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-RIX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Rīga in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Riga ;
+	lcc-lr:hasTag "LV-RIX" ;
+	lcc-lr:identifies lcc-3166-2-lv:Riga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-VEN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-VEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Ventspils in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Ventspils ;
+	lcc-lr:hasTag "LV-VEN" ;
+	lcc-lr:identifies lcc-3166-2-lv:Ventspils ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LV-VMR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LV-VMR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision code for the republican city of Valmiera in the country of Latvia" ;
+	lcc-lr:denotes lcc-3166-2-lv:Valmiera ;
+	lcc-lr:hasTag "LV-VMR" ;
+	lcc-lr:identifies lcc-3166-2-lv:Valmiera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lv:LielvardesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lielvārdes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Lielvārdes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Lielvārdes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Liepaja
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Liepāja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Liepāja in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Liepāja"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:LigatnesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Līgatnes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Līgatnes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Līgatnes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:LimbazuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Limbažu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Limbažu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Limbažu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:LivanuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Līvānu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Līvānu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Līvānu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:LubanasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lubānas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Lubānas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Lubānas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:LudzasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ludzas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ludzas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ludzas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:MadonasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madonas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Madonas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Madonas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:MalpilsNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mālpils novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Mālpils novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Mālpils novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:MarupesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mārupes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Mārupes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Mārupes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:MazsalacasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mazsalacas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Mazsalacas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Mazsalacas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:MersragaNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mērsraga novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Mērsraga novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Mērsraga novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision category municipality in the country of Latvia" ;
+	.
+
+lcc-3166-2-lv:NauksenuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Naukšēnu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Naukšēnu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Naukšēnu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:NeretasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Neretas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Neretas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Neretas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:NicasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nīcas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Nīcas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Nīcas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:OgresNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ogres novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ogres novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ogres novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:OlainesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Olaines novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Olaines novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Olaines novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:OzolniekuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ozolnieku novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ozolnieku novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ozolnieku novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:PargaujasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pārgaujas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Pārgaujas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Pārgaujas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:PavilostasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pāvilostas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Pāvilostas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Pāvilostas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:PlavinuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pļaviņu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Pļaviņu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Pļaviņu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:PreiluNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Preiļu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Preiļu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Preiļu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:PriekulesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Priekules novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Priekules novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Priekules novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:PriekuluNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Priekuļu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Priekuļu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Priekuļu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RaunasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Raunas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Raunas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Raunas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RepublicanCity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "republican city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "subdivision category republican city in the country of Latvia" ;
+	.
+
+lcc-3166-2-lv:Rezekne
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rēzekne" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Rēzekne in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rēzekne"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RezeknesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rēzeknes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Rēzeknes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rēzeknes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RiebinuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Riebiņu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Riebiņu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Riebiņu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Riga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rīga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Rīga in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rīga"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RojasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rojas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Rojas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rojas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RopazuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ropažu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ropažu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ropažu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RucavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rucavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Rucavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rucavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RugajuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rugāju novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Rugāju novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rugāju novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RujienasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rūjienas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Rūjienas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rūjienas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:RundalesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rundāles novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Rundāles novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Rundāles novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SalacgrivasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salacgrīvas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Salacgrīvas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Salacgrīvas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SalasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Salas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Salas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SalaspilsNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salaspils novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Salaspils novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Salaspils novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SaldusNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saldus novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Saldus novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Saldus novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SaulkrastuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saulkrastu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Saulkrastu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Saulkrastu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SejasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sējas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Sējas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Sējas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SiguldasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siguldas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Siguldas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Siguldas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SkriveruNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skrīveru novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Skrīveru novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Skrīveru novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SkrundasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skrundas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Skrundas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Skrundas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:SmiltenesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Smiltenes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Smiltenes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Smiltenes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:StopinuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Stopiņu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Stopiņu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Stopiņu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:StrencuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Strenču novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Strenču novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Strenču novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:TalsuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Talsu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Talsu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Talsu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:TervetesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tērvetes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Tērvetes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Tērvetes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:TukumaNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tukuma novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Tukuma novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Tukuma novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VainodesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vaiņodes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Vaiņodes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Vaiņodes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:ValkasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valkas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Valkas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Valkas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Valmiera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valmiera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Valmiera in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Valmiera"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VaraklanuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Varakļānu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Varakļānu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Varakļānu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VarkavasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vārkavas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Vārkavas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Vārkavas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VecpiebalgasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vecpiebalgas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Vecpiebalgas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Vecpiebalgas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VecumniekuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vecumnieku novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Vecumnieku novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Vecumnieku novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:Ventspils
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ventspils" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The republican city of Ventspils in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ventspils"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:RepublicanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VentspilsNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ventspils novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Ventspils novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Ventspils novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:ViesitesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viesītes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Viesītes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Viesītes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VilakasNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viļakas novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Viļakas novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Viļakas novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:VilanuNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viļānu novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Viļānu novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Viļānu novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-2-lv:ZilupesNovads
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zilupes novads" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LV/> ;
+	skos:definition "The municipality of Zilupes novads in the country of Latvia" ;
+	lcc-cr:hasLocalShortName "Zilupes novads"@lv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Latvia ;
+	.
+

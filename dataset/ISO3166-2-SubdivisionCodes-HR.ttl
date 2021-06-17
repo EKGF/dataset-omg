@@ -1,0 +1,643 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-hr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Croatia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-hr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Croatia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-HR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	.
+
+lcc-3166-2-hr:Bjelovarsko-bilogorskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bjelovarsko-bilogorska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Bjelovarsko-bilogorska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Bjelovarsko-bilogorska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Brodsko-posavskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brodsko-posavska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Brodsko-posavska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Brodsko-posavska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision category city in the country of Croatia" ;
+	.
+
+lcc-3166-2-hr:County
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "county" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision category county in the country of Croatia" ;
+	.
+
+lcc-3166-2-hr:Dubrovacko-neretvanskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dubrovačko-neretvanska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Dubrovačko-neretvanska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Dubrovačko-neretvanska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:GradZagreb
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grad Zagreb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The city of Grad Zagreb in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Grad Zagreb"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:HR-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Zagrebačka županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:ZagrebackaZupanija ;
+	lcc-lr:hasTag "HR-01" ;
+	lcc-lr:identifies lcc-3166-2-hr:ZagrebackaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Krapinsko-zagorska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Krapinsko-zagorskaZupanija ;
+	lcc-lr:hasTag "HR-02" ;
+	lcc-lr:identifies lcc-3166-2-hr:Krapinsko-zagorskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Sisačko-moslavačka županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Sisacko-moslavackaZupanija ;
+	lcc-lr:hasTag "HR-03" ;
+	lcc-lr:identifies lcc-3166-2-hr:Sisacko-moslavackaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Karlovačka županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:KarlovackaZupanija ;
+	lcc-lr:hasTag "HR-04" ;
+	lcc-lr:identifies lcc-3166-2-hr:KarlovackaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Varaždinska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:VarazdinskaZupanija ;
+	lcc-lr:hasTag "HR-05" ;
+	lcc-lr:identifies lcc-3166-2-hr:VarazdinskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Koprivničko-križevačka županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Koprivnicko-krizevackaZupanija ;
+	lcc-lr:hasTag "HR-06" ;
+	lcc-lr:identifies lcc-3166-2-hr:Koprivnicko-krizevackaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Bjelovarsko-bilogorska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Bjelovarsko-bilogorskaZupanija ;
+	lcc-lr:hasTag "HR-07" ;
+	lcc-lr:identifies lcc-3166-2-hr:Bjelovarsko-bilogorskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Primorsko-goranska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Primorsko-goranskaZupanija ;
+	lcc-lr:hasTag "HR-08" ;
+	lcc-lr:identifies lcc-3166-2-hr:Primorsko-goranskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Ličko-senjska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Licko-senjskaZupanija ;
+	lcc-lr:hasTag "HR-09" ;
+	lcc-lr:identifies lcc-3166-2-hr:Licko-senjskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Virovitičko-podravska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Viroviticko-podravskaZupanija ;
+	lcc-lr:hasTag "HR-10" ;
+	lcc-lr:identifies lcc-3166-2-hr:Viroviticko-podravskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Požeško-slavonska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Pozesko-slavonskaZupanija ;
+	lcc-lr:hasTag "HR-11" ;
+	lcc-lr:identifies lcc-3166-2-hr:Pozesko-slavonskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Brodsko-posavska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Brodsko-posavskaZupanija ;
+	lcc-lr:hasTag "HR-12" ;
+	lcc-lr:identifies lcc-3166-2-hr:Brodsko-posavskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Zadarska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:ZadarskaZupanija ;
+	lcc-lr:hasTag "HR-13" ;
+	lcc-lr:identifies lcc-3166-2-hr:ZadarskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Osječko-baranjska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Osjecko-baranjskaZupanija ;
+	lcc-lr:hasTag "HR-14" ;
+	lcc-lr:identifies lcc-3166-2-hr:Osjecko-baranjskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Šibensko-kninska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Sibensko-kninskaZupanija ;
+	lcc-lr:hasTag "HR-15" ;
+	lcc-lr:identifies lcc-3166-2-hr:Sibensko-kninskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Vukovarsko-srijemska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Vukovarsko-srijemskaZupanija ;
+	lcc-lr:hasTag "HR-16" ;
+	lcc-lr:identifies lcc-3166-2-hr:Vukovarsko-srijemskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Splitsko-dalmatinska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Splitsko-dalmatinskaZupanija ;
+	lcc-lr:hasTag "HR-17" ;
+	lcc-lr:identifies lcc-3166-2-hr:Splitsko-dalmatinskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Istarska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:IstarskaZupanija ;
+	lcc-lr:hasTag "HR-18" ;
+	lcc-lr:identifies lcc-3166-2-hr:IstarskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Dubrovačko-neretvanska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:Dubrovacko-neretvanskaZupanija ;
+	lcc-lr:hasTag "HR-19" ;
+	lcc-lr:identifies lcc-3166-2-hr:Dubrovacko-neretvanskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the county of Međimurska županija in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:MeimurskaZupanija ;
+	lcc-lr:hasTag "HR-20" ;
+	lcc-lr:identifies lcc-3166-2-hr:MeimurskaZupanija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:HR-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HR-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "subdivision code for the city of Grad Zagreb in the country of Croatia" ;
+	lcc-lr:denotes lcc-3166-2-hr:GradZagreb ;
+	lcc-lr:hasTag "HR-21" ;
+	lcc-lr:identifies lcc-3166-2-hr:GradZagreb ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hr:IstarskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Istarska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Istarska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Istarska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:KarlovackaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karlovačka županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Karlovačka županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Karlovačka županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Koprivnicko-krizevackaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Koprivničko-križevačka županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Koprivničko-križevačka županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Koprivničko-križevačka županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Krapinsko-zagorskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Krapinsko-zagorska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Krapinsko-zagorska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Krapinsko-zagorska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Licko-senjskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ličko-senjska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Ličko-senjska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Ličko-senjska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:MeimurskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Međimurska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Međimurska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Međimurska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Osjecko-baranjskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Osječko-baranjska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Osječko-baranjska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Osječko-baranjska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Pozesko-slavonskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Požeško-slavonska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Požeško-slavonska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Požeško-slavonska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Primorsko-goranskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Primorsko-goranska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Primorsko-goranska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Primorsko-goranska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Sibensko-kninskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šibensko-kninska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Šibensko-kninska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Šibensko-kninska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Sisacko-moslavackaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sisačko-moslavačka županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Sisačko-moslavačka županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Sisačko-moslavačka županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Splitsko-dalmatinskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Splitsko-dalmatinska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Splitsko-dalmatinska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Splitsko-dalmatinska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:VarazdinskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Varaždinska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Varaždinska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Varaždinska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Viroviticko-podravskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Virovitičko-podravska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Virovitičko-podravska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Virovitičko-podravska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:Vukovarsko-srijemskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vukovarsko-srijemska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Vukovarsko-srijemska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Vukovarsko-srijemska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:ZadarskaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zadarska županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Zadarska županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Zadarska županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-2-hr:ZagrebackaZupanija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zagrebačka županija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HR/> ;
+	skos:definition "The county of Zagrebačka županija in the country of Croatia" ;
+	lcc-cr:hasLocalShortName "Zagrebačka županija"@hr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hr:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Croatia ;
+	.
+

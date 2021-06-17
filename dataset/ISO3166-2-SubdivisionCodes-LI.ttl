@@ -1,0 +1,363 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-li: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Liechtenstein Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-li" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Liechtenstein, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LI.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	.
+
+lcc-3166-2-li:Balzers
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balzers" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Balzers in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Balzers"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Commune
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "commune" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision category commune in the country of Liechtenstein" ;
+	.
+
+lcc-3166-2-li:Eschen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eschen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Eschen in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Eschen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Gamprin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gamprin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Gamprin in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Gamprin"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:LI-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Balzers in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Balzers ;
+	lcc-lr:hasTag "LI-01" ;
+	lcc-lr:identifies lcc-3166-2-li:Balzers ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Eschen in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Eschen ;
+	lcc-lr:hasTag "LI-02" ;
+	lcc-lr:identifies lcc-3166-2-li:Eschen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Gamprin in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Gamprin ;
+	lcc-lr:hasTag "LI-03" ;
+	lcc-lr:identifies lcc-3166-2-li:Gamprin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Mauren in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Mauren ;
+	lcc-lr:hasTag "LI-04" ;
+	lcc-lr:identifies lcc-3166-2-li:Mauren ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Planken in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Planken ;
+	lcc-lr:hasTag "LI-05" ;
+	lcc-lr:identifies lcc-3166-2-li:Planken ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Ruggell in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Ruggell ;
+	lcc-lr:hasTag "LI-06" ;
+	lcc-lr:identifies lcc-3166-2-li:Ruggell ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Schaan in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Schaan ;
+	lcc-lr:hasTag "LI-07" ;
+	lcc-lr:identifies lcc-3166-2-li:Schaan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Schellenberg in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Schellenberg ;
+	lcc-lr:hasTag "LI-08" ;
+	lcc-lr:identifies lcc-3166-2-li:Schellenberg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Triesen in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Triesen ;
+	lcc-lr:hasTag "LI-09" ;
+	lcc-lr:identifies lcc-3166-2-li:Triesen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Triesenberg in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Triesenberg ;
+	lcc-lr:hasTag "LI-10" ;
+	lcc-lr:identifies lcc-3166-2-li:Triesenberg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:LI-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LI-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "subdivision code for the commune of Vaduz in the country of Liechtenstein" ;
+	lcc-lr:denotes lcc-3166-2-li:Vaduz ;
+	lcc-lr:hasTag "LI-11" ;
+	lcc-lr:identifies lcc-3166-2-li:Vaduz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-li:Mauren
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mauren" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Mauren in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Mauren"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Planken
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Planken" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Planken in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Planken"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Ruggell
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ruggell" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Ruggell in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Ruggell"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Schaan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Schaan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Schaan in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Schaan"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Schellenberg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Schellenberg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Schellenberg in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Schellenberg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Triesen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Triesen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Triesen in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Triesen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Triesenberg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Triesenberg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Triesenberg in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Triesenberg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-2-li:Vaduz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vaduz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LI/> ;
+	skos:definition "The commune of Vaduz in the country of Liechtenstein" ;
+	lcc-cr:hasLocalShortName "Vaduz"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-li:Commune ;
+	lcc-cr:isSubregionOf lcc-3166-1:Liechtenstein ;
+	.
+

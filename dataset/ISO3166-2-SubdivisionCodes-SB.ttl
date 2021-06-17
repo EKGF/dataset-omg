@@ -1,0 +1,391 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sb: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Solomon Islands Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sb" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Solomon Islands, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SB.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	.
+
+lcc-3166-2-sb:CapitalTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "capital territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision category capital territory in the country of Solomon Islands" ;
+	.
+
+lcc-3166-2-sb:CapitalTerritoryHoniara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Capital Territory (Honiara)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The capital territory of Capital Territory (Honiara) in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Capital Territory (Honiara)"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:CapitalTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Central
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Central in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Central"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Choiseul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Choiseul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Choiseul in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Choiseul"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Guadalcanal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label
+		"Guadalcanal" ,
+		"Guadalcanal (principal island)"
+		;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition
+		"The province of Guadalcanal in the country of Solomon Islands" ,
+		"The territory of Guadalcanal (principal island) in the country of Solomon Islands"
+		;
+	lcc-cr:hasEnglishShortName
+		"Guadalcanal"@en ,
+		"Guadalcanal (principal island)"@en
+		;
+	lcc-cr:hasFrenchShortName "Guadalcanal (île principale)"@fr ;
+	lcc-cr:hasNumericRegionCode "1079" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-sb:Province
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Isabel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isabel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Isabel in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Isabel"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Makira-Ulawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Makira-Ulawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Makira-Ulawa in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Makira-Ulawa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Malaita
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Malaita" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Malaita in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Malaita"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision category province in the country of Solomon Islands" ;
+	.
+
+lcc-3166-2-sb:RennellAndBellona
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rennell and Bellona" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Rennell and Bellona in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Rennell and Bellona"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:SB-CE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Central in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Central ;
+	lcc-lr:hasTag "SB-CE" ;
+	lcc-lr:identifies lcc-3166-2-sb:Central ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-CH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-CH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Choiseul in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Choiseul ;
+	lcc-lr:hasTag "SB-CH" ;
+	lcc-lr:identifies lcc-3166-2-sb:Choiseul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-CT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the capital territory of Capital Territory (Honiara) in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:CapitalTerritoryHoniara ;
+	lcc-lr:hasTag "SB-CT" ;
+	lcc-lr:identifies lcc-3166-2-sb:CapitalTerritoryHoniara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-GU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-GU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Guadalcanal in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Guadalcanal ;
+	lcc-lr:hasTag "SB-GU" ;
+	lcc-lr:identifies lcc-3166-2-sb:Guadalcanal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-IS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-IS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Isabel in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Isabel ;
+	lcc-lr:hasTag "SB-IS" ;
+	lcc-lr:identifies lcc-3166-2-sb:Isabel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-MK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-MK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Makira-Ulawa in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Makira-Ulawa ;
+	lcc-lr:hasTag "SB-MK" ;
+	lcc-lr:identifies lcc-3166-2-sb:Makira-Ulawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-ML
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-ML" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Malaita in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Malaita ;
+	lcc-lr:hasTag "SB-ML" ;
+	lcc-lr:identifies lcc-3166-2-sb:Malaita ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-RB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-RB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Rennell and Bellona in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:RennellAndBellona ;
+	lcc-lr:hasTag "SB-RB" ;
+	lcc-lr:identifies lcc-3166-2-sb:RennellAndBellona ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-TE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-TE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Temotu in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Temotu ;
+	lcc-lr:hasTag "SB-TE" ;
+	lcc-lr:identifies lcc-3166-2-sb:Temotu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SB-WE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SB-WE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "subdivision code for the province of Western in the country of Solomon Islands" ;
+	lcc-lr:denotes lcc-3166-2-sb:Western ;
+	lcc-lr:hasTag "SB-WE" ;
+	lcc-lr:identifies lcc-3166-2-sb:Western ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sb:SantaCruzIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Santa Cruz Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The territory of Santa Cruz Islands in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Santa Cruz Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Santa Cruz"@fr ;
+	lcc-cr:hasNumericRegionCode "1186" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:SouthernSolomonIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Southern Solomon Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The territory of Southern Solomon Islands in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Southern Solomon Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Salomon du Sud"@fr ;
+	lcc-cr:hasNumericRegionCode "1181" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Temotu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Temotu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Temotu in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Temotu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-2-sb:Western
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SB/> ;
+	skos:definition "The province of Western in the country of Solomon Islands" ;
+	lcc-cr:hasEnglishShortName "Western"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sb:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SolomonIslands ;
+	.
+

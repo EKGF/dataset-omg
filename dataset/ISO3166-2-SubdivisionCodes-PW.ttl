@@ -1,0 +1,544 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-pw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Palau Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-pw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Palau, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	.
+
+lcc-3166-2-pw:Aimeliik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aimeliik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Aimeliik in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Aimeliik"@en ;
+	lcc-cr:hasLocalShortName "Aimeliik" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Airai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Airai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Airai in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Airai"@en ;
+	lcc-cr:hasLocalShortName "Airai" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Angaur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Angaur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Angaur in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Angaur"@en ;
+	lcc-cr:hasLocalShortName "Angaur" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Babelthuap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Babelthuap (principal island)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The territory of Babelthuap (principal island) in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Babelthuap (principal island)"@en ;
+	lcc-cr:hasFrenchShortName "Babelthuap (île principale)"@fr ;
+	lcc-cr:hasNumericRegionCode "1016" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Hatohobei
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hatohobei" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Hatohobei in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Hatohobei"@en ;
+	lcc-cr:hasLocalShortName "Hatohobei" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Kayangel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kayangel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Kayangel in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Kayangel"@en ;
+	lcc-cr:hasLocalShortName "Kayangel" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Koror
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Koror" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Koror in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Koror"@en ;
+	lcc-cr:hasLocalShortName "Koror" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Melekeok
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Melekeok" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Melekeok in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Melekeok"@en ;
+	lcc-cr:hasLocalShortName "Melekeok" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Ngaraard
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngaraard" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Ngaraard in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Ngaraard"@en ;
+	lcc-cr:hasLocalShortName "Ngaraard" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Ngarchelong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngarchelong" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Ngarchelong in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Ngarchelong"@en ;
+	lcc-cr:hasLocalShortName "Ngarchelong" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Ngardmau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngardmau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Ngardmau in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Ngardmau"@en ;
+	lcc-cr:hasLocalShortName "Ngardmau" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Ngatpang
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngatpang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Ngatpang in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Ngatpang"@en ;
+	lcc-cr:hasLocalShortName "Ngatpang" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Ngchesar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngchesar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Ngchesar in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Ngchesar"@en ;
+	lcc-cr:hasLocalShortName "Ngchesar" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Ngeremlengui
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngeremlengui" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Ngeremlengui in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Ngeremlengui"@en ;
+	lcc-cr:hasLocalShortName "Ngeremlengui" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Ngiwal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ngiwal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Ngiwal in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Ngiwal"@en ;
+	lcc-cr:hasLocalShortName "Ngiwal" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:PW-002
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-002" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Aimeliik in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Aimeliik ;
+	lcc-lr:hasTag "PW-002" ;
+	lcc-lr:identifies lcc-3166-2-pw:Aimeliik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-004
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-004" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Airai in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Airai ;
+	lcc-lr:hasTag "PW-004" ;
+	lcc-lr:identifies lcc-3166-2-pw:Airai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-010
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-010" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Angaur in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Angaur ;
+	lcc-lr:hasTag "PW-010" ;
+	lcc-lr:identifies lcc-3166-2-pw:Angaur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-050
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-050" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Hatohobei in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Hatohobei ;
+	lcc-lr:hasTag "PW-050" ;
+	lcc-lr:identifies lcc-3166-2-pw:Hatohobei ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-100
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-100" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Kayangel in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Kayangel ;
+	lcc-lr:hasTag "PW-100" ;
+	lcc-lr:identifies lcc-3166-2-pw:Kayangel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-150
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-150" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Koror in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Koror ;
+	lcc-lr:hasTag "PW-150" ;
+	lcc-lr:identifies lcc-3166-2-pw:Koror ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-212
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-212" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Melekeok in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Melekeok ;
+	lcc-lr:hasTag "PW-212" ;
+	lcc-lr:identifies lcc-3166-2-pw:Melekeok ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-214
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-214" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Ngaraard in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Ngaraard ;
+	lcc-lr:hasTag "PW-214" ;
+	lcc-lr:identifies lcc-3166-2-pw:Ngaraard ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-218
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-218" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Ngarchelong in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Ngarchelong ;
+	lcc-lr:hasTag "PW-218" ;
+	lcc-lr:identifies lcc-3166-2-pw:Ngarchelong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-222
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-222" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Ngardmau in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Ngardmau ;
+	lcc-lr:hasTag "PW-222" ;
+	lcc-lr:identifies lcc-3166-2-pw:Ngardmau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-224
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-224" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Ngatpang in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Ngatpang ;
+	lcc-lr:hasTag "PW-224" ;
+	lcc-lr:identifies lcc-3166-2-pw:Ngatpang ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-226
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-226" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Ngchesar in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Ngchesar ;
+	lcc-lr:hasTag "PW-226" ;
+	lcc-lr:identifies lcc-3166-2-pw:Ngchesar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-227
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-227" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Ngeremlengui in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Ngeremlengui ;
+	lcc-lr:hasTag "PW-227" ;
+	lcc-lr:identifies lcc-3166-2-pw:Ngeremlengui ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-228
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-228" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Ngiwal in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Ngiwal ;
+	lcc-lr:hasTag "PW-228" ;
+	lcc-lr:identifies lcc-3166-2-pw:Ngiwal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-350
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-350" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Peleliu in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Peleliu ;
+	lcc-lr:hasTag "PW-350" ;
+	lcc-lr:identifies lcc-3166-2-pw:Peleliu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:PW-370
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PW-370" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision code for the state of Sonsorol in the country of Palau" ;
+	lcc-lr:denotes lcc-3166-2-pw:Sonsorol ;
+	lcc-lr:hasTag "PW-370" ;
+	lcc-lr:identifies lcc-3166-2-pw:Sonsorol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pw:Peleliu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Peleliu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Peleliu in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Peleliu"@en ;
+	lcc-cr:hasLocalShortName "Peleliu" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:Sonsorol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sonsorol" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The state of Sonsorol in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "Sonsorol"@en ;
+	lcc-cr:hasLocalShortName "Sonsorol" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pw:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+
+lcc-3166-2-pw:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "subdivision category state in the country of Palau" ;
+	.
+
+lcc-3166-2-pw:TheWestPartOfTheCarolineIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "the west part of the Caroline Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PW/> ;
+	skos:definition "The territory of the west part of the Caroline Islands in the country of Palau" ;
+	lcc-cr:hasEnglishShortName "the west part of the Caroline Islands"@en ;
+	lcc-cr:hasFrenchShortName "la partie ouest des Îles Carolines"@fr ;
+	lcc-cr:hasNumericRegionCode "1036" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palau ;
+	.
+

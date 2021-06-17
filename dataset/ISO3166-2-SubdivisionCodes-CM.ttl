@@ -1,0 +1,346 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Cameroon Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Cameroon, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	.
+
+lcc-3166-2-cm:Adamaoua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Adamaoua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of Adamaoua in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "Adamaoua"@en ;
+	lcc-cr:hasFrenchShortName "Adamaoua"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:CM-AD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-AD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of Adamaoua in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:Adamaoua ;
+	lcc-lr:hasTag "CM-AD" ;
+	lcc-lr:identifies lcc-3166-2-cm:Adamaoua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-CE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of Centre in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:Centre ;
+	lcc-lr:hasTag "CM-CE" ;
+	lcc-lr:identifies lcc-3166-2-cm:Centre ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-EN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-EN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of Far North in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:FarNorth ;
+	lcc-lr:hasTag "CM-EN" ;
+	lcc-lr:identifies lcc-3166-2-cm:FarNorth ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-ES
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-ES" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of East in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:East ;
+	lcc-lr:hasTag "CM-ES" ;
+	lcc-lr:identifies lcc-3166-2-cm:East ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-LT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-LT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of Littoral in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:Littoral ;
+	lcc-lr:hasTag "CM-LT" ;
+	lcc-lr:identifies lcc-3166-2-cm:Littoral ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-NO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-NO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of North in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:North ;
+	lcc-lr:hasTag "CM-NO" ;
+	lcc-lr:identifies lcc-3166-2-cm:North ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-NW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-NW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of North-West in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:North-West ;
+	lcc-lr:hasTag "CM-NW" ;
+	lcc-lr:identifies lcc-3166-2-cm:North-West ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-OU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-OU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of West in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:West ;
+	lcc-lr:hasTag "CM-OU" ;
+	lcc-lr:identifies lcc-3166-2-cm:West ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-SU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of South in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:South ;
+	lcc-lr:hasTag "CM-SU" ;
+	lcc-lr:identifies lcc-3166-2-cm:South ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:CM-SW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CM-SW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision code for the region of South-West in the country of Cameroon" ;
+	lcc-lr:denotes lcc-3166-2-cm:South-West ;
+	lcc-lr:hasTag "CM-SW" ;
+	lcc-lr:identifies lcc-3166-2-cm:South-West ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cm:Centre
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centre" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of Centre in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "Centre"@en ;
+	lcc-cr:hasFrenchShortName "Centre"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:East
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "East" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of East in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "East"@en ;
+	lcc-cr:hasFrenchShortName "Est"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:FarNorth
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Far North" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of Far North in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "Far North"@en ;
+	lcc-cr:hasFrenchShortName "Extrême-Nord"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:Littoral
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Littoral" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of Littoral in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "Littoral"@en ;
+	lcc-cr:hasFrenchShortName "Littoral"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:North
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of North in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "North"@en ;
+	lcc-cr:hasFrenchShortName "Nord"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:North-West
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North-West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of North-West in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "North-West"@en ;
+	lcc-cr:hasFrenchShortName "Nord-Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "subdivision category region in the country of Cameroon" ;
+	.
+
+lcc-3166-2-cm:South
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of South in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "South"@en ;
+	lcc-cr:hasFrenchShortName "Sud"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:South-West
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South-West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of South-West in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "South-West"@en ;
+	lcc-cr:hasFrenchShortName "Sud-Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-2-cm:West
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CM/> ;
+	skos:definition "The region of West in the country of Cameroon" ;
+	lcc-cr:hasEnglishShortName "West"@en ;
+	lcc-cr:hasFrenchShortName "Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cameroon ;
+	.
+

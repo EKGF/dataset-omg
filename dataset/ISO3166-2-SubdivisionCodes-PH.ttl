@@ -1,0 +1,2820 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ph: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Philippines (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ph" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Philippines (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PH.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	.
+
+lcc-3166-2-ph:Abra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Abra in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Abra"@en ;
+	lcc-cr:hasLocalShortName "Abra"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	.
+
+lcc-3166-2-ph:AgusanDelNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Agusan del Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Agusan del Norte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Agusan del Norte"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Agusan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Caraga ;
+	.
+
+lcc-3166-2-ph:AgusanDelSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Agusan del Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Agusan del Sur in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Agusan del Sur"@en ;
+	lcc-cr:hasLocalShortName "Timog Agusan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Caraga ;
+	.
+
+lcc-3166-2-ph:Aklan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aklan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Aklan in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Aklan"@en ;
+	lcc-cr:hasLocalShortName "Aklan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:WesternVisayas ;
+	.
+
+lcc-3166-2-ph:Albay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Albay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Albay in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Albay"@en ;
+	lcc-cr:hasLocalShortName "Albay"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Bicol ;
+	.
+
+lcc-3166-2-ph:Antique
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Antique" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Antique in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Antique"@en ;
+	lcc-cr:hasLocalShortName "Antike"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:WesternVisayas ;
+	.
+
+lcc-3166-2-ph:Apayao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Apayao" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Apayao in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Apayao"@en ;
+	lcc-cr:hasLocalShortName "Apayaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	.
+
+lcc-3166-2-ph:Aurora
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aurora" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Aurora in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Aurora"@en ;
+	lcc-cr:hasLocalShortName "Aurora"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralLuzon ;
+	.
+
+lcc-3166-2-ph:AutonomousRegionInMuslimMindanao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Autonomous Region in Muslim Mindanao (ARMM)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Autonomous Region in Muslim Mindanao (ARMM) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Autonomous Region in Muslim Mindanao (ARMM)"@en ;
+	lcc-cr:hasLocalShortName "Nagsasariling Rehiyon ng Muslim sa Mindanaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Basilan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Basilan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Basilan in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Basilan"@en ;
+	lcc-cr:hasLocalShortName "Basilan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:ZamboangaPeninsula ;
+	.
+
+lcc-3166-2-ph:Bataan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bataan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Bataan in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Bataan"@en ;
+	lcc-cr:hasLocalShortName "Bataan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralLuzon ;
+	.
+
+lcc-3166-2-ph:Batanes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Batanes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Batanes in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Batanes"@en ;
+	lcc-cr:hasLocalShortName "Batanes"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CagayanValley ;
+	.
+
+lcc-3166-2-ph:Batangas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Batangas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Batangas in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Batangas"@en ;
+	lcc-cr:hasLocalShortName "Batangas"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Calabarzon ;
+	.
+
+lcc-3166-2-ph:Benguet
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Benguet" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Benguet in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Benguet"@en ;
+	lcc-cr:hasLocalShortName "Benget"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	.
+
+lcc-3166-2-ph:Bicol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bicol (Region V)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Bicol (Region V) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Bicol (Region V)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Bikol"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Biliran
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Biliran" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Biliran in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Biliran"@en ;
+	lcc-cr:hasLocalShortName "Biliran"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:EasternVisayas ;
+	.
+
+lcc-3166-2-ph:Bohol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bohol" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Bohol in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Bohol"@en ;
+	lcc-cr:hasLocalShortName "Bohol"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralVisayas ;
+	.
+
+lcc-3166-2-ph:Bukidnon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bukidnon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Bukidnon in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Bukidnon"@en ;
+	lcc-cr:hasLocalShortName "Bukidnon"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:NorthernMindanao ;
+	.
+
+lcc-3166-2-ph:Bulacan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bulacan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Bulacan in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Bulacan"@en ;
+	lcc-cr:hasLocalShortName "Bulakan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralLuzon ;
+	.
+
+lcc-3166-2-ph:Cagayan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cagayan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Cagayan in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Cagayan"@en ;
+	lcc-cr:hasLocalShortName "Kagayan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CagayanValley ;
+	.
+
+lcc-3166-2-ph:CagayanValley
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cagayan Valley (Region II)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Cagayan Valley (Region II) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Cagayan Valley (Region II)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Lambak ng Kagayan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Calabarzon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Calabarzon (Region IV-A)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Calabarzon (Region IV-A) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Calabarzon (Region IV-A)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Calabarzon"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:CamarinesNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Camarines Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Camarines Norte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Camarines Norte"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Kamarines"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Bicol ;
+	.
+
+lcc-3166-2-ph:CamarinesSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Camarines Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Camarines Sur in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Camarines Sur"@en ;
+	lcc-cr:hasLocalShortName "Timog Kamarines"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Bicol ;
+	.
+
+lcc-3166-2-ph:Camiguin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Camiguin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Camiguin in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Camiguin"@en ;
+	lcc-cr:hasLocalShortName "Kamigin"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:NorthernMindanao ;
+	.
+
+lcc-3166-2-ph:Capiz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Capiz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Capiz in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Capiz"@en ;
+	lcc-cr:hasLocalShortName "Kapis"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:WesternVisayas ;
+	.
+
+lcc-3166-2-ph:Caraga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caraga (Region XIII)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Caraga (Region XIII) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Caraga (Region XIII)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Karaga"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Catanduanes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Catanduanes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Catanduanes in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Catanduanes"@en ;
+	lcc-cr:hasLocalShortName "Katanduwanes"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Bicol ;
+	.
+
+lcc-3166-2-ph:Cavite
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cavite" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Cavite in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Cavite"@en ;
+	lcc-cr:hasLocalShortName "Kabite"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Calabarzon ;
+	.
+
+lcc-3166-2-ph:Cebu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cebu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Cebu in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Cebu"@en ;
+	lcc-cr:hasLocalShortName "Sebu"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralVisayas ;
+	.
+
+lcc-3166-2-ph:CentralLuzon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Luzon (Region III)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Central Luzon (Region III) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Central Luzon (Region III)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Gitnang Luson"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:CentralVisayas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Visayas (Region VII)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Central Visayas (Region VII) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Central Visayas (Region VII)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Gitnang Bisaya"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:CompostelaValley
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Compostela Valley" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Compostela Valley in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Compostela Valley"@en ;
+	lcc-cr:hasLocalShortName "Lambak ng Kompostela"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Davao ;
+	.
+
+lcc-3166-2-ph:CordilleraAdministrativeRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cordillera Administrative Region (CAR)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Cordillera Administrative Region (CAR) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Cordillera Administrative Region (CAR)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Administratibo ng Kordilyera"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Cotabato
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cotabato" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Cotabato in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Cotabato"@en ;
+	lcc-cr:hasLocalShortName "Kotabato"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Soccsksargen ;
+	.
+
+lcc-3166-2-ph:Davao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Davao (Region XI)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Davao (Region XI) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Davao (Region XI)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Dabaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:DavaoDelNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Davao del Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Davao del Norte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Davao del Norte"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Dabaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Davao ;
+	.
+
+lcc-3166-2-ph:DavaoDelSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Davao del Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Davao del Sur in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Davao del Sur"@en ;
+	lcc-cr:hasLocalShortName "Timog Dabaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Davao ;
+	.
+
+lcc-3166-2-ph:DavaoOccidental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Davao Occidental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Davao Occidental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Davao Occidental"@en ;
+	lcc-cr:hasLocalShortName "Kanlurang Dabaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Davao ;
+	.
+
+lcc-3166-2-ph:DavaoOriental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Davao Oriental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Davao Oriental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Davao Oriental"@en ;
+	lcc-cr:hasLocalShortName "Silangang Dabaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Davao ;
+	.
+
+lcc-3166-2-ph:DinagatIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dinagat Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Dinagat Islands in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Dinagat Islands"@en ;
+	lcc-cr:hasLocalShortName "Pulo ng Dinagat"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Caraga ;
+	.
+
+lcc-3166-2-ph:EasternSamar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern Samar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Eastern Samar in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Eastern Samar"@en ;
+	lcc-cr:hasLocalShortName "Silangang Samar"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:EasternVisayas ;
+	.
+
+lcc-3166-2-ph:EasternVisayas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern Visayas (Region VIII)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Eastern Visayas (Region VIII) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Eastern Visayas (Region VIII)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Silangang Bisaya"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Guimaras
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guimaras" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Guimaras in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Guimaras"@en ;
+	lcc-cr:hasLocalShortName "Gimaras"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:WesternVisayas ;
+	.
+
+lcc-3166-2-ph:Ifugao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ifugao" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Ifugao in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Ifugao"@en ;
+	lcc-cr:hasLocalShortName "Ipugaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	.
+
+lcc-3166-2-ph:Ilocos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilocos (Region I)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Ilocos (Region I) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Ilocos (Region I)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Iloko"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:IlocosNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilocos Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Ilocos Norte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Ilocos Norte"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Iloko"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Ilocos ;
+	.
+
+lcc-3166-2-ph:IlocosSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilocos Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Ilocos Sur in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Ilocos Sur"@en ;
+	lcc-cr:hasLocalShortName "Timog Iloko"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Ilocos ;
+	.
+
+lcc-3166-2-ph:Iloilo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iloilo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Iloilo in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Iloilo"@en ;
+	lcc-cr:hasLocalShortName "Iloilo"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:WesternVisayas ;
+	.
+
+lcc-3166-2-ph:Isabela
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isabela" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Isabela in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Isabela"@en ;
+	lcc-cr:hasLocalShortName "Isabela"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CagayanValley ;
+	.
+
+lcc-3166-2-ph:Kalinga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalinga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Kalinga in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Kalinga"@en ;
+	lcc-cr:hasLocalShortName "Kalinga"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	.
+
+lcc-3166-2-ph:LaUnion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Union" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of La Union in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "La Union"@en ;
+	lcc-cr:hasLocalShortName "La Unyon"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Ilocos ;
+	.
+
+lcc-3166-2-ph:Laguna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Laguna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Laguna in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Laguna"@en ;
+	lcc-cr:hasLocalShortName "Laguna"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Calabarzon ;
+	.
+
+lcc-3166-2-ph:LanaoDelNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lanao del Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Lanao del Norte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Lanao del Norte"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Lanaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Soccsksargen ;
+	.
+
+lcc-3166-2-ph:LanaoDelSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lanao del Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Lanao del Sur in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Lanao del Sur"@en ;
+	lcc-cr:hasLocalShortName "Timog Lanaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:AutonomousRegionInMuslimMindanao ;
+	.
+
+lcc-3166-2-ph:Leyte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Leyte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Leyte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Leyte"@en ;
+	lcc-cr:hasLocalShortName "Leyte"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:EasternVisayas ;
+	.
+
+lcc-3166-2-ph:Maguindanao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maguindanao" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Maguindanao in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Maguindanao"@en ;
+	lcc-cr:hasLocalShortName "Magindanaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:AutonomousRegionInMuslimMindanao ;
+	.
+
+lcc-3166-2-ph:Marinduque
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marinduque" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Marinduque in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Marinduque"@en ;
+	lcc-cr:hasLocalShortName "Marinduke"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Mimaropa ;
+	.
+
+lcc-3166-2-ph:Masbate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Masbate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Masbate in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Masbate"@en ;
+	lcc-cr:hasLocalShortName "Masbate"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Bicol ;
+	.
+
+lcc-3166-2-ph:Mimaropa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mimaropa (Region IV-B)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Mimaropa (Region IV-B) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Mimaropa (Region IV-B)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Mimaropa"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:MindoroOccidental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mindoro Occidental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Mindoro Occidental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Mindoro Occidental"@en ;
+	lcc-cr:hasLocalShortName "Kanlurang Mindoro"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Mimaropa ;
+	.
+
+lcc-3166-2-ph:MindoroOriental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mindoro Oriental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Mindoro Oriental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Mindoro Oriental"@en ;
+	lcc-cr:hasLocalShortName "Silangang Mindoro"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Mimaropa ;
+	.
+
+lcc-3166-2-ph:MisamisOccidental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Misamis Occidental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Misamis Occidental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Misamis Occidental"@en ;
+	lcc-cr:hasLocalShortName "Kanlurang Misamis"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:NorthernMindanao ;
+	.
+
+lcc-3166-2-ph:MisamisOriental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Misamis Oriental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Misamis Oriental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Misamis Oriental"@en ;
+	lcc-cr:hasLocalShortName "Silangang Misamis"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:NorthernMindanao ;
+	.
+
+lcc-3166-2-ph:MountainProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mountain Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Mountain Province in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Mountain Province"@en ;
+	lcc-cr:hasLocalShortName "Lalawigang Bulubundukin"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	.
+
+lcc-3166-2-ph:NationalCapitalRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "National Capital Region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of National Capital Region in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "National Capital Region"@en ;
+	lcc-cr:hasLocalShortName "Pambansang Punong Rehiyon"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:NegrosOccidental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Negros Occidental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Negros Occidental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Negros Occidental"@en ;
+	lcc-cr:hasLocalShortName "Kanlurang Negros"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:WesternVisayas ;
+	.
+
+lcc-3166-2-ph:NegrosOriental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Negros Oriental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Negros Oriental in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Negros Oriental"@en ;
+	lcc-cr:hasLocalShortName "Silangang Negros"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralVisayas ;
+	.
+
+lcc-3166-2-ph:NorthernMindanao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern Mindanao (Region X)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Northern Mindanao (Region X) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Northern Mindanao (Region X)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Hilagang Mindanaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:NorthernSamar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern Samar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Northern Samar in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Northern Samar"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Samar"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:EasternVisayas ;
+	.
+
+lcc-3166-2-ph:NuevaEcija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nueva Ecija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Nueva Ecija in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Nueva Ecija"@en ;
+	lcc-cr:hasLocalShortName "Nuweva Esiha"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralLuzon ;
+	.
+
+lcc-3166-2-ph:NuevaVizcaya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nueva Vizcaya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Nueva Vizcaya in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Nueva Vizcaya"@en ;
+	lcc-cr:hasLocalShortName "Nuweva Biskaya"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CagayanValley ;
+	.
+
+lcc-3166-2-ph:PH-00
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-00" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of National Capital Region in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:NationalCapitalRegion ;
+	lcc-lr:hasTag "PH-00" ;
+	lcc-lr:identifies lcc-3166-2-ph:NationalCapitalRegion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Ilocos (Region I) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Ilocos ;
+	lcc-lr:hasTag "PH-01" ;
+	lcc-lr:identifies lcc-3166-2-ph:Ilocos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Cagayan Valley (Region II) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:CagayanValley ;
+	lcc-lr:hasTag "PH-02" ;
+	lcc-lr:identifies lcc-3166-2-ph:CagayanValley ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Central Luzon (Region III) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:CentralLuzon ;
+	lcc-lr:hasTag "PH-03" ;
+	lcc-lr:identifies lcc-3166-2-ph:CentralLuzon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Bicol (Region V) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Bicol ;
+	lcc-lr:hasTag "PH-05" ;
+	lcc-lr:identifies lcc-3166-2-ph:Bicol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Western Visayas (Region VI) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:WesternVisayas ;
+	lcc-lr:hasTag "PH-06" ;
+	lcc-lr:identifies lcc-3166-2-ph:WesternVisayas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Central Visayas (Region VII) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:CentralVisayas ;
+	lcc-lr:hasTag "PH-07" ;
+	lcc-lr:identifies lcc-3166-2-ph:CentralVisayas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Eastern Visayas (Region VIII) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:EasternVisayas ;
+	lcc-lr:hasTag "PH-08" ;
+	lcc-lr:identifies lcc-3166-2-ph:EasternVisayas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Zamboanga Peninsula (Region IX) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:ZamboangaPeninsula ;
+	lcc-lr:hasTag "PH-09" ;
+	lcc-lr:identifies lcc-3166-2-ph:ZamboangaPeninsula ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Northern Mindanao (Region X) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:NorthernMindanao ;
+	lcc-lr:hasTag "PH-10" ;
+	lcc-lr:identifies lcc-3166-2-ph:NorthernMindanao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Davao (Region XI) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Davao ;
+	lcc-lr:hasTag "PH-11" ;
+	lcc-lr:identifies lcc-3166-2-ph:Davao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Soccsksargen (Region XII) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Soccsksargen ;
+	lcc-lr:hasTag "PH-12" ;
+	lcc-lr:identifies lcc-3166-2-ph:Soccsksargen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Caraga (Region XIII) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Caraga ;
+	lcc-lr:hasTag "PH-13" ;
+	lcc-lr:identifies lcc-3166-2-ph:Caraga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Autonomous Region in Muslim Mindanao (ARMM) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:AutonomousRegionInMuslimMindanao ;
+	lcc-lr:hasTag "PH-14" ;
+	lcc-lr:identifies lcc-3166-2-ph:AutonomousRegionInMuslimMindanao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Cordillera Administrative Region (CAR) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	lcc-lr:hasTag "PH-15" ;
+	lcc-lr:identifies lcc-3166-2-ph:CordilleraAdministrativeRegion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-40
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Calabarzon (Region IV-A) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Calabarzon ;
+	lcc-lr:hasTag "PH-40" ;
+	lcc-lr:identifies lcc-3166-2-ph:Calabarzon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the region of Mimaropa (Region IV-B) in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Mimaropa ;
+	lcc-lr:hasTag "PH-41" ;
+	lcc-lr:identifies lcc-3166-2-ph:Mimaropa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ABR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ABR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Abra in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Abra ;
+	lcc-lr:hasTag "PH-ABR" ;
+	lcc-lr:identifies lcc-3166-2-ph:Abra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-AGN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-AGN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Agusan del Norte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:AgusanDelNorte ;
+	lcc-lr:hasTag "PH-AGN" ;
+	lcc-lr:identifies lcc-3166-2-ph:AgusanDelNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-AGS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-AGS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Agusan del Sur in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:AgusanDelSur ;
+	lcc-lr:hasTag "PH-AGS" ;
+	lcc-lr:identifies lcc-3166-2-ph:AgusanDelSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-AKL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-AKL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Aklan in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Aklan ;
+	lcc-lr:hasTag "PH-AKL" ;
+	lcc-lr:identifies lcc-3166-2-ph:Aklan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ALB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ALB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Albay in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Albay ;
+	lcc-lr:hasTag "PH-ALB" ;
+	lcc-lr:identifies lcc-3166-2-ph:Albay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ANT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ANT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Antique in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Antique ;
+	lcc-lr:hasTag "PH-ANT" ;
+	lcc-lr:identifies lcc-3166-2-ph:Antique ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-APA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-APA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Apayao in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Apayao ;
+	lcc-lr:hasTag "PH-APA" ;
+	lcc-lr:identifies lcc-3166-2-ph:Apayao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-AUR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-AUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Aurora in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Aurora ;
+	lcc-lr:hasTag "PH-AUR" ;
+	lcc-lr:identifies lcc-3166-2-ph:Aurora ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Bataan in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Bataan ;
+	lcc-lr:hasTag "PH-BAN" ;
+	lcc-lr:identifies lcc-3166-2-ph:Bataan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Basilan in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Basilan ;
+	lcc-lr:hasTag "PH-BAS" ;
+	lcc-lr:identifies lcc-3166-2-ph:Basilan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BEN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Benguet in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Benguet ;
+	lcc-lr:hasTag "PH-BEN" ;
+	lcc-lr:identifies lcc-3166-2-ph:Benguet ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BIL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BIL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Biliran in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Biliran ;
+	lcc-lr:hasTag "PH-BIL" ;
+	lcc-lr:identifies lcc-3166-2-ph:Biliran ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BOH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BOH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Bohol in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Bohol ;
+	lcc-lr:hasTag "PH-BOH" ;
+	lcc-lr:identifies lcc-3166-2-ph:Bohol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BTG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BTG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Batangas in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Batangas ;
+	lcc-lr:hasTag "PH-BTG" ;
+	lcc-lr:identifies lcc-3166-2-ph:Batangas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BTN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BTN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Batanes in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Batanes ;
+	lcc-lr:hasTag "PH-BTN" ;
+	lcc-lr:identifies lcc-3166-2-ph:Batanes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BUK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BUK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Bukidnon in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Bukidnon ;
+	lcc-lr:hasTag "PH-BUK" ;
+	lcc-lr:identifies lcc-3166-2-ph:Bukidnon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-BUL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-BUL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Bulacan in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Bulacan ;
+	lcc-lr:hasTag "PH-BUL" ;
+	lcc-lr:identifies lcc-3166-2-ph:Bulacan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CAG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Cagayan in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Cagayan ;
+	lcc-lr:hasTag "PH-CAG" ;
+	lcc-lr:identifies lcc-3166-2-ph:Cagayan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Camiguin in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Camiguin ;
+	lcc-lr:hasTag "PH-CAM" ;
+	lcc-lr:identifies lcc-3166-2-ph:Camiguin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Camarines Norte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:CamarinesNorte ;
+	lcc-lr:hasTag "PH-CAN" ;
+	lcc-lr:identifies lcc-3166-2-ph:CamarinesNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CAP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CAP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Capiz in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Capiz ;
+	lcc-lr:hasTag "PH-CAP" ;
+	lcc-lr:identifies lcc-3166-2-ph:Capiz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Camarines Sur in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:CamarinesSur ;
+	lcc-lr:hasTag "PH-CAS" ;
+	lcc-lr:identifies lcc-3166-2-ph:CamarinesSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CAT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CAT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Catanduanes in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Catanduanes ;
+	lcc-lr:hasTag "PH-CAT" ;
+	lcc-lr:identifies lcc-3166-2-ph:Catanduanes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CAV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CAV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Cavite in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Cavite ;
+	lcc-lr:hasTag "PH-CAV" ;
+	lcc-lr:identifies lcc-3166-2-ph:Cavite ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-CEB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-CEB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Cebu in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Cebu ;
+	lcc-lr:hasTag "PH-CEB" ;
+	lcc-lr:identifies lcc-3166-2-ph:Cebu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-COM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-COM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Compostela Valley in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:CompostelaValley ;
+	lcc-lr:hasTag "PH-COM" ;
+	lcc-lr:identifies lcc-3166-2-ph:CompostelaValley ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-DAO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-DAO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Davao Oriental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:DavaoOriental ;
+	lcc-lr:hasTag "PH-DAO" ;
+	lcc-lr:identifies lcc-3166-2-ph:DavaoOriental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-DAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-DAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Davao del Sur in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:DavaoDelSur ;
+	lcc-lr:hasTag "PH-DAS" ;
+	lcc-lr:identifies lcc-3166-2-ph:DavaoDelSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-DAV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-DAV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Davao del Norte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:DavaoDelNorte ;
+	lcc-lr:hasTag "PH-DAV" ;
+	lcc-lr:identifies lcc-3166-2-ph:DavaoDelNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-DIN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-DIN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Dinagat Islands in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:DinagatIslands ;
+	lcc-lr:hasTag "PH-DIN" ;
+	lcc-lr:identifies lcc-3166-2-ph:DinagatIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-DVO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-DVO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Davao Occidental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:DavaoOccidental ;
+	lcc-lr:hasTag "PH-DVO" ;
+	lcc-lr:identifies lcc-3166-2-ph:DavaoOccidental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-EAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-EAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Eastern Samar in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:EasternSamar ;
+	lcc-lr:hasTag "PH-EAS" ;
+	lcc-lr:identifies lcc-3166-2-ph:EasternSamar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-GUI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-GUI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Guimaras in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Guimaras ;
+	lcc-lr:hasTag "PH-GUI" ;
+	lcc-lr:identifies lcc-3166-2-ph:Guimaras ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-IFU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-IFU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Ifugao in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Ifugao ;
+	lcc-lr:hasTag "PH-IFU" ;
+	lcc-lr:identifies lcc-3166-2-ph:Ifugao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ILI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ILI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Iloilo in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Iloilo ;
+	lcc-lr:hasTag "PH-ILI" ;
+	lcc-lr:identifies lcc-3166-2-ph:Iloilo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ILN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ILN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Ilocos Norte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:IlocosNorte ;
+	lcc-lr:hasTag "PH-ILN" ;
+	lcc-lr:identifies lcc-3166-2-ph:IlocosNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ILS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ILS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Ilocos Sur in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:IlocosSur ;
+	lcc-lr:hasTag "PH-ILS" ;
+	lcc-lr:identifies lcc-3166-2-ph:IlocosSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ISA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ISA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Isabela in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Isabela ;
+	lcc-lr:hasTag "PH-ISA" ;
+	lcc-lr:identifies lcc-3166-2-ph:Isabela ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-KAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-KAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Kalinga in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Kalinga ;
+	lcc-lr:hasTag "PH-KAL" ;
+	lcc-lr:identifies lcc-3166-2-ph:Kalinga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-LAG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-LAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Laguna in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Laguna ;
+	lcc-lr:hasTag "PH-LAG" ;
+	lcc-lr:identifies lcc-3166-2-ph:Laguna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-LAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-LAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Lanao del Norte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:LanaoDelNorte ;
+	lcc-lr:hasTag "PH-LAN" ;
+	lcc-lr:identifies lcc-3166-2-ph:LanaoDelNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-LAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-LAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Lanao del Sur in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:LanaoDelSur ;
+	lcc-lr:hasTag "PH-LAS" ;
+	lcc-lr:identifies lcc-3166-2-ph:LanaoDelSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-LEY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-LEY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Leyte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Leyte ;
+	lcc-lr:hasTag "PH-LEY" ;
+	lcc-lr:identifies lcc-3166-2-ph:Leyte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-LUN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-LUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of La Union in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:LaUnion ;
+	lcc-lr:hasTag "PH-LUN" ;
+	lcc-lr:identifies lcc-3166-2-ph:LaUnion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MAD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MAD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Marinduque in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Marinduque ;
+	lcc-lr:hasTag "PH-MAD" ;
+	lcc-lr:identifies lcc-3166-2-ph:Marinduque ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MAG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Maguindanao in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Maguindanao ;
+	lcc-lr:hasTag "PH-MAG" ;
+	lcc-lr:identifies lcc-3166-2-ph:Maguindanao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Masbate in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Masbate ;
+	lcc-lr:hasTag "PH-MAS" ;
+	lcc-lr:identifies lcc-3166-2-ph:Masbate ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MDC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MDC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Mindoro Occidental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:MindoroOccidental ;
+	lcc-lr:hasTag "PH-MDC" ;
+	lcc-lr:identifies lcc-3166-2-ph:MindoroOccidental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MDR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MDR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Mindoro Oriental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:MindoroOriental ;
+	lcc-lr:hasTag "PH-MDR" ;
+	lcc-lr:identifies lcc-3166-2-ph:MindoroOriental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Mountain Province in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:MountainProvince ;
+	lcc-lr:hasTag "PH-MOU" ;
+	lcc-lr:identifies lcc-3166-2-ph:MountainProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MSC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MSC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Misamis Occidental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:MisamisOccidental ;
+	lcc-lr:hasTag "PH-MSC" ;
+	lcc-lr:identifies lcc-3166-2-ph:MisamisOccidental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-MSR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-MSR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Misamis Oriental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:MisamisOriental ;
+	lcc-lr:hasTag "PH-MSR" ;
+	lcc-lr:identifies lcc-3166-2-ph:MisamisOriental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-NCO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-NCO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Cotabato in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Cotabato ;
+	lcc-lr:hasTag "PH-NCO" ;
+	lcc-lr:identifies lcc-3166-2-ph:Cotabato ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-NEC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-NEC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Negros Occidental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:NegrosOccidental ;
+	lcc-lr:hasTag "PH-NEC" ;
+	lcc-lr:identifies lcc-3166-2-ph:NegrosOccidental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-NER
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-NER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Negros Oriental in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:NegrosOriental ;
+	lcc-lr:hasTag "PH-NER" ;
+	lcc-lr:identifies lcc-3166-2-ph:NegrosOriental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-NSA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-NSA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Northern Samar in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:NorthernSamar ;
+	lcc-lr:hasTag "PH-NSA" ;
+	lcc-lr:identifies lcc-3166-2-ph:NorthernSamar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-NUE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-NUE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Nueva Ecija in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:NuevaEcija ;
+	lcc-lr:hasTag "PH-NUE" ;
+	lcc-lr:identifies lcc-3166-2-ph:NuevaEcija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-NUV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-NUV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Nueva Vizcaya in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:NuevaVizcaya ;
+	lcc-lr:hasTag "PH-NUV" ;
+	lcc-lr:identifies lcc-3166-2-ph:NuevaVizcaya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-PAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-PAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Pampanga in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Pampanga ;
+	lcc-lr:hasTag "PH-PAM" ;
+	lcc-lr:identifies lcc-3166-2-ph:Pampanga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-PAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-PAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Pangasinan in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Pangasinan ;
+	lcc-lr:hasTag "PH-PAN" ;
+	lcc-lr:identifies lcc-3166-2-ph:Pangasinan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-PLW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-PLW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Palawan in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Palawan ;
+	lcc-lr:hasTag "PH-PLW" ;
+	lcc-lr:identifies lcc-3166-2-ph:Palawan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-QUE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-QUE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Quezon in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Quezon ;
+	lcc-lr:hasTag "PH-QUE" ;
+	lcc-lr:identifies lcc-3166-2-ph:Quezon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-QUI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-QUI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Quirino in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Quirino ;
+	lcc-lr:hasTag "PH-QUI" ;
+	lcc-lr:identifies lcc-3166-2-ph:Quirino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-RIZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-RIZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Rizal in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Rizal ;
+	lcc-lr:hasTag "PH-RIZ" ;
+	lcc-lr:identifies lcc-3166-2-ph:Rizal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ROM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ROM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Romblon in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Romblon ;
+	lcc-lr:hasTag "PH-ROM" ;
+	lcc-lr:identifies lcc-3166-2-ph:Romblon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Sarangani in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Sarangani ;
+	lcc-lr:hasTag "PH-SAR" ;
+	lcc-lr:identifies lcc-3166-2-ph:Sarangani ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SCO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SCO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of South Cotabato in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:SouthCotabato ;
+	lcc-lr:hasTag "PH-SCO" ;
+	lcc-lr:identifies lcc-3166-2-ph:SouthCotabato ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SIG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SIG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Siquijor in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Siquijor ;
+	lcc-lr:hasTag "PH-SIG" ;
+	lcc-lr:identifies lcc-3166-2-ph:Siquijor ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SLE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SLE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Southern Leyte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:SouthernLeyte ;
+	lcc-lr:hasTag "PH-SLE" ;
+	lcc-lr:identifies lcc-3166-2-ph:SouthernLeyte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SLU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SLU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Sulu in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Sulu ;
+	lcc-lr:hasTag "PH-SLU" ;
+	lcc-lr:identifies lcc-3166-2-ph:Sulu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SOR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Sorsogon in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Sorsogon ;
+	lcc-lr:hasTag "PH-SOR" ;
+	lcc-lr:identifies lcc-3166-2-ph:Sorsogon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SUK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SUK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Sultan Kudarat in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:SultanKudarat ;
+	lcc-lr:hasTag "PH-SUK" ;
+	lcc-lr:identifies lcc-3166-2-ph:SultanKudarat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SUN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Surigao del Norte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:SurigaoDelNorte ;
+	lcc-lr:hasTag "PH-SUN" ;
+	lcc-lr:identifies lcc-3166-2-ph:SurigaoDelNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-SUR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-SUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Surigao del Sur in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:SurigaoDelSur ;
+	lcc-lr:hasTag "PH-SUR" ;
+	lcc-lr:identifies lcc-3166-2-ph:SurigaoDelSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-TAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-TAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Tarlac in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Tarlac ;
+	lcc-lr:hasTag "PH-TAR" ;
+	lcc-lr:identifies lcc-3166-2-ph:Tarlac ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-TAW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-TAW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Tawi-Tawi in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Tawi-Tawi ;
+	lcc-lr:hasTag "PH-TAW" ;
+	lcc-lr:identifies lcc-3166-2-ph:Tawi-Tawi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-WSA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-WSA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Samar in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Samar ;
+	lcc-lr:hasTag "PH-WSA" ;
+	lcc-lr:identifies lcc-3166-2-ph:Samar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ZAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ZAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Zamboanga del Norte in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:ZamboangaDelNorte ;
+	lcc-lr:hasTag "PH-ZAN" ;
+	lcc-lr:identifies lcc-3166-2-ph:ZamboangaDelNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ZAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ZAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Zamboanga del Sur in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:ZamboangaDelSur ;
+	lcc-lr:hasTag "PH-ZAS" ;
+	lcc-lr:identifies lcc-3166-2-ph:ZamboangaDelSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ZMB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ZMB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Zambales in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:Zambales ;
+	lcc-lr:hasTag "PH-ZMB" ;
+	lcc-lr:identifies lcc-3166-2-ph:Zambales ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:PH-ZSI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PH-ZSI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision code for the province of Zamboanga Sibugay in the country of Philippines (the)" ;
+	lcc-lr:denotes lcc-3166-2-ph:ZamboangaSibugay ;
+	lcc-lr:hasTag "PH-ZSI" ;
+	lcc-lr:identifies lcc-3166-2-ph:ZamboangaSibugay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ph:Palawan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Palawan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Palawan in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Palawan"@en ;
+	lcc-cr:hasLocalShortName "Palawan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Mimaropa ;
+	.
+
+lcc-3166-2-ph:Pampanga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pampanga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Pampanga in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Pampanga"@en ;
+	lcc-cr:hasLocalShortName "Pampanga"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralLuzon ;
+	.
+
+lcc-3166-2-ph:Pangasinan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pangasinan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Pangasinan in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Pangasinan"@en ;
+	lcc-cr:hasLocalShortName "Pangasinan"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Ilocos ;
+	.
+
+lcc-3166-2-ph:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision category province in the country of Philippines (the)" ;
+	.
+
+lcc-3166-2-ph:Quezon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quezon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Quezon in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Quezon"@en ;
+	lcc-cr:hasLocalShortName "Keson"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Calabarzon ;
+	.
+
+lcc-3166-2-ph:Quirino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quirino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Quirino in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Quirino"@en ;
+	lcc-cr:hasLocalShortName "Kirino"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CagayanValley ;
+	.
+
+lcc-3166-2-ph:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "subdivision category region in the country of Philippines (the)" ;
+	.
+
+lcc-3166-2-ph:Rizal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rizal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Rizal in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Rizal"@en ;
+	lcc-cr:hasLocalShortName "Risal"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Calabarzon ;
+	.
+
+lcc-3166-2-ph:Romblon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Romblon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Romblon in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Romblon"@en ;
+	lcc-cr:hasLocalShortName "Romblon"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Mimaropa ;
+	.
+
+lcc-3166-2-ph:Samar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Samar in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Samar"@en ;
+	lcc-cr:hasLocalShortName "Samar"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:EasternVisayas ;
+	.
+
+lcc-3166-2-ph:Sarangani
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sarangani" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Sarangani in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Sarangani"@en ;
+	lcc-cr:hasLocalShortName "Sarangani"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Davao ;
+	.
+
+lcc-3166-2-ph:Siquijor
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siquijor" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Siquijor in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Siquijor"@en ;
+	lcc-cr:hasLocalShortName "Sikihor"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralVisayas ;
+	.
+
+lcc-3166-2-ph:Soccsksargen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Soccsksargen (Region XII)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Soccsksargen (Region XII) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Soccsksargen (Region XII)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Soccsksargen"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Sorsogon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sorsogon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Sorsogon in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Sorsogon"@en ;
+	lcc-cr:hasLocalShortName "Sorsogon"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Bicol ;
+	.
+
+lcc-3166-2-ph:SouthCotabato
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Cotabato" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of South Cotabato in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "South Cotabato"@en ;
+	lcc-cr:hasLocalShortName "Timog Kotabato"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Davao ;
+	.
+
+lcc-3166-2-ph:SouthernLeyte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern Leyte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Southern Leyte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Southern Leyte"@en ;
+	lcc-cr:hasLocalShortName "Katimogang Leyte"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:EasternVisayas ;
+	.
+
+lcc-3166-2-ph:SultanKudarat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sultan Kudarat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Sultan Kudarat in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Sultan Kudarat"@en ;
+	lcc-cr:hasLocalShortName "Sultan Kudarat"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Soccsksargen ;
+	.
+
+lcc-3166-2-ph:Sulu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Sulu in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Sulu"@en ;
+	lcc-cr:hasLocalShortName "Sulu"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:AutonomousRegionInMuslimMindanao ;
+	.
+
+lcc-3166-2-ph:SurigaoDelNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Surigao del Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Surigao del Norte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Surigao del Norte"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Surigaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Caraga ;
+	.
+
+lcc-3166-2-ph:SurigaoDelSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Surigao del Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Surigao del Sur in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Surigao del Sur"@en ;
+	lcc-cr:hasLocalShortName "Timog Surigaw"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:Caraga ;
+	.
+
+lcc-3166-2-ph:Tarlac
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarlac" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Tarlac in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Tarlac"@en ;
+	lcc-cr:hasLocalShortName "Tarlak"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralLuzon ;
+	.
+
+lcc-3166-2-ph:Tawi-Tawi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tawi-Tawi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Tawi-Tawi in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Tawi-Tawi"@en ;
+	lcc-cr:hasLocalShortName "Tawi-Tawi"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:AutonomousRegionInMuslimMindanao ;
+	.
+
+lcc-3166-2-ph:WesternVisayas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western Visayas (Region VI)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Western Visayas (Region VI) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Western Visayas (Region VI)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Kanlurang Bisaya"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:Zambales
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zambales" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Zambales in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Zambales"@en ;
+	lcc-cr:hasLocalShortName "Sambales"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:CentralLuzon ;
+	.
+
+lcc-3166-2-ph:ZamboangaDelNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zamboanga del Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Zamboanga del Norte in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Zamboanga del Norte"@en ;
+	lcc-cr:hasLocalShortName "Hilagang Sambuwangga"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:ZamboangaPeninsula ;
+	.
+
+lcc-3166-2-ph:ZamboangaDelSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zamboanga del Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Zamboanga del Sur in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Zamboanga del Sur"@en ;
+	lcc-cr:hasLocalShortName "Timog Sambuwangga"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:ZamboangaPeninsula ;
+	.
+
+lcc-3166-2-ph:ZamboangaPeninsula
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zamboanga Peninsula (Region IX)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The region of Zamboanga Peninsula (Region IX) in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Zamboanga Peninsula (Region IX)"@en ;
+	lcc-cr:hasLocalShortName "Rehiyon ng Tangway ng Sambuwangga"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-2-ph:ZamboangaSibugay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zamboanga Sibugay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PH/> ;
+	skos:definition "The province of Zamboanga Sibugay in the country of Philippines (the)" ;
+	lcc-cr:hasEnglishShortName "Zamboanga Sibugay"@en ;
+	lcc-cr:hasLocalShortName "Sambuwangga Sibugay"@tl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ph:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-ph:ZamboangaPeninsula ;
+	.
+

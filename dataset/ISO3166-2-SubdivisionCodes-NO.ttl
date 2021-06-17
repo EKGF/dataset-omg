@@ -1,0 +1,672 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-no: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Norway Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-no" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Norway, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	.
+
+lcc-3166-2-no:Akershus
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Akershus" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Akershus in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Akershus"@nb ,
+		"Akershus"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:ArcticRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "arctic region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision category arctic region in the country of Norway" ;
+	.
+
+lcc-3166-2-no:Aust-Agder
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aust-Agder" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Aust-Agder in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Aust-Agder"@nb ,
+		"Aust-Agder"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Buskerud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buskerud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Buskerud in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Buskerud"@nb ,
+		"Buskerud"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:County
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "county" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision category county in the country of Norway" ;
+	.
+
+lcc-3166-2-no:Finnmarku
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Finnmárku" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Finnmárku in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Finnmark"@nb ,
+		"Finnmark"@nn ,
+		"Finnmárku"@se
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Hedmark
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hedmark" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Hedmark in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Hedmark"@nb ,
+		"Hedmark"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Hordaland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hordaland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Hordaland in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Hordaland"@nb ,
+		"Hordaland"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:JanMayen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:SvalbardAndJanMayen ;
+	rdfs:label "Jan Mayen (Arctic Region) (see also separate country code entry under SJ)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The arctic region of Jan Mayen (Arctic Region) (see also separate country code entry under SJ) in the country of Norway" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:ArcticRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:MreOgRomsdal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Møre og Romsdal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Møre og Romsdal in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Møre og Romsdal"@nb ,
+		"Møre og Romsdal"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:NO-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Østfold in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:stfold ;
+	lcc-lr:hasTag "NO-01" ;
+	lcc-lr:identifies lcc-3166-2-no:stfold ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Akershus in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Akershus ;
+	lcc-lr:hasTag "NO-02" ;
+	lcc-lr:identifies lcc-3166-2-no:Akershus ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Oslo in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Oslo ;
+	lcc-lr:hasTag "NO-03" ;
+	lcc-lr:identifies lcc-3166-2-no:Oslo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Hedmark in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Hedmark ;
+	lcc-lr:hasTag "NO-04" ;
+	lcc-lr:identifies lcc-3166-2-no:Hedmark ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Oppland in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Oppland ;
+	lcc-lr:hasTag "NO-05" ;
+	lcc-lr:identifies lcc-3166-2-no:Oppland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Buskerud in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Buskerud ;
+	lcc-lr:hasTag "NO-06" ;
+	lcc-lr:identifies lcc-3166-2-no:Buskerud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Vestfold in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Vestfold ;
+	lcc-lr:hasTag "NO-07" ;
+	lcc-lr:identifies lcc-3166-2-no:Vestfold ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Telemark in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Telemark ;
+	lcc-lr:hasTag "NO-08" ;
+	lcc-lr:identifies lcc-3166-2-no:Telemark ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Aust-Agder in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Aust-Agder ;
+	lcc-lr:hasTag "NO-09" ;
+	lcc-lr:identifies lcc-3166-2-no:Aust-Agder ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Vest-Agder in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Vest-Agder ;
+	lcc-lr:hasTag "NO-10" ;
+	lcc-lr:identifies lcc-3166-2-no:Vest-Agder ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Rogaland in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Rogaland ;
+	lcc-lr:hasTag "NO-11" ;
+	lcc-lr:identifies lcc-3166-2-no:Rogaland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Hordaland in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Hordaland ;
+	lcc-lr:hasTag "NO-12" ;
+	lcc-lr:identifies lcc-3166-2-no:Hordaland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Sogn og Fjordane in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:SognOgFjordane ;
+	lcc-lr:hasTag "NO-14" ;
+	lcc-lr:identifies lcc-3166-2-no:SognOgFjordane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Møre og Romsdal in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:MreOgRomsdal ;
+	lcc-lr:hasTag "NO-15" ;
+	lcc-lr:identifies lcc-3166-2-no:MreOgRomsdal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Nordland in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Nordland ;
+	lcc-lr:hasTag "NO-18" ;
+	lcc-lr:identifies lcc-3166-2-no:Nordland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Romsa in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Romsa ;
+	lcc-lr:hasTag "NO-19" ;
+	lcc-lr:identifies lcc-3166-2-no:Romsa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Finnmárku in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Finnmarku ;
+	lcc-lr:hasTag "NO-20" ;
+	lcc-lr:identifies lcc-3166-2-no:Finnmarku ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the arctic region of Svalbard (Arctic Region) (see also separate country code entry under SJ) in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Svalbard ;
+	lcc-lr:hasTag "NO-21" ;
+	lcc-lr:identifies lcc-3166-2-no:Svalbard ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the arctic region of Jan Mayen (Arctic Region) (see also separate country code entry under SJ) in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:JanMayen ;
+	lcc-lr:hasTag "NO-22" ;
+	lcc-lr:identifies lcc-3166-2-no:JanMayen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:NO-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NO-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "subdivision code for the county of Trøndelag in the country of Norway" ;
+	lcc-lr:denotes lcc-3166-2-no:Trndelag ;
+	lcc-lr:hasTag "NO-23" ;
+	lcc-lr:identifies lcc-3166-2-no:Trndelag ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-no:Nordland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nordland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Nordland in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Nordland"@nb ,
+		"Nordland"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Oppland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oppland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Oppland in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Oppland"@nb ,
+		"Oppland"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Oslo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oslo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Oslo in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Oslo"@nb ,
+		"Oslo"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Rogaland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rogaland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Rogaland in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Rogaland"@nb ,
+		"Rogaland"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Romsa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Romsa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Romsa in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Romsa"@se ,
+		"Troms"@nb ,
+		"Troms"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:SognOgFjordane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sogn og Fjordane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Sogn og Fjordane in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Sogn og Fjordane"@nb ,
+		"Sogn og Fjordane"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Svalbard
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:SvalbardAndJanMayen ;
+	rdfs:label "Svalbard (Arctic Region) (see also separate country code entry under SJ)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The arctic region of Svalbard (Arctic Region) (see also separate country code entry under SJ) in the country of Norway" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:ArcticRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Telemark
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Telemark" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Telemark in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Telemark"@nb ,
+		"Telemark"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Trndelag
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trøndelag" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Trøndelag in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Trøndelag"@nb ,
+		"Trøndelag"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Vest-Agder
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vest-Agder" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Vest-Agder in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Vest-Agder"@nb ,
+		"Vest-Agder"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:Vestfold
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vestfold" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Vestfold in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Vestfold"@nb ,
+		"Vestfold"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+
+lcc-3166-2-no:stfold
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Østfold" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NO/> ;
+	skos:definition "The county of Østfold in the country of Norway" ;
+	lcc-cr:hasLocalShortName
+		"Østfold"@nb ,
+		"Østfold"@nn
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-no:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Norway ;
+	.
+

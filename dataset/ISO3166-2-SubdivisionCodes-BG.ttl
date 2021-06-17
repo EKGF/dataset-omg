@@ -1,0 +1,822 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bg: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Bulgaria Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bg" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Bulgaria, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	.
+
+lcc-3166-2-bg:BG-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Blagoevgrad in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Blagoevgrad ;
+	lcc-lr:hasTag "BG-01" ;
+	lcc-lr:identifies lcc-3166-2-bg:Blagoevgrad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Burgas in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Burgas ;
+	lcc-lr:hasTag "BG-02" ;
+	lcc-lr:identifies lcc-3166-2-bg:Burgas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Varna in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Varna ;
+	lcc-lr:hasTag "BG-03" ;
+	lcc-lr:identifies lcc-3166-2-bg:Varna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Veliko Tarnovo in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:VelikoTarnovo ;
+	lcc-lr:hasTag "BG-04" ;
+	lcc-lr:identifies lcc-3166-2-bg:VelikoTarnovo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Vidin in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Vidin ;
+	lcc-lr:hasTag "BG-05" ;
+	lcc-lr:identifies lcc-3166-2-bg:Vidin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Vratsa in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Vratsa ;
+	lcc-lr:hasTag "BG-06" ;
+	lcc-lr:identifies lcc-3166-2-bg:Vratsa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Gabrovo in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Gabrovo ;
+	lcc-lr:hasTag "BG-07" ;
+	lcc-lr:identifies lcc-3166-2-bg:Gabrovo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Dobrich in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Dobrich ;
+	lcc-lr:hasTag "BG-08" ;
+	lcc-lr:identifies lcc-3166-2-bg:Dobrich ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Kardzhali in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Kardzhali ;
+	lcc-lr:hasTag "BG-09" ;
+	lcc-lr:identifies lcc-3166-2-bg:Kardzhali ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Kyustendil in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Kyustendil ;
+	lcc-lr:hasTag "BG-10" ;
+	lcc-lr:identifies lcc-3166-2-bg:Kyustendil ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Lovech in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Lovech ;
+	lcc-lr:hasTag "BG-11" ;
+	lcc-lr:identifies lcc-3166-2-bg:Lovech ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Montana in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Montana ;
+	lcc-lr:hasTag "BG-12" ;
+	lcc-lr:identifies lcc-3166-2-bg:Montana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Pazardzhik in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Pazardzhik ;
+	lcc-lr:hasTag "BG-13" ;
+	lcc-lr:identifies lcc-3166-2-bg:Pazardzhik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Pernik in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Pernik ;
+	lcc-lr:hasTag "BG-14" ;
+	lcc-lr:identifies lcc-3166-2-bg:Pernik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Pleven in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Pleven ;
+	lcc-lr:hasTag "BG-15" ;
+	lcc-lr:identifies lcc-3166-2-bg:Pleven ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Plovdiv in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Plovdiv ;
+	lcc-lr:hasTag "BG-16" ;
+	lcc-lr:identifies lcc-3166-2-bg:Plovdiv ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Razgrad in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Razgrad ;
+	lcc-lr:hasTag "BG-17" ;
+	lcc-lr:identifies lcc-3166-2-bg:Razgrad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Ruse in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Ruse ;
+	lcc-lr:hasTag "BG-18" ;
+	lcc-lr:identifies lcc-3166-2-bg:Ruse ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Silistra in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Silistra ;
+	lcc-lr:hasTag "BG-19" ;
+	lcc-lr:identifies lcc-3166-2-bg:Silistra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Sliven in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Sliven ;
+	lcc-lr:hasTag "BG-20" ;
+	lcc-lr:identifies lcc-3166-2-bg:Sliven ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Smolyan in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Smolyan ;
+	lcc-lr:hasTag "BG-21" ;
+	lcc-lr:identifies lcc-3166-2-bg:Smolyan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Sofia (stolitsa) in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:SofiaStolitsa ;
+	lcc-lr:hasTag "BG-22" ;
+	lcc-lr:identifies lcc-3166-2-bg:SofiaStolitsa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Sofia in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Sofia ;
+	lcc-lr:hasTag "BG-23" ;
+	lcc-lr:identifies lcc-3166-2-bg:Sofia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-24
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Stara Zagora in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:StaraZagora ;
+	lcc-lr:hasTag "BG-24" ;
+	lcc-lr:identifies lcc-3166-2-bg:StaraZagora ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Targovishte in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Targovishte ;
+	lcc-lr:hasTag "BG-25" ;
+	lcc-lr:identifies lcc-3166-2-bg:Targovishte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Haskovo in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Haskovo ;
+	lcc-lr:hasTag "BG-26" ;
+	lcc-lr:identifies lcc-3166-2-bg:Haskovo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-27
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Shumen in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Shumen ;
+	lcc-lr:hasTag "BG-27" ;
+	lcc-lr:identifies lcc-3166-2-bg:Shumen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:BG-28
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BG-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision code for the district of Yambol in the country of Bulgaria" ;
+	lcc-lr:denotes lcc-3166-2-bg:Yambol ;
+	lcc-lr:hasTag "BG-28" ;
+	lcc-lr:identifies lcc-3166-2-bg:Yambol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bg:Blagoevgrad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Blagoevgrad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Blagoevgrad in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Blagoevgrad"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Burgas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Burgas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Burgas in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Burgas"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "subdivision category district in the country of Bulgaria" ;
+	.
+
+lcc-3166-2-bg:Dobrich
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dobrich" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Dobrich in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Dobrich"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Gabrovo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gabrovo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Gabrovo in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Gabrovo"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Haskovo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haskovo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Haskovo in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Haskovo"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Kardzhali
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kardzhali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Kardzhali in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Kardzhali"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Kyustendil
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyustendil" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Kyustendil in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Kyustendil"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Lovech
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lovech" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Lovech in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Lovech"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Montana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Montana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Montana in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Montana"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Pazardzhik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pazardzhik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Pazardzhik in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Pazardzhik"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Pernik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pernik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Pernik in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Pernik"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Pleven
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pleven" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Pleven in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Pleven"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Plovdiv
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plovdiv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Plovdiv in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Plovdiv"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Razgrad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Razgrad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Razgrad in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Razgrad"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Ruse
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ruse" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Ruse in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Ruse"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Shumen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shumen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Shumen in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Shumen"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Silistra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Silistra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Silistra in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Silistra"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Sliven
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sliven" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Sliven in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Sliven"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Smolyan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Smolyan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Smolyan in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Smolyan"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Sofia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sofia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Sofia in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Sofia"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:SofiaStolitsa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sofia (stolitsa)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Sofia (stolitsa) in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Sofia (stolitsa)"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:StaraZagora
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Stara Zagora" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Stara Zagora in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Stara Zagora"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Targovishte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Targovishte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Targovishte in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Targovishte"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Varna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Varna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Varna in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Varna"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:VelikoTarnovo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Veliko Tarnovo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Veliko Tarnovo in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Veliko Tarnovo"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Vidin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vidin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Vidin in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Vidin"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Vratsa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vratsa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Vratsa in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Vratsa"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-2-bg:Yambol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yambol" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BG/> ;
+	skos:definition "The district of Yambol in the country of Bulgaria" ;
+	lcc-cr:hasLocalShortName "Yambol"@bg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bulgaria ;
+	.
+

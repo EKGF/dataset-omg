@@ -1,0 +1,309 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for San Marino Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for San Marino, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	.
+
+lcc-3166-2-sm:Acquaviva
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Acquaviva" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Acquaviva in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Acquaviva"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:BorgoMaggiore
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Borgo Maggiore" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Borgo Maggiore in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Borgo Maggiore"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:Chiesanuova
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiesanuova" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Chiesanuova in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Chiesanuova"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:Domagnano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Domagnano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Domagnano in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Domagnano"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:Faetano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Faetano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Faetano in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Faetano"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:Fiorentino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fiorentino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Fiorentino in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Fiorentino"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:Montegiardino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Montegiardino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Montegiardino in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Montegiardino"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision category municipality in the country of San Marino" ;
+	.
+
+lcc-3166-2-sm:SM-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Acquaviva in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:Acquaviva ;
+	lcc-lr:hasTag "SM-01" ;
+	lcc-lr:identifies lcc-3166-2-sm:Acquaviva ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Chiesanuova in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:Chiesanuova ;
+	lcc-lr:hasTag "SM-02" ;
+	lcc-lr:identifies lcc-3166-2-sm:Chiesanuova ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Domagnano in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:Domagnano ;
+	lcc-lr:hasTag "SM-03" ;
+	lcc-lr:identifies lcc-3166-2-sm:Domagnano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Faetano in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:Faetano ;
+	lcc-lr:hasTag "SM-04" ;
+	lcc-lr:identifies lcc-3166-2-sm:Faetano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Fiorentino in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:Fiorentino ;
+	lcc-lr:hasTag "SM-05" ;
+	lcc-lr:identifies lcc-3166-2-sm:Fiorentino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Borgo Maggiore in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:BorgoMaggiore ;
+	lcc-lr:hasTag "SM-06" ;
+	lcc-lr:identifies lcc-3166-2-sm:BorgoMaggiore ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of San Marino in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:SanMarino ;
+	lcc-lr:hasTag "SM-07" ;
+	lcc-lr:identifies lcc-3166-2-sm:SanMarino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Montegiardino in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:Montegiardino ;
+	lcc-lr:hasTag "SM-08" ;
+	lcc-lr:identifies lcc-3166-2-sm:Montegiardino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SM-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SM-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "subdivision code for the municipality of Serravalle in the country of San Marino" ;
+	lcc-lr:denotes lcc-3166-2-sm:Serravalle ;
+	lcc-lr:hasTag "SM-09" ;
+	lcc-lr:identifies lcc-3166-2-sm:Serravalle ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sm:SanMarino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Marino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of San Marino in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "San Marino"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-2-sm:Serravalle
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Serravalle" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SM/> ;
+	skos:definition "The municipality of Serravalle in the country of San Marino" ;
+	lcc-cr:hasLocalShortName "Serravalle"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sm:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:SanMarino ;
+	.
+

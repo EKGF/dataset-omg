@@ -1,0 +1,1247 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-hu: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Hungary Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-hu" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Hungary, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-HU.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	.
+
+lcc-3166-2-hu:Bacs-Kiskun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bács-Kiskun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Bács-Kiskun in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Bács-Kiskun"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Baranya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baranya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Baranya in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Baranya"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Bekes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Békés" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Békés in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Békés"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Bekescsaba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Békéscsaba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Békéscsaba in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Békéscsaba"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Borsod-Abauj-Zemplen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Borsod-Abaúj-Zemplén" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Borsod-Abaúj-Zemplén in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Borsod-Abaúj-Zemplén"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Budapest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Budapest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The capital city of Budapest in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Budapest"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CapitalCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:CapitalCity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "capital city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision category capital city in the country of Hungary" ;
+	.
+
+lcc-3166-2-hu:CityWithCountyRights
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city with county rights" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision category city with county rights in the country of Hungary" ;
+	.
+
+lcc-3166-2-hu:County
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "county" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision category county in the country of Hungary" ;
+	.
+
+lcc-3166-2-hu:Csongrad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Csongrád" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Csongrád in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Csongrád"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Debrecen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Debrecen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Debrecen in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Debrecen"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Dunaujvaros
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dunaújváros" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Dunaújváros in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Dunaújváros"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Eger
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eger" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Eger in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Eger"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Erd
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Érd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Érd in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Érd"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Fejer
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fejér" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Fejér in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Fejér"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Gyor
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Győr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Győr in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Győr"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Gyor-Moson-Sopron
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Győr-Moson-Sopron" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Győr-Moson-Sopron in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Győr-Moson-Sopron"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:HU-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Baranya in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Baranya ;
+	lcc-lr:hasTag "HU-BA" ;
+	lcc-lr:identifies lcc-3166-2-hu:Baranya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-BC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-BC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Békéscsaba in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Bekescsaba ;
+	lcc-lr:hasTag "HU-BC" ;
+	lcc-lr:identifies lcc-3166-2-hu:Bekescsaba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-BE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Békés in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Bekes ;
+	lcc-lr:hasTag "HU-BE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Bekes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-BK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-BK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Bács-Kiskun in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Bacs-Kiskun ;
+	lcc-lr:hasTag "HU-BK" ;
+	lcc-lr:identifies lcc-3166-2-hu:Bacs-Kiskun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-BU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the capital city of Budapest in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Budapest ;
+	lcc-lr:hasTag "HU-BU" ;
+	lcc-lr:identifies lcc-3166-2-hu:Budapest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-BZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-BZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Borsod-Abaúj-Zemplén in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Borsod-Abauj-Zemplen ;
+	lcc-lr:hasTag "HU-BZ" ;
+	lcc-lr:identifies lcc-3166-2-hu:Borsod-Abauj-Zemplen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-CS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-CS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Csongrád in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Csongrad ;
+	lcc-lr:hasTag "HU-CS" ;
+	lcc-lr:identifies lcc-3166-2-hu:Csongrad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-DE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-DE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Debrecen in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Debrecen ;
+	lcc-lr:hasTag "HU-DE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Debrecen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-DU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-DU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Dunaújváros in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Dunaujvaros ;
+	lcc-lr:hasTag "HU-DU" ;
+	lcc-lr:identifies lcc-3166-2-hu:Dunaujvaros ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-EG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-EG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Eger in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Eger ;
+	lcc-lr:hasTag "HU-EG" ;
+	lcc-lr:identifies lcc-3166-2-hu:Eger ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-ER
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-ER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Érd in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Erd ;
+	lcc-lr:hasTag "HU-ER" ;
+	lcc-lr:identifies lcc-3166-2-hu:Erd ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-FE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-FE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Fejér in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Fejer ;
+	lcc-lr:hasTag "HU-FE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Fejer ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-GS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-GS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Győr-Moson-Sopron in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Gyor-Moson-Sopron ;
+	lcc-lr:hasTag "HU-GS" ;
+	lcc-lr:identifies lcc-3166-2-hu:Gyor-Moson-Sopron ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-GY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-GY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Győr in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Gyor ;
+	lcc-lr:hasTag "HU-GY" ;
+	lcc-lr:identifies lcc-3166-2-hu:Gyor ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-HB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-HB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Hajdú-Bihar in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Hajdu-Bihar ;
+	lcc-lr:hasTag "HU-HB" ;
+	lcc-lr:identifies lcc-3166-2-hu:Hajdu-Bihar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-HE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-HE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Heves in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Heves ;
+	lcc-lr:hasTag "HU-HE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Heves ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-HV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-HV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Hódmezővásárhely in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Hodmezovasarhely ;
+	lcc-lr:hasTag "HU-HV" ;
+	lcc-lr:identifies lcc-3166-2-hu:Hodmezovasarhely ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-JN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-JN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Jász-Nagykun-Szolnok in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Jasz-Nagykun-Szolnok ;
+	lcc-lr:hasTag "HU-JN" ;
+	lcc-lr:identifies lcc-3166-2-hu:Jasz-Nagykun-Szolnok ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-KE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-KE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Komárom-Esztergom in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Komarom-Esztergom ;
+	lcc-lr:hasTag "HU-KE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Komarom-Esztergom ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-KM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-KM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Kecskemét in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Kecskemet ;
+	lcc-lr:hasTag "HU-KM" ;
+	lcc-lr:identifies lcc-3166-2-hu:Kecskemet ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-KV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-KV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Kaposvár in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Kaposvar ;
+	lcc-lr:hasTag "HU-KV" ;
+	lcc-lr:identifies lcc-3166-2-hu:Kaposvar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Miskolc in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Miskolc ;
+	lcc-lr:hasTag "HU-MI" ;
+	lcc-lr:identifies lcc-3166-2-hu:Miskolc ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-NK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-NK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Nagykanizsa in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Nagykanizsa ;
+	lcc-lr:hasTag "HU-NK" ;
+	lcc-lr:identifies lcc-3166-2-hu:Nagykanizsa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-NO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-NO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Nógrád in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Nograd ;
+	lcc-lr:hasTag "HU-NO" ;
+	lcc-lr:identifies lcc-3166-2-hu:Nograd ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-NY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-NY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Nyíregyháza in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Nyiregyhaza ;
+	lcc-lr:hasTag "HU-NY" ;
+	lcc-lr:identifies lcc-3166-2-hu:Nyiregyhaza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-PE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-PE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Pest in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Pest ;
+	lcc-lr:hasTag "HU-PE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Pest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-PS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-PS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Pécs in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Pecs ;
+	lcc-lr:hasTag "HU-PS" ;
+	lcc-lr:identifies lcc-3166-2-hu:Pecs ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Szeged in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Szeged ;
+	lcc-lr:hasTag "HU-SD" ;
+	lcc-lr:identifies lcc-3166-2-hu:Szeged ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Székesfehérvár in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Szekesfehervar ;
+	lcc-lr:hasTag "HU-SF" ;
+	lcc-lr:identifies lcc-3166-2-hu:Szekesfehervar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Szombathely in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Szombathely ;
+	lcc-lr:hasTag "HU-SH" ;
+	lcc-lr:identifies lcc-3166-2-hu:Szombathely ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Szolnok in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Szolnok ;
+	lcc-lr:hasTag "HU-SK" ;
+	lcc-lr:identifies lcc-3166-2-hu:Szolnok ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Sopron in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Sopron ;
+	lcc-lr:hasTag "HU-SN" ;
+	lcc-lr:identifies lcc-3166-2-hu:Sopron ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Somogy in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Somogy ;
+	lcc-lr:hasTag "HU-SO" ;
+	lcc-lr:identifies lcc-3166-2-hu:Somogy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Szekszárd in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Szekszard ;
+	lcc-lr:hasTag "HU-SS" ;
+	lcc-lr:identifies lcc-3166-2-hu:Szekszard ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-ST
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-ST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Salgótarján in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Salgotarjan ;
+	lcc-lr:hasTag "HU-ST" ;
+	lcc-lr:identifies lcc-3166-2-hu:Salgotarjan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-SZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-SZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Szabolcs-Szatmár-Bereg in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Szabolcs-Szatmar-Bereg ;
+	lcc-lr:hasTag "HU-SZ" ;
+	lcc-lr:identifies lcc-3166-2-hu:Szabolcs-Szatmar-Bereg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-TB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-TB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Tatabánya in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Tatabanya ;
+	lcc-lr:hasTag "HU-TB" ;
+	lcc-lr:identifies lcc-3166-2-hu:Tatabanya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-TO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Tolna in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Tolna ;
+	lcc-lr:hasTag "HU-TO" ;
+	lcc-lr:identifies lcc-3166-2-hu:Tolna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-VA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-VA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Vas in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Vas ;
+	lcc-lr:hasTag "HU-VA" ;
+	lcc-lr:identifies lcc-3166-2-hu:Vas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-VE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-VE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Veszprém in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Veszprem ;
+	lcc-lr:hasTag "HU-VE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Veszprem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-VM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-VM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Veszprém in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Veszprem-City ;
+	lcc-lr:hasTag "HU-VM" ;
+	lcc-lr:identifies lcc-3166-2-hu:Veszprem-City ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-ZA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the county of Zala in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Zala ;
+	lcc-lr:hasTag "HU-ZA" ;
+	lcc-lr:identifies lcc-3166-2-hu:Zala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:HU-ZE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HU-ZE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "subdivision code for the city with county rights of Zalaegerszeg in the country of Hungary" ;
+	lcc-lr:denotes lcc-3166-2-hu:Zalaegerszeg ;
+	lcc-lr:hasTag "HU-ZE" ;
+	lcc-lr:identifies lcc-3166-2-hu:Zalaegerszeg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hu:Hajdu-Bihar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hajdú-Bihar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Hajdú-Bihar in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Hajdú-Bihar"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Heves
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Heves" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Heves in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Heves"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Hodmezovasarhely
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hódmezővásárhely" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Hódmezővásárhely in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Hódmezővásárhely"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Jasz-Nagykun-Szolnok
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jász-Nagykun-Szolnok" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Jász-Nagykun-Szolnok in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Jász-Nagykun-Szolnok"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Kaposvar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaposvár" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Kaposvár in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Kaposvár"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Kecskemet
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kecskemét" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Kecskemét in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Kecskemét"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Komarom-Esztergom
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Komárom-Esztergom" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Komárom-Esztergom in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Komárom-Esztergom"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Miskolc
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Miskolc" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Miskolc in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Miskolc"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Nagykanizsa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nagykanizsa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Nagykanizsa in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Nagykanizsa"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Nograd
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nógrád" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Nógrád in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Nógrád"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Nyiregyhaza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nyíregyháza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Nyíregyháza in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Nyíregyháza"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Pecs
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pécs" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Pécs in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Pécs"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Pest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Pest in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Pest"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Salgotarjan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salgótarján" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Salgótarján in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Salgótarján"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Somogy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Somogy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Somogy in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Somogy"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Sopron
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sopron" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Sopron in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Sopron"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Szabolcs-Szatmar-Bereg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Szabolcs-Szatmár-Bereg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Szabolcs-Szatmár-Bereg in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Szabolcs-Szatmár-Bereg"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Szeged
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Szeged" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Szeged in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Szeged"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Szekesfehervar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Székesfehérvár" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Székesfehérvár in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Székesfehérvár"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Szekszard
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Szekszárd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Szekszárd in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Szekszárd"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Szolnok
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Szolnok" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Szolnok in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Szolnok"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Szombathely
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Szombathely" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Szombathely in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Szombathely"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Tatabanya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tatabánya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Tatabánya in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Tatabánya"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Tolna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tolna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Tolna in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Tolna"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Vas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Vas in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Vas"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Veszprem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Veszprém" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Veszprém in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Veszprém"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Veszprem-City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Veszprém" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Veszprém in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Veszprém"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Zala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The county of Zala in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Zala"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-2-hu:Zalaegerszeg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zalaegerszeg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HU/> ;
+	skos:definition "The city with county rights of Zalaegerszeg in the country of Hungary" ;
+	lcc-cr:hasLocalShortName "Zalaegerszeg"@hu ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hu:CityWithCountyRights ;
+	lcc-cr:isSubregionOf lcc-3166-1:Hungary ;
+	.
+

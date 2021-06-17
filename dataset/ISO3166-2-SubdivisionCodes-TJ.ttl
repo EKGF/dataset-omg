@@ -1,0 +1,231 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tj: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Tajikistan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tj" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Tajikistan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TJ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	.
+
+lcc-3166-2-tj:AutonomousRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "autonomous region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision category autonomous region in the country of Tajikistan" ;
+	.
+
+lcc-3166-2-tj:CapitalTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "capital territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision category capital territory in the country of Tajikistan" ;
+	.
+
+lcc-3166-2-tj:DistrictsUnderRepublicAdministration
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "districts under republic administration" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision category districts under republic administration in the country of Tajikistan" ;
+	.
+
+lcc-3166-2-tj:Dushanbe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dushanbe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "The capital territory of Dushanbe in the country of Tajikistan" ;
+	lcc-cr:hasLocalShortName "Dushanbe"@tg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tj:CapitalTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tajikistan ;
+	.
+
+lcc-3166-2-tj:Khatlon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khatlon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "The region of Khatlon in the country of Tajikistan" ;
+	lcc-cr:hasLocalShortName "Khatlon"@tg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tj:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tajikistan ;
+	.
+
+lcc-3166-2-tj:KuhistoniBadakhshon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kŭhistoni Badakhshon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "The autonomous region of Kŭhistoni Badakhshon in the country of Tajikistan" ;
+	lcc-cr:hasLocalShortName "Kŭhistoni Badakhshon"@tg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tj:AutonomousRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tajikistan ;
+	.
+
+lcc-3166-2-tj:NohiyahoiTobeiJumhuri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "nohiyahoi tobei jumhurí" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "The districts under republic administration of nohiyahoi tobei jumhurí in the country of Tajikistan" ;
+	lcc-cr:hasLocalShortName "nohiyahoi tobei jumhurí"@tg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tj:DistrictsUnderRepublicAdministration ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tajikistan ;
+	.
+
+lcc-3166-2-tj:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision category region in the country of Tajikistan" ;
+	.
+
+lcc-3166-2-tj:Sughd
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sughd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "The region of Sughd in the country of Tajikistan" ;
+	lcc-cr:hasLocalShortName "Sughd"@tg ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tj:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Tajikistan ;
+	.
+
+lcc-3166-2-tj:TJ-DU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TJ-DU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision code for the capital territory of Dushanbe in the country of Tajikistan" ;
+	lcc-lr:denotes lcc-3166-2-tj:Dushanbe ;
+	lcc-lr:hasTag "TJ-DU" ;
+	lcc-lr:identifies lcc-3166-2-tj:Dushanbe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tj:TJ-GB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TJ-GB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision code for the autonomous region of Kŭhistoni Badakhshon in the country of Tajikistan" ;
+	lcc-lr:denotes lcc-3166-2-tj:KuhistoniBadakhshon ;
+	lcc-lr:hasTag "TJ-GB" ;
+	lcc-lr:identifies lcc-3166-2-tj:KuhistoniBadakhshon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tj:TJ-KT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TJ-KT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision code for the region of Khatlon in the country of Tajikistan" ;
+	lcc-lr:denotes lcc-3166-2-tj:Khatlon ;
+	lcc-lr:hasTag "TJ-KT" ;
+	lcc-lr:identifies lcc-3166-2-tj:Khatlon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tj:TJ-RA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TJ-RA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision code for the districts under republic administration of nohiyahoi tobei jumhurí in the country of Tajikistan" ;
+	lcc-lr:denotes lcc-3166-2-tj:NohiyahoiTobeiJumhuri ;
+	lcc-lr:hasTag "TJ-RA" ;
+	lcc-lr:identifies lcc-3166-2-tj:NohiyahoiTobeiJumhuri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tj:TJ-SU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TJ-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TJ/> ;
+	skos:definition "subdivision code for the region of Sughd in the country of Tajikistan" ;
+	lcc-lr:denotes lcc-3166-2-tj:Sughd ;
+	lcc-lr:hasTag "TJ-SU" ;
+	lcc-lr:identifies lcc-3166-2-tj:Sughd ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+

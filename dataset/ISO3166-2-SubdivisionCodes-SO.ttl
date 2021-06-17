@@ -1,0 +1,552 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-so: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Somalia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-so" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Somalia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	.
+
+lcc-3166-2-so:Awdal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Awdal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Awdal in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Awdal"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Bakool
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bakool" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Bakool in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Bakool"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Banaadir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banaadir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Banaadir in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Banaadir"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Bari
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bari" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Bari in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Bari"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Bay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Bay in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Bay"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Galguduud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Galguduud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Galguduud in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Galguduud"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Gedo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gedo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Gedo in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Gedo"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Hiiraan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hiiraan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Hiiraan in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Hiiraan"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:JubbadaDhexe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jubbada Dhexe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Jubbada Dhexe in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Jubbada Dhexe"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:JubbadaHoose
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jubbada Hoose" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Jubbada Hoose in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Jubbada Hoose"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Mudug
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mudug" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Mudug in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Mudug"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Nugaal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nugaal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Nugaal in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Nugaal"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision category region in the country of Somalia" ;
+	.
+
+lcc-3166-2-so:SO-AW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-AW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Awdal in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Awdal ;
+	lcc-lr:hasTag "SO-AW" ;
+	lcc-lr:identifies lcc-3166-2-so:Awdal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-BK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-BK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Bakool in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Bakool ;
+	lcc-lr:hasTag "SO-BK" ;
+	lcc-lr:identifies lcc-3166-2-so:Bakool ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-BN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-BN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Banaadir in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Banaadir ;
+	lcc-lr:hasTag "SO-BN" ;
+	lcc-lr:identifies lcc-3166-2-so:Banaadir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Bari in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Bari ;
+	lcc-lr:hasTag "SO-BR" ;
+	lcc-lr:identifies lcc-3166-2-so:Bari ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-BY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-BY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Bay in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Bay ;
+	lcc-lr:hasTag "SO-BY" ;
+	lcc-lr:identifies lcc-3166-2-so:Bay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-GA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Galguduud in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Galguduud ;
+	lcc-lr:hasTag "SO-GA" ;
+	lcc-lr:identifies lcc-3166-2-so:Galguduud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-GE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-GE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Gedo in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Gedo ;
+	lcc-lr:hasTag "SO-GE" ;
+	lcc-lr:identifies lcc-3166-2-so:Gedo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-HI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-HI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Hiiraan in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Hiiraan ;
+	lcc-lr:hasTag "SO-HI" ;
+	lcc-lr:identifies lcc-3166-2-so:Hiiraan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-JD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-JD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Jubbada Dhexe in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:JubbadaDhexe ;
+	lcc-lr:hasTag "SO-JD" ;
+	lcc-lr:identifies lcc-3166-2-so:JubbadaDhexe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-JH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-JH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Jubbada Hoose in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:JubbadaHoose ;
+	lcc-lr:hasTag "SO-JH" ;
+	lcc-lr:identifies lcc-3166-2-so:JubbadaHoose ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-MU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Mudug in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Mudug ;
+	lcc-lr:hasTag "SO-MU" ;
+	lcc-lr:identifies lcc-3166-2-so:Mudug ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-NU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-NU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Nugaal in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Nugaal ;
+	lcc-lr:hasTag "SO-NU" ;
+	lcc-lr:identifies lcc-3166-2-so:Nugaal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Sanaag in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Sanaag ;
+	lcc-lr:hasTag "SO-SA" ;
+	lcc-lr:identifies lcc-3166-2-so:Sanaag ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Shabeellaha Dhexe in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:ShabeellahaDhexe ;
+	lcc-lr:hasTag "SO-SD" ;
+	lcc-lr:identifies lcc-3166-2-so:ShabeellahaDhexe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-SH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Shabeellaha Hoose in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:ShabeellahaHoose ;
+	lcc-lr:hasTag "SO-SH" ;
+	lcc-lr:identifies lcc-3166-2-so:ShabeellahaHoose ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Sool in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Sool ;
+	lcc-lr:hasTag "SO-SO" ;
+	lcc-lr:identifies lcc-3166-2-so:Sool ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-TO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Togdheer in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:Togdheer ;
+	lcc-lr:hasTag "SO-TO" ;
+	lcc-lr:identifies lcc-3166-2-so:Togdheer ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:SO-WO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SO-WO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "subdivision code for the region of Woqooyi Galbeed in the country of Somalia" ;
+	lcc-lr:denotes lcc-3166-2-so:WoqooyiGalbeed ;
+	lcc-lr:hasTag "SO-WO" ;
+	lcc-lr:identifies lcc-3166-2-so:WoqooyiGalbeed ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-so:Sanaag
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sanaag" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Sanaag in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Sanaag"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:ShabeellahaDhexe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shabeellaha Dhexe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Shabeellaha Dhexe in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Shabeellaha Dhexe"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:ShabeellahaHoose
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shabeellaha Hoose" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Shabeellaha Hoose in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Shabeellaha Hoose"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Sool
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sool" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Sool in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Sool"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:Togdheer
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Togdheer" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Togdheer in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Togdheer"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-2-so:WoqooyiGalbeed
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Woqooyi Galbeed" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SO/> ;
+	skos:definition "The region of Woqooyi Galbeed in the country of Somalia" ;
+	lcc-cr:hasLocalShortName "Woqooyi Galbeed"@so ;
+	lcc-cr:isClassifiedBy lcc-3166-2-so:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Somalia ;
+	.
+

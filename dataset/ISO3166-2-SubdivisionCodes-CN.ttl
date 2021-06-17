@@ -1,0 +1,1014 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for China Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for China, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	.
+
+lcc-3166-2-cn:AnhuiSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anhui Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Anhui Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Anhui Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:AutonomousRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "autonomous region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision category autonomous region in the country of China" ;
+	.
+
+lcc-3166-2-cn:BeijingShi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Beijing Shi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The municipality of Beijing Shi in the country of China" ;
+	lcc-cr:hasLocalShortName "Beijing Shi"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:CN-AH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-AH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Anhui Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:AnhuiSheng ;
+	lcc-lr:hasTag "CN-AH" ;
+	lcc-lr:identifies lcc-3166-2-cn:AnhuiSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-BJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-BJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the municipality of Beijing Shi in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:BeijingShi ;
+	lcc-lr:hasTag "CN-BJ" ;
+	lcc-lr:identifies lcc-3166-2-cn:BeijingShi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-CQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-CQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the municipality of Chongqing Shi in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:ChongqingShi ;
+	lcc-lr:hasTag "CN-CQ" ;
+	lcc-lr:identifies lcc-3166-2-cn:ChongqingShi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-FJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-FJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Fujian Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:FujianSheng ;
+	lcc-lr:hasTag "CN-FJ" ;
+	lcc-lr:identifies lcc-3166-2-cn:FujianSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-GD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-GD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Guangdong Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:GuangdongSheng ;
+	lcc-lr:hasTag "CN-GD" ;
+	lcc-lr:identifies lcc-3166-2-cn:GuangdongSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-GS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-GS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Gansu Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:GansuSheng ;
+	lcc-lr:hasTag "CN-GS" ;
+	lcc-lr:identifies lcc-3166-2-cn:GansuSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-GX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-GX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the autonomous region of Guangxi Zhuangzu Zizhiqu in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:GuangxiZhuangzuZizhiqu ;
+	lcc-lr:hasTag "CN-GX" ;
+	lcc-lr:identifies lcc-3166-2-cn:GuangxiZhuangzuZizhiqu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-GZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-GZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Guizhou Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:GuizhouSheng ;
+	lcc-lr:hasTag "CN-GZ" ;
+	lcc-lr:identifies lcc-3166-2-cn:GuizhouSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-HA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Henan Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:HenanSheng ;
+	lcc-lr:hasTag "CN-HA" ;
+	lcc-lr:identifies lcc-3166-2-cn:HenanSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-HB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-HB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Hubei Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:HubeiSheng ;
+	lcc-lr:hasTag "CN-HB" ;
+	lcc-lr:identifies lcc-3166-2-cn:HubeiSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-HE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-HE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Hebei Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:HebeiSheng ;
+	lcc-lr:hasTag "CN-HE" ;
+	lcc-lr:identifies lcc-3166-2-cn:HebeiSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-HI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-HI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Hainan Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:HainanSheng ;
+	lcc-lr:hasTag "CN-HI" ;
+	lcc-lr:identifies lcc-3166-2-cn:HainanSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-HK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-HK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the special administrative region of Hong Kong SAR (see also separate country code entry under HK) in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:HongKongSAR ;
+	lcc-lr:hasTag "CN-HK" ;
+	lcc-lr:identifies lcc-3166-2-cn:HongKongSAR ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-HL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-HL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Heilongjiang Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:HeilongjiangSheng ;
+	lcc-lr:hasTag "CN-HL" ;
+	lcc-lr:identifies lcc-3166-2-cn:HeilongjiangSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-HN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-HN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Hunan Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:HunanSheng ;
+	lcc-lr:hasTag "CN-HN" ;
+	lcc-lr:identifies lcc-3166-2-cn:HunanSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-JL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-JL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Jilin Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:JilinSheng ;
+	lcc-lr:hasTag "CN-JL" ;
+	lcc-lr:identifies lcc-3166-2-cn:JilinSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-JS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-JS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Jiangsu Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:JiangsuSheng ;
+	lcc-lr:hasTag "CN-JS" ;
+	lcc-lr:identifies lcc-3166-2-cn:JiangsuSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-JX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-JX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Jiangxi Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:JiangxiSheng ;
+	lcc-lr:hasTag "CN-JX" ;
+	lcc-lr:identifies lcc-3166-2-cn:JiangxiSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-LN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-LN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Liaoning Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:LiaoningSheng ;
+	lcc-lr:hasTag "CN-LN" ;
+	lcc-lr:identifies lcc-3166-2-cn:LiaoningSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the special administrative region of Macao SAR (see also separate country code entry under MO) in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:MacaoSAR ;
+	lcc-lr:hasTag "CN-MO" ;
+	lcc-lr:identifies lcc-3166-2-cn:MacaoSAR ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-NM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-NM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the autonomous region of Nei Mongol Zizhiqu in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:NeiMongolZizhiqu ;
+	lcc-lr:hasTag "CN-NM" ;
+	lcc-lr:identifies lcc-3166-2-cn:NeiMongolZizhiqu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-NX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-NX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the autonomous region of Ningxia Huizi Zizhiqu in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:NingxiaHuiziZizhiqu ;
+	lcc-lr:hasTag "CN-NX" ;
+	lcc-lr:identifies lcc-3166-2-cn:NingxiaHuiziZizhiqu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-QH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-QH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Qinghai Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:QinghaiSheng ;
+	lcc-lr:hasTag "CN-QH" ;
+	lcc-lr:identifies lcc-3166-2-cn:QinghaiSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-SC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-SC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Sichuan Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:SichuanSheng ;
+	lcc-lr:hasTag "CN-SC" ;
+	lcc-lr:identifies lcc-3166-2-cn:SichuanSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Shandong Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:ShandongSheng ;
+	lcc-lr:hasTag "CN-SD" ;
+	lcc-lr:identifies lcc-3166-2-cn:ShandongSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-SH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the municipality of Shanghai Shi in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:ShanghaiShi ;
+	lcc-lr:hasTag "CN-SH" ;
+	lcc-lr:identifies lcc-3166-2-cn:ShanghaiShi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-SN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Shaanxi Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:ShaanxiSheng ;
+	lcc-lr:hasTag "CN-SN" ;
+	lcc-lr:identifies lcc-3166-2-cn:ShaanxiSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-SX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-SX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Shanxi Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:ShanxiSheng ;
+	lcc-lr:hasTag "CN-SX" ;
+	lcc-lr:identifies lcc-3166-2-cn:ShanxiSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-TJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-TJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the municipality of Tianjin Shi in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:TianjinShi ;
+	lcc-lr:hasTag "CN-TJ" ;
+	lcc-lr:identifies lcc-3166-2-cn:TianjinShi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-TW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-TW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Taiwan Sheng (see also separate country code entry under TW) in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:TaiwanSheng ;
+	lcc-lr:hasTag "CN-TW" ;
+	lcc-lr:identifies lcc-3166-2-cn:TaiwanSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-XJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-XJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the autonomous region of Xinjiang Uygur Zizhiqu in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:XinjiangUygurZizhiqu ;
+	lcc-lr:hasTag "CN-XJ" ;
+	lcc-lr:identifies lcc-3166-2-cn:XinjiangUygurZizhiqu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-XZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-XZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the autonomous region of Xizang Zizhiqu in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:XizangZizhiqu ;
+	lcc-lr:hasTag "CN-XZ" ;
+	lcc-lr:identifies lcc-3166-2-cn:XizangZizhiqu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-YN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-YN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Yunnan Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:YunnanSheng ;
+	lcc-lr:hasTag "CN-YN" ;
+	lcc-lr:identifies lcc-3166-2-cn:YunnanSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:CN-ZJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CN-ZJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision code for the province of Zhejiang Sheng in the country of China" ;
+	lcc-lr:denotes lcc-3166-2-cn:ZhejiangSheng ;
+	lcc-lr:hasTag "CN-ZJ" ;
+	lcc-lr:identifies lcc-3166-2-cn:ZhejiangSheng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cn:ChongqingShi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chongqing Shi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The municipality of Chongqing Shi in the country of China" ;
+	lcc-cr:hasLocalShortName "Chongqing Shi"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:FujianSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fujian Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Fujian Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Fujian Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:GansuSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gansu Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Gansu Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Gansu Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:GuangdongSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guangdong Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Guangdong Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Guangdong Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:GuangxiZhuangzuZizhiqu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guangxi Zhuangzu Zizhiqu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The autonomous region of Guangxi Zhuangzu Zizhiqu in the country of China" ;
+	lcc-cr:hasLocalShortName "Guangxi Zhuangzu Zizhiqu"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:AutonomousRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:GuizhouSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guizhou Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Guizhou Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Guizhou Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:HainanSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hainan Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Hainan Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Hainan Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:HebeiSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hebei Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Hebei Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Hebei Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:HeilongjiangSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Heilongjiang Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Heilongjiang Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Heilongjiang Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:HenanSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Henan Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Henan Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Henan Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:HongKongSAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:HongKong ;
+	rdfs:label "Hong Kong SAR (see also separate country code entry under HK)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The special administrative region of Hong Kong SAR (see also separate country code entry under HK) in the country of China" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:SpecialAdministrativeRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:HubeiSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hubei Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Hubei Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Hubei Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:HunanSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hunan Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Hunan Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Hunan Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:JiangsuSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jiangsu Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Jiangsu Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Jiangsu Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:JiangxiSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jiangxi Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Jiangxi Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Jiangxi Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:JilinSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jilin Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Jilin Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Jilin Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:LiaoningSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Liaoning Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Liaoning Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Liaoning Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:MacaoSAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Macao ;
+	rdfs:label "Macao SAR (see also separate country code entry under MO)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The special administrative region of Macao SAR (see also separate country code entry under MO) in the country of China" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:SpecialAdministrativeRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision category municipality in the country of China" ;
+	.
+
+lcc-3166-2-cn:NeiMongolZizhiqu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nei Mongol Zizhiqu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The autonomous region of Nei Mongol Zizhiqu in the country of China" ;
+	lcc-cr:hasLocalShortName "Nei Mongol Zizhiqu"@mn ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:AutonomousRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:NingxiaHuiziZizhiqu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ningxia Huizi Zizhiqu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The autonomous region of Ningxia Huizi Zizhiqu in the country of China" ;
+	lcc-cr:hasLocalShortName "Ningxia Huizi Zizhiqu"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:AutonomousRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision category province in the country of China" ;
+	.
+
+lcc-3166-2-cn:QinghaiSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qinghai Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Qinghai Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Qinghai Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:ShaanxiSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shaanxi Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Shaanxi Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Shaanxi Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:ShandongSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shandong Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Shandong Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Shandong Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:ShanghaiShi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shanghai Shi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The municipality of Shanghai Shi in the country of China" ;
+	lcc-cr:hasLocalShortName "Shanghai Shi"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:ShanxiSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shanxi Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Shanxi Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Shanxi Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:SichuanSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sichuan Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Sichuan Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Sichuan Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:SpecialAdministrativeRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "special administrative region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "subdivision category special administrative region in the country of China" ;
+	.
+
+lcc-3166-2-cn:TaiwanSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Taiwan ;
+	rdfs:label "Taiwan Sheng (see also separate country code entry under TW)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Taiwan Sheng (see also separate country code entry under TW) in the country of China" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:TianjinShi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tianjin Shi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The municipality of Tianjin Shi in the country of China" ;
+	lcc-cr:hasLocalShortName "Tianjin Shi"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:XinjiangUygurZizhiqu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xinjiang Uygur Zizhiqu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The autonomous region of Xinjiang Uygur Zizhiqu in the country of China" ;
+	lcc-cr:hasLocalShortName "Xinjiang Uygur Zizhiqu"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:AutonomousRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:XizangZizhiqu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xizang Zizhiqu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The autonomous region of Xizang Zizhiqu in the country of China" ;
+	lcc-cr:hasLocalShortName "Xizang Zizhiqu"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:AutonomousRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:YunnanSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yunnan Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Yunnan Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Yunnan Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+
+lcc-3166-2-cn:ZhejiangSheng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zhejiang Sheng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CN/> ;
+	skos:definition "The province of Zhejiang Sheng in the country of China" ;
+	lcc-cr:hasLocalShortName "Zhejiang Sheng"@zh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cn:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:China ;
+	.
+

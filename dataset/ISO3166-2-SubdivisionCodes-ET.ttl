@@ -1,0 +1,384 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-et: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Ethiopia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-et" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Ethiopia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ET.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	.
+
+lcc-3166-2-et:AddisAbaba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Addis Ababa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The administration of Addis Ababa in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Addis Ababa"@en ;
+	lcc-cr:hasLocalShortName "Ādīs Ābeba"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:Administration ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:Administration
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "administration" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision category administration in the country of Ethiopia" ;
+	.
+
+lcc-3166-2-et:Afar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Afar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Afar in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Afar"@en ;
+	lcc-cr:hasLocalShortName "Āfar"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:Amara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Amara in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Amara"@en ;
+	lcc-cr:hasLocalShortName "Āmara"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:Benshangul-Gumaz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Benshangul-Gumaz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Benshangul-Gumaz in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Benshangul-Gumaz"@en ;
+	lcc-cr:hasLocalShortName "Bīnshangul Gumuz"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:DireDawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dire Dawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The administration of Dire Dawa in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Dire Dawa"@en ;
+	lcc-cr:hasLocalShortName "Dirē Dawa"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:Administration ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:ET-AA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-AA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the administration of Addis Ababa in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:AddisAbaba ;
+	lcc-lr:hasTag "ET-AA" ;
+	lcc-lr:identifies lcc-3166-2-et:AddisAbaba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-AF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-AF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Afar in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:Afar ;
+	lcc-lr:hasTag "ET-AF" ;
+	lcc-lr:identifies lcc-3166-2-et:Afar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-AM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-AM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Amara in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:Amara ;
+	lcc-lr:hasTag "ET-AM" ;
+	lcc-lr:identifies lcc-3166-2-et:Amara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-BE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Benshangul-Gumaz in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:Benshangul-Gumaz ;
+	lcc-lr:hasTag "ET-BE" ;
+	lcc-lr:identifies lcc-3166-2-et:Benshangul-Gumaz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-DD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-DD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the administration of Dire Dawa in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:DireDawa ;
+	lcc-lr:hasTag "ET-DD" ;
+	lcc-lr:identifies lcc-3166-2-et:DireDawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-GA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Gambela Peoples in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:GambelaPeoples ;
+	lcc-lr:hasTag "ET-GA" ;
+	lcc-lr:identifies lcc-3166-2-et:GambelaPeoples ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-HA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Harari People in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:HarariPeople ;
+	lcc-lr:hasTag "ET-HA" ;
+	lcc-lr:identifies lcc-3166-2-et:HarariPeople ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-OR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-OR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Oromia in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:Oromia ;
+	lcc-lr:hasTag "ET-OR" ;
+	lcc-lr:identifies lcc-3166-2-et:Oromia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-SN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Southern Nations, Nationalities and Peoples in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:SouthernNations ;
+	lcc-lr:hasTag "ET-SN" ;
+	lcc-lr:identifies lcc-3166-2-et:SouthernNations ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Somali in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:Somali ;
+	lcc-lr:hasTag "ET-SO" ;
+	lcc-lr:identifies lcc-3166-2-et:Somali ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:ET-TI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ET-TI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision code for the state of Tigrai in the country of Ethiopia" ;
+	lcc-lr:denotes lcc-3166-2-et:Tigrai ;
+	lcc-lr:hasTag "ET-TI" ;
+	lcc-lr:identifies lcc-3166-2-et:Tigrai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-et:GambelaPeoples
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gambela Peoples" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Gambela Peoples in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Gambela Peoples"@en ;
+	lcc-cr:hasLocalShortName "Gambēla Hizboch"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:HarariPeople
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Harari People" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Harari People in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Harari People"@en ;
+	lcc-cr:hasLocalShortName "Hārerī Hizb"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:Oromia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oromia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Oromia in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Oromia"@en ;
+	lcc-cr:hasLocalShortName "Oromīya"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:Somali
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Somali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Somali in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Somali"@en ;
+	lcc-cr:hasLocalShortName "Sumalē"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:SouthernNations
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern Nations, Nationalities and Peoples" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Southern Nations, Nationalities and Peoples in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Southern Nations, Nationalities and Peoples"@en ;
+	lcc-cr:hasLocalShortName "YeDebub Bihēroch Bihēreseboch na Hizboch"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-2-et:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "subdivision category state in the country of Ethiopia" ;
+	.
+
+lcc-3166-2-et:Tigrai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tigrai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ET/> ;
+	skos:definition "The state of Tigrai in the country of Ethiopia" ;
+	lcc-cr:hasEnglishShortName "Tigrai"@en ;
+	lcc-cr:hasLocalShortName "Tigray"@am ;
+	lcc-cr:isClassifiedBy lcc-3166-2-et:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ethiopia ;
+	.
+

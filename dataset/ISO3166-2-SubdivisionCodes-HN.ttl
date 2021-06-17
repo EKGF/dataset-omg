@@ -1,0 +1,567 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-hn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Honduras Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-hn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Honduras, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-HN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	.
+
+lcc-3166-2-hn:Atlantida
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Atlántida" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Atlántida in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Atlántida"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Choluteca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Choluteca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Choluteca in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Choluteca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Colon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Colón" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Colón in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Colón"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Comayagua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Comayagua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Comayagua in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Comayagua"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Copan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Copán" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Copán in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Copán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Cortes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cortés" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Cortés in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Cortés"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision category department in the country of Honduras" ;
+	.
+
+lcc-3166-2-hn:ElParaiso
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Paraíso" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of El Paraíso in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "El Paraíso"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:FranciscoMorazan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Francisco Morazán" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Francisco Morazán in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Francisco Morazán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:GraciasADios
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gracias a Dios" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Gracias a Dios in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Gracias a Dios"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:HN-AT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-AT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Atlántida in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Atlantida ;
+	lcc-lr:hasTag "HN-AT" ;
+	lcc-lr:identifies lcc-3166-2-hn:Atlantida ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-CH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-CH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Choluteca in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Choluteca ;
+	lcc-lr:hasTag "HN-CH" ;
+	lcc-lr:identifies lcc-3166-2-hn:Choluteca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-CL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Colón in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Colon ;
+	lcc-lr:hasTag "HN-CL" ;
+	lcc-lr:identifies lcc-3166-2-hn:Colon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-CM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-CM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Comayagua in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Comayagua ;
+	lcc-lr:hasTag "HN-CM" ;
+	lcc-lr:identifies lcc-3166-2-hn:Comayagua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-CP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-CP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Copán in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Copan ;
+	lcc-lr:hasTag "HN-CP" ;
+	lcc-lr:identifies lcc-3166-2-hn:Copan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-CR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Cortés in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Cortes ;
+	lcc-lr:hasTag "HN-CR" ;
+	lcc-lr:identifies lcc-3166-2-hn:Cortes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-EP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-EP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of El Paraíso in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:ElParaiso ;
+	lcc-lr:hasTag "HN-EP" ;
+	lcc-lr:identifies lcc-3166-2-hn:ElParaiso ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-FM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-FM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Francisco Morazán in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:FranciscoMorazan ;
+	lcc-lr:hasTag "HN-FM" ;
+	lcc-lr:identifies lcc-3166-2-hn:FranciscoMorazan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-GD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-GD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Gracias a Dios in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:GraciasADios ;
+	lcc-lr:hasTag "HN-GD" ;
+	lcc-lr:identifies lcc-3166-2-hn:GraciasADios ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-IB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-IB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Islas de la Bahía in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:IslasDeLaBahia ;
+	lcc-lr:hasTag "HN-IB" ;
+	lcc-lr:identifies lcc-3166-2-hn:IslasDeLaBahia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-IN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-IN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Intibucá in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Intibuca ;
+	lcc-lr:hasTag "HN-IN" ;
+	lcc-lr:identifies lcc-3166-2-hn:Intibuca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-LE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-LE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Lempira in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Lempira ;
+	lcc-lr:hasTag "HN-LE" ;
+	lcc-lr:identifies lcc-3166-2-hn:Lempira ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-LP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-LP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of La Paz in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:LaPaz ;
+	lcc-lr:hasTag "HN-LP" ;
+	lcc-lr:identifies lcc-3166-2-hn:LaPaz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-OC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-OC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Ocotepeque in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Ocotepeque ;
+	lcc-lr:hasTag "HN-OC" ;
+	lcc-lr:identifies lcc-3166-2-hn:Ocotepeque ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-OL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-OL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Olancho in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Olancho ;
+	lcc-lr:hasTag "HN-OL" ;
+	lcc-lr:identifies lcc-3166-2-hn:Olancho ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-SB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-SB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Santa Bárbara in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:SantaBarbara ;
+	lcc-lr:hasTag "HN-SB" ;
+	lcc-lr:identifies lcc-3166-2-hn:SantaBarbara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-VA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-VA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Valle in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Valle ;
+	lcc-lr:hasTag "HN-VA" ;
+	lcc-lr:identifies lcc-3166-2-hn:Valle ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:HN-YO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "HN-YO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "subdivision code for the department of Yoro in the country of Honduras" ;
+	lcc-lr:denotes lcc-3166-2-hn:Yoro ;
+	lcc-lr:hasTag "HN-YO" ;
+	lcc-lr:identifies lcc-3166-2-hn:Yoro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-hn:Intibuca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Intibucá" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Intibucá in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Intibucá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:IslasDeLaBahia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Islas de la Bahía" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Islas de la Bahía in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Islas de la Bahía"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:LaPaz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Paz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of La Paz in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "La Paz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Lempira
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lempira" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Lempira in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Lempira"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Ocotepeque
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ocotepeque" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Ocotepeque in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Ocotepeque"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Olancho
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Olancho" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Olancho in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Olancho"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:SantaBarbara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Bárbara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Santa Bárbara in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Santa Bárbara"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:SwanIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Swan Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The territory of Swan Islands in the country of Honduras" ;
+	lcc-cr:hasEnglishShortName "Swan Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles du Cygne"@fr ;
+	lcc-cr:hasNumericRegionCode "1049" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Valle
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valle" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Valle in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Valle"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-2-hn:Yoro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yoro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-HN/> ;
+	skos:definition "The department of Yoro in the country of Honduras" ;
+	lcc-cr:hasLocalShortName "Yoro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-hn:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Honduras ;
+	.
+

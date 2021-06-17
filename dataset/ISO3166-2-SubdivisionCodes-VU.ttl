@@ -1,0 +1,264 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-vu: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Vanuatu Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-vu" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Vanuatu, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-VU.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	.
+
+lcc-3166-2-vu:Efate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Efate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The territory of Efate in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Efate"@en ;
+	lcc-cr:hasFrenchShortName "Éfaté"@fr ;
+	lcc-cr:hasNumericRegionCode "1054" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:Malampa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Malampa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The province of Malampa in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Malampa"@en ;
+	lcc-cr:hasFrenchShortName "Malampa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:Penama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pénama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The province of Pénama in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Pénama"@en ;
+	lcc-cr:hasFrenchShortName "Pénama"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "subdivision category province in the country of Vanuatu" ;
+	.
+
+lcc-3166-2-vu:Sanma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sanma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The province of Sanma in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Sanma"@en ;
+	lcc-cr:hasFrenchShortName "Sanma"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:Santo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Santo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The territory of Santo in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Santo"@en ;
+	lcc-cr:hasFrenchShortName "Santo"@fr ;
+	lcc-cr:hasNumericRegionCode "1187" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:Shefa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shéfa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The province of Shéfa in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Shéfa"@en ;
+	lcc-cr:hasFrenchShortName "Shéfa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:Tafea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taféa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The province of Taféa in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Taféa"@en ;
+	lcc-cr:hasFrenchShortName "Taféa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:Torba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Torba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "The province of Torba in the country of Vanuatu" ;
+	lcc-cr:hasEnglishShortName "Torba"@en ;
+	lcc-cr:hasFrenchShortName "Torba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-2-vu:VU-MAP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VU-MAP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "subdivision code for the province of Malampa in the country of Vanuatu" ;
+	lcc-lr:denotes lcc-3166-2-vu:Malampa ;
+	lcc-lr:hasTag "VU-MAP" ;
+	lcc-lr:identifies lcc-3166-2-vu:Malampa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vu:VU-PAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VU-PAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "subdivision code for the province of Pénama in the country of Vanuatu" ;
+	lcc-lr:denotes lcc-3166-2-vu:Penama ;
+	lcc-lr:hasTag "VU-PAM" ;
+	lcc-lr:identifies lcc-3166-2-vu:Penama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vu:VU-SAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VU-SAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "subdivision code for the province of Sanma in the country of Vanuatu" ;
+	lcc-lr:denotes lcc-3166-2-vu:Sanma ;
+	lcc-lr:hasTag "VU-SAM" ;
+	lcc-lr:identifies lcc-3166-2-vu:Sanma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vu:VU-SEE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VU-SEE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "subdivision code for the province of Shéfa in the country of Vanuatu" ;
+	lcc-lr:denotes lcc-3166-2-vu:Shefa ;
+	lcc-lr:hasTag "VU-SEE" ;
+	lcc-lr:identifies lcc-3166-2-vu:Shefa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vu:VU-TAE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VU-TAE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "subdivision code for the province of Taféa in the country of Vanuatu" ;
+	lcc-lr:denotes lcc-3166-2-vu:Tafea ;
+	lcc-lr:hasTag "VU-TAE" ;
+	lcc-lr:identifies lcc-3166-2-vu:Tafea ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vu:VU-TOB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VU-TOB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VU/> ;
+	skos:definition "subdivision code for the province of Torba in the country of Vanuatu" ;
+	lcc-lr:denotes lcc-3166-2-vu:Torba ;
+	lcc-lr:hasTag "VU-TOB" ;
+	lcc-lr:identifies lcc-3166-2-vu:Torba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+

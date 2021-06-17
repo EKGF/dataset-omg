@@ -1,0 +1,390 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bj: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Benin Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bj" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Benin, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BJ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	.
+
+lcc-3166-2-bj:Alibori
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alibori" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Alibori in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Alibori"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Atacora
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Atacora" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Atacora in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Atacora"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Atlantique
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Atlantique" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Atlantique in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Atlantique"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:BJ-AK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-AK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Atacora in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Atacora ;
+	lcc-lr:hasTag "BJ-AK" ;
+	lcc-lr:identifies lcc-3166-2-bj:Atacora ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-AL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Alibori in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Alibori ;
+	lcc-lr:hasTag "BJ-AL" ;
+	lcc-lr:identifies lcc-3166-2-bj:Alibori ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-AQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-AQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Atlantique in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Atlantique ;
+	lcc-lr:hasTag "BJ-AQ" ;
+	lcc-lr:identifies lcc-3166-2-bj:Atlantique ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-BO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Borgou in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Borgou ;
+	lcc-lr:hasTag "BJ-BO" ;
+	lcc-lr:identifies lcc-3166-2-bj:Borgou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-CO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Collines in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Collines ;
+	lcc-lr:hasTag "BJ-CO" ;
+	lcc-lr:identifies lcc-3166-2-bj:Collines ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-DO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-DO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Donga in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Donga ;
+	lcc-lr:hasTag "BJ-DO" ;
+	lcc-lr:identifies lcc-3166-2-bj:Donga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-KO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-KO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Couffo in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Couffo ;
+	lcc-lr:hasTag "BJ-KO" ;
+	lcc-lr:identifies lcc-3166-2-bj:Couffo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-LI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Littoral in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Littoral ;
+	lcc-lr:hasTag "BJ-LI" ;
+	lcc-lr:identifies lcc-3166-2-bj:Littoral ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Mono in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Mono ;
+	lcc-lr:hasTag "BJ-MO" ;
+	lcc-lr:identifies lcc-3166-2-bj:Mono ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-OU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-OU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Ouémé in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Oueme ;
+	lcc-lr:hasTag "BJ-OU" ;
+	lcc-lr:identifies lcc-3166-2-bj:Oueme ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-PL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-PL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Plateau in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Plateau ;
+	lcc-lr:hasTag "BJ-PL" ;
+	lcc-lr:identifies lcc-3166-2-bj:Plateau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:BJ-ZO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BJ-ZO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision code for the department of Zou in the country of Benin" ;
+	lcc-lr:denotes lcc-3166-2-bj:Zou ;
+	lcc-lr:hasTag "BJ-ZO" ;
+	lcc-lr:identifies lcc-3166-2-bj:Zou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bj:Borgou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Borgou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Borgou in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Borgou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Collines
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Collines" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Collines in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Collines"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Couffo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Couffo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Couffo in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Couffo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "subdivision category department in the country of Benin" ;
+	.
+
+lcc-3166-2-bj:Donga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Donga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Donga in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Donga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Littoral
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Littoral" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Littoral in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Littoral"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Mono
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mono" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Mono in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Mono"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Oueme
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ouémé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Ouémé in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Ouémé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Plateau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plateau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Plateau in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Plateau"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+
+lcc-3166-2-bj:Zou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BJ/> ;
+	skos:definition "The department of Zou in the country of Benin" ;
+	lcc-cr:hasFrenchShortName "Zou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bj:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Benin ;
+	.
+

@@ -1,0 +1,454 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ci: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Côte d'Ivoire Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ci" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Côte d'Ivoire, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CI.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	.
+
+lcc-3166-2-ci:Abidjan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abidjan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The autonomous district of Abidjan in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Abidjan"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:AutonomousDistrict ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:AutonomousDistrict
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "autonomous district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision category autonomous district in the country of Côte d'Ivoire" ;
+	.
+
+lcc-3166-2-ci:Bas-Sassandra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bas-Sassandra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Bas-Sassandra in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Bas-Sassandra"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:CI-AB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the autonomous district of Abidjan in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Abidjan ;
+	lcc-lr:hasTag "CI-AB" ;
+	lcc-lr:identifies lcc-3166-2-ci:Abidjan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-BS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-BS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Bas-Sassandra in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Bas-Sassandra ;
+	lcc-lr:hasTag "CI-BS" ;
+	lcc-lr:identifies lcc-3166-2-ci:Bas-Sassandra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-CM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-CM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Comoé in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Comoe ;
+	lcc-lr:hasTag "CI-CM" ;
+	lcc-lr:identifies lcc-3166-2-ci:Comoe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-DN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-DN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Denguélé in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Denguele ;
+	lcc-lr:hasTag "CI-DN" ;
+	lcc-lr:identifies lcc-3166-2-ci:Denguele ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-GD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-GD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Gôh-Djiboua in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Goh-Djiboua ;
+	lcc-lr:hasTag "CI-GD" ;
+	lcc-lr:identifies lcc-3166-2-ci:Goh-Djiboua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-LC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-LC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Lacs in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Lacs ;
+	lcc-lr:hasTag "CI-LC" ;
+	lcc-lr:identifies lcc-3166-2-ci:Lacs ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-LG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-LG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Lagunes in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Lagunes ;
+	lcc-lr:hasTag "CI-LG" ;
+	lcc-lr:identifies lcc-3166-2-ci:Lagunes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-MG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-MG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Montagnes in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Montagnes ;
+	lcc-lr:hasTag "CI-MG" ;
+	lcc-lr:identifies lcc-3166-2-ci:Montagnes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-SM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Sassandra-Marahoué in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Sassandra-Marahoue ;
+	lcc-lr:hasTag "CI-SM" ;
+	lcc-lr:identifies lcc-3166-2-ci:Sassandra-Marahoue ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-SV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Savanes in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Savanes ;
+	lcc-lr:hasTag "CI-SV" ;
+	lcc-lr:identifies lcc-3166-2-ci:Savanes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-VB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-VB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Vallée du Bandama in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:ValleeDuBandama ;
+	lcc-lr:hasTag "CI-VB" ;
+	lcc-lr:identifies lcc-3166-2-ci:ValleeDuBandama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-WR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-WR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Woroba in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Woroba ;
+	lcc-lr:hasTag "CI-WR" ;
+	lcc-lr:identifies lcc-3166-2-ci:Woroba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-YM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-YM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the autonomous district of Yamoussoukro in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Yamoussoukro ;
+	lcc-lr:hasTag "CI-YM" ;
+	lcc-lr:identifies lcc-3166-2-ci:Yamoussoukro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:CI-ZZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CI-ZZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision code for the district of Zanzan in the country of Côte d'Ivoire" ;
+	lcc-lr:denotes lcc-3166-2-ci:Zanzan ;
+	lcc-lr:hasTag "CI-ZZ" ;
+	lcc-lr:identifies lcc-3166-2-ci:Zanzan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ci:Comoe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Comoé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Comoé in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Comoé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Denguele
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Denguélé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Denguélé in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Denguélé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "subdivision category district in the country of Côte d'Ivoire" ;
+	.
+
+lcc-3166-2-ci:Goh-Djiboua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gôh-Djiboua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Gôh-Djiboua in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Gôh-Djiboua"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Lacs
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lacs" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Lacs in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Lacs"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Lagunes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lagunes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Lagunes in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Lagunes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Montagnes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Montagnes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Montagnes in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Montagnes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Sassandra-Marahoue
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sassandra-Marahoué" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Sassandra-Marahoué in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Sassandra-Marahoué"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Savanes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Savanes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Savanes in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Savanes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:ValleeDuBandama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vallée du Bandama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Vallée du Bandama in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Vallée du Bandama"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Woroba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Woroba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Woroba in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Woroba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Yamoussoukro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yamoussoukro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The autonomous district of Yamoussoukro in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Yamoussoukro"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:AutonomousDistrict ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-2-ci:Zanzan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zanzan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CI/> ;
+	skos:definition "The district of Zanzan in the country of Côte d'Ivoire" ;
+	lcc-cr:hasFrenchShortName "Zanzan"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ci:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:CoteDIvoire ;
+	.
+

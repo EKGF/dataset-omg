@@ -1,0 +1,1625 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-us: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for United States of America (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-us" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for United States of America (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-US.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	.
+
+lcc-3166-2-us:Alabama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alabama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Alabama in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Alabama"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Alaska
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alaska" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Alaska in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Alaska"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:AmericanSamoa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:AmericanSamoa ;
+	rdfs:label "American Samoa (see also separate country code entry under AS)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The outlying area of American Samoa (see also separate country code entry under AS) in the country of United States of America (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:OutlyingArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Arizona
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arizona" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Arizona in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Arizona"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Arkansas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arkansas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Arkansas in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Arkansas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:California
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "California" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of California in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "California"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Colorado
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Colorado" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Colorado in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Colorado"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Connecticut
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Connecticut" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Connecticut in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Connecticut"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Delaware
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Delaware" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Delaware in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Delaware"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision category district in the country of United States of America (the)" ;
+	.
+
+lcc-3166-2-us:DistrictOfColumbia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "District of Columbia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The district of District of Columbia in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "District of Columbia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Florida
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Florida" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Florida in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Florida"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Georgia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Georgia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Georgia in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Georgia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Guam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Guam ;
+	rdfs:label "Guam (see also separate country code entry under GU)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The outlying area of Guam (see also separate country code entry under GU) in the country of United States of America (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:OutlyingArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Hawaii
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hawaii" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Hawaii in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Hawaii"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Idaho
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Idaho" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Idaho in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Idaho"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Illinois
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Illinois" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Illinois in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Illinois"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Indiana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Indiana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Indiana in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Indiana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Iowa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iowa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Iowa in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Iowa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Kansas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kansas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Kansas in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Kansas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Kentucky
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kentucky" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Kentucky in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Kentucky"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Louisiana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Louisiana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Louisiana in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Louisiana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Maine
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maine" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Maine in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Maine"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Maryland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maryland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Maryland in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Maryland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Massachusetts
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Massachusetts" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Massachusetts in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Massachusetts"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Michigan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Michigan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Michigan in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Michigan"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Minnesota
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Minnesota" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Minnesota in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Minnesota"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Mississippi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mississippi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Mississippi in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Mississippi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Missouri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Missouri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Missouri in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Missouri"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Montana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Montana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Montana in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Montana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Nebraska
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nebraska" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Nebraska in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Nebraska"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Nevada
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nevada" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Nevada in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Nevada"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:NewHampshire
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New Hampshire" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of New Hampshire in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "New Hampshire"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:NewJersey
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New Jersey" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of New Jersey in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "New Jersey"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:NewMexico
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New Mexico" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of New Mexico in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "New Mexico"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:NewYork
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New York" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of New York in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "New York"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:NorthCarolina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Carolina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of North Carolina in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "North Carolina"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:NorthDakota
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Dakota" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of North Dakota in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "North Dakota"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:NorthernMarianaIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:NorthernMarianaIslands ;
+	rdfs:label "Northern Mariana Islands (see also separate country code entry under MP)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The outlying area of Northern Mariana Islands (see also separate country code entry under MP) in the country of United States of America (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:OutlyingArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Ohio
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ohio" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Ohio in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Ohio"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Oklahoma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oklahoma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Oklahoma in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Oklahoma"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Oregon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oregon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Oregon in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Oregon"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:OutlyingArea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "outlying area" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision category outlying area in the country of United States of America (the)" ;
+	.
+
+lcc-3166-2-us:Pennsylvania
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pennsylvania" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Pennsylvania in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Pennsylvania"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:PuertoRico
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:PuertoRico ;
+	rdfs:label "Puerto Rico (see also separate country code entry under PR)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The outlying area of Puerto Rico (see also separate country code entry under PR) in the country of United States of America (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:OutlyingArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:RhodeIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rhode Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Rhode Island in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Rhode Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:SouthCarolina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Carolina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of South Carolina in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "South Carolina"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:SouthDakota
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Dakota" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of South Dakota in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "South Dakota"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision category state in the country of United States of America (the)" ;
+	.
+
+lcc-3166-2-us:Tennessee
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tennessee" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Tennessee in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Tennessee"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Texas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Texas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Texas in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Texas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:US-AK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-AK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Alaska in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Alaska ;
+	lcc-lr:hasTag "US-AK" ;
+	lcc-lr:identifies lcc-3166-2-us:Alaska ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-AL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Alabama in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Alabama ;
+	lcc-lr:hasTag "US-AL" ;
+	lcc-lr:identifies lcc-3166-2-us:Alabama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Arkansas in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Arkansas ;
+	lcc-lr:hasTag "US-AR" ;
+	lcc-lr:identifies lcc-3166-2-us:Arkansas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-AS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-AS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the outlying area of American Samoa (see also separate country code entry under AS) in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:AmericanSamoa ;
+	lcc-lr:hasTag "US-AS" ;
+	lcc-lr:identifies lcc-3166-2-us:AmericanSamoa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-AZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-AZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Arizona in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Arizona ;
+	lcc-lr:hasTag "US-AZ" ;
+	lcc-lr:identifies lcc-3166-2-us:Arizona ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-CA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of California in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:California ;
+	lcc-lr:hasTag "US-CA" ;
+	lcc-lr:identifies lcc-3166-2-us:California ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-CO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Colorado in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Colorado ;
+	lcc-lr:hasTag "US-CO" ;
+	lcc-lr:identifies lcc-3166-2-us:Colorado ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-CT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Connecticut in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Connecticut ;
+	lcc-lr:hasTag "US-CT" ;
+	lcc-lr:identifies lcc-3166-2-us:Connecticut ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-DC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-DC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the district of District of Columbia in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:DistrictOfColumbia ;
+	lcc-lr:hasTag "US-DC" ;
+	lcc-lr:identifies lcc-3166-2-us:DistrictOfColumbia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-DE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-DE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Delaware in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Delaware ;
+	lcc-lr:hasTag "US-DE" ;
+	lcc-lr:identifies lcc-3166-2-us:Delaware ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-FL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-FL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Florida in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Florida ;
+	lcc-lr:hasTag "US-FL" ;
+	lcc-lr:identifies lcc-3166-2-us:Florida ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-GA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Georgia in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Georgia ;
+	lcc-lr:hasTag "US-GA" ;
+	lcc-lr:identifies lcc-3166-2-us:Georgia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-GU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-GU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the outlying area of Guam (see also separate country code entry under GU) in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Guam ;
+	lcc-lr:hasTag "US-GU" ;
+	lcc-lr:identifies lcc-3166-2-us:Guam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-HI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-HI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Hawaii in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Hawaii ;
+	lcc-lr:hasTag "US-HI" ;
+	lcc-lr:identifies lcc-3166-2-us:Hawaii ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-IA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-IA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Iowa in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Iowa ;
+	lcc-lr:hasTag "US-IA" ;
+	lcc-lr:identifies lcc-3166-2-us:Iowa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-ID
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-ID" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Idaho in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Idaho ;
+	lcc-lr:hasTag "US-ID" ;
+	lcc-lr:identifies lcc-3166-2-us:Idaho ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-IL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-IL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Illinois in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Illinois ;
+	lcc-lr:hasTag "US-IL" ;
+	lcc-lr:identifies lcc-3166-2-us:Illinois ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-IN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-IN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Indiana in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Indiana ;
+	lcc-lr:hasTag "US-IN" ;
+	lcc-lr:identifies lcc-3166-2-us:Indiana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-KS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-KS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Kansas in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Kansas ;
+	lcc-lr:hasTag "US-KS" ;
+	lcc-lr:identifies lcc-3166-2-us:Kansas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-KY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-KY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Kentucky in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Kentucky ;
+	lcc-lr:hasTag "US-KY" ;
+	lcc-lr:identifies lcc-3166-2-us:Kentucky ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-LA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Louisiana in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Louisiana ;
+	lcc-lr:hasTag "US-LA" ;
+	lcc-lr:identifies lcc-3166-2-us:Louisiana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Massachusetts in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Massachusetts ;
+	lcc-lr:hasTag "US-MA" ;
+	lcc-lr:identifies lcc-3166-2-us:Massachusetts ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Maryland in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Maryland ;
+	lcc-lr:hasTag "US-MD" ;
+	lcc-lr:identifies lcc-3166-2-us:Maryland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-ME
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-ME" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Maine in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Maine ;
+	lcc-lr:hasTag "US-ME" ;
+	lcc-lr:identifies lcc-3166-2-us:Maine ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Michigan in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Michigan ;
+	lcc-lr:hasTag "US-MI" ;
+	lcc-lr:identifies lcc-3166-2-us:Michigan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Minnesota in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Minnesota ;
+	lcc-lr:hasTag "US-MN" ;
+	lcc-lr:identifies lcc-3166-2-us:Minnesota ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Missouri in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Missouri ;
+	lcc-lr:hasTag "US-MO" ;
+	lcc-lr:identifies lcc-3166-2-us:Missouri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the outlying area of Northern Mariana Islands (see also separate country code entry under MP) in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:NorthernMarianaIslands ;
+	lcc-lr:hasTag "US-MP" ;
+	lcc-lr:identifies lcc-3166-2-us:NorthernMarianaIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Mississippi in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Mississippi ;
+	lcc-lr:hasTag "US-MS" ;
+	lcc-lr:identifies lcc-3166-2-us:Mississippi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-MT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-MT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Montana in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Montana ;
+	lcc-lr:hasTag "US-MT" ;
+	lcc-lr:identifies lcc-3166-2-us:Montana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-NC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-NC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of North Carolina in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:NorthCarolina ;
+	lcc-lr:hasTag "US-NC" ;
+	lcc-lr:identifies lcc-3166-2-us:NorthCarolina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-ND
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-ND" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of North Dakota in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:NorthDakota ;
+	lcc-lr:hasTag "US-ND" ;
+	lcc-lr:identifies lcc-3166-2-us:NorthDakota ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-NE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-NE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Nebraska in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Nebraska ;
+	lcc-lr:hasTag "US-NE" ;
+	lcc-lr:identifies lcc-3166-2-us:Nebraska ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-NH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-NH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of New Hampshire in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:NewHampshire ;
+	lcc-lr:hasTag "US-NH" ;
+	lcc-lr:identifies lcc-3166-2-us:NewHampshire ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-NJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-NJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of New Jersey in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:NewJersey ;
+	lcc-lr:hasTag "US-NJ" ;
+	lcc-lr:identifies lcc-3166-2-us:NewJersey ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-NM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-NM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of New Mexico in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:NewMexico ;
+	lcc-lr:hasTag "US-NM" ;
+	lcc-lr:identifies lcc-3166-2-us:NewMexico ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-NV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-NV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Nevada in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Nevada ;
+	lcc-lr:hasTag "US-NV" ;
+	lcc-lr:identifies lcc-3166-2-us:Nevada ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-NY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-NY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of New York in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:NewYork ;
+	lcc-lr:hasTag "US-NY" ;
+	lcc-lr:identifies lcc-3166-2-us:NewYork ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-OH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-OH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Ohio in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Ohio ;
+	lcc-lr:hasTag "US-OH" ;
+	lcc-lr:identifies lcc-3166-2-us:Ohio ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-OK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-OK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Oklahoma in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Oklahoma ;
+	lcc-lr:hasTag "US-OK" ;
+	lcc-lr:identifies lcc-3166-2-us:Oklahoma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-OR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-OR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Oregon in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Oregon ;
+	lcc-lr:hasTag "US-OR" ;
+	lcc-lr:identifies lcc-3166-2-us:Oregon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-PA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Pennsylvania in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Pennsylvania ;
+	lcc-lr:hasTag "US-PA" ;
+	lcc-lr:identifies lcc-3166-2-us:Pennsylvania ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-PR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-PR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the outlying area of Puerto Rico (see also separate country code entry under PR) in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:PuertoRico ;
+	lcc-lr:hasTag "US-PR" ;
+	lcc-lr:identifies lcc-3166-2-us:PuertoRico ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-RI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Rhode Island in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:RhodeIsland ;
+	lcc-lr:hasTag "US-RI" ;
+	lcc-lr:identifies lcc-3166-2-us:RhodeIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-SC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-SC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of South Carolina in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:SouthCarolina ;
+	lcc-lr:hasTag "US-SC" ;
+	lcc-lr:identifies lcc-3166-2-us:SouthCarolina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of South Dakota in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:SouthDakota ;
+	lcc-lr:hasTag "US-SD" ;
+	lcc-lr:identifies lcc-3166-2-us:SouthDakota ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-TN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-TN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Tennessee in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Tennessee ;
+	lcc-lr:hasTag "US-TN" ;
+	lcc-lr:identifies lcc-3166-2-us:Tennessee ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-TX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-TX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Texas in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Texas ;
+	lcc-lr:hasTag "US-TX" ;
+	lcc-lr:identifies lcc-3166-2-us:Texas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-UM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-UM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the outlying area of United States Minor Outlying Islands (see also separate country code entry under UM) in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:UnitedStatesMinorOutlyingIslands ;
+	lcc-lr:hasTag "US-UM" ;
+	lcc-lr:identifies lcc-3166-2-us:UnitedStatesMinorOutlyingIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-UT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-UT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Utah in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Utah ;
+	lcc-lr:hasTag "US-UT" ;
+	lcc-lr:identifies lcc-3166-2-us:Utah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-VA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-VA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Virginia in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Virginia ;
+	lcc-lr:hasTag "US-VA" ;
+	lcc-lr:identifies lcc-3166-2-us:Virginia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-VI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-VI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the outlying area of Virgin Islands, U.S. (see also separate country code entry under VI) in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:VirginIslands ;
+	lcc-lr:hasTag "US-VI" ;
+	lcc-lr:identifies lcc-3166-2-us:VirginIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-VT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-VT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Vermont in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Vermont ;
+	lcc-lr:hasTag "US-VT" ;
+	lcc-lr:identifies lcc-3166-2-us:Vermont ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-WA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Washington in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Washington ;
+	lcc-lr:hasTag "US-WA" ;
+	lcc-lr:identifies lcc-3166-2-us:Washington ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-WI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-WI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Wisconsin in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Wisconsin ;
+	lcc-lr:hasTag "US-WI" ;
+	lcc-lr:identifies lcc-3166-2-us:Wisconsin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-WV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-WV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of West Virginia in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:WestVirginia ;
+	lcc-lr:hasTag "US-WV" ;
+	lcc-lr:identifies lcc-3166-2-us:WestVirginia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:US-WY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "US-WY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "subdivision code for the state of Wyoming in the country of United States of America (the)" ;
+	lcc-lr:denotes lcc-3166-2-us:Wyoming ;
+	lcc-lr:hasTag "US-WY" ;
+	lcc-lr:identifies lcc-3166-2-us:Wyoming ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-us:UnitedStatesMinorOutlyingIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	rdfs:label "United States Minor Outlying Islands (see also separate country code entry under UM)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The outlying area of United States Minor Outlying Islands (see also separate country code entry under UM) in the country of United States of America (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:OutlyingArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Utah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Utah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Utah in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Utah"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Vermont
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vermont" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Vermont in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Vermont"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:VirginIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:VirginIslandsUS ;
+	rdfs:label "Virgin Islands, U.S. (see also separate country code entry under VI)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The outlying area of Virgin Islands, U.S. (see also separate country code entry under VI) in the country of United States of America (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:OutlyingArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Virginia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Virginia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Virginia in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Virginia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Washington
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Washington" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Washington in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Washington"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:WestVirginia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West Virginia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of West Virginia in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "West Virginia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Wisconsin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wisconsin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Wisconsin in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Wisconsin"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-2-us:Wyoming
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wyoming" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/> ;
+	skos:definition "The state of Wyoming in the country of United States of America (the)" ;
+	lcc-cr:hasEnglishShortName "Wyoming"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-us:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+

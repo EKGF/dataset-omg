@@ -1,0 +1,565 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-kr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Korea Republic Of Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-kr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Korea Republic Of, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	.
+
+lcc-3166-2-kr:Busan-gwangyeoksi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Busan-gwangyeoksi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The metropolitan city of Busan-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Busan-gwangyeoksi"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:MetropolitanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Chungcheongbuk-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chungcheongbuk-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Chungcheongbuk-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Chungcheongbuk-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Chungcheongnam-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chungcheongnam-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Chungcheongnam-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Chungcheongnam-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Daegu-gwangyeoksi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Daegu-gwangyeoksi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The metropolitan city of Daegu-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Daegu-gwangyeoksi"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:MetropolitanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Daejeon-gwangyeoksi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Daejeon-gwangyeoksi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The metropolitan city of Daejeon-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Daejeon-gwangyeoksi"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:MetropolitanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Gangwon-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gangwon-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Gangwon-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Gangwon-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Gwangju-gwangyeoksi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gwangju-gwangyeoksi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The metropolitan city of Gwangju-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Gwangju-gwangyeoksi"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:MetropolitanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Gyeonggi-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gyeonggi-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Gyeonggi-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Gyeonggi-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Gyeongsangbuk-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gyeongsangbuk-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Gyeongsangbuk-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Gyeongsangbuk-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Gyeongsangnam-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gyeongsangnam-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Gyeongsangnam-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Gyeongsangnam-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Incheon-gwangyeoksi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Incheon-gwangyeoksi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The metropolitan city of Incheon-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Incheon-gwangyeoksi"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:MetropolitanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Jeju-teukbyeoljachido
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jeju-teukbyeoljachido" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The special self-governing province of Jeju-teukbyeoljachido in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Jeju-teukbyeoljachido"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:SpecialSelf-governingProvince ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Jeollabuk-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jeollabuk-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Jeollabuk-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Jeollabuk-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Jeollanam-do
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jeollanam-do" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The province of Jeollanam-do in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Jeollanam-do"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:KR-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the special city of Seoul-teukbyeolsi in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Seoul-teukbyeolsi ;
+	lcc-lr:hasTag "KR-11" ;
+	lcc-lr:identifies lcc-3166-2-kr:Seoul-teukbyeolsi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the metropolitan city of Busan-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Busan-gwangyeoksi ;
+	lcc-lr:hasTag "KR-26" ;
+	lcc-lr:identifies lcc-3166-2-kr:Busan-gwangyeoksi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-27
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the metropolitan city of Daegu-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Daegu-gwangyeoksi ;
+	lcc-lr:hasTag "KR-27" ;
+	lcc-lr:identifies lcc-3166-2-kr:Daegu-gwangyeoksi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-28
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the metropolitan city of Incheon-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Incheon-gwangyeoksi ;
+	lcc-lr:hasTag "KR-28" ;
+	lcc-lr:identifies lcc-3166-2-kr:Incheon-gwangyeoksi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-29
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the metropolitan city of Gwangju-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Gwangju-gwangyeoksi ;
+	lcc-lr:hasTag "KR-29" ;
+	lcc-lr:identifies lcc-3166-2-kr:Gwangju-gwangyeoksi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-30
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the metropolitan city of Daejeon-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Daejeon-gwangyeoksi ;
+	lcc-lr:hasTag "KR-30" ;
+	lcc-lr:identifies lcc-3166-2-kr:Daejeon-gwangyeoksi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-31
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the metropolitan city of Ulsan-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Ulsan-gwangyeoksi ;
+	lcc-lr:hasTag "KR-31" ;
+	lcc-lr:identifies lcc-3166-2-kr:Ulsan-gwangyeoksi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Gyeonggi-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Gyeonggi-do ;
+	lcc-lr:hasTag "KR-41" ;
+	lcc-lr:identifies lcc-3166-2-kr:Gyeonggi-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-42
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Gangwon-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Gangwon-do ;
+	lcc-lr:hasTag "KR-42" ;
+	lcc-lr:identifies lcc-3166-2-kr:Gangwon-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-43
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Chungcheongbuk-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Chungcheongbuk-do ;
+	lcc-lr:hasTag "KR-43" ;
+	lcc-lr:identifies lcc-3166-2-kr:Chungcheongbuk-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-44
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Chungcheongnam-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Chungcheongnam-do ;
+	lcc-lr:hasTag "KR-44" ;
+	lcc-lr:identifies lcc-3166-2-kr:Chungcheongnam-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-45
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Jeollabuk-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Jeollabuk-do ;
+	lcc-lr:hasTag "KR-45" ;
+	lcc-lr:identifies lcc-3166-2-kr:Jeollabuk-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-46
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Jeollanam-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Jeollanam-do ;
+	lcc-lr:hasTag "KR-46" ;
+	lcc-lr:identifies lcc-3166-2-kr:Jeollanam-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-47
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Gyeongsangbuk-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Gyeongsangbuk-do ;
+	lcc-lr:hasTag "KR-47" ;
+	lcc-lr:identifies lcc-3166-2-kr:Gyeongsangbuk-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-48
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the province of Gyeongsangnam-do in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Gyeongsangnam-do ;
+	lcc-lr:hasTag "KR-48" ;
+	lcc-lr:identifies lcc-3166-2-kr:Gyeongsangnam-do ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-49
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the special self-governing province of Jeju-teukbyeoljachido in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Jeju-teukbyeoljachido ;
+	lcc-lr:hasTag "KR-49" ;
+	lcc-lr:identifies lcc-3166-2-kr:Jeju-teukbyeoljachido ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:KR-50
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KR-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision code for the special self-governing city of Sejong in the country of Korea Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-kr:Sejong ;
+	lcc-lr:hasTag "KR-50" ;
+	lcc-lr:identifies lcc-3166-2-kr:Sejong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kr:MetropolitanCity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "metropolitan city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision category metropolitan city in the country of Korea Republic Of" ;
+	.
+
+lcc-3166-2-kr:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision category province in the country of Korea Republic Of" ;
+	.
+
+lcc-3166-2-kr:Sejong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sejong" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The special self-governing city of Sejong in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Sejong"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:SpecialSelf-governingCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:Seoul-teukbyeolsi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Seoul-teukbyeolsi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The special city of Seoul-teukbyeolsi in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Seoul-teukbyeolsi"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:SpecialCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-2-kr:SpecialCity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "special city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision category special city in the country of Korea Republic Of" ;
+	.
+
+lcc-3166-2-kr:SpecialSelf-governingCity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "special self-governing city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision category special self-governing city in the country of Korea Republic Of" ;
+	.
+
+lcc-3166-2-kr:SpecialSelf-governingProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "special self-governing province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "subdivision category special self-governing province in the country of Korea Republic Of" ;
+	.
+
+lcc-3166-2-kr:Ulsan-gwangyeoksi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ulsan-gwangyeoksi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KR/> ;
+	skos:definition "The metropolitan city of Ulsan-gwangyeoksi in the country of Korea Republic Of" ;
+	lcc-cr:hasLocalShortName "Ulsan-gwangyeoksi"@ko ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kr:MetropolitanCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:KoreaRepublicOf ;
+	.
+

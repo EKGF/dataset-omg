@@ -1,0 +1,319 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-pk: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Pakistan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-pk" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Pakistan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PK.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	.
+
+lcc-3166-2-pk:AzadJammuAndKashmir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Azad Jammu and Kashmir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The Pakistan administered area of Azad Jammu and Kashmir in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Azad Jammu and Kashmir"@en ;
+	lcc-cr:hasLocalShortName "Āzād Jammūñ o Kashmīr"@ur ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:PakistanAdministeredArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:Balochistan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balochistan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The province of Balochistan in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Balochistan"@en ;
+	lcc-cr:hasLocalShortName "Balōchistān"@ur ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:FederalCapitalTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "federal capital territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision category federal capital territory in the country of Pakistan" ;
+	.
+
+lcc-3166-2-pk:FederallyAdministeredTribalAreas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Federally Administered Tribal Areas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The territory of Federally Administered Tribal Areas in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Federally Administered Tribal Areas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:Gilgit-Baltistan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gilgit-Baltistan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The Pakistan administered area of Gilgit-Baltistan in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Gilgit-Baltistan"@en ;
+	lcc-cr:hasLocalShortName "Gilgit-Baltistān"@ur ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:PakistanAdministeredArea ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:Islamabad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Islamabad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The federal capital territory of Islamabad in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Islamabad"@en ;
+	lcc-cr:hasLocalShortName "Islāmābād"@ur ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:FederalCapitalTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:KhyberPakhtunkhwa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khyber Pakhtunkhwa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The province of Khyber Pakhtunkhwa in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Khyber Pakhtunkhwa"@en ;
+	lcc-cr:hasLocalShortName "Khaībar Pakhtūnkhwā"@ur ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:PK-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the province of Balochistan in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:Balochistan ;
+	lcc-lr:hasTag "PK-BA" ;
+	lcc-lr:identifies lcc-3166-2-pk:Balochistan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PK-GB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-GB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the Pakistan administered area of Gilgit-Baltistan in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:Gilgit-Baltistan ;
+	lcc-lr:hasTag "PK-GB" ;
+	lcc-lr:identifies lcc-3166-2-pk:Gilgit-Baltistan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PK-IS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-IS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the federal capital territory of Islamabad in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:Islamabad ;
+	lcc-lr:hasTag "PK-IS" ;
+	lcc-lr:identifies lcc-3166-2-pk:Islamabad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PK-JK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-JK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the Pakistan administered area of Azad Jammu and Kashmir in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:AzadJammuAndKashmir ;
+	lcc-lr:hasTag "PK-JK" ;
+	lcc-lr:identifies lcc-3166-2-pk:AzadJammuAndKashmir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PK-KP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-KP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the province of Khyber Pakhtunkhwa in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:KhyberPakhtunkhwa ;
+	lcc-lr:hasTag "PK-KP" ;
+	lcc-lr:identifies lcc-3166-2-pk:KhyberPakhtunkhwa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PK-PB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-PB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the province of Punjab in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:Punjab ;
+	lcc-lr:hasTag "PK-PB" ;
+	lcc-lr:identifies lcc-3166-2-pk:Punjab ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PK-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the province of Sindh in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:Sindh ;
+	lcc-lr:hasTag "PK-SD" ;
+	lcc-lr:identifies lcc-3166-2-pk:Sindh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PK-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PK-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision code for the territory of Federally Administered Tribal Areas in the country of Pakistan" ;
+	lcc-lr:denotes lcc-3166-2-pk:FederallyAdministeredTribalAreas ;
+	lcc-lr:hasTag "PK-TA" ;
+	lcc-lr:identifies lcc-3166-2-pk:FederallyAdministeredTribalAreas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pk:PakistanAdministeredArea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "Pakistan administered area" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision category Pakistan administered area in the country of Pakistan" ;
+	.
+
+lcc-3166-2-pk:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision category province in the country of Pakistan" ;
+	.
+
+lcc-3166-2-pk:Punjab
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Punjab" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The province of Punjab in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Punjab"@en ;
+	lcc-cr:hasLocalShortName "Panjāb"@ur ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:Sindh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sindh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "The province of Sindh in the country of Pakistan" ;
+	lcc-cr:hasEnglishShortName "Sindh"@en ;
+	lcc-cr:hasLocalShortName "Sindh"@ur ;
+	lcc-cr:isClassifiedBy lcc-3166-2-pk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-2-pk:Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PK/> ;
+	skos:definition "subdivision category territory in the country of Pakistan" ;
+	.
+

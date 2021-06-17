@@ -1,0 +1,390 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-jo: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Jordan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-jo" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Jordan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-JO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	.
+
+lcc-3166-2-jo:Ajlun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "‘Ajlūn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of ‘Ajlūn in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "‘Ajlūn"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:AlAqabah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al ‘Aqabah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Al ‘Aqabah in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Al ‘Aqabah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:AlAsimah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al ‘A̅şimah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Al ‘A̅şimah in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Al ‘A̅şimah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:AlBalqa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Balqā’" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Al Balqā’ in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Al Balqā’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:AlKarak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Karak" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Al Karak in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Al Karak"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:AlMafraq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Mafraq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Al Mafraq in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Al Mafraq"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:AtTafilah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aţ Ţafīlah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Aţ Ţafīlah in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Aţ Ţafīlah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:AzZarqa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Az Zarqā’" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Az Zarqā’ in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Az Zarqā’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:Governorate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "governorate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision category governorate in the country of Jordan" ;
+	.
+
+lcc-3166-2-jo:Irbid
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Irbid" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Irbid in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Irbid"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:JO-AJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-AJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of ‘Ajlūn in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:Ajlun ;
+	lcc-lr:hasTag "JO-AJ" ;
+	lcc-lr:identifies lcc-3166-2-jo:Ajlun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-AM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-AM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Al ‘A̅şimah in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:AlAsimah ;
+	lcc-lr:hasTag "JO-AM" ;
+	lcc-lr:identifies lcc-3166-2-jo:AlAsimah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-AQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-AQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Al ‘Aqabah in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:AlAqabah ;
+	lcc-lr:hasTag "JO-AQ" ;
+	lcc-lr:identifies lcc-3166-2-jo:AlAqabah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-AT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-AT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Aţ Ţafīlah in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:AtTafilah ;
+	lcc-lr:hasTag "JO-AT" ;
+	lcc-lr:identifies lcc-3166-2-jo:AtTafilah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-AZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-AZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Az Zarqā’ in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:AzZarqa ;
+	lcc-lr:hasTag "JO-AZ" ;
+	lcc-lr:identifies lcc-3166-2-jo:AzZarqa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Al Balqā’ in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:AlBalqa ;
+	lcc-lr:hasTag "JO-BA" ;
+	lcc-lr:identifies lcc-3166-2-jo:AlBalqa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-IR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-IR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Irbid in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:Irbid ;
+	lcc-lr:hasTag "JO-IR" ;
+	lcc-lr:identifies lcc-3166-2-jo:Irbid ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-JA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Jarash in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:Jarash ;
+	lcc-lr:hasTag "JO-JA" ;
+	lcc-lr:identifies lcc-3166-2-jo:Jarash ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-KA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Al Karak in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:AlKarak ;
+	lcc-lr:hasTag "JO-KA" ;
+	lcc-lr:identifies lcc-3166-2-jo:AlKarak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Al Mafraq in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:AlMafraq ;
+	lcc-lr:hasTag "JO-MA" ;
+	lcc-lr:identifies lcc-3166-2-jo:AlMafraq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-MD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-MD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Mādabā in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:Madaba ;
+	lcc-lr:hasTag "JO-MD" ;
+	lcc-lr:identifies lcc-3166-2-jo:Madaba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:JO-MN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JO-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "subdivision code for the governorate of Ma‘ān in the country of Jordan" ;
+	lcc-lr:denotes lcc-3166-2-jo:Maan ;
+	lcc-lr:hasTag "JO-MN" ;
+	lcc-lr:identifies lcc-3166-2-jo:Maan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jo:Jarash
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jarash" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Jarash in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Jarash"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:Maan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ma‘ān" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Ma‘ān in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Ma‘ān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-2-jo:Madaba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mādabā" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JO/> ;
+	skos:definition "The governorate of Mādabā in the country of Jordan" ;
+	lcc-cr:hasLocalShortName "Mādabā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jo:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jordan ;
+	.
+

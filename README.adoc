@@ -1,0 +1,13 @@
+= omg
+// tag::body[]
+
+All RDF datasets from the Object Management Group (OMG)
+
+
+== Files
+
+* ISO Languages (dataset/ISO639-*)
+* ISO Country and Regions (dataset/ISO3166-*)
+* link:dataset/UN-M49-RegionCodes.ttl[UN Country and Region Codes]
+
+// end::body[]

@@ -1,0 +1,5658 @@
+# baseURI: https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-639-1: <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/>
+	a owl:Ontology ;
+	rdfs:label "ISO 639-1 Language Codes Ontology" ;
+	dct:license <http://opensource.org/licenses/MIT> ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright
+		"Copyright (c) 2015-2017 Unisys" ,
+		"Copyright (c) 2015-2019 Adaptive Inc." ,
+		"Copyright (c) 2015-2019 Object Management Group, Inc." ,
+		"Copyright (c) 2015-2019 Thematix Partners LLC"
+		;
+	sm:dependsOn "https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI ;
+	sm:fileAbbreviation "lcc-639-1" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 639 standard that provides the language names and actual codes for ISO 639-1." ;
+	sm:filename "ISO639-1-LanguageCodes.rdf" ;
+	rdfs:seeAlso
+		<http://www.loc.gov/standards/iso639-2/php/code_list.php/> ,
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Languages/AboutLanguages/>
+		;
+	owl:imports <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> ;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Languages/ISO639-1-LanguageCodes/> ;
+	skos:changeNote
+		"The http://www.omg.org/spec/LCC/20151101/Languages/ISO639-1-LanguageCodes.rdf version of this ontology has been revised to reflect the issues addressed by the LCC 1.0 FTF report.  The codes themselves are current as of 31 July 2017, based on the US Library of Congress site." ,
+		"The https://www.omg.org/spec/LCC/20190201/Languages/ISO639-2-LanguageCodes.rdf version of this ontology is current as of 14 February 2019, based on the US Library of Congress site."
+		;
+	.
+
+lcc-639-1:Abkhazian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Abkhazian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Abkhazian language" ;
+	lcc-lr:hasEnglishName
+		"Abkhaz"@en ,
+		"Abkhazian"@en
+		;
+	lcc-lr:hasFrenchName
+		"abkhaze"@fr ,
+		"abkhazien"@fr
+		;
+	lcc-lr:hasGermanName "Abchasisch"@ge ;
+	lcc-lr:hasIndigenousName "apṕsua bysžwa" ;
+	.
+
+lcc-639-1:Afar
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Afar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Afar language" ;
+	lcc-lr:hasEnglishName "Afar"@en ;
+	lcc-lr:hasFrenchName "afar"@fr ;
+	lcc-lr:hasGermanName "Danakil-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "afar" ;
+	.
+
+lcc-639-1:Afrikaans
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Afrikaans" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Afrikaans language" ;
+	lcc-lr:hasEnglishName "Afrikaans"@en ;
+	lcc-lr:hasFrenchName "afrikaans"@fr ;
+	lcc-lr:hasGermanName "Afrikaans"@ge ;
+	lcc-lr:hasIndigenousName "Afrikaans" ;
+	.
+
+lcc-639-1:Akan
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Akan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Akan language" ;
+	lcc-lr:hasEnglishName "Akan"@en ;
+	lcc-lr:hasFrenchName "akan"@fr ;
+	lcc-lr:hasGermanName "Akan"@ge ;
+	lcc-lr:hasIndigenousName "akana" ;
+	.
+
+lcc-639-1:Albanian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Albanian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Albanian languages" ;
+	lcc-lr:hasEnglishName "Albanian"@en ;
+	lcc-lr:hasFrenchName "albanais"@fr ;
+	lcc-lr:hasGermanName "Albanisch"@ge ;
+	lcc-lr:hasIndigenousName "shqip" ;
+	.
+
+lcc-639-1:Amharic
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Amharic" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Amharic language" ;
+	lcc-lr:hasEnglishName "Amharic"@en ;
+	lcc-lr:hasFrenchName "amharique"@fr ;
+	lcc-lr:hasGermanName "Amharisch"@ge ;
+	lcc-lr:hasIndigenousName "amarinja" ;
+	.
+
+lcc-639-1:Arabic
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Arabic" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Arabic language" ;
+	lcc-lr:hasEnglishName "Arabic"@en ;
+	lcc-lr:hasFrenchName "arabe"@fr ;
+	lcc-lr:hasGermanName "Arabisch"@ge ;
+	lcc-lr:hasIndigenousName "'arabiy" ;
+	.
+
+lcc-639-1:Aragonese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Aragonese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Aragonese language" ;
+	lcc-lr:hasEnglishName "Aragonese"@en ;
+	lcc-lr:hasFrenchName "aragonais"@fr ;
+	lcc-lr:hasGermanName "Aragonesisch"@ge ;
+	.
+
+lcc-639-1:Armenian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Armenian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Armenian language" ;
+	lcc-lr:hasEnglishName "Armenian"@en ;
+	lcc-lr:hasFrenchName "arménien"@fr ;
+	lcc-lr:hasGermanName "Armenisch"@ge ;
+	lcc-lr:hasIndigenousName "hayeren lezow" ;
+	.
+
+lcc-639-1:Assamese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Assamese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Assamese language" ;
+	lcc-lr:hasEnglishName "Assamese"@en ;
+	lcc-lr:hasFrenchName "assamais"@fr ;
+	lcc-lr:hasGermanName "Assamesisch"@ge ;
+	lcc-lr:hasIndigenousName "asamī" ;
+	.
+
+lcc-639-1:Avaric
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Avaric" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Avaric language" ;
+	lcc-lr:hasEnglishName
+		"Avar"@en ,
+		"Avaric"@en ,
+		"Avarish"@en
+		;
+	lcc-lr:hasFrenchName "avar"@fr ;
+	lcc-lr:hasGermanName "Awarisch"@ge ;
+	lcc-lr:hasIndigenousName "avar mac‡" ;
+	.
+
+lcc-639-1:Avestan
+	a
+		owl:NamedIndividual ,
+		lcc-lr:AncientLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Avestan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Avestan     language" ;
+	lcc-lr:hasEnglishName "Avestan"@en ;
+	lcc-lr:hasFrenchName "avestique"@fr ;
+	lcc-lr:hasGermanName "Avestisch"@ge ;
+	.
+
+lcc-639-1:Aymara
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Aymara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Aymara language" ;
+	lcc-lr:hasEnglishName "Aymara"@en ;
+	lcc-lr:hasFrenchName "aymara"@fr ;
+	lcc-lr:hasGermanName "Aymará-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "aymara" ;
+	.
+
+lcc-639-1:Azerbaijani
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Azerbaijani" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Azerbaijani language" ;
+	lcc-lr:hasEnglishName "Azerbaijani"@en ;
+	lcc-lr:hasFrenchName
+		"azerbaïdjanais"@fr ,
+		"azéri"@fr
+		;
+	lcc-lr:hasGermanName "Aserbeidschanisch"@ge ;
+	lcc-lr:hasIndigenousName "azǝrbaycan dil" ;
+	.
+
+lcc-639-1:Bambara
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Bambara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Bambara language" ;
+	lcc-lr:hasEnglishName "Bambara"@en ;
+	lcc-lr:hasFrenchName "bambara"@fr ;
+	lcc-lr:hasGermanName "Bambara-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "bambankan" ;
+	.
+
+lcc-639-1:Bashkir
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Bashkir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Bashkir language" ;
+	lcc-lr:hasEnglishName "Bashkir"@en ;
+	lcc-lr:hasFrenchName
+		"bachkir"@fr ,
+		"bashkir"@fr
+		;
+	lcc-lr:hasGermanName "Baschkirisch"@ge ;
+	lcc-lr:hasIndigenousName "bašǩort" ;
+	.
+
+lcc-639-1:Basque
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Basque" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Basque language" ;
+	lcc-lr:hasEnglishName "Basque"@en ;
+	lcc-lr:hasFrenchName "basque"@fr ;
+	lcc-lr:hasGermanName "Baskisch"@ge ;
+	lcc-lr:hasIndigenousName
+		"euskara" ,
+		"euskera"
+		;
+	.
+
+lcc-639-1:Belarusian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Belarusian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Belarusian language" ;
+	lcc-lr:hasEnglishName "Belarusian"@en ;
+	lcc-lr:hasFrenchName "biélorusse"@fr ;
+	lcc-lr:hasGermanName "Weißrussisch"@ge ;
+	lcc-lr:hasIndigenousName "belaruskaâ mova" ;
+	.
+
+lcc-639-1:Bengali
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Bengali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Bengali language" ;
+	lcc-lr:hasEnglishName
+		"Bangla"@en ,
+		"Bengali"@en
+		;
+	lcc-lr:hasFrenchName "bengali"@fr ;
+	lcc-lr:hasGermanName "Bengali"@ge ;
+	lcc-lr:hasIndigenousName "bāṅlā" ;
+	.
+
+lcc-639-1:BihariLanguages
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LanguageFamily
+		;
+	rdfs:label "Bihari languages" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	lcc-lr:hasEnglishName "Bihari languages"@en ;
+	lcc-lr:hasFrenchName "langues biharis"@fr ;
+	lcc-lr:hasGermanName "Bihari (Andere)"@ge ;
+	lcc-lr:hasIndigenousName "bihārī" ;
+	.
+
+lcc-639-1:Bislama
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Bislama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Bislama language" ;
+	lcc-lr:hasEnglishName "Bislama"@en ;
+	lcc-lr:hasFrenchName
+		"bichlamar"@fr ,
+		"bislama"@fr
+		;
+	lcc-lr:hasGermanName "Beach-la-mar"@ge ;
+	lcc-lr:hasIndigenousName "bislama" ;
+	.
+
+lcc-639-1:Bosnian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Bosnian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Bosnian language" ;
+	lcc-lr:hasEnglishName "Bosnian"@en ;
+	lcc-lr:hasFrenchName "bosniaque"@fr ;
+	lcc-lr:hasGermanName "Bosnisch"@ge ;
+	lcc-lr:hasIndigenousName "bosanski (jezik)" ;
+	.
+
+lcc-639-1:Breton
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Breton" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Breton language" ;
+	lcc-lr:hasEnglishName "Breton"@en ;
+	lcc-lr:hasFrenchName "breton"@fr ;
+	lcc-lr:hasGermanName "Bretonisch"@ge ;
+	lcc-lr:hasIndigenousName "Brezhoneg" ;
+	.
+
+lcc-639-1:Bulgarian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Bulgarian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Bulgarian language" ;
+	lcc-lr:hasEnglishName "Bulgarian"@en ;
+	lcc-lr:hasFrenchName "bulgare"@fr ;
+	lcc-lr:hasGermanName "Bulgarisch"@ge ;
+	lcc-lr:hasIndigenousName 'b"lgarski ezik' ;
+	.
+
+lcc-639-1:Burmese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Burmese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Burmese language" ;
+	lcc-lr:hasEnglishName
+		"Burmese"@en ,
+		"Myanmar"@en
+		;
+	lcc-lr:hasFrenchName "birman"@fr ;
+	lcc-lr:hasGermanName "Birmanisch"@ge ;
+	lcc-lr:hasIndigenousName "myanmasa" ;
+	.
+
+lcc-639-1:Catalan
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Catalan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Catalan language" ;
+	lcc-lr:hasEnglishName
+		"Catalan"@en ,
+		"Valencian"@en
+		;
+	lcc-lr:hasFrenchName
+		"catalan"@fr ,
+		"valencien"@fr
+		;
+	lcc-lr:hasGermanName "Katalanisch"@ge ;
+	lcc-lr:hasIndigenousName "català" ;
+	.
+
+lcc-639-1:CentralKhmer
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Central Khmer" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Central Khmer language" ;
+	lcc-lr:hasEnglishName
+		"Cambodian"@en ,
+		"Central Khmer"@en
+		;
+	lcc-lr:hasFrenchName
+		"cambodgien"@fr ,
+		"khmer central"@fr
+		;
+	lcc-lr:hasGermanName "Kambodschanisch"@ge ;
+	lcc-lr:hasIndigenousName "khmêr" ;
+	.
+
+lcc-639-1:Chamorro
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Chamorro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Chamorro language" ;
+	lcc-lr:hasEnglishName "Chamorro"@en ;
+	lcc-lr:hasFrenchName "chamorro"@fr ;
+	lcc-lr:hasGermanName "Chamorro-Sprache"@ge ;
+	.
+
+lcc-639-1:Chechen
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Chechen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Chechen language" ;
+	lcc-lr:hasEnglishName "Chechen"@en ;
+	lcc-lr:hasFrenchName "tchétchène"@fr ;
+	lcc-lr:hasGermanName "Tschetschenisch"@ge ;
+	lcc-lr:hasIndigenousName
+		"nohčijn mott" ,
+		"noxçiyn mott"
+		;
+	.
+
+lcc-639-1:Chinese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Chinese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Chinese languages" ;
+	lcc-lr:hasEnglishName "Chinese"@en ;
+	lcc-lr:hasFrenchName "chinois"@fr ;
+	lcc-lr:hasGermanName "Chinesisch"@ge ;
+	lcc-lr:hasIndigenousName "zhongwen" ;
+	.
+
+lcc-639-1:ChurchSlavic
+	a
+		owl:NamedIndividual ,
+		lcc-lr:AncientLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Church Slavic" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Church Slavic language" ;
+	lcc-lr:hasEnglishName
+		"Church Slavic"@en ,
+		"Church Slavonic"@en ,
+		"Old Bulgarian"@en ,
+		"Old Church Slavonic"@en ,
+		"Old Slavonic"@en
+		;
+	lcc-lr:hasFrenchName
+		"slavon d'église"@fr ,
+		"slavon liturgique"@fr ,
+		"vieux bulgare"@fr ,
+		"vieux slave"@fr
+		;
+	lcc-lr:hasGermanName "Kirchenslawisch"@ge ;
+	lcc-lr:hasIndigenousName "cerkovno-slavânskij" ;
+	.
+
+lcc-639-1:Chuvash
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Chuvash" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Chuvash language" ;
+	lcc-lr:hasEnglishName "Chuvash"@en ;
+	lcc-lr:hasFrenchName "tchouvache"@fr ;
+	lcc-lr:hasGermanName "Tschuwaschisch"@ge ;
+	lcc-lr:hasIndigenousName "čǎvaš čělhi" ;
+	.
+
+lcc-639-1:Cornish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Cornish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Cornish language" ;
+	lcc-lr:hasEnglishName "Cornish"@en ;
+	lcc-lr:hasFrenchName "cornique"@fr ;
+	lcc-lr:hasGermanName "Kornisch"@ge ;
+	lcc-lr:hasIndigenousName "Kernewek" ;
+	.
+
+lcc-639-1:Corsican
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Corsican" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Corsican language" ;
+	lcc-lr:hasEnglishName "Corsican"@en ;
+	lcc-lr:hasFrenchName "corse"@fr ;
+	lcc-lr:hasGermanName "Korsisch"@ge ;
+	lcc-lr:hasIndigenousName "corsu" ;
+	.
+
+lcc-639-1:Cree
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Cree" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Cree languages" ;
+	lcc-lr:hasEnglishName "Cree"@en ;
+	lcc-lr:hasFrenchName "cree"@fr ;
+	lcc-lr:hasGermanName "Cree-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "nêhiyawa" ;
+	.
+
+lcc-639-1:Croatian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Croatian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Croatian language" ;
+	lcc-lr:hasEnglishName "Croatian"@en ;
+	lcc-lr:hasFrenchName "croate"@fr ;
+	lcc-lr:hasGermanName "Kroatisch"@ge ;
+	lcc-lr:hasIndigenousName "hrvatski jezik" ;
+	.
+
+lcc-639-1:Czech
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Czech" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Czech language" ;
+	lcc-lr:hasEnglishName "Czech"@en ;
+	lcc-lr:hasFrenchName "tchèque"@fr ;
+	lcc-lr:hasGermanName "Tschechisch"@ge ;
+	lcc-lr:hasIndigenousName "český jazyk" ;
+	.
+
+lcc-639-1:Danish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Danish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Danish language" ;
+	lcc-lr:hasEnglishName "Danish"@en ;
+	lcc-lr:hasFrenchName "danois"@fr ;
+	lcc-lr:hasGermanName "Dänisch"@ge ;
+	lcc-lr:hasIndigenousName "dansk" ;
+	.
+
+lcc-639-1:Dhivehi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Dhivehi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Divehi language" ;
+	lcc-lr:hasEnglishName
+		"Dhivehi"@en ,
+		"Divehi"@en ,
+		"Maldivian"@en
+		;
+	lcc-lr:hasFrenchName "maldivien"@fr ;
+	lcc-lr:hasGermanName "Maledivisch"@ge ;
+	lcc-lr:hasIndigenousName "dhivehi" ;
+	.
+
+lcc-639-1:Dutch
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Dutch" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Dutch language" ;
+	lcc-lr:hasEnglishName
+		"Dutch"@en ,
+		"Flemish"@en
+		;
+	lcc-lr:hasFrenchName
+		"flamand"@fr ,
+		"néerlandais"@fr
+		;
+	lcc-lr:hasGermanName "Niederländisch"@ge ;
+	lcc-lr:hasIndigenousName "Nederlands" ;
+	.
+
+lcc-639-1:Dzongkha
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Dzongkha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Dzongkha language" ;
+	lcc-lr:hasEnglishName
+		"Bhutani"@en ,
+		"Butanese"@en ,
+		"Dzongkha"@en
+		;
+	lcc-lr:hasFrenchName
+		"bhoutani"@fr ,
+		"dzongkha"@fr
+		;
+	lcc-lr:hasGermanName "Dzongkha"@ge ;
+	lcc-lr:hasIndigenousName "dzongkha" ;
+	.
+
+lcc-639-1:English
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "English" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "English language" ;
+	lcc-lr:hasEnglishName "English"@en ;
+	lcc-lr:hasFrenchName "anglais"@fr ;
+	lcc-lr:hasGermanName "Englisch"@ge ;
+	lcc-lr:hasIndigenousName "English" ;
+	.
+
+lcc-639-1:Esperanto
+	a
+		owl:NamedIndividual ,
+		lcc-lr:ArtificialLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Esperanto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Esperanto language" ;
+	lcc-lr:hasEnglishName "Esperanto"@en ;
+	lcc-lr:hasFrenchName "espéranto"@fr ;
+	lcc-lr:hasGermanName "Esperanto"@ge ;
+	lcc-lr:hasIndigenousName "esperanto" ;
+	.
+
+lcc-639-1:Estonian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Estonian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Estonian language" ;
+	lcc-lr:hasEnglishName "Estonian"@en ;
+	lcc-lr:hasFrenchName "estonien"@fr ;
+	lcc-lr:hasGermanName "Estnisch"@ge ;
+	lcc-lr:hasIndigenousName "eesti keel" ;
+	.
+
+lcc-639-1:Ewe
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Ewe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Ewe language" ;
+	lcc-lr:hasEnglishName "Ewe"@en ;
+	lcc-lr:hasFrenchName "éwé"@fr ;
+	lcc-lr:hasGermanName "Ewe-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "eve" ;
+	.
+
+lcc-639-1:Faroese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Faroese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Faroese language" ;
+	lcc-lr:hasEnglishName
+		"Faeroese"@en ,
+		"Faroese"@en
+		;
+	lcc-lr:hasFrenchName "féroïen"@fr ;
+	lcc-lr:hasGermanName "Färöisch"@ge ;
+	lcc-lr:hasIndigenousName "føroyskt" ;
+	.
+
+lcc-639-1:Fijian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Fijian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Fijian language" ;
+	lcc-lr:hasEnglishName "Fijian"@en ;
+	lcc-lr:hasFrenchName "fidjien"@fr ;
+	lcc-lr:hasGermanName "Fidschi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "Na Vosa Vakaviti" ;
+	.
+
+lcc-639-1:Finnish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Finnish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Finnish language" ;
+	lcc-lr:hasEnglishName "Finnish"@en ;
+	lcc-lr:hasFrenchName "finnois"@fr ;
+	lcc-lr:hasGermanName "Finnisch"@ge ;
+	lcc-lr:hasIndigenousName
+		"suomen kieli" ,
+		"suomi"
+		;
+	.
+
+lcc-639-1:French
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "French" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "French language" ;
+	lcc-lr:hasEnglishName "French"@en ;
+	lcc-lr:hasFrenchName "français"@fr ;
+	lcc-lr:hasGermanName "Französisch"@ge ;
+	lcc-lr:hasIndigenousName "français" ;
+	.
+
+lcc-639-1:Fulah
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Fulah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Fulah languages" ;
+	lcc-lr:hasEnglishName
+		"Fula"@en ,
+		"Fulah"@en ,
+		"Fulani"@en ,
+		"Fulfulde"@en ,
+		"Peul"@en
+		;
+	lcc-lr:hasFrenchName "peul"@fr ;
+	lcc-lr:hasGermanName "Ful"@ge ;
+	lcc-lr:hasIndigenousName "fulfulde" ;
+	.
+
+lcc-639-1:Galician
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Galician" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Galician; Gallegan language" ;
+	lcc-lr:hasEnglishName
+		"Galician"@en ,
+		"Gallegan"@en
+		;
+	lcc-lr:hasFrenchName "galicien"@fr ;
+	lcc-lr:hasGermanName "Galicisch"@ge ;
+	lcc-lr:hasIndigenousName "galego" ;
+	.
+
+lcc-639-1:Ganda
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Ganda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Ganda language" ;
+	lcc-lr:hasEnglishName
+		"Ganda"@en ,
+		"Luganda"@en
+		;
+	lcc-lr:hasFrenchName
+		"ganda"@fr ,
+		"louganda"@fr
+		;
+	lcc-lr:hasGermanName "Ganda-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "luganda" ;
+	.
+
+lcc-639-1:Georgian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Georgian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Georgian language" ;
+	lcc-lr:hasEnglishName "Georgian"@en ;
+	lcc-lr:hasFrenchName "géorgien"@fr ;
+	lcc-lr:hasGermanName "Georgisch"@ge ;
+	lcc-lr:hasIndigenousName "k'art'uli ena" ;
+	.
+
+lcc-639-1:German
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "German" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "German language" ;
+	lcc-lr:hasEnglishName "German"@en ;
+	lcc-lr:hasFrenchName "allemand"@fr ;
+	lcc-lr:hasGermanName "Deutsch"@ge ;
+	lcc-lr:hasIndigenousName "Deutsch" ;
+	.
+
+lcc-639-1:Guarani
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Guarani" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Guarani language" ;
+	lcc-lr:hasEnglishName "Guarani"@en ;
+	lcc-lr:hasFrenchName "guarani"@fr ;
+	lcc-lr:hasGermanName "Guaraní-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "guarani" ;
+	.
+
+lcc-639-1:Gujarati
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Gujarati" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Gujarati language" ;
+	lcc-lr:hasEnglishName "Gujarati"@en ;
+	lcc-lr:hasFrenchName
+		"goudjrati"@fr ,
+		"gujarati"@fr
+		;
+	lcc-lr:hasGermanName "Gujarati-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "gujarātī" ;
+	.
+
+lcc-639-1:Haitian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Haitian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Haitian; Haitian Creole language" ;
+	lcc-lr:hasEnglishName
+		"Haitian"@en ,
+		"Haitian Creole"@en
+		;
+	lcc-lr:hasFrenchName
+		"créole haïtien"@fr ,
+		"haïtien"@fr
+		;
+	lcc-lr:hasGermanName "Haïtien (Haiti-Kreolisch)"@ge ;
+	.
+
+lcc-639-1:Hausa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Hausa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Hausa language" ;
+	lcc-lr:hasEnglishName "Hausa"@en ;
+	lcc-lr:hasFrenchName "haoussa"@fr ;
+	lcc-lr:hasGermanName "Haussa-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "hausa" ;
+	.
+
+lcc-639-1:Hebrew
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Hebrew" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Hebrew language" ;
+	lcc-lr:hasEnglishName "Hebrew"@en ;
+	lcc-lr:hasFrenchName "hébreu"@fr ;
+	lcc-lr:hasGermanName "Hebräisch"@ge ;
+	lcc-lr:hasIndigenousName "ivrit" ;
+	.
+
+lcc-639-1:Herero
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Herero" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Herero language" ;
+	lcc-lr:hasEnglishName "Herero"@en ;
+	lcc-lr:hasFrenchName "herero"@fr ;
+	lcc-lr:hasGermanName "Herero-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "otshiherero" ;
+	.
+
+lcc-639-1:Hindi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Hindi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Hindi language" ;
+	lcc-lr:hasEnglishName "Hindi"@en ;
+	lcc-lr:hasFrenchName "hindi"@fr ;
+	lcc-lr:hasGermanName "Hindi"@ge ;
+	lcc-lr:hasIndigenousName "hindī" ;
+	.
+
+lcc-639-1:HiriMotu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Hiri Motu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Hiri Motu language" ;
+	lcc-lr:hasEnglishName "Hiri Motu"@en ;
+	lcc-lr:hasFrenchName "hiri motu"@fr ;
+	lcc-lr:hasGermanName "Hiri-Motu"@ge ;
+	lcc-lr:hasIndigenousName "Hiri Motu" ;
+	.
+
+lcc-639-1:Hungarian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Hungarian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Hungarian language" ;
+	lcc-lr:hasEnglishName "Hungarian"@en ;
+	lcc-lr:hasFrenchName "hongrois"@fr ;
+	lcc-lr:hasGermanName "Ungarisch"@ge ;
+	lcc-lr:hasIndigenousName "magyar nyelv" ;
+	.
+
+lcc-639-1:ISO639-1-CodeSet
+	a
+		owl:NamedIndividual ,
+		lcc-lr:CodeSet ,
+		lcc-lr:IdentificationScheme
+		;
+	rdfs:label "ISO 639-1 code set" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	rdfs:seeAlso "http://www.infoterm.info/standardization/iso_639_1_2002.php"^^xsd:anyURI ;
+	skos:definition "the set of language identifiers that make up the ISO 639-1 specification" ;
+	.
+
+lcc-639-1:Icelandic
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Icelandic" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Icelandic language" ;
+	lcc-lr:hasEnglishName "Icelandic"@en ;
+	lcc-lr:hasFrenchName "islandais"@fr ;
+	lcc-lr:hasGermanName "Isländisch"@ge ;
+	lcc-lr:hasIndigenousName "íslenska" ;
+	.
+
+lcc-639-1:Ido
+	a
+		owl:NamedIndividual ,
+		lcc-lr:ArtificialLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Ido" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Ido language" ;
+	lcc-lr:hasEnglishName "Ido"@en ;
+	lcc-lr:hasFrenchName "ido"@fr ;
+	lcc-lr:hasGermanName "Ido"@ge ;
+	lcc-lr:hasIndigenousName "ido " ;
+	.
+
+lcc-639-1:Igbo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Igbo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Igbo language" ;
+	lcc-lr:hasEnglishName "Igbo"@en ;
+	lcc-lr:hasFrenchName "igbo"@fr ;
+	lcc-lr:hasGermanName "Ibo-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "igbo" ;
+	.
+
+lcc-639-1:Indonesian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Indonesian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Indonesian language" ;
+	lcc-lr:hasEnglishName "Indonesian"@en ;
+	lcc-lr:hasFrenchName "indonésien"@fr ;
+	lcc-lr:hasGermanName "Bahasa Indonesia"@ge ;
+	lcc-lr:hasIndigenousName "bahasa Indonesia" ;
+	.
+
+lcc-639-1:Interlingua
+	a
+		owl:NamedIndividual ,
+		lcc-lr:ArtificialLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Interlingua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Interlingua (International Auxiliary Language Association) language" ;
+	lcc-lr:hasEnglishName "Interlingua (International Auxiliary Language Association)"@en ;
+	lcc-lr:hasFrenchName "interlingua (langue auxiliaire internationale)"@fr ;
+	lcc-lr:hasGermanName "Interlingua"@ge ;
+	lcc-lr:hasIndigenousName "interlingua" ;
+	.
+
+lcc-639-1:Interlingue
+	a
+		owl:NamedIndividual ,
+		lcc-lr:ArtificialLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Interlingue" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Interlingue language" ;
+	lcc-lr:hasEnglishName
+		"Interlingue"@en ,
+		"Occidental"@en
+		;
+	lcc-lr:hasFrenchName "interlingue"@fr ;
+	lcc-lr:hasGermanName "Interlingue"@ge ;
+	lcc-lr:hasIndigenousName "interlingue" ;
+	.
+
+lcc-639-1:Inuktitut
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Inuktitut" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Inuktitut language" ;
+	lcc-lr:hasEnglishName "Inuktitut"@en ;
+	lcc-lr:hasFrenchName "inuktitut"@fr ;
+	lcc-lr:hasGermanName "Inuktitut"@ge ;
+	lcc-lr:hasIndigenousName "inuktitut" ;
+	.
+
+lcc-639-1:Inupiaq
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Inupiaq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Inupiaq language" ;
+	lcc-lr:hasEnglishName "Inupiaq"@en ;
+	lcc-lr:hasFrenchName "inupiaq"@fr ;
+	lcc-lr:hasGermanName "Inupik"@ge ;
+	lcc-lr:hasIndigenousName "inupiaq" ;
+	.
+
+lcc-639-1:Irish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Irish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Irish language" ;
+	lcc-lr:hasEnglishName "Irish"@en ;
+	lcc-lr:hasFrenchName "irlandais"@fr ;
+	lcc-lr:hasGermanName "Irisch"@ge ;
+	lcc-lr:hasIndigenousName "Gaeilge" ;
+	.
+
+lcc-639-1:Italian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Italian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Italian language" ;
+	lcc-lr:hasEnglishName "Italian"@en ;
+	lcc-lr:hasFrenchName "italien"@fr ;
+	lcc-lr:hasGermanName "Italienisch"@ge ;
+	lcc-lr:hasIndigenousName "italiano" ;
+	.
+
+lcc-639-1:Japanese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Japanese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Japanese language" ;
+	lcc-lr:hasEnglishName "Japanese"@en ;
+	lcc-lr:hasFrenchName "japonais"@fr ;
+	lcc-lr:hasGermanName "Japanisch"@ge ;
+	lcc-lr:hasIndigenousName
+		"nihongo" ,
+		"nippongo"
+		;
+	.
+
+lcc-639-1:Javanese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Javanese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Javanese language" ;
+	lcc-lr:hasEnglishName "Javanese"@en ;
+	lcc-lr:hasFrenchName "javanais"@fr ;
+	lcc-lr:hasGermanName "Javanisch"@ge ;
+	lcc-lr:hasIndigenousName "bahasa Jawa" ;
+	.
+
+lcc-639-1:Kalaallisut
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kalaallisut" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kalaallisut language" ;
+	lcc-lr:hasEnglishName
+		"Greenlandic"@en ,
+		"Kalaallisut"@en
+		;
+	lcc-lr:hasFrenchName "groenlandais"@fr ;
+	lcc-lr:hasGermanName "Grönländisch"@ge ;
+	lcc-lr:hasIndigenousName "kalaallisut" ;
+	.
+
+lcc-639-1:Kannada
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kannada" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kannada language" ;
+	lcc-lr:hasEnglishName "Kannada"@en ;
+	lcc-lr:hasFrenchName "kannada"@fr ;
+	lcc-lr:hasGermanName "Kannada"@ge ;
+	lcc-lr:hasIndigenousName "kannaḍa" ;
+	.
+
+lcc-639-1:Kanuri
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Kanuri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kanuri language" ;
+	lcc-lr:hasEnglishName "Kanuri"@en ;
+	lcc-lr:hasFrenchName "kanouri"@fr ;
+	lcc-lr:hasGermanName "Kanuri-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "kanuri" ;
+	.
+
+lcc-639-1:Kashmiri
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kashmiri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kashmiri language" ;
+	lcc-lr:hasEnglishName "Kashmiri"@en ;
+	lcc-lr:hasFrenchName "kashmiri"@fr ;
+	lcc-lr:hasGermanName "Kaschmiri"@ge ;
+	lcc-lr:hasIndigenousName "kaśmīrī" ;
+	.
+
+lcc-639-1:Kazakh
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kazakh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kazakh language" ;
+	lcc-lr:hasEnglishName "Kazakh"@en ;
+	lcc-lr:hasFrenchName "kazakh"@fr ;
+	lcc-lr:hasGermanName "Kasachisch"@ge ;
+	lcc-lr:hasIndigenousName "ķazaķ (tili)" ;
+	.
+
+lcc-639-1:Kikuyu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kikuyu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kikuyu language" ;
+	lcc-lr:hasEnglishName
+		"Gikuyu"@en ,
+		"Kikuyu"@en
+		;
+	lcc-lr:hasFrenchName "kikuyu"@fr ;
+	lcc-lr:hasGermanName "Kikuyu-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "Gikuyu" ;
+	.
+
+lcc-639-1:Kinyarwanda
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kinyarwanda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kinyarwanda language" ;
+	lcc-lr:hasEnglishName
+		"Kinyarwanda"@en ,
+		"Rwanda"@en
+		;
+	lcc-lr:hasFrenchName
+		"kinyarwanda"@fr ,
+		"rwanda"@fr
+		;
+	lcc-lr:hasGermanName "Rwanda-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "kinyarwanda" ;
+	.
+
+lcc-639-1:Kirghiz
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kirghiz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kirghiz language" ;
+	lcc-lr:hasEnglishName
+		"Kirghiz"@en ,
+		"Kyrgyz"@en
+		;
+	lcc-lr:hasFrenchName "kirghize"@fr ;
+	lcc-lr:hasGermanName "Kirgisisch"@ge ;
+	lcc-lr:hasIndigenousName "kyrgyz tili" ;
+	.
+
+lcc-639-1:Komi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Komi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Komi language" ;
+	lcc-lr:hasEnglishName "Komi"@en ;
+	lcc-lr:hasFrenchName "komi"@fr ;
+	lcc-lr:hasGermanName "Komi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "komi kyv" ;
+	.
+
+lcc-639-1:Kongo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Kongo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kongo languages" ;
+	lcc-lr:hasEnglishName "Kongo"@en ;
+	lcc-lr:hasFrenchName "kongo"@fr ;
+	lcc-lr:hasGermanName "Kongo-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "kikongo" ;
+	.
+
+lcc-639-1:Korean
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Korean" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Korean language" ;
+	lcc-lr:hasEnglishName "Korean"@en ;
+	lcc-lr:hasFrenchName "coréen"@fr ;
+	lcc-lr:hasGermanName "Koreanisch"@ge ;
+	lcc-lr:hasIndigenousName
+		"choson-o" ,
+		"hanguk-o"
+		;
+	.
+
+lcc-639-1:Kuanyama
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Kuanyama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kuanyama language" ;
+	lcc-lr:hasEnglishName
+		"Kuanyama"@en ,
+		"Kwanyama"@en
+		;
+	lcc-lr:hasFrenchName
+		"kuanyama"@fr ,
+		"kwanyama"@fr
+		;
+	lcc-lr:hasGermanName "Kwanyama-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "oshikwanyama" ;
+	.
+
+lcc-639-1:Kurdish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Kurdish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Kurdish language" ;
+	lcc-lr:hasEnglishName "Kurdish"@en ;
+	lcc-lr:hasFrenchName "kurde"@fr ;
+	lcc-lr:hasGermanName "Kurdisch"@ge ;
+	lcc-lr:hasIndigenousName "zimany kurdy" ;
+	.
+
+lcc-639-1:Lao
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Lao" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Lao language" ;
+	lcc-lr:hasEnglishName
+		"Lao"@en ,
+		"Laotian"@en
+		;
+	lcc-lr:hasFrenchName
+		"lao"@fr ,
+		"laotien"@fr
+		;
+	lcc-lr:hasGermanName "Laotisch"@ge ;
+	lcc-lr:hasIndigenousName "pha xa lao" ;
+	.
+
+lcc-639-1:Latin
+	a
+		owl:NamedIndividual ,
+		lcc-lr:AncientLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Latin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Latin language" ;
+	lcc-lr:hasEnglishName "Latin"@en ;
+	lcc-lr:hasFrenchName "latin"@fr ;
+	lcc-lr:hasGermanName "Latein"@ge ;
+	lcc-lr:hasIndigenousName "lingua latina" ;
+	.
+
+lcc-639-1:Latvian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Latvian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Latvian language" ;
+	lcc-lr:hasEnglishName "Latvian"@en ;
+	lcc-lr:hasFrenchName "letton"@fr ;
+	lcc-lr:hasGermanName "Lettisch"@ge ;
+	lcc-lr:hasIndigenousName "latviešu valoda" ;
+	.
+
+lcc-639-1:Limburgan
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Limburgan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Limburgan; Limburger; Limburgish language" ;
+	lcc-lr:hasEnglishName
+		"Limburgan"@en ,
+		"Limburger"@en ,
+		"Limburgish"@en
+		;
+	lcc-lr:hasFrenchName "limbourgeois"@fr ;
+	lcc-lr:hasGermanName "Limburgisch"@ge ;
+	.
+
+lcc-639-1:Lingala
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Lingala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Lingala language" ;
+	lcc-lr:hasEnglishName "Lingala"@en ;
+	lcc-lr:hasFrenchName "lingala"@fr ;
+	lcc-lr:hasGermanName "Lingala"@ge ;
+	lcc-lr:hasIndigenousName "lingala" ;
+	.
+
+lcc-639-1:Lithuanian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Lithuanian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Lithuanian language" ;
+	lcc-lr:hasEnglishName "Lithuanian"@en ;
+	lcc-lr:hasFrenchName "lituanien"@fr ;
+	lcc-lr:hasGermanName "Litauisch"@ge ;
+	lcc-lr:hasIndigenousName "lietuvių kalba" ;
+	.
+
+lcc-639-1:LubaKatanga
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Luba-Katanga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Luba-Katanga language" ;
+	lcc-lr:hasEnglishName "Luba-Katanga"@en ;
+	lcc-lr:hasFrenchName "luba-katanga"@fr ;
+	lcc-lr:hasGermanName "Luba-Katanga-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "tshiluba" ;
+	.
+
+lcc-639-1:Luxembourgish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Luxembourgish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Luxembourgish language" ;
+	lcc-lr:hasEnglishName
+		"Letzeburgesch"@en ,
+		"Luxembourgish"@en
+		;
+	lcc-lr:hasFrenchName "luxembourgeois"@fr ;
+	lcc-lr:hasGermanName "Luxemburgisch"@ge ;
+	lcc-lr:hasIndigenousName "lëtzebuergesch" ;
+	.
+
+lcc-639-1:Macedonian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Macedonian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Macedonian language" ;
+	lcc-lr:hasEnglishName "Macedonian"@en ;
+	lcc-lr:hasFrenchName "macédonien"@fr ;
+	lcc-lr:hasGermanName "Makedonisch"@ge ;
+	lcc-lr:hasIndigenousName "makedonski" ;
+	.
+
+lcc-639-1:Malagasy
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Malagasy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Malagasy languages" ;
+	lcc-lr:hasEnglishName "Malagasy"@en ;
+	lcc-lr:hasFrenchName "malgache"@fr ;
+	lcc-lr:hasGermanName "Malagassi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "malagasy" ;
+	.
+
+lcc-639-1:Malay
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Malay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Malay macrolanguage" ;
+	lcc-lr:hasEnglishName "Malay (macrolanguage)"@en ;
+	lcc-lr:hasFrenchName "malais"@fr ;
+	lcc-lr:hasGermanName "Malaiisch"@ge ;
+	lcc-lr:hasIndigenousName "bahasa Malaysia" ;
+	.
+
+lcc-639-1:Malayalam
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Malayalam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Malayalam language" ;
+	lcc-lr:hasEnglishName "Malayalam"@en ;
+	lcc-lr:hasFrenchName "malayalam"@fr ;
+	lcc-lr:hasGermanName "Malayalam"@ge ;
+	lcc-lr:hasIndigenousName "malayāḷaṁ" ;
+	.
+
+lcc-639-1:Maltese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Maltese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Maltese language" ;
+	lcc-lr:hasEnglishName "Maltese"@en ;
+	lcc-lr:hasFrenchName "maltais"@fr ;
+	lcc-lr:hasGermanName "Maltesisch"@ge ;
+	lcc-lr:hasIndigenousName "il-Malti" ;
+	.
+
+lcc-639-1:Manx
+	a
+		owl:NamedIndividual ,
+		lcc-lr:ExtinctLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Manx" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Manx language" ;
+	lcc-lr:hasEnglishName "Manx"@en ;
+	lcc-lr:hasFrenchName
+		"mannois"@fr ,
+		"manx"@fr
+		;
+	lcc-lr:hasGermanName "Manx"@ge ;
+	lcc-lr:hasIndigenousName "Gaelg" ;
+	.
+
+lcc-639-1:Maori
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Maori" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Maori language" ;
+	lcc-lr:hasEnglishName "Maori"@en ;
+	lcc-lr:hasFrenchName "maori"@fr ;
+	lcc-lr:hasGermanName "Maori-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "māori" ;
+	.
+
+lcc-639-1:Marathi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Marathi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Marathi language" ;
+	lcc-lr:hasEnglishName "Marathi"@en ;
+	lcc-lr:hasFrenchName "marathe"@fr ;
+	lcc-lr:hasGermanName "Marathi"@ge ;
+	lcc-lr:hasIndigenousName "marāṭī" ;
+	.
+
+lcc-639-1:Marshallese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Marshallese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Marshallese language" ;
+	lcc-lr:hasEnglishName "Marshallese"@en ;
+	lcc-lr:hasFrenchName "marshall"@fr ;
+	lcc-lr:hasGermanName "Marschallesisch"@ge ;
+	lcc-lr:hasIndigenousName "M̧ajeł" ;
+	.
+
+lcc-639-1:ModernGreek
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Modern Greek" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Modern Greek (post 1453-) language" ;
+	lcc-lr:hasEnglishName "Modern Greek"@en ;
+	lcc-lr:hasFrenchName "grec moderne (après 1453)"@fr ;
+	lcc-lr:hasGermanName "Neugriechisch"@ge ;
+	lcc-lr:hasIndigenousName "elliniká" ;
+	.
+
+lcc-639-1:Mongolian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Mongolian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Mongolian languages" ;
+	lcc-lr:hasEnglishName "Mongolian"@en ;
+	lcc-lr:hasFrenchName "mongol"@fr ;
+	lcc-lr:hasGermanName "Mongolisch"@ge ;
+	lcc-lr:hasIndigenousName "mongol" ;
+	.
+
+lcc-639-1:Nauru
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Nauru" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Nauru language" ;
+	lcc-lr:hasEnglishName "Nauru"@en ;
+	lcc-lr:hasFrenchName "nauri"@fr ;
+	lcc-lr:hasGermanName "Nauruanisch"@ge ;
+	lcc-lr:hasIndigenousName "nauru" ;
+	.
+
+lcc-639-1:Navajo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Navajo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Navajo language" ;
+	lcc-lr:hasEnglishName
+		"Navaho"@en ,
+		"Navajo"@en
+		;
+	lcc-lr:hasFrenchName "navaho"@fr ;
+	lcc-lr:hasGermanName "Navajo-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "diné bizaad" ;
+	.
+
+lcc-639-1:Ndonga
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Ndonga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Ndonga language" ;
+	lcc-lr:hasEnglishName "Ndonga"@en ;
+	lcc-lr:hasFrenchName "ndonga"@fr ;
+	lcc-lr:hasGermanName "Ndonga"@ge ;
+	lcc-lr:hasIndigenousName "oshindonga" ;
+	.
+
+lcc-639-1:Nepali
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Nepali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Nepali language" ;
+	lcc-lr:hasEnglishName "Nepali"@en ;
+	lcc-lr:hasFrenchName "népalais"@fr ;
+	lcc-lr:hasGermanName "Nepali"@ge ;
+	lcc-lr:hasIndigenousName "nepālī" ;
+	.
+
+lcc-639-1:NorthNdebele
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "North Ndebele" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "North Ndebele language" ;
+	lcc-lr:hasEnglishName "North Ndebele"@en ;
+	lcc-lr:hasFrenchName "ndébélé du Nord"@fr ;
+	lcc-lr:hasGermanName "Ndebele-Sprache (Simbabwe)"@ge ;
+	lcc-lr:hasIndigenousName "isiNdebele" ;
+	.
+
+lcc-639-1:NorthernSami
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Northern Sami" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Northern Sami language" ;
+	lcc-lr:hasEnglishName "Northern Sami"@en ;
+	lcc-lr:hasFrenchName "sami du Nord"@fr ;
+	lcc-lr:hasGermanName "Nordsaamisch"@ge ;
+	lcc-lr:hasIndigenousName "davvisámegiella" ;
+	.
+
+lcc-639-1:Norwegian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Norwegian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Norwegian language" ;
+	lcc-lr:hasEnglishName "Norwegian"@en ;
+	lcc-lr:hasFrenchName "norvégien"@fr ;
+	lcc-lr:hasGermanName "Norwegisch"@ge ;
+	lcc-lr:hasIndigenousName "norsk" ;
+	.
+
+lcc-639-1:NorwegianBokmal
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Norwegian Bokmal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Norwegian Bokmal language" ;
+	lcc-lr:hasEnglishName "Norwegian Bokmål"@en ;
+	lcc-lr:hasFrenchName "norvégien bokmål"@fr ;
+	lcc-lr:hasGermanName "Bokmål"@ge ;
+	lcc-lr:hasIndigenousName "bokmål" ;
+	.
+
+lcc-639-1:NorwegianNynorsk
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Norwegian Nynorsk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Norwegian Nynorsk language" ;
+	lcc-lr:hasEnglishName "Norwegian Nynorsk"@en ;
+	lcc-lr:hasFrenchName "norvégien nynorsk"@fr ;
+	lcc-lr:hasGermanName "Nynorsk"@ge ;
+	lcc-lr:hasIndigenousName "nynorsk" ;
+	.
+
+lcc-639-1:Nyanja
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Nyanja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Nyanja language" ;
+	lcc-lr:hasEnglishName
+		"Chewa"@en ,
+		"Chichewa"@en ,
+		"Nyanja"@en
+		;
+	lcc-lr:hasFrenchName
+		"chewa"@fr ,
+		"chichewa"@fr ,
+		"nyanja"@fr
+		;
+	lcc-lr:hasGermanName "Nyanja-Sprache"@ge ;
+	lcc-lr:hasIndigenousName
+		"tshichewa" ,
+		"tshinyanja"
+		;
+	.
+
+lcc-639-1:Occitan
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Occitan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Occitan (post 1500) language" ;
+	lcc-lr:hasEnglishName "Occitan (post 1500)"@en ;
+	lcc-lr:hasFrenchName "occitan (après 1500)"@fr ;
+	lcc-lr:hasGermanName "Okzitanisch"@ge ;
+	lcc-lr:hasIndigenousName "occitan" ;
+	.
+
+lcc-639-1:Ojibwa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Ojibwa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Ojibwa languages" ;
+	lcc-lr:hasEnglishName "Ojibwa"@en ;
+	lcc-lr:hasFrenchName "ojibwa"@fr ;
+	lcc-lr:hasGermanName "Ojibwa-Sprache"@ge ;
+	lcc-lr:hasIndigenousName
+		"chippewa" ,
+		"ojibwe"
+		;
+	.
+
+lcc-639-1:Oriya
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Oriya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Oriya language" ;
+	lcc-lr:hasEnglishName "Oriya"@en ;
+	lcc-lr:hasFrenchName "oriya"@fr ;
+	lcc-lr:hasGermanName "Oriya-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "oṛiā" ;
+	.
+
+lcc-639-1:Oromo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Oromo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Oromo languages" ;
+	lcc-lr:hasEnglishName
+		"Afan Oromo"@en ,
+		"Galla"@en ,
+		"Oromo"@en
+		;
+	lcc-lr:hasFrenchName
+		"afan oromo"@fr ,
+		"galla"@fr ,
+		"oromo"@fr
+		;
+	lcc-lr:hasGermanName "Galla-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "(afan) oromo" ;
+	.
+
+lcc-639-1:Ossetian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Ossetian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Ossetian; Ossetic language" ;
+	lcc-lr:hasEnglishName
+		"Ossetian"@en ,
+		"Ossetic"@en
+		;
+	lcc-lr:hasFrenchName "ossète"@fr ;
+	lcc-lr:hasGermanName "Ossetisch"@ge ;
+	lcc-lr:hasIndigenousName "iron avzæg" ;
+	.
+
+lcc-639-1:Pali
+	a
+		owl:NamedIndividual ,
+		lcc-lr:AncientLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Pali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Pali language" ;
+	lcc-lr:hasEnglishName "Pali"@en ;
+	lcc-lr:hasFrenchName "pali"@fr ;
+	lcc-lr:hasGermanName "Pali"@ge ;
+	lcc-lr:hasIndigenousName "pāli bhāsa" ;
+	.
+
+lcc-639-1:Panjabi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Panjabi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Panjabi language" ;
+	lcc-lr:hasEnglishName
+		"Panjabi"@en ,
+		"Punjabi"@en
+		;
+	lcc-lr:hasFrenchName
+		"panjabi"@fr ,
+		"pendjabi"@fr ,
+		"punjabi"@fr
+		;
+	lcc-lr:hasGermanName "Pandschabi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "paṁjābī" ;
+	.
+
+lcc-639-1:Persian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Persian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Persian languages" ;
+	lcc-lr:hasEnglishName
+		"Farsi"@en ,
+		"Persian"@en
+		;
+	lcc-lr:hasFrenchName
+		"farsi"@fr ,
+		"persan"@fr
+		;
+	lcc-lr:hasGermanName "Persisch"@ge ;
+	lcc-lr:hasIndigenousName "fârsy" ;
+	.
+
+lcc-639-1:Polish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Polish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Polish language" ;
+	lcc-lr:hasEnglishName "Polish"@en ;
+	lcc-lr:hasFrenchName "polonais"@fr ;
+	lcc-lr:hasGermanName "Polnisch"@ge ;
+	lcc-lr:hasIndigenousName "(język) polski" ;
+	.
+
+lcc-639-1:Portuguese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Portuguese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Portuguese language" ;
+	lcc-lr:hasEnglishName "Portuguese"@en ;
+	lcc-lr:hasFrenchName "portugais"@fr ;
+	lcc-lr:hasGermanName "Portugiesisch"@ge ;
+	lcc-lr:hasIndigenousName "português" ;
+	.
+
+lcc-639-1:Pushto
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Pushto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Pushto languages" ;
+	lcc-lr:hasEnglishName
+		"Pashto"@en ,
+		"Pushto"@en
+		;
+	lcc-lr:hasFrenchName "pachto"@fr ;
+	lcc-lr:hasGermanName "Paschtu"@ge ;
+	lcc-lr:hasIndigenousName "pashto" ;
+	.
+
+lcc-639-1:Quechua
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Quechua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Quechua languages" ;
+	lcc-lr:hasEnglishName "Quechua"@en ;
+	lcc-lr:hasFrenchName
+		"quechua"@fr ,
+		"quichua"@fr
+		;
+	lcc-lr:hasGermanName "Quechua-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "qhëtshwa" ;
+	.
+
+lcc-639-1:Romanian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Romanian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Romanian language" ;
+	lcc-lr:hasEnglishName
+		"Moldavian"@en ,
+		"Moldovan"@en ,
+		"Romanian"@en
+		;
+	lcc-lr:hasFrenchName
+		"moldave"@fr ,
+		"roumain"@fr
+		;
+	lcc-lr:hasGermanName "Rumänisch"@ge ;
+	lcc-lr:hasIndigenousName
+		"(limba) moldoveanǎ" ,
+		"(limba) română"
+		;
+	.
+
+lcc-639-1:Romansh
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Romansh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Romansh language" ;
+	lcc-lr:hasEnglishName "Romansh"@en ;
+	lcc-lr:hasFrenchName "romanche"@fr ;
+	lcc-lr:hasGermanName "Rätoromanisch"@ge ;
+	lcc-lr:hasIndigenousName "romontsch" ;
+	.
+
+lcc-639-1:Rundi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Rundi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Rundi language" ;
+	lcc-lr:hasEnglishName
+		"Kirundi"@en ,
+		"Rundi"@en
+		;
+	lcc-lr:hasFrenchName "kirundi"@fr ;
+	lcc-lr:hasGermanName "Rundi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "kirundi" ;
+	.
+
+lcc-639-1:Russian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Russian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Russian language" ;
+	lcc-lr:hasEnglishName "Russian"@en ;
+	lcc-lr:hasFrenchName "russe"@fr ;
+	lcc-lr:hasGermanName "Russisch"@ge ;
+	lcc-lr:hasIndigenousName "russkij (âzyk)" ;
+	.
+
+lcc-639-1:Samoan
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Samoan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Samoan language" ;
+	lcc-lr:hasEnglishName "Samoan"@en ;
+	lcc-lr:hasFrenchName "samoan"@fr ;
+	lcc-lr:hasGermanName "Samoanisch"@ge ;
+	lcc-lr:hasIndigenousName "samoa" ;
+	.
+
+lcc-639-1:Sango
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Sango" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Sango language" ;
+	lcc-lr:hasEnglishName
+		"Sangho"@en ,
+		"Sango"@en
+		;
+	lcc-lr:hasFrenchName "sango"@fr ;
+	lcc-lr:hasGermanName "Sango-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "sango" ;
+	.
+
+lcc-639-1:Sanskrit
+	a
+		owl:NamedIndividual ,
+		lcc-lr:AncientLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Sanskrit" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Sanskrit language" ;
+	lcc-lr:hasEnglishName "Sanskrit"@en ;
+	lcc-lr:hasFrenchName "sanskrit"@fr ;
+	lcc-lr:hasGermanName "Sanskrit"@ge ;
+	lcc-lr:hasIndigenousName "saṁskr̥tam" ;
+	.
+
+lcc-639-1:Sardinian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Sardinian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Sardinian languages" ;
+	lcc-lr:hasEnglishName "Sardinian"@en ;
+	lcc-lr:hasFrenchName "sarde"@fr ;
+	lcc-lr:hasGermanName "Sardisch"@ge ;
+	lcc-lr:hasIndigenousName "sardu" ;
+	.
+
+lcc-639-1:ScottishGaelic
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Scottish Gaelic" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Scottish Gaelic language" ;
+	lcc-lr:hasEnglishName
+		"Gaelic"@en ,
+		"Scottish Gaelic"@en
+		;
+	lcc-lr:hasFrenchName
+		"gaélique"@fr ,
+		"gaélique écossais"@fr
+		;
+	lcc-lr:hasGermanName "Gälisch-Schottisch"@ge ;
+	lcc-lr:hasIndigenousName "Gàidhlig" ;
+	.
+
+lcc-639-1:Serbian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Serbian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Serbian language" ;
+	lcc-lr:hasEnglishName "Serbian"@en ;
+	lcc-lr:hasFrenchName "serbe"@fr ;
+	lcc-lr:hasGermanName "Serbisch"@ge ;
+	lcc-lr:hasIndigenousName "srpski (jezik)" ;
+	.
+
+lcc-639-1:Shona
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Shona" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Shona language" ;
+	lcc-lr:hasEnglishName "Shona"@en ;
+	lcc-lr:hasFrenchName "shona"@fr ;
+	lcc-lr:hasGermanName "Schona-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "chiShona" ;
+	.
+
+lcc-639-1:SichuanYi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Sichuan Yi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Sichuan Yi language" ;
+	lcc-lr:hasEnglishName
+		"Nuosu"@en ,
+		"Sichuan Yi"@en
+		;
+	lcc-lr:hasFrenchName "yi de Sichuan"@fr ;
+	lcc-lr:hasGermanName "Lalo-Sprache"@ge ;
+	.
+
+lcc-639-1:Sindhi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Sindhi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Sindhi language" ;
+	lcc-lr:hasEnglishName "Sindhi"@en ;
+	lcc-lr:hasFrenchName "sindhi"@fr ;
+	lcc-lr:hasGermanName "Sindhi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "sindhī" ;
+	.
+
+lcc-639-1:Sinhala
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Sinhala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Sinhala; Sinhalese language" ;
+	lcc-lr:hasEnglishName
+		"Singhalese"@en ,
+		"Sinhala"@en
+		;
+	lcc-lr:hasFrenchName "singhalais"@fr ;
+	lcc-lr:hasGermanName "Singhalesisch"@ge ;
+	lcc-lr:hasIndigenousName "siṁhala" ;
+	.
+
+lcc-639-1:Slovak
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Slovak" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Slovak language" ;
+	lcc-lr:hasEnglishName "Slovak"@en ;
+	lcc-lr:hasFrenchName "slovaque"@fr ;
+	lcc-lr:hasGermanName "Slowakisch"@ge ;
+	lcc-lr:hasIndigenousName "slovenský (jazyk)" ;
+	.
+
+lcc-639-1:Slovenian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Slovenian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Slovenian language" ;
+	lcc-lr:hasEnglishName "Slovenian"@en ;
+	lcc-lr:hasFrenchName "slovène"@fr ;
+	lcc-lr:hasGermanName "Slowenisch"@ge ;
+	lcc-lr:hasIndigenousName "slovenski (jezik)" ;
+	.
+
+lcc-639-1:Somali
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Somali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Somali language" ;
+	lcc-lr:hasEnglishName "Somali"@en ;
+	lcc-lr:hasFrenchName "somali"@fr ;
+	lcc-lr:hasGermanName "Somali"@ge ;
+	lcc-lr:hasIndigenousName "soomaali" ;
+	.
+
+lcc-639-1:SouthNdebele
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "South Ndebele" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "South Ndebele language" ;
+	lcc-lr:hasEnglishName "South Ndebele"@en ;
+	lcc-lr:hasFrenchName "ndébélé du Sud"@fr ;
+	lcc-lr:hasGermanName "Ndebele-Sprache (Transvaal)"@ge ;
+	lcc-lr:hasIndigenousName "isiNdebele" ;
+	.
+
+lcc-639-1:SouthernSotho
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Southern Sotho" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Southern Sotho language" ;
+	lcc-lr:hasEnglishName
+		"Sesotho"@en ,
+		"Southern Sotho"@en
+		;
+	lcc-lr:hasFrenchName
+		"sesotho"@fr ,
+		"sotho du Sud"@fr
+		;
+	lcc-lr:hasGermanName "Süd-Sotho-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "Sesotho" ;
+	.
+
+lcc-639-1:Spanish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Spanish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Spanish language" ;
+	lcc-lr:hasEnglishName
+		"Castilian"@en ,
+		"Spanish"@en
+		;
+	lcc-lr:hasFrenchName
+		"castillan"@fr ,
+		"espagnol"@fr
+		;
+	lcc-lr:hasGermanName "Spanisch"@ge ;
+	lcc-lr:hasIndigenousName
+		"castellano" ,
+		"español"
+		;
+	.
+
+lcc-639-1:Sundanese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Sundanese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Sundanese languaage" ;
+	lcc-lr:hasEnglishName "Sundanese"@en ;
+	lcc-lr:hasFrenchName "soundanais"@fr ;
+	lcc-lr:hasGermanName "Sundanesisch"@ge ;
+	lcc-lr:hasIndigenousName "bahasa Sunda" ;
+	.
+
+lcc-639-1:Swahili
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Swahili" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Swahili macrolanguage" ;
+	lcc-lr:hasEnglishName
+		"Kiswahili"@en ,
+		"Swahili (macrolanguage)"@en
+		;
+	lcc-lr:hasFrenchName "swahili"@fr ;
+	lcc-lr:hasGermanName "Swahili"@ge ;
+	lcc-lr:hasIndigenousName "Kiswahili" ;
+	.
+
+lcc-639-1:Swati
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Swati" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Swati language" ;
+	lcc-lr:hasEnglishName
+		"Siswati"@en ,
+		"Swati"@en ,
+		"Swazi"@en
+		;
+	lcc-lr:hasFrenchName
+		"siswati"@fr ,
+		"swati"@fr ,
+		"swazi"@fr
+		;
+	lcc-lr:hasGermanName "Swasi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "siSwati" ;
+	.
+
+lcc-639-1:Swedish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Swedish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Swedish language" ;
+	lcc-lr:hasEnglishName "Swedish"@en ;
+	lcc-lr:hasFrenchName "suédois"@fr ;
+	lcc-lr:hasGermanName "Schwedisch"@ge ;
+	lcc-lr:hasIndigenousName "svenska" ;
+	.
+
+lcc-639-1:Tagalog
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tagalog" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tagalog language" ;
+	lcc-lr:hasEnglishName "Tagalog"@en ;
+	lcc-lr:hasFrenchName
+		"tagal"@fr ,
+		"tagalog"@fr
+		;
+	lcc-lr:hasGermanName "Tagalog"@ge ;
+	lcc-lr:hasIndigenousName "tagalog" ;
+	.
+
+lcc-639-1:Tahitian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tahitian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tahitian language" ;
+	lcc-lr:hasEnglishName "Tahitian"@en ;
+	lcc-lr:hasFrenchName "tahitien"@fr ;
+	lcc-lr:hasGermanName "Tahitisch"@ge ;
+	.
+
+lcc-639-1:Tajik
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tajik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tajik language" ;
+	lcc-lr:hasEnglishName "Tajik"@en ;
+	lcc-lr:hasFrenchName "tadjik"@fr ;
+	lcc-lr:hasGermanName "Tadschikisch"@ge ;
+	lcc-lr:hasIndigenousName "toçikī" ;
+	.
+
+lcc-639-1:Tamil
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tamil" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tamil language" ;
+	lcc-lr:hasEnglishName "Tamil"@en ;
+	lcc-lr:hasFrenchName
+		"tamil"@fr ,
+		"tamoul"@fr
+		;
+	lcc-lr:hasGermanName "Tamil"@ge ;
+	lcc-lr:hasIndigenousName "tamiḻ" ;
+	.
+
+lcc-639-1:Tatar
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tatar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tatar language" ;
+	lcc-lr:hasEnglishName "Tatar"@en ;
+	lcc-lr:hasFrenchName "tatar"@fr ;
+	lcc-lr:hasGermanName "Tatarisch"@ge ;
+	lcc-lr:hasIndigenousName "tatar tele" ;
+	.
+
+lcc-639-1:Telugu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Telugu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Telugu language" ;
+	lcc-lr:hasEnglishName "Telugu"@en ;
+	lcc-lr:hasFrenchName "télougou"@fr ;
+	lcc-lr:hasGermanName "Telugu-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "telugu" ;
+	.
+
+lcc-639-1:Thai
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Thai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Thai language" ;
+	lcc-lr:hasEnglishName "Thai"@en ;
+	lcc-lr:hasFrenchName "thaï"@fr ;
+	lcc-lr:hasGermanName "Thailändisch"@ge ;
+	lcc-lr:hasIndigenousName "thai" ;
+	.
+
+lcc-639-1:Tibetan
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tibetan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tibetan language" ;
+	lcc-lr:hasEnglishName "Tibetan"@en ;
+	lcc-lr:hasFrenchName "tibétain"@fr ;
+	lcc-lr:hasGermanName "Tibetisch"@ge ;
+	lcc-lr:hasIndigenousName "bod skad" ;
+	.
+
+lcc-639-1:Tigrinya
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tigrinya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tigrinya language" ;
+	lcc-lr:hasEnglishName "Tigrinya"@en ;
+	lcc-lr:hasFrenchName "tigrigna"@fr ;
+	lcc-lr:hasGermanName "Tigrinja-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "tigriña" ;
+	.
+
+lcc-639-1:Tonga-TongaIslands
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tonga (Tonga Islands)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tonga (Tonga Islands) language" ;
+	lcc-lr:hasEnglishName "Tonga (Tonga Islands)"@en ;
+	lcc-lr:hasFrenchName "tonga (îles Tonga)"@fr ;
+	lcc-lr:hasGermanName "Tongaisch"@ge ;
+	lcc-lr:hasIndigenousName "tonga" ;
+	.
+
+lcc-639-1:Tsonga
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tsonga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tsonga language" ;
+	lcc-lr:hasEnglishName "Tsonga"@en ;
+	lcc-lr:hasFrenchName "tsonga"@fr ;
+	lcc-lr:hasGermanName "Tsonga-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "Xitsonga" ;
+	.
+
+lcc-639-1:Tswana
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Tswana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Tswana language" ;
+	lcc-lr:hasEnglishName
+		"Setswana"@en ,
+		"Tswana"@en
+		;
+	lcc-lr:hasFrenchName
+		"setchwana"@fr ,
+		"tswana"@fr
+		;
+	lcc-lr:hasGermanName "Tswana-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "Setswana" ;
+	.
+
+lcc-639-1:Turkish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Turkish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Turkish language" ;
+	lcc-lr:hasEnglishName "Turkish"@en ;
+	lcc-lr:hasFrenchName "turc"@fr ;
+	lcc-lr:hasGermanName "Türkisch"@ge ;
+	lcc-lr:hasIndigenousName "türkçe" ;
+	.
+
+lcc-639-1:Turkmen
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Turkmen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Turkmen language" ;
+	lcc-lr:hasEnglishName "Turkmen"@en ;
+	lcc-lr:hasFrenchName "turkmène"@fr ;
+	lcc-lr:hasGermanName "Turkmenisch"@ge ;
+	.
+
+lcc-639-1:Twi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Twi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Twi language" ;
+	lcc-lr:hasEnglishName "Twi"@en ;
+	lcc-lr:hasFrenchName "twi"@fr ;
+	lcc-lr:hasGermanName "Twi-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "twi" ;
+	.
+
+lcc-639-1:Uighur
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Uighur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Uighur language" ;
+	lcc-lr:hasEnglishName
+		"Uighur"@en ,
+		"Uyghur"@en
+		;
+	lcc-lr:hasFrenchName "ouïgour"@fr ;
+	lcc-lr:hasGermanName "Uigurisch"@ge ;
+	lcc-lr:hasIndigenousName "oyghurqǝ" ;
+	.
+
+lcc-639-1:Ukrainian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Ukrainian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Ukrainian language" ;
+	lcc-lr:hasEnglishName "Ukrainian"@en ;
+	lcc-lr:hasFrenchName "ukrainien"@fr ;
+	lcc-lr:hasGermanName "Ukrainisch"@ge ;
+	lcc-lr:hasIndigenousName "ukraïns'ka mova" ;
+	.
+
+lcc-639-1:Urdu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Urdu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Urdu language" ;
+	lcc-lr:hasEnglishName "Urdu"@en ;
+	lcc-lr:hasFrenchName "ourdou"@fr ;
+	lcc-lr:hasGermanName "Urdu"@ge ;
+	lcc-lr:hasIndigenousName "urdū" ;
+	.
+
+lcc-639-1:Uzbek
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Uzbek" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Uzbek languages" ;
+	lcc-lr:hasEnglishName "Uzbek"@en ;
+	lcc-lr:hasFrenchName "ouszbek"@fr ;
+	lcc-lr:hasGermanName "Usbekisch"@ge ;
+	lcc-lr:hasIndigenousName "oʻzbek tili" ;
+	.
+
+lcc-639-1:Venda
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Venda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Venda language" ;
+	lcc-lr:hasEnglishName "Venda"@en ;
+	lcc-lr:hasFrenchName "venda"@fr ;
+	lcc-lr:hasGermanName "Venda-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "Tshivenḓa" ;
+	.
+
+lcc-639-1:Vietnamese
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Vietnamese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Vietnamese language" ;
+	lcc-lr:hasEnglishName "Vietnamese"@en ;
+	lcc-lr:hasFrenchName "vietnamien"@fr ;
+	lcc-lr:hasGermanName "Vietnamesisch"@ge ;
+	lcc-lr:hasIndigenousName "Tiếng Việt Nam" ;
+	.
+
+lcc-639-1:Volapuk
+	a
+		owl:NamedIndividual ,
+		lcc-lr:ArtificialLanguage ,
+		lcc-lr:IndividualLanguage
+		;
+	rdfs:label "Volapuk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Volapuk language" ;
+	lcc-lr:hasEnglishName "Volapük"@en ;
+	lcc-lr:hasFrenchName "volapük"@fr ;
+	lcc-lr:hasGermanName "Volapük"@ge ;
+	lcc-lr:hasIndigenousName "volapük" ;
+	.
+
+lcc-639-1:Walloon
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Walloon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Walloon language" ;
+	lcc-lr:hasEnglishName "Walloon"@en ;
+	lcc-lr:hasFrenchName "wallon"@fr ;
+	lcc-lr:hasGermanName "Wallonisch"@ge ;
+	lcc-lr:hasIndigenousName "wallon" ;
+	.
+
+lcc-639-1:Welsh
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Welsh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Welsh language" ;
+	lcc-lr:hasEnglishName "Welsh"@en ;
+	lcc-lr:hasFrenchName "gallois"@fr ;
+	lcc-lr:hasGermanName "Kymrisch"@ge ;
+	lcc-lr:hasIndigenousName "Cymraeg" ;
+	.
+
+lcc-639-1:WesternFrisian
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Western Frisian" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Western Frisian language" ;
+	lcc-lr:hasEnglishName
+		"Frisian"@en ,
+		"Western Frisian"@en
+		;
+	lcc-lr:hasFrenchName
+		"frison"@fr ,
+		"frison occidental"@fr
+		;
+	lcc-lr:hasGermanName "Friesisch"@ge ;
+	lcc-lr:hasIndigenousName "frysk" ;
+	.
+
+lcc-639-1:Wolof
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Wolof" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Wolof language" ;
+	lcc-lr:hasEnglishName "Wolof"@en ;
+	lcc-lr:hasFrenchName "wolof"@fr ;
+	lcc-lr:hasGermanName "Wolof-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "wolof" ;
+	.
+
+lcc-639-1:Xhosa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Xhosa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Xhosa language" ;
+	lcc-lr:hasEnglishName "Xhosa"@en ;
+	lcc-lr:hasFrenchName "xhosa"@fr ;
+	lcc-lr:hasGermanName "Xhosa-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "isiXhosa" ;
+	.
+
+lcc-639-1:Yiddish
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Yiddish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Yiddish language" ;
+	lcc-lr:hasEnglishName "Yiddish"@en ;
+	lcc-lr:hasFrenchName "yiddish"@fr ;
+	lcc-lr:hasGermanName "Jiddisch"@ge ;
+	lcc-lr:hasIndigenousName "yidiš" ;
+	.
+
+lcc-639-1:Yoruba
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Yoruba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Yoruba language" ;
+	lcc-lr:hasEnglishName "Yoruba"@en ;
+	lcc-lr:hasFrenchName "yorouba"@fr ;
+	lcc-lr:hasGermanName "Yoruba-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "Yorùbá" ;
+	.
+
+lcc-639-1:Zhuang
+	a
+		owl:NamedIndividual ,
+		lcc-lr:LivingLanguage ,
+		lcc-lr:Macrolanguage
+		;
+	rdfs:label "Zhuang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Zhuang languages" ;
+	lcc-lr:hasEnglishName
+		"Chuang"@en ,
+		"Zhuang"@en
+		;
+	lcc-lr:hasFrenchName
+		"chuang"@fr ,
+		"zhuang"@fr
+		;
+	lcc-lr:hasGermanName "Zhuang"@ge ;
+	lcc-lr:hasIndigenousName "cuengh" ;
+	.
+
+lcc-639-1:Zulu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:IndividualLanguage ,
+		lcc-lr:LivingLanguage
+		;
+	rdfs:label "Zulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "Zulu language" ;
+	lcc-lr:hasEnglishName "Zulu"@en ;
+	lcc-lr:hasFrenchName "zoulou"@fr ;
+	lcc-lr:hasGermanName "Zulu-Sprache"@ge ;
+	lcc-lr:hasIndigenousName "isiZulu" ;
+	.
+
+lcc-639-1:aa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "aa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Afar" ;
+	lcc-lr:denotes lcc-639-1:Afar ;
+	lcc-lr:hasTag "aa" ;
+	lcc-lr:identifies lcc-639-1:Afar ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ab
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ab" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Abkhazian; Abkhaz" ;
+	lcc-lr:denotes lcc-639-1:Abkhazian ;
+	lcc-lr:hasTag "ab" ;
+	lcc-lr:identifies lcc-639-1:Abkhazian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ae
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ae" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Avestan" ;
+	lcc-lr:denotes lcc-639-1:Avestan ;
+	lcc-lr:hasTag "ae" ;
+	lcc-lr:identifies lcc-639-1:Avestan ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:af
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "af" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Afrikaans" ;
+	lcc-lr:denotes lcc-639-1:Afrikaans ;
+	lcc-lr:hasTag "af" ;
+	lcc-lr:identifies lcc-639-1:Afrikaans ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ak
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ak" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Akan" ;
+	lcc-lr:denotes lcc-639-1:Akan ;
+	lcc-lr:hasTag "ak" ;
+	lcc-lr:identifies lcc-639-1:Akan ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:am
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "am" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Amharic" ;
+	lcc-lr:denotes lcc-639-1:Amharic ;
+	lcc-lr:hasTag "am" ;
+	lcc-lr:identifies lcc-639-1:Amharic ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:an
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "an" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Aragonese" ;
+	lcc-lr:denotes lcc-639-1:Aragonese ;
+	lcc-lr:hasTag "an" ;
+	lcc-lr:identifies lcc-639-1:Aragonese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ar
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Arabic" ;
+	lcc-lr:denotes lcc-639-1:Arabic ;
+	lcc-lr:hasTag "ar" ;
+	lcc-lr:identifies lcc-639-1:Arabic ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:as
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "as" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Assamese" ;
+	lcc-lr:denotes lcc-639-1:Assamese ;
+	lcc-lr:hasTag "as" ;
+	lcc-lr:identifies lcc-639-1:Assamese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:av
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "av" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Avaric" ;
+	lcc-lr:denotes lcc-639-1:Avaric ;
+	lcc-lr:hasTag "av" ;
+	lcc-lr:identifies lcc-639-1:Avaric ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ay
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Aymara" ;
+	lcc-lr:denotes lcc-639-1:Aymara ;
+	lcc-lr:hasTag "ay" ;
+	lcc-lr:identifies lcc-639-1:Aymara ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:az
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "az" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Azerbaijani" ;
+	lcc-lr:denotes lcc-639-1:Azerbaijani ;
+	lcc-lr:hasTag "az" ;
+	lcc-lr:identifies lcc-639-1:Azerbaijani ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ba
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Bashkir" ;
+	lcc-lr:denotes lcc-639-1:Bashkir ;
+	lcc-lr:hasTag "ba" ;
+	lcc-lr:identifies lcc-639-1:Bashkir ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:be
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "be" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Belarusian" ;
+	lcc-lr:denotes lcc-639-1:Belarusian ;
+	lcc-lr:hasTag "be" ;
+	lcc-lr:identifies lcc-639-1:Belarusian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:bg
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "bg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Bulgarian" ;
+	lcc-lr:denotes lcc-639-1:Bulgarian ;
+	lcc-lr:hasTag "bg" ;
+	lcc-lr:identifies lcc-639-1:Bulgarian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:bh
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "bh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Bihari languages" ;
+	lcc-lr:denotes lcc-639-1:BihariLanguages ;
+	lcc-lr:hasTag "bh" ;
+	lcc-lr:identifies lcc-639-1:BihariLanguages ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:bi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "bi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Bislama" ;
+	lcc-lr:denotes lcc-639-1:Bislama ;
+	lcc-lr:hasTag "bi" ;
+	lcc-lr:identifies lcc-639-1:Bislama ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:bm
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "bm" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Bambara" ;
+	lcc-lr:denotes lcc-639-1:Bambara ;
+	lcc-lr:hasTag "bm" ;
+	lcc-lr:identifies lcc-639-1:Bambara ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:bn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "bn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Bengali; Bangla" ;
+	lcc-lr:denotes lcc-639-1:Bengali ;
+	lcc-lr:hasTag "bn" ;
+	lcc-lr:identifies lcc-639-1:Bengali ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:bo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "bo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tibetan" ;
+	lcc-lr:denotes lcc-639-1:Tibetan ;
+	lcc-lr:hasTag "bo" ;
+	lcc-lr:identifies lcc-639-1:Tibetan ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:br
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "br" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Breton" ;
+	lcc-lr:denotes lcc-639-1:Breton ;
+	lcc-lr:hasTag "br" ;
+	lcc-lr:identifies lcc-639-1:Breton ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:bs
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "bs" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Bosnian" ;
+	lcc-lr:denotes lcc-639-1:Bosnian ;
+	lcc-lr:hasTag "bs" ;
+	lcc-lr:identifies lcc-639-1:Bosnian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ca
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Catalan" ;
+	lcc-lr:denotes lcc-639-1:Catalan ;
+	lcc-lr:hasTag "ca" ;
+	lcc-lr:identifies lcc-639-1:Catalan ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ce
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ce" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Chechen" ;
+	lcc-lr:denotes lcc-639-1:Chechen ;
+	lcc-lr:hasTag "ce" ;
+	lcc-lr:identifies lcc-639-1:Chechen ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ch
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ch" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Chamorro" ;
+	lcc-lr:denotes lcc-639-1:Chamorro ;
+	lcc-lr:hasTag "ch" ;
+	lcc-lr:identifies lcc-639-1:Chamorro ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:co
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "co" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Corsican" ;
+	lcc-lr:denotes lcc-639-1:Corsican ;
+	lcc-lr:hasTag "co" ;
+	lcc-lr:identifies lcc-639-1:Corsican ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:cr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "cr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Cree" ;
+	lcc-lr:denotes lcc-639-1:Cree ;
+	lcc-lr:hasTag "cr" ;
+	lcc-lr:identifies lcc-639-1:Cree ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:cs
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "cs" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Czech" ;
+	lcc-lr:denotes lcc-639-1:Czech ;
+	lcc-lr:hasTag "cs" ;
+	lcc-lr:identifies lcc-639-1:Czech ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:cu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "cu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Old Slavonic; Old Church Slavonic; Church Slavonic; Church Slavic; Old Bulgarian" ;
+	lcc-lr:denotes lcc-639-1:ChurchSlavic ;
+	lcc-lr:hasTag "cu" ;
+	lcc-lr:identifies lcc-639-1:ChurchSlavic ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:cv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "cv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Chuvash" ;
+	lcc-lr:denotes lcc-639-1:Chuvash ;
+	lcc-lr:hasTag "cv" ;
+	lcc-lr:identifies lcc-639-1:Chuvash ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:cy
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "cy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Welsh" ;
+	lcc-lr:denotes lcc-639-1:Welsh ;
+	lcc-lr:hasTag "cy" ;
+	lcc-lr:identifies lcc-639-1:Welsh ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:da
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "da" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Danish" ;
+	lcc-lr:denotes lcc-639-1:Danish ;
+	lcc-lr:hasTag "da" ;
+	lcc-lr:identifies lcc-639-1:Danish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:de
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "de" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for German" ;
+	lcc-lr:denotes lcc-639-1:German ;
+	lcc-lr:hasTag "de" ;
+	lcc-lr:identifies lcc-639-1:German ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:dv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "dv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Dhivehi" ;
+	lcc-lr:denotes lcc-639-1:Dhivehi ;
+	lcc-lr:hasTag "dv" ;
+	lcc-lr:identifies lcc-639-1:Dhivehi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:dz
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "dz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Dzongkha; Bhutani; Butanese" ;
+	lcc-lr:denotes lcc-639-1:Dzongkha ;
+	lcc-lr:hasTag "dz" ;
+	lcc-lr:identifies lcc-639-1:Dzongkha ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ee
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ee" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Ewe" ;
+	lcc-lr:denotes lcc-639-1:Ewe ;
+	lcc-lr:hasTag "ee" ;
+	lcc-lr:identifies lcc-639-1:Ewe ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:el
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "el" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Modern Greek (post 1453)" ;
+	lcc-lr:denotes lcc-639-1:ModernGreek ;
+	lcc-lr:hasTag "el" ;
+	lcc-lr:identifies lcc-639-1:ModernGreek ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:en
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "en" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for English" ;
+	lcc-lr:denotes lcc-639-1:English ;
+	lcc-lr:hasTag "en" ;
+	lcc-lr:identifies lcc-639-1:English ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:eo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "eo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Esperanto" ;
+	lcc-lr:denotes lcc-639-1:Esperanto ;
+	lcc-lr:hasTag "eo" ;
+	lcc-lr:identifies lcc-639-1:Esperanto ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:es
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "es" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Spanish; Castilian" ;
+	lcc-lr:denotes lcc-639-1:Spanish ;
+	lcc-lr:hasTag "es" ;
+	lcc-lr:identifies lcc-639-1:Spanish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:et
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "et" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Estonian" ;
+	lcc-lr:denotes lcc-639-1:Estonian ;
+	lcc-lr:hasTag "et" ;
+	lcc-lr:identifies lcc-639-1:Estonian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:eu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "eu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Basque" ;
+	lcc-lr:denotes lcc-639-1:Basque ;
+	lcc-lr:hasTag "eu" ;
+	lcc-lr:identifies lcc-639-1:Basque ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:fa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "fa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Farsi; Persian" ;
+	lcc-lr:denotes lcc-639-1:Persian ;
+	lcc-lr:hasTag "fa" ;
+	lcc-lr:identifies lcc-639-1:Persian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ff
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ff" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Fulah; Fula; Fulani; Fulfulde; Peul" ;
+	lcc-lr:denotes lcc-639-1:Fulah ;
+	lcc-lr:hasTag "ff" ;
+	lcc-lr:identifies lcc-639-1:Fulah ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:fi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "fi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Finnish" ;
+	lcc-lr:denotes lcc-639-1:Finnish ;
+	lcc-lr:hasTag "fi" ;
+	lcc-lr:identifies lcc-639-1:Finnish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:fj
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "fj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Fijian" ;
+	lcc-lr:denotes lcc-639-1:Fijian ;
+	lcc-lr:hasTag "fj" ;
+	lcc-lr:identifies lcc-639-1:Fijian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:fo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "fo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Faroese; Faeroese" ;
+	lcc-lr:denotes lcc-639-1:Faroese ;
+	lcc-lr:hasTag "fo" ;
+	lcc-lr:identifies lcc-639-1:Faroese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:fr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "fr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for French" ;
+	lcc-lr:denotes lcc-639-1:French ;
+	lcc-lr:hasTag "fr" ;
+	lcc-lr:identifies lcc-639-1:French ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:fy
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "fy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Western Frisian" ;
+	lcc-lr:denotes lcc-639-1:WesternFrisian ;
+	lcc-lr:hasTag "fy" ;
+	lcc-lr:identifies lcc-639-1:WesternFrisian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ga_1
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Irish" ;
+	lcc-lr:denotes lcc-639-1:Irish ;
+	lcc-lr:hasTag "ga" ;
+	lcc-lr:identifies lcc-639-1:Irish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:gd
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "gd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Gaelic; Scottish Gaelic" ;
+	lcc-lr:denotes lcc-639-1:ScottishGaelic ;
+	lcc-lr:hasTag "gd" ;
+	lcc-lr:identifies lcc-639-1:ScottishGaelic ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:gl
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "gl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Galician; Gallegan" ;
+	lcc-lr:denotes lcc-639-1:Galician ;
+	lcc-lr:hasTag "gl" ;
+	lcc-lr:identifies lcc-639-1:Galician ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:gn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "gn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Guarani" ;
+	lcc-lr:denotes lcc-639-1:Guarani ;
+	lcc-lr:hasTag "gn" ;
+	lcc-lr:identifies lcc-639-1:Guarani ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:gu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "gu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Gujarati" ;
+	lcc-lr:denotes lcc-639-1:Gujarati ;
+	lcc-lr:hasTag "gu" ;
+	lcc-lr:identifies lcc-639-1:Gujarati ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:gv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "gv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Manx" ;
+	lcc-lr:denotes lcc-639-1:Manx ;
+	lcc-lr:hasTag "gv" ;
+	lcc-lr:identifies lcc-639-1:Manx ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ha
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Hausa" ;
+	lcc-lr:denotes lcc-639-1:Hausa ;
+	lcc-lr:hasTag "ha" ;
+	lcc-lr:identifies lcc-639-1:Hausa ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:he
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "he" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Hebrew" ;
+	lcc-lr:denotes lcc-639-1:Hebrew ;
+	lcc-lr:hasTag "he" ;
+	lcc-lr:identifies lcc-639-1:Hebrew ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:hi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "hi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Hindi" ;
+	lcc-lr:denotes lcc-639-1:Hindi ;
+	lcc-lr:hasTag "hi" ;
+	lcc-lr:identifies lcc-639-1:Hindi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ho
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ho" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Hiri Motu" ;
+	lcc-lr:denotes lcc-639-1:HiriMotu ;
+	lcc-lr:hasTag "ho" ;
+	lcc-lr:identifies lcc-639-1:HiriMotu ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:hr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "hr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Croatian" ;
+	lcc-lr:denotes lcc-639-1:Croatian ;
+	lcc-lr:hasTag "hr" ;
+	lcc-lr:identifies lcc-639-1:Croatian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ht
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ht" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Haitian; Haitian Creole" ;
+	lcc-lr:denotes lcc-639-1:Haitian ;
+	lcc-lr:hasTag "ht" ;
+	lcc-lr:identifies lcc-639-1:Haitian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:hu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "hu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Hungarian" ;
+	lcc-lr:denotes lcc-639-1:Hungarian ;
+	lcc-lr:hasTag "hu" ;
+	lcc-lr:identifies lcc-639-1:Hungarian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:hy
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "hy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Armenian" ;
+	lcc-lr:denotes lcc-639-1:Armenian ;
+	lcc-lr:hasTag "hy" ;
+	lcc-lr:identifies lcc-639-1:Armenian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:hz
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "hz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Herero" ;
+	lcc-lr:denotes lcc-639-1:Herero ;
+	lcc-lr:hasTag "hz" ;
+	lcc-lr:identifies lcc-639-1:Herero ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ia
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Interlingua (International Auxiliary Language Association)" ;
+	lcc-lr:denotes lcc-639-1:Interlingua ;
+	lcc-lr:hasTag "ia" ;
+	lcc-lr:identifies lcc-639-1:Interlingua ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:id
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "id" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Indonesian" ;
+	lcc-lr:denotes lcc-639-1:Indonesian ;
+	lcc-lr:hasTag "id" ;
+	lcc-lr:identifies lcc-639-1:Indonesian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ie
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ie" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Interlingue" ;
+	lcc-lr:denotes lcc-639-1:Interlingue ;
+	lcc-lr:hasTag "ie" ;
+	lcc-lr:identifies lcc-639-1:Interlingue ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ig
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ig" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Igbo" ;
+	lcc-lr:denotes lcc-639-1:Igbo ;
+	lcc-lr:hasTag "ig" ;
+	lcc-lr:identifies lcc-639-1:Igbo ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ii
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ii" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sichuan Yi" ;
+	lcc-lr:denotes lcc-639-1:SichuanYi ;
+	lcc-lr:hasTag "ii" ;
+	lcc-lr:identifies lcc-639-1:SichuanYi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ik
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Inupiaq" ;
+	lcc-lr:denotes lcc-639-1:Inupiaq ;
+	lcc-lr:hasTag "ik" ;
+	lcc-lr:identifies lcc-639-1:Inupiaq ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:io
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "io" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Ido" ;
+	lcc-lr:denotes lcc-639-1:Ido ;
+	lcc-lr:hasTag "io" ;
+	lcc-lr:identifies lcc-639-1:Ido ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:is
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "is" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Icelandic" ;
+	lcc-lr:denotes lcc-639-1:Icelandic ;
+	lcc-lr:hasTag "is" ;
+	lcc-lr:identifies lcc-639-1:Icelandic ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:it
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "it" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Italian" ;
+	lcc-lr:denotes lcc-639-1:Italian ;
+	lcc-lr:hasTag "it" ;
+	lcc-lr:identifies lcc-639-1:Italian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:iu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "iu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Inuktitut" ;
+	lcc-lr:denotes lcc-639-1:Inuktitut ;
+	lcc-lr:hasTag "iu" ;
+	lcc-lr:identifies lcc-639-1:Inuktitut ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ja
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Japanese" ;
+	lcc-lr:denotes lcc-639-1:Japanese ;
+	lcc-lr:hasTag "ja" ;
+	lcc-lr:identifies lcc-639-1:Japanese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:jv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "jv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Javanese" ;
+	lcc-lr:denotes lcc-639-1:Javanese ;
+	lcc-lr:hasTag "jv" ;
+	lcc-lr:identifies lcc-639-1:Javanese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ka
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Georgian" ;
+	lcc-lr:denotes lcc-639-1:Georgian ;
+	lcc-lr:hasTag "ka" ;
+	lcc-lr:identifies lcc-639-1:Georgian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kg
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kongo" ;
+	lcc-lr:denotes lcc-639-1:Kongo ;
+	lcc-lr:hasTag "kg" ;
+	lcc-lr:identifies lcc-639-1:Kongo ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ki
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ki" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kikuyu; Gikuyu" ;
+	lcc-lr:denotes lcc-639-1:Kikuyu ;
+	lcc-lr:hasTag "ki" ;
+	lcc-lr:identifies lcc-639-1:Kikuyu ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kj
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kwanyama; Kuanyama" ;
+	lcc-lr:denotes lcc-639-1:Kuanyama ;
+	lcc-lr:hasTag "kj" ;
+	lcc-lr:identifies lcc-639-1:Kuanyama ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kk
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kazakh" ;
+	lcc-lr:denotes lcc-639-1:Kazakh ;
+	lcc-lr:hasTag "kk" ;
+	lcc-lr:identifies lcc-639-1:Kazakh ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kl
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Greenlandic; Kalaallisut" ;
+	lcc-lr:denotes lcc-639-1:Georgian ;
+	lcc-lr:hasTag "kl" ;
+	lcc-lr:identifies lcc-639-1:Kalaallisut ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:km
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "km" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Khmer; Cambodian" ;
+	lcc-lr:denotes lcc-639-1:CentralKhmer ;
+	lcc-lr:hasTag "km" ;
+	lcc-lr:identifies lcc-639-1:CentralKhmer ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kannada" ;
+	lcc-lr:denotes lcc-639-1:Kannada ;
+	lcc-lr:hasTag "kn" ;
+	lcc-lr:identifies lcc-639-1:Kannada ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ko
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ko" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Korean" ;
+	lcc-lr:denotes lcc-639-1:Korean ;
+	lcc-lr:hasTag "ko" ;
+	lcc-lr:identifies lcc-639-1:Korean ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kanuri" ;
+	lcc-lr:denotes lcc-639-1:Kanuri ;
+	lcc-lr:hasTag "kr" ;
+	lcc-lr:identifies lcc-639-1:Kanuri ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ks
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ks" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kashmiri" ;
+	lcc-lr:denotes lcc-639-1:Kashmiri ;
+	lcc-lr:hasTag "ks" ;
+	lcc-lr:identifies lcc-639-1:Kashmiri ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ku
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ku" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kurdish" ;
+	lcc-lr:denotes lcc-639-1:Kurdish ;
+	lcc-lr:hasTag "ku" ;
+	lcc-lr:identifies lcc-639-1:Kurdish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Komi" ;
+	lcc-lr:denotes lcc-639-1:Komi ;
+	lcc-lr:hasTag "kv" ;
+	lcc-lr:identifies lcc-639-1:Komi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:kw
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "kw" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Cornish" ;
+	lcc-lr:denotes lcc-639-1:Cornish ;
+	lcc-lr:hasTag "kw" ;
+	lcc-lr:identifies lcc-639-1:Cornish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ky
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ky" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kyrgyz; Kirghiz" ;
+	lcc-lr:denotes lcc-639-1:Kirghiz ;
+	lcc-lr:hasTag "ky" ;
+	lcc-lr:identifies lcc-639-1:Kirghiz ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:la
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "la" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Latin" ;
+	lcc-lr:denotes lcc-639-1:Latin ;
+	lcc-lr:hasTag "la" ;
+	lcc-lr:identifies lcc-639-1:Latin ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:lb
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "lb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Luxembourgish" ;
+	lcc-lr:denotes lcc-639-1:Luxembourgish ;
+	lcc-lr:hasTag "lb" ;
+	lcc-lr:identifies lcc-639-1:Luxembourgish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:lg
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "lg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Luganda; Ganda" ;
+	lcc-lr:denotes lcc-639-1:Ganda ;
+	lcc-lr:hasTag "lg" ;
+	lcc-lr:identifies lcc-639-1:Ganda ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:li
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "li" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Limburgan; Limburger; Limburgish" ;
+	lcc-lr:denotes lcc-639-1:Limburgan ;
+	lcc-lr:hasTag "li" ;
+	lcc-lr:identifies lcc-639-1:Limburgan ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ln
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ln" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Lingala" ;
+	lcc-lr:denotes lcc-639-1:Lingala ;
+	lcc-lr:hasTag "ln" ;
+	lcc-lr:identifies lcc-639-1:Lingala ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:lo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "lo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Laotian; Lao" ;
+	lcc-lr:denotes lcc-639-1:Lao ;
+	lcc-lr:hasTag "lo" ;
+	lcc-lr:identifies lcc-639-1:Lao ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:lt
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "lt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Lithuanian" ;
+	lcc-lr:denotes lcc-639-1:Lithuanian ;
+	lcc-lr:hasTag "lt" ;
+	lcc-lr:identifies lcc-639-1:Lithuanian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:lu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "lu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Luba-Katanga" ;
+	lcc-lr:denotes lcc-639-1:LubaKatanga ;
+	lcc-lr:hasTag "lu" ;
+	lcc-lr:identifies lcc-639-1:LubaKatanga ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:lv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "lv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Latvian" ;
+	lcc-lr:denotes lcc-639-1:Latvian ;
+	lcc-lr:hasTag "lv" ;
+	lcc-lr:identifies lcc-639-1:Latvian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:mg
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "mg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Malagasy" ;
+	lcc-lr:denotes lcc-639-1:Malagasy ;
+	lcc-lr:hasTag "mg" ;
+	lcc-lr:identifies lcc-639-1:Malagasy ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:mh
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "mh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Marshallese" ;
+	lcc-lr:denotes lcc-639-1:Marshallese ;
+	lcc-lr:hasTag "mh" ;
+	lcc-lr:identifies lcc-639-1:Marshallese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:mi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "mi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Maori" ;
+	lcc-lr:denotes lcc-639-1:Maori ;
+	lcc-lr:hasTag "mi" ;
+	lcc-lr:identifies lcc-639-1:Maori ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:mk
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "mk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Macedonian" ;
+	lcc-lr:denotes lcc-639-1:Macedonian ;
+	lcc-lr:hasTag "mk" ;
+	lcc-lr:identifies lcc-639-1:Macedonian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ml
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ml" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Malayalam" ;
+	lcc-lr:denotes lcc-639-1:Malayalam ;
+	lcc-lr:hasTag "ml" ;
+	lcc-lr:identifies lcc-639-1:Malayalam ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:mn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "mn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Mongolian" ;
+	lcc-lr:denotes lcc-639-1:Mongolian ;
+	lcc-lr:hasTag "mn" ;
+	lcc-lr:identifies lcc-639-1:Mongolian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:mr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "mr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Marathi" ;
+	lcc-lr:denotes lcc-639-1:Marathi ;
+	lcc-lr:hasTag "mr" ;
+	lcc-lr:identifies lcc-639-1:Marathi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ms
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ms" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Malay" ;
+	lcc-lr:denotes lcc-639-1:Malay ;
+	lcc-lr:hasTag "ms" ;
+	lcc-lr:identifies lcc-639-1:Malay ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:mt
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "mt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Maltese" ;
+	lcc-lr:denotes lcc-639-1:Maltese ;
+	lcc-lr:hasTag "mt" ;
+	lcc-lr:identifies lcc-639-1:Maltese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:my
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "my" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Myanmar; Burmese" ;
+	lcc-lr:denotes lcc-639-1:Burmese ;
+	lcc-lr:hasTag "my" ;
+	lcc-lr:identifies lcc-639-1:Burmese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:na
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "na" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Nauruan" ;
+	lcc-lr:denotes lcc-639-1:Nauru ;
+	lcc-lr:hasTag "na" ;
+	lcc-lr:identifies lcc-639-1:Nauru ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:nb
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "nb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Norwegian Bokmal" ;
+	lcc-lr:denotes lcc-639-1:NorwegianBokmal ;
+	lcc-lr:hasTag "nb" ;
+	lcc-lr:identifies lcc-639-1:NorwegianBokmal ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:nd
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "nd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for North Ndebele" ;
+	lcc-lr:denotes lcc-639-1:NorthNdebele ;
+	lcc-lr:hasTag "nd" ;
+	lcc-lr:identifies lcc-639-1:NorthNdebele ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ne
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ne" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Nepali" ;
+	lcc-lr:denotes lcc-639-1:Nepali ;
+	lcc-lr:hasTag "ne" ;
+	lcc-lr:identifies lcc-639-1:Nepali ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ng
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Ndonga" ;
+	lcc-lr:denotes lcc-639-1:Ndonga ;
+	lcc-lr:hasTag "ng" ;
+	lcc-lr:identifies lcc-639-1:Ndonga ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:nl
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "nl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Dutch" ;
+	lcc-lr:denotes lcc-639-1:Dutch ;
+	lcc-lr:hasTag "nl" ;
+	lcc-lr:identifies lcc-639-1:Dutch ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:nn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "nn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Norwegian Nynorsk" ;
+	lcc-lr:denotes lcc-639-1:NorwegianNynorsk ;
+	lcc-lr:hasTag "nn" ;
+	lcc-lr:identifies lcc-639-1:NorwegianNynorsk ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:no
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "no" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Norwegian" ;
+	lcc-lr:denotes lcc-639-1:Norwegian ;
+	lcc-lr:hasTag "no" ;
+	lcc-lr:identifies lcc-639-1:Norwegian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:nr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "nr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for South Ndebele" ;
+	lcc-lr:denotes lcc-639-1:SouthNdebele ;
+	lcc-lr:hasTag "nr" ;
+	lcc-lr:identifies lcc-639-1:SouthNdebele ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:nv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "nv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Navajo; Navaho" ;
+	lcc-lr:denotes lcc-639-1:Navajo ;
+	lcc-lr:hasTag "nv" ;
+	lcc-lr:identifies lcc-639-1:Navajo ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ny
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ny" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Chichewa; Chewa; Nyanja" ;
+	lcc-lr:denotes lcc-639-1:Nyanja ;
+	lcc-lr:hasTag "ny" ;
+	lcc-lr:identifies lcc-639-1:Nyanja ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:oc
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "oc" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Occitan; Provencal (post 1500)" ;
+	lcc-lr:denotes lcc-639-1:Occitan ;
+	lcc-lr:hasTag "oc" ;
+	lcc-lr:identifies lcc-639-1:Occitan ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:oj
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "oj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Ojibwa" ;
+	lcc-lr:denotes lcc-639-1:Ojibwa ;
+	lcc-lr:hasTag "oj" ;
+	lcc-lr:identifies lcc-639-1:Ojibwa ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:om
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "om" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Oromo; Afan Oromo; Galla" ;
+	lcc-lr:denotes lcc-639-1:Oromo ;
+	lcc-lr:hasTag "om" ;
+	lcc-lr:identifies lcc-639-1:Oromo ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:or
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "or" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Oriya" ;
+	lcc-lr:denotes lcc-639-1:Oriya ;
+	lcc-lr:hasTag "or" ;
+	lcc-lr:identifies lcc-639-1:Oriya ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:os
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "os" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Ossetian; Ossetic" ;
+	lcc-lr:denotes lcc-639-1:Ossetian ;
+	lcc-lr:hasTag "os" ;
+	lcc-lr:identifies lcc-639-1:Ossetian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:pa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "pa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Punjabi; Panjabi" ;
+	lcc-lr:denotes lcc-639-1:Panjabi ;
+	lcc-lr:hasTag "pa" ;
+	lcc-lr:identifies lcc-639-1:Panjabi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:pi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "pi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Pali" ;
+	lcc-lr:denotes lcc-639-1:Pali ;
+	lcc-lr:hasTag "pi" ;
+	lcc-lr:identifies lcc-639-1:Pali ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:pl
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "pl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Polish" ;
+	lcc-lr:denotes lcc-639-1:Polish ;
+	lcc-lr:hasTag "pl" ;
+	lcc-lr:identifies lcc-639-1:Polish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ps
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ps" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Pashto; Pushto" ;
+	lcc-lr:denotes lcc-639-1:Pushto ;
+	lcc-lr:hasTag "ps" ;
+	lcc-lr:identifies lcc-639-1:Pushto ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:pt
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "pt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Portuguese" ;
+	lcc-lr:denotes lcc-639-1:Portuguese ;
+	lcc-lr:hasTag "pt" ;
+	lcc-lr:identifies lcc-639-1:Portuguese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:qu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "qu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Quechua" ;
+	lcc-lr:denotes lcc-639-1:Quechua ;
+	lcc-lr:hasTag "qu" ;
+	lcc-lr:identifies lcc-639-1:Quechua ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:rm
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "rm" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Romansh" ;
+	lcc-lr:denotes lcc-639-1:Romansh ;
+	lcc-lr:hasTag "rm" ;
+	lcc-lr:identifies lcc-639-1:Romansh ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:rn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "rn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kirundi; Rundi" ;
+	lcc-lr:denotes lcc-639-1:Rundi ;
+	lcc-lr:hasTag "rn" ;
+	lcc-lr:identifies lcc-639-1:Rundi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ro
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Romanian" ;
+	lcc-lr:denotes lcc-639-1:Romanian ;
+	lcc-lr:hasTag "ro" ;
+	lcc-lr:identifies lcc-639-1:Romanian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ru
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ru" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Russian" ;
+	lcc-lr:denotes lcc-639-1:Russian ;
+	lcc-lr:hasTag "ru" ;
+	lcc-lr:identifies lcc-639-1:Russian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:rw
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "rw" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Kinyarwanda; Rwanda" ;
+	lcc-lr:denotes lcc-639-1:Kinyarwanda ;
+	lcc-lr:hasTag "rw" ;
+	lcc-lr:identifies lcc-639-1:Kinyarwanda ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sanskrit" ;
+	lcc-lr:denotes lcc-639-1:Sanskrit ;
+	lcc-lr:hasTag "sa" ;
+	lcc-lr:identifies lcc-639-1:Sanskrit ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sc
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sc" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sardinian" ;
+	lcc-lr:denotes lcc-639-1:Sardinian ;
+	lcc-lr:hasTag "sc" ;
+	lcc-lr:identifies lcc-639-1:Sardinian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sd
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sindhi" ;
+	lcc-lr:denotes lcc-639-1:Sindhi ;
+	lcc-lr:hasTag "sd" ;
+	lcc-lr:identifies lcc-639-1:Sindhi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:se
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "se" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Northern Sami" ;
+	lcc-lr:denotes lcc-639-1:NorthernSami ;
+	lcc-lr:hasTag "se" ;
+	lcc-lr:identifies lcc-639-1:NorthernSami ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sg
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sango; Sangho" ;
+	lcc-lr:denotes lcc-639-1:Sango ;
+	lcc-lr:hasTag "sg" ;
+	lcc-lr:identifies lcc-639-1:Sango ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:si
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "si" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sinhala; Sinhalese; Singhalese" ;
+	lcc-lr:denotes lcc-639-1:Sinhala ;
+	lcc-lr:hasTag "si" ;
+	lcc-lr:identifies lcc-639-1:Sinhala ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sk
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Slovak" ;
+	lcc-lr:denotes lcc-639-1:Slovak ;
+	lcc-lr:hasTag "sk" ;
+	lcc-lr:identifies lcc-639-1:Slovak ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sl
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Slovenian" ;
+	lcc-lr:denotes lcc-639-1:Slovenian ;
+	lcc-lr:hasTag "sl" ;
+	lcc-lr:identifies lcc-639-1:Slovenian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sm
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sm" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Samoan" ;
+	lcc-lr:denotes lcc-639-1:Samoan ;
+	lcc-lr:hasTag "sm" ;
+	lcc-lr:identifies lcc-639-1:Samoan ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Shona" ;
+	lcc-lr:denotes lcc-639-1:Shona ;
+	lcc-lr:hasTag "sn" ;
+	lcc-lr:identifies lcc-639-1:Shona ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:so
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "so" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Somali" ;
+	lcc-lr:denotes lcc-639-1:Somali ;
+	lcc-lr:hasTag "so" ;
+	lcc-lr:identifies lcc-639-1:Somali ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sq
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Albanian" ;
+	lcc-lr:denotes lcc-639-1:Albanian ;
+	lcc-lr:hasTag "sq" ;
+	lcc-lr:identifies lcc-639-1:Albanian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Serbian" ;
+	lcc-lr:denotes lcc-639-1:Serbian ;
+	lcc-lr:hasTag "sr" ;
+	lcc-lr:identifies lcc-639-1:Serbian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ss
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ss" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Swazi; Swati; Siswati" ;
+	lcc-lr:denotes lcc-639-1:Swati ;
+	lcc-lr:hasTag "ss" ;
+	lcc-lr:identifies lcc-639-1:Swati ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:st
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "st" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sesotho; Southern Sotho" ;
+	lcc-lr:denotes lcc-639-1:SouthernSotho ;
+	lcc-lr:hasTag "st" ;
+	lcc-lr:identifies lcc-639-1:SouthernSotho ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:su
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "su" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Sundanese" ;
+	lcc-lr:denotes lcc-639-1:Sundanese ;
+	lcc-lr:hasTag "su" ;
+	lcc-lr:identifies lcc-639-1:Sundanese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sv
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Swedish" ;
+	lcc-lr:denotes lcc-639-1:Swedish ;
+	lcc-lr:hasTag "sv" ;
+	lcc-lr:identifies lcc-639-1:Swedish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:sw
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "sw" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Swahili; Kiswahili" ;
+	lcc-lr:denotes lcc-639-1:Swahili ;
+	lcc-lr:hasTag "sw" ;
+	lcc-lr:identifies lcc-639-1:Swahili ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ta
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tamil" ;
+	lcc-lr:denotes lcc-639-1:Tamil ;
+	lcc-lr:hasTag "ta" ;
+	lcc-lr:identifies lcc-639-1:Tamil ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:te
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "te" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Telugu" ;
+	lcc-lr:denotes lcc-639-1:Telugu ;
+	lcc-lr:hasTag "te" ;
+	lcc-lr:identifies lcc-639-1:Telugu ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:tg
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "tg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tajik" ;
+	lcc-lr:denotes lcc-639-1:Tajik ;
+	lcc-lr:hasTag "tg" ;
+	lcc-lr:identifies lcc-639-1:Tajik ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:th
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "th" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Thai" ;
+	lcc-lr:denotes lcc-639-1:Thai ;
+	lcc-lr:hasTag "th" ;
+	lcc-lr:identifies lcc-639-1:Thai ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ti
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ti" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tigrinya" ;
+	lcc-lr:denotes lcc-639-1:Tigrinya ;
+	lcc-lr:hasTag "ti" ;
+	lcc-lr:identifies lcc-639-1:Tigrinya ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:tk
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "tk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Turkmen" ;
+	lcc-lr:denotes lcc-639-1:Turkmen ;
+	lcc-lr:hasTag "tk" ;
+	lcc-lr:identifies lcc-639-1:Turkmen ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:tl
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "tl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tagalog" ;
+	lcc-lr:denotes lcc-639-1:Tagalog ;
+	lcc-lr:hasTag "tl" ;
+	lcc-lr:identifies lcc-639-1:Tagalog ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:tn
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "tn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Setswana; Tswana" ;
+	lcc-lr:denotes lcc-639-1:Tswana ;
+	lcc-lr:hasTag "tn" ;
+	lcc-lr:identifies lcc-639-1:Tswana ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:to
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "to" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tonga (Tonga Islands)" ;
+	lcc-lr:denotes lcc-639-1:Tonga-TongaIslands ;
+	lcc-lr:hasTag "to" ;
+	lcc-lr:identifies lcc-639-1:Tonga-TongaIslands ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:tr
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "tr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Turkish" ;
+	lcc-lr:denotes lcc-639-1:Turkish ;
+	lcc-lr:hasTag "tr" ;
+	lcc-lr:identifies lcc-639-1:Turkish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ts
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ts" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tsonga" ;
+	lcc-lr:denotes lcc-639-1:Tsonga ;
+	lcc-lr:hasTag "ts" ;
+	lcc-lr:identifies lcc-639-1:Tsonga ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:tt
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "tt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tatar" ;
+	lcc-lr:denotes lcc-639-1:Tatar ;
+	lcc-lr:hasTag "tt" ;
+	lcc-lr:identifies lcc-639-1:Tatar ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:tw
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "tw" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Twi" ;
+	lcc-lr:denotes lcc-639-1:Twi ;
+	lcc-lr:hasTag "tw" ;
+	lcc-lr:identifies lcc-639-1:Twi ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ty
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ty" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Tahitian" ;
+	lcc-lr:denotes lcc-639-1:Tahitian ;
+	lcc-lr:hasTag "ty" ;
+	lcc-lr:identifies lcc-639-1:Tahitian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ug
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ug" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Uighur" ;
+	lcc-lr:denotes lcc-639-1:Uighur ;
+	lcc-lr:hasTag "ug" ;
+	lcc-lr:identifies lcc-639-1:Uighur ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:uk
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "uk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Ukrainian" ;
+	lcc-lr:denotes lcc-639-1:Ukrainian ;
+	lcc-lr:hasTag "uk" ;
+	lcc-lr:identifies lcc-639-1:Ukrainian ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ur
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Urdu" ;
+	lcc-lr:denotes lcc-639-1:Urdu ;
+	lcc-lr:hasTag "ur" ;
+	lcc-lr:identifies lcc-639-1:Urdu ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:uz
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "uz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Uzbek" ;
+	lcc-lr:denotes lcc-639-1:Uzbek ;
+	lcc-lr:hasTag "uz" ;
+	lcc-lr:identifies lcc-639-1:Uzbek ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:ve
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "ve" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Venda" ;
+	lcc-lr:denotes lcc-639-1:Venda ;
+	lcc-lr:hasTag "ve" ;
+	lcc-lr:identifies lcc-639-1:Venda ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:vi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "vi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Vietnamese" ;
+	lcc-lr:denotes lcc-639-1:Vietnamese ;
+	lcc-lr:hasTag "vi" ;
+	lcc-lr:identifies lcc-639-1:Vietnamese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:vo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "vo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Volapuk" ;
+	lcc-lr:denotes lcc-639-1:Volapuk ;
+	lcc-lr:hasTag "vo" ;
+	lcc-lr:identifies lcc-639-1:Volapuk ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:wa
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "wa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Walloon" ;
+	lcc-lr:denotes lcc-639-1:Walloon ;
+	lcc-lr:hasTag "wa" ;
+	lcc-lr:identifies lcc-639-1:Walloon ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:wo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "wo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Wolof" ;
+	lcc-lr:denotes lcc-639-1:Wolof ;
+	lcc-lr:hasTag "wo" ;
+	lcc-lr:identifies lcc-639-1:Wolof ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:xh
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "xh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Xhosa" ;
+	lcc-lr:denotes lcc-639-1:Xhosa ;
+	lcc-lr:hasTag "xh" ;
+	lcc-lr:identifies lcc-639-1:Xhosa ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:yi
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "yi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Yiddish" ;
+	lcc-lr:denotes lcc-639-1:Yiddish ;
+	lcc-lr:hasTag "yi" ;
+	lcc-lr:identifies lcc-639-1:Yiddish ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:yo
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "yo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Yoruba" ;
+	lcc-lr:denotes lcc-639-1:Yoruba ;
+	lcc-lr:hasTag "yo" ;
+	lcc-lr:identifies lcc-639-1:Yoruba ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:za
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "za" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Zhuang; Chuang" ;
+	lcc-lr:denotes lcc-639-1:Zhuang ;
+	lcc-lr:hasTag "za" ;
+	lcc-lr:identifies lcc-639-1:Zhuang ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:zh
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "zh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Chinese" ;
+	lcc-lr:denotes lcc-639-1:Chinese ;
+	lcc-lr:hasTag "zh" ;
+	lcc-lr:identifies lcc-639-1:Chinese ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+
+lcc-639-1:zu
+	a
+		owl:NamedIndividual ,
+		lcc-lr:Alpha2Code
+		;
+	rdfs:label "zu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Languages/ISO639-1-LanguageCodes/> ;
+	skos:definition "language identifier for Zulu" ;
+	lcc-lr:denotes lcc-639-1:Zulu ;
+	lcc-lr:hasTag "zu" ;
+	lcc-lr:identifies lcc-639-1:Zulu ;
+	lcc-lr:isMemberOf lcc-639-1:ISO639-1-CodeSet ;
+	.
+

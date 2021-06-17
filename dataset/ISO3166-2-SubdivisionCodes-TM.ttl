@@ -1,0 +1,238 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-tm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Turkmenistan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-tm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Turkmenistan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	.
+
+lcc-3166-2-tm:Ahal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ahal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "The region of Ahal in the country of Turkmenistan" ;
+	lcc-cr:hasLocalShortName "Ahal"@tk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkmenistan ;
+	.
+
+lcc-3166-2-tm:Asgabat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aşgabat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "The city of Aşgabat in the country of Turkmenistan" ;
+	lcc-cr:hasLocalShortName "Aşgabat"@tk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tm:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkmenistan ;
+	.
+
+lcc-3166-2-tm:Balkan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balkan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "The region of Balkan in the country of Turkmenistan" ;
+	lcc-cr:hasLocalShortName "Balkan"@tk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkmenistan ;
+	.
+
+lcc-3166-2-tm:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision category city in the country of Turkmenistan" ;
+	.
+
+lcc-3166-2-tm:Dasoguz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Daşoguz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "The region of Daşoguz in the country of Turkmenistan" ;
+	lcc-cr:hasLocalShortName "Daşoguz"@tk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkmenistan ;
+	.
+
+lcc-3166-2-tm:Lebap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lebap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "The region of Lebap in the country of Turkmenistan" ;
+	lcc-cr:hasLocalShortName "Lebap"@tk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkmenistan ;
+	.
+
+lcc-3166-2-tm:Mary
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mary" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "The region of Mary in the country of Turkmenistan" ;
+	lcc-cr:hasLocalShortName "Mary"@tk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-tm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Turkmenistan ;
+	.
+
+lcc-3166-2-tm:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision category region in the country of Turkmenistan" ;
+	.
+
+lcc-3166-2-tm:TM-A
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TM-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision code for the region of Ahal in the country of Turkmenistan" ;
+	lcc-lr:denotes lcc-3166-2-tm:Ahal ;
+	lcc-lr:hasTag "TM-A" ;
+	lcc-lr:identifies lcc-3166-2-tm:Ahal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tm:TM-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TM-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision code for the region of Balkan in the country of Turkmenistan" ;
+	lcc-lr:denotes lcc-3166-2-tm:Balkan ;
+	lcc-lr:hasTag "TM-B" ;
+	lcc-lr:identifies lcc-3166-2-tm:Balkan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tm:TM-D
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TM-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision code for the region of Daşoguz in the country of Turkmenistan" ;
+	lcc-lr:denotes lcc-3166-2-tm:Dasoguz ;
+	lcc-lr:hasTag "TM-D" ;
+	lcc-lr:identifies lcc-3166-2-tm:Dasoguz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tm:TM-L
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TM-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision code for the region of Lebap in the country of Turkmenistan" ;
+	lcc-lr:denotes lcc-3166-2-tm:Lebap ;
+	lcc-lr:hasTag "TM-L" ;
+	lcc-lr:identifies lcc-3166-2-tm:Lebap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tm:TM-M
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TM-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision code for the region of Mary in the country of Turkmenistan" ;
+	lcc-lr:denotes lcc-3166-2-tm:Mary ;
+	lcc-lr:hasTag "TM-M" ;
+	lcc-lr:identifies lcc-3166-2-tm:Mary ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-tm:TM-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TM-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TM/> ;
+	skos:definition "subdivision code for the city of Aşgabat in the country of Turkmenistan" ;
+	lcc-lr:denotes lcc-3166-2-tm:Asgabat ;
+	lcc-lr:hasTag "TM-S" ;
+	lcc-lr:identifies lcc-3166-2-tm:Asgabat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+

@@ -1,0 +1,355 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-kg: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Kyrgyzstan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-kg" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Kyrgyzstan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	.
+
+lcc-3166-2-kg:BatkenskayaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Batkenskaya oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The region of Batkenskaya oblast' in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Batken"@ky ,
+		"Batkenskaja oblast'"@ru ,
+		"Batkenskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision category city in the country of Kyrgyzstan" ;
+	.
+
+lcc-3166-2-kg:CujskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Čujskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The region of Čujskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Chuyskaya oblast'"@ru ,
+		"Chüy"@ky ,
+		"Čujskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:Dzalal-AbadskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Džalal-Abadskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The region of Džalal-Abadskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Dzhalal-Abadskaya oblast'"@ru ,
+		"Džalal-Abadskaja oblast'"@ru ,
+		"Jalal-Abad"@ky
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:GorodBiskek
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gorod Biškek" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The city of Gorod Biškek in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Bishkek"@ky ,
+		"Gorod Bishkek"@ru ,
+		"Gorod Biškek"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:Issyk-KulskayaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Issyk-Kul'skaya oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The region of Issyk-Kul'skaya oblast' in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Issyk-Kul'skaja oblast'"@ru ,
+		"Issyk-Kul'skaya oblast'"@ru ,
+		"Ysyk-Köl"@ky
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:KG-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the region of Batkenskaya oblast' in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:BatkenskayaOblast ;
+	lcc-lr:hasTag "KG-B" ;
+	lcc-lr:identifies lcc-3166-2-kg:BatkenskayaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the region of Čujskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:CujskajaOblast ;
+	lcc-lr:hasTag "KG-C" ;
+	lcc-lr:identifies lcc-3166-2-kg:CujskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-GB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-GB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the city of Gorod Biškek in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:GorodBiskek ;
+	lcc-lr:hasTag "KG-GB" ;
+	lcc-lr:identifies lcc-3166-2-kg:GorodBiskek ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-GO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-GO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the city of Osh in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:Osh ;
+	lcc-lr:hasTag "KG-GO" ;
+	lcc-lr:identifies lcc-3166-2-kg:Osh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-J
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-J" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the region of Džalal-Abadskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:Dzalal-AbadskajaOblast ;
+	lcc-lr:hasTag "KG-J" ;
+	lcc-lr:identifies lcc-3166-2-kg:Dzalal-AbadskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-N
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the region of Narynskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:NarynskajaOblast ;
+	lcc-lr:hasTag "KG-N" ;
+	lcc-lr:identifies lcc-3166-2-kg:NarynskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-O
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-O" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the region of Ošskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:OsskajaOblast ;
+	lcc-lr:hasTag "KG-O" ;
+	lcc-lr:identifies lcc-3166-2-kg:OsskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-T
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the region of Talasskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:TalasskajaOblast ;
+	lcc-lr:hasTag "KG-T" ;
+	lcc-lr:identifies lcc-3166-2-kg:TalasskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:KG-Y
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KG-Y" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision code for the region of Issyk-Kul'skaya oblast' in the country of Kyrgyzstan" ;
+	lcc-lr:denotes lcc-3166-2-kg:Issyk-KulskayaOblast ;
+	lcc-lr:hasTag "KG-Y" ;
+	lcc-lr:identifies lcc-3166-2-kg:Issyk-KulskayaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kg:NarynskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Narynskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The region of Narynskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Naryn"@ky ,
+		"Narynskaja oblast'"@ru ,
+		"Narynskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:Osh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Osh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The city of Osh in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Gorod Osh"@ru ,
+		"Gorod Oš"@ru ,
+		"Osh"@ky
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:OsskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ošskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The region of Ošskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Osh"@ky ,
+		"Oshskaya oblast'"@ru ,
+		"Ošskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-2-kg:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "subdivision category region in the country of Kyrgyzstan" ;
+	.
+
+lcc-3166-2-kg:TalasskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Talasskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KG/> ;
+	skos:definition "The region of Talasskaja oblast' in the country of Kyrgyzstan" ;
+	lcc-cr:hasLocalShortName
+		"Talas"@ky ,
+		"Talasskaja oblast'"@ru ,
+		"Talasskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kg:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kyrgyzstan ;
+	.
+

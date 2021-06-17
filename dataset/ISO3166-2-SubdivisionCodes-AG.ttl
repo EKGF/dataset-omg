@@ -1,0 +1,307 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ag: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Antigua and Barbuda Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ag" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Antigua and Barbuda, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	.
+
+lcc-3166-2-ag:AG-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the parish of Saint George in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:SaintGeorge ;
+	lcc-lr:hasTag "AG-03" ;
+	lcc-lr:identifies lcc-3166-2-ag:SaintGeorge ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:AG-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the parish of Saint John in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:SaintJohn ;
+	lcc-lr:hasTag "AG-04" ;
+	lcc-lr:identifies lcc-3166-2-ag:SaintJohn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:AG-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the parish of Saint Mary in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:SaintMary ;
+	lcc-lr:hasTag "AG-05" ;
+	lcc-lr:identifies lcc-3166-2-ag:SaintMary ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:AG-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the parish of Saint Paul in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:SaintPaul ;
+	lcc-lr:hasTag "AG-06" ;
+	lcc-lr:identifies lcc-3166-2-ag:SaintPaul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:AG-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the parish of Saint Peter in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:SaintPeter ;
+	lcc-lr:hasTag "AG-07" ;
+	lcc-lr:identifies lcc-3166-2-ag:SaintPeter ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:AG-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the parish of Saint Philip in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:SaintPhilip ;
+	lcc-lr:hasTag "AG-08" ;
+	lcc-lr:identifies lcc-3166-2-ag:SaintPhilip ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:AG-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the dependency of Barbuda in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:Barbuda ;
+	lcc-lr:hasTag "AG-10" ;
+	lcc-lr:identifies lcc-3166-2-ag:Barbuda ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:AG-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AG-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision code for the dependency of Redonda in the country of Antigua and Barbuda" ;
+	lcc-lr:denotes lcc-3166-2-ag:Redonda ;
+	lcc-lr:hasTag "AG-11" ;
+	lcc-lr:identifies lcc-3166-2-ag:Redonda ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ag:Barbuda
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barbuda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The dependency of Barbuda in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Barbuda"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Dependency ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:Dependency
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "dependency" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision category dependency in the country of Antigua and Barbuda" ;
+	.
+
+lcc-3166-2-ag:Parish
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "parish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "subdivision category parish in the country of Antigua and Barbuda" ;
+	.
+
+lcc-3166-2-ag:Redonda
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Redonda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The dependency of Redonda in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Redonda"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Dependency ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:RedondaIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Redonda Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The territory of Redonda Island in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Redonda Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Redonda"@fr ;
+	lcc-cr:hasNumericRegionCode "1019" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:SaintGeorge
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint George" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The parish of Saint George in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Saint George"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:SaintJohn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint John" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The parish of Saint John in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Saint John"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:SaintMary
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Mary" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The parish of Saint Mary in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Saint Mary"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:SaintPaul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Paul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The parish of Saint Paul in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Saint Paul"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:SaintPeter
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Peter" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The parish of Saint Peter in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Saint Peter"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-2-ag:SaintPhilip
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Philip" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AG/> ;
+	skos:definition "The parish of Saint Philip in the country of Antigua and Barbuda" ;
+	lcc-cr:hasEnglishShortName "Saint Philip"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ag:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:AntiguaAndBarbuda ;
+	.
+

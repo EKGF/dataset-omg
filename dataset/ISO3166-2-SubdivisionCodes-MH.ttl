@@ -1,0 +1,840 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mh: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Marshall Islands (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mh" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Marshall Islands (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MH.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	.
+
+lcc-3166-2-mh:Ailinglaplap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ailinglaplap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Ailinglaplap in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Ailinglaplap"@en ;
+	lcc-cr:hasLocalShortName "Aelōn̄ḷapḷap"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Ailuk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ailuk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Ailuk in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Ailuk"@en ;
+	lcc-cr:hasLocalShortName "Aelok"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:Arno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Arno in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Arno"@en ;
+	lcc-cr:hasLocalShortName "Arṇo"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:Aur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Aur in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Aur"@en ;
+	lcc-cr:hasLocalShortName "Aur"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:Bikini
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bikini & Kili" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Bikini & Kili in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Bikini & Kili"@en ;
+	lcc-cr:hasLocalShortName "Pikinni & Kōle"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Chain
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "chain (of islands)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision category chain (of islands) in the country of Marshall Islands (the)" ;
+	.
+
+lcc-3166-2-mh:Ebon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ebon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Ebon in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Ebon"@en ;
+	lcc-cr:hasLocalShortName "Epoon"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Enewetak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Enewetak & Ujelang" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Enewetak & Ujelang in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Enewetak & Ujelang"@en ;
+	lcc-cr:hasLocalShortName "Ānewetak & Wūjlan̄"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Jabat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jabat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Jabat in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Jabat"@en ;
+	lcc-cr:hasLocalShortName "Jebat"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Jaluit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Jaluit" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition
+		"The municipality of Jaluit in the country of Marshall Islands (the)" ,
+		"The territory of Jaluit in the country of Marshall Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Jaluit"@en ;
+	lcc-cr:hasFrenchShortName "Jaluit"@fr ;
+	lcc-cr:hasLocalShortName "Jālwōj"@mh ;
+	lcc-cr:hasNumericRegionCode "1087" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-mh:Municipality
+		;
+	lcc-cr:isSubregionOf
+		lcc-3166-1:MarshallIslands ,
+		lcc-3166-2-mh:RalikChain
+		;
+	.
+
+lcc-3166-2-mh:Kwajalein
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Kwajalein" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition
+		"The municipality of Kwajalein in the country of Marshall Islands (the)" ,
+		"The territory of Kwajalein in the country of Marshall Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Kwajalein"@en ;
+	lcc-cr:hasFrenchShortName "Kwajalein"@fr ;
+	lcc-cr:hasLocalShortName "Kuwajleen"@mh ;
+	lcc-cr:hasNumericRegionCode "1113" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-mh:Municipality
+		;
+	lcc-cr:isSubregionOf
+		lcc-3166-1:MarshallIslands ,
+		lcc-3166-2-mh:RalikChain
+		;
+	.
+
+lcc-3166-2-mh:Lae
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lae" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Lae in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Lae"@en ;
+	lcc-cr:hasLocalShortName "Lae"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Lib
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lib" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Lib in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Lib"@en ;
+	lcc-cr:hasLocalShortName "Ellep"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Likiep
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Likiep" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Likiep in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Likiep"@en ;
+	lcc-cr:hasLocalShortName "Likiep"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:MH-ALK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-ALK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Ailuk in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Ailuk ;
+	lcc-lr:hasTag "MH-ALK" ;
+	lcc-lr:identifies lcc-3166-2-mh:Ailuk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-ALL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-ALL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Ailinglaplap in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Ailinglaplap ;
+	lcc-lr:hasTag "MH-ALL" ;
+	lcc-lr:identifies lcc-3166-2-mh:Ailinglaplap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-ARN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-ARN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Arno in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Arno ;
+	lcc-lr:hasTag "MH-ARN" ;
+	lcc-lr:identifies lcc-3166-2-mh:Arno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-AUR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-AUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Aur in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Aur ;
+	lcc-lr:hasTag "MH-AUR" ;
+	lcc-lr:identifies lcc-3166-2-mh:Aur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-EBO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-EBO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Ebon in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Ebon ;
+	lcc-lr:hasTag "MH-EBO" ;
+	lcc-lr:identifies lcc-3166-2-mh:Ebon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-ENI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-ENI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Enewetak & Ujelang in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Enewetak ;
+	lcc-lr:hasTag "MH-ENI" ;
+	lcc-lr:identifies lcc-3166-2-mh:Enewetak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-JAB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-JAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Jabat in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Jabat ;
+	lcc-lr:hasTag "MH-JAB" ;
+	lcc-lr:identifies lcc-3166-2-mh:Jabat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-JAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-JAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Jaluit in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Jaluit ;
+	lcc-lr:hasTag "MH-JAL" ;
+	lcc-lr:identifies lcc-3166-2-mh:Jaluit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-KIL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-KIL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Bikini & Kili in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Bikini ;
+	lcc-lr:hasTag "MH-KIL" ;
+	lcc-lr:identifies lcc-3166-2-mh:Bikini ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-KWA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-KWA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Kwajalein in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Kwajalein ;
+	lcc-lr:hasTag "MH-KWA" ;
+	lcc-lr:identifies lcc-3166-2-mh:Kwajalein ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-L
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the chain (of islands) of Ralik chain in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:RalikChain ;
+	lcc-lr:hasTag "MH-L" ;
+	lcc-lr:identifies lcc-3166-2-mh:RalikChain ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-LAE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-LAE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Lae in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Lae ;
+	lcc-lr:hasTag "MH-LAE" ;
+	lcc-lr:identifies lcc-3166-2-mh:Lae ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-LIB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-LIB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Lib in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Lib ;
+	lcc-lr:hasTag "MH-LIB" ;
+	lcc-lr:identifies lcc-3166-2-mh:Lib ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-LIK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-LIK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Likiep in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Likiep ;
+	lcc-lr:hasTag "MH-LIK" ;
+	lcc-lr:identifies lcc-3166-2-mh:Likiep ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-MAJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-MAJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Majuro in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Majuro ;
+	lcc-lr:hasTag "MH-MAJ" ;
+	lcc-lr:identifies lcc-3166-2-mh:Majuro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-MAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-MAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Maloelap in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Maloelap ;
+	lcc-lr:hasTag "MH-MAL" ;
+	lcc-lr:identifies lcc-3166-2-mh:Maloelap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-MEJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-MEJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Mejit in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Mejit ;
+	lcc-lr:hasTag "MH-MEJ" ;
+	lcc-lr:identifies lcc-3166-2-mh:Mejit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-MIL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-MIL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Mili in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Mili ;
+	lcc-lr:hasTag "MH-MIL" ;
+	lcc-lr:identifies lcc-3166-2-mh:Mili ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-NMK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-NMK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Namdrik in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Namdrik ;
+	lcc-lr:hasTag "MH-NMK" ;
+	lcc-lr:identifies lcc-3166-2-mh:Namdrik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-NMU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-NMU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Namu in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Namu ;
+	lcc-lr:hasTag "MH-NMU" ;
+	lcc-lr:identifies lcc-3166-2-mh:Namu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-RON
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-RON" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Rongelap in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Rongelap ;
+	lcc-lr:hasTag "MH-RON" ;
+	lcc-lr:identifies lcc-3166-2-mh:Rongelap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-T
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the chain (of islands) of Ratak chain in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:RatakChain ;
+	lcc-lr:hasTag "MH-T" ;
+	lcc-lr:identifies lcc-3166-2-mh:RatakChain ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-UJA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-UJA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Ujae in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Ujae ;
+	lcc-lr:hasTag "MH-UJA" ;
+	lcc-lr:identifies lcc-3166-2-mh:Ujae ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-UTI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-UTI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Utrik in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Utrik ;
+	lcc-lr:hasTag "MH-UTI" ;
+	lcc-lr:identifies lcc-3166-2-mh:Utrik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-WTH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-WTH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Wotho in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Wotho ;
+	lcc-lr:hasTag "MH-WTH" ;
+	lcc-lr:identifies lcc-3166-2-mh:Wotho ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:MH-WTJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MH-WTJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision code for the municipality of Wotje in the country of Marshall Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-mh:Wotje ;
+	lcc-lr:hasTag "MH-WTJ" ;
+	lcc-lr:identifies lcc-3166-2-mh:Wotje ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mh:Majuro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Majuro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition
+		"The municipality of Majuro in the country of Marshall Islands (the)" ,
+		"The territory of Majuro in the country of Marshall Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Majuro"@en ;
+	lcc-cr:hasFrenchShortName "Majuro"@fr ;
+	lcc-cr:hasLocalShortName "Mājro"@mh ;
+	lcc-cr:hasNumericRegionCode "1230" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-mh:Municipality
+		;
+	lcc-cr:isSubregionOf
+		lcc-3166-1:MarshallIslands ,
+		lcc-3166-2-mh:RatakChain
+		;
+	.
+
+lcc-3166-2-mh:Maloelap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maloelap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Maloelap in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Maloelap"@en ;
+	lcc-cr:hasLocalShortName "Ṃaḷoeḷap"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:Mejit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mejit" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Mejit in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Mejit"@en ;
+	lcc-cr:hasLocalShortName "Mājej"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:Mili
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mili" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Mili in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Mili"@en ;
+	lcc-cr:hasLocalShortName "Mile"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "subdivision category municipality in the country of Marshall Islands (the)" ;
+	.
+
+lcc-3166-2-mh:Namdrik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namdrik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Namdrik in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Namdrik"@en ;
+	lcc-cr:hasLocalShortName "Naṃdik"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Namu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Namu in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Namu"@en ;
+	lcc-cr:hasLocalShortName "Naṃo"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:RalikChain
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ralik chain" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The chain (of islands) of Ralik chain in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Ralik chain"@en ;
+	lcc-cr:hasLocalShortName "Ralik chain"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Chain ;
+	lcc-cr:isSubregionOf lcc-3166-1:MarshallIslands ;
+	.
+
+lcc-3166-2-mh:RatakChain
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ratak chain" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The chain (of islands) of Ratak chain in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Ratak chain"@en ;
+	lcc-cr:hasLocalShortName "Ratak chain"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Chain ;
+	lcc-cr:isSubregionOf lcc-3166-1:MarshallIslands ;
+	.
+
+lcc-3166-2-mh:Rongelap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rongelap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Rongelap in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Rongelap"@en ;
+	lcc-cr:hasLocalShortName "Ron̄ḷap"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Ujae
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ujae" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Ujae in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Ujae"@en ;
+	lcc-cr:hasLocalShortName "Ujae"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Utrik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Utrik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Utrik in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Utrik"@en ;
+	lcc-cr:hasLocalShortName "Utrōk"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+
+lcc-3166-2-mh:Wotho
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wotho" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Wotho in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Wotho"@en ;
+	lcc-cr:hasLocalShortName "Wōtto"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RalikChain ;
+	.
+
+lcc-3166-2-mh:Wotje
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wotje" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MH/> ;
+	skos:definition "The municipality of Wotje in the country of Marshall Islands (the)" ;
+	lcc-cr:hasEnglishShortName "Wotje"@en ;
+	lcc-cr:hasLocalShortName "Wōjjā"@mh ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mh:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-mh:RatakChain ;
+	.
+

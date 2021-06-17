@@ -1,0 +1,201 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sg: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Singapore Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sg" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Singapore, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	.
+
+lcc-3166-2-sg:CentralSingapore
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Singapore" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "The district of Central Singapore in the country of Singapore" ;
+	lcc-cr:hasEnglishShortName "Central Singapore"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Singapore ;
+	.
+
+lcc-3166-2-sg:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "subdivision category district in the country of Singapore" ;
+	.
+
+lcc-3166-2-sg:NorthEast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North East" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "The district of North East in the country of Singapore" ;
+	lcc-cr:hasEnglishShortName "North East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Singapore ;
+	.
+
+lcc-3166-2-sg:NorthWest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "The district of North West in the country of Singapore" ;
+	lcc-cr:hasEnglishShortName "North West"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Singapore ;
+	.
+
+lcc-3166-2-sg:SG-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SG-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "subdivision code for the district of Central Singapore in the country of Singapore" ;
+	lcc-lr:denotes lcc-3166-2-sg:CentralSingapore ;
+	lcc-lr:hasTag "SG-01" ;
+	lcc-lr:identifies lcc-3166-2-sg:CentralSingapore ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sg:SG-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SG-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "subdivision code for the district of North East in the country of Singapore" ;
+	lcc-lr:denotes lcc-3166-2-sg:NorthEast ;
+	lcc-lr:hasTag "SG-02" ;
+	lcc-lr:identifies lcc-3166-2-sg:NorthEast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sg:SG-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SG-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "subdivision code for the district of North West in the country of Singapore" ;
+	lcc-lr:denotes lcc-3166-2-sg:NorthWest ;
+	lcc-lr:hasTag "SG-03" ;
+	lcc-lr:identifies lcc-3166-2-sg:NorthWest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sg:SG-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SG-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "subdivision code for the district of South East in the country of Singapore" ;
+	lcc-lr:denotes lcc-3166-2-sg:SouthEast ;
+	lcc-lr:hasTag "SG-04" ;
+	lcc-lr:identifies lcc-3166-2-sg:SouthEast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sg:SG-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SG-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "subdivision code for the district of South West in the country of Singapore" ;
+	lcc-lr:denotes lcc-3166-2-sg:SouthWest ;
+	lcc-lr:hasTag "SG-05" ;
+	lcc-lr:identifies lcc-3166-2-sg:SouthWest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sg:SouthEast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South East" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "The district of South East in the country of Singapore" ;
+	lcc-cr:hasEnglishShortName "South East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Singapore ;
+	.
+
+lcc-3166-2-sg:SouthWest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SG/> ;
+	skos:definition "The district of South West in the country of Singapore" ;
+	lcc-cr:hasEnglishShortName "South West"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sg:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Singapore ;
+	.
+

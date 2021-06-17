@@ -1,0 +1,444 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sv: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for El Salvador Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sv" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for El Salvador, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SV.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	.
+
+lcc-3166-2-sv:Ahuachapan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ahuachapán" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Ahuachapán in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Ahuachapán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:Cabanas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cabañas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Cabañas in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Cabañas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:Chalatenango
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chalatenango" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Chalatenango in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Chalatenango"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:Cuscatlan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuscatlán" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Cuscatlán in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Cuscatlán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision category department in the country of El Salvador" ;
+	.
+
+lcc-3166-2-sv:LaLibertad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Libertad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of La Libertad in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "La Libertad"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:LaPaz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Paz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of La Paz in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "La Paz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:LaUnion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Unión" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of La Unión in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "La Unión"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:Morazan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Morazán" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Morazán in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Morazán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:SV-AH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-AH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Ahuachapán in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:Ahuachapan ;
+	lcc-lr:hasTag "SV-AH" ;
+	lcc-lr:identifies lcc-3166-2-sv:Ahuachapan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-CA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Cabañas in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:Cabanas ;
+	lcc-lr:hasTag "SV-CA" ;
+	lcc-lr:identifies lcc-3166-2-sv:Cabanas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-CH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-CH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Chalatenango in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:Chalatenango ;
+	lcc-lr:hasTag "SV-CH" ;
+	lcc-lr:identifies lcc-3166-2-sv:Chalatenango ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-CU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-CU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Cuscatlán in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:Cuscatlan ;
+	lcc-lr:hasTag "SV-CU" ;
+	lcc-lr:identifies lcc-3166-2-sv:Cuscatlan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-LI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of La Libertad in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:LaLibertad ;
+	lcc-lr:hasTag "SV-LI" ;
+	lcc-lr:identifies lcc-3166-2-sv:LaLibertad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Morazán in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:Morazan ;
+	lcc-lr:hasTag "SV-MO" ;
+	lcc-lr:identifies lcc-3166-2-sv:Morazan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-PA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of La Paz in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:LaPaz ;
+	lcc-lr:hasTag "SV-PA" ;
+	lcc-lr:identifies lcc-3166-2-sv:LaPaz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Santa Ana in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:SantaAna ;
+	lcc-lr:hasTag "SV-SA" ;
+	lcc-lr:identifies lcc-3166-2-sv:SantaAna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-SM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of San Miguel in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:SanMiguel ;
+	lcc-lr:hasTag "SV-SM" ;
+	lcc-lr:identifies lcc-3166-2-sv:SanMiguel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Sonsonate in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:Sonsonate ;
+	lcc-lr:hasTag "SV-SO" ;
+	lcc-lr:identifies lcc-3166-2-sv:Sonsonate ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-SS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of San Salvador in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:SanSalvador ;
+	lcc-lr:hasTag "SV-SS" ;
+	lcc-lr:identifies lcc-3166-2-sv:SanSalvador ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-SV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of San Vicente in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:SanVicente ;
+	lcc-lr:hasTag "SV-SV" ;
+	lcc-lr:identifies lcc-3166-2-sv:SanVicente ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-UN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-UN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of La Unión in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:LaUnion ;
+	lcc-lr:hasTag "SV-UN" ;
+	lcc-lr:identifies lcc-3166-2-sv:LaUnion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SV-US
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SV-US" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "subdivision code for the department of Usulután in the country of El Salvador" ;
+	lcc-lr:denotes lcc-3166-2-sv:Usulutan ;
+	lcc-lr:hasTag "SV-US" ;
+	lcc-lr:identifies lcc-3166-2-sv:Usulutan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sv:SanMiguel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Miguel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of San Miguel in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "San Miguel"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:SanSalvador
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Salvador" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of San Salvador in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "San Salvador"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:SanVicente
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Vicente" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of San Vicente in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "San Vicente"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:SantaAna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Ana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Santa Ana in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Santa Ana"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:Sonsonate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sonsonate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Sonsonate in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Sonsonate"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-2-sv:Usulutan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Usulután" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SV/> ;
+	skos:definition "The department of Usulután in the country of El Salvador" ;
+	lcc-cr:hasLocalShortName "Usulután"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sv:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:ElSalvador ;
+	.
+

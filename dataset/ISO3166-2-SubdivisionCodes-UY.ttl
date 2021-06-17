@@ -1,0 +1,579 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-uy: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Uruguay Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-uy" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Uruguay, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-UY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	.
+
+lcc-3166-2-uy:Artigas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Artigas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Artigas in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Artigas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Canelones
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Canelones" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Canelones in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Canelones"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:CerroLargo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cerro Largo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Cerro Largo in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Cerro Largo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Colonia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Colonia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Colonia in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Colonia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision category department in the country of Uruguay" ;
+	.
+
+lcc-3166-2-uy:Durazno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Durazno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Durazno in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Durazno"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Flores
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Flores" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Flores in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Flores"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Florida
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Florida" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Florida in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Florida"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Lavalleja
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lavalleja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Lavalleja in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Lavalleja"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Maldonado
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maldonado" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Maldonado in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Maldonado"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Montevideo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Montevideo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Montevideo in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Montevideo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Paysandu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paysandú" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Paysandú in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Paysandú"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:RioNegro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Río Negro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Río Negro in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Río Negro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Rivera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rivera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Rivera in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Rivera"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Rocha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rocha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Rocha in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Rocha"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Salto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Salto in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Salto"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:SanJose
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San José" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of San José in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "San José"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Soriano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Soriano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Soriano in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Soriano"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:Tacuarembo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tacuarembó" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Tacuarembó in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Tacuarembó"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:TreintaYTres
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Treinta y Tres" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "The department of Treinta y Tres in the country of Uruguay" ;
+	lcc-cr:hasLocalShortName "Treinta y Tres"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-uy:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-2-uy:UY-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Artigas in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Artigas ;
+	lcc-lr:hasTag "UY-AR" ;
+	lcc-lr:identifies lcc-3166-2-uy:Artigas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-CA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Canelones in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Canelones ;
+	lcc-lr:hasTag "UY-CA" ;
+	lcc-lr:identifies lcc-3166-2-uy:Canelones ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-CL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Cerro Largo in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:CerroLargo ;
+	lcc-lr:hasTag "UY-CL" ;
+	lcc-lr:identifies lcc-3166-2-uy:CerroLargo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-CO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Colonia in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Colonia ;
+	lcc-lr:hasTag "UY-CO" ;
+	lcc-lr:identifies lcc-3166-2-uy:Colonia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-DU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-DU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Durazno in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Durazno ;
+	lcc-lr:hasTag "UY-DU" ;
+	lcc-lr:identifies lcc-3166-2-uy:Durazno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-FD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-FD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Florida in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Florida ;
+	lcc-lr:hasTag "UY-FD" ;
+	lcc-lr:identifies lcc-3166-2-uy:Florida ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-FS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-FS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Flores in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Flores ;
+	lcc-lr:hasTag "UY-FS" ;
+	lcc-lr:identifies lcc-3166-2-uy:Flores ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-LA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Lavalleja in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Lavalleja ;
+	lcc-lr:hasTag "UY-LA" ;
+	lcc-lr:identifies lcc-3166-2-uy:Lavalleja ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Maldonado in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Maldonado ;
+	lcc-lr:hasTag "UY-MA" ;
+	lcc-lr:identifies lcc-3166-2-uy:Maldonado ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Montevideo in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Montevideo ;
+	lcc-lr:hasTag "UY-MO" ;
+	lcc-lr:identifies lcc-3166-2-uy:Montevideo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-PA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Paysandú in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Paysandu ;
+	lcc-lr:hasTag "UY-PA" ;
+	lcc-lr:identifies lcc-3166-2-uy:Paysandu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-RN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-RN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Río Negro in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:RioNegro ;
+	lcc-lr:hasTag "UY-RN" ;
+	lcc-lr:identifies lcc-3166-2-uy:RioNegro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-RO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-RO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Rocha in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Rocha ;
+	lcc-lr:hasTag "UY-RO" ;
+	lcc-lr:identifies lcc-3166-2-uy:Rocha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-RV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-RV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Rivera in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Rivera ;
+	lcc-lr:hasTag "UY-RV" ;
+	lcc-lr:identifies lcc-3166-2-uy:Rivera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Salto in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Salto ;
+	lcc-lr:hasTag "UY-SA" ;
+	lcc-lr:identifies lcc-3166-2-uy:Salto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-SJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-SJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of San José in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:SanJose ;
+	lcc-lr:hasTag "UY-SJ" ;
+	lcc-lr:identifies lcc-3166-2-uy:SanJose ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Soriano in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Soriano ;
+	lcc-lr:hasTag "UY-SO" ;
+	lcc-lr:identifies lcc-3166-2-uy:Soriano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Tacuarembó in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:Tacuarembo ;
+	lcc-lr:hasTag "UY-TA" ;
+	lcc-lr:identifies lcc-3166-2-uy:Tacuarembo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-uy:UY-TT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UY-TT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UY/> ;
+	skos:definition "subdivision code for the department of Treinta y Tres in the country of Uruguay" ;
+	lcc-lr:denotes lcc-3166-2-uy:TreintaYTres ;
+	lcc-lr:hasTag "UY-TT" ;
+	lcc-lr:identifies lcc-3166-2-uy:TreintaYTres ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+

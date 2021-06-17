@@ -1,0 +1,3594 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-it: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Italy Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-it" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Italy, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	.
+
+lcc-3166-2-it:Abruzzo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abruzzo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Abruzzo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Abruzzo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Agrigento
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Agrigento" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Agrigento in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Agrigento"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Alessandria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alessandria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Alessandria in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Alessandria"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Ancona
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ancona" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Ancona in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Ancona"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Marche ;
+	.
+
+lcc-3166-2-it:Aosta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aosta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Aosta in the country of Italy" ;
+	lcc-cr:hasFrenchShortName "Aoste"@fr ;
+	lcc-cr:hasLocalShortName "Aosta"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:ValleDAosta ;
+	.
+
+lcc-3166-2-it:Arezzo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arezzo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Arezzo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Arezzo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:AscoliPiceno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ascoli Piceno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Ascoli Piceno in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Ascoli Piceno"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Marche ;
+	.
+
+lcc-3166-2-it:Asti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Asti" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Asti in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Asti"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Avellino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Avellino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Avellino in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Avellino"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Campania ;
+	.
+
+lcc-3166-2-it:Bari
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bari" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Bari in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Bari"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Puglia ;
+	.
+
+lcc-3166-2-it:Barletta-Andria-Trani
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barletta-Andria-Trani" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Barletta-Andria-Trani in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Barletta-Andria-Trani"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Puglia ;
+	.
+
+lcc-3166-2-it:Basilicata
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Basilicata" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Basilicata in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Basilicata"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Belluno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Belluno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Belluno in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Belluno"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Veneto ;
+	.
+
+lcc-3166-2-it:Benevento
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Benevento" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Benevento in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Benevento"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Campania ;
+	.
+
+lcc-3166-2-it:Bergamo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bergamo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Bergamo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Bergamo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Biella
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Biella" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Biella in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Biella"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Bologna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bologna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Bologna in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Bologna"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Bolzano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolzano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Bolzano in the country of Italy" ;
+	lcc-cr:hasLocalShortName
+		"Bolzano"@it ,
+		"Bozen"@de
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Trentino-Sudtirol ;
+	.
+
+lcc-3166-2-it:Brescia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brescia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Brescia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Brescia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Brindisi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brindisi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Brindisi in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Brindisi"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Puglia ;
+	.
+
+lcc-3166-2-it:Cagliari
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cagliari" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Cagliari in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Cagliari"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Calabria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Calabria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Calabria in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Calabria"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Caltanissetta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caltanissetta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Caltanissetta in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Caltanissetta"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Campania
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Campania" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Campania in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Campania"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Campobasso
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Campobasso" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Campobasso in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Campobasso"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Molise ;
+	.
+
+lcc-3166-2-it:Carbonia-Iglesias
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Carbonia-Iglesias" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Carbonia-Iglesias in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Carbonia-Iglesias"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Caserta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caserta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Caserta in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Caserta"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Campania ;
+	.
+
+lcc-3166-2-it:Catania
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Catania" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Catania in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Catania"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Catanzaro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Catanzaro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Catanzaro in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Catanzaro"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Calabria ;
+	.
+
+lcc-3166-2-it:Chieti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chieti" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Chieti in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Chieti"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Abruzzo ;
+	.
+
+lcc-3166-2-it:Como
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Como" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Como in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Como"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Cosenza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cosenza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Cosenza in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Cosenza"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Calabria ;
+	.
+
+lcc-3166-2-it:Cremona
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cremona" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Cremona in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Cremona"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Crotone
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Crotone" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Crotone in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Crotone"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Calabria ;
+	.
+
+lcc-3166-2-it:Cuneo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuneo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Cuneo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Cuneo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Emilia-Romagna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Emilia-Romagna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Emilia-Romagna in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Emilia-Romagna"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Enna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Enna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Enna in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Enna"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Fermo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fermo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Fermo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Fermo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Marche ;
+	.
+
+lcc-3166-2-it:Ferrara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ferrara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Ferrara in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Ferrara"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Firenze
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Firenze" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Firenze in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Firenze"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Foggia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Foggia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Foggia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Foggia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Puglia ;
+	.
+
+lcc-3166-2-it:Forli-Cesena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Forlì-Cesena" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Forlì-Cesena in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Forlì-Cesena"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Friuli-VeneziaGiulia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Friuli-Venezia Giulia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Friuli-Venezia Giulia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Friuli-Venezia Giulia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Frosinone
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Frosinone" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Frosinone in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Frosinone"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lazio ;
+	.
+
+lcc-3166-2-it:Genova
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Genova" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Genova in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Genova"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Liguria ;
+	.
+
+lcc-3166-2-it:Gorizia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gorizia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Gorizia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Gorizia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Friuli-VeneziaGiulia ;
+	.
+
+lcc-3166-2-it:Grosseto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grosseto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Grosseto in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Grosseto"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:IT-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Piemonte in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Piemonte ;
+	lcc-lr:hasTag "IT-21" ;
+	lcc-lr:identifies lcc-3166-2-it:Piemonte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Valle d'Aosta in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:ValleDAosta ;
+	lcc-lr:hasTag "IT-23" ;
+	lcc-lr:identifies lcc-3166-2-it:ValleDAosta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Lombardia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Lombardia ;
+	lcc-lr:hasTag "IT-25" ;
+	lcc-lr:identifies lcc-3166-2-it:Lombardia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Trentino-Südtirol in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Trentino-Sudtirol ;
+	lcc-lr:hasTag "IT-32" ;
+	lcc-lr:identifies lcc-3166-2-it:Trentino-Sudtirol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-34
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Veneto in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Veneto ;
+	lcc-lr:hasTag "IT-34" ;
+	lcc-lr:identifies lcc-3166-2-it:Veneto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-36
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Friuli-Venezia Giulia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Friuli-VeneziaGiulia ;
+	lcc-lr:hasTag "IT-36" ;
+	lcc-lr:identifies lcc-3166-2-it:Friuli-VeneziaGiulia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-42
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Liguria in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Liguria ;
+	lcc-lr:hasTag "IT-42" ;
+	lcc-lr:identifies lcc-3166-2-it:Liguria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-45
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Emilia-Romagna in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Emilia-Romagna ;
+	lcc-lr:hasTag "IT-45" ;
+	lcc-lr:identifies lcc-3166-2-it:Emilia-Romagna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-52
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Toscana in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Toscana ;
+	lcc-lr:hasTag "IT-52" ;
+	lcc-lr:identifies lcc-3166-2-it:Toscana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-55
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Umbria in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Umbria ;
+	lcc-lr:hasTag "IT-55" ;
+	lcc-lr:identifies lcc-3166-2-it:Umbria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-57
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Marche in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Marche ;
+	lcc-lr:hasTag "IT-57" ;
+	lcc-lr:identifies lcc-3166-2-it:Marche ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-62
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-62" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Lazio in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Lazio ;
+	lcc-lr:hasTag "IT-62" ;
+	lcc-lr:identifies lcc-3166-2-it:Lazio ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-65
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-65" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Abruzzo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Abruzzo ;
+	lcc-lr:hasTag "IT-65" ;
+	lcc-lr:identifies lcc-3166-2-it:Abruzzo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-67
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Molise in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Molise ;
+	lcc-lr:hasTag "IT-67" ;
+	lcc-lr:identifies lcc-3166-2-it:Molise ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-72
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Campania in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Campania ;
+	lcc-lr:hasTag "IT-72" ;
+	lcc-lr:identifies lcc-3166-2-it:Campania ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-75
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-75" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Puglia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Puglia ;
+	lcc-lr:hasTag "IT-75" ;
+	lcc-lr:identifies lcc-3166-2-it:Puglia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-77
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-77" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Basilicata in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Basilicata ;
+	lcc-lr:hasTag "IT-77" ;
+	lcc-lr:identifies lcc-3166-2-it:Basilicata ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-78
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-78" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Calabria in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Calabria ;
+	lcc-lr:hasTag "IT-78" ;
+	lcc-lr:identifies lcc-3166-2-it:Calabria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-82
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-82" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Sicilia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Sicilia ;
+	lcc-lr:hasTag "IT-82" ;
+	lcc-lr:identifies lcc-3166-2-it:Sicilia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-88
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-88" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the region of Sardegna in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Sardegna ;
+	lcc-lr:hasTag "IT-88" ;
+	lcc-lr:identifies lcc-3166-2-it:Sardegna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Agrigento in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Agrigento ;
+	lcc-lr:hasTag "IT-AG" ;
+	lcc-lr:identifies lcc-3166-2-it:Agrigento ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Alessandria in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Alessandria ;
+	lcc-lr:hasTag "IT-AL" ;
+	lcc-lr:identifies lcc-3166-2-it:Alessandria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Ancona in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Ancona ;
+	lcc-lr:hasTag "IT-AN" ;
+	lcc-lr:identifies lcc-3166-2-it:Ancona ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Aosta in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Aosta ;
+	lcc-lr:hasTag "IT-AO" ;
+	lcc-lr:identifies lcc-3166-2-it:Aosta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Ascoli Piceno in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:AscoliPiceno ;
+	lcc-lr:hasTag "IT-AP" ;
+	lcc-lr:identifies lcc-3166-2-it:AscoliPiceno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of L'Aquila in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:LAquila ;
+	lcc-lr:hasTag "IT-AQ" ;
+	lcc-lr:identifies lcc-3166-2-it:LAquila ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Arezzo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Arezzo ;
+	lcc-lr:hasTag "IT-AR" ;
+	lcc-lr:identifies lcc-3166-2-it:Arezzo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Asti in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Asti ;
+	lcc-lr:hasTag "IT-AT" ;
+	lcc-lr:identifies lcc-3166-2-it:Asti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-AV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-AV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Avellino in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Avellino ;
+	lcc-lr:hasTag "IT-AV" ;
+	lcc-lr:identifies lcc-3166-2-it:Avellino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Bari in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Bari ;
+	lcc-lr:hasTag "IT-BA" ;
+	lcc-lr:identifies lcc-3166-2-it:Bari ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Bergamo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Bergamo ;
+	lcc-lr:hasTag "IT-BG" ;
+	lcc-lr:identifies lcc-3166-2-it:Bergamo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Biella in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Biella ;
+	lcc-lr:hasTag "IT-BI" ;
+	lcc-lr:identifies lcc-3166-2-it:Biella ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Belluno in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Belluno ;
+	lcc-lr:hasTag "IT-BL" ;
+	lcc-lr:identifies lcc-3166-2-it:Belluno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Benevento in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Benevento ;
+	lcc-lr:hasTag "IT-BN" ;
+	lcc-lr:identifies lcc-3166-2-it:Benevento ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Bologna in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Bologna ;
+	lcc-lr:hasTag "IT-BO" ;
+	lcc-lr:identifies lcc-3166-2-it:Bologna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Brindisi in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Brindisi ;
+	lcc-lr:hasTag "IT-BR" ;
+	lcc-lr:identifies lcc-3166-2-it:Brindisi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Brescia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Brescia ;
+	lcc-lr:hasTag "IT-BS" ;
+	lcc-lr:identifies lcc-3166-2-it:Brescia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Barletta-Andria-Trani in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Barletta-Andria-Trani ;
+	lcc-lr:hasTag "IT-BT" ;
+	lcc-lr:identifies lcc-3166-2-it:Barletta-Andria-Trani ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-BZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-BZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Bolzano in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Bolzano ;
+	lcc-lr:hasTag "IT-BZ" ;
+	lcc-lr:identifies lcc-3166-2-it:Bolzano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Cagliari in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Cagliari ;
+	lcc-lr:hasTag "IT-CA" ;
+	lcc-lr:identifies lcc-3166-2-it:Cagliari ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Campobasso in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Campobasso ;
+	lcc-lr:hasTag "IT-CB" ;
+	lcc-lr:identifies lcc-3166-2-it:Campobasso ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Caserta in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Caserta ;
+	lcc-lr:hasTag "IT-CE" ;
+	lcc-lr:identifies lcc-3166-2-it:Caserta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Chieti in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Chieti ;
+	lcc-lr:hasTag "IT-CH" ;
+	lcc-lr:identifies lcc-3166-2-it:Chieti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Carbonia-Iglesias in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Carbonia-Iglesias ;
+	lcc-lr:hasTag "IT-CI" ;
+	lcc-lr:identifies lcc-3166-2-it:Carbonia-Iglesias ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Caltanissetta in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Caltanissetta ;
+	lcc-lr:hasTag "IT-CL" ;
+	lcc-lr:identifies lcc-3166-2-it:Caltanissetta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Cuneo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Cuneo ;
+	lcc-lr:hasTag "IT-CN" ;
+	lcc-lr:identifies lcc-3166-2-it:Cuneo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Como in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Como ;
+	lcc-lr:hasTag "IT-CO" ;
+	lcc-lr:identifies lcc-3166-2-it:Como ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Cremona in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Cremona ;
+	lcc-lr:hasTag "IT-CR" ;
+	lcc-lr:identifies lcc-3166-2-it:Cremona ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Cosenza in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Cosenza ;
+	lcc-lr:hasTag "IT-CS" ;
+	lcc-lr:identifies lcc-3166-2-it:Cosenza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Catania in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Catania ;
+	lcc-lr:hasTag "IT-CT" ;
+	lcc-lr:identifies lcc-3166-2-it:Catania ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-CZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-CZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Catanzaro in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Catanzaro ;
+	lcc-lr:hasTag "IT-CZ" ;
+	lcc-lr:identifies lcc-3166-2-it:Catanzaro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-EN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-EN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Enna in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Enna ;
+	lcc-lr:hasTag "IT-EN" ;
+	lcc-lr:identifies lcc-3166-2-it:Enna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-FC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-FC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Forlì-Cesena in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Forli-Cesena ;
+	lcc-lr:hasTag "IT-FC" ;
+	lcc-lr:identifies lcc-3166-2-it:Forli-Cesena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-FE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-FE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Ferrara in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Ferrara ;
+	lcc-lr:hasTag "IT-FE" ;
+	lcc-lr:identifies lcc-3166-2-it:Ferrara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-FG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-FG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Foggia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Foggia ;
+	lcc-lr:hasTag "IT-FG" ;
+	lcc-lr:identifies lcc-3166-2-it:Foggia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-FI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-FI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Firenze in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Firenze ;
+	lcc-lr:hasTag "IT-FI" ;
+	lcc-lr:identifies lcc-3166-2-it:Firenze ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-FM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-FM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Fermo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Fermo ;
+	lcc-lr:hasTag "IT-FM" ;
+	lcc-lr:identifies lcc-3166-2-it:Fermo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-FR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-FR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Frosinone in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Frosinone ;
+	lcc-lr:hasTag "IT-FR" ;
+	lcc-lr:identifies lcc-3166-2-it:Frosinone ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-GE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-GE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Genova in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Genova ;
+	lcc-lr:hasTag "IT-GE" ;
+	lcc-lr:identifies lcc-3166-2-it:Genova ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-GO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-GO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Gorizia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Gorizia ;
+	lcc-lr:hasTag "IT-GO" ;
+	lcc-lr:identifies lcc-3166-2-it:Gorizia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-GR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Grosseto in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Grosseto ;
+	lcc-lr:hasTag "IT-GR" ;
+	lcc-lr:identifies lcc-3166-2-it:Grosseto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-IM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-IM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Imperia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Imperia ;
+	lcc-lr:hasTag "IT-IM" ;
+	lcc-lr:identifies lcc-3166-2-it:Imperia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-IS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-IS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Isernia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Isernia ;
+	lcc-lr:hasTag "IT-IS" ;
+	lcc-lr:identifies lcc-3166-2-it:Isernia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-KR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-KR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Crotone in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Crotone ;
+	lcc-lr:hasTag "IT-KR" ;
+	lcc-lr:identifies lcc-3166-2-it:Crotone ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-LC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-LC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Lecco in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Lecco ;
+	lcc-lr:hasTag "IT-LC" ;
+	lcc-lr:identifies lcc-3166-2-it:Lecco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-LE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-LE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Lecce in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Lecce ;
+	lcc-lr:hasTag "IT-LE" ;
+	lcc-lr:identifies lcc-3166-2-it:Lecce ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-LI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Livorno in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Livorno ;
+	lcc-lr:hasTag "IT-LI" ;
+	lcc-lr:identifies lcc-3166-2-it:Livorno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-LO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Lodi in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Lodi ;
+	lcc-lr:hasTag "IT-LO" ;
+	lcc-lr:identifies lcc-3166-2-it:Lodi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-LT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-LT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Latina in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Latina ;
+	lcc-lr:hasTag "IT-LT" ;
+	lcc-lr:identifies lcc-3166-2-it:Latina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-LU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-LU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Lucca in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Lucca ;
+	lcc-lr:hasTag "IT-LU" ;
+	lcc-lr:identifies lcc-3166-2-it:Lucca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-MB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-MB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Monza e Brianza in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:MonzaEBrianza ;
+	lcc-lr:hasTag "IT-MB" ;
+	lcc-lr:identifies lcc-3166-2-it:MonzaEBrianza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-MC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Macerata in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Macerata ;
+	lcc-lr:hasTag "IT-MC" ;
+	lcc-lr:identifies lcc-3166-2-it:Macerata ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-ME
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-ME" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Messina in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Messina ;
+	lcc-lr:hasTag "IT-ME" ;
+	lcc-lr:identifies lcc-3166-2-it:Messina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Milano in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Milano ;
+	lcc-lr:hasTag "IT-MI" ;
+	lcc-lr:identifies lcc-3166-2-it:Milano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-MN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Mantova in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Mantova ;
+	lcc-lr:hasTag "IT-MN" ;
+	lcc-lr:identifies lcc-3166-2-it:Mantova ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Modena in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Modena ;
+	lcc-lr:hasTag "IT-MO" ;
+	lcc-lr:identifies lcc-3166-2-it:Modena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-MS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-MS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Massa-Carrara in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Massa-Carrara ;
+	lcc-lr:hasTag "IT-MS" ;
+	lcc-lr:identifies lcc-3166-2-it:Massa-Carrara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-MT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-MT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Matera in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Matera ;
+	lcc-lr:hasTag "IT-MT" ;
+	lcc-lr:identifies lcc-3166-2-it:Matera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-NA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Napoli in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Napoli ;
+	lcc-lr:hasTag "IT-NA" ;
+	lcc-lr:identifies lcc-3166-2-it:Napoli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-NO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-NO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Novara in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Novara ;
+	lcc-lr:hasTag "IT-NO" ;
+	lcc-lr:identifies lcc-3166-2-it:Novara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-NU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-NU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Nuoro in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Nuoro ;
+	lcc-lr:hasTag "IT-NU" ;
+	lcc-lr:identifies lcc-3166-2-it:Nuoro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-OG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-OG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Ogliastra in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Ogliastra ;
+	lcc-lr:hasTag "IT-OG" ;
+	lcc-lr:identifies lcc-3166-2-it:Ogliastra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-OR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-OR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Oristano in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Oristano ;
+	lcc-lr:hasTag "IT-OR" ;
+	lcc-lr:identifies lcc-3166-2-it:Oristano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-OT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-OT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Olbia-Tempio in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Olbia-Tempio ;
+	lcc-lr:hasTag "IT-OT" ;
+	lcc-lr:identifies lcc-3166-2-it:Olbia-Tempio ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Palermo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Palermo ;
+	lcc-lr:hasTag "IT-PA" ;
+	lcc-lr:identifies lcc-3166-2-it:Palermo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Piacenza in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Piacenza ;
+	lcc-lr:hasTag "IT-PC" ;
+	lcc-lr:identifies lcc-3166-2-it:Piacenza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Padova in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Padova ;
+	lcc-lr:hasTag "IT-PD" ;
+	lcc-lr:identifies lcc-3166-2-it:Padova ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Pescara in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Pescara ;
+	lcc-lr:hasTag "IT-PE" ;
+	lcc-lr:identifies lcc-3166-2-it:Pescara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Perugia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Perugia ;
+	lcc-lr:hasTag "IT-PG" ;
+	lcc-lr:identifies lcc-3166-2-it:Perugia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Pisa in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Pisa ;
+	lcc-lr:hasTag "IT-PI" ;
+	lcc-lr:identifies lcc-3166-2-it:Pisa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Pordenone in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Pordenone ;
+	lcc-lr:hasTag "IT-PN" ;
+	lcc-lr:identifies lcc-3166-2-it:Pordenone ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Prato in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Prato ;
+	lcc-lr:hasTag "IT-PO" ;
+	lcc-lr:identifies lcc-3166-2-it:Prato ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Parma in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Parma ;
+	lcc-lr:hasTag "IT-PR" ;
+	lcc-lr:identifies lcc-3166-2-it:Parma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Pistoia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Pistoia ;
+	lcc-lr:hasTag "IT-PT" ;
+	lcc-lr:identifies lcc-3166-2-it:Pistoia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Pesaro e Urbino in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:PesaroEUrbino ;
+	lcc-lr:hasTag "IT-PU" ;
+	lcc-lr:identifies lcc-3166-2-it:PesaroEUrbino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Pavia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Pavia ;
+	lcc-lr:hasTag "IT-PV" ;
+	lcc-lr:identifies lcc-3166-2-it:Pavia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-PZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-PZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Potenza in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Potenza ;
+	lcc-lr:hasTag "IT-PZ" ;
+	lcc-lr:identifies lcc-3166-2-it:Potenza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Ravenna in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Ravenna ;
+	lcc-lr:hasTag "IT-RA" ;
+	lcc-lr:identifies lcc-3166-2-it:Ravenna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Reggio Calabria in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:ReggioCalabria ;
+	lcc-lr:hasTag "IT-RC" ;
+	lcc-lr:identifies lcc-3166-2-it:ReggioCalabria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Reggio Emilia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:ReggioEmilia ;
+	lcc-lr:hasTag "IT-RE" ;
+	lcc-lr:identifies lcc-3166-2-it:ReggioEmilia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Ragusa in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Ragusa ;
+	lcc-lr:hasTag "IT-RG" ;
+	lcc-lr:identifies lcc-3166-2-it:Ragusa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Rieti in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Rieti ;
+	lcc-lr:hasTag "IT-RI" ;
+	lcc-lr:identifies lcc-3166-2-it:Rieti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Roma in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Roma ;
+	lcc-lr:hasTag "IT-RM" ;
+	lcc-lr:identifies lcc-3166-2-it:Roma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Rimini in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Rimini ;
+	lcc-lr:hasTag "IT-RN" ;
+	lcc-lr:identifies lcc-3166-2-it:Rimini ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-RO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-RO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Rovigo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Rovigo ;
+	lcc-lr:hasTag "IT-RO" ;
+	lcc-lr:identifies lcc-3166-2-it:Rovigo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Salerno in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Salerno ;
+	lcc-lr:hasTag "IT-SA" ;
+	lcc-lr:identifies lcc-3166-2-it:Salerno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-SI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-SI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Siena in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Siena ;
+	lcc-lr:hasTag "IT-SI" ;
+	lcc-lr:identifies lcc-3166-2-it:Siena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Sondrio in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Sondrio ;
+	lcc-lr:hasTag "IT-SO" ;
+	lcc-lr:identifies lcc-3166-2-it:Sondrio ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-SP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-SP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of La Spezia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:LaSpezia ;
+	lcc-lr:hasTag "IT-SP" ;
+	lcc-lr:identifies lcc-3166-2-it:LaSpezia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-SR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-SR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Siracusa in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Siracusa ;
+	lcc-lr:hasTag "IT-SR" ;
+	lcc-lr:identifies lcc-3166-2-it:Siracusa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-SS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Sassari in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Sassari ;
+	lcc-lr:hasTag "IT-SS" ;
+	lcc-lr:identifies lcc-3166-2-it:Sassari ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-SV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Savona in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Savona ;
+	lcc-lr:hasTag "IT-SV" ;
+	lcc-lr:identifies lcc-3166-2-it:Savona ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Taranto in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Taranto ;
+	lcc-lr:hasTag "IT-TA" ;
+	lcc-lr:identifies lcc-3166-2-it:Taranto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Teramo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Teramo ;
+	lcc-lr:hasTag "IT-TE" ;
+	lcc-lr:identifies lcc-3166-2-it:Teramo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Trento in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Trento ;
+	lcc-lr:hasTag "IT-TN" ;
+	lcc-lr:identifies lcc-3166-2-it:Trento ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Torino in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Torino ;
+	lcc-lr:hasTag "IT-TO" ;
+	lcc-lr:identifies lcc-3166-2-it:Torino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Trapani in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Trapani ;
+	lcc-lr:hasTag "IT-TP" ;
+	lcc-lr:identifies lcc-3166-2-it:Trapani ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Terni in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Terni ;
+	lcc-lr:hasTag "IT-TR" ;
+	lcc-lr:identifies lcc-3166-2-it:Terni ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Trieste in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Trieste ;
+	lcc-lr:hasTag "IT-TS" ;
+	lcc-lr:identifies lcc-3166-2-it:Trieste ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-TV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-TV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Treviso in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Treviso ;
+	lcc-lr:hasTag "IT-TV" ;
+	lcc-lr:identifies lcc-3166-2-it:Treviso ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-UD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-UD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Udine in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Udine ;
+	lcc-lr:hasTag "IT-UD" ;
+	lcc-lr:identifies lcc-3166-2-it:Udine ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Varese in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Varese ;
+	lcc-lr:hasTag "IT-VA" ;
+	lcc-lr:identifies lcc-3166-2-it:Varese ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Verbano-Cusio-Ossola in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Verbano-Cusio-Ossola ;
+	lcc-lr:hasTag "IT-VB" ;
+	lcc-lr:identifies lcc-3166-2-it:Verbano-Cusio-Ossola ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Vercelli in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Vercelli ;
+	lcc-lr:hasTag "IT-VC" ;
+	lcc-lr:identifies lcc-3166-2-it:Vercelli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Venezia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Venezia ;
+	lcc-lr:hasTag "IT-VE" ;
+	lcc-lr:identifies lcc-3166-2-it:Venezia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Vicenza in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Vicenza ;
+	lcc-lr:hasTag "IT-VI" ;
+	lcc-lr:identifies lcc-3166-2-it:Vicenza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Verona in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Verona ;
+	lcc-lr:hasTag "IT-VR" ;
+	lcc-lr:identifies lcc-3166-2-it:Verona ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Medio Campidano in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:MedioCampidano ;
+	lcc-lr:hasTag "IT-VS" ;
+	lcc-lr:identifies lcc-3166-2-it:MedioCampidano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Viterbo in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:Viterbo ;
+	lcc-lr:hasTag "IT-VT" ;
+	lcc-lr:identifies lcc-3166-2-it:Viterbo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:IT-VV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IT-VV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision code for the province of Vibo Valentia in the country of Italy" ;
+	lcc-lr:denotes lcc-3166-2-it:ViboValentia ;
+	lcc-lr:hasTag "IT-VV" ;
+	lcc-lr:identifies lcc-3166-2-it:ViboValentia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-it:Imperia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Imperia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Imperia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Imperia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Liguria ;
+	.
+
+lcc-3166-2-it:Isernia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isernia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Isernia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Isernia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Molise ;
+	.
+
+lcc-3166-2-it:LAquila
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "L'Aquila" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of L'Aquila in the country of Italy" ;
+	lcc-cr:hasLocalShortName "L'Aquila"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Abruzzo ;
+	.
+
+lcc-3166-2-it:LaSpezia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Spezia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of La Spezia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "La Spezia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Liguria ;
+	.
+
+lcc-3166-2-it:Latina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Latina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Latina in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Latina"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lazio ;
+	.
+
+lcc-3166-2-it:Lazio
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lazio" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Lazio in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Lazio"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Lecce
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lecce" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Lecce in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Lecce"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Puglia ;
+	.
+
+lcc-3166-2-it:Lecco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lecco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Lecco in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Lecco"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Liguria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Liguria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Liguria in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Liguria"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Livorno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Livorno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Livorno in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Livorno"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Lodi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lodi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Lodi in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Lodi"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Lombardia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lombardia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Lombardia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Lombardia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Lucca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lucca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Lucca in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Lucca"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Macerata
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Macerata" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Macerata in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Macerata"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Marche ;
+	.
+
+lcc-3166-2-it:Mantova
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mantova" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Mantova in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Mantova"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Marche
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marche" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Marche in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Marche"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Massa-Carrara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Massa-Carrara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Massa-Carrara in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Massa-Carrara"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Matera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Matera in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Matera"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Basilicata ;
+	.
+
+lcc-3166-2-it:MedioCampidano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Medio Campidano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Medio Campidano in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Medio Campidano"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Messina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Messina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Messina in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Messina"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Milano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Milano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Milano in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Milano"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Modena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Modena" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Modena in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Modena"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Molise
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Molise" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Molise in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Molise"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:MonzaEBrianza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monza e Brianza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Monza e Brianza in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Monza e Brianza"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Napoli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Napoli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Napoli in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Napoli"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Campania ;
+	.
+
+lcc-3166-2-it:Novara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Novara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Novara in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Novara"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Nuoro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nuoro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Nuoro in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Nuoro"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Ogliastra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ogliastra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Ogliastra in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Ogliastra"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Olbia-Tempio
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Olbia-Tempio" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Olbia-Tempio in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Olbia-Tempio"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Oristano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oristano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Oristano in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Oristano"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Padova
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Padova" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Padova in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Padova"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Veneto ;
+	.
+
+lcc-3166-2-it:Palermo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Palermo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Palermo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Palermo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Parma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Parma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Parma in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Parma"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Pavia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pavia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Pavia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Pavia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Perugia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Perugia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Perugia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Perugia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Umbria ;
+	.
+
+lcc-3166-2-it:PesaroEUrbino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pesaro e Urbino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Pesaro e Urbino in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Pesaro e Urbino"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Marche ;
+	.
+
+lcc-3166-2-it:Pescara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pescara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Pescara in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Pescara"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Abruzzo ;
+	.
+
+lcc-3166-2-it:Piacenza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Piacenza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Piacenza in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Piacenza"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Piemonte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Piemonte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Piemonte in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Piemonte"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Pisa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pisa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Pisa in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Pisa"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Pistoia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pistoia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Pistoia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Pistoia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Pordenone
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pordenone" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Pordenone in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Pordenone"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Friuli-VeneziaGiulia ;
+	.
+
+lcc-3166-2-it:Potenza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Potenza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Potenza in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Potenza"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Basilicata ;
+	.
+
+lcc-3166-2-it:Prato
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prato" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Prato in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Prato"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision category province in the country of Italy" ;
+	.
+
+lcc-3166-2-it:Puglia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Puglia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Puglia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Puglia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Ragusa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ragusa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Ragusa in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Ragusa"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Ravenna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ravenna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Ravenna in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Ravenna"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:ReggioCalabria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Reggio Calabria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Reggio Calabria in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Reggio Calabria"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Calabria ;
+	.
+
+lcc-3166-2-it:ReggioEmilia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Reggio Emilia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Reggio Emilia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Reggio Emilia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "subdivision category region in the country of Italy" ;
+	.
+
+lcc-3166-2-it:Rieti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rieti" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Rieti in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Rieti"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lazio ;
+	.
+
+lcc-3166-2-it:Rimini
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rimini" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Rimini in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Rimini"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Emilia-Romagna ;
+	.
+
+lcc-3166-2-it:Roma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Roma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Roma in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Roma"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lazio ;
+	.
+
+lcc-3166-2-it:Rovigo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rovigo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Rovigo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Rovigo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Veneto ;
+	.
+
+lcc-3166-2-it:Salerno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salerno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Salerno in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Salerno"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Campania ;
+	.
+
+lcc-3166-2-it:Sardegna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sardegna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Sardegna in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Sardegna"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Sassari
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sassari" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Sassari in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Sassari"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sardegna ;
+	.
+
+lcc-3166-2-it:Savona
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Savona" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Savona in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Savona"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Liguria ;
+	.
+
+lcc-3166-2-it:Sicilia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sicilia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Sicilia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Sicilia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Siena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siena" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Siena in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Siena"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Toscana ;
+	.
+
+lcc-3166-2-it:Siracusa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siracusa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Siracusa in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Siracusa"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Sondrio
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sondrio" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Sondrio in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Sondrio"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Taranto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taranto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Taranto in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Taranto"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Puglia ;
+	.
+
+lcc-3166-2-it:Teramo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Teramo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Teramo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Teramo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Abruzzo ;
+	.
+
+lcc-3166-2-it:Terni
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Terni" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Terni in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Terni"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Umbria ;
+	.
+
+lcc-3166-2-it:Torino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Torino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Torino in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Torino"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Toscana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Toscana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Toscana in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Toscana"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Trapani
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trapani" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Trapani in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Trapani"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Sicilia ;
+	.
+
+lcc-3166-2-it:Trentino-Sudtirol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trentino-Südtirol" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Trentino-Südtirol in the country of Italy" ;
+	lcc-cr:hasLocalShortName
+		"Trentino-Alto Adige"@it ,
+		"Trentino-Südtirol"@de
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Trento
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trento" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Trento in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Trento"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Trentino-Sudtirol ;
+	.
+
+lcc-3166-2-it:Treviso
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Treviso" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Treviso in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Treviso"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Veneto ;
+	.
+
+lcc-3166-2-it:Trieste
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trieste" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Trieste in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Trieste"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Friuli-VeneziaGiulia ;
+	.
+
+lcc-3166-2-it:Udine
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Udine" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Udine in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Udine"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Friuli-VeneziaGiulia ;
+	.
+
+lcc-3166-2-it:Umbria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Umbria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Umbria in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Umbria"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:ValleDAosta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valle d'Aosta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Valle d'Aosta in the country of Italy" ;
+	lcc-cr:hasFrenchShortName "Val d'Aoste"@fr ;
+	lcc-cr:hasLocalShortName "Valle d'Aosta"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Varese
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Varese" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Varese in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Varese"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lombardia ;
+	.
+
+lcc-3166-2-it:Veneto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Veneto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The region of Veneto in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Veneto"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Italy ;
+	.
+
+lcc-3166-2-it:Venezia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Venezia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Venezia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Venezia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Veneto ;
+	.
+
+lcc-3166-2-it:Verbano-Cusio-Ossola
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Verbano-Cusio-Ossola" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Verbano-Cusio-Ossola in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Verbano-Cusio-Ossola"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Vercelli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vercelli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Vercelli in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Vercelli"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Piemonte ;
+	.
+
+lcc-3166-2-it:Verona
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Verona" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Verona in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Verona"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Veneto ;
+	.
+
+lcc-3166-2-it:ViboValentia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vibo Valentia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Vibo Valentia in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Vibo Valentia"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Calabria ;
+	.
+
+lcc-3166-2-it:Vicenza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vicenza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Vicenza in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Vicenza"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Veneto ;
+	.
+
+lcc-3166-2-it:Viterbo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viterbo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IT/> ;
+	skos:definition "The province of Viterbo in the country of Italy" ;
+	lcc-cr:hasLocalShortName "Viterbo"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-it:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-it:Lazio ;
+	.
+

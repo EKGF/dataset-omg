@@ -1,0 +1,282 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-qa: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Qatar Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-qa" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Qatar, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-QA.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	.
+
+lcc-3166-2-qa:AdDawhah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ad Dawḩah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Ad Dawḩah in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Ad Dawḩah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-2-qa:AlKhawrWaAdhDhakhirah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Khawr wa adh Dhakhīrah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Al Khawr wa adh Dhakhīrah in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Al Khawr wa adh Dhakhīrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-2-qa:AlWakrah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Wakrah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Al Wakrah in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Al Wakrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-2-qa:ArRayyan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ar Rayyān" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Ar Rayyān in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Ar Rayyān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-2-qa:AshShamal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ash Shamāl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Ash Shamāl in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Ash Shamāl"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-2-qa:AshShihaniyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ash Shīḩānīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Ash Shīḩānīyah in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Ash Shīḩānīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-2-qa:AzZaayin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Az̧ Z̧a‘āyin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Az̧ Z̧a‘āyin in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Az̧ Z̧a‘āyin"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-2-qa:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision category municipality in the country of Qatar" ;
+	.
+
+lcc-3166-2-qa:QA-DA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-DA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Ad Dawḩah in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:AdDawhah ;
+	lcc-lr:hasTag "QA-DA" ;
+	lcc-lr:identifies lcc-3166-2-qa:AdDawhah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:QA-KH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-KH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Al Khawr wa adh Dhakhīrah in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:AlKhawrWaAdhDhakhirah ;
+	lcc-lr:hasTag "QA-KH" ;
+	lcc-lr:identifies lcc-3166-2-qa:AlKhawrWaAdhDhakhirah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:QA-MS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-MS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Ash Shamāl in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:AshShamal ;
+	lcc-lr:hasTag "QA-MS" ;
+	lcc-lr:identifies lcc-3166-2-qa:AshShamal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:QA-RA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-RA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Ar Rayyān in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:ArRayyan ;
+	lcc-lr:hasTag "QA-RA" ;
+	lcc-lr:identifies lcc-3166-2-qa:ArRayyan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:QA-SH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Ash Shīḩānīyah in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:AshShihaniyah ;
+	lcc-lr:hasTag "QA-SH" ;
+	lcc-lr:identifies lcc-3166-2-qa:AshShihaniyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:QA-US
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-US" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Umm Şalāl in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:UmmSalal ;
+	lcc-lr:hasTag "QA-US" ;
+	lcc-lr:identifies lcc-3166-2-qa:UmmSalal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:QA-WA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Al Wakrah in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:AlWakrah ;
+	lcc-lr:hasTag "QA-WA" ;
+	lcc-lr:identifies lcc-3166-2-qa:AlWakrah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:QA-ZA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "QA-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "subdivision code for the municipality of Az̧ Z̧a‘āyin in the country of Qatar" ;
+	lcc-lr:denotes lcc-3166-2-qa:AzZaayin ;
+	lcc-lr:hasTag "QA-ZA" ;
+	lcc-lr:identifies lcc-3166-2-qa:AzZaayin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-qa:UmmSalal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Umm Şalāl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-QA/> ;
+	skos:definition "The municipality of Umm Şalāl in the country of Qatar" ;
+	lcc-cr:hasLocalShortName "Umm Şalāl"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-qa:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Qatar ;
+	.
+

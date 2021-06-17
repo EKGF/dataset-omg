@@ -1,0 +1,572 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-nl: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Netherlands (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-nl" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Netherlands (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NL.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	.
+
+lcc-3166-2-nl:Aruba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Aruba ;
+	rdfs:label "Aruba (see also separate country code entry under AW)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The country of Aruba (see also separate country code entry under AW) in the country of Netherlands (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Country ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Bonaire
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Bonaire ;
+	rdfs:label "Bonaire (see also separate country code entry under BQ)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The special municipality of Bonaire (see also separate country code entry under BQ) in the country of Netherlands (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:SpecialMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Country
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "country" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision category country in the country of Netherlands (the)" ;
+	.
+
+lcc-3166-2-nl:Curacao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Curacao ;
+	rdfs:label "Curaçao (see also separate country code entry under CW)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The country of Curaçao (see also separate country code entry under CW) in the country of Netherlands (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Country ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Drenthe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Drenthe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Drenthe in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Drenthe"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Flevoland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Flevoland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Flevoland in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Flevoland"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Fryslan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fryslân" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Fryslân in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Fryslân"@fy ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Gelderland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gelderland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Gelderland in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Gelderland"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Groningen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Groningen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Groningen in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Groningen"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Limburg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Limburg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Limburg in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Limburg"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:NL-AW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-AW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the country of Aruba (see also separate country code entry under AW) in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Aruba ;
+	lcc-lr:hasTag "NL-AW" ;
+	lcc-lr:identifies lcc-3166-2-nl:Aruba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-BQ1
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-BQ1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the special municipality of Bonaire (see also separate country code entry under BQ) in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Bonaire ;
+	lcc-lr:hasTag "NL-BQ1" ;
+	lcc-lr:identifies lcc-3166-2-nl:Bonaire ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-BQ2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-BQ2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the special municipality of Saba (see also separate country code entry under BQ) in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Saba ;
+	lcc-lr:hasTag "NL-BQ2" ;
+	lcc-lr:identifies lcc-3166-2-nl:Saba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-BQ3
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-BQ3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the special municipality of Sint Eustatius (see also separate country code entry under BQ) in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:SintEustatius ;
+	lcc-lr:hasTag "NL-BQ3" ;
+	lcc-lr:identifies lcc-3166-2-nl:SintEustatius ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-CW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-CW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the country of Curaçao (see also separate country code entry under CW) in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Curacao ;
+	lcc-lr:hasTag "NL-CW" ;
+	lcc-lr:identifies lcc-3166-2-nl:Curacao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-DR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-DR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Drenthe in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Drenthe ;
+	lcc-lr:hasTag "NL-DR" ;
+	lcc-lr:identifies lcc-3166-2-nl:Drenthe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-FL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-FL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Flevoland in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Flevoland ;
+	lcc-lr:hasTag "NL-FL" ;
+	lcc-lr:identifies lcc-3166-2-nl:Flevoland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-FR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-FR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Fryslân in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Fryslan ;
+	lcc-lr:hasTag "NL-FR" ;
+	lcc-lr:identifies lcc-3166-2-nl:Fryslan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-GE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-GE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Gelderland in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Gelderland ;
+	lcc-lr:hasTag "NL-GE" ;
+	lcc-lr:identifies lcc-3166-2-nl:Gelderland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-GR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Groningen in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Groningen ;
+	lcc-lr:hasTag "NL-GR" ;
+	lcc-lr:identifies lcc-3166-2-nl:Groningen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-LI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Limburg in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Limburg ;
+	lcc-lr:hasTag "NL-LI" ;
+	lcc-lr:identifies lcc-3166-2-nl:Limburg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-NB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-NB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Noord-Brabant in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Noord-Brabant ;
+	lcc-lr:hasTag "NL-NB" ;
+	lcc-lr:identifies lcc-3166-2-nl:Noord-Brabant ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-NH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-NH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Noord-Holland in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Noord-Holland ;
+	lcc-lr:hasTag "NL-NH" ;
+	lcc-lr:identifies lcc-3166-2-nl:Noord-Holland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-OV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-OV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Overijssel in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Overijssel ;
+	lcc-lr:hasTag "NL-OV" ;
+	lcc-lr:identifies lcc-3166-2-nl:Overijssel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-SX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-SX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the country of Sint Maarten (see also separate country code entry under SX) in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:SintMaarten ;
+	lcc-lr:hasTag "NL-SX" ;
+	lcc-lr:identifies lcc-3166-2-nl:SintMaarten ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-UT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-UT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Utrecht in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Utrecht ;
+	lcc-lr:hasTag "NL-UT" ;
+	lcc-lr:identifies lcc-3166-2-nl:Utrecht ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-ZE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-ZE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Zeeland in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Zeeland ;
+	lcc-lr:hasTag "NL-ZE" ;
+	lcc-lr:identifies lcc-3166-2-nl:Zeeland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:NL-ZH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NL-ZH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision code for the province of Zuid-Holland in the country of Netherlands (the)" ;
+	lcc-lr:denotes lcc-3166-2-nl:Zuid-Holland ;
+	lcc-lr:hasTag "NL-ZH" ;
+	lcc-lr:identifies lcc-3166-2-nl:Zuid-Holland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nl:Noord-Brabant
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Noord-Brabant" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Noord-Brabant in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Noord-Brabant"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Noord-Holland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Noord-Holland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Noord-Holland in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Noord-Holland"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Overijssel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Overijssel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Overijssel in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Overijssel"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision category province in the country of Netherlands (the)" ;
+	.
+
+lcc-3166-2-nl:Saba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Bonaire ;
+	rdfs:label "Saba (see also separate country code entry under BQ)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The special municipality of Saba (see also separate country code entry under BQ) in the country of Netherlands (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:SpecialMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:SintEustatius
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:Bonaire ;
+	rdfs:label "Sint Eustatius (see also separate country code entry under BQ)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The special municipality of Sint Eustatius (see also separate country code entry under BQ) in the country of Netherlands (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:SpecialMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:SintMaarten
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	owl:sameAs lcc-3166-1:SintMaarten ;
+	rdfs:label "Sint Maarten (see also separate country code entry under SX)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The country of Sint Maarten (see also separate country code entry under SX) in the country of Netherlands (the)" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Country ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:SpecialMunicipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "special municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "subdivision category special municipality in the country of Netherlands (the)" ;
+	.
+
+lcc-3166-2-nl:Utrecht
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Utrecht" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Utrecht in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Utrecht"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Zeeland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zeeland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Zeeland in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Zeeland"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-2-nl:Zuid-Holland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zuid-Holland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NL/> ;
+	skos:definition "The province of Zuid-Holland in the country of Netherlands (the)" ;
+	lcc-cr:hasLocalShortName "Zuid-Holland"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nl:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Netherlands ;
+	.
+

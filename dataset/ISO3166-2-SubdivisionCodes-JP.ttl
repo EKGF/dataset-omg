@@ -1,0 +1,1358 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-jp: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Japan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-jp" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Japan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-JP.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	.
+
+lcc-3166-2-jp:Aichi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aichi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Aichi in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Aichi"@en ;
+	lcc-cr:hasLocalShortName "Aiti"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Akita
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Akita" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Akita in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Akita"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Aomori
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aomori" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Aomori in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Aomori"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Chiba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Chiba in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Chiba"@en ;
+	lcc-cr:hasLocalShortName "Tiba"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Ehime
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ehime" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Ehime in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Ehime"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Fukui
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fukui" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Fukui in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Fukui"@en ;
+	lcc-cr:hasLocalShortName "Hukui"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Fukuoka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fukuoka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Fukuoka in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Fukuoka"@en ;
+	lcc-cr:hasLocalShortName "Hukuoka"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Fukushima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fukushima" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Fukushima in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Fukushima"@en ;
+	lcc-cr:hasLocalShortName "Hukusima"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Gifu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gifu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Gifu in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Gifu"@en ;
+	lcc-cr:hasLocalShortName "Gihu"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Gunma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gunma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Gunma in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Gunma"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Hiroshima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hiroshima" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Hiroshima in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Hiroshima"@en ;
+	lcc-cr:hasLocalShortName "Hirosima"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Hokkaido
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hokkaido" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Hokkaido in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Hokkaido"@en ;
+	lcc-cr:hasLocalShortName "Hokkaidô"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Hyogo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hyogo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Hyogo in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Hyogo"@en ;
+	lcc-cr:hasLocalShortName "Hyôgo"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Ibaraki
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ibaraki" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Ibaraki in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Ibaraki"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Ishikawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ishikawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Ishikawa in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Ishikawa"@en ;
+	lcc-cr:hasLocalShortName "Isikawa"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Iwate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iwate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Iwate in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Iwate"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:JP-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Hokkaido in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Hokkaido ;
+	lcc-lr:hasTag "JP-01" ;
+	lcc-lr:identifies lcc-3166-2-jp:Hokkaido ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Aomori in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Aomori ;
+	lcc-lr:hasTag "JP-02" ;
+	lcc-lr:identifies lcc-3166-2-jp:Aomori ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Iwate in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Iwate ;
+	lcc-lr:hasTag "JP-03" ;
+	lcc-lr:identifies lcc-3166-2-jp:Iwate ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Miyagi in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Miyagi ;
+	lcc-lr:hasTag "JP-04" ;
+	lcc-lr:identifies lcc-3166-2-jp:Miyagi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Akita in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Akita ;
+	lcc-lr:hasTag "JP-05" ;
+	lcc-lr:identifies lcc-3166-2-jp:Akita ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Yamagata in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Yamagata ;
+	lcc-lr:hasTag "JP-06" ;
+	lcc-lr:identifies lcc-3166-2-jp:Yamagata ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Fukushima in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Fukushima ;
+	lcc-lr:hasTag "JP-07" ;
+	lcc-lr:identifies lcc-3166-2-jp:Fukushima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Ibaraki in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Ibaraki ;
+	lcc-lr:hasTag "JP-08" ;
+	lcc-lr:identifies lcc-3166-2-jp:Ibaraki ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Tochigi in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Tochigi ;
+	lcc-lr:hasTag "JP-09" ;
+	lcc-lr:identifies lcc-3166-2-jp:Tochigi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Gunma in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Gunma ;
+	lcc-lr:hasTag "JP-10" ;
+	lcc-lr:identifies lcc-3166-2-jp:Gunma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Saitama in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Saitama ;
+	lcc-lr:hasTag "JP-11" ;
+	lcc-lr:identifies lcc-3166-2-jp:Saitama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Chiba in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Chiba ;
+	lcc-lr:hasTag "JP-12" ;
+	lcc-lr:identifies lcc-3166-2-jp:Chiba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Tokyo in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Tokyo ;
+	lcc-lr:hasTag "JP-13" ;
+	lcc-lr:identifies lcc-3166-2-jp:Tokyo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Kanagawa in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Kanagawa ;
+	lcc-lr:hasTag "JP-14" ;
+	lcc-lr:identifies lcc-3166-2-jp:Kanagawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Niigata in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Niigata ;
+	lcc-lr:hasTag "JP-15" ;
+	lcc-lr:identifies lcc-3166-2-jp:Niigata ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Toyama in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Toyama ;
+	lcc-lr:hasTag "JP-16" ;
+	lcc-lr:identifies lcc-3166-2-jp:Toyama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Ishikawa in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Ishikawa ;
+	lcc-lr:hasTag "JP-17" ;
+	lcc-lr:identifies lcc-3166-2-jp:Ishikawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Fukui in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Fukui ;
+	lcc-lr:hasTag "JP-18" ;
+	lcc-lr:identifies lcc-3166-2-jp:Fukui ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Yamanashi in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Yamanashi ;
+	lcc-lr:hasTag "JP-19" ;
+	lcc-lr:identifies lcc-3166-2-jp:Yamanashi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Nagano in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Nagano ;
+	lcc-lr:hasTag "JP-20" ;
+	lcc-lr:identifies lcc-3166-2-jp:Nagano ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Gifu in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Gifu ;
+	lcc-lr:hasTag "JP-21" ;
+	lcc-lr:identifies lcc-3166-2-jp:Gifu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Shizuoka in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Shizuoka ;
+	lcc-lr:hasTag "JP-22" ;
+	lcc-lr:identifies lcc-3166-2-jp:Shizuoka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Aichi in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Aichi ;
+	lcc-lr:hasTag "JP-23" ;
+	lcc-lr:identifies lcc-3166-2-jp:Aichi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-24
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Mie in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Mie ;
+	lcc-lr:hasTag "JP-24" ;
+	lcc-lr:identifies lcc-3166-2-jp:Mie ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Shiga in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Shiga ;
+	lcc-lr:hasTag "JP-25" ;
+	lcc-lr:identifies lcc-3166-2-jp:Shiga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Kyoto in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Kyoto ;
+	lcc-lr:hasTag "JP-26" ;
+	lcc-lr:identifies lcc-3166-2-jp:Kyoto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-27
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Osaka in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Osaka ;
+	lcc-lr:hasTag "JP-27" ;
+	lcc-lr:identifies lcc-3166-2-jp:Osaka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-28
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Hyogo in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Hyogo ;
+	lcc-lr:hasTag "JP-28" ;
+	lcc-lr:identifies lcc-3166-2-jp:Hyogo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-29
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Nara in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Nara ;
+	lcc-lr:hasTag "JP-29" ;
+	lcc-lr:identifies lcc-3166-2-jp:Nara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-30
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Wakayama in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Wakayama ;
+	lcc-lr:hasTag "JP-30" ;
+	lcc-lr:identifies lcc-3166-2-jp:Wakayama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-31
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Tottori in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Tottori ;
+	lcc-lr:hasTag "JP-31" ;
+	lcc-lr:identifies lcc-3166-2-jp:Tottori ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Shimane in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Shimane ;
+	lcc-lr:hasTag "JP-32" ;
+	lcc-lr:identifies lcc-3166-2-jp:Shimane ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-33
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Okayama in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Okayama ;
+	lcc-lr:hasTag "JP-33" ;
+	lcc-lr:identifies lcc-3166-2-jp:Okayama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-34
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Hiroshima in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Hiroshima ;
+	lcc-lr:hasTag "JP-34" ;
+	lcc-lr:identifies lcc-3166-2-jp:Hiroshima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-35
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Yamaguchi in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Yamaguchi ;
+	lcc-lr:hasTag "JP-35" ;
+	lcc-lr:identifies lcc-3166-2-jp:Yamaguchi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-36
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Tokushima in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Tokushima ;
+	lcc-lr:hasTag "JP-36" ;
+	lcc-lr:identifies lcc-3166-2-jp:Tokushima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-37
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Kagawa in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Kagawa ;
+	lcc-lr:hasTag "JP-37" ;
+	lcc-lr:identifies lcc-3166-2-jp:Kagawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-38
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Ehime in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Ehime ;
+	lcc-lr:hasTag "JP-38" ;
+	lcc-lr:identifies lcc-3166-2-jp:Ehime ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-39
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Kochi in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Kochi ;
+	lcc-lr:hasTag "JP-39" ;
+	lcc-lr:identifies lcc-3166-2-jp:Kochi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-40
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Fukuoka in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Fukuoka ;
+	lcc-lr:hasTag "JP-40" ;
+	lcc-lr:identifies lcc-3166-2-jp:Fukuoka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Saga in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Saga ;
+	lcc-lr:hasTag "JP-41" ;
+	lcc-lr:identifies lcc-3166-2-jp:Saga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-42
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Nagasaki in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Nagasaki ;
+	lcc-lr:hasTag "JP-42" ;
+	lcc-lr:identifies lcc-3166-2-jp:Nagasaki ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-43
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Kumamoto in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Kumamoto ;
+	lcc-lr:hasTag "JP-43" ;
+	lcc-lr:identifies lcc-3166-2-jp:Kumamoto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-44
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Oita in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Oita ;
+	lcc-lr:hasTag "JP-44" ;
+	lcc-lr:identifies lcc-3166-2-jp:Oita ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-45
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Miyazaki in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Miyazaki ;
+	lcc-lr:hasTag "JP-45" ;
+	lcc-lr:identifies lcc-3166-2-jp:Miyazaki ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-46
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Kagoshima in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Kagoshima ;
+	lcc-lr:hasTag "JP-46" ;
+	lcc-lr:identifies lcc-3166-2-jp:Kagoshima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:JP-47
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JP-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision code for the prefecture of Okinawa in the country of Japan" ;
+	lcc-lr:denotes lcc-3166-2-jp:Okinawa ;
+	lcc-lr:hasTag "JP-47" ;
+	lcc-lr:identifies lcc-3166-2-jp:Okinawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jp:Kagawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kagawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Kagawa in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Kagawa"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Kagoshima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kagoshima" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Kagoshima in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Kagoshima"@en ;
+	lcc-cr:hasLocalShortName "Kagosima"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Kanagawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kanagawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Kanagawa in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Kanagawa"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Kochi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kochi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Kochi in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Kochi"@en ;
+	lcc-cr:hasLocalShortName "Kôti"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Kumamoto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kumamoto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Kumamoto in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Kumamoto"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Kyoto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyoto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Kyoto in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Kyoto"@en ;
+	lcc-cr:hasLocalShortName "Kyôto"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Mie
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mie" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Mie in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Mie"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Miyagi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Miyagi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Miyagi in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Miyagi"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Miyazaki
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Miyazaki" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Miyazaki in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Miyazaki"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Nagano
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nagano" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Nagano in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Nagano"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Nagasaki
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nagasaki" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Nagasaki in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Nagasaki"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Nara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Nara in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Nara"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Niigata
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niigata" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Niigata in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Niigata"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Oita
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oita" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Oita in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Oita"@en ;
+	lcc-cr:hasLocalShortName "Ôita"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Okayama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Okayama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Okayama in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Okayama"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Okinawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Okinawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Okinawa in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Okinawa"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Osaka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Osaka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Osaka in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Osaka"@en ;
+	lcc-cr:hasLocalShortName "Ôsaka"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Prefecture
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "prefecture" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "subdivision category prefecture in the country of Japan" ;
+	.
+
+lcc-3166-2-jp:Saga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Saga in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Saga"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Saitama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saitama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Saitama in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Saitama"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Shiga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shiga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Shiga in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Shiga"@en ;
+	lcc-cr:hasLocalShortName "Siga"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Shimane
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shimane" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Shimane in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Shimane"@en ;
+	lcc-cr:hasLocalShortName "Simane"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Shizuoka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shizuoka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Shizuoka in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Shizuoka"@en ;
+	lcc-cr:hasLocalShortName "Sizuoka"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Tochigi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tochigi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Tochigi in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Tochigi"@en ;
+	lcc-cr:hasLocalShortName "Totigi"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Tokushima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tokushima" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Tokushima in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Tokushima"@en ;
+	lcc-cr:hasLocalShortName "Tokusima"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Tokyo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tokyo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Tokyo in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Tokyo"@en ;
+	lcc-cr:hasLocalShortName "Tôkyô"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Tottori
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tottori" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Tottori in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Tottori"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Toyama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Toyama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Toyama in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Toyama"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Wakayama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wakayama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Wakayama in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Wakayama"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Yamagata
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yamagata" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Yamagata in the country of Japan" ;
+	lcc-cr:hasLocalShortName "Yamagata"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Yamaguchi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yamaguchi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Yamaguchi in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Yamaguchi"@en ;
+	lcc-cr:hasLocalShortName "Yamaguti"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+
+lcc-3166-2-jp:Yamanashi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yamanashi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JP/> ;
+	skos:definition "The prefecture of Yamanashi in the country of Japan" ;
+	lcc-cr:hasEnglishShortName "Yamanashi"@en ;
+	lcc-cr:hasLocalShortName "Yamanasi"@ja ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jp:Prefecture ;
+	lcc-cr:isSubregionOf lcc-3166-1:Japan ;
+	.
+

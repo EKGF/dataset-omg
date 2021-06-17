@@ -1,0 +1,390 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-um: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for United States Minor Outlying Islands (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-um" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for United States Minor Outlying Islands (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-UM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	.
+
+lcc-3166-2-um:BakerIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Baker Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Baker Island in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Baker Island in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Baker Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Baker"@fr ;
+	lcc-cr:hasNumericRegionCode "1017" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:HowlandIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Howland Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Howland Island in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Howland Island in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Howland Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Howland"@fr ;
+	lcc-cr:hasNumericRegionCode "1085" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:Islands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "islands, groups of islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision category islands, groups of islands in the country of United States Minor Outlying Islands (the)" ;
+	.
+
+lcc-3166-2-um:JarvisIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Jarvis Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Jarvis Island in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Jarvis Island in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Jarvis Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Jarvis"@fr ;
+	lcc-cr:hasNumericRegionCode "1089" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:JohnstonAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Johnston Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Johnston Atoll in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Johnston Atoll in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Johnston Atoll"@en ;
+	lcc-cr:hasFrenchShortName "l'Atoll Johnston"@fr ;
+	lcc-cr:hasNumericRegionCode "1091" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:KingmanReef
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Kingman Reef" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Kingman Reef in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Kingman Reef in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Kingman Reef"@en ;
+	lcc-cr:hasFrenchShortName "le Récif Kingman"@fr ;
+	lcc-cr:hasNumericRegionCode "1098" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:MidwayIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Midway Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Midway Islands in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Midway Islands in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Midway Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Midway"@fr ;
+	lcc-cr:hasNumericRegionCode "1127" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:NavassaIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Navassa Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Navassa Island in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Navassa Island in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Navassa Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île de la Navasse"@fr ;
+	lcc-cr:hasNumericRegionCode "1135" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:PalmyraAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Palmyra Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Palmyra Atoll in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Palmyra Atoll in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Palmyra Atoll"@en ;
+	lcc-cr:hasFrenchShortName "l'Atoll Palmyra"@fr ;
+	lcc-cr:hasNumericRegionCode "1145" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-2-um:UM-67
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Johnston Atoll in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:JohnstonAtoll ;
+	lcc-lr:hasTag "UM-67" ;
+	lcc-lr:identifies lcc-3166-2-um:JohnstonAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-71
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Midway Islands in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:MidwayIslands ;
+	lcc-lr:hasTag "UM-71" ;
+	lcc-lr:identifies lcc-3166-2-um:MidwayIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-76
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-76" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Navassa Island in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:NavassaIsland ;
+	lcc-lr:hasTag "UM-76" ;
+	lcc-lr:identifies lcc-3166-2-um:NavassaIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-79
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-79" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Wake Island in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:WakeIsland ;
+	lcc-lr:hasTag "UM-79" ;
+	lcc-lr:identifies lcc-3166-2-um:WakeIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-81
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Baker Island in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:BakerIsland ;
+	lcc-lr:hasTag "UM-81" ;
+	lcc-lr:identifies lcc-3166-2-um:BakerIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-84
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-84" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Howland Island in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:HowlandIsland ;
+	lcc-lr:hasTag "UM-84" ;
+	lcc-lr:identifies lcc-3166-2-um:HowlandIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-86
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-86" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Jarvis Island in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:JarvisIsland ;
+	lcc-lr:hasTag "UM-86" ;
+	lcc-lr:identifies lcc-3166-2-um:JarvisIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-89
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-89" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Kingman Reef in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:KingmanReef ;
+	lcc-lr:hasTag "UM-89" ;
+	lcc-lr:identifies lcc-3166-2-um:KingmanReef ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:UM-95
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UM-95" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition "subdivision code for the islands, groups of islands of Palmyra Atoll in the country of United States Minor Outlying Islands (the)" ;
+	lcc-lr:denotes lcc-3166-2-um:PalmyraAtoll ;
+	lcc-lr:hasTag "UM-95" ;
+	lcc-lr:identifies lcc-3166-2-um:PalmyraAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-um:WakeIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Wake Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UM/> ;
+	skos:definition
+		"The islands, groups of islands of Wake Island in the country of United States Minor Outlying Islands (the)" ,
+		"The territory of Wake Island in the country of United States Minor Outlying Islands (the)"
+		;
+	lcc-cr:hasEnglishShortName "Wake Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Wake"@fr ;
+	lcc-cr:hasNumericRegionCode "1222" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-um:Islands
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+

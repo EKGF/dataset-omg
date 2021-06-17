@@ -1,0 +1,685 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ye: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Yemen Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ye" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Yemen, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-YE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	.
+
+lcc-3166-2-ye:Abyan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abyan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Abyan in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Abyan"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:AdDali
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aḑ Ḑāli‘" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Aḑ Ḑāli‘ in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Aḑ Ḑāli‘"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Adan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "‘Adan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of ‘Adan in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "‘Adan"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:AlBayda
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Bayḑā’" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Al Bayḑā’ in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Al Bayḑā’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:AlHudaydah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Ḩudaydah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Al Ḩudaydah in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Al Ḩudaydah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:AlJawf
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jawf" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Al Jawf in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Al Jawf"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:AlMahrah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Mahrah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Al Mahrah in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Al Mahrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:AlMahwit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Maḩwīt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Al Maḩwīt in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Al Maḩwīt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:AmanatAlAsimah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amānat al ‘Āşimah [city]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The municipality of Amānat al ‘Āşimah [city] in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Amānat al ‘Āşimah [city]"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Amran
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "‘Amrān" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of ‘Amrān in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "‘Amrān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:ArkhabilSuqutra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arkhabīl Suquţrá" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Arkhabīl Suquţrá in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Arkhabīl Suquţrá"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Dhamar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dhamār" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Dhamār in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Dhamār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Governorate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "governorate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision category governorate in the country of Yemen" ;
+	.
+
+lcc-3166-2-ye:Hadramawt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩaḑramawt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Ḩaḑramawt in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Ḩaḑramawt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Hajjah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩajjah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Ḩajjah in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Ḩajjah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Ibb
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ibb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Ibb in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Ibb"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Lahij
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Laḩij" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Laḩij in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Laḩij"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Marib
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ma’rib" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Ma’rib in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Ma’rib"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision category municipality in the country of Yemen" ;
+	.
+
+lcc-3166-2-ye:Raymah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Raymah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Raymah in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Raymah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Sadah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şāʻdah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Şāʻdah in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Şāʻdah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Sana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şanʻā’" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Şanʻā’ in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Şanʻā’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Shabwah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shabwah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Shabwah in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Shabwah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:SocotraIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Socotra Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The territory of Socotra Island in the country of Yemen" ;
+	lcc-cr:hasEnglishShortName "Socotra Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île de Socotra"@fr ;
+	lcc-cr:hasNumericRegionCode "1198" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:Taizz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tāʻizz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "The governorate of Tāʻizz in the country of Yemen" ;
+	lcc-cr:hasLocalShortName "Tāʻizz"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ye:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-2-ye:YE-AB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Abyan in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Abyan ;
+	lcc-lr:hasTag "YE-AB" ;
+	lcc-lr:identifies lcc-3166-2-ye:Abyan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-AD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-AD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of ‘Adan in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Adan ;
+	lcc-lr:hasTag "YE-AD" ;
+	lcc-lr:identifies lcc-3166-2-ye:Adan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-AM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-AM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of ‘Amrān in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Amran ;
+	lcc-lr:hasTag "YE-AM" ;
+	lcc-lr:identifies lcc-3166-2-ye:Amran ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Al Bayḑā’ in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:AlBayda ;
+	lcc-lr:hasTag "YE-BA" ;
+	lcc-lr:identifies lcc-3166-2-ye:AlBayda ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-DA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-DA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Aḑ Ḑāli‘ in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:AdDali ;
+	lcc-lr:hasTag "YE-DA" ;
+	lcc-lr:identifies lcc-3166-2-ye:AdDali ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-DH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-DH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Dhamār in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Dhamar ;
+	lcc-lr:hasTag "YE-DH" ;
+	lcc-lr:identifies lcc-3166-2-ye:Dhamar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-HD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-HD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Ḩaḑramawt in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Hadramawt ;
+	lcc-lr:hasTag "YE-HD" ;
+	lcc-lr:identifies lcc-3166-2-ye:Hadramawt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-HJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-HJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Ḩajjah in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Hajjah ;
+	lcc-lr:hasTag "YE-HJ" ;
+	lcc-lr:identifies lcc-3166-2-ye:Hajjah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-HU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-HU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Al Ḩudaydah in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:AlHudaydah ;
+	lcc-lr:hasTag "YE-HU" ;
+	lcc-lr:identifies lcc-3166-2-ye:AlHudaydah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-IB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-IB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Ibb in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Ibb ;
+	lcc-lr:hasTag "YE-IB" ;
+	lcc-lr:identifies lcc-3166-2-ye:Ibb ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-JA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Al Jawf in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:AlJawf ;
+	lcc-lr:hasTag "YE-JA" ;
+	lcc-lr:identifies lcc-3166-2-ye:AlJawf ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-LA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Laḩij in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Lahij ;
+	lcc-lr:hasTag "YE-LA" ;
+	lcc-lr:identifies lcc-3166-2-ye:Lahij ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Ma’rib in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Marib ;
+	lcc-lr:hasTag "YE-MA" ;
+	lcc-lr:identifies lcc-3166-2-ye:Marib ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-MR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-MR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Al Mahrah in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:AlMahrah ;
+	lcc-lr:hasTag "YE-MR" ;
+	lcc-lr:identifies lcc-3166-2-ye:AlMahrah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-MW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-MW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Al Maḩwīt in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:AlMahwit ;
+	lcc-lr:hasTag "YE-MW" ;
+	lcc-lr:identifies lcc-3166-2-ye:AlMahwit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-RA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-RA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Raymah in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Raymah ;
+	lcc-lr:hasTag "YE-RA" ;
+	lcc-lr:identifies lcc-3166-2-ye:Raymah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the municipality of Amānat al ‘Āşimah [city] in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:AmanatAlAsimah ;
+	lcc-lr:hasTag "YE-SA" ;
+	lcc-lr:identifies lcc-3166-2-ye:AmanatAlAsimah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Şāʻdah in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Sadah ;
+	lcc-lr:hasTag "YE-SD" ;
+	lcc-lr:identifies lcc-3166-2-ye:Sadah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-SH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Shabwah in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Shabwah ;
+	lcc-lr:hasTag "YE-SH" ;
+	lcc-lr:identifies lcc-3166-2-ye:Shabwah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-SN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-SN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Şanʻā’ in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Sana ;
+	lcc-lr:hasTag "YE-SN" ;
+	lcc-lr:identifies lcc-3166-2-ye:Sana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-SU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Arkhabīl Suquţrá in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:ArkhabilSuqutra ;
+	lcc-lr:hasTag "YE-SU" ;
+	lcc-lr:identifies lcc-3166-2-ye:ArkhabilSuqutra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ye:YE-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "YE-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-YE/> ;
+	skos:definition "subdivision code for the governorate of Tāʻizz in the country of Yemen" ;
+	lcc-lr:denotes lcc-3166-2-ye:Taizz ;
+	lcc-lr:hasTag "YE-TA" ;
+	lcc-lr:identifies lcc-3166-2-ye:Taizz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+

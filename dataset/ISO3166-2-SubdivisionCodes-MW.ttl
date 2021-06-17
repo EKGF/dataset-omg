@@ -1,0 +1,944 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Malawi Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Malawi, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	.
+
+lcc-3166-2-mw:Balaka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balaka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Balaka in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Balaka"@en ;
+	lcc-cr:hasLocalShortName "Balaka"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Blantyre
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Blantyre" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Blantyre in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Blantyre"@en ;
+	lcc-cr:hasLocalShortName "Blantyre"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:CentralRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The region of Central Region in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Central Region"@en ;
+	lcc-cr:hasLocalShortName "Chapakati"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malawi ;
+	.
+
+lcc-3166-2-mw:Chikwawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chikwawa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Chikwawa in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Chikwawa"@en ;
+	lcc-cr:hasLocalShortName "Chikwawa"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Chiradzulu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiradzulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Chiradzulu in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Chiradzulu"@en ;
+	lcc-cr:hasLocalShortName "Chiradzulu"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Chitipa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chitipa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Chitipa in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Chitipa"@en ;
+	lcc-cr:hasLocalShortName "Chitipa"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:NorthernRegion ;
+	.
+
+lcc-3166-2-mw:Dedza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dedza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Dedza in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Dedza"@en ;
+	lcc-cr:hasLocalShortName "Dedza"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision category district in the country of Malawi" ;
+	.
+
+lcc-3166-2-mw:Dowa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dowa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Dowa in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Dowa"@en ;
+	lcc-cr:hasLocalShortName "Dowa"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:Karonga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karonga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Karonga in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Karonga"@en ;
+	lcc-cr:hasLocalShortName "Karonga"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:NorthernRegion ;
+	.
+
+lcc-3166-2-mw:Kasungu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kasungu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Kasungu in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Kasungu"@en ;
+	lcc-cr:hasLocalShortName "Kasungu"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:Likoma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Likoma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Likoma in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Likoma"@en ;
+	lcc-cr:hasLocalShortName "Likoma"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:NorthernRegion ;
+	.
+
+lcc-3166-2-mw:Lilongwe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lilongwe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Lilongwe in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Lilongwe"@en ;
+	lcc-cr:hasLocalShortName "Lilongwe"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:MW-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Balaka in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Balaka ;
+	lcc-lr:hasTag "MW-BA" ;
+	lcc-lr:identifies lcc-3166-2-mw:Balaka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-BL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Blantyre in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Blantyre ;
+	lcc-lr:hasTag "MW-BL" ;
+	lcc-lr:identifies lcc-3166-2-mw:Blantyre ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the region of Central Region in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:CentralRegion ;
+	lcc-lr:hasTag "MW-C" ;
+	lcc-lr:identifies lcc-3166-2-mw:CentralRegion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-CK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-CK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Chikwawa in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Chikwawa ;
+	lcc-lr:hasTag "MW-CK" ;
+	lcc-lr:identifies lcc-3166-2-mw:Chikwawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-CR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Chiradzulu in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Chiradzulu ;
+	lcc-lr:hasTag "MW-CR" ;
+	lcc-lr:identifies lcc-3166-2-mw:Chiradzulu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-CT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Chitipa in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Chitipa ;
+	lcc-lr:hasTag "MW-CT" ;
+	lcc-lr:identifies lcc-3166-2-mw:Chitipa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-DE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-DE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Dedza in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Dedza ;
+	lcc-lr:hasTag "MW-DE" ;
+	lcc-lr:identifies lcc-3166-2-mw:Dedza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-DO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-DO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Dowa in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Dowa ;
+	lcc-lr:hasTag "MW-DO" ;
+	lcc-lr:identifies lcc-3166-2-mw:Dowa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-KR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-KR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Karonga in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Karonga ;
+	lcc-lr:hasTag "MW-KR" ;
+	lcc-lr:identifies lcc-3166-2-mw:Karonga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-KS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-KS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Kasungu in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Kasungu ;
+	lcc-lr:hasTag "MW-KS" ;
+	lcc-lr:identifies lcc-3166-2-mw:Kasungu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-LI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Lilongwe in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Lilongwe ;
+	lcc-lr:hasTag "MW-LI" ;
+	lcc-lr:identifies lcc-3166-2-mw:Lilongwe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-LK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-LK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Likoma in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Likoma ;
+	lcc-lr:hasTag "MW-LK" ;
+	lcc-lr:identifies lcc-3166-2-mw:Likoma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-MC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Mchinji in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Mchinji ;
+	lcc-lr:hasTag "MW-MC" ;
+	lcc-lr:identifies lcc-3166-2-mw:Mchinji ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-MG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-MG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Mangochi in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Mangochi ;
+	lcc-lr:hasTag "MW-MG" ;
+	lcc-lr:identifies lcc-3166-2-mw:Mangochi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-MH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-MH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Machinga in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Machinga ;
+	lcc-lr:hasTag "MW-MH" ;
+	lcc-lr:identifies lcc-3166-2-mw:Machinga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-MU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Mulanje in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Mulanje ;
+	lcc-lr:hasTag "MW-MU" ;
+	lcc-lr:identifies lcc-3166-2-mw:Mulanje ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-MW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-MW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Mwanza in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Mwanza ;
+	lcc-lr:hasTag "MW-MW" ;
+	lcc-lr:identifies lcc-3166-2-mw:Mwanza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-MZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-MZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Mzimba in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Mzimba ;
+	lcc-lr:hasTag "MW-MZ" ;
+	lcc-lr:identifies lcc-3166-2-mw:Mzimba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-N
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the region of Northern Region in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:NorthernRegion ;
+	lcc-lr:hasTag "MW-N" ;
+	lcc-lr:identifies lcc-3166-2-mw:NorthernRegion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-NB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-NB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Nkhata Bay in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:NkhataBay ;
+	lcc-lr:hasTag "MW-NB" ;
+	lcc-lr:identifies lcc-3166-2-mw:NkhataBay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-NE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-NE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Neno in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Neno ;
+	lcc-lr:hasTag "MW-NE" ;
+	lcc-lr:identifies lcc-3166-2-mw:Neno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-NI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Ntchisi in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Ntchisi ;
+	lcc-lr:hasTag "MW-NI" ;
+	lcc-lr:identifies lcc-3166-2-mw:Ntchisi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-NK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-NK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Nkhotakota in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Nkhotakota ;
+	lcc-lr:hasTag "MW-NK" ;
+	lcc-lr:identifies lcc-3166-2-mw:Nkhotakota ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-NS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-NS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Nsanje in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Nsanje ;
+	lcc-lr:hasTag "MW-NS" ;
+	lcc-lr:identifies lcc-3166-2-mw:Nsanje ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-NU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-NU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Ntcheu in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Ntcheu ;
+	lcc-lr:hasTag "MW-NU" ;
+	lcc-lr:identifies lcc-3166-2-mw:Ntcheu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-PH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-PH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Phalombe in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Phalombe ;
+	lcc-lr:hasTag "MW-PH" ;
+	lcc-lr:identifies lcc-3166-2-mw:Phalombe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-RU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-RU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Rumphi in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Rumphi ;
+	lcc-lr:hasTag "MW-RU" ;
+	lcc-lr:identifies lcc-3166-2-mw:Rumphi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the region of Southern Region in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:SouthernRegion ;
+	lcc-lr:hasTag "MW-S" ;
+	lcc-lr:identifies lcc-3166-2-mw:SouthernRegion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Salima in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Salima ;
+	lcc-lr:hasTag "MW-SA" ;
+	lcc-lr:identifies lcc-3166-2-mw:Salima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-TH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-TH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Thyolo in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Thyolo ;
+	lcc-lr:hasTag "MW-TH" ;
+	lcc-lr:identifies lcc-3166-2-mw:Thyolo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:MW-ZO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MW-ZO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision code for the district of Zomba in the country of Malawi" ;
+	lcc-lr:denotes lcc-3166-2-mw:Zomba ;
+	lcc-lr:hasTag "MW-ZO" ;
+	lcc-lr:identifies lcc-3166-2-mw:Zomba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mw:Machinga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Machinga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Machinga in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Machinga"@en ;
+	lcc-cr:hasLocalShortName "Machinga"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Mangochi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mangochi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Mangochi in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Mangochi"@en ;
+	lcc-cr:hasLocalShortName "Mangochi"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Mchinji
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mchinji" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Mchinji in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Mchinji"@en ;
+	lcc-cr:hasLocalShortName "Mchinji"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:Mulanje
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mulanje" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Mulanje in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Mulanje"@en ;
+	lcc-cr:hasLocalShortName "Mulanje"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Mwanza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mwanza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Mwanza in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Mwanza"@en ;
+	lcc-cr:hasLocalShortName "Mwanza"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Mzimba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mzimba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Mzimba in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Mzimba"@en ;
+	lcc-cr:hasLocalShortName "Mzimba"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:NorthernRegion ;
+	.
+
+lcc-3166-2-mw:Neno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Neno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Neno in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Neno"@en ;
+	lcc-cr:hasLocalShortName "Neno"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:NkhataBay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nkhata Bay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Nkhata Bay in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Nkhata Bay"@en ;
+	lcc-cr:hasLocalShortName "Nkhata Bay"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:NorthernRegion ;
+	.
+
+lcc-3166-2-mw:Nkhotakota
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nkhotakota" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Nkhotakota in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Nkhotakota"@en ;
+	lcc-cr:hasLocalShortName "Nkhotakota"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:NorthernRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern Region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The region of Northern Region in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Northern Region"@en ;
+	lcc-cr:hasLocalShortName "Chakumpoto"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malawi ;
+	.
+
+lcc-3166-2-mw:Nsanje
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nsanje" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Nsanje in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Nsanje"@en ;
+	lcc-cr:hasLocalShortName "Nsanje"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Ntcheu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ntcheu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Ntcheu in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Ntcheu"@en ;
+	lcc-cr:hasLocalShortName "Ntcheu"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:Ntchisi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ntchisi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Ntchisi in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Ntchisi"@en ;
+	lcc-cr:hasLocalShortName "Ntchisi"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:Phalombe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Phalombe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Phalombe in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Phalombe"@en ;
+	lcc-cr:hasLocalShortName "Phalombe"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "subdivision category region in the country of Malawi" ;
+	.
+
+lcc-3166-2-mw:Rumphi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rumphi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Rumphi in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Rumphi"@en ;
+	lcc-cr:hasLocalShortName "Rumphi"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:NorthernRegion ;
+	.
+
+lcc-3166-2-mw:Salima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salima" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Salima in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Salima"@en ;
+	lcc-cr:hasLocalShortName "Salima"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:CentralRegion ;
+	.
+
+lcc-3166-2-mw:SouthernRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern Region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The region of Southern Region in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Southern Region"@en ;
+	lcc-cr:hasLocalShortName "Chakumwera"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malawi ;
+	.
+
+lcc-3166-2-mw:Thyolo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thyolo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Thyolo in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Thyolo"@en ;
+	lcc-cr:hasLocalShortName "Thyolo"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+
+lcc-3166-2-mw:Zomba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zomba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MW/> ;
+	skos:definition "The district of Zomba in the country of Malawi" ;
+	lcc-cr:hasEnglishShortName "Zomba"@en ;
+	lcc-cr:hasLocalShortName "Zomba"@ny ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mw:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-mw:SouthernRegion ;
+	.
+

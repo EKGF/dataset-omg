@@ -1,0 +1,292 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ne: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Niger (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ne" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Niger (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	.
+
+lcc-3166-2-ne:Agadez
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Agadez" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The region of Agadez in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Agadez"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+
+lcc-3166-2-ne:Diffa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Diffa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The region of Diffa in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Diffa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+
+lcc-3166-2-ne:Dosso
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dosso" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The region of Dosso in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Dosso"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+
+lcc-3166-2-ne:Maradi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maradi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The region of Maradi in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Maradi"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+
+lcc-3166-2-ne:NE-1
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the region of Agadez in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Agadez ;
+	lcc-lr:hasTag "NE-1" ;
+	lcc-lr:identifies lcc-3166-2-ne:Agadez ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:NE-2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the region of Diffa in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Diffa ;
+	lcc-lr:hasTag "NE-2" ;
+	lcc-lr:identifies lcc-3166-2-ne:Diffa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:NE-3
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the region of Dosso in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Dosso ;
+	lcc-lr:hasTag "NE-3" ;
+	lcc-lr:identifies lcc-3166-2-ne:Dosso ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:NE-4
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the region of Maradi in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Maradi ;
+	lcc-lr:hasTag "NE-4" ;
+	lcc-lr:identifies lcc-3166-2-ne:Maradi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:NE-5
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the region of Tahoua in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Tahoua ;
+	lcc-lr:hasTag "NE-5" ;
+	lcc-lr:identifies lcc-3166-2-ne:Tahoua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:NE-6
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the region of Tillabéri in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Tillaberi ;
+	lcc-lr:hasTag "NE-6" ;
+	lcc-lr:identifies lcc-3166-2-ne:Tillaberi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:NE-7
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the region of Zinder in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Zinder ;
+	lcc-lr:hasTag "NE-7" ;
+	lcc-lr:identifies lcc-3166-2-ne:Zinder ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:NE-8
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NE-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision code for the urban community of Niamey in the country of Niger (the)" ;
+	lcc-lr:denotes lcc-3166-2-ne:Niamey ;
+	lcc-lr:hasTag "NE-8" ;
+	lcc-lr:identifies lcc-3166-2-ne:Niamey ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ne:Niamey
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niamey" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The urban community of Niamey in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Niamey"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:UrbanCommunity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+
+lcc-3166-2-ne:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision category region in the country of Niger (the)" ;
+	.
+
+lcc-3166-2-ne:Tahoua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tahoua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The region of Tahoua in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Tahoua"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+
+lcc-3166-2-ne:Tillaberi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tillabéri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The region of Tillabéri in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Tillabéri"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+
+lcc-3166-2-ne:UrbanCommunity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "urban community" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "subdivision category urban community in the country of Niger (the)" ;
+	.
+
+lcc-3166-2-ne:Zinder
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zinder" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NE/> ;
+	skos:definition "The region of Zinder in the country of Niger (the)" ;
+	lcc-cr:hasFrenchShortName "Zinder"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ne:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Niger ;
+	.
+

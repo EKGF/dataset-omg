@@ -1,0 +1,474 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Mauritania Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Mauritania, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	.
+
+lcc-3166-2-mr:Adrar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Adrar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Adrar in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Adrar"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:Assaba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Assaba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Assaba in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Assaba"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:Brakna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brakna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Brakna in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Brakna"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:DakhletNouadhibou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dakhlet Nouâdhibou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Dakhlet Nouâdhibou in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Dakhlet Nouâdhibou"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:Gorgol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gorgol" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Gorgol in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Gorgol"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:Guidimaka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guidimaka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Guidimaka in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Guidimaka"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:HodhEchChargui
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hodh ech Chargui" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Hodh ech Chargui in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Hodh ech Chargui"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:HodhElGharbi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hodh el Gharbi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Hodh el Gharbi in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Hodh el Gharbi"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:Inchiri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Inchiri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Inchiri in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Inchiri"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:MR-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Hodh ech Chargui in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:HodhEchChargui ;
+	lcc-lr:hasTag "MR-01" ;
+	lcc-lr:identifies lcc-3166-2-mr:HodhEchChargui ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Hodh el Gharbi in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:HodhElGharbi ;
+	lcc-lr:hasTag "MR-02" ;
+	lcc-lr:identifies lcc-3166-2-mr:HodhElGharbi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Assaba in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Assaba ;
+	lcc-lr:hasTag "MR-03" ;
+	lcc-lr:identifies lcc-3166-2-mr:Assaba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Gorgol in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Gorgol ;
+	lcc-lr:hasTag "MR-04" ;
+	lcc-lr:identifies lcc-3166-2-mr:Gorgol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Brakna in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Brakna ;
+	lcc-lr:hasTag "MR-05" ;
+	lcc-lr:identifies lcc-3166-2-mr:Brakna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Trarza in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Trarza ;
+	lcc-lr:hasTag "MR-06" ;
+	lcc-lr:identifies lcc-3166-2-mr:Trarza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Adrar in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Adrar ;
+	lcc-lr:hasTag "MR-07" ;
+	lcc-lr:identifies lcc-3166-2-mr:Adrar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Dakhlet Nouâdhibou in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:DakhletNouadhibou ;
+	lcc-lr:hasTag "MR-08" ;
+	lcc-lr:identifies lcc-3166-2-mr:DakhletNouadhibou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Tagant in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Tagant ;
+	lcc-lr:hasTag "MR-09" ;
+	lcc-lr:identifies lcc-3166-2-mr:Tagant ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Guidimaka in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Guidimaka ;
+	lcc-lr:hasTag "MR-10" ;
+	lcc-lr:identifies lcc-3166-2-mr:Guidimaka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Tiris Zemmour in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:TirisZemmour ;
+	lcc-lr:hasTag "MR-11" ;
+	lcc-lr:identifies lcc-3166-2-mr:TirisZemmour ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Inchiri in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:Inchiri ;
+	lcc-lr:hasTag "MR-12" ;
+	lcc-lr:identifies lcc-3166-2-mr:Inchiri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Nouakchott Ouest in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:NouakchottOuest ;
+	lcc-lr:hasTag "MR-13" ;
+	lcc-lr:identifies lcc-3166-2-mr:NouakchottOuest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Nouakchott Nord in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:NouakchottNord ;
+	lcc-lr:hasTag "MR-14" ;
+	lcc-lr:identifies lcc-3166-2-mr:NouakchottNord ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:MR-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MR-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision code for the region of Nouakchott Sud in the country of Mauritania" ;
+	lcc-lr:denotes lcc-3166-2-mr:NouakchottSud ;
+	lcc-lr:hasTag "MR-15" ;
+	lcc-lr:identifies lcc-3166-2-mr:NouakchottSud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mr:NouakchottNord
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nouakchott Nord" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Nouakchott Nord in the country of Mauritania" ;
+	lcc-cr:hasFrenchShortName "Nouakchott Nord"@fr ;
+	lcc-cr:hasLocalShortName "Nuwākshūţ ash Shamālīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:NouakchottOuest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nouakchott Ouest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Nouakchott Ouest in the country of Mauritania" ;
+	lcc-cr:hasFrenchShortName "Nouakchott Ouest"@fr ;
+	lcc-cr:hasLocalShortName "Nuwākshūţ al Gharbīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:NouakchottSud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nouakchott Sud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Nouakchott Sud in the country of Mauritania" ;
+	lcc-cr:hasFrenchShortName "Nouakchott Sud"@fr ;
+	lcc-cr:hasLocalShortName "Nuwākshūţ al Janūbīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "subdivision category region in the country of Mauritania" ;
+	.
+
+lcc-3166-2-mr:Tagant
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tagant" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Tagant in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Tagant"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:TirisZemmour
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tiris Zemmour" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Tiris Zemmour in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Tiris Zemmour"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-2-mr:Trarza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trarza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MR/> ;
+	skos:definition "The region of Trarza in the country of Mauritania" ;
+	lcc-cr:hasLocalShortName "Trarza"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mr:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mauritania ;
+	.
+

@@ -1,0 +1,491 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Myanmar Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Myanmar, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	.
+
+lcc-3166-2-mm:Ayeyarwady
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ayeyarwady" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The region of Ayeyarwady in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Ayeyarwady"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Bago
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bago" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The region of Bago in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Bago"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Chin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The state of Chin in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Chin"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Kachin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kachin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The state of Kachin in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Kachin"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Kayah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kayah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The state of Kayah in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Kayah"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Kayin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kayin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The state of Kayin in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Kayin"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:MM-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the region of Sagaing in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Sagaing ;
+	lcc-lr:hasTag "MM-01" ;
+	lcc-lr:identifies lcc-3166-2-mm:Sagaing ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the region of Bago in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Bago ;
+	lcc-lr:hasTag "MM-02" ;
+	lcc-lr:identifies lcc-3166-2-mm:Bago ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the region of Magway in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Magway ;
+	lcc-lr:hasTag "MM-03" ;
+	lcc-lr:identifies lcc-3166-2-mm:Magway ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the region of Mandalay in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Mandalay ;
+	lcc-lr:hasTag "MM-04" ;
+	lcc-lr:identifies lcc-3166-2-mm:Mandalay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the region of Tanintharyi in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Tanintharyi ;
+	lcc-lr:hasTag "MM-05" ;
+	lcc-lr:identifies lcc-3166-2-mm:Tanintharyi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the region of Yangon in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Yangon ;
+	lcc-lr:hasTag "MM-06" ;
+	lcc-lr:identifies lcc-3166-2-mm:Yangon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the region of Ayeyarwady in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Ayeyarwady ;
+	lcc-lr:hasTag "MM-07" ;
+	lcc-lr:identifies lcc-3166-2-mm:Ayeyarwady ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the state of Kachin in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Kachin ;
+	lcc-lr:hasTag "MM-11" ;
+	lcc-lr:identifies lcc-3166-2-mm:Kachin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the state of Kayah in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Kayah ;
+	lcc-lr:hasTag "MM-12" ;
+	lcc-lr:identifies lcc-3166-2-mm:Kayah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the state of Kayin in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Kayin ;
+	lcc-lr:hasTag "MM-13" ;
+	lcc-lr:identifies lcc-3166-2-mm:Kayin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the state of Chin in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Chin ;
+	lcc-lr:hasTag "MM-14" ;
+	lcc-lr:identifies lcc-3166-2-mm:Chin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the state of Mon in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Mon ;
+	lcc-lr:hasTag "MM-15" ;
+	lcc-lr:identifies lcc-3166-2-mm:Mon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the state of Rakhine in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Rakhine ;
+	lcc-lr:hasTag "MM-16" ;
+	lcc-lr:identifies lcc-3166-2-mm:Rakhine ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the state of Shan in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:Shan ;
+	lcc-lr:hasTag "MM-17" ;
+	lcc-lr:identifies lcc-3166-2-mm:Shan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:MM-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MM-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision code for the union territory of Nay Pyi Taw in the country of Myanmar" ;
+	lcc-lr:denotes lcc-3166-2-mm:NayPyiTaw ;
+	lcc-lr:hasTag "MM-18" ;
+	lcc-lr:identifies lcc-3166-2-mm:NayPyiTaw ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mm:Magway
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Magway" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The region of Magway in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Magway"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Mandalay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mandalay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The region of Mandalay in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Mandalay"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Mon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The state of Mon in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Mon"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:NayPyiTaw
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nay Pyi Taw" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The union territory of Nay Pyi Taw in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Nay Pyi Taw"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Rakhine
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rakhine" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The state of Rakhine in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Rakhine"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision category region in the country of Myanmar" ;
+	.
+
+lcc-3166-2-mm:Sagaing
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sagaing" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The region of Sagaing in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Sagaing"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:Shan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The state of Shan in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Shan"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision category state in the country of Myanmar" ;
+	.
+
+lcc-3166-2-mm:Tanintharyi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tanintharyi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The region of Tanintharyi in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Tanintharyi"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-2-mm:UnionTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "union territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "subdivision category union territory in the country of Myanmar" ;
+	.
+
+lcc-3166-2-mm:Yangon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yangon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MM/> ;
+	skos:definition "The region of Yangon in the country of Myanmar" ;
+	lcc-cr:hasLocalShortName "Yangon"@my ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mm:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Myanmar ;
+	.
+

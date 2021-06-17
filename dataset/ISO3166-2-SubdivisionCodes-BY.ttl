@@ -1,0 +1,298 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-by: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Belarus Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-by" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Belarus, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	.
+
+lcc-3166-2-by:BY-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BY-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision code for the oblast of Brestskaya oblast' in the country of Belarus" ;
+	lcc-lr:denotes lcc-3166-2-by:BrestskayaOblast ;
+	lcc-lr:hasTag "BY-BR" ;
+	lcc-lr:identifies lcc-3166-2-by:BrestskayaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-by:BY-HM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BY-HM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision code for the city of Horad Minsk in the country of Belarus" ;
+	lcc-lr:denotes lcc-3166-2-by:HoradMinsk ;
+	lcc-lr:hasTag "BY-HM" ;
+	lcc-lr:identifies lcc-3166-2-by:HoradMinsk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-by:BY-HO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BY-HO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision code for the oblast of Gomel'skaja oblast' in the country of Belarus" ;
+	lcc-lr:denotes lcc-3166-2-by:GomelskajaOblast ;
+	lcc-lr:hasTag "BY-HO" ;
+	lcc-lr:identifies lcc-3166-2-by:GomelskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-by:BY-HR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BY-HR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision code for the oblast of Grodnenskaja oblast' in the country of Belarus" ;
+	lcc-lr:denotes lcc-3166-2-by:GrodnenskajaOblast ;
+	lcc-lr:hasTag "BY-HR" ;
+	lcc-lr:identifies lcc-3166-2-by:GrodnenskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-by:BY-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BY-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision code for the oblast of Mogilevskaja oblast' in the country of Belarus" ;
+	lcc-lr:denotes lcc-3166-2-by:MogilevskajaOblast ;
+	lcc-lr:hasTag "BY-MA" ;
+	lcc-lr:identifies lcc-3166-2-by:MogilevskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-by:BY-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BY-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision code for the oblast of Minskaja voblasć in the country of Belarus" ;
+	lcc-lr:denotes lcc-3166-2-by:MinskajaVoblasc ;
+	lcc-lr:hasTag "BY-MI" ;
+	lcc-lr:identifies lcc-3166-2-by:MinskajaVoblasc ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-by:BY-VI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BY-VI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision code for the oblast of Viciebskaja voblasć in the country of Belarus" ;
+	lcc-lr:denotes lcc-3166-2-by:ViciebskajaVoblasc ;
+	lcc-lr:hasTag "BY-VI" ;
+	lcc-lr:identifies lcc-3166-2-by:ViciebskajaVoblasc ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-by:BrestskayaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brestskaya oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "The oblast of Brestskaya oblast' in the country of Belarus" ;
+	lcc-cr:hasLocalShortName
+		"Bresckaja voblasć"@be ,
+		"Brestskaja oblast'"@ru ,
+		"Brestskaya oblast'"@ru ,
+		"Brestskaya voblasts'"@be
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-by:Oblast ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belarus ;
+	.
+
+lcc-3166-2-by:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision category city in the country of Belarus" ;
+	.
+
+lcc-3166-2-by:GomelskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gomel'skaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "The oblast of Gomel'skaja oblast' in the country of Belarus" ;
+	lcc-cr:hasLocalShortName
+		"Gomel'skaja oblast'"@ru ,
+		"Gomel'skaya oblast'"@ru ,
+		"Homieĺskaja voblasć"@be ,
+		"Homyel'skaya voblasts'"@be
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-by:Oblast ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belarus ;
+	.
+
+lcc-3166-2-by:GrodnenskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grodnenskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "The oblast of Grodnenskaja oblast' in the country of Belarus" ;
+	lcc-cr:hasLocalShortName
+		"Grodnenskaja oblast'"@ru ,
+		"Grodnenskaya oblast'"@ru ,
+		"Hrodzenskaya voblasts'"@be ,
+		"Hrodzienskaja voblasć"@be
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-by:Oblast ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belarus ;
+	.
+
+lcc-3166-2-by:HoradMinsk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Horad Minsk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "The city of Horad Minsk in the country of Belarus" ;
+	lcc-cr:hasLocalShortName
+		"Gorod Minsk"@ru ,
+		"Horad Minsk"@be
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-by:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belarus ;
+	.
+
+lcc-3166-2-by:MinskajaVoblasc
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Minskaja voblasć" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "The oblast of Minskaja voblasć in the country of Belarus" ;
+	lcc-cr:hasLocalShortName
+		"Minskaja oblast'"@ru ,
+		"Minskaja voblasć"@be ,
+		"Minskaya oblast'"@ru ,
+		"Minskaya voblasts'"@be
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-by:Oblast ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belarus ;
+	.
+
+lcc-3166-2-by:MogilevskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mogilevskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "The oblast of Mogilevskaja oblast' in the country of Belarus" ;
+	lcc-cr:hasLocalShortName
+		"Mahilioŭskaja voblasć"@be ,
+		"Mahilyowskaya voblasts'"@be ,
+		"Mogilevskaja oblast'"@ru ,
+		"Mogilevskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-by:Oblast ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belarus ;
+	.
+
+lcc-3166-2-by:Oblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "subdivision category oblast in the country of Belarus" ;
+	.
+
+lcc-3166-2-by:ViciebskajaVoblasc
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Viciebskaja voblasć" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BY/> ;
+	skos:definition "The oblast of Viciebskaja voblasć in the country of Belarus" ;
+	lcc-cr:hasLocalShortName
+		"Viciebskaja voblasć"@be ,
+		"Vitebskaja oblast'"@ru ,
+		"Vitebskaya oblast'"@ru ,
+		"Vitsyebskaya voblasts'"@be
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-by:Oblast ;
+	lcc-cr:isSubregionOf lcc-3166-1:Belarus ;
+	.
+

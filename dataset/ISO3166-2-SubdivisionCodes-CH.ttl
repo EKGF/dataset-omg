@@ -1,0 +1,776 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ch: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Switzerland Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ch" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Switzerland, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CH.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	.
+
+lcc-3166-2-ch:Aargau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aargau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Aargau in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Aargau"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:AppenzellAusserrhoden
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Appenzell Ausserrhoden" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Appenzell Ausserrhoden in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Appenzell Ausserrhoden"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:AppenzellInnerrhoden
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Appenzell Innerrhoden" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Appenzell Innerrhoden in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Appenzell Innerrhoden"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Basel-Landschaft
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Basel-Landschaft" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Basel-Landschaft in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Basel-Landschaft"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Basel-Stadt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Basel-Stadt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Basel-Stadt in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Basel-Stadt"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Bern
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bern" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Bern in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Berne"@fr ;
+	lcc-cr:hasLocalShortName "Bern"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:CH-AG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-AG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Aargau in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Aargau ;
+	lcc-lr:hasTag "CH-AG" ;
+	lcc-lr:identifies lcc-3166-2-ch:Aargau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-AI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-AI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Appenzell Innerrhoden in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:AppenzellInnerrhoden ;
+	lcc-lr:hasTag "CH-AI" ;
+	lcc-lr:identifies lcc-3166-2-ch:AppenzellInnerrhoden ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Appenzell Ausserrhoden in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:AppenzellAusserrhoden ;
+	lcc-lr:hasTag "CH-AR" ;
+	lcc-lr:identifies lcc-3166-2-ch:AppenzellAusserrhoden ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-BE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Bern in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Bern ;
+	lcc-lr:hasTag "CH-BE" ;
+	lcc-lr:identifies lcc-3166-2-ch:Bern ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-BL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-BL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Basel-Landschaft in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Basel-Landschaft ;
+	lcc-lr:hasTag "CH-BL" ;
+	lcc-lr:identifies lcc-3166-2-ch:Basel-Landschaft ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-BS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-BS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Basel-Stadt in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Basel-Stadt ;
+	lcc-lr:hasTag "CH-BS" ;
+	lcc-lr:identifies lcc-3166-2-ch:Basel-Stadt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-FR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-FR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Freiburg in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Freiburg ;
+	lcc-lr:hasTag "CH-FR" ;
+	lcc-lr:identifies lcc-3166-2-ch:Freiburg ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-GE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-GE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Genève in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Geneve ;
+	lcc-lr:hasTag "CH-GE" ;
+	lcc-lr:identifies lcc-3166-2-ch:Geneve ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-GL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-GL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Glarus in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Glarus ;
+	lcc-lr:hasTag "CH-GL" ;
+	lcc-lr:identifies lcc-3166-2-ch:Glarus ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-GR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Grigioni in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Grigioni ;
+	lcc-lr:hasTag "CH-GR" ;
+	lcc-lr:identifies lcc-3166-2-ch:Grigioni ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-JU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-JU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Jura in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Jura ;
+	lcc-lr:hasTag "CH-JU" ;
+	lcc-lr:identifies lcc-3166-2-ch:Jura ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-LU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-LU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Luzern in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Luzern ;
+	lcc-lr:hasTag "CH-LU" ;
+	lcc-lr:identifies lcc-3166-2-ch:Luzern ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-NE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-NE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Neuchâtel in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Neuchatel ;
+	lcc-lr:hasTag "CH-NE" ;
+	lcc-lr:identifies lcc-3166-2-ch:Neuchatel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-NW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-NW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Nidwalden in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Nidwalden ;
+	lcc-lr:hasTag "CH-NW" ;
+	lcc-lr:identifies lcc-3166-2-ch:Nidwalden ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-OW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-OW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Obwalden in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Obwalden ;
+	lcc-lr:hasTag "CH-OW" ;
+	lcc-lr:identifies lcc-3166-2-ch:Obwalden ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-SG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-SG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Sankt Gallen in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:SanktGallen ;
+	lcc-lr:hasTag "CH-SG" ;
+	lcc-lr:identifies lcc-3166-2-ch:SanktGallen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-SH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-SH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Schaffhausen in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Schaffhausen ;
+	lcc-lr:hasTag "CH-SH" ;
+	lcc-lr:identifies lcc-3166-2-ch:Schaffhausen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Solothurn in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Solothurn ;
+	lcc-lr:hasTag "CH-SO" ;
+	lcc-lr:identifies lcc-3166-2-ch:Solothurn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-SZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-SZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Schwyz in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Schwyz ;
+	lcc-lr:hasTag "CH-SZ" ;
+	lcc-lr:identifies lcc-3166-2-ch:Schwyz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-TG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-TG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Thurgau in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Thurgau ;
+	lcc-lr:hasTag "CH-TG" ;
+	lcc-lr:identifies lcc-3166-2-ch:Thurgau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-TI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-TI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Ticino in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Ticino ;
+	lcc-lr:hasTag "CH-TI" ;
+	lcc-lr:identifies lcc-3166-2-ch:Ticino ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-UR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-UR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Uri in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Uri ;
+	lcc-lr:hasTag "CH-UR" ;
+	lcc-lr:identifies lcc-3166-2-ch:Uri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-VD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-VD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Vaud in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Vaud ;
+	lcc-lr:hasTag "CH-VD" ;
+	lcc-lr:identifies lcc-3166-2-ch:Vaud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-VS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-VS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Valais in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Valais ;
+	lcc-lr:hasTag "CH-VS" ;
+	lcc-lr:identifies lcc-3166-2-ch:Valais ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-ZG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-ZG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Zug in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Zug ;
+	lcc-lr:hasTag "CH-ZG" ;
+	lcc-lr:identifies lcc-3166-2-ch:Zug ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:CH-ZH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CH-ZH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision code for the canton of Zürich in the country of Switzerland" ;
+	lcc-lr:denotes lcc-3166-2-ch:Zurich ;
+	lcc-lr:hasTag "CH-ZH" ;
+	lcc-lr:identifies lcc-3166-2-ch:Zurich ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ch:Canton
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "canton" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "subdivision category canton in the country of Switzerland" ;
+	.
+
+lcc-3166-2-ch:Freiburg
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Freiburg" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Freiburg in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Fribourg"@fr ;
+	lcc-cr:hasLocalShortName "Freiburg"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Geneve
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Genève" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Genève in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Genève"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Glarus
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Glarus" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Glarus in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Glarus"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Grigioni
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grigioni" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Grigioni in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Grisons"@fr ;
+	lcc-cr:hasLocalShortName
+		"Graubünden"@de ,
+		"Grigioni"@it ,
+		"Grischun"@rm
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Jura
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jura" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Jura in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Jura"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Luzern
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luzern" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Luzern in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Luzern"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Neuchatel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Neuchâtel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Neuchâtel in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Neuchâtel"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Nidwalden
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nidwalden" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Nidwalden in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Nidwalden"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Obwalden
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Obwalden" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Obwalden in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Obwalden"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:SanktGallen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sankt Gallen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Sankt Gallen in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Sankt Gallen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Schaffhausen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Schaffhausen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Schaffhausen in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Schaffhausen"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Schwyz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Schwyz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Schwyz in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Schwyz"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Solothurn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Solothurn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Solothurn in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Solothurn"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Thurgau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Thurgau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Thurgau in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Thurgau"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Ticino
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ticino" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Ticino in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Ticino"@it ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Uri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Uri in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Uri"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Valais
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valais" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Valais in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Valais"@fr ;
+	lcc-cr:hasLocalShortName "Wallis"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Vaud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vaud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Vaud in the country of Switzerland" ;
+	lcc-cr:hasFrenchShortName "Vaud"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Zug
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zug" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Zug in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Zug"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-2-ch:Zurich
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zürich" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/> ;
+	skos:definition "The canton of Zürich in the country of Switzerland" ;
+	lcc-cr:hasLocalShortName "Zürich"@de ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ch:Canton ;
+	lcc-cr:isSubregionOf lcc-3166-1:Switzerland ;
+	.
+

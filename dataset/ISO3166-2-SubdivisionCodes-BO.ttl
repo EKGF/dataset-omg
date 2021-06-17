@@ -1,0 +1,309 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bo: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Bolivia (Plurinational State of) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bo" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Bolivia (Plurinational State of), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	.
+
+lcc-3166-2-bo:BO-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of El Beni in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:ElBeni ;
+	lcc-lr:hasTag "BO-B" ;
+	lcc-lr:identifies lcc-3166-2-bo:ElBeni ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of Cochabamba in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:Cochabamba ;
+	lcc-lr:hasTag "BO-C" ;
+	lcc-lr:identifies lcc-3166-2-bo:Cochabamba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-H
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of Chuquisaca in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:Chuquisaca ;
+	lcc-lr:hasTag "BO-H" ;
+	lcc-lr:identifies lcc-3166-2-bo:Chuquisaca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-L
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of La Paz in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:LaPaz ;
+	lcc-lr:hasTag "BO-L" ;
+	lcc-lr:identifies lcc-3166-2-bo:LaPaz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-N
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of Pando in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:Pando ;
+	lcc-lr:hasTag "BO-N" ;
+	lcc-lr:identifies lcc-3166-2-bo:Pando ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-O
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-O" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of Oruro in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:Oruro ;
+	lcc-lr:hasTag "BO-O" ;
+	lcc-lr:identifies lcc-3166-2-bo:Oruro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-P
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of Potosí in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:Potosi ;
+	lcc-lr:hasTag "BO-P" ;
+	lcc-lr:identifies lcc-3166-2-bo:Potosi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of Santa Cruz in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:SantaCruz ;
+	lcc-lr:hasTag "BO-S" ;
+	lcc-lr:identifies lcc-3166-2-bo:SantaCruz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:BO-T
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BO-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision code for the department of Tarija in the country of Bolivia (Plurinational State of)" ;
+	lcc-lr:denotes lcc-3166-2-bo:Tarija ;
+	lcc-lr:hasTag "BO-T" ;
+	lcc-lr:identifies lcc-3166-2-bo:Tarija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bo:Chuquisaca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chuquisaca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of Chuquisaca in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "Chuquisaca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:Cochabamba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cochabamba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of Cochabamba in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "Cochabamba"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "subdivision category department in the country of Bolivia (Plurinational State of)" ;
+	.
+
+lcc-3166-2-bo:ElBeni
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Beni" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of El Beni in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "El Beni"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:LaPaz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Paz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of La Paz in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "La Paz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:Oruro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oruro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of Oruro in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "Oruro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:Pando
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pando" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of Pando in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "Pando"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:Potosi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Potosí" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of Potosí in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "Potosí"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:SantaCruz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Cruz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of Santa Cruz in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "Santa Cruz"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-2-bo:Tarija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BO/> ;
+	skos:definition "The department of Tarija in the country of Bolivia (Plurinational State of)" ;
+	lcc-cr:hasLocalShortName "Tarija"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bo:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bolivia ;
+	.
+

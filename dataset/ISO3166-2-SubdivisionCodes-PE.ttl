@@ -1,0 +1,882 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-pe: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Peru Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-pe" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Peru, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	.
+
+lcc-3166-2-pe:Amasunu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amasunu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Amasunu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Amarumayu"@qu ,
+		"Amasunu"@ay ,
+		"Amazonas"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Anqash
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anqash" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Anqash in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ancash"@es ,
+		"Ankashu"@ay ,
+		"Anqash"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Apurimaq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Apurimaq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Apurimaq in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Apurimaq"@ay ,
+		"Apurimaq"@qu ,
+		"Apurímac"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Ariqipa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ariqipa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Ariqipa in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Arequipa"@es ,
+		"Arikipa"@ay ,
+		"Ariqipa"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Ayacucho
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ayacucho" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Ayacucho in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ayacucho"@es ,
+		"Ayakuchu"@qu ,
+		"Ayaquchu"@ay
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Cusco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cusco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Cusco in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Cusco"@es ,
+		"Kusku"@ay ,
+		"Qusqu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:ElCallao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Callao" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of El Callao in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"El Callao"@es ,
+		"Kallao"@ay ,
+		"Qallaw"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Huanuco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Huánuco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Huánuco in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Huánuco"@es ,
+		"Wanuku"@ay ,
+		"Wanuku"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Ica
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ica" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Ica in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ica"@es ,
+		"Ika"@ay ,
+		"Ika"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Junin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Junín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Junín in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Hunin"@qu ,
+		"Junin"@ay ,
+		"Junín"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Kashamarka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kashamarka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Kashamarka in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Cajamarca"@es ,
+		"Kashamarka"@qu ,
+		"Qajamarka"@ay
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:LaLibertad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Libertad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of La Libertad in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"La Libertad"@ay ,
+		"La Libertad"@es ,
+		"Qispi kay"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Lambayeque
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lambayeque" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Lambayeque in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Lambayeque"@ay ,
+		"Lambayeque"@es ,
+		"Lampalliqi"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Lima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lima" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Lima in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Lima"@ay ,
+		"Lima"@es ,
+		"Lima"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:LimaLlaqtaSuyu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lima llaqta suyu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The municipality of Lima llaqta suyu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Lima hatun llaqta"@ay ,
+		"Lima llaqta suyu"@qu ,
+		"Municipalidad Metropolitana de Lima"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Luritu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luritu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Luritu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Loreto"@es ,
+		"Luritu"@ay ,
+		"Luritu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Mayutata
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mayutata" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Mayutata in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Madre de Dios"@ay ,
+		"Madre de Dios"@es ,
+		"Mayutata"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Moquegua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moquegua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Moquegua in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Moquegua"@es ,
+		"Moqwegwa"@ay ,
+		"Muqiwa"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision category municipality in the country of Peru" ;
+	.
+
+lcc-3166-2-pe:PE-AMA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-AMA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Amasunu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Amasunu ;
+	lcc-lr:hasTag "PE-AMA" ;
+	lcc-lr:identifies lcc-3166-2-pe:Amasunu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-ANC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-ANC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Anqash in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Anqash ;
+	lcc-lr:hasTag "PE-ANC" ;
+	lcc-lr:identifies lcc-3166-2-pe:Anqash ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-APU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-APU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Apurimaq in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Apurimaq ;
+	lcc-lr:hasTag "PE-APU" ;
+	lcc-lr:identifies lcc-3166-2-pe:Apurimaq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-ARE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-ARE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Ariqipa in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Ariqipa ;
+	lcc-lr:hasTag "PE-ARE" ;
+	lcc-lr:identifies lcc-3166-2-pe:Ariqipa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-AYA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-AYA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Ayacucho in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Ayacucho ;
+	lcc-lr:hasTag "PE-AYA" ;
+	lcc-lr:identifies lcc-3166-2-pe:Ayacucho ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-CAJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-CAJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Kashamarka in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Kashamarka ;
+	lcc-lr:hasTag "PE-CAJ" ;
+	lcc-lr:identifies lcc-3166-2-pe:Kashamarka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-CAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-CAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of El Callao in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:ElCallao ;
+	lcc-lr:hasTag "PE-CAL" ;
+	lcc-lr:identifies lcc-3166-2-pe:ElCallao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-CUS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-CUS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Cusco in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Cusco ;
+	lcc-lr:hasTag "PE-CUS" ;
+	lcc-lr:identifies lcc-3166-2-pe:Cusco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-HUC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-HUC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Huánuco in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Huanuco ;
+	lcc-lr:hasTag "PE-HUC" ;
+	lcc-lr:identifies lcc-3166-2-pe:Huanuco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-HUV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-HUV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Wankawelika in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Wankawelika ;
+	lcc-lr:hasTag "PE-HUV" ;
+	lcc-lr:identifies lcc-3166-2-pe:Wankawelika ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-ICA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-ICA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Ica in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Ica ;
+	lcc-lr:hasTag "PE-ICA" ;
+	lcc-lr:identifies lcc-3166-2-pe:Ica ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-JUN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-JUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Junín in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Junin ;
+	lcc-lr:hasTag "PE-JUN" ;
+	lcc-lr:identifies lcc-3166-2-pe:Junin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of La Libertad in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:LaLibertad ;
+	lcc-lr:hasTag "PE-LAL" ;
+	lcc-lr:identifies lcc-3166-2-pe:LaLibertad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Lambayeque in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Lambayeque ;
+	lcc-lr:hasTag "PE-LAM" ;
+	lcc-lr:identifies lcc-3166-2-pe:Lambayeque ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LIM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LIM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Lima in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Lima ;
+	lcc-lr:hasTag "PE-LIM" ;
+	lcc-lr:identifies lcc-3166-2-pe:Lima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LMA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LMA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the municipality of Lima llaqta suyu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:LimaLlaqtaSuyu ;
+	lcc-lr:hasTag "PE-LMA" ;
+	lcc-lr:identifies lcc-3166-2-pe:LimaLlaqtaSuyu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-LOR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-LOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Luritu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Luritu ;
+	lcc-lr:hasTag "PE-LOR" ;
+	lcc-lr:identifies lcc-3166-2-pe:Luritu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-MDD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-MDD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Mayutata in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Mayutata ;
+	lcc-lr:hasTag "PE-MDD" ;
+	lcc-lr:identifies lcc-3166-2-pe:Mayutata ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-MOQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-MOQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Moquegua in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Moquegua ;
+	lcc-lr:hasTag "PE-MOQ" ;
+	lcc-lr:identifies lcc-3166-2-pe:Moquegua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-PAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-PAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Pasqu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Pasqu ;
+	lcc-lr:hasTag "PE-PAS" ;
+	lcc-lr:identifies lcc-3166-2-pe:Pasqu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-PIU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-PIU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Piwra in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Piwra ;
+	lcc-lr:hasTag "PE-PIU" ;
+	lcc-lr:identifies lcc-3166-2-pe:Piwra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-PUN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-PUN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Punu in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Punu ;
+	lcc-lr:hasTag "PE-PUN" ;
+	lcc-lr:identifies lcc-3166-2-pe:Punu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-SAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-SAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of San Martin in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:SanMartin ;
+	lcc-lr:hasTag "PE-SAM" ;
+	lcc-lr:identifies lcc-3166-2-pe:SanMartin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-TAC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-TAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Tacna in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Tacna ;
+	lcc-lr:hasTag "PE-TAC" ;
+	lcc-lr:identifies lcc-3166-2-pe:Tacna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-TUM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-TUM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Tumbes in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Tumbes ;
+	lcc-lr:hasTag "PE-TUM" ;
+	lcc-lr:identifies lcc-3166-2-pe:Tumbes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:PE-UCA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PE-UCA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision code for the region of Ucayali in the country of Peru" ;
+	lcc-lr:denotes lcc-3166-2-pe:Ucayali ;
+	lcc-lr:hasTag "PE-UCA" ;
+	lcc-lr:identifies lcc-3166-2-pe:Ucayali ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-pe:Pasqu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pasqu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Pasqu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Pasco"@es ,
+		"Pasqu"@ay ,
+		"Pasqu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Piwra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Piwra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Piwra in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Piura"@ay ,
+		"Piura"@es ,
+		"Piwra"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Punu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Punu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Punu in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Puno"@ay ,
+		"Puno"@es ,
+		"Punu"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "subdivision category region in the country of Peru" ;
+	.
+
+lcc-3166-2-pe:SanMartin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Martin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of San Martin in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"San Martin"@qu ,
+		"San Martín"@ay ,
+		"San Martín"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Tacna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tacna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Tacna in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Tacna"@es ,
+		"Takna"@ay ,
+		"Taqna"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Tumbes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tumbes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Tumbes in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Tumbes"@ay ,
+		"Tumbes"@es ,
+		"Tumpis"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Ucayali
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ucayali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Ucayali in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Ucayali"@es ,
+		"Ukayali"@ay ,
+		"Ukayali"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+
+lcc-3166-2-pe:Wankawelika
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wankawelika" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PE/> ;
+	skos:definition "The region of Wankawelika in the country of Peru" ;
+	lcc-cr:hasLocalShortName
+		"Huancavelica"@es ,
+		"Wankawelika"@ay ,
+		"Wankawillka"@qu
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-pe:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Peru ;
+	.
+

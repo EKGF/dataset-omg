@@ -1,0 +1,940 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mx: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Mexico Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mx" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Mexico, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MX.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	.
+
+lcc-3166-2-mx:Aguascalientes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aguascalientes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Aguascalientes in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Aguascalientes"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:BajaCalifornia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baja California" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Baja California in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Baja California"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:BajaCaliforniaSur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baja California Sur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Baja California Sur in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Baja California Sur"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Campeche
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Campeche" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Campeche in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Campeche"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Chiapas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chiapas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Chiapas in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Chiapas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Chihuahua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chihuahua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Chihuahua in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Chihuahua"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:CiudadDeMexico
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ciudad de México" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The federal district of Ciudad de México in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Ciudad de México"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:FederalDistrict ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:CoahuilaDeZaragoza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Coahuila de Zaragoza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Coahuila de Zaragoza in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Coahuila de Zaragoza"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Colima
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Colima" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Colima in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Colima"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Durango
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Durango" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Durango in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Durango"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:FederalDistrict
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "federal district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision category federal district in the country of Mexico" ;
+	.
+
+lcc-3166-2-mx:Guanajuato
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guanajuato" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Guanajuato in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Guanajuato"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Guerrero
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guerrero" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Guerrero in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Guerrero"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Hidalgo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hidalgo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Hidalgo in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Hidalgo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Jalisco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jalisco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Jalisco in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Jalisco"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:MX-AGU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-AGU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Aguascalientes in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Aguascalientes ;
+	lcc-lr:hasTag "MX-AGU" ;
+	lcc-lr:identifies lcc-3166-2-mx:Aguascalientes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-BCN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-BCN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Baja California in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:BajaCalifornia ;
+	lcc-lr:hasTag "MX-BCN" ;
+	lcc-lr:identifies lcc-3166-2-mx:BajaCalifornia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-BCS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-BCS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Baja California Sur in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:BajaCaliforniaSur ;
+	lcc-lr:hasTag "MX-BCS" ;
+	lcc-lr:identifies lcc-3166-2-mx:BajaCaliforniaSur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-CAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-CAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Campeche in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Campeche ;
+	lcc-lr:hasTag "MX-CAM" ;
+	lcc-lr:identifies lcc-3166-2-mx:Campeche ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-CHH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-CHH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Chihuahua in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Chihuahua ;
+	lcc-lr:hasTag "MX-CHH" ;
+	lcc-lr:identifies lcc-3166-2-mx:Chihuahua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-CHP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-CHP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Chiapas in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Chiapas ;
+	lcc-lr:hasTag "MX-CHP" ;
+	lcc-lr:identifies lcc-3166-2-mx:Chiapas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-CMX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-CMX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the federal district of Ciudad de México in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:CiudadDeMexico ;
+	lcc-lr:hasTag "MX-CMX" ;
+	lcc-lr:identifies lcc-3166-2-mx:CiudadDeMexico ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-COA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-COA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Coahuila de Zaragoza in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:CoahuilaDeZaragoza ;
+	lcc-lr:hasTag "MX-COA" ;
+	lcc-lr:identifies lcc-3166-2-mx:CoahuilaDeZaragoza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-COL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-COL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Colima in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Colima ;
+	lcc-lr:hasTag "MX-COL" ;
+	lcc-lr:identifies lcc-3166-2-mx:Colima ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-DUR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-DUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Durango in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Durango ;
+	lcc-lr:hasTag "MX-DUR" ;
+	lcc-lr:identifies lcc-3166-2-mx:Durango ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-GRO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-GRO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Guerrero in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Guerrero ;
+	lcc-lr:hasTag "MX-GRO" ;
+	lcc-lr:identifies lcc-3166-2-mx:Guerrero ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-GUA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-GUA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Guanajuato in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Guanajuato ;
+	lcc-lr:hasTag "MX-GUA" ;
+	lcc-lr:identifies lcc-3166-2-mx:Guanajuato ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-HID
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-HID" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Hidalgo in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Hidalgo ;
+	lcc-lr:hasTag "MX-HID" ;
+	lcc-lr:identifies lcc-3166-2-mx:Hidalgo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-JAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-JAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Jalisco in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Jalisco ;
+	lcc-lr:hasTag "MX-JAL" ;
+	lcc-lr:identifies lcc-3166-2-mx:Jalisco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-MEX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-MEX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of México in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Mexico ;
+	lcc-lr:hasTag "MX-MEX" ;
+	lcc-lr:identifies lcc-3166-2-mx:Mexico ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-MIC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-MIC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Michoacán de Ocampo in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:MichoacanDeOcampo ;
+	lcc-lr:hasTag "MX-MIC" ;
+	lcc-lr:identifies lcc-3166-2-mx:MichoacanDeOcampo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-MOR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-MOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Morelos in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Morelos ;
+	lcc-lr:hasTag "MX-MOR" ;
+	lcc-lr:identifies lcc-3166-2-mx:Morelos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-NAY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-NAY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Nayarit in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Nayarit ;
+	lcc-lr:hasTag "MX-NAY" ;
+	lcc-lr:identifies lcc-3166-2-mx:Nayarit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-NLE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-NLE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Nuevo León in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:NuevoLeon ;
+	lcc-lr:hasTag "MX-NLE" ;
+	lcc-lr:identifies lcc-3166-2-mx:NuevoLeon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-OAX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-OAX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Oaxaca in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Oaxaca ;
+	lcc-lr:hasTag "MX-OAX" ;
+	lcc-lr:identifies lcc-3166-2-mx:Oaxaca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-PUE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-PUE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Puebla in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Puebla ;
+	lcc-lr:hasTag "MX-PUE" ;
+	lcc-lr:identifies lcc-3166-2-mx:Puebla ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-QUE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-QUE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Querétaro in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Queretaro ;
+	lcc-lr:hasTag "MX-QUE" ;
+	lcc-lr:identifies lcc-3166-2-mx:Queretaro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-ROO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-ROO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Quintana Roo in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:QuintanaRoo ;
+	lcc-lr:hasTag "MX-ROO" ;
+	lcc-lr:identifies lcc-3166-2-mx:QuintanaRoo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-SIN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-SIN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Sinaloa in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Sinaloa ;
+	lcc-lr:hasTag "MX-SIN" ;
+	lcc-lr:identifies lcc-3166-2-mx:Sinaloa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-SLP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-SLP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of San Luis Potosí in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:SanLuisPotosi ;
+	lcc-lr:hasTag "MX-SLP" ;
+	lcc-lr:identifies lcc-3166-2-mx:SanLuisPotosi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-SON
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-SON" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Sonora in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Sonora ;
+	lcc-lr:hasTag "MX-SON" ;
+	lcc-lr:identifies lcc-3166-2-mx:Sonora ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-TAB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-TAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Tabasco in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Tabasco ;
+	lcc-lr:hasTag "MX-TAB" ;
+	lcc-lr:identifies lcc-3166-2-mx:Tabasco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-TAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-TAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Tamaulipas in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Tamaulipas ;
+	lcc-lr:hasTag "MX-TAM" ;
+	lcc-lr:identifies lcc-3166-2-mx:Tamaulipas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-TLA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-TLA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Tlaxcala in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Tlaxcala ;
+	lcc-lr:hasTag "MX-TLA" ;
+	lcc-lr:identifies lcc-3166-2-mx:Tlaxcala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-VER
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-VER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Veracruz de Ignacio de la Llave in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:VeracruzDeIgnacioDeLaLlave ;
+	lcc-lr:hasTag "MX-VER" ;
+	lcc-lr:identifies lcc-3166-2-mx:VeracruzDeIgnacioDeLaLlave ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-YUC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-YUC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Yucatán in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Yucatan ;
+	lcc-lr:hasTag "MX-YUC" ;
+	lcc-lr:identifies lcc-3166-2-mx:Yucatan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:MX-ZAC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MX-ZAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision code for the state of Zacatecas in the country of Mexico" ;
+	lcc-lr:denotes lcc-3166-2-mx:Zacatecas ;
+	lcc-lr:hasTag "MX-ZAC" ;
+	lcc-lr:identifies lcc-3166-2-mx:Zacatecas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mx:Mexico
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "México" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of México in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "México"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:MichoacanDeOcampo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Michoacán de Ocampo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Michoacán de Ocampo in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Michoacán de Ocampo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Morelos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Morelos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Morelos in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Morelos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Nayarit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nayarit" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Nayarit in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Nayarit"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:NuevoLeon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nuevo León" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Nuevo León in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Nuevo León"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Oaxaca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oaxaca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Oaxaca in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Oaxaca"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Puebla
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Puebla" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Puebla in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Puebla"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Queretaro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Querétaro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Querétaro in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Querétaro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:QuintanaRoo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quintana Roo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Quintana Roo in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Quintana Roo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:SanLuisPotosi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Luis Potosí" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of San Luis Potosí in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "San Luis Potosí"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Sinaloa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sinaloa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Sinaloa in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Sinaloa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Sonora
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sonora" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Sonora in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Sonora"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "subdivision category state in the country of Mexico" ;
+	.
+
+lcc-3166-2-mx:Tabasco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tabasco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Tabasco in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Tabasco"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Tamaulipas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tamaulipas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Tamaulipas in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Tamaulipas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Tlaxcala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tlaxcala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Tlaxcala in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Tlaxcala"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:VeracruzDeIgnacioDeLaLlave
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Veracruz de Ignacio de la Llave" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Veracruz de Ignacio de la Llave in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Veracruz de Ignacio de la Llave"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Yucatan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yucatán" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Yucatán in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Yucatán"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-2-mx:Zacatecas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zacatecas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MX/> ;
+	skos:definition "The state of Zacatecas in the country of Mexico" ;
+	lcc-cr:hasLocalShortName "Zacatecas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mx:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mexico ;
+	.
+

@@ -1,0 +1,514 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ps: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Palestine, State of Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ps" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Palestine, State of, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PS.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	.
+
+lcc-3166-2-ps:Bethlehem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bethlehem" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Bethlehem in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Bethlehem"@en ;
+	lcc-cr:hasLocalShortName "Bayt Laḩm"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:DeirElBalah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Deir El Balah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Deir El Balah in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Deir El Balah"@en ;
+	lcc-cr:hasLocalShortName "Dayr al Balaḩ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Gaza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gaza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Gaza in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Gaza"@en ;
+	lcc-cr:hasLocalShortName "Ghazzah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Governorate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "governorate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision category governorate in the country of Palestine, State of" ;
+	.
+
+lcc-3166-2-ps:Hebron
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hebron" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Hebron in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Hebron"@en ;
+	lcc-cr:hasLocalShortName "Al Khalīl"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Jenin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jenin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Jenin in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Jenin"@en ;
+	lcc-cr:hasLocalShortName "Janīn"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:JerichoAndAlAghwar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jericho and Al Aghwar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Jericho and Al Aghwar in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Jericho and Al Aghwar"@en ;
+	lcc-cr:hasLocalShortName "Arīḩā wal Aghwār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Jerusalem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jerusalem" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Jerusalem in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Jerusalem"@en ;
+	lcc-cr:hasLocalShortName "Al Quds"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:KhanYunis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khan Yunis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Khan Yunis in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Khan Yunis"@en ;
+	lcc-cr:hasLocalShortName "Khān Yūnis"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Nablus
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nablus" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Nablus in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Nablus"@en ;
+	lcc-cr:hasLocalShortName "Nāblus"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:NorthGaza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Gaza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of North Gaza in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "North Gaza"@en ;
+	lcc-cr:hasLocalShortName "Shamāl Ghazzah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:PS-BTH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-BTH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Bethlehem in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Bethlehem ;
+	lcc-lr:hasTag "PS-BTH" ;
+	lcc-lr:identifies lcc-3166-2-ps:Bethlehem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-DEB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-DEB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Deir El Balah in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:DeirElBalah ;
+	lcc-lr:hasTag "PS-DEB" ;
+	lcc-lr:identifies lcc-3166-2-ps:DeirElBalah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-GZA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-GZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Gaza in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Gaza ;
+	lcc-lr:hasTag "PS-GZA" ;
+	lcc-lr:identifies lcc-3166-2-ps:Gaza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-HBN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-HBN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Hebron in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Hebron ;
+	lcc-lr:hasTag "PS-HBN" ;
+	lcc-lr:identifies lcc-3166-2-ps:Hebron ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-JEM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-JEM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Jerusalem in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Jerusalem ;
+	lcc-lr:hasTag "PS-JEM" ;
+	lcc-lr:identifies lcc-3166-2-ps:Jerusalem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-JEN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-JEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Jenin in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Jenin ;
+	lcc-lr:hasTag "PS-JEN" ;
+	lcc-lr:identifies lcc-3166-2-ps:Jenin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-JRH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-JRH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Jericho and Al Aghwar in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:JerichoAndAlAghwar ;
+	lcc-lr:hasTag "PS-JRH" ;
+	lcc-lr:identifies lcc-3166-2-ps:JerichoAndAlAghwar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-KYS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-KYS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Khan Yunis in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:KhanYunis ;
+	lcc-lr:hasTag "PS-KYS" ;
+	lcc-lr:identifies lcc-3166-2-ps:KhanYunis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-NBS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-NBS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Nablus in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Nablus ;
+	lcc-lr:hasTag "PS-NBS" ;
+	lcc-lr:identifies lcc-3166-2-ps:Nablus ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-NGZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-NGZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of North Gaza in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:NorthGaza ;
+	lcc-lr:hasTag "PS-NGZ" ;
+	lcc-lr:identifies lcc-3166-2-ps:NorthGaza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-QQA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-QQA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Qalqilya in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Qalqilya ;
+	lcc-lr:hasTag "PS-QQA" ;
+	lcc-lr:identifies lcc-3166-2-ps:Qalqilya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-RBH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-RBH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Ramallah in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Ramallah ;
+	lcc-lr:hasTag "PS-RBH" ;
+	lcc-lr:identifies lcc-3166-2-ps:Ramallah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-RFH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-RFH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Rafah in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Rafah ;
+	lcc-lr:hasTag "PS-RFH" ;
+	lcc-lr:identifies lcc-3166-2-ps:Rafah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-SLT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-SLT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Salfit in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Salfit ;
+	lcc-lr:hasTag "PS-SLT" ;
+	lcc-lr:identifies lcc-3166-2-ps:Salfit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-TBS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-TBS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Tubas in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Tubas ;
+	lcc-lr:hasTag "PS-TBS" ;
+	lcc-lr:identifies lcc-3166-2-ps:Tubas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:PS-TKM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PS-TKM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "subdivision code for the governorate of Tulkarm in the country of Palestine, State of" ;
+	lcc-lr:denotes lcc-3166-2-ps:Tulkarm ;
+	lcc-lr:hasTag "PS-TKM" ;
+	lcc-lr:identifies lcc-3166-2-ps:Tulkarm ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ps:Qalqilya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qalqilya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Qalqilya in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Qalqilya"@en ;
+	lcc-cr:hasLocalShortName "Qalqīlyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Rafah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rafah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Rafah in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Rafah"@en ;
+	lcc-cr:hasLocalShortName "Rafaḩ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Ramallah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ramallah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Ramallah in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Ramallah"@en ;
+	lcc-cr:hasLocalShortName "Rām Allāh wal Bīrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Salfit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salfit" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Salfit in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Salfit"@en ;
+	lcc-cr:hasLocalShortName "Salfīt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Tubas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tubas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Tubas in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Tubas"@en ;
+	lcc-cr:hasLocalShortName "Ţūbās"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-2-ps:Tulkarm
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tulkarm" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PS/> ;
+	skos:definition "The governorate of Tulkarm in the country of Palestine, State of" ;
+	lcc-cr:hasEnglishShortName "Tulkarm"@en ;
+	lcc-cr:hasLocalShortName "Ţūlkarm"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ps:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Palestine ;
+	.
+

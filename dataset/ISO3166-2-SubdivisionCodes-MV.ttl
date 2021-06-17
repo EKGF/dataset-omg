@@ -1,0 +1,664 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mv: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Maldives Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mv" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Maldives, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MV.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	.
+
+lcc-3166-2-mv:AdduCity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Addu City" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The city of Addu City in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Addu City"@en ;
+	lcc-cr:hasLocalShortName "Addu"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:AdministrativeAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "administrative atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision category administrative atoll in the country of Maldives" ;
+	.
+
+lcc-3166-2-mv:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision category city in the country of Maldives" ;
+	.
+
+lcc-3166-2-mv:Faadhippolhu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Faadhippolhu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of Faadhippolhu in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Faadhippolhu"@en ;
+	lcc-cr:hasLocalShortName "Faadhippolhu"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:FelidhuAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Felidhu Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of Felidhu Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Felidhu Atoll"@en ;
+	lcc-cr:hasLocalShortName "Felidheatholhu"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:Fuvammulah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fuvammulah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of Fuvammulah in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Fuvammulah"@en ;
+	lcc-cr:hasLocalShortName "Fuvammulah"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:Hahdhunmathi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hahdhunmathi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of Hahdhunmathi in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Hahdhunmathi"@en ;
+	lcc-cr:hasLocalShortName "Hahdhunmathi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:Kolhumadulu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kolhumadulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of Kolhumadulu in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Kolhumadulu"@en ;
+	lcc-cr:hasLocalShortName "Kolhumadulu"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:MV-00
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-00" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of South Ari Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:SouthAriAtoll ;
+	lcc-lr:hasTag "MV-00" ;
+	lcc-lr:identifies lcc-3166-2-mv:SouthAriAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the city of Addu City in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:AdduCity ;
+	lcc-lr:hasTag "MV-01" ;
+	lcc-lr:identifies lcc-3166-2-mv:AdduCity ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of North Ari Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:NorthAriAtoll ;
+	lcc-lr:hasTag "MV-02" ;
+	lcc-lr:identifies lcc-3166-2-mv:NorthAriAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of Faadhippolhu in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:Faadhippolhu ;
+	lcc-lr:hasTag "MV-03" ;
+	lcc-lr:identifies lcc-3166-2-mv:Faadhippolhu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of Felidhu Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:FelidhuAtoll ;
+	lcc-lr:hasTag "MV-04" ;
+	lcc-lr:identifies lcc-3166-2-mv:FelidhuAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of Hahdhunmathi in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:Hahdhunmathi ;
+	lcc-lr:hasTag "MV-05" ;
+	lcc-lr:identifies lcc-3166-2-mv:Hahdhunmathi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of North Thiladhunmathi in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:NorthThiladhunmathi ;
+	lcc-lr:hasTag "MV-07" ;
+	lcc-lr:identifies lcc-3166-2-mv:NorthThiladhunmathi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of Kolhumadulu in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:Kolhumadulu ;
+	lcc-lr:hasTag "MV-08" ;
+	lcc-lr:identifies lcc-3166-2-mv:Kolhumadulu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of Mulaku Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:MulakuAtoll ;
+	lcc-lr:hasTag "MV-12" ;
+	lcc-lr:identifies lcc-3166-2-mv:MulakuAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of North Maalhosmadulu in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:NorthMaalhosmadulu ;
+	lcc-lr:hasTag "MV-13" ;
+	lcc-lr:identifies lcc-3166-2-mv:NorthMaalhosmadulu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of North Nilandhe Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:NorthNilandheAtoll ;
+	lcc-lr:hasTag "MV-14" ;
+	lcc-lr:identifies lcc-3166-2-mv:NorthNilandheAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of South Nilandhe Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:SouthNilandheAtoll ;
+	lcc-lr:hasTag "MV-17" ;
+	lcc-lr:identifies lcc-3166-2-mv:SouthNilandheAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of South Maalhosmadulu in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:SouthMaalhosmadulu ;
+	lcc-lr:hasTag "MV-20" ;
+	lcc-lr:identifies lcc-3166-2-mv:SouthMaalhosmadulu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of South Thiladhunmathi in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:SouthThiladhunmathi ;
+	lcc-lr:hasTag "MV-23" ;
+	lcc-lr:identifies lcc-3166-2-mv:SouthThiladhunmathi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-24
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of North Miladhunmadulu in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:NorthMiladhunmadulu ;
+	lcc-lr:hasTag "MV-24" ;
+	lcc-lr:identifies lcc-3166-2-mv:NorthMiladhunmadulu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of South Miladhunmadulu in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:SouthMiladhunmadulu ;
+	lcc-lr:hasTag "MV-25" ;
+	lcc-lr:identifies lcc-3166-2-mv:SouthMiladhunmadulu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of Male Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:MaleAtoll ;
+	lcc-lr:hasTag "MV-26" ;
+	lcc-lr:identifies lcc-3166-2-mv:MaleAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-27
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of North Huvadhu Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:NorthHuvadhuAtoll ;
+	lcc-lr:hasTag "MV-27" ;
+	lcc-lr:identifies lcc-3166-2-mv:NorthHuvadhuAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-28
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of South Huvadhu Atoll in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:SouthHuvadhuAtoll ;
+	lcc-lr:hasTag "MV-28" ;
+	lcc-lr:identifies lcc-3166-2-mv:SouthHuvadhuAtoll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-29
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the administrative atoll of Fuvammulah in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:Fuvammulah ;
+	lcc-lr:hasTag "MV-29" ;
+	lcc-lr:identifies lcc-3166-2-mv:Fuvammulah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:MV-MLE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MV-MLE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "subdivision code for the city of Male in the country of Maldives" ;
+	lcc-lr:denotes lcc-3166-2-mv:Male ;
+	lcc-lr:hasTag "MV-MLE" ;
+	lcc-lr:identifies lcc-3166-2-mv:Male ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mv:Male
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Male" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The city of Male in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Male"@en ;
+	lcc-cr:hasLocalShortName "Maale"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:MaleAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Male Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of Male Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Male Atoll"@en ;
+	lcc-cr:hasLocalShortName "Maaleatholhu"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:MulakuAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mulaku Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of Mulaku Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "Mulaku Atoll"@en ;
+	lcc-cr:hasLocalShortName "Mulakatholhu"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:NorthAriAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Ari Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of North Ari Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "North Ari Atoll"@en ;
+	lcc-cr:hasLocalShortName "Ariatholhu Uthuruburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:NorthHuvadhuAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Huvadhu Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of North Huvadhu Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "North Huvadhu Atoll"@en ;
+	lcc-cr:hasLocalShortName "Huvadhuatholhu Uthuruburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:NorthMaalhosmadulu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Maalhosmadulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of North Maalhosmadulu in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "North Maalhosmadulu"@en ;
+	lcc-cr:hasLocalShortName "Maalhosmadulu Uthuruburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:NorthMiladhunmadulu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Miladhunmadulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of North Miladhunmadulu in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "North Miladhunmadulu"@en ;
+	lcc-cr:hasLocalShortName "Miladhunmadulu Uthuruburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:NorthNilandheAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Nilandhe Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of North Nilandhe Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "North Nilandhe Atoll"@en ;
+	lcc-cr:hasLocalShortName "Nilandheatholhu Uthuruburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:NorthThiladhunmathi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Thiladhunmathi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of North Thiladhunmathi in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "North Thiladhunmathi"@en ;
+	lcc-cr:hasLocalShortName "Thiladhunmathee Uthuruburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:SouthAriAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Ari Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of South Ari Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "South Ari Atoll"@en ;
+	lcc-cr:hasLocalShortName "Ariatholhu Dhekunuburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:SouthHuvadhuAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Huvadhu Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of South Huvadhu Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "South Huvadhu Atoll"@en ;
+	lcc-cr:hasLocalShortName "Huvadhuatholhu Dhekunuburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:SouthMaalhosmadulu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Maalhosmadulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of South Maalhosmadulu in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "South Maalhosmadulu"@en ;
+	lcc-cr:hasLocalShortName "Maalhosmadulu Dhekunuburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:SouthMiladhunmadulu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Miladhunmadulu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of South Miladhunmadulu in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "South Miladhunmadulu"@en ;
+	lcc-cr:hasLocalShortName "Miladhunmadulu Dhekunuburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:SouthNilandheAtoll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Nilandhe Atoll" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of South Nilandhe Atoll in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "South Nilandhe Atoll"@en ;
+	lcc-cr:hasLocalShortName "Nilandheatholhu Dhekunuburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-2-mv:SouthThiladhunmathi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Thiladhunmathi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MV/> ;
+	skos:definition "The administrative atoll of South Thiladhunmathi in the country of Maldives" ;
+	lcc-cr:hasEnglishShortName "South Thiladhunmathi"@en ;
+	lcc-cr:hasLocalShortName "Thiladhunmathee Dhekunuburi"@dv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mv:AdministrativeAtoll ;
+	lcc-cr:isSubregionOf lcc-3166-1:Maldives ;
+	.
+

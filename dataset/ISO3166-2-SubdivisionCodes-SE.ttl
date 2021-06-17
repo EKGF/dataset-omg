@@ -1,0 +1,633 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-se: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Sweden Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-se" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Sweden, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	.
+
+lcc-3166-2-se:BlekingeLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Blekinge län [SE-10]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Blekinge län [SE-10] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Blekinge län [SE-10]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:County
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "county" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision category county in the country of Sweden" ;
+	.
+
+lcc-3166-2-se:DalarnasLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dalarnas län [SE-20]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Dalarnas län [SE-20] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Dalarnas län [SE-20]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:GavleborgsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gävleborgs län [SE-21]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Gävleborgs län [SE-21] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Gävleborgs län [SE-21]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:GotlandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gotlands län [SE-09]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Gotlands län [SE-09] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Gotlands län [SE-09]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:HallandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hallands län [SE-13]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Hallands län [SE-13] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Hallands län [SE-13]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:JamtlandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jämtlands län [SE-23]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Jämtlands län [SE-23] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Jämtlands län [SE-23]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:JonkopingsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jönköpings län [SE-06]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Jönköpings län [SE-06] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Jönköpings län [SE-06]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:KalmarLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalmar län [SE-08]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Kalmar län [SE-08] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Kalmar län [SE-08]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:KronobergsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kronobergs län [SE-07]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Kronobergs län [SE-07] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Kronobergs län [SE-07]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:NorrbottensLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norrbottens län [SE-25]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Norrbottens län [SE-25] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Norrbottens län [SE-25]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:OrebroLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Örebro län [SE-18]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Örebro län [SE-18] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Örebro län [SE-18]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:OstergotlandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Östergötlands län [SE-05]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Östergötlands län [SE-05] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Östergötlands län [SE-05]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:SE-AB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Stockholms län [SE-01] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:StockholmsLan ;
+	lcc-lr:hasTag "SE-AB" ;
+	lcc-lr:identifies lcc-3166-2-se:StockholmsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-AC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-AC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Västerbottens län [SE-24] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:VasterbottensLan ;
+	lcc-lr:hasTag "SE-AC" ;
+	lcc-lr:identifies lcc-3166-2-se:VasterbottensLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-BD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-BD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Norrbottens län [SE-25] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:NorrbottensLan ;
+	lcc-lr:hasTag "SE-BD" ;
+	lcc-lr:identifies lcc-3166-2-se:NorrbottensLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Uppsala län [SE-03] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:UppsalaLan ;
+	lcc-lr:hasTag "SE-C" ;
+	lcc-lr:identifies lcc-3166-2-se:UppsalaLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-D
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Södermanlands län [SE-04] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:SodermanlandsLan ;
+	lcc-lr:hasTag "SE-D" ;
+	lcc-lr:identifies lcc-3166-2-se:SodermanlandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-E
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Östergötlands län [SE-05] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:OstergotlandsLan ;
+	lcc-lr:hasTag "SE-E" ;
+	lcc-lr:identifies lcc-3166-2-se:OstergotlandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-F
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Jönköpings län [SE-06] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:JonkopingsLan ;
+	lcc-lr:hasTag "SE-F" ;
+	lcc-lr:identifies lcc-3166-2-se:JonkopingsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-G
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Kronobergs län [SE-07] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:KronobergsLan ;
+	lcc-lr:hasTag "SE-G" ;
+	lcc-lr:identifies lcc-3166-2-se:KronobergsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-H
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Kalmar län [SE-08] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:KalmarLan ;
+	lcc-lr:hasTag "SE-H" ;
+	lcc-lr:identifies lcc-3166-2-se:KalmarLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-I
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-I" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Gotlands län [SE-09] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:GotlandsLan ;
+	lcc-lr:hasTag "SE-I" ;
+	lcc-lr:identifies lcc-3166-2-se:GotlandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-K
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-K" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Blekinge län [SE-10] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:BlekingeLan ;
+	lcc-lr:hasTag "SE-K" ;
+	lcc-lr:identifies lcc-3166-2-se:BlekingeLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-M
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Skåne län [SE-12] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:SkaneLan ;
+	lcc-lr:hasTag "SE-M" ;
+	lcc-lr:identifies lcc-3166-2-se:SkaneLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-N
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Hallands län [SE-13] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:HallandsLan ;
+	lcc-lr:hasTag "SE-N" ;
+	lcc-lr:identifies lcc-3166-2-se:HallandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-O
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-O" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Västra Götalands län [SE-14] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:VastraGotalandsLan ;
+	lcc-lr:hasTag "SE-O" ;
+	lcc-lr:identifies lcc-3166-2-se:VastraGotalandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Värmlands län [SE-17] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:VarmlandsLan ;
+	lcc-lr:hasTag "SE-S" ;
+	lcc-lr:identifies lcc-3166-2-se:VarmlandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-T
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Örebro län [SE-18] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:OrebroLan ;
+	lcc-lr:hasTag "SE-T" ;
+	lcc-lr:identifies lcc-3166-2-se:OrebroLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-U
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-U" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Västmanlands län [SE-19] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:VastmanlandsLan ;
+	lcc-lr:hasTag "SE-U" ;
+	lcc-lr:identifies lcc-3166-2-se:VastmanlandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-W
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-W" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Dalarnas län [SE-20] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:DalarnasLan ;
+	lcc-lr:hasTag "SE-W" ;
+	lcc-lr:identifies lcc-3166-2-se:DalarnasLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-X
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-X" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Gävleborgs län [SE-21] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:GavleborgsLan ;
+	lcc-lr:hasTag "SE-X" ;
+	lcc-lr:identifies lcc-3166-2-se:GavleborgsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-Y
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-Y" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Västernorrlands län [SE-22] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:VasternorrlandsLan ;
+	lcc-lr:hasTag "SE-Y" ;
+	lcc-lr:identifies lcc-3166-2-se:VasternorrlandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SE-Z
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SE-Z" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "subdivision code for the county of Jämtlands län [SE-23] in the country of Sweden" ;
+	lcc-lr:denotes lcc-3166-2-se:JamtlandsLan ;
+	lcc-lr:hasTag "SE-Z" ;
+	lcc-lr:identifies lcc-3166-2-se:JamtlandsLan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-se:SkaneLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skåne län [SE-12]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Skåne län [SE-12] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Skåne län [SE-12]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:SodermanlandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Södermanlands län [SE-04]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Södermanlands län [SE-04] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Södermanlands län [SE-04]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:StockholmsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Stockholms län [SE-01]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Stockholms län [SE-01] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Stockholms län [SE-01]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:UppsalaLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uppsala län [SE-03]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Uppsala län [SE-03] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Uppsala län [SE-03]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:VarmlandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Värmlands län [SE-17]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Värmlands län [SE-17] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Värmlands län [SE-17]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:VasterbottensLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Västerbottens län [SE-24]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Västerbottens län [SE-24] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Västerbottens län [SE-24]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:VasternorrlandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Västernorrlands län [SE-22]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Västernorrlands län [SE-22] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Västernorrlands län [SE-22]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:VastmanlandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Västmanlands län [SE-19]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Västmanlands län [SE-19] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Västmanlands län [SE-19]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-2-se:VastraGotalandsLan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Västra Götalands län [SE-14]" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SE/> ;
+	skos:definition "The county of Västra Götalands län [SE-14] in the country of Sweden" ;
+	lcc-cr:hasLocalShortName "Västra Götalands län [SE-14]"@sv ;
+	lcc-cr:isClassifiedBy lcc-3166-2-se:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sweden ;
+	.
+

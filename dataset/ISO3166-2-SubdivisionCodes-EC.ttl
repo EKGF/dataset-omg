@@ -1,0 +1,729 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ec: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Ecuador Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ec" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Ecuador, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-EC.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	.
+
+lcc-3166-2-ec:Azuay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Azuay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Azuay in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Azuay"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Bolivar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolívar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Bolívar in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Bolívar"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Canar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cañar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Cañar in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Cañar"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Carchi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Carchi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Carchi in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Carchi"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Chimborazo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chimborazo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Chimborazo in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Chimborazo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Cotopaxi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cotopaxi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Cotopaxi in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Cotopaxi"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:EC-A
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Azuay in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Azuay ;
+	lcc-lr:hasTag "EC-A" ;
+	lcc-lr:identifies lcc-3166-2-ec:Azuay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Bolívar in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Bolivar ;
+	lcc-lr:hasTag "EC-B" ;
+	lcc-lr:identifies lcc-3166-2-ec:Bolivar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Carchi in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Carchi ;
+	lcc-lr:hasTag "EC-C" ;
+	lcc-lr:identifies lcc-3166-2-ec:Carchi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-D
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Orellana in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Orellana ;
+	lcc-lr:hasTag "EC-D" ;
+	lcc-lr:identifies lcc-3166-2-ec:Orellana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-E
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Esmeraldas in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Esmeraldas ;
+	lcc-lr:hasTag "EC-E" ;
+	lcc-lr:identifies lcc-3166-2-ec:Esmeraldas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-F
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Cañar in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Canar ;
+	lcc-lr:hasTag "EC-F" ;
+	lcc-lr:identifies lcc-3166-2-ec:Canar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-G
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Guayas in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Guayas ;
+	lcc-lr:hasTag "EC-G" ;
+	lcc-lr:identifies lcc-3166-2-ec:Guayas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-H
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Chimborazo in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Chimborazo ;
+	lcc-lr:hasTag "EC-H" ;
+	lcc-lr:identifies lcc-3166-2-ec:Chimborazo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-I
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-I" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Imbabura in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Imbabura ;
+	lcc-lr:hasTag "EC-I" ;
+	lcc-lr:identifies lcc-3166-2-ec:Imbabura ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-L
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Loja in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Loja ;
+	lcc-lr:hasTag "EC-L" ;
+	lcc-lr:identifies lcc-3166-2-ec:Loja ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-M
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Manabí in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Manabi ;
+	lcc-lr:hasTag "EC-M" ;
+	lcc-lr:identifies lcc-3166-2-ec:Manabi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-N
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Napo in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Napo ;
+	lcc-lr:hasTag "EC-N" ;
+	lcc-lr:identifies lcc-3166-2-ec:Napo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-O
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-O" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of El Oro in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:ElOro ;
+	lcc-lr:hasTag "EC-O" ;
+	lcc-lr:identifies lcc-3166-2-ec:ElOro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-P
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Pichincha in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Pichincha ;
+	lcc-lr:hasTag "EC-P" ;
+	lcc-lr:identifies lcc-3166-2-ec:Pichincha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-R
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-R" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Los Ríos in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:LosRios ;
+	lcc-lr:hasTag "EC-R" ;
+	lcc-lr:identifies lcc-3166-2-ec:LosRios ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Morona Santiago in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:MoronaSantiago ;
+	lcc-lr:hasTag "EC-S" ;
+	lcc-lr:identifies lcc-3166-2-ec:MoronaSantiago ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Santo Domingo de los Tsáchilas in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:SantoDomingoDeLosTsachilas ;
+	lcc-lr:hasTag "EC-SD" ;
+	lcc-lr:identifies lcc-3166-2-ec:SantoDomingoDeLosTsachilas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-SE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Santa Elena in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:SantaElena ;
+	lcc-lr:hasTag "EC-SE" ;
+	lcc-lr:identifies lcc-3166-2-ec:SantaElena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-T
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Tungurahua in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Tungurahua ;
+	lcc-lr:hasTag "EC-T" ;
+	lcc-lr:identifies lcc-3166-2-ec:Tungurahua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-U
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-U" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Sucumbíos in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Sucumbios ;
+	lcc-lr:hasTag "EC-U" ;
+	lcc-lr:identifies lcc-3166-2-ec:Sucumbios ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-W
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-W" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Galápagos in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Galapagos ;
+	lcc-lr:hasTag "EC-W" ;
+	lcc-lr:identifies lcc-3166-2-ec:Galapagos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-X
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-X" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Cotopaxi in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Cotopaxi ;
+	lcc-lr:hasTag "EC-X" ;
+	lcc-lr:identifies lcc-3166-2-ec:Cotopaxi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-Y
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-Y" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Pastaza in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:Pastaza ;
+	lcc-lr:hasTag "EC-Y" ;
+	lcc-lr:identifies lcc-3166-2-ec:Pastaza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:EC-Z
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "EC-Z" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision code for the province of Zamora Chinchipe in the country of Ecuador" ;
+	lcc-lr:denotes lcc-3166-2-ec:ZamoraChinchipe ;
+	lcc-lr:hasTag "EC-Z" ;
+	lcc-lr:identifies lcc-3166-2-ec:ZamoraChinchipe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ec:ElOro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "El Oro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of El Oro in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "El Oro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Esmeraldas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Esmeraldas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Esmeraldas in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Esmeraldas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Galapagos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Galápagos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Galápagos in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Galápagos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:GalapagosIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Galápagos Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The territory of Galápagos Islands in the country of Ecuador" ;
+	lcc-cr:hasEnglishShortName "Galápagos Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Galápagos"@fr ;
+	lcc-cr:hasNumericRegionCode "1065" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Guayas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guayas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Guayas in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Guayas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Imbabura
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Imbabura" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Imbabura in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Imbabura"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Loja
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Loja in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Loja"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:LosRios
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Los Ríos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Los Ríos in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Los Ríos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Manabi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manabí" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Manabí in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Manabí"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:MoronaSantiago
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Morona Santiago" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Morona Santiago in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Morona Santiago"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Napo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Napo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Napo in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Napo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Orellana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Orellana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Orellana in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Orellana"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Pastaza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pastaza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Pastaza in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Pastaza"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Pichincha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pichincha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Pichincha in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Pichincha"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "subdivision category province in the country of Ecuador" ;
+	.
+
+lcc-3166-2-ec:SantaElena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Elena" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Santa Elena in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Santa Elena"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:SantoDomingoDeLosTsachilas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santo Domingo de los Tsáchilas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Santo Domingo de los Tsáchilas in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Santo Domingo de los Tsáchilas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Sucumbios
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sucumbíos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Sucumbíos in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Sucumbíos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:Tungurahua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tungurahua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Tungurahua in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Tungurahua"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-2-ec:ZamoraChinchipe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zamora Chinchipe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-EC/> ;
+	skos:definition "The province of Zamora Chinchipe in the country of Ecuador" ;
+	lcc-cr:hasLocalShortName "Zamora Chinchipe"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ec:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ecuador ;
+	.
+

@@ -1,0 +1,73 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-2 Subdivision Codes Ontology" ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2017 Object Management Group, Inc.
+Copyright (c) 2015-2017 Adaptive Inc.
+Copyright (c) 2015-2017 Thematix Partners LLC
+Copyright (c) 2015-2017 Unisys
+""" ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2" ;
+	sm:fileAbstract "This ontology defines the code set relevant to representation of subdivisions of countries, as required to support the ISO 3166-2 subdivision codes. The codes for each country are defined by country in subordinate, regional ontologies." ;
+	sm:filename "ISO3166-2-SubdivisionCodes.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/ISO3166-2-SubdivisionCodes/> ;
+	skos:changeNote "The http://www.omg.org/spec/LCC/20151101/Countries/ISO3166-2-SubdivisionCodes/ version of this ontology was modified per the resolutions included in the LCC 1.0 FTF report. The subdivision codes and related metadata contained herein are current as of the July 2017 revision to the online code set." ;
+	.
+
+lcc-3166-2:ISO3166-2-CodeSet
+	a
+		owl:NamedIndividual ,
+		lcc-lr:CodeSet ,
+		lcc-lr:IdentificationScheme
+		;
+	rdfs:label "ISO 3166-2 code set" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ;
+	skos:definition "the set of subdivision identifiers that comprise the ISO 3166-2 specification" ;
+	.
+
+lcc-3166-2:Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ;
+	skos:definition "a kind of region that is a territory" ;
+	.
+

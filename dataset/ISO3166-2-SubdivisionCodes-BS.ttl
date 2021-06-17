@@ -1,0 +1,940 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bs: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Bahamas (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bs" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Bahamas (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BS.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	.
+
+lcc-3166-2-bs:Acklins
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Acklins" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Acklins in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Acklins"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:BS-AK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-AK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Acklins in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:Acklins ;
+	lcc-lr:hasTag "BS-AK" ;
+	lcc-lr:identifies lcc-3166-2-bs:Acklins ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-BI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-BI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Bimini in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:Bimini ;
+	lcc-lr:hasTag "BS-BI" ;
+	lcc-lr:identifies lcc-3166-2-bs:Bimini ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-BP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-BP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Black Point in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:BlackPoint ;
+	lcc-lr:hasTag "BS-BP" ;
+	lcc-lr:identifies lcc-3166-2-bs:BlackPoint ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-BY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-BY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Berry Islands in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:BerryIslands ;
+	lcc-lr:hasTag "BS-BY" ;
+	lcc-lr:identifies lcc-3166-2-bs:BerryIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-CE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Central Eleuthera in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:CentralEleuthera ;
+	lcc-lr:hasTag "BS-CE" ;
+	lcc-lr:identifies lcc-3166-2-bs:CentralEleuthera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-CI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-CI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Cat Island in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:CatIsland ;
+	lcc-lr:hasTag "BS-CI" ;
+	lcc-lr:identifies lcc-3166-2-bs:CatIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-CK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-CK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Crooked Island and Long Cay in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:CrookedIslandAndLongCay ;
+	lcc-lr:hasTag "BS-CK" ;
+	lcc-lr:identifies lcc-3166-2-bs:CrookedIslandAndLongCay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-CO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-CO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Central Abaco in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:CentralAbaco ;
+	lcc-lr:hasTag "BS-CO" ;
+	lcc-lr:identifies lcc-3166-2-bs:CentralAbaco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-CS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-CS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Central Andros in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:CentralAndros ;
+	lcc-lr:hasTag "BS-CS" ;
+	lcc-lr:identifies lcc-3166-2-bs:CentralAndros ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-EG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-EG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of East Grand Bahama in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:EastGrandBahama ;
+	lcc-lr:hasTag "BS-EG" ;
+	lcc-lr:identifies lcc-3166-2-bs:EastGrandBahama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-EX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-EX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Exuma in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:Exuma ;
+	lcc-lr:hasTag "BS-EX" ;
+	lcc-lr:identifies lcc-3166-2-bs:Exuma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-FP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-FP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of City of Freeport in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:CityOfFreeport ;
+	lcc-lr:hasTag "BS-FP" ;
+	lcc-lr:identifies lcc-3166-2-bs:CityOfFreeport ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-GC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-GC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Grand Cay in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:GrandCay ;
+	lcc-lr:hasTag "BS-GC" ;
+	lcc-lr:identifies lcc-3166-2-bs:GrandCay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-HI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-HI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Harbour Island in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:HarbourIsland ;
+	lcc-lr:hasTag "BS-HI" ;
+	lcc-lr:identifies lcc-3166-2-bs:HarbourIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-HT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-HT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Hope Town in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:HopeTown ;
+	lcc-lr:hasTag "BS-HT" ;
+	lcc-lr:identifies lcc-3166-2-bs:HopeTown ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-IN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-IN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Inagua in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:Inagua ;
+	lcc-lr:hasTag "BS-IN" ;
+	lcc-lr:identifies lcc-3166-2-bs:Inagua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-LI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Long Island in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:LongIsland ;
+	lcc-lr:hasTag "BS-LI" ;
+	lcc-lr:identifies lcc-3166-2-bs:LongIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-MC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Mangrove Cay in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:MangroveCay ;
+	lcc-lr:hasTag "BS-MC" ;
+	lcc-lr:identifies lcc-3166-2-bs:MangroveCay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-MG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-MG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Mayaguana in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:Mayaguana ;
+	lcc-lr:hasTag "BS-MG" ;
+	lcc-lr:identifies lcc-3166-2-bs:Mayaguana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Moore's Island in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:MooresIsland ;
+	lcc-lr:hasTag "BS-MI" ;
+	lcc-lr:identifies lcc-3166-2-bs:MooresIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-NE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-NE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of North Eleuthera in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:NorthEleuthera ;
+	lcc-lr:hasTag "BS-NE" ;
+	lcc-lr:identifies lcc-3166-2-bs:NorthEleuthera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-NO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-NO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of North Abaco in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:NorthAbaco ;
+	lcc-lr:hasTag "BS-NO" ;
+	lcc-lr:identifies lcc-3166-2-bs:NorthAbaco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-NP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-NP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the island of New Providence in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:NewProvidence ;
+	lcc-lr:hasTag "BS-NP" ;
+	lcc-lr:identifies lcc-3166-2-bs:NewProvidence ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-NS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-NS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of North Andros in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:NorthAndros ;
+	lcc-lr:hasTag "BS-NS" ;
+	lcc-lr:identifies lcc-3166-2-bs:NorthAndros ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-RC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-RC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Rum Cay in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:RumCay ;
+	lcc-lr:hasTag "BS-RC" ;
+	lcc-lr:identifies lcc-3166-2-bs:RumCay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-RI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-RI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Ragged Island in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:RaggedIsland ;
+	lcc-lr:hasTag "BS-RI" ;
+	lcc-lr:identifies lcc-3166-2-bs:RaggedIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of South Andros in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:SouthAndros ;
+	lcc-lr:hasTag "BS-SA" ;
+	lcc-lr:identifies lcc-3166-2-bs:SouthAndros ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-SE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of South Eleuthera in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:SouthEleuthera ;
+	lcc-lr:hasTag "BS-SE" ;
+	lcc-lr:identifies lcc-3166-2-bs:SouthEleuthera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of South Abaco in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:SouthAbaco ;
+	lcc-lr:hasTag "BS-SO" ;
+	lcc-lr:identifies lcc-3166-2-bs:SouthAbaco ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-SS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of San Salvador in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:SanSalvador ;
+	lcc-lr:hasTag "BS-SS" ;
+	lcc-lr:identifies lcc-3166-2-bs:SanSalvador ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-SW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-SW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of Spanish Wells in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:SpanishWells ;
+	lcc-lr:hasTag "BS-SW" ;
+	lcc-lr:identifies lcc-3166-2-bs:SpanishWells ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BS-WG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BS-WG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision code for the district of West Grand Bahama in the country of Bahamas (the)" ;
+	lcc-lr:denotes lcc-3166-2-bs:WestGrandBahama ;
+	lcc-lr:hasTag "BS-WG" ;
+	lcc-lr:identifies lcc-3166-2-bs:WestGrandBahama ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bs:BerryIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Berry Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Berry Islands in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Berry Islands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:Bimini
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bimini" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Bimini in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Bimini"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:BlackPoint
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Black Point" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Black Point in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Black Point"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:CatIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cat Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Cat Island in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Cat Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:CentralAbaco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Abaco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Central Abaco in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Central Abaco"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:CentralAndros
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Andros" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Central Andros in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Central Andros"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:CentralEleuthera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Eleuthera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Central Eleuthera in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Central Eleuthera"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:CityOfFreeport
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "City of Freeport" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of City of Freeport in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "City of Freeport"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:CrookedIslandAndLongCay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Crooked Island and Long Cay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Crooked Island and Long Cay in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Crooked Island and Long Cay"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision category district in the country of Bahamas (the)" ;
+	.
+
+lcc-3166-2-bs:EastGrandBahama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "East Grand Bahama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of East Grand Bahama in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "East Grand Bahama"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:Exuma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Exuma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Exuma in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Exuma"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:GrandCay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Cay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Grand Cay in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Grand Cay"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:HarbourIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Harbour Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Harbour Island in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Harbour Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:HopeTown
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hope Town" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Hope Town in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Hope Town"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:Inagua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Inagua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Inagua in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Inagua"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:Island
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "subdivision category island in the country of Bahamas (the)" ;
+	.
+
+lcc-3166-2-bs:LongIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Long Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Long Island in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Long Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:MangroveCay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mangrove Cay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Mangrove Cay in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Mangrove Cay"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:Mayaguana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mayaguana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Mayaguana in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Mayaguana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:MooresIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moore's Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Moore's Island in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Moore's Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:NewProvidence
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New Providence" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The island of New Providence in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "New Providence"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:Island ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:NorthAbaco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Abaco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of North Abaco in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "North Abaco"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:NorthAndros
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Andros" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of North Andros in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "North Andros"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:NorthEleuthera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Eleuthera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of North Eleuthera in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "North Eleuthera"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:RaggedIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ragged Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Ragged Island in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Ragged Island"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:RumCay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rum Cay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Rum Cay in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Rum Cay"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:SanSalvador
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Salvador" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of San Salvador in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "San Salvador"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:SouthAbaco
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Abaco" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of South Abaco in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "South Abaco"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:SouthAndros
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Andros" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of South Andros in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "South Andros"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:SouthEleuthera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Eleuthera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of South Eleuthera in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "South Eleuthera"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:SpanishWells
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Spanish Wells" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of Spanish Wells in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "Spanish Wells"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-2-bs:WestGrandBahama
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West Grand Bahama" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BS/> ;
+	skos:definition "The district of West Grand Bahama in the country of Bahamas (the)" ;
+	lcc-cr:hasEnglishShortName "West Grand Bahama"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bs:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Bahamas ;
+	.
+

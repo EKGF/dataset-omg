@@ -1,0 +1,815 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ua: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Ukraine Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ua" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Ukraine, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-UA.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	.
+
+lcc-3166-2-ua:AvtonomnaRespublikaKrym
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Avtonomna Respublika Krym" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The republic of Avtonomna Respublika Krym in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Avtonomna Respublika Krym"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Republic ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:CherkaskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cherkaska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Cherkaska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Cherkaska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:ChernihivskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chernihivska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Chernihivska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Chernihivska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:ChernivetskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chernivetska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Chernivetska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Chernivetska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision category city in the country of Ukraine" ;
+	.
+
+lcc-3166-2-ua:DnipropetrovskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dnipropetrovska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Dnipropetrovska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Dnipropetrovska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:DonetskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Donetska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Donetska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Donetska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:Ivano-FrankivskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ivano-Frankivska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Ivano-Frankivska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Ivano-Frankivska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:KharkivskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kharkivska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Kharkivska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Kharkivska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:KhersonskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khersonska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Khersonska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Khersonska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:KhmelnytskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khmelnytska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Khmelnytska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Khmelnytska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:KirovohradskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kirovohradska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Kirovohradska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Kirovohradska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:Kyiv
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyiv" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The city of Kyiv in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Kyiv"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:KyivskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyivska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Kyivska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Kyivska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:LuhanskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luhanska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Luhanska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Luhanska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:LvivskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lvivska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Lvivska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Lvivska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:MykolaivskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mykolaivska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Mykolaivska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Mykolaivska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:OdeskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Odeska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Odeska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Odeska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:PoltavskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Poltavska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Poltavska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Poltavska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision category region in the country of Ukraine" ;
+	.
+
+lcc-3166-2-ua:Republic
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "republic" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision category republic in the country of Ukraine" ;
+	.
+
+lcc-3166-2-ua:RivnenskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rivnenska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Rivnenska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Rivnenska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:Sevastopol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sevastopol" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The city of Sevastopol in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Sevastopol"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:SumskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sumska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Sumska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Sumska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:TernopilskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ternopilska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Ternopilska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Ternopilska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:UA-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Vinnytska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:VinnytskaOblast ;
+	lcc-lr:hasTag "UA-05" ;
+	lcc-lr:identifies lcc-3166-2-ua:VinnytskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Volynska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:VolynskaOblast ;
+	lcc-lr:hasTag "UA-07" ;
+	lcc-lr:identifies lcc-3166-2-ua:VolynskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Luhanska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:LuhanskaOblast ;
+	lcc-lr:hasTag "UA-09" ;
+	lcc-lr:identifies lcc-3166-2-ua:LuhanskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Dnipropetrovska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:DnipropetrovskaOblast ;
+	lcc-lr:hasTag "UA-12" ;
+	lcc-lr:identifies lcc-3166-2-ua:DnipropetrovskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Donetska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:DonetskaOblast ;
+	lcc-lr:hasTag "UA-14" ;
+	lcc-lr:identifies lcc-3166-2-ua:DonetskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Zhytomyrska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:ZhytomyrskaOblast ;
+	lcc-lr:hasTag "UA-18" ;
+	lcc-lr:identifies lcc-3166-2-ua:ZhytomyrskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Zakarpatska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:ZakarpatskaOblast ;
+	lcc-lr:hasTag "UA-21" ;
+	lcc-lr:identifies lcc-3166-2-ua:ZakarpatskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Zaporizka oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:ZaporizkaOblast ;
+	lcc-lr:hasTag "UA-23" ;
+	lcc-lr:identifies lcc-3166-2-ua:ZaporizkaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Ivano-Frankivska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:Ivano-FrankivskaOblast ;
+	lcc-lr:hasTag "UA-26" ;
+	lcc-lr:identifies lcc-3166-2-ua:Ivano-FrankivskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-30
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the city of Kyiv in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:Kyiv ;
+	lcc-lr:hasTag "UA-30" ;
+	lcc-lr:identifies lcc-3166-2-ua:Kyiv ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Kyivska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:KyivskaOblast ;
+	lcc-lr:hasTag "UA-32" ;
+	lcc-lr:identifies lcc-3166-2-ua:KyivskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-35
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Kirovohradska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:KirovohradskaOblast ;
+	lcc-lr:hasTag "UA-35" ;
+	lcc-lr:identifies lcc-3166-2-ua:KirovohradskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-40
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the city of Sevastopol in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:Sevastopol ;
+	lcc-lr:hasTag "UA-40" ;
+	lcc-lr:identifies lcc-3166-2-ua:Sevastopol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-43
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the republic of Avtonomna Respublika Krym in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:AvtonomnaRespublikaKrym ;
+	lcc-lr:hasTag "UA-43" ;
+	lcc-lr:identifies lcc-3166-2-ua:AvtonomnaRespublikaKrym ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-46
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Lvivska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:LvivskaOblast ;
+	lcc-lr:hasTag "UA-46" ;
+	lcc-lr:identifies lcc-3166-2-ua:LvivskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-48
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Mykolaivska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:MykolaivskaOblast ;
+	lcc-lr:hasTag "UA-48" ;
+	lcc-lr:identifies lcc-3166-2-ua:MykolaivskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-51
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Odeska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:OdeskaOblast ;
+	lcc-lr:hasTag "UA-51" ;
+	lcc-lr:identifies lcc-3166-2-ua:OdeskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-53
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Poltavska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:PoltavskaOblast ;
+	lcc-lr:hasTag "UA-53" ;
+	lcc-lr:identifies lcc-3166-2-ua:PoltavskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-56
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Rivnenska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:RivnenskaOblast ;
+	lcc-lr:hasTag "UA-56" ;
+	lcc-lr:identifies lcc-3166-2-ua:RivnenskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-59
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Sumska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:SumskaOblast ;
+	lcc-lr:hasTag "UA-59" ;
+	lcc-lr:identifies lcc-3166-2-ua:SumskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-61
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Ternopilska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:TernopilskaOblast ;
+	lcc-lr:hasTag "UA-61" ;
+	lcc-lr:identifies lcc-3166-2-ua:TernopilskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-63
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Kharkivska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:KharkivskaOblast ;
+	lcc-lr:hasTag "UA-63" ;
+	lcc-lr:identifies lcc-3166-2-ua:KharkivskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-65
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-65" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Khersonska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:KhersonskaOblast ;
+	lcc-lr:hasTag "UA-65" ;
+	lcc-lr:identifies lcc-3166-2-ua:KhersonskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-68
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-68" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Khmelnytska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:KhmelnytskaOblast ;
+	lcc-lr:hasTag "UA-68" ;
+	lcc-lr:identifies lcc-3166-2-ua:KhmelnytskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-71
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Cherkaska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:CherkaskaOblast ;
+	lcc-lr:hasTag "UA-71" ;
+	lcc-lr:identifies lcc-3166-2-ua:CherkaskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-74
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-74" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Chernihivska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:ChernihivskaOblast ;
+	lcc-lr:hasTag "UA-74" ;
+	lcc-lr:identifies lcc-3166-2-ua:ChernihivskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:UA-77
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "UA-77" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "subdivision code for the region of Chernivetska oblast in the country of Ukraine" ;
+	lcc-lr:denotes lcc-3166-2-ua:ChernivetskaOblast ;
+	lcc-lr:hasTag "UA-77" ;
+	lcc-lr:identifies lcc-3166-2-ua:ChernivetskaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ua:VinnytskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vinnytska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Vinnytska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Vinnytska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:VolynskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Volynska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Volynska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Volynska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:ZakarpatskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zakarpatska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Zakarpatska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Zakarpatska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:ZaporizkaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zaporizka oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Zaporizka oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Zaporizka oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-2-ua:ZhytomyrskaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zhytomyrska oblast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-UA/> ;
+	skos:definition "The region of Zhytomyrska oblast in the country of Ukraine" ;
+	lcc-cr:hasLocalShortName "Zhytomyrska oblast"@uk ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ua:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Ukraine ;
+	.
+

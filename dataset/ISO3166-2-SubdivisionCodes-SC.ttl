@@ -1,0 +1,866 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sc: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Seychelles Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sc" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Seychelles, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SC.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	.
+
+lcc-3166-2-sc:AldabraIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Aldabra Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The territory of Aldabra Islands in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Aldabra Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Aldabra"@fr ;
+	lcc-cr:hasNumericRegionCode "1225" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:AmiranteIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Amirante Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The territory of Amirante Islands in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Amirante Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Amirantes"@fr ;
+	lcc-cr:hasNumericRegionCode "1227" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:AnseAuxPins
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anse aux Pins" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Anse aux Pins in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Anse aux Pins"@en ;
+	lcc-cr:hasFrenchShortName "Anse aux Pins"@fr ;
+	lcc-cr:hasLocalShortName "Ans o Pen" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:AnseBoileau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anse Boileau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Anse Boileau in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Anse Boileau"@en ;
+	lcc-cr:hasFrenchShortName "Anse Boileau"@fr ;
+	lcc-cr:hasLocalShortName "Ans Bwalo" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:AnseEtoile
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anse Etoile" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Anse Etoile in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Anse Etoile"@en ;
+	lcc-cr:hasFrenchShortName "Anse Étoile"@fr ;
+	lcc-cr:hasLocalShortName "Ans Etwal" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:AnseRoyale
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anse Royale" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Anse Royale in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Anse Royale"@en ;
+	lcc-cr:hasFrenchShortName "Anse Royale"@fr ;
+	lcc-cr:hasLocalShortName "Ans Royal" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:AuCap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Au Cap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Au Cap in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Au Cap"@en ;
+	lcc-cr:hasFrenchShortName "Au Cap"@fr ;
+	lcc-cr:hasLocalShortName "O Kap" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:BaieLazare
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baie Lazare" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Baie Lazare in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Baie Lazare"@en ;
+	lcc-cr:hasFrenchShortName "Baie Lazare"@fr ;
+	lcc-cr:hasLocalShortName "Be Lazar" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:BaieSainteAnne
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baie Sainte Anne" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Baie Sainte Anne in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Baie Sainte Anne"@en ;
+	lcc-cr:hasFrenchShortName "Baie Sainte-Anne"@fr ;
+	lcc-cr:hasLocalShortName "Be Sent Ann" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:BeauVallon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Beau Vallon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Beau Vallon in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Beau Vallon"@en ;
+	lcc-cr:hasFrenchShortName "Beau Vallon"@fr ;
+	lcc-cr:hasLocalShortName "Bovalon" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:BelAir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bel Air" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Bel Air in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Bel Air"@en ;
+	lcc-cr:hasFrenchShortName "Bel Air"@fr ;
+	lcc-cr:hasLocalShortName "Beler" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:BelOmbre
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bel Ombre" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Bel Ombre in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Bel Ombre"@en ;
+	lcc-cr:hasFrenchShortName "Bel Ombre"@fr ;
+	lcc-cr:hasLocalShortName "Belonm" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:Cascade
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cascade" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Cascade in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Cascade"@en ;
+	lcc-cr:hasFrenchShortName "Cascade"@fr ;
+	lcc-cr:hasLocalShortName "Kaskad" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:CosmoledoIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Cosmoledo Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The territory of Cosmoledo Islands in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Cosmoledo Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Cosmoledo"@fr ;
+	lcc-cr:hasNumericRegionCode "1047" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision category district in the country of Seychelles" ;
+	.
+
+lcc-3166-2-sc:EnglishRiver
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "English River" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of English River in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "English River"@en ;
+	lcc-cr:hasFrenchShortName "La Rivière Anglaise"@fr ;
+	lcc-cr:hasLocalShortName "Larivyer Anglez" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:FarquharIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Farquhar Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The territory of Farquhar Islands in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Farquhar Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Farquhar"@fr ;
+	lcc-cr:hasNumericRegionCode "1059" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:Glacis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Glacis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Glacis in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Glacis"@en ;
+	lcc-cr:hasFrenchShortName "Glacis"@fr ;
+	lcc-cr:hasLocalShortName "Glasi" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:GrandAnseMahe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Anse Mahe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Grand Anse Mahe in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Grand Anse Mahe"@en ;
+	lcc-cr:hasFrenchShortName "Grand'Anse Mahé"@fr ;
+	lcc-cr:hasLocalShortName "Grand Ans Mae" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:GrandAnsePraslin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grand Anse Praslin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Grand Anse Praslin in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Grand Anse Praslin"@en ;
+	lcc-cr:hasFrenchShortName "Grand'Anse Praslin"@fr ;
+	lcc-cr:hasLocalShortName "Grand Ans Pralen" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:LaDigue
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Digue" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of La Digue in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "La Digue"@en ;
+	lcc-cr:hasFrenchShortName "La Digue"@fr ;
+	lcc-cr:hasLocalShortName "Ladig" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:LesMamelles
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Les Mamelles" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Les Mamelles in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Les Mamelles"@en ;
+	lcc-cr:hasFrenchShortName "Les Mamelles"@fr ;
+	lcc-cr:hasLocalShortName "Lemamel" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:Mahe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Mahé (principal island)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The territory of Mahé (principal island) in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Mahé (principal island)"@en ;
+	lcc-cr:hasFrenchShortName "Mahé (île principale)"@fr ;
+	lcc-cr:hasNumericRegionCode "1112" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:MontBuxton
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mont Buxton" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Mont Buxton in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Mont Buxton"@en ;
+	lcc-cr:hasFrenchShortName "Mont Buxton"@fr ;
+	lcc-cr:hasLocalShortName "Mon Bikston" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:MontFleuri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mont Fleuri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Mont Fleuri in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Mont Fleuri"@en ;
+	lcc-cr:hasFrenchShortName "Mont Fleuri"@fr ;
+	lcc-cr:hasLocalShortName "Mon Fleri" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:Plaisance
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plaisance" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Plaisance in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Plaisance"@en ;
+	lcc-cr:hasFrenchShortName "Plaisance"@fr ;
+	lcc-cr:hasLocalShortName "Plezans" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:PointeLarue
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pointe Larue" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Pointe Larue in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Pointe Larue"@en ;
+	lcc-cr:hasFrenchShortName "Pointe La Rue"@fr ;
+	lcc-cr:hasLocalShortName "Pwent Lari" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:PortGlaud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Port Glaud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Port Glaud in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Port Glaud"@en ;
+	lcc-cr:hasFrenchShortName "Port Glaud"@fr ;
+	lcc-cr:hasLocalShortName "Porglo" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:RocheCaiman
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Roche Caiman" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Roche Caiman in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Roche Caiman"@en ;
+	lcc-cr:hasFrenchShortName "Roche Caïman"@fr ;
+	lcc-cr:hasLocalShortName "Ros Kaiman" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:SC-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Anse aux Pins in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:AnseAuxPins ;
+	lcc-lr:hasTag "SC-01" ;
+	lcc-lr:identifies lcc-3166-2-sc:AnseAuxPins ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Anse Boileau in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:AnseBoileau ;
+	lcc-lr:hasTag "SC-02" ;
+	lcc-lr:identifies lcc-3166-2-sc:AnseBoileau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Anse Etoile in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:AnseEtoile ;
+	lcc-lr:hasTag "SC-03" ;
+	lcc-lr:identifies lcc-3166-2-sc:AnseEtoile ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Au Cap in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:AuCap ;
+	lcc-lr:hasTag "SC-04" ;
+	lcc-lr:identifies lcc-3166-2-sc:AuCap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Anse Royale in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:AnseRoyale ;
+	lcc-lr:hasTag "SC-05" ;
+	lcc-lr:identifies lcc-3166-2-sc:AnseRoyale ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Baie Lazare in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:BaieLazare ;
+	lcc-lr:hasTag "SC-06" ;
+	lcc-lr:identifies lcc-3166-2-sc:BaieLazare ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Baie Sainte Anne in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:BaieSainteAnne ;
+	lcc-lr:hasTag "SC-07" ;
+	lcc-lr:identifies lcc-3166-2-sc:BaieSainteAnne ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Beau Vallon in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:BeauVallon ;
+	lcc-lr:hasTag "SC-08" ;
+	lcc-lr:identifies lcc-3166-2-sc:BeauVallon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Bel Air in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:BelAir ;
+	lcc-lr:hasTag "SC-09" ;
+	lcc-lr:identifies lcc-3166-2-sc:BelAir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Bel Ombre in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:BelOmbre ;
+	lcc-lr:hasTag "SC-10" ;
+	lcc-lr:identifies lcc-3166-2-sc:BelOmbre ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Cascade in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:Cascade ;
+	lcc-lr:hasTag "SC-11" ;
+	lcc-lr:identifies lcc-3166-2-sc:Cascade ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Glacis in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:Glacis ;
+	lcc-lr:hasTag "SC-12" ;
+	lcc-lr:identifies lcc-3166-2-sc:Glacis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Grand Anse Mahe in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:GrandAnseMahe ;
+	lcc-lr:hasTag "SC-13" ;
+	lcc-lr:identifies lcc-3166-2-sc:GrandAnseMahe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Grand Anse Praslin in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:GrandAnsePraslin ;
+	lcc-lr:hasTag "SC-14" ;
+	lcc-lr:identifies lcc-3166-2-sc:GrandAnsePraslin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of La Digue in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:LaDigue ;
+	lcc-lr:hasTag "SC-15" ;
+	lcc-lr:identifies lcc-3166-2-sc:LaDigue ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of English River in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:EnglishRiver ;
+	lcc-lr:hasTag "SC-16" ;
+	lcc-lr:identifies lcc-3166-2-sc:EnglishRiver ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Mont Buxton in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:MontBuxton ;
+	lcc-lr:hasTag "SC-17" ;
+	lcc-lr:identifies lcc-3166-2-sc:MontBuxton ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Mont Fleuri in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:MontFleuri ;
+	lcc-lr:hasTag "SC-18" ;
+	lcc-lr:identifies lcc-3166-2-sc:MontFleuri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Plaisance in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:Plaisance ;
+	lcc-lr:hasTag "SC-19" ;
+	lcc-lr:identifies lcc-3166-2-sc:Plaisance ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Pointe Larue in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:PointeLarue ;
+	lcc-lr:hasTag "SC-20" ;
+	lcc-lr:identifies lcc-3166-2-sc:PointeLarue ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Port Glaud in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:PortGlaud ;
+	lcc-lr:hasTag "SC-21" ;
+	lcc-lr:identifies lcc-3166-2-sc:PortGlaud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Saint Louis in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:SaintLouis ;
+	lcc-lr:hasTag "SC-22" ;
+	lcc-lr:identifies lcc-3166-2-sc:SaintLouis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Takamaka in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:Takamaka ;
+	lcc-lr:hasTag "SC-23" ;
+	lcc-lr:identifies lcc-3166-2-sc:Takamaka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-24
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Les Mamelles in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:LesMamelles ;
+	lcc-lr:hasTag "SC-24" ;
+	lcc-lr:identifies lcc-3166-2-sc:LesMamelles ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SC-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SC-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "subdivision code for the district of Roche Caiman in the country of Seychelles" ;
+	lcc-lr:denotes lcc-3166-2-sc:RocheCaiman ;
+	lcc-lr:hasTag "SC-25" ;
+	lcc-lr:identifies lcc-3166-2-sc:RocheCaiman ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sc:SaintLouis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Louis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Saint Louis in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Saint Louis"@en ;
+	lcc-cr:hasFrenchShortName "Saint-Louis"@fr ;
+	lcc-cr:hasLocalShortName "Sen Lwi" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-2-sc:Takamaka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Takamaka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SC/> ;
+	skos:definition "The district of Takamaka in the country of Seychelles" ;
+	lcc-cr:hasEnglishShortName "Takamaka"@en ;
+	lcc-cr:hasFrenchShortName "Takamaka"@fr ;
+	lcc-cr:hasLocalShortName "Takamaka" ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Seychelles ;
+	.
+

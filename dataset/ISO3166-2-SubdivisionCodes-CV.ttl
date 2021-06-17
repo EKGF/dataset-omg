@@ -1,0 +1,752 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cv: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Cabo Verde Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cv" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Cabo Verde, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CV.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	.
+
+lcc-3166-2-cv:BoaVista
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boa Vista" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Boa Vista in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Boa Vista"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeBarlavento ;
+	.
+
+lcc-3166-2-cv:Brava
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brava" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Brava in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Brava"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:CV-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the geographical region of Ilhas de Barlavento in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:IlhasDeBarlavento ;
+	lcc-lr:hasTag "CV-B" ;
+	lcc-lr:identifies lcc-3166-2-cv:IlhasDeBarlavento ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Brava in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:Brava ;
+	lcc-lr:hasTag "CV-BR" ;
+	lcc-lr:identifies lcc-3166-2-cv:Brava ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-BV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-BV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Boa Vista in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:BoaVista ;
+	lcc-lr:hasTag "CV-BV" ;
+	lcc-lr:identifies lcc-3166-2-cv:BoaVista ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-CA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Santa Catarina in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SantaCatarina ;
+	lcc-lr:hasTag "CV-CA" ;
+	lcc-lr:identifies lcc-3166-2-cv:SantaCatarina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-CF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-CF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Santa Catarina do Fogo in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SantaCatarinaDoFogo ;
+	lcc-lr:hasTag "CV-CF" ;
+	lcc-lr:identifies lcc-3166-2-cv:SantaCatarinaDoFogo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-CR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Santa Cruz in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SantaCruz ;
+	lcc-lr:hasTag "CV-CR" ;
+	lcc-lr:identifies lcc-3166-2-cv:SantaCruz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Maio in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:Maio ;
+	lcc-lr:hasTag "CV-MA" ;
+	lcc-lr:identifies lcc-3166-2-cv:Maio ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Mosteiros in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:Mosteiros ;
+	lcc-lr:hasTag "CV-MO" ;
+	lcc-lr:identifies lcc-3166-2-cv:Mosteiros ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-PA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-PA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Paul in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:Paul ;
+	lcc-lr:hasTag "CV-PA" ;
+	lcc-lr:identifies lcc-3166-2-cv:Paul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-PN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-PN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Porto Novo in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:PortoNovo ;
+	lcc-lr:hasTag "CV-PN" ;
+	lcc-lr:identifies lcc-3166-2-cv:PortoNovo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-PR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-PR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Praia in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:Praia ;
+	lcc-lr:hasTag "CV-PR" ;
+	lcc-lr:identifies lcc-3166-2-cv:Praia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-RB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-RB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Ribeira Brava in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:RibeiraBrava ;
+	lcc-lr:hasTag "CV-RB" ;
+	lcc-lr:identifies lcc-3166-2-cv:RibeiraBrava ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-RG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-RG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Ribeira Grande in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:RibeiraGrande ;
+	lcc-lr:hasTag "CV-RG" ;
+	lcc-lr:identifies lcc-3166-2-cv:RibeiraGrande ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-RS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-RS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Ribeira Grande de Santiago in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:RibeiraGrandeDeSantiago ;
+	lcc-lr:hasTag "CV-RS" ;
+	lcc-lr:identifies lcc-3166-2-cv:RibeiraGrandeDeSantiago ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the geographical region of Ilhas de Sotavento in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:IlhasDeSotavento ;
+	lcc-lr:hasTag "CV-S" ;
+	lcc-lr:identifies lcc-3166-2-cv:IlhasDeSotavento ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of São Domingos in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SaoDomingos ;
+	lcc-lr:hasTag "CV-SD" ;
+	lcc-lr:identifies lcc-3166-2-cv:SaoDomingos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-SF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-SF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of São Filipe in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SaoFilipe ;
+	lcc-lr:hasTag "CV-SF" ;
+	lcc-lr:identifies lcc-3166-2-cv:SaoFilipe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-SL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-SL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Sal in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:Sal ;
+	lcc-lr:hasTag "CV-SL" ;
+	lcc-lr:identifies lcc-3166-2-cv:Sal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-SM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of São Miguel in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SaoMiguel ;
+	lcc-lr:hasTag "CV-SM" ;
+	lcc-lr:identifies lcc-3166-2-cv:SaoMiguel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of São Lourenço dos Órgãos in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SaoLourencoDosOrgaos ;
+	lcc-lr:hasTag "CV-SO" ;
+	lcc-lr:identifies lcc-3166-2-cv:SaoLourencoDosOrgaos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-SS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-SS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of São Salvador do Mundo in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SaoSalvadorDoMundo ;
+	lcc-lr:hasTag "CV-SS" ;
+	lcc-lr:identifies lcc-3166-2-cv:SaoSalvadorDoMundo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-SV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of São Vicente in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:SaoVicente ;
+	lcc-lr:hasTag "CV-SV" ;
+	lcc-lr:identifies lcc-3166-2-cv:SaoVicente ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Tarrafal in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:Tarrafal ;
+	lcc-lr:hasTag "CV-TA" ;
+	lcc-lr:identifies lcc-3166-2-cv:Tarrafal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:CV-TS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CV-TS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision code for the municipality of Tarrafal de São Nicolau in the country of Cabo Verde" ;
+	lcc-lr:denotes lcc-3166-2-cv:TarrafalDeSaoNicolau ;
+	lcc-lr:hasTag "CV-TS" ;
+	lcc-lr:identifies lcc-3166-2-cv:TarrafalDeSaoNicolau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cv:GeographicalRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "geographical region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision category geographical region in the country of Cabo Verde" ;
+	.
+
+lcc-3166-2-cv:IlhasDeBarlavento
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilhas de Barlavento" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The geographical region of Ilhas de Barlavento in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Ilhas de Barlavento"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:GeographicalRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:CaboVerde ;
+	.
+
+lcc-3166-2-cv:IlhasDeSotavento
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilhas de Sotavento" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The geographical region of Ilhas de Sotavento in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Ilhas de Sotavento"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:GeographicalRegion ;
+	lcc-cr:isSubregionOf lcc-3166-1:CaboVerde ;
+	.
+
+lcc-3166-2-cv:Maio
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maio" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Maio in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Maio"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:Mosteiros
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mosteiros" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Mosteiros in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Mosteiros"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "subdivision category municipality in the country of Cabo Verde" ;
+	.
+
+lcc-3166-2-cv:Paul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Paul in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Paul"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeBarlavento ;
+	.
+
+lcc-3166-2-cv:PortoNovo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Porto Novo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Porto Novo in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Porto Novo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeBarlavento ;
+	.
+
+lcc-3166-2-cv:Praia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Praia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Praia in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Praia"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:RibeiraBrava
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ribeira Brava" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Ribeira Brava in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Ribeira Brava"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeBarlavento ;
+	.
+
+lcc-3166-2-cv:RibeiraGrande
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ribeira Grande" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Ribeira Grande in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Ribeira Grande"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeBarlavento ;
+	.
+
+lcc-3166-2-cv:RibeiraGrandeDeSantiago
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ribeira Grande de Santiago" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Ribeira Grande de Santiago in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Ribeira Grande de Santiago"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:Sal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Sal in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Sal"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeBarlavento ;
+	.
+
+lcc-3166-2-cv:SantaCatarina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Catarina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Santa Catarina in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Santa Catarina"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SantaCatarinaDoFogo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Catarina do Fogo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Santa Catarina do Fogo in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Santa Catarina do Fogo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SantaCruz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Cruz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Santa Cruz in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Santa Cruz"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SaoDomingos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "São Domingos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of São Domingos in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "São Domingos"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SaoFilipe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "São Filipe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of São Filipe in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "São Filipe"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SaoLourencoDosOrgaos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "São Lourenço dos Órgãos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of São Lourenço dos Órgãos in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "São Lourenço dos Órgãos"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SaoMiguel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "São Miguel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of São Miguel in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "São Miguel"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SaoSalvadorDoMundo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "São Salvador do Mundo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of São Salvador do Mundo in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "São Salvador do Mundo"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:SaoTiago
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "São Tiago" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The territory of São Tiago in the country of Cabo Verde" ;
+	lcc-cr:hasEnglishShortName "São Tiago"@en ;
+	lcc-cr:hasFrenchShortName "São Tiago"@fr ;
+	lcc-cr:hasNumericRegionCode "1188" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:CaboVerde ;
+	.
+
+lcc-3166-2-cv:SaoVicente
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "São Vicente" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition
+		"The municipality of São Vicente in the country of Cabo Verde" ,
+		"The territory of São Vicente in the country of Cabo Verde"
+		;
+	lcc-cr:hasEnglishShortName "São Vicente"@en ;
+	lcc-cr:hasFrenchShortName "São Vicente"@fr ;
+	lcc-cr:hasLocalShortName "São Vicente"@pt ;
+	lcc-cr:hasNumericRegionCode "1189" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-cv:Municipality
+		;
+	lcc-cr:isSubregionOf
+		lcc-3166-1:CaboVerde ,
+		lcc-3166-2-cv:IlhasDeBarlavento
+		;
+	.
+
+lcc-3166-2-cv:Tarrafal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarrafal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Tarrafal in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Tarrafal"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeSotavento ;
+	.
+
+lcc-3166-2-cv:TarrafalDeSaoNicolau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarrafal de São Nicolau" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CV/> ;
+	skos:definition "The municipality of Tarrafal de São Nicolau in the country of Cabo Verde" ;
+	lcc-cr:hasLocalShortName "Tarrafal de São Nicolau"@pt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cv:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-cv:IlhasDeBarlavento ;
+	.
+

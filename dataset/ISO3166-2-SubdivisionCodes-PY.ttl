@@ -1,0 +1,562 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-py: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Paraguay Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-py" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Paraguay, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-PY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	.
+
+lcc-3166-2-py:AltoParaguay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alto Paraguay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Alto Paraguay in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Alto Paraguay"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:AltoParana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alto Paraná" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Alto Paraná in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Alto Paraná"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Amambay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amambay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Amambay in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Amambay"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Asuncion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Asunción" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The capital of Asunción in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Asunción"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Capital ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Boqueron
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boquerón" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Boquerón in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Boquerón"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Caaguazu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caaguazú" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Caaguazú in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Caaguazú"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Caazapa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caazapá" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Caazapá in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Caazapá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Canindeyu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Canindeyú" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Canindeyú in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Canindeyú"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Capital
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "capital" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision category capital in the country of Paraguay" ;
+	.
+
+lcc-3166-2-py:Central
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Central in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Central"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Concepcion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Concepción" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Concepción in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Concepción"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Cordillera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cordillera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Cordillera in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Cordillera"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision category department in the country of Paraguay" ;
+	.
+
+lcc-3166-2-py:Guaira
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guairá" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Guairá in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Guairá"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Itapua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Itapúa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Itapúa in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Itapúa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Misiones
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Misiones" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Misiones in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Misiones"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:Neembucu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ñeembucú" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Ñeembucú in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Ñeembucú"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:PY-1
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Concepción in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Concepcion ;
+	lcc-lr:hasTag "PY-1" ;
+	lcc-lr:identifies lcc-3166-2-py:Concepcion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Alto Paraná in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:AltoParana ;
+	lcc-lr:hasTag "PY-10" ;
+	lcc-lr:identifies lcc-3166-2-py:AltoParana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Central in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Central ;
+	lcc-lr:hasTag "PY-11" ;
+	lcc-lr:identifies lcc-3166-2-py:Central ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Ñeembucú in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Neembucu ;
+	lcc-lr:hasTag "PY-12" ;
+	lcc-lr:identifies lcc-3166-2-py:Neembucu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Amambay in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Amambay ;
+	lcc-lr:hasTag "PY-13" ;
+	lcc-lr:identifies lcc-3166-2-py:Amambay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Canindeyú in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Canindeyu ;
+	lcc-lr:hasTag "PY-14" ;
+	lcc-lr:identifies lcc-3166-2-py:Canindeyu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Presidente Hayes in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:PresidenteHayes ;
+	lcc-lr:hasTag "PY-15" ;
+	lcc-lr:identifies lcc-3166-2-py:PresidenteHayes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Alto Paraguay in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:AltoParaguay ;
+	lcc-lr:hasTag "PY-16" ;
+	lcc-lr:identifies lcc-3166-2-py:AltoParaguay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Boquerón in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Boqueron ;
+	lcc-lr:hasTag "PY-19" ;
+	lcc-lr:identifies lcc-3166-2-py:Boqueron ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of San Pedro in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:SanPedro ;
+	lcc-lr:hasTag "PY-2" ;
+	lcc-lr:identifies lcc-3166-2-py:SanPedro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-3
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Cordillera in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Cordillera ;
+	lcc-lr:hasTag "PY-3" ;
+	lcc-lr:identifies lcc-3166-2-py:Cordillera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-4
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Guairá in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Guaira ;
+	lcc-lr:hasTag "PY-4" ;
+	lcc-lr:identifies lcc-3166-2-py:Guaira ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-5
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Caaguazú in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Caaguazu ;
+	lcc-lr:hasTag "PY-5" ;
+	lcc-lr:identifies lcc-3166-2-py:Caaguazu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-6
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Caazapá in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Caazapa ;
+	lcc-lr:hasTag "PY-6" ;
+	lcc-lr:identifies lcc-3166-2-py:Caazapa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-7
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Itapúa in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Itapua ;
+	lcc-lr:hasTag "PY-7" ;
+	lcc-lr:identifies lcc-3166-2-py:Itapua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-8
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Misiones in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Misiones ;
+	lcc-lr:hasTag "PY-8" ;
+	lcc-lr:identifies lcc-3166-2-py:Misiones ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-9
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-9" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the department of Paraguarí in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Paraguari ;
+	lcc-lr:hasTag "PY-9" ;
+	lcc-lr:identifies lcc-3166-2-py:Paraguari ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:PY-ASU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "PY-ASU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "subdivision code for the capital of Asunción in the country of Paraguay" ;
+	lcc-lr:denotes lcc-3166-2-py:Asuncion ;
+	lcc-lr:hasTag "PY-ASU" ;
+	lcc-lr:identifies lcc-3166-2-py:Asuncion ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-py:Paraguari
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paraguarí" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Paraguarí in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Paraguarí"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:PresidenteHayes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Presidente Hayes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of Presidente Hayes in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "Presidente Hayes"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-2-py:SanPedro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "San Pedro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-PY/> ;
+	skos:definition "The department of San Pedro in the country of Paraguay" ;
+	lcc-cr:hasLocalShortName "San Pedro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-py:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Paraguay ;
+	.
+

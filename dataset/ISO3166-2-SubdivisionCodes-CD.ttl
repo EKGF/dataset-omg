@@ -1,0 +1,778 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cd: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Congo Democratic Republic Of Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cd" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Congo Democratic Republic Of, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CD.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	.
+
+lcc-3166-2-cd:Bas-Uele
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bas-Uélé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Bas-Uélé in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Bas-Uélé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:CD-BC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-BC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Kongo Central in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:KongoCentral ;
+	lcc-lr:hasTag "CD-BC" ;
+	lcc-lr:identifies lcc-3166-2-cd:KongoCentral ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-BU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Bas-Uélé in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Bas-Uele ;
+	lcc-lr:hasTag "CD-BU" ;
+	lcc-lr:identifies lcc-3166-2-cd:Bas-Uele ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-EQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-EQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Équateur in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Equateur ;
+	lcc-lr:hasTag "CD-EQ" ;
+	lcc-lr:identifies lcc-3166-2-cd:Equateur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-HK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-HK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Haut-Katanga in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Haut-Katanga ;
+	lcc-lr:hasTag "CD-HK" ;
+	lcc-lr:identifies lcc-3166-2-cd:Haut-Katanga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-HL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-HL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Haut-Lomami in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Haut-Lomami ;
+	lcc-lr:hasTag "CD-HL" ;
+	lcc-lr:identifies lcc-3166-2-cd:Haut-Lomami ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-HU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-HU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Haut-Uélé in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Haut-Uele ;
+	lcc-lr:hasTag "CD-HU" ;
+	lcc-lr:identifies lcc-3166-2-cd:Haut-Uele ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-IT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-IT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Ituri in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Ituri ;
+	lcc-lr:hasTag "CD-IT" ;
+	lcc-lr:identifies lcc-3166-2-cd:Ituri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-KC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-KC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Kasaï Central in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:KasaiCentral ;
+	lcc-lr:hasTag "CD-KC" ;
+	lcc-lr:identifies lcc-3166-2-cd:KasaiCentral ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-KE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-KE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Kasaï Oriental in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:KasaiOriental ;
+	lcc-lr:hasTag "CD-KE" ;
+	lcc-lr:identifies lcc-3166-2-cd:KasaiOriental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-KG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-KG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Kwango in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Kwango ;
+	lcc-lr:hasTag "CD-KG" ;
+	lcc-lr:identifies lcc-3166-2-cd:Kwango ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-KL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-KL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Kwilu in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Kwilu ;
+	lcc-lr:hasTag "CD-KL" ;
+	lcc-lr:identifies lcc-3166-2-cd:Kwilu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-KN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-KN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the city of Kinshasa in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Kinshasa ;
+	lcc-lr:hasTag "CD-KN" ;
+	lcc-lr:identifies lcc-3166-2-cd:Kinshasa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-KS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-KS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Kasaï in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Kasai ;
+	lcc-lr:hasTag "CD-KS" ;
+	lcc-lr:identifies lcc-3166-2-cd:Kasai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-LO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Lomami in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Lomami ;
+	lcc-lr:hasTag "CD-LO" ;
+	lcc-lr:identifies lcc-3166-2-cd:Lomami ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-LU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-LU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Lualaba in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Lualaba ;
+	lcc-lr:hasTag "CD-LU" ;
+	lcc-lr:identifies lcc-3166-2-cd:Lualaba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Maniema in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Maniema ;
+	lcc-lr:hasTag "CD-MA" ;
+	lcc-lr:identifies lcc-3166-2-cd:Maniema ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-MN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Mai-Ndombe in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Mai-Ndombe ;
+	lcc-lr:hasTag "CD-MN" ;
+	lcc-lr:identifies lcc-3166-2-cd:Mai-Ndombe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Mongala in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Mongala ;
+	lcc-lr:hasTag "CD-MO" ;
+	lcc-lr:identifies lcc-3166-2-cd:Mongala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-NK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-NK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Nord-Kivu in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Nord-Kivu ;
+	lcc-lr:hasTag "CD-NK" ;
+	lcc-lr:identifies lcc-3166-2-cd:Nord-Kivu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-NU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-NU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Nord-Ubangi in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Nord-Ubangi ;
+	lcc-lr:hasTag "CD-NU" ;
+	lcc-lr:identifies lcc-3166-2-cd:Nord-Ubangi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Sankuru in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Sankuru ;
+	lcc-lr:hasTag "CD-SA" ;
+	lcc-lr:identifies lcc-3166-2-cd:Sankuru ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-SK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-SK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Sud-Kivu in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Sud-Kivu ;
+	lcc-lr:hasTag "CD-SK" ;
+	lcc-lr:identifies lcc-3166-2-cd:Sud-Kivu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-SU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Sud-Ubangi in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Sud-Ubangi ;
+	lcc-lr:hasTag "CD-SU" ;
+	lcc-lr:identifies lcc-3166-2-cd:Sud-Ubangi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Tanganyika in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Tanganyika ;
+	lcc-lr:hasTag "CD-TA" ;
+	lcc-lr:identifies lcc-3166-2-cd:Tanganyika ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-TO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-TO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Tshopo in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Tshopo ;
+	lcc-lr:hasTag "CD-TO" ;
+	lcc-lr:identifies lcc-3166-2-cd:Tshopo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:CD-TU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CD-TU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision code for the province of Tshuapa in the country of Congo Democratic Republic Of" ;
+	lcc-lr:denotes lcc-3166-2-cd:Tshuapa ;
+	lcc-lr:hasTag "CD-TU" ;
+	lcc-lr:identifies lcc-3166-2-cd:Tshuapa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cd:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision category city in the country of Congo Democratic Republic Of" ;
+	.
+
+lcc-3166-2-cd:Equateur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Équateur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Équateur in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Équateur"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Haut-Katanga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haut-Katanga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Haut-Katanga in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Haut-Katanga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Haut-Lomami
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haut-Lomami" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Haut-Lomami in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Haut-Lomami"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Haut-Uele
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haut-Uélé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Haut-Uélé in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Haut-Uélé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Ituri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ituri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Ituri in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Ituri"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Kasai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kasaï" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Kasaï in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Kasaï"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:KasaiCentral
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kasaï Central" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Kasaï Central in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Kasaï Central"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:KasaiOriental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kasaï Oriental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Kasaï Oriental in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Kasaï Oriental"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Kinshasa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kinshasa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The city of Kinshasa in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Kinshasa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:KongoCentral
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kongo Central" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Kongo Central in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Kongo Central"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Kwango
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kwango" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Kwango in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Kwango"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Kwilu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kwilu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Kwilu in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Kwilu"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Lomami
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lomami" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Lomami in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Lomami"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Lualaba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lualaba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Lualaba in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Lualaba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Mai-Ndombe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mai-Ndombe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Mai-Ndombe in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Mai-Ndombe"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Maniema
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maniema" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Maniema in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Maniema"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Mongala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mongala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Mongala in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Mongala"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Nord-Kivu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nord-Kivu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Nord-Kivu in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Nord-Kivu"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Nord-Ubangi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nord-Ubangi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Nord-Ubangi in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Nord-Ubangi"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "subdivision category province in the country of Congo Democratic Republic Of" ;
+	.
+
+lcc-3166-2-cd:Sankuru
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sankuru" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Sankuru in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Sankuru"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Sud-Kivu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sud-Kivu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Sud-Kivu in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Sud-Kivu"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Sud-Ubangi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sud-Ubangi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Sud-Ubangi in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Sud-Ubangi"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Tanganyika
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tanganyika" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Tanganyika in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Tanganyika"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Tshopo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tshopo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Tshopo in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Tshopo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-2-cd:Tshuapa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tshuapa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CD/> ;
+	skos:definition "The province of Tshuapa in the country of Congo Democratic Republic Of" ;
+	lcc-cr:hasFrenchShortName "Tshuapa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cd:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+

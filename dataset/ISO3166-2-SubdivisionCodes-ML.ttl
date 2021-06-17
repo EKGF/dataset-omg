@@ -1,0 +1,373 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ml: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Mali Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ml" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Mali, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ML.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	.
+
+lcc-3166-2-ml:Bamako
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bamako" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The district of Bamako in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Bamako"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision category district in the country of Mali" ;
+	.
+
+lcc-3166-2-ml:Gao
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gao" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Gao in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Gao"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Kayes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kayes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Kayes in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Kayes"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Kidal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kidal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Kidal in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Kidal"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Koulikoro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Koulikoro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Koulikoro in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Koulikoro"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:ML-1
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Kayes in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Kayes ;
+	lcc-lr:hasTag "ML-1" ;
+	lcc-lr:identifies lcc-3166-2-ml:Kayes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Taoudénit in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Taoudenit ;
+	lcc-lr:hasTag "ML-10" ;
+	lcc-lr:identifies lcc-3166-2-ml:Taoudenit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Koulikoro in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Koulikoro ;
+	lcc-lr:hasTag "ML-2" ;
+	lcc-lr:identifies lcc-3166-2-ml:Koulikoro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-3
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Sikasso in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Sikasso ;
+	lcc-lr:hasTag "ML-3" ;
+	lcc-lr:identifies lcc-3166-2-ml:Sikasso ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-4
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Ségou in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Segou ;
+	lcc-lr:hasTag "ML-4" ;
+	lcc-lr:identifies lcc-3166-2-ml:Segou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-5
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Mopti in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Mopti ;
+	lcc-lr:hasTag "ML-5" ;
+	lcc-lr:identifies lcc-3166-2-ml:Mopti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-6
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Tombouctou in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Tombouctou ;
+	lcc-lr:hasTag "ML-6" ;
+	lcc-lr:identifies lcc-3166-2-ml:Tombouctou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-7
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Gao in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Gao ;
+	lcc-lr:hasTag "ML-7" ;
+	lcc-lr:identifies lcc-3166-2-ml:Gao ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-8
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Kidal in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Kidal ;
+	lcc-lr:hasTag "ML-8" ;
+	lcc-lr:identifies lcc-3166-2-ml:Kidal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-9
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-9" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the region of Ménaka in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Menaka ;
+	lcc-lr:hasTag "ML-9" ;
+	lcc-lr:identifies lcc-3166-2-ml:Menaka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:ML-BKO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ML-BKO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision code for the district of Bamako in the country of Mali" ;
+	lcc-lr:denotes lcc-3166-2-ml:Bamako ;
+	lcc-lr:hasTag "ML-BKO" ;
+	lcc-lr:identifies lcc-3166-2-ml:Bamako ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ml:Menaka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ménaka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Ménaka in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Ménaka"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Mopti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mopti" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Mopti in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Mopti"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "subdivision category region in the country of Mali" ;
+	.
+
+lcc-3166-2-ml:Segou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ségou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Ségou in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Ségou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Sikasso
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sikasso" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Sikasso in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Sikasso"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Taoudenit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taoudénit" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Taoudénit in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Taoudénit"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+
+lcc-3166-2-ml:Tombouctou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tombouctou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ML/> ;
+	skos:definition "The region of Tombouctou in the country of Mali" ;
+	lcc-cr:hasFrenchShortName "Tombouctou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ml:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Mali ;
+	.
+

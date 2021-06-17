@@ -1,0 +1,201 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-dk: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Denmark Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-dk" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Denmark, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-DK.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	.
+
+lcc-3166-2-dk:DK-81
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DK-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "subdivision code for the region of Nordjylland in the country of Denmark" ;
+	lcc-lr:denotes lcc-3166-2-dk:Nordjylland ;
+	lcc-lr:hasTag "DK-81" ;
+	lcc-lr:identifies lcc-3166-2-dk:Nordjylland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dk:DK-82
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DK-82" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "subdivision code for the region of Midtjylland in the country of Denmark" ;
+	lcc-lr:denotes lcc-3166-2-dk:Midtjylland ;
+	lcc-lr:hasTag "DK-82" ;
+	lcc-lr:identifies lcc-3166-2-dk:Midtjylland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dk:DK-83
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DK-83" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "subdivision code for the region of Syddanmark in the country of Denmark" ;
+	lcc-lr:denotes lcc-3166-2-dk:Syddanmark ;
+	lcc-lr:hasTag "DK-83" ;
+	lcc-lr:identifies lcc-3166-2-dk:Syddanmark ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dk:DK-84
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DK-84" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "subdivision code for the region of Hovedstaden in the country of Denmark" ;
+	lcc-lr:denotes lcc-3166-2-dk:Hovedstaden ;
+	lcc-lr:hasTag "DK-84" ;
+	lcc-lr:identifies lcc-3166-2-dk:Hovedstaden ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dk:DK-85
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DK-85" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "subdivision code for the region of Sjælland in the country of Denmark" ;
+	lcc-lr:denotes lcc-3166-2-dk:Sjlland ;
+	lcc-lr:hasTag "DK-85" ;
+	lcc-lr:identifies lcc-3166-2-dk:Sjlland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dk:Hovedstaden
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hovedstaden" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "The region of Hovedstaden in the country of Denmark" ;
+	lcc-cr:hasLocalShortName "Hovedstaden"@da ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dk:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Denmark ;
+	.
+
+lcc-3166-2-dk:Midtjylland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Midtjylland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "The region of Midtjylland in the country of Denmark" ;
+	lcc-cr:hasLocalShortName "Midtjylland"@da ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dk:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Denmark ;
+	.
+
+lcc-3166-2-dk:Nordjylland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nordjylland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "The region of Nordjylland in the country of Denmark" ;
+	lcc-cr:hasLocalShortName "Nordjylland"@da ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dk:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Denmark ;
+	.
+
+lcc-3166-2-dk:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "subdivision category region in the country of Denmark" ;
+	.
+
+lcc-3166-2-dk:Sjlland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sjælland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "The region of Sjælland in the country of Denmark" ;
+	lcc-cr:hasLocalShortName "Sjælland"@da ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dk:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Denmark ;
+	.
+
+lcc-3166-2-dk:Syddanmark
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Syddanmark" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DK/> ;
+	skos:definition "The region of Syddanmark in the country of Denmark" ;
+	lcc-cr:hasLocalShortName "Syddanmark"@da ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dk:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Denmark ;
+	.
+

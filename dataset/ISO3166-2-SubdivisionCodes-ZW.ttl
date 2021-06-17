@@ -1,0 +1,336 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-zw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Zimbabwe Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-zw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Zimbabwe, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-ZW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	.
+
+lcc-3166-2-zw:Bulawayo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bulawayo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Bulawayo in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Bulawayo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:Harare
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Harare" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Harare in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Harare"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:Manicaland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manicaland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Manicaland in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Manicaland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:MashonalandCentral
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mashonaland Central" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Mashonaland Central in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Mashonaland Central"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:MashonalandEast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mashonaland East" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Mashonaland East in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Mashonaland East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:MashonalandWest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mashonaland West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Mashonaland West in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Mashonaland West"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:Masvingo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Masvingo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Masvingo in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Masvingo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:MatabelelandNorth
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matabeleland North" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Matabeleland North in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Matabeleland North"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:MatabelelandSouth
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matabeleland South" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Matabeleland South in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Matabeleland South"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:Midlands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Midlands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "The province of Midlands in the country of Zimbabwe" ;
+	lcc-cr:hasEnglishShortName "Midlands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-zw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Zimbabwe ;
+	.
+
+lcc-3166-2-zw:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision category province in the country of Zimbabwe" ;
+	.
+
+lcc-3166-2-zw:ZW-BU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Bulawayo in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:Bulawayo ;
+	lcc-lr:hasTag "ZW-BU" ;
+	lcc-lr:identifies lcc-3166-2-zw:Bulawayo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-HA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Harare in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:Harare ;
+	lcc-lr:hasTag "ZW-HA" ;
+	lcc-lr:identifies lcc-3166-2-zw:Harare ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Manicaland in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:Manicaland ;
+	lcc-lr:hasTag "ZW-MA" ;
+	lcc-lr:identifies lcc-3166-2-zw:Manicaland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-MC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Mashonaland Central in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:MashonalandCentral ;
+	lcc-lr:hasTag "ZW-MC" ;
+	lcc-lr:identifies lcc-3166-2-zw:MashonalandCentral ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-ME
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-ME" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Mashonaland East in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:MashonalandEast ;
+	lcc-lr:hasTag "ZW-ME" ;
+	lcc-lr:identifies lcc-3166-2-zw:MashonalandEast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Midlands in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:Midlands ;
+	lcc-lr:hasTag "ZW-MI" ;
+	lcc-lr:identifies lcc-3166-2-zw:Midlands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-MN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Matabeleland North in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:MatabelelandNorth ;
+	lcc-lr:hasTag "ZW-MN" ;
+	lcc-lr:identifies lcc-3166-2-zw:MatabelelandNorth ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-MS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-MS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Matabeleland South in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:MatabelelandSouth ;
+	lcc-lr:hasTag "ZW-MS" ;
+	lcc-lr:identifies lcc-3166-2-zw:MatabelelandSouth ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-MV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-MV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Masvingo in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:Masvingo ;
+	lcc-lr:hasTag "ZW-MV" ;
+	lcc-lr:identifies lcc-3166-2-zw:Masvingo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-zw:ZW-MW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "ZW-MW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-ZW/> ;
+	skos:definition "subdivision code for the province of Mashonaland West in the country of Zimbabwe" ;
+	lcc-lr:denotes lcc-3166-2-zw:MashonalandWest ;
+	lcc-lr:hasTag "ZW-MW" ;
+	lcc-lr:identifies lcc-3166-2-zw:MashonalandWest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+

@@ -1,0 +1,1642 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bf: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Burkina Faso Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bf" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Burkina Faso, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BF.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	.
+
+lcc-3166-2-bf:BF-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Boucle du Mouhoun in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:BoucleDuMouhoun ;
+	lcc-lr:hasTag "BF-01" ;
+	lcc-lr:identifies lcc-3166-2-bf:BoucleDuMouhoun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Cascades in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Cascades ;
+	lcc-lr:hasTag "BF-02" ;
+	lcc-lr:identifies lcc-3166-2-bf:Cascades ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Centre in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Centre ;
+	lcc-lr:hasTag "BF-03" ;
+	lcc-lr:identifies lcc-3166-2-bf:Centre ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Centre-Est in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Centre-Est ;
+	lcc-lr:hasTag "BF-04" ;
+	lcc-lr:identifies lcc-3166-2-bf:Centre-Est ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Centre-Nord in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Centre-Nord ;
+	lcc-lr:hasTag "BF-05" ;
+	lcc-lr:identifies lcc-3166-2-bf:Centre-Nord ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Centre-Ouest in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Centre-Ouest ;
+	lcc-lr:hasTag "BF-06" ;
+	lcc-lr:identifies lcc-3166-2-bf:Centre-Ouest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Centre-Sud in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Centre-Sud ;
+	lcc-lr:hasTag "BF-07" ;
+	lcc-lr:identifies lcc-3166-2-bf:Centre-Sud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Est in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Est ;
+	lcc-lr:hasTag "BF-08" ;
+	lcc-lr:identifies lcc-3166-2-bf:Est ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Hauts-Bassins in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Hauts-Bassins ;
+	lcc-lr:hasTag "BF-09" ;
+	lcc-lr:identifies lcc-3166-2-bf:Hauts-Bassins ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Nord in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Nord ;
+	lcc-lr:hasTag "BF-10" ;
+	lcc-lr:identifies lcc-3166-2-bf:Nord ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Plateau-Central in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Plateau-Central ;
+	lcc-lr:hasTag "BF-11" ;
+	lcc-lr:identifies lcc-3166-2-bf:Plateau-Central ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Sahel in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Sahel ;
+	lcc-lr:hasTag "BF-12" ;
+	lcc-lr:identifies lcc-3166-2-bf:Sahel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the region of Sud-Ouest in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Sud-Ouest ;
+	lcc-lr:hasTag "BF-13" ;
+	lcc-lr:identifies lcc-3166-2-bf:Sud-Ouest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-BAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-BAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Balé in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Bale ;
+	lcc-lr:hasTag "BF-BAL" ;
+	lcc-lr:identifies lcc-3166-2-bf:Bale ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-BAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-BAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Bam in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Bam ;
+	lcc-lr:hasTag "BF-BAM" ;
+	lcc-lr:identifies lcc-3166-2-bf:Bam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-BAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-BAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Banwa in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Banwa ;
+	lcc-lr:hasTag "BF-BAN" ;
+	lcc-lr:identifies lcc-3166-2-bf:Banwa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-BAZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-BAZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Bazèga in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Bazega ;
+	lcc-lr:hasTag "BF-BAZ" ;
+	lcc-lr:identifies lcc-3166-2-bf:Bazega ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-BGR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-BGR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Bougouriba in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Bougouriba ;
+	lcc-lr:hasTag "BF-BGR" ;
+	lcc-lr:identifies lcc-3166-2-bf:Bougouriba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-BLG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-BLG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Boulgou in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Boulgou ;
+	lcc-lr:hasTag "BF-BLG" ;
+	lcc-lr:identifies lcc-3166-2-bf:Boulgou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-BLK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-BLK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Boulkiemdé in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Boulkiemde ;
+	lcc-lr:hasTag "BF-BLK" ;
+	lcc-lr:identifies lcc-3166-2-bf:Boulkiemde ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-COM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-COM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Comoé in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Comoe ;
+	lcc-lr:hasTag "BF-COM" ;
+	lcc-lr:identifies lcc-3166-2-bf:Comoe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-GAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-GAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Ganzourgou in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Ganzourgou ;
+	lcc-lr:hasTag "BF-GAN" ;
+	lcc-lr:identifies lcc-3166-2-bf:Ganzourgou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-GNA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-GNA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Gnagna in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Gnagna ;
+	lcc-lr:hasTag "BF-GNA" ;
+	lcc-lr:identifies lcc-3166-2-bf:Gnagna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-GOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-GOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Gourma in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Gourma ;
+	lcc-lr:hasTag "BF-GOU" ;
+	lcc-lr:identifies lcc-3166-2-bf:Gourma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-HOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-HOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Houet in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Houet ;
+	lcc-lr:hasTag "BF-HOU" ;
+	lcc-lr:identifies lcc-3166-2-bf:Houet ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-IOB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-IOB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Ioba in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Ioba ;
+	lcc-lr:hasTag "BF-IOB" ;
+	lcc-lr:identifies lcc-3166-2-bf:Ioba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KAD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KAD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Kadiogo in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Kadiogo ;
+	lcc-lr:hasTag "BF-KAD" ;
+	lcc-lr:identifies lcc-3166-2-bf:Kadiogo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KEN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Kénédougou in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Kenedougou ;
+	lcc-lr:hasTag "BF-KEN" ;
+	lcc-lr:identifies lcc-3166-2-bf:Kenedougou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KMD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KMD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Komondjari in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Komondjari ;
+	lcc-lr:hasTag "BF-KMD" ;
+	lcc-lr:identifies lcc-3166-2-bf:Komondjari ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KMP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KMP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Kompienga in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Kompienga ;
+	lcc-lr:hasTag "BF-KMP" ;
+	lcc-lr:identifies lcc-3166-2-bf:Kompienga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KOP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KOP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Koulpélogo in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Koulpelogo ;
+	lcc-lr:hasTag "BF-KOP" ;
+	lcc-lr:identifies lcc-3166-2-bf:Koulpelogo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KOS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KOS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Kossi in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Kossi ;
+	lcc-lr:hasTag "BF-KOS" ;
+	lcc-lr:identifies lcc-3166-2-bf:Kossi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KOT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KOT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Kouritenga in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Kouritenga ;
+	lcc-lr:hasTag "BF-KOT" ;
+	lcc-lr:identifies lcc-3166-2-bf:Kouritenga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-KOW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-KOW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Kourwéogo in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Kourweogo ;
+	lcc-lr:hasTag "BF-KOW" ;
+	lcc-lr:identifies lcc-3166-2-bf:Kourweogo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-LER
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-LER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Léraba in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Leraba ;
+	lcc-lr:hasTag "BF-LER" ;
+	lcc-lr:identifies lcc-3166-2-bf:Leraba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-LOR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-LOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Loroum in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Loroum ;
+	lcc-lr:hasTag "BF-LOR" ;
+	lcc-lr:identifies lcc-3166-2-bf:Loroum ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-MOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-MOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Mouhoun in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Mouhoun ;
+	lcc-lr:hasTag "BF-MOU" ;
+	lcc-lr:identifies lcc-3166-2-bf:Mouhoun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-NAM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-NAM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Namentenga in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Namentenga ;
+	lcc-lr:hasTag "BF-NAM" ;
+	lcc-lr:identifies lcc-3166-2-bf:Namentenga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-NAO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-NAO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Nahouri in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Nahouri ;
+	lcc-lr:hasTag "BF-NAO" ;
+	lcc-lr:identifies lcc-3166-2-bf:Nahouri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-NAY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-NAY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Nayala in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Nayala ;
+	lcc-lr:hasTag "BF-NAY" ;
+	lcc-lr:identifies lcc-3166-2-bf:Nayala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-NOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-NOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Noumbiel in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Noumbiel ;
+	lcc-lr:hasTag "BF-NOU" ;
+	lcc-lr:identifies lcc-3166-2-bf:Noumbiel ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-OUB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-OUB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Oubritenga in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Oubritenga ;
+	lcc-lr:hasTag "BF-OUB" ;
+	lcc-lr:identifies lcc-3166-2-bf:Oubritenga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-OUD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-OUD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Oudalan in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Oudalan ;
+	lcc-lr:hasTag "BF-OUD" ;
+	lcc-lr:identifies lcc-3166-2-bf:Oudalan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-PAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-PAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Passoré in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Passore ;
+	lcc-lr:hasTag "BF-PAS" ;
+	lcc-lr:identifies lcc-3166-2-bf:Passore ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-PON
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-PON" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Poni in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Poni ;
+	lcc-lr:hasTag "BF-PON" ;
+	lcc-lr:identifies lcc-3166-2-bf:Poni ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-SEN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-SEN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Séno in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Seno ;
+	lcc-lr:hasTag "BF-SEN" ;
+	lcc-lr:identifies lcc-3166-2-bf:Seno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-SIS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-SIS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Sissili in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Sissili ;
+	lcc-lr:hasTag "BF-SIS" ;
+	lcc-lr:identifies lcc-3166-2-bf:Sissili ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-SMT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-SMT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Sanmatenga in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Sanmatenga ;
+	lcc-lr:hasTag "BF-SMT" ;
+	lcc-lr:identifies lcc-3166-2-bf:Sanmatenga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-SNG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-SNG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Sanguié in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Sanguie ;
+	lcc-lr:hasTag "BF-SNG" ;
+	lcc-lr:identifies lcc-3166-2-bf:Sanguie ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-SOM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-SOM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Soum in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Soum ;
+	lcc-lr:hasTag "BF-SOM" ;
+	lcc-lr:identifies lcc-3166-2-bf:Soum ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-SOR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-SOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Sourou in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Sourou ;
+	lcc-lr:hasTag "BF-SOR" ;
+	lcc-lr:identifies lcc-3166-2-bf:Sourou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-TAP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-TAP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Tapoa in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Tapoa ;
+	lcc-lr:hasTag "BF-TAP" ;
+	lcc-lr:identifies lcc-3166-2-bf:Tapoa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-TUI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-TUI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Tuy in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Tuy ;
+	lcc-lr:hasTag "BF-TUI" ;
+	lcc-lr:identifies lcc-3166-2-bf:Tuy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-YAG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-YAG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Yagha in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Yagha ;
+	lcc-lr:hasTag "BF-YAG" ;
+	lcc-lr:identifies lcc-3166-2-bf:Yagha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-YAT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-YAT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Yatenga in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Yatenga ;
+	lcc-lr:hasTag "BF-YAT" ;
+	lcc-lr:identifies lcc-3166-2-bf:Yatenga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-ZIR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-ZIR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Ziro in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Ziro ;
+	lcc-lr:hasTag "BF-ZIR" ;
+	lcc-lr:identifies lcc-3166-2-bf:Ziro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-ZON
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-ZON" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Zondoma in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Zondoma ;
+	lcc-lr:hasTag "BF-ZON" ;
+	lcc-lr:identifies lcc-3166-2-bf:Zondoma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:BF-ZOU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BF-ZOU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision code for the province of Zoundwéogo in the country of Burkina Faso" ;
+	lcc-lr:denotes lcc-3166-2-bf:Zoundweogo ;
+	lcc-lr:hasTag "BF-ZOU" ;
+	lcc-lr:identifies lcc-3166-2-bf:Zoundweogo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bf:Bale
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Balé in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Balé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:BoucleDuMouhoun ;
+	.
+
+lcc-3166-2-bf:Bam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Bam in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Bam"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Nord ;
+	.
+
+lcc-3166-2-bf:Banwa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banwa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Banwa in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Banwa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:BoucleDuMouhoun ;
+	.
+
+lcc-3166-2-bf:Bazega
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bazèga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Bazèga in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Bazèga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Sud ;
+	.
+
+lcc-3166-2-bf:BoucleDuMouhoun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boucle du Mouhoun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Boucle du Mouhoun in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Boucle du Mouhoun"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Bougouriba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bougouriba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Bougouriba in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Bougouriba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sud-Ouest ;
+	.
+
+lcc-3166-2-bf:Boulgou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boulgou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Boulgou in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Boulgou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Est ;
+	.
+
+lcc-3166-2-bf:Boulkiemde
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boulkiemdé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Boulkiemdé in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Boulkiemdé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Ouest ;
+	.
+
+lcc-3166-2-bf:Cascades
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cascades" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Cascades in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Cascades"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Centre
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centre" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Centre in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Centre"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Centre-Est
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centre-Est" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Centre-Est in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Centre-Est"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Centre-Nord
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centre-Nord" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Centre-Nord in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Centre-Nord"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Centre-Ouest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centre-Ouest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Centre-Ouest in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Centre-Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Centre-Sud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centre-Sud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Centre-Sud in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Centre-Sud"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Comoe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Comoé" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Comoé in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Comoé"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Cascades ;
+	.
+
+lcc-3166-2-bf:Est
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Est" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Est in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Est"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Ganzourgou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ganzourgou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Ganzourgou in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Ganzourgou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Plateau-Central ;
+	.
+
+lcc-3166-2-bf:Gnagna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gnagna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Gnagna in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Gnagna"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Est ;
+	.
+
+lcc-3166-2-bf:Gourma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gourma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Gourma in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Gourma"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Est ;
+	.
+
+lcc-3166-2-bf:Hauts-Bassins
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hauts-Bassins" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Hauts-Bassins in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Hauts-Bassins"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Houet
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Houet" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Houet in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Houet"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Hauts-Bassins ;
+	.
+
+lcc-3166-2-bf:Ioba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ioba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Ioba in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Ioba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sud-Ouest ;
+	.
+
+lcc-3166-2-bf:Kadiogo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kadiogo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Kadiogo in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Kadiogo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre ;
+	.
+
+lcc-3166-2-bf:Kenedougou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kénédougou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Kénédougou in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Kénédougou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Hauts-Bassins ;
+	.
+
+lcc-3166-2-bf:Komondjari
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Komondjari" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Komondjari in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Komondjari"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Est ;
+	.
+
+lcc-3166-2-bf:Kompienga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kompienga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Kompienga in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Kompienga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Est ;
+	.
+
+lcc-3166-2-bf:Kossi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kossi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Kossi in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Kossi"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:BoucleDuMouhoun ;
+	.
+
+lcc-3166-2-bf:Koulpelogo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Koulpélogo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Koulpélogo in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Koulpélogo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Est ;
+	.
+
+lcc-3166-2-bf:Kouritenga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kouritenga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Kouritenga in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Kouritenga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Est ;
+	.
+
+lcc-3166-2-bf:Kourweogo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kourwéogo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Kourwéogo in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Kourwéogo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Plateau-Central ;
+	.
+
+lcc-3166-2-bf:Leraba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Léraba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Léraba in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Léraba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Cascades ;
+	.
+
+lcc-3166-2-bf:Loroum
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Loroum" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Loroum in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Loroum"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Nord ;
+	.
+
+lcc-3166-2-bf:Mouhoun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mouhoun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Mouhoun in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Mouhoun"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:BoucleDuMouhoun ;
+	.
+
+lcc-3166-2-bf:Nahouri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nahouri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Nahouri in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Nahouri"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Sud ;
+	.
+
+lcc-3166-2-bf:Namentenga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Namentenga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Namentenga in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Namentenga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Nord ;
+	.
+
+lcc-3166-2-bf:Nayala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nayala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Nayala in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Nayala"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:BoucleDuMouhoun ;
+	.
+
+lcc-3166-2-bf:Nord
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nord" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Nord in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Nord"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Noumbiel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Noumbiel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Noumbiel in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Noumbiel"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sud-Ouest ;
+	.
+
+lcc-3166-2-bf:Oubritenga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oubritenga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Oubritenga in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Oubritenga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Plateau-Central ;
+	.
+
+lcc-3166-2-bf:Oudalan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oudalan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Oudalan in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Oudalan"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sahel ;
+	.
+
+lcc-3166-2-bf:Passore
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Passoré" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Passoré in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Passoré"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Nord ;
+	.
+
+lcc-3166-2-bf:Plateau-Central
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plateau-Central" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Plateau-Central in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Plateau-Central"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Poni
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Poni" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Poni in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Poni"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sud-Ouest ;
+	.
+
+lcc-3166-2-bf:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision category province in the country of Burkina Faso" ;
+	.
+
+lcc-3166-2-bf:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "subdivision category region in the country of Burkina Faso" ;
+	.
+
+lcc-3166-2-bf:Sahel
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sahel" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Sahel in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Sahel"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Sanguie
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sanguié" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Sanguié in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Sanguié"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Ouest ;
+	.
+
+lcc-3166-2-bf:Sanmatenga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sanmatenga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Sanmatenga in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Sanmatenga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Nord ;
+	.
+
+lcc-3166-2-bf:Seno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Séno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Séno in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Séno"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sahel ;
+	.
+
+lcc-3166-2-bf:Sissili
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sissili" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Sissili in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Sissili"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Ouest ;
+	.
+
+lcc-3166-2-bf:Soum
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Soum" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Soum in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Soum"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sahel ;
+	.
+
+lcc-3166-2-bf:Sourou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sourou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Sourou in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Sourou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:BoucleDuMouhoun ;
+	.
+
+lcc-3166-2-bf:Sud-Ouest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sud-Ouest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The region of Sud-Ouest in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Sud-Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-2-bf:Tapoa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tapoa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Tapoa in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Tapoa"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Est ;
+	.
+
+lcc-3166-2-bf:Tuy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tuy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Tuy in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Tuy"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Hauts-Bassins ;
+	.
+
+lcc-3166-2-bf:Yagha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yagha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Yagha in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Yagha"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Sahel ;
+	.
+
+lcc-3166-2-bf:Yatenga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yatenga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Yatenga in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Yatenga"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Nord ;
+	.
+
+lcc-3166-2-bf:Ziro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ziro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Ziro in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Ziro"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Ouest ;
+	.
+
+lcc-3166-2-bf:Zondoma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zondoma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Zondoma in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Zondoma"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Nord ;
+	.
+
+lcc-3166-2-bf:Zoundweogo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zoundwéogo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BF/> ;
+	skos:definition "The province of Zoundwéogo in the country of Burkina Faso" ;
+	lcc-cr:hasFrenchShortName "Zoundwéogo"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bf:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-bf:Centre-Sud ;
+	.
+

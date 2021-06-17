@@ -1,0 +1,252 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sh: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Saint Helena, Ascension and Tristan da Cunha Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sh" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Saint Helena, Ascension and Tristan da Cunha, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SH.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	.
+
+lcc-3166-2-sh:Ascension
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ascension" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The geographical entity of Ascension in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Ascension"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sh:GeographicalEntity ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:AscensionIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Ascension Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The territory of Ascension Island in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Ascension Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île de l'Ascension"@fr ;
+	lcc-cr:hasNumericRegionCode "1008" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:GeographicalEntity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "geographical entity" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "subdivision category geographical entity in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	.
+
+lcc-3166-2-sh:GoughIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Gough Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The territory of Gough Island in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Gough Island"@en ;
+	lcc-cr:hasFrenchShortName "Île de Gough"@fr ;
+	lcc-cr:hasNumericRegionCode "1070" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:InaccessibleIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Inaccessible Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The territory of Inaccessible Island in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Inaccessible Island"@en ;
+	lcc-cr:hasFrenchShortName "Île Inaccessible"@fr ;
+	lcc-cr:hasNumericRegionCode "1086" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:NightingaleIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Nightingale Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The territory of Nightingale Island in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Nightingale Island"@en ;
+	lcc-cr:hasFrenchShortName "Île Nightingale"@fr ;
+	lcc-cr:hasNumericRegionCode "1139" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:SH-AC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SH-AC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "subdivision code for the geographical entity of Ascension in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-lr:denotes lcc-3166-2-sh:Ascension ;
+	lcc-lr:hasTag "SH-AC" ;
+	lcc-lr:identifies lcc-3166-2-sh:Ascension ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sh:SH-HL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SH-HL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "subdivision code for the geographical entity of Saint Helena in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-lr:denotes lcc-3166-2-sh:SaintHelena ;
+	lcc-lr:hasTag "SH-HL" ;
+	lcc-lr:identifies lcc-3166-2-sh:SaintHelena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sh:SH-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SH-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "subdivision code for the geographical entity of Tristan da Cunha in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-lr:denotes lcc-3166-2-sh:TristanDaCunha ;
+	lcc-lr:hasTag "SH-TA" ;
+	lcc-lr:identifies lcc-3166-2-sh:TristanDaCunha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sh:SaintHelena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Helena" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The geographical entity of Saint Helena in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Saint Helena"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sh:GeographicalEntity ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:SaintHelenaIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Saint Helena Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The territory of Saint Helena Island in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Saint Helena Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Sainte-Hélène"@fr ;
+	lcc-cr:hasNumericRegionCode "1168" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:StoltenhoffIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Stoltenhoff Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The territory of Stoltenhoff Island in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Stoltenhoff Island"@en ;
+	lcc-cr:hasFrenchShortName "Île Stoltenhoff"@fr ;
+	lcc-cr:hasNumericRegionCode "1204" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:TristanDaCunha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tristan da Cunha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The geographical entity of Tristan da Cunha in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Tristan da Cunha"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sh:GeographicalEntity ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-2-sh:TristanDaCunhaArchipelago
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Tristan da Cunha Archipelago" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SH/> ;
+	skos:definition "The territory of Tristan da Cunha Archipelago in the country of Saint Helena, Ascension and Tristan da Cunha" ;
+	lcc-cr:hasEnglishShortName "Tristan da Cunha Archipelago"@en ;
+	lcc-cr:hasFrenchShortName "l'Archipel Tristan da Cunha"@fr ;
+	lcc-cr:hasNumericRegionCode "1213" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintHelena ;
+	.
+

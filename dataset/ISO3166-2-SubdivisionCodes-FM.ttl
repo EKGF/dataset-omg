@@ -1,0 +1,225 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-fm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Micronesia (Federated States of) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-fm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Micronesia (Federated States of), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-FM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	.
+
+lcc-3166-2-fm:CarolineIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Caroline Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition "The territory of Caroline Islands in the country of Micronesia (Federated States of)" ;
+	lcc-cr:hasEnglishShortName "Caroline Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Carolines"@fr ;
+	lcc-cr:hasNumericRegionCode "1035" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Micronesia ;
+	.
+
+lcc-3166-2-fm:Chuuk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Chuuk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition
+		"The state of Chuuk in the country of Micronesia (Federated States of)" ,
+		"The territory of Chuuk in the country of Micronesia (Federated States of)"
+		;
+	lcc-cr:hasEnglishShortName "Chuuk"@en ;
+	lcc-cr:hasFrenchShortName "Chuuk"@fr ;
+	lcc-cr:hasNumericRegionCode "1042" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-fm:State
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Micronesia ;
+	.
+
+lcc-3166-2-fm:FM-KSA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FM-KSA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition "subdivision code for the state of Kosrae in the country of Micronesia (Federated States of)" ;
+	lcc-lr:denotes lcc-3166-2-fm:Kosrae ;
+	lcc-lr:hasTag "FM-KSA" ;
+	lcc-lr:identifies lcc-3166-2-fm:Kosrae ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fm:FM-PNI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FM-PNI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition "subdivision code for the state of Pohnpei in the country of Micronesia (Federated States of)" ;
+	lcc-lr:denotes lcc-3166-2-fm:Pohnpei ;
+	lcc-lr:hasTag "FM-PNI" ;
+	lcc-lr:identifies lcc-3166-2-fm:Pohnpei ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fm:FM-TRK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FM-TRK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition "subdivision code for the state of Chuuk in the country of Micronesia (Federated States of)" ;
+	lcc-lr:denotes lcc-3166-2-fm:Chuuk ;
+	lcc-lr:hasTag "FM-TRK" ;
+	lcc-lr:identifies lcc-3166-2-fm:Chuuk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fm:FM-YAP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FM-YAP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition "subdivision code for the state of Yap in the country of Micronesia (Federated States of)" ;
+	lcc-lr:denotes lcc-3166-2-fm:Yap ;
+	lcc-lr:hasTag "FM-YAP" ;
+	lcc-lr:identifies lcc-3166-2-fm:Yap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fm:Kosrae
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Kosrae" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition
+		"The state of Kosrae in the country of Micronesia (Federated States of)" ,
+		"The territory of Kosrae in the country of Micronesia (Federated States of)"
+		;
+	lcc-cr:hasEnglishShortName "Kosrae"@en ;
+	lcc-cr:hasFrenchShortName "Kosrae"@fr ;
+	lcc-cr:hasNumericRegionCode "1100" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-fm:State
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Micronesia ;
+	.
+
+lcc-3166-2-fm:Pohnpei
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Pohnpei" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition
+		"The state of Pohnpei in the country of Micronesia (Federated States of)" ,
+		"The territory of Pohnpei in the country of Micronesia (Federated States of)"
+		;
+	lcc-cr:hasEnglishShortName "Pohnpei"@en ;
+	lcc-cr:hasFrenchShortName "Pohnpei"@fr ;
+	lcc-cr:hasNumericRegionCode "1151" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-fm:State
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Micronesia ;
+	.
+
+lcc-3166-2-fm:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition "subdivision category state in the country of Micronesia (Federated States of)" ;
+	.
+
+lcc-3166-2-fm:Yap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Yap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FM/> ;
+	skos:definition
+		"The state of Yap in the country of Micronesia (Federated States of)" ,
+		"The territory of Yap in the country of Micronesia (Federated States of)"
+		;
+	lcc-cr:hasEnglishShortName "Yap"@en ;
+	lcc-cr:hasFrenchShortName "Yap"@fr ;
+	lcc-cr:hasNumericRegionCode "1224" ;
+	lcc-cr:isClassifiedBy
+		lcc-3166-2:Territory ,
+		lcc-3166-2-fm:State
+		;
+	lcc-cr:isSubregionOf lcc-3166-1:Micronesia ;
+	.
+

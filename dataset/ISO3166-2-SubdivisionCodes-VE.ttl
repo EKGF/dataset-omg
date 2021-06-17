@@ -1,0 +1,776 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ve: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Venezuela (Bolivarian Republic of) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ve" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Venezuela (Bolivarian Republic of), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-VE.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	.
+
+lcc-3166-2-ve:Amazonas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Amazonas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Amazonas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Amazonas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Anzoategui
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anzoátegui" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Anzoátegui in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Anzoátegui"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Apure
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Apure" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Apure in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Apure"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Aragua
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aragua" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Aragua in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Aragua"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Barinas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Barinas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Barinas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Barinas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:BirdIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Bird Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The territory of Bird Island in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasEnglishShortName "Bird Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île d'Aves"@fr ;
+	lcc-cr:hasNumericRegionCode "1015" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Bolivar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bolívar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Bolívar in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Bolívar"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:CapitalDistrict
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "capital district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision category capital district in the country of Venezuela (Bolivarian Republic of)" ;
+	.
+
+lcc-3166-2-ve:Carabobo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Carabobo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Carabobo in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Carabobo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Cojedes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cojedes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Cojedes in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Cojedes"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:DeltaAmacuro
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Delta Amacuro" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Delta Amacuro in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Delta Amacuro"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:DependenciasFederales
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dependencias Federales" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The federal dependency of Dependencias Federales in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Dependencias Federales"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:FederalDependency ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:DistritoCapital
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Distrito Capital" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The capital district of Distrito Capital in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Distrito Capital"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:CapitalDistrict ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Falcon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Falcón" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Falcón in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Falcón"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:FederalDependency
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "federal dependency" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision category federal dependency in the country of Venezuela (Bolivarian Republic of)" ;
+	.
+
+lcc-3166-2-ve:Guarico
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guárico" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Guárico in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Guárico"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Lara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Lara in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Lara"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Merida
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mérida" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Mérida in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Mérida"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Miranda
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Miranda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Miranda in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Miranda"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Monagas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monagas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Monagas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Monagas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:NuevaEsparta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nueva Esparta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Nueva Esparta in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Nueva Esparta"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Portuguesa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Portuguesa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Portuguesa in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Portuguesa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision category state in the country of Venezuela (Bolivarian Republic of)" ;
+	.
+
+lcc-3166-2-ve:Sucre
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sucre" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Sucre in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Sucre"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Tachira
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Táchira" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Táchira in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Táchira"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Trujillo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trujillo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Trujillo in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Trujillo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:VE-A
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the capital district of Distrito Capital in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:DistritoCapital ;
+	lcc-lr:hasTag "VE-A" ;
+	lcc-lr:identifies lcc-3166-2-ve:DistritoCapital ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Anzoátegui in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Anzoategui ;
+	lcc-lr:hasTag "VE-B" ;
+	lcc-lr:identifies lcc-3166-2-ve:Anzoategui ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Apure in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Apure ;
+	lcc-lr:hasTag "VE-C" ;
+	lcc-lr:identifies lcc-3166-2-ve:Apure ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-D
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Aragua in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Aragua ;
+	lcc-lr:hasTag "VE-D" ;
+	lcc-lr:identifies lcc-3166-2-ve:Aragua ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-E
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-E" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Barinas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Barinas ;
+	lcc-lr:hasTag "VE-E" ;
+	lcc-lr:identifies lcc-3166-2-ve:Barinas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-F
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-F" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Bolívar in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Bolivar ;
+	lcc-lr:hasTag "VE-F" ;
+	lcc-lr:identifies lcc-3166-2-ve:Bolivar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-G
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-G" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Carabobo in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Carabobo ;
+	lcc-lr:hasTag "VE-G" ;
+	lcc-lr:identifies lcc-3166-2-ve:Carabobo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-H
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-H" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Cojedes in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Cojedes ;
+	lcc-lr:hasTag "VE-H" ;
+	lcc-lr:identifies lcc-3166-2-ve:Cojedes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-I
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-I" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Falcón in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Falcon ;
+	lcc-lr:hasTag "VE-I" ;
+	lcc-lr:identifies lcc-3166-2-ve:Falcon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-J
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-J" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Guárico in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Guarico ;
+	lcc-lr:hasTag "VE-J" ;
+	lcc-lr:identifies lcc-3166-2-ve:Guarico ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-K
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-K" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Lara in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Lara ;
+	lcc-lr:hasTag "VE-K" ;
+	lcc-lr:identifies lcc-3166-2-ve:Lara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-L
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-L" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Mérida in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Merida ;
+	lcc-lr:hasTag "VE-L" ;
+	lcc-lr:identifies lcc-3166-2-ve:Merida ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-M
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Miranda in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Miranda ;
+	lcc-lr:hasTag "VE-M" ;
+	lcc-lr:identifies lcc-3166-2-ve:Miranda ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-N
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-N" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Monagas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Monagas ;
+	lcc-lr:hasTag "VE-N" ;
+	lcc-lr:identifies lcc-3166-2-ve:Monagas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-O
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-O" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Nueva Esparta in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:NuevaEsparta ;
+	lcc-lr:hasTag "VE-O" ;
+	lcc-lr:identifies lcc-3166-2-ve:NuevaEsparta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-P
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-P" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Portuguesa in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Portuguesa ;
+	lcc-lr:hasTag "VE-P" ;
+	lcc-lr:identifies lcc-3166-2-ve:Portuguesa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-R
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-R" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Sucre in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Sucre ;
+	lcc-lr:hasTag "VE-R" ;
+	lcc-lr:identifies lcc-3166-2-ve:Sucre ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-S
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-S" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Táchira in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Tachira ;
+	lcc-lr:hasTag "VE-S" ;
+	lcc-lr:identifies lcc-3166-2-ve:Tachira ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-T
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-T" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Trujillo in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Trujillo ;
+	lcc-lr:hasTag "VE-T" ;
+	lcc-lr:identifies lcc-3166-2-ve:Trujillo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-U
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-U" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Yaracuy in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Yaracuy ;
+	lcc-lr:hasTag "VE-U" ;
+	lcc-lr:identifies lcc-3166-2-ve:Yaracuy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-V
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-V" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Zulia in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Zulia ;
+	lcc-lr:hasTag "VE-V" ;
+	lcc-lr:identifies lcc-3166-2-ve:Zulia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-W
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-W" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the federal dependency of Dependencias Federales in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:DependenciasFederales ;
+	lcc-lr:hasTag "VE-W" ;
+	lcc-lr:identifies lcc-3166-2-ve:DependenciasFederales ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-X
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-X" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Vargas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Vargas ;
+	lcc-lr:hasTag "VE-X" ;
+	lcc-lr:identifies lcc-3166-2-ve:Vargas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-Y
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-Y" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Delta Amacuro in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:DeltaAmacuro ;
+	lcc-lr:hasTag "VE-Y" ;
+	lcc-lr:identifies lcc-3166-2-ve:DeltaAmacuro ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:VE-Z
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VE-Z" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "subdivision code for the state of Amazonas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-lr:denotes lcc-3166-2-ve:Amazonas ;
+	lcc-lr:hasTag "VE-Z" ;
+	lcc-lr:identifies lcc-3166-2-ve:Amazonas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ve:Vargas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vargas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Vargas in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Vargas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Yaracuy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yaracuy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Yaracuy in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Yaracuy"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-2-ve:Zulia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zulia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VE/> ;
+	skos:definition "The state of Zulia in the country of Venezuela (Bolivarian Republic of)" ;
+	lcc-cr:hasLocalShortName "Zulia"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ve:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Venezuela ;
+	.
+

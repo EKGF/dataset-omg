@@ -1,0 +1,444 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-jm: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Jamaica Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-jm" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Jamaica, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-JM.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	.
+
+lcc-3166-2-jm:Clarendon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Clarendon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Clarendon in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Clarendon"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:Hanover
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hanover" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Hanover in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Hanover"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:JM-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Kingston in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:Kingston ;
+	lcc-lr:hasTag "JM-01" ;
+	lcc-lr:identifies lcc-3166-2-jm:Kingston ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Saint Andrew in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:SaintAndrew ;
+	lcc-lr:hasTag "JM-02" ;
+	lcc-lr:identifies lcc-3166-2-jm:SaintAndrew ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Saint Thomas in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:SaintThomas ;
+	lcc-lr:hasTag "JM-03" ;
+	lcc-lr:identifies lcc-3166-2-jm:SaintThomas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Portland in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:Portland ;
+	lcc-lr:hasTag "JM-04" ;
+	lcc-lr:identifies lcc-3166-2-jm:Portland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Saint Mary in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:SaintMary ;
+	lcc-lr:hasTag "JM-05" ;
+	lcc-lr:identifies lcc-3166-2-jm:SaintMary ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Saint Ann in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:SaintAnn ;
+	lcc-lr:hasTag "JM-06" ;
+	lcc-lr:identifies lcc-3166-2-jm:SaintAnn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Trelawny in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:Trelawny ;
+	lcc-lr:hasTag "JM-07" ;
+	lcc-lr:identifies lcc-3166-2-jm:Trelawny ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Saint James in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:SaintJames ;
+	lcc-lr:hasTag "JM-08" ;
+	lcc-lr:identifies lcc-3166-2-jm:SaintJames ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Hanover in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:Hanover ;
+	lcc-lr:hasTag "JM-09" ;
+	lcc-lr:identifies lcc-3166-2-jm:Hanover ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Westmoreland in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:Westmoreland ;
+	lcc-lr:hasTag "JM-10" ;
+	lcc-lr:identifies lcc-3166-2-jm:Westmoreland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Saint Elizabeth in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:SaintElizabeth ;
+	lcc-lr:hasTag "JM-11" ;
+	lcc-lr:identifies lcc-3166-2-jm:SaintElizabeth ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Manchester in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:Manchester ;
+	lcc-lr:hasTag "JM-12" ;
+	lcc-lr:identifies lcc-3166-2-jm:Manchester ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Clarendon in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:Clarendon ;
+	lcc-lr:hasTag "JM-13" ;
+	lcc-lr:identifies lcc-3166-2-jm:Clarendon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:JM-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "JM-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision code for the parish of Saint Catherine in the country of Jamaica" ;
+	lcc-lr:denotes lcc-3166-2-jm:SaintCatherine ;
+	lcc-lr:hasTag "JM-14" ;
+	lcc-lr:identifies lcc-3166-2-jm:SaintCatherine ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-jm:Kingston
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kingston" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Kingston in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Kingston"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:Manchester
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manchester" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Manchester in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Manchester"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:Parish
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "parish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "subdivision category parish in the country of Jamaica" ;
+	.
+
+lcc-3166-2-jm:Portland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Portland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Portland in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Portland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:SaintAndrew
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Andrew" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Saint Andrew in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Saint Andrew"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:SaintAnn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Ann" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Saint Ann in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Saint Ann"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:SaintCatherine
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Catherine" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Saint Catherine in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Saint Catherine"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:SaintElizabeth
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Elizabeth" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Saint Elizabeth in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Saint Elizabeth"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:SaintJames
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint James" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Saint James in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Saint James"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:SaintMary
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Mary" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Saint Mary in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Saint Mary"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:SaintThomas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Thomas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Saint Thomas in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Saint Thomas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:Trelawny
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trelawny" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Trelawny in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Trelawny"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-2-jm:Westmoreland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Westmoreland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-JM/> ;
+	skos:definition "The parish of Westmoreland in the country of Jamaica" ;
+	lcc-cr:hasEnglishShortName "Westmoreland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-jm:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:Jamaica ;
+	.
+

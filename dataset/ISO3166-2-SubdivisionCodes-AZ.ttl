@@ -1,0 +1,2192 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-az: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Azerbaijan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-az" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Azerbaijan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AZ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	.
+
+lcc-3166-2-az:AZ-ABS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-ABS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Abşeron in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Abseron ;
+	lcc-lr:hasTag "AZ-ABS" ;
+	lcc-lr:identifies lcc-3166-2-az:Abseron ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-AGA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-AGA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Ağstafa in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Agstafa ;
+	lcc-lr:hasTag "AZ-AGA" ;
+	lcc-lr:identifies lcc-3166-2-az:Agstafa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-AGC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-AGC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Ağcabədi in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Agcabdi ;
+	lcc-lr:hasTag "AZ-AGC" ;
+	lcc-lr:identifies lcc-3166-2-az:Agcabdi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-AGM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-AGM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Ağdam in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Agdam ;
+	lcc-lr:hasTag "AZ-AGM" ;
+	lcc-lr:identifies lcc-3166-2-az:Agdam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-AGS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-AGS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Ağdaş in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Agdas ;
+	lcc-lr:hasTag "AZ-AGS" ;
+	lcc-lr:identifies lcc-3166-2-az:Agdas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-AGU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-AGU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Ağsu in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Agsu ;
+	lcc-lr:hasTag "AZ-AGU" ;
+	lcc-lr:identifies lcc-3166-2-az:Agsu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-AST
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-AST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Astara in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Astara ;
+	lcc-lr:hasTag "AZ-AST" ;
+	lcc-lr:identifies lcc-3166-2-az:Astara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Bakı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Bak ;
+	lcc-lr:hasTag "AZ-BA" ;
+	lcc-lr:identifies lcc-3166-2-az:Bak ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-BAB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-BAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Babək in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Babk ;
+	lcc-lr:hasTag "AZ-BAB" ;
+	lcc-lr:identifies lcc-3166-2-az:Babk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-BAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-BAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Balakən in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Balakn ;
+	lcc-lr:hasTag "AZ-BAL" ;
+	lcc-lr:identifies lcc-3166-2-az:Balakn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-BAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-BAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Bərdə in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Brd ;
+	lcc-lr:hasTag "AZ-BAR" ;
+	lcc-lr:identifies lcc-3166-2-az:Brd ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-BEY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-BEY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Beyləqan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Beylqan ;
+	lcc-lr:hasTag "AZ-BEY" ;
+	lcc-lr:identifies lcc-3166-2-az:Beylqan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-BIL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-BIL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Biləsuvar in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Bilsuvar ;
+	lcc-lr:hasTag "AZ-BIL" ;
+	lcc-lr:identifies lcc-3166-2-az:Bilsuvar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-CAB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-CAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Cəbrayıl in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Cbrayl ;
+	lcc-lr:hasTag "AZ-CAB" ;
+	lcc-lr:identifies lcc-3166-2-az:Cbrayl ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-CAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-CAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Cəlilabad in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Clilabad ;
+	lcc-lr:hasTag "AZ-CAL" ;
+	lcc-lr:identifies lcc-3166-2-az:Clilabad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-CUL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-CUL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Culfa in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Culfa ;
+	lcc-lr:hasTag "AZ-CUL" ;
+	lcc-lr:identifies lcc-3166-2-az:Culfa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-DAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-DAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Daşkəsən in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Dasksn ;
+	lcc-lr:hasTag "AZ-DAS" ;
+	lcc-lr:identifies lcc-3166-2-az:Dasksn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-FUZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-FUZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Füzuli in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Fuzuli ;
+	lcc-lr:hasTag "AZ-FUZ" ;
+	lcc-lr:identifies lcc-3166-2-az:Fuzuli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-GA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Gəncə in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Gnc ;
+	lcc-lr:hasTag "AZ-GA" ;
+	lcc-lr:identifies lcc-3166-2-az:Gnc ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-GAD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-GAD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Gədəbəy in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Gdby ;
+	lcc-lr:hasTag "AZ-GAD" ;
+	lcc-lr:identifies lcc-3166-2-az:Gdby ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-GOR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-GOR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Goranboy in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Goranboy ;
+	lcc-lr:hasTag "AZ-GOR" ;
+	lcc-lr:identifies lcc-3166-2-az:Goranboy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-GOY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-GOY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Göyçay in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Goycay ;
+	lcc-lr:hasTag "AZ-GOY" ;
+	lcc-lr:identifies lcc-3166-2-az:Goycay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-GYG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-GYG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Göygöl in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Goygol ;
+	lcc-lr:hasTag "AZ-GYG" ;
+	lcc-lr:identifies lcc-3166-2-az:Goygol ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-HAC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-HAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Hacıqabul in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Hacqabul ;
+	lcc-lr:hasTag "AZ-HAC" ;
+	lcc-lr:identifies lcc-3166-2-az:Hacqabul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-IMI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-IMI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of İmişli in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Imisli ;
+	lcc-lr:hasTag "AZ-IMI" ;
+	lcc-lr:identifies lcc-3166-2-az:Imisli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-ISM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-ISM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of İsmayıllı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Ismayll ;
+	lcc-lr:hasTag "AZ-ISM" ;
+	lcc-lr:identifies lcc-3166-2-az:Ismayll ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-KAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-KAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Kəlbəcər in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Klbcr ;
+	lcc-lr:hasTag "AZ-KAL" ;
+	lcc-lr:identifies lcc-3166-2-az:Klbcr ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-KAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-KAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Kǝngǝrli in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Kngrli ;
+	lcc-lr:hasTag "AZ-KAN" ;
+	lcc-lr:identifies lcc-3166-2-az:Kngrli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-KUR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-KUR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Kürdəmir in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Kurdmir ;
+	lcc-lr:hasTag "AZ-KUR" ;
+	lcc-lr:identifies lcc-3166-2-az:Kurdmir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-LA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Lənkəran in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Lnkran-Municipality ;
+	lcc-lr:hasTag "AZ-LA" ;
+	lcc-lr:identifies lcc-3166-2-az:Lnkran-Municipality ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-LAC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-LAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Laçın in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Lacn ;
+	lcc-lr:hasTag "AZ-LAC" ;
+	lcc-lr:identifies lcc-3166-2-az:Lacn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-LAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-LAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Lənkəran in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Lnkran ;
+	lcc-lr:hasTag "AZ-LAN" ;
+	lcc-lr:identifies lcc-3166-2-az:Lnkran ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-LER
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-LER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Lerik in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Lerik ;
+	lcc-lr:hasTag "AZ-LER" ;
+	lcc-lr:identifies lcc-3166-2-az:Lerik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-MAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-MAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Masallı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Masall ;
+	lcc-lr:hasTag "AZ-MAS" ;
+	lcc-lr:identifies lcc-3166-2-az:Masall ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Mingəçevir in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Mingcevir ;
+	lcc-lr:hasTag "AZ-MI" ;
+	lcc-lr:identifies lcc-3166-2-az:Mingcevir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-NA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Naftalan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Naftalan ;
+	lcc-lr:hasTag "AZ-NA" ;
+	lcc-lr:identifies lcc-3166-2-az:Naftalan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-NEF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-NEF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Neftçala in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Neftcala ;
+	lcc-lr:hasTag "AZ-NEF" ;
+	lcc-lr:identifies lcc-3166-2-az:Neftcala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-NV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-NV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Naxçıvan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Naxcvan-Municipality ;
+	lcc-lr:hasTag "AZ-NV" ;
+	lcc-lr:identifies lcc-3166-2-az:Naxcvan-Municipality ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-NX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-NX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the autonomous republic of Naxçıvan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Naxcvan ;
+	lcc-lr:hasTag "AZ-NX" ;
+	lcc-lr:identifies lcc-3166-2-az:Naxcvan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-OGU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-OGU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Oğuz in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Oguz ;
+	lcc-lr:hasTag "AZ-OGU" ;
+	lcc-lr:identifies lcc-3166-2-az:Oguz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-ORD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-ORD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Ordubad in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Ordubad ;
+	lcc-lr:hasTag "AZ-ORD" ;
+	lcc-lr:identifies lcc-3166-2-az:Ordubad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-QAB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-QAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Qəbələ in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Qbl ;
+	lcc-lr:hasTag "AZ-QAB" ;
+	lcc-lr:identifies lcc-3166-2-az:Qbl ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-QAX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-QAX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Qax in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Qax ;
+	lcc-lr:hasTag "AZ-QAX" ;
+	lcc-lr:identifies lcc-3166-2-az:Qax ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-QAZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-QAZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Qazax in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Qazax ;
+	lcc-lr:hasTag "AZ-QAZ" ;
+	lcc-lr:identifies lcc-3166-2-az:Qazax ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-QBA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-QBA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Quba in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Quba ;
+	lcc-lr:hasTag "AZ-QBA" ;
+	lcc-lr:identifies lcc-3166-2-az:Quba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-QBI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-QBI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Qubadlı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Qubadl ;
+	lcc-lr:hasTag "AZ-QBI" ;
+	lcc-lr:identifies lcc-3166-2-az:Qubadl ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-QOB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-QOB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Qobustan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Qobustan ;
+	lcc-lr:hasTag "AZ-QOB" ;
+	lcc-lr:identifies lcc-3166-2-az:Qobustan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-QUS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-QUS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Qusar in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Qusar ;
+	lcc-lr:hasTag "AZ-QUS" ;
+	lcc-lr:identifies lcc-3166-2-az:Qusar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Şəki in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Ski-Municipality ;
+	lcc-lr:hasTag "AZ-SA" ;
+	lcc-lr:identifies lcc-3166-2-az:Ski-Municipality ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SAB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SAB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Sabirabad in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Sabirabad ;
+	lcc-lr:hasTag "AZ-SAB" ;
+	lcc-lr:identifies lcc-3166-2-az:Sabirabad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SAD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SAD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Sədərək in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Sdrk ;
+	lcc-lr:hasTag "AZ-SAD" ;
+	lcc-lr:identifies lcc-3166-2-az:Sdrk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SAH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SAH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Şahbuz in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Sahbuz ;
+	lcc-lr:hasTag "AZ-SAH" ;
+	lcc-lr:identifies lcc-3166-2-az:Sahbuz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SAK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SAK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Şəki in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Ski ;
+	lcc-lr:hasTag "AZ-SAK" ;
+	lcc-lr:identifies lcc-3166-2-az:Ski ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SAL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SAL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Salyan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Salyan ;
+	lcc-lr:hasTag "AZ-SAL" ;
+	lcc-lr:identifies lcc-3166-2-az:Salyan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Şərur in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Srur ;
+	lcc-lr:hasTag "AZ-SAR" ;
+	lcc-lr:identifies lcc-3166-2-az:Srur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SAT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SAT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Saatlı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Saatl ;
+	lcc-lr:hasTag "AZ-SAT" ;
+	lcc-lr:identifies lcc-3166-2-az:Saatl ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SBN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SBN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Şabran in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Sabran ;
+	lcc-lr:hasTag "AZ-SBN" ;
+	lcc-lr:identifies lcc-3166-2-az:Sabran ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SIY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SIY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Siyəzən in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Siyzn ;
+	lcc-lr:hasTag "AZ-SIY" ;
+	lcc-lr:identifies lcc-3166-2-az:Siyzn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SKR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SKR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Şəmkir in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Smkir ;
+	lcc-lr:hasTag "AZ-SKR" ;
+	lcc-lr:identifies lcc-3166-2-az:Smkir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Sumqayıt in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Sumqayt ;
+	lcc-lr:hasTag "AZ-SM" ;
+	lcc-lr:identifies lcc-3166-2-az:Sumqayt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SMI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SMI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Şamaxı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Samax ;
+	lcc-lr:hasTag "AZ-SMI" ;
+	lcc-lr:identifies lcc-3166-2-az:Samax ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SMX
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SMX" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Samux in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Samux ;
+	lcc-lr:hasTag "AZ-SMX" ;
+	lcc-lr:identifies lcc-3166-2-az:Samux ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Şirvan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Sirvan ;
+	lcc-lr:hasTag "AZ-SR" ;
+	lcc-lr:identifies lcc-3166-2-az:Sirvan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-SUS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-SUS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Şuşa in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Susa ;
+	lcc-lr:hasTag "AZ-SUS" ;
+	lcc-lr:identifies lcc-3166-2-az:Susa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-TAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-TAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Tərtər in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Trtr ;
+	lcc-lr:hasTag "AZ-TAR" ;
+	lcc-lr:identifies lcc-3166-2-az:Trtr ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-TOV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-TOV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Tovuz in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Tovuz ;
+	lcc-lr:hasTag "AZ-TOV" ;
+	lcc-lr:identifies lcc-3166-2-az:Tovuz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-UCA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-UCA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Ucar in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Ucar ;
+	lcc-lr:hasTag "AZ-UCA" ;
+	lcc-lr:identifies lcc-3166-2-az:Ucar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-XA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-XA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Xankəndi in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Xankndi ;
+	lcc-lr:hasTag "AZ-XA" ;
+	lcc-lr:identifies lcc-3166-2-az:Xankndi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-XAC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-XAC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Xaçmaz in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Xacmaz ;
+	lcc-lr:hasTag "AZ-XAC" ;
+	lcc-lr:identifies lcc-3166-2-az:Xacmaz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-XCI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-XCI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Xocalı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Xocal ;
+	lcc-lr:hasTag "AZ-XCI" ;
+	lcc-lr:identifies lcc-3166-2-az:Xocal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-XIZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-XIZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Xızı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Xz ;
+	lcc-lr:hasTag "AZ-XIZ" ;
+	lcc-lr:identifies lcc-3166-2-az:Xz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-XVD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-XVD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Xocavənd in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Xocavnd ;
+	lcc-lr:hasTag "AZ-XVD" ;
+	lcc-lr:identifies lcc-3166-2-az:Xocavnd ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-YAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-YAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Yardımlı in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Yardml ;
+	lcc-lr:hasTag "AZ-YAR" ;
+	lcc-lr:identifies lcc-3166-2-az:Yardml ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-YE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-YE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the municipality of Yevlax in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Yevlax-Municipality ;
+	lcc-lr:hasTag "AZ-YE" ;
+	lcc-lr:identifies lcc-3166-2-az:Yevlax-Municipality ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-YEV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-YEV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Yevlax in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Yevlax ;
+	lcc-lr:hasTag "AZ-YEV" ;
+	lcc-lr:identifies lcc-3166-2-az:Yevlax ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-ZAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-ZAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Zəngilan in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Zngilan ;
+	lcc-lr:hasTag "AZ-ZAN" ;
+	lcc-lr:identifies lcc-3166-2-az:Zngilan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-ZAQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-ZAQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Zaqatala in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Zaqatala ;
+	lcc-lr:hasTag "AZ-ZAQ" ;
+	lcc-lr:identifies lcc-3166-2-az:Zaqatala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:AZ-ZAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AZ-ZAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision code for the rayon of Zərdab in the country of Azerbaijan" ;
+	lcc-lr:denotes lcc-3166-2-az:Zrdab ;
+	lcc-lr:hasTag "AZ-ZAR" ;
+	lcc-lr:identifies lcc-3166-2-az:Zrdab ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-az:Abseron
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Abşeron" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Abşeron in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Abşeron"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Agcabdi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ağcabədi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Ağcabədi in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Ağcabədi"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Agdam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ağdam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Ağdam in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Ağdam"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Agdas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ağdaş" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Ağdaş in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Ağdaş"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Agstafa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ağstafa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Ağstafa in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Ağstafa"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Agsu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ağsu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Ağsu in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Ağsu"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Astara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Astara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Astara in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Astara"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:AutonomousRepublic
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "autonomous republic" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision category autonomous republic in the country of Azerbaijan" ;
+	.
+
+lcc-3166-2-az:Babk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Babək" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Babək in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Babək"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Bak
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bakı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Bakı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Bakı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Balakn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balakən" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Balakən in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Balakən"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Beylqan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Beyləqan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Beyləqan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Beyləqan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Bilsuvar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Biləsuvar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Biləsuvar in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Biləsuvar"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Brd
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bərdə" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Bərdə in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Bərdə"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Cbrayl
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cəbrayıl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Cəbrayıl in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Cəbrayıl"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Clilabad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cəlilabad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Cəlilabad in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Cəlilabad"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Culfa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Culfa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Culfa in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Culfa"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Dasksn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Daşkəsən" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Daşkəsən in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Daşkəsən"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Fuzuli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Füzuli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Füzuli in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Füzuli"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Gdby
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gədəbəy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Gədəbəy in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Gədəbəy"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Gnc
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gəncə" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Gəncə in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Gəncə"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Goranboy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Goranboy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Goranboy in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Goranboy"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Goycay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Göyçay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Göyçay in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Göyçay"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Goygol
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Göygöl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Göygöl in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Göygöl"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Hacqabul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hacıqabul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Hacıqabul in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Hacıqabul"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Imisli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "İmişli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of İmişli in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "İmişli"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Ismayll
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "İsmayıllı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of İsmayıllı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "İsmayıllı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Klbcr
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kəlbəcər" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Kəlbəcər in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Kəlbəcər"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Kngrli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kǝngǝrli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Kǝngǝrli in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Kǝngǝrli"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Kurdmir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kürdəmir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Kürdəmir in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Kürdəmir"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Lacn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Laçın" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Laçın in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Laçın"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Lerik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lerik" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Lerik in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Lerik"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Lnkran
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lənkəran" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Lənkəran in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Lənkəran"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Lnkran-Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lənkəran" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Lənkəran in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Lənkəran"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Masall
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Masallı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Masallı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Masallı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Mingcevir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mingəçevir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Mingəçevir in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Mingəçevir"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision category municipality in the country of Azerbaijan" ;
+	.
+
+lcc-3166-2-az:Naftalan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Naftalan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Naftalan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Naftalan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Naxcvan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Naxçıvan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The autonomous republic of Naxçıvan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Naxçıvan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:AutonomousRepublic ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Naxcvan-Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Naxçıvan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Naxçıvan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Naxçıvan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Neftcala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Neftçala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Neftçala in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Neftçala"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Oguz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oğuz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Oğuz in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Oğuz"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Ordubad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ordubad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Ordubad in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Ordubad"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Qax
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qax" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Qax in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Qax"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Qazax
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qazax" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Qazax in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Qazax"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Qbl
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qəbələ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Qəbələ in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Qəbələ"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Qobustan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qobustan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Qobustan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Qobustan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Quba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Quba in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Quba"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Qubadl
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qubadlı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Qubadlı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Qubadlı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Qusar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qusar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Qusar in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Qusar"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Rayon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "rayon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "subdivision category rayon in the country of Azerbaijan" ;
+	.
+
+lcc-3166-2-az:Saatl
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saatlı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Saatlı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Saatlı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Sabirabad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sabirabad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Sabirabad in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Sabirabad"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Sabran
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şabran" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Şabran in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şabran"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Sahbuz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şahbuz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Şahbuz in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şahbuz"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Salyan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salyan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Salyan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Salyan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Samax
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şamaxı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Şamaxı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şamaxı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Samux
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Samux" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Samux in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Samux"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Sdrk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sədərək" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Sədərək in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Sədərək"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Sirvan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şirvan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Şirvan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şirvan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Siyzn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siyəzən" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Siyəzən in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Siyəzən"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Ski
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şəki" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Şəki in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şəki"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Ski-Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şəki" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Şəki in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şəki"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Smkir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şəmkir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Şəmkir in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şəmkir"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Srur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şərur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Şərur in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şərur"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-2-az:Naxcvan ;
+	.
+
+lcc-3166-2-az:Sumqayt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sumqayıt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Sumqayıt in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Sumqayıt"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Susa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şuşa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Şuşa in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Şuşa"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Tovuz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tovuz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Tovuz in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Tovuz"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Trtr
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tərtər" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Tərtər in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Tərtər"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Ucar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ucar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Ucar in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Ucar"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Xacmaz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xaçmaz" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Xaçmaz in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Xaçmaz"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Xankndi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xankəndi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Xankəndi in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Xankəndi"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Xocal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xocalı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Xocalı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Xocalı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Xocavnd
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xocavənd" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Xocavənd in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Xocavənd"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Xz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xızı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Xızı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Xızı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Yardml
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yardımlı" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Yardımlı in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Yardımlı"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Yevlax
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yevlax" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Yevlax in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Yevlax"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Yevlax-Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yevlax" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The municipality of Yevlax in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Yevlax"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Zaqatala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zaqatala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Zaqatala in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Zaqatala"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Zngilan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zəngilan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Zəngilan in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Zəngilan"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-2-az:Zrdab
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zərdab" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AZ/> ;
+	skos:definition "The rayon of Zərdab in the country of Azerbaijan" ;
+	lcc-cr:hasLocalShortName "Zərdab"@az ;
+	lcc-cr:isClassifiedBy lcc-3166-2-az:Rayon ;
+	lcc-cr:isSubregionOf lcc-3166-1:Azerbaijan ;
+	.
+

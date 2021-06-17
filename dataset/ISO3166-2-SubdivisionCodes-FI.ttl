@@ -1,0 +1,651 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-fi: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Finland Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-fi" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Finland, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-FI.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	.
+
+lcc-3166-2-fi:AhvenanmaanMaakunta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ahvenanmaan maakunta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Ahvenanmaan maakunta in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Ahvenanmaan maakunta"@fi ,
+		"Landskapet Åland"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:AlandIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Åland Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The territory of Åland Islands in the country of Finland" ;
+	lcc-cr:hasEnglishShortName "Åland Islands"@en ;
+	lcc-cr:hasFrenchShortName "Îles Åland"@fr ;
+	lcc-cr:hasNumericRegionCode "1002" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:EgentligaTavastland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Egentliga Tavastland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Egentliga Tavastland in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Egentliga Tavastland"@sv ,
+		"Kanta-Häme"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Etela-Savo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Etelä-Savo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Etelä-Savo in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Etelä-Savo"@fi ,
+		"Södra Savolax"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:FI-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Ahvenanmaan maakunta in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:AhvenanmaanMaakunta ;
+	lcc-lr:hasTag "FI-01" ;
+	lcc-lr:identifies lcc-3166-2-fi:AhvenanmaanMaakunta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Södra Karelen in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:SodraKarelen ;
+	lcc-lr:hasTag "FI-02" ;
+	lcc-lr:identifies lcc-3166-2-fi:SodraKarelen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Södra Österbotten in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:SodraOsterbotten ;
+	lcc-lr:hasTag "FI-03" ;
+	lcc-lr:identifies lcc-3166-2-fi:SodraOsterbotten ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Etelä-Savo in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Etela-Savo ;
+	lcc-lr:hasTag "FI-04" ;
+	lcc-lr:identifies lcc-3166-2-fi:Etela-Savo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Kainuu in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Kainuu ;
+	lcc-lr:hasTag "FI-05" ;
+	lcc-lr:identifies lcc-3166-2-fi:Kainuu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Egentliga Tavastland in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:EgentligaTavastland ;
+	lcc-lr:hasTag "FI-06" ;
+	lcc-lr:identifies lcc-3166-2-fi:EgentligaTavastland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Mellersta Österbotten in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:MellerstaOsterbotten ;
+	lcc-lr:hasTag "FI-07" ;
+	lcc-lr:identifies lcc-3166-2-fi:MellerstaOsterbotten ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Mellersta Finland in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:MellerstaFinland ;
+	lcc-lr:hasTag "FI-08" ;
+	lcc-lr:identifies lcc-3166-2-fi:MellerstaFinland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Kymmenedalen in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Kymmenedalen ;
+	lcc-lr:hasTag "FI-09" ;
+	lcc-lr:identifies lcc-3166-2-fi:Kymmenedalen ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Lappi in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Lappi ;
+	lcc-lr:hasTag "FI-10" ;
+	lcc-lr:identifies lcc-3166-2-fi:Lappi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Pirkanmaa in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Pirkanmaa ;
+	lcc-lr:hasTag "FI-11" ;
+	lcc-lr:identifies lcc-3166-2-fi:Pirkanmaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Pohjanmaa in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Pohjanmaa ;
+	lcc-lr:hasTag "FI-12" ;
+	lcc-lr:identifies lcc-3166-2-fi:Pohjanmaa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Pohjois-Karjala in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Pohjois-Karjala ;
+	lcc-lr:hasTag "FI-13" ;
+	lcc-lr:identifies lcc-3166-2-fi:Pohjois-Karjala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Norra Österbotten in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:NorraOsterbotten ;
+	lcc-lr:hasTag "FI-14" ;
+	lcc-lr:identifies lcc-3166-2-fi:NorraOsterbotten ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Norra Savolax in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:NorraSavolax ;
+	lcc-lr:hasTag "FI-15" ;
+	lcc-lr:identifies lcc-3166-2-fi:NorraSavolax ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Päijänne-Tavastland in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Paijanne-Tavastland ;
+	lcc-lr:hasTag "FI-16" ;
+	lcc-lr:identifies lcc-3166-2-fi:Paijanne-Tavastland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Satakunda in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Satakunda ;
+	lcc-lr:hasTag "FI-17" ;
+	lcc-lr:identifies lcc-3166-2-fi:Satakunda ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Nyland in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Nyland ;
+	lcc-lr:hasTag "FI-18" ;
+	lcc-lr:identifies lcc-3166-2-fi:Nyland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:FI-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "FI-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision code for the region of Varsinais-Suomi in the country of Finland" ;
+	lcc-lr:denotes lcc-3166-2-fi:Varsinais-Suomi ;
+	lcc-lr:hasTag "FI-19" ;
+	lcc-lr:identifies lcc-3166-2-fi:Varsinais-Suomi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-fi:Kainuu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kainuu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Kainuu in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Kainuu"@fi ,
+		"Kajanaland"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Kymmenedalen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kymmenedalen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Kymmenedalen in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Kymenlaakso"@fi ,
+		"Kymmenedalen"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Lappi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lappi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Lappi in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Lappi"@fi ,
+		"Lappland"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:MellerstaFinland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mellersta Finland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Mellersta Finland in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Keski-Suomi"@fi ,
+		"Mellersta Finland"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:MellerstaOsterbotten
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mellersta Österbotten" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Mellersta Österbotten in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Keski-Pohjanmaa"@fi ,
+		"Mellersta Österbotten"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:NorraOsterbotten
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norra Österbotten" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Norra Österbotten in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Norra Österbotten"@sv ,
+		"Pohjois-Pohjanmaa"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:NorraSavolax
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Norra Savolax" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Norra Savolax in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Norra Savolax"@sv ,
+		"Pohjois-Savo"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Nyland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nyland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Nyland in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Nyland"@sv ,
+		"Uusimaa"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Paijanne-Tavastland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Päijänne-Tavastland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Päijänne-Tavastland in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Päijänne-Tavastland"@sv ,
+		"Päijät-Häme"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Pirkanmaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pirkanmaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Pirkanmaa in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Birkaland"@sv ,
+		"Pirkanmaa"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Pohjanmaa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pohjanmaa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Pohjanmaa in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Pohjanmaa"@fi ,
+		"Österbotten"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Pohjois-Karjala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pohjois-Karjala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Pohjois-Karjala in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Norra Karelen"@sv ,
+		"Pohjois-Karjala"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "subdivision category region in the country of Finland" ;
+	.
+
+lcc-3166-2-fi:Satakunda
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Satakunda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Satakunda in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Satakunda"@sv ,
+		"Satakunta"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:SodraKarelen
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Södra Karelen" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Södra Karelen in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Etelä-Karjala"@fi ,
+		"Södra Karelen"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:SodraOsterbotten
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Södra Österbotten" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Södra Österbotten in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Etelä-Pohjanmaa"@fi ,
+		"Södra Österbotten"@sv
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+
+lcc-3166-2-fi:Varsinais-Suomi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Varsinais-Suomi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-FI/> ;
+	skos:definition "The region of Varsinais-Suomi in the country of Finland" ;
+	lcc-cr:hasLocalShortName
+		"Egentliga Finland"@sv ,
+		"Varsinais-Suomi"@fi
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-fi:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Finland ;
+	.
+

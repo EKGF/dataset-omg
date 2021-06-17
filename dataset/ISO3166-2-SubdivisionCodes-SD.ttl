@@ -1,0 +1,570 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sd: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Sudan (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sd" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Sudan (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SD.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	.
+
+lcc-3166-2-sd:BlueNile
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Blue Nile" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Blue Nile in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Blue Nile"@en ;
+	lcc-cr:hasLocalShortName "An Nīl al Azraq"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:CentralDarfur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Darfur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Central Darfur in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Central Darfur"@en ;
+	lcc-cr:hasLocalShortName "Wasaţ Dārfūr Zālinjay"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:EastDarfur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "East Darfur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of East Darfur in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "East Darfur"@en ;
+	lcc-cr:hasLocalShortName "Sharq Dārfūr"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:Gedaref
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gedaref" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Gedaref in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Gedaref"@en ;
+	lcc-cr:hasLocalShortName "Al Qaḑārif"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:Gezira
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gezira" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Gezira in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Gezira"@en ;
+	lcc-cr:hasLocalShortName "Al Jazīrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:Kassala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kassala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Kassala in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Kassala"@en ;
+	lcc-cr:hasLocalShortName "Kassalā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:Khartoum
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khartoum" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Khartoum in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Khartoum"@en ;
+	lcc-cr:hasLocalShortName "Al Kharţūm"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:NorthDarfur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Darfur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of North Darfur in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "North Darfur"@en ;
+	lcc-cr:hasLocalShortName "Shamāl Dārfūr"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:NorthKordofan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Kordofan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of North Kordofan in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "North Kordofan"@en ;
+	lcc-cr:hasLocalShortName "Shiamāl Kurdufān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:Northern
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Northern in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Northern"@en ;
+	lcc-cr:hasLocalShortName "Ash Shamālīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:RedSea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Red Sea" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Red Sea in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Red Sea"@en ;
+	lcc-cr:hasLocalShortName "Al Baḩr al Aḩmar"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:RiverNile
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "River Nile" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of River Nile in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "River Nile"@en ;
+	lcc-cr:hasLocalShortName "Nahr an Nīl"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:SD-DC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-DC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Central Darfur in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:CentralDarfur ;
+	lcc-lr:hasTag "SD-DC" ;
+	lcc-lr:identifies lcc-3166-2-sd:CentralDarfur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-DE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-DE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of East Darfur in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:EastDarfur ;
+	lcc-lr:hasTag "SD-DE" ;
+	lcc-lr:identifies lcc-3166-2-sd:EastDarfur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-DN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-DN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of North Darfur in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:NorthDarfur ;
+	lcc-lr:hasTag "SD-DN" ;
+	lcc-lr:identifies lcc-3166-2-sd:NorthDarfur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-DS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-DS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of South Darfur in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:SouthDarfur ;
+	lcc-lr:hasTag "SD-DS" ;
+	lcc-lr:identifies lcc-3166-2-sd:SouthDarfur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-DW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-DW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of West Darfur in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:WestDarfur ;
+	lcc-lr:hasTag "SD-DW" ;
+	lcc-lr:identifies lcc-3166-2-sd:WestDarfur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-GD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-GD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Gedaref in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:Gedaref ;
+	lcc-lr:hasTag "SD-GD" ;
+	lcc-lr:identifies lcc-3166-2-sd:Gedaref ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-GK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-GK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of West Kordofan in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:WestKordofan ;
+	lcc-lr:hasTag "SD-GK" ;
+	lcc-lr:identifies lcc-3166-2-sd:WestKordofan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-GZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-GZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Gezira in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:Gezira ;
+	lcc-lr:hasTag "SD-GZ" ;
+	lcc-lr:identifies lcc-3166-2-sd:Gezira ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-KA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Kassala in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:Kassala ;
+	lcc-lr:hasTag "SD-KA" ;
+	lcc-lr:identifies lcc-3166-2-sd:Kassala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-KH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-KH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Khartoum in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:Khartoum ;
+	lcc-lr:hasTag "SD-KH" ;
+	lcc-lr:identifies lcc-3166-2-sd:Khartoum ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-KN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-KN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of North Kordofan in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:NorthKordofan ;
+	lcc-lr:hasTag "SD-KN" ;
+	lcc-lr:identifies lcc-3166-2-sd:NorthKordofan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-KS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-KS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of South Kordofan in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:SouthKordofan ;
+	lcc-lr:hasTag "SD-KS" ;
+	lcc-lr:identifies lcc-3166-2-sd:SouthKordofan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-NB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-NB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Blue Nile in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:BlueNile ;
+	lcc-lr:hasTag "SD-NB" ;
+	lcc-lr:identifies lcc-3166-2-sd:BlueNile ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-NO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-NO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Northern in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:Northern ;
+	lcc-lr:hasTag "SD-NO" ;
+	lcc-lr:identifies lcc-3166-2-sd:Northern ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-NR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-NR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of River Nile in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:RiverNile ;
+	lcc-lr:hasTag "SD-NR" ;
+	lcc-lr:identifies lcc-3166-2-sd:RiverNile ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-NW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-NW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of White Nile in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:WhiteNile ;
+	lcc-lr:hasTag "SD-NW" ;
+	lcc-lr:identifies lcc-3166-2-sd:WhiteNile ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-RS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-RS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Red Sea in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:RedSea ;
+	lcc-lr:hasTag "SD-RS" ;
+	lcc-lr:identifies lcc-3166-2-sd:RedSea ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:SD-SI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SD-SI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision code for the state of Sennar in the country of Sudan (the)" ;
+	lcc-lr:denotes lcc-3166-2-sd:Sennar ;
+	lcc-lr:hasTag "SD-SI" ;
+	lcc-lr:identifies lcc-3166-2-sd:Sennar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sd:Sennar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sennar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of Sennar in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "Sennar"@en ;
+	lcc-cr:hasLocalShortName "Sinnār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:SouthDarfur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Darfur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of South Darfur in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "South Darfur"@en ;
+	lcc-cr:hasLocalShortName "Janūb Dārfūr"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:SouthKordofan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Kordofan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of South Kordofan in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "South Kordofan"@en ;
+	lcc-cr:hasLocalShortName "Janūb Kurdufān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "subdivision category state in the country of Sudan (the)" ;
+	.
+
+lcc-3166-2-sd:WestDarfur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West Darfur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of West Darfur in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "West Darfur"@en ;
+	lcc-cr:hasLocalShortName "Gharb Dārfūr"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:WestKordofan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West Kordofan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of West Kordofan in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "West Kordofan"@en ;
+	lcc-cr:hasLocalShortName "Gharb Kurdufān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-2-sd:WhiteNile
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "White Nile" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SD/> ;
+	skos:definition "The state of White Nile in the country of Sudan (the)" ;
+	lcc-cr:hasEnglishShortName "White Nile"@en ;
+	lcc-cr:hasLocalShortName "An Nīl al Abyaḑ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sd:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Sudan ;
+	.
+

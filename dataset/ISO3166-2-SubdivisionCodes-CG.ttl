@@ -1,0 +1,390 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cg: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Congo (the) Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cg" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Congo (the), with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CG.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	.
+
+lcc-3166-2-cg:Bouenza
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bouenza" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Bouenza in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Bouenza"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Brazzaville
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brazzaville" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Brazzaville in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Brazzaville"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:CG-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Bouenza in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Bouenza ;
+	lcc-lr:hasTag "CG-11" ;
+	lcc-lr:identifies lcc-3166-2-cg:Bouenza ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Pool in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Pool ;
+	lcc-lr:hasTag "CG-12" ;
+	lcc-lr:identifies lcc-3166-2-cg:Pool ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Sangha in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Sangha ;
+	lcc-lr:hasTag "CG-13" ;
+	lcc-lr:identifies lcc-3166-2-cg:Sangha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Plateaux in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Plateaux ;
+	lcc-lr:hasTag "CG-14" ;
+	lcc-lr:identifies lcc-3166-2-cg:Plateaux ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Cuvette-Ouest in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Cuvette-Ouest ;
+	lcc-lr:hasTag "CG-15" ;
+	lcc-lr:identifies lcc-3166-2-cg:Cuvette-Ouest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Pointe-Noire in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Pointe-Noire ;
+	lcc-lr:hasTag "CG-16" ;
+	lcc-lr:identifies lcc-3166-2-cg:Pointe-Noire ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Lékoumou in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Lekoumou ;
+	lcc-lr:hasTag "CG-2" ;
+	lcc-lr:identifies lcc-3166-2-cg:Lekoumou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-5
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Kouilou in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Kouilou ;
+	lcc-lr:hasTag "CG-5" ;
+	lcc-lr:identifies lcc-3166-2-cg:Kouilou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-7
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Likouala in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Likouala ;
+	lcc-lr:hasTag "CG-7" ;
+	lcc-lr:identifies lcc-3166-2-cg:Likouala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-8
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Cuvette in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Cuvette ;
+	lcc-lr:hasTag "CG-8" ;
+	lcc-lr:identifies lcc-3166-2-cg:Cuvette ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-9
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-9" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Niari in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Niari ;
+	lcc-lr:hasTag "CG-9" ;
+	lcc-lr:identifies lcc-3166-2-cg:Niari ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:CG-BZV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CG-BZV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision code for the department of Brazzaville in the country of Congo (the)" ;
+	lcc-lr:denotes lcc-3166-2-cg:Brazzaville ;
+	lcc-lr:hasTag "CG-BZV" ;
+	lcc-lr:identifies lcc-3166-2-cg:Brazzaville ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cg:Cuvette
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuvette" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Cuvette in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Cuvette"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Cuvette-Ouest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cuvette-Ouest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Cuvette-Ouest in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Cuvette-Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "subdivision category department in the country of Congo (the)" ;
+	.
+
+lcc-3166-2-cg:Kouilou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kouilou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Kouilou in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Kouilou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Lekoumou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lékoumou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Lékoumou in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Lékoumou"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Likouala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Likouala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Likouala in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Likouala"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Niari
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Niari" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Niari in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Niari"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Plateaux
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plateaux" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Plateaux in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Plateaux"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Pointe-Noire
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pointe-Noire" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Pointe-Noire in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Pointe-Noire"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Pool
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pool" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Pool in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Pool"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+
+lcc-3166-2-cg:Sangha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sangha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CG/> ;
+	skos:definition "The department of Sangha in the country of Congo (the)" ;
+	lcc-cr:hasFrenchShortName "Sangha"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cg:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Congo ;
+	.
+

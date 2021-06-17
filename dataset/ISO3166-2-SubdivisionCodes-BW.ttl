@@ -1,0 +1,518 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Botswana Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Botswana, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	.
+
+lcc-3166-2-bw:BW-CE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-CE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of Central in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Central ;
+	lcc-lr:hasTag "BW-CE" ;
+	lcc-lr:identifies lcc-3166-2-bw:Central ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-CH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-CH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of Chobe in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Chobe ;
+	lcc-lr:hasTag "BW-CH" ;
+	lcc-lr:identifies lcc-3166-2-bw:Chobe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-FR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-FR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the city of Francistown in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Francistown ;
+	lcc-lr:hasTag "BW-FR" ;
+	lcc-lr:identifies lcc-3166-2-bw:Francistown ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-GA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the city of Gaborone in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Gaborone ;
+	lcc-lr:hasTag "BW-GA" ;
+	lcc-lr:identifies lcc-3166-2-bw:Gaborone ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-GH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-GH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of Ghanzi in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Ghanzi ;
+	lcc-lr:hasTag "BW-GH" ;
+	lcc-lr:identifies lcc-3166-2-bw:Ghanzi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-JW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-JW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the town of Jwaneng in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Jwaneng ;
+	lcc-lr:hasTag "BW-JW" ;
+	lcc-lr:identifies lcc-3166-2-bw:Jwaneng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-KG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-KG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of Kgalagadi in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Kgalagadi ;
+	lcc-lr:hasTag "BW-KG" ;
+	lcc-lr:identifies lcc-3166-2-bw:Kgalagadi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-KL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-KL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of Kgatleng in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Kgatleng ;
+	lcc-lr:hasTag "BW-KL" ;
+	lcc-lr:identifies lcc-3166-2-bw:Kgatleng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-KW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-KW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of Kweneng in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Kweneng ;
+	lcc-lr:hasTag "BW-KW" ;
+	lcc-lr:identifies lcc-3166-2-bw:Kweneng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-LO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the town of Lobatse in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Lobatse ;
+	lcc-lr:hasTag "BW-LO" ;
+	lcc-lr:identifies lcc-3166-2-bw:Lobatse ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-NE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-NE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of North East in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:NorthEast ;
+	lcc-lr:hasTag "BW-NE" ;
+	lcc-lr:identifies lcc-3166-2-bw:NorthEast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-NW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-NW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of North West in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:NorthWest ;
+	lcc-lr:hasTag "BW-NW" ;
+	lcc-lr:identifies lcc-3166-2-bw:NorthWest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-SE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-SE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of South East in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:SouthEast ;
+	lcc-lr:hasTag "BW-SE" ;
+	lcc-lr:identifies lcc-3166-2-bw:SouthEast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-SO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-SO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the district of Southern in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:Southern ;
+	lcc-lr:hasTag "BW-SO" ;
+	lcc-lr:identifies lcc-3166-2-bw:Southern ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-SP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-SP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the town of Selibe Phikwe in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:SelibePhikwe ;
+	lcc-lr:hasTag "BW-SP" ;
+	lcc-lr:identifies lcc-3166-2-bw:SelibePhikwe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:BW-ST
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BW-ST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision code for the town of Sowa Town in the country of Botswana" ;
+	lcc-lr:denotes lcc-3166-2-bw:SowaTown ;
+	lcc-lr:hasTag "BW-ST" ;
+	lcc-lr:identifies lcc-3166-2-bw:SowaTown ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bw:Central
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of Central in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Central"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Chobe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chobe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of Chobe in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Chobe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision category city in the country of Botswana" ;
+	.
+
+lcc-3166-2-bw:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision category district in the country of Botswana" ;
+	.
+
+lcc-3166-2-bw:Francistown
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Francistown" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The city of Francistown in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Francistown"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Gaborone
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gaborone" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The city of Gaborone in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Gaborone"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Ghanzi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ghanzi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of Ghanzi in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Ghanzi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Jwaneng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jwaneng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The town of Jwaneng in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Jwaneng"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:Town ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Kgalagadi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kgalagadi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of Kgalagadi in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Kgalagadi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Kgatleng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kgatleng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of Kgatleng in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Kgatleng"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Kweneng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kweneng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of Kweneng in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Kweneng"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Lobatse
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lobatse" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The town of Lobatse in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Lobatse"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:Town ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:NorthEast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North East" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of North East in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "North East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:NorthWest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of North West in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "North West"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:SelibePhikwe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Selibe Phikwe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The town of Selibe Phikwe in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Selibe Phikwe"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:Town ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:SouthEast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South East" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of South East in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "South East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Southern
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The district of Southern in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Southern"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:SowaTown
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sowa Town" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "The town of Sowa Town in the country of Botswana" ;
+	lcc-cr:hasEnglishShortName "Sowa Town"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bw:Town ;
+	lcc-cr:isSubregionOf lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-2-bw:Town
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "town" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BW/> ;
+	skos:definition "subdivision category town in the country of Botswana" ;
+	.
+

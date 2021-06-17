@@ -1,0 +1,508 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cu: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Cuba Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cu" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Cuba, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CU.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	.
+
+lcc-3166-2-cu:Artemisa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Artemisa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Artemisa in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Artemisa"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:CU-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Pinar del Río in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:PinarDelRio ;
+	lcc-lr:hasTag "CU-01" ;
+	lcc-lr:identifies lcc-3166-2-cu:PinarDelRio ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of La Habana in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:LaHabana ;
+	lcc-lr:hasTag "CU-03" ;
+	lcc-lr:identifies lcc-3166-2-cu:LaHabana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Matanzas in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Matanzas ;
+	lcc-lr:hasTag "CU-04" ;
+	lcc-lr:identifies lcc-3166-2-cu:Matanzas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Villa Clara in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:VillaClara ;
+	lcc-lr:hasTag "CU-05" ;
+	lcc-lr:identifies lcc-3166-2-cu:VillaClara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Cienfuegos in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Cienfuegos ;
+	lcc-lr:hasTag "CU-06" ;
+	lcc-lr:identifies lcc-3166-2-cu:Cienfuegos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Sancti Spíritus in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:SanctiSpiritus ;
+	lcc-lr:hasTag "CU-07" ;
+	lcc-lr:identifies lcc-3166-2-cu:SanctiSpiritus ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Ciego de Ávila in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:CiegoDeAvila ;
+	lcc-lr:hasTag "CU-08" ;
+	lcc-lr:identifies lcc-3166-2-cu:CiegoDeAvila ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Camagüey in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Camaguey ;
+	lcc-lr:hasTag "CU-09" ;
+	lcc-lr:identifies lcc-3166-2-cu:Camaguey ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Las Tunas in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:LasTunas ;
+	lcc-lr:hasTag "CU-10" ;
+	lcc-lr:identifies lcc-3166-2-cu:LasTunas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Holguín in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Holguin ;
+	lcc-lr:hasTag "CU-11" ;
+	lcc-lr:identifies lcc-3166-2-cu:Holguin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Granma in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Granma ;
+	lcc-lr:hasTag "CU-12" ;
+	lcc-lr:identifies lcc-3166-2-cu:Granma ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Santiago de Cuba in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:SantiagoDeCuba ;
+	lcc-lr:hasTag "CU-13" ;
+	lcc-lr:identifies lcc-3166-2-cu:SantiagoDeCuba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Guantánamo in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Guantanamo ;
+	lcc-lr:hasTag "CU-14" ;
+	lcc-lr:identifies lcc-3166-2-cu:Guantanamo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Artemisa in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Artemisa ;
+	lcc-lr:hasTag "CU-15" ;
+	lcc-lr:identifies lcc-3166-2-cu:Artemisa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the province of Mayabeque in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:Mayabeque ;
+	lcc-lr:hasTag "CU-16" ;
+	lcc-lr:identifies lcc-3166-2-cu:Mayabeque ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:CU-99
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CU-99" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision code for the special municipality of Isla de la Juventud in the country of Cuba" ;
+	lcc-lr:denotes lcc-3166-2-cu:IslaDeLaJuventud ;
+	lcc-lr:hasTag "CU-99" ;
+	lcc-lr:identifies lcc-3166-2-cu:IslaDeLaJuventud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cu:Camaguey
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Camagüey" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Camagüey in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Camagüey"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:CiegoDeAvila
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ciego de Ávila" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Ciego de Ávila in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Ciego de Ávila"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:Cienfuegos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cienfuegos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Cienfuegos in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Cienfuegos"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:Granma
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Granma" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Granma in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Granma"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:Guantanamo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guantánamo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Guantánamo in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Guantánamo"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:Holguin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Holguín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Holguín in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Holguín"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:IslaDeLaJuventud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isla de la Juventud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The special municipality of Isla de la Juventud in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Isla de la Juventud"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:SpecialMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:LaHabana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "La Habana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of La Habana in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "La Habana"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:LasTunas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Las Tunas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Las Tunas in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Las Tunas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:Matanzas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matanzas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Matanzas in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Matanzas"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:Mayabeque
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mayabeque" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Mayabeque in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Mayabeque"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:PinarDelRio
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pinar del Río" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Pinar del Río in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Pinar del Río"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision category province in the country of Cuba" ;
+	.
+
+lcc-3166-2-cu:SanctiSpiritus
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sancti Spíritus" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Sancti Spíritus in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Sancti Spíritus"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:SantiagoDeCuba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santiago de Cuba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Santiago de Cuba in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Santiago de Cuba"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-2-cu:SpecialMunicipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "special municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "subdivision category special municipality in the country of Cuba" ;
+	.
+
+lcc-3166-2-cu:VillaClara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Villa Clara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CU/> ;
+	skos:definition "The province of Villa Clara in the country of Cuba" ;
+	lcc-cr:hasLocalShortName "Villa Clara"@es ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cu:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Cuba ;
+	.
+

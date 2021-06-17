@@ -1,0 +1,1210 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ro: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Romania Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ro" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Romania, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-RO.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	.
+
+lcc-3166-2-ro:Alba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Alba in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Alba"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Arad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arad" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Arad in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Arad"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Arges
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Argeș" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Argeș in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Argeș"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Bacau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bacău" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Bacău in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Bacău"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Bihor
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bihor" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Bihor in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Bihor"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Bistrita-Nasaud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bistrița-Năsăud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Bistrița-Năsăud in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Bistrița-Năsăud"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Botosani
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Botoșani" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Botoșani in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Botoșani"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Braila
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brăila" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Brăila in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Brăila"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Brasov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brașov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Brașov in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Brașov"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Bucuresti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "București" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The municipality of București in the country of Romania" ;
+	lcc-cr:hasLocalShortName "București"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Buzau
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buzău" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Buzău in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Buzău"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Calarasi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Călărași" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Călărași in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Călărași"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Caras-Severin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Caraș-Severin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Caraș-Severin in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Caraș-Severin"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Cluj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cluj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Cluj in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Cluj"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Constanta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Constanța" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Constanța in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Constanța"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Covasna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Covasna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Covasna in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Covasna"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Dambovita
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dâmbovița" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Dâmbovița in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Dâmbovița"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Department
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "department" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision category department in the country of Romania" ;
+	.
+
+lcc-3166-2-ro:Dolj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dolj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Dolj in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Dolj"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Galati
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Galați" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Galați in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Galați"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Giurgiu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Giurgiu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Giurgiu in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Giurgiu"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Gorj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gorj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Gorj in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Gorj"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Harghita
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Harghita" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Harghita in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Harghita"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Hunedoara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hunedoara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Hunedoara in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Hunedoara"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Ialomita
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ialomița" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Ialomița in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Ialomița"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Iasi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iași" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Iași in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Iași"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Ilfov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ilfov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Ilfov in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Ilfov"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Maramures
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maramureș" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Maramureș in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Maramureș"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Mehedinti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mehedinți" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Mehedinți in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Mehedinți"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision category municipality in the country of Romania" ;
+	.
+
+lcc-3166-2-ro:Mures
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mureș" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Mureș in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Mureș"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Neamt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Neamț" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Neamț in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Neamț"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Olt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Olt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Olt in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Olt"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Prahova
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prahova" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Prahova in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Prahova"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:RO-AB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Alba in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Alba ;
+	lcc-lr:hasTag "RO-AB" ;
+	lcc-lr:identifies lcc-3166-2-ro:Alba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-AG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-AG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Argeș in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Arges ;
+	lcc-lr:hasTag "RO-AG" ;
+	lcc-lr:identifies lcc-3166-2-ro:Arges ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Arad in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Arad ;
+	lcc-lr:hasTag "RO-AR" ;
+	lcc-lr:identifies lcc-3166-2-ro:Arad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the municipality of București in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Bucuresti ;
+	lcc-lr:hasTag "RO-B" ;
+	lcc-lr:identifies lcc-3166-2-ro:Bucuresti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-BC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-BC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Bacău in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Bacau ;
+	lcc-lr:hasTag "RO-BC" ;
+	lcc-lr:identifies lcc-3166-2-ro:Bacau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-BH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-BH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Bihor in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Bihor ;
+	lcc-lr:hasTag "RO-BH" ;
+	lcc-lr:identifies lcc-3166-2-ro:Bihor ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-BN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-BN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Bistrița-Năsăud in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Bistrita-Nasaud ;
+	lcc-lr:hasTag "RO-BN" ;
+	lcc-lr:identifies lcc-3166-2-ro:Bistrita-Nasaud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Brăila in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Braila ;
+	lcc-lr:hasTag "RO-BR" ;
+	lcc-lr:identifies lcc-3166-2-ro:Braila ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-BT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-BT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Botoșani in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Botosani ;
+	lcc-lr:hasTag "RO-BT" ;
+	lcc-lr:identifies lcc-3166-2-ro:Botosani ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-BV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-BV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Brașov in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Brasov ;
+	lcc-lr:hasTag "RO-BV" ;
+	lcc-lr:identifies lcc-3166-2-ro:Brasov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-BZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-BZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Buzău in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Buzau ;
+	lcc-lr:hasTag "RO-BZ" ;
+	lcc-lr:identifies lcc-3166-2-ro:Buzau ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-CJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-CJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Cluj in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Cluj ;
+	lcc-lr:hasTag "RO-CJ" ;
+	lcc-lr:identifies lcc-3166-2-ro:Cluj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-CL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-CL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Călărași in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Calarasi ;
+	lcc-lr:hasTag "RO-CL" ;
+	lcc-lr:identifies lcc-3166-2-ro:Calarasi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-CS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-CS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Caraș-Severin in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Caras-Severin ;
+	lcc-lr:hasTag "RO-CS" ;
+	lcc-lr:identifies lcc-3166-2-ro:Caras-Severin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-CT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Constanța in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Constanta ;
+	lcc-lr:hasTag "RO-CT" ;
+	lcc-lr:identifies lcc-3166-2-ro:Constanta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-CV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-CV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Covasna in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Covasna ;
+	lcc-lr:hasTag "RO-CV" ;
+	lcc-lr:identifies lcc-3166-2-ro:Covasna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-DB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-DB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Dâmbovița in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Dambovita ;
+	lcc-lr:hasTag "RO-DB" ;
+	lcc-lr:identifies lcc-3166-2-ro:Dambovita ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-DJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-DJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Dolj in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Dolj ;
+	lcc-lr:hasTag "RO-DJ" ;
+	lcc-lr:identifies lcc-3166-2-ro:Dolj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-GJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-GJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Gorj in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Gorj ;
+	lcc-lr:hasTag "RO-GJ" ;
+	lcc-lr:identifies lcc-3166-2-ro:Gorj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-GL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-GL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Galați in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Galati ;
+	lcc-lr:hasTag "RO-GL" ;
+	lcc-lr:identifies lcc-3166-2-ro:Galati ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-GR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Giurgiu in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Giurgiu ;
+	lcc-lr:hasTag "RO-GR" ;
+	lcc-lr:identifies lcc-3166-2-ro:Giurgiu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-HD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-HD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Hunedoara in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Hunedoara ;
+	lcc-lr:hasTag "RO-HD" ;
+	lcc-lr:identifies lcc-3166-2-ro:Hunedoara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-HR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-HR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Harghita in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Harghita ;
+	lcc-lr:hasTag "RO-HR" ;
+	lcc-lr:identifies lcc-3166-2-ro:Harghita ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-IF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-IF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Ilfov in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Ilfov ;
+	lcc-lr:hasTag "RO-IF" ;
+	lcc-lr:identifies lcc-3166-2-ro:Ilfov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-IL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-IL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Ialomița in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Ialomita ;
+	lcc-lr:hasTag "RO-IL" ;
+	lcc-lr:identifies lcc-3166-2-ro:Ialomita ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-IS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-IS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Iași in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Iasi ;
+	lcc-lr:hasTag "RO-IS" ;
+	lcc-lr:identifies lcc-3166-2-ro:Iasi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-MH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-MH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Mehedinți in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Mehedinti ;
+	lcc-lr:hasTag "RO-MH" ;
+	lcc-lr:identifies lcc-3166-2-ro:Mehedinti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-MM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-MM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Maramureș in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Maramures ;
+	lcc-lr:hasTag "RO-MM" ;
+	lcc-lr:identifies lcc-3166-2-ro:Maramures ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-MS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-MS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Mureș in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Mures ;
+	lcc-lr:hasTag "RO-MS" ;
+	lcc-lr:identifies lcc-3166-2-ro:Mures ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-NT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-NT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Neamț in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Neamt ;
+	lcc-lr:hasTag "RO-NT" ;
+	lcc-lr:identifies lcc-3166-2-ro:Neamt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-OT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-OT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Olt in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Olt ;
+	lcc-lr:hasTag "RO-OT" ;
+	lcc-lr:identifies lcc-3166-2-ro:Olt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-PH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-PH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Prahova in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Prahova ;
+	lcc-lr:hasTag "RO-PH" ;
+	lcc-lr:identifies lcc-3166-2-ro:Prahova ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-SB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-SB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Sibiu in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Sibiu ;
+	lcc-lr:hasTag "RO-SB" ;
+	lcc-lr:identifies lcc-3166-2-ro:Sibiu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-SJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-SJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Sălaj in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Salaj ;
+	lcc-lr:hasTag "RO-SJ" ;
+	lcc-lr:identifies lcc-3166-2-ro:Salaj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-SM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-SM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Satu Mare in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:SatuMare ;
+	lcc-lr:hasTag "RO-SM" ;
+	lcc-lr:identifies lcc-3166-2-ro:SatuMare ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-SV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-SV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Suceava in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Suceava ;
+	lcc-lr:hasTag "RO-SV" ;
+	lcc-lr:identifies lcc-3166-2-ro:Suceava ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-TL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-TL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Tulcea in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Tulcea ;
+	lcc-lr:hasTag "RO-TL" ;
+	lcc-lr:identifies lcc-3166-2-ro:Tulcea ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-TM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-TM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Timiș in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Timis ;
+	lcc-lr:hasTag "RO-TM" ;
+	lcc-lr:identifies lcc-3166-2-ro:Timis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-TR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-TR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Teleorman in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Teleorman ;
+	lcc-lr:hasTag "RO-TR" ;
+	lcc-lr:identifies lcc-3166-2-ro:Teleorman ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-VL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-VL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Vâlcea in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Valcea ;
+	lcc-lr:hasTag "RO-VL" ;
+	lcc-lr:identifies lcc-3166-2-ro:Valcea ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-VN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-VN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Vrancea in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Vrancea ;
+	lcc-lr:hasTag "RO-VN" ;
+	lcc-lr:identifies lcc-3166-2-ro:Vrancea ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:RO-VS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RO-VS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "subdivision code for the department of Vaslui in the country of Romania" ;
+	lcc-lr:denotes lcc-3166-2-ro:Vaslui ;
+	lcc-lr:hasTag "RO-VS" ;
+	lcc-lr:identifies lcc-3166-2-ro:Vaslui ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ro:Salaj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sălaj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Sălaj in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Sălaj"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:SatuMare
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Satu Mare" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Satu Mare in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Satu Mare"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Sibiu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sibiu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Sibiu in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Sibiu"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Suceava
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Suceava" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Suceava in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Suceava"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Teleorman
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Teleorman" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Teleorman in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Teleorman"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Timis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Timiș" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Timiș in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Timiș"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Tulcea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tulcea" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Tulcea in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Tulcea"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Valcea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vâlcea" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Vâlcea in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Vâlcea"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Vaslui
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vaslui" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Vaslui in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Vaslui"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+
+lcc-3166-2-ro:Vrancea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vrancea" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RO/> ;
+	skos:definition "The department of Vrancea in the country of Romania" ;
+	lcc-cr:hasLocalShortName "Vrancea"@ro ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ro:Department ;
+	lcc-cr:isSubregionOf lcc-3166-1:Romania ;
+	.
+

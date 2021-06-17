@@ -1,0 +1,178 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-bn: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Brunei Darussalam Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-bn" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Brunei Darussalam, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-BN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	.
+
+lcc-3166-2-bn:BN-BE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BN-BE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "subdivision code for the district of Belait in the country of Brunei Darussalam" ;
+	lcc-lr:denotes lcc-3166-2-bn:Belait ;
+	lcc-lr:hasTag "BN-BE" ;
+	lcc-lr:identifies lcc-3166-2-bn:Belait ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bn:BN-BM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BN-BM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "subdivision code for the district of Brunei-Muara in the country of Brunei Darussalam" ;
+	lcc-lr:denotes lcc-3166-2-bn:Brunei-Muara ;
+	lcc-lr:hasTag "BN-BM" ;
+	lcc-lr:identifies lcc-3166-2-bn:Brunei-Muara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bn:BN-TE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BN-TE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "subdivision code for the district of Temburong in the country of Brunei Darussalam" ;
+	lcc-lr:denotes lcc-3166-2-bn:Temburong ;
+	lcc-lr:hasTag "BN-TE" ;
+	lcc-lr:identifies lcc-3166-2-bn:Temburong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bn:BN-TU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "BN-TU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "subdivision code for the district of Tutong in the country of Brunei Darussalam" ;
+	lcc-lr:denotes lcc-3166-2-bn:Tutong ;
+	lcc-lr:hasTag "BN-TU" ;
+	lcc-lr:identifies lcc-3166-2-bn:Tutong ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-bn:Belait
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Belait" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "The district of Belait in the country of Brunei Darussalam" ;
+	lcc-cr:hasEnglishShortName "Belait"@en ;
+	lcc-cr:hasLocalShortName "Belait"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bn:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:BruneiDarussalam ;
+	.
+
+lcc-3166-2-bn:Brunei-Muara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brunei-Muara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "The district of Brunei-Muara in the country of Brunei Darussalam" ;
+	lcc-cr:hasEnglishShortName "Brunei-Muara"@en ;
+	lcc-cr:hasLocalShortName "Brunei-Muara"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bn:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:BruneiDarussalam ;
+	.
+
+lcc-3166-2-bn:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "subdivision category district in the country of Brunei Darussalam" ;
+	.
+
+lcc-3166-2-bn:Temburong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Temburong" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "The district of Temburong in the country of Brunei Darussalam" ;
+	lcc-cr:hasEnglishShortName "Temburong"@en ;
+	lcc-cr:hasLocalShortName "Temburong"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bn:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:BruneiDarussalam ;
+	.
+
+lcc-3166-2-bn:Tutong
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tutong" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-BN/> ;
+	skos:definition "The district of Tutong in the country of Brunei Darussalam" ;
+	lcc-cr:hasEnglishShortName "Tutong"@en ;
+	lcc-cr:hasLocalShortName "Tutong"@ms ;
+	lcc-cr:isClassifiedBy lcc-3166-2-bn:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:BruneiDarussalam ;
+	.
+

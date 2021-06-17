@@ -1,0 +1,352 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-au: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Australia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-au" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Australia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-AU.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	.
+
+lcc-3166-2-au:AU-ACT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-ACT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the territory of Australian Capital Territory in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:AustralianCapitalTerritory ;
+	lcc-lr:hasTag "AU-ACT" ;
+	lcc-lr:identifies lcc-3166-2-au:AustralianCapitalTerritory ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AU-NSW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-NSW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the state of New South Wales in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:NewSouthWales ;
+	lcc-lr:hasTag "AU-NSW" ;
+	lcc-lr:identifies lcc-3166-2-au:NewSouthWales ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AU-NT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-NT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the territory of Northern Territory in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:NorthernTerritory ;
+	lcc-lr:hasTag "AU-NT" ;
+	lcc-lr:identifies lcc-3166-2-au:NorthernTerritory ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AU-QLD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-QLD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the state of Queensland in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:Queensland ;
+	lcc-lr:hasTag "AU-QLD" ;
+	lcc-lr:identifies lcc-3166-2-au:Queensland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AU-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the state of South Australia in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:SouthAustralia ;
+	lcc-lr:hasTag "AU-SA" ;
+	lcc-lr:identifies lcc-3166-2-au:SouthAustralia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AU-TAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-TAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the state of Tasmania in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:Tasmania ;
+	lcc-lr:hasTag "AU-TAS" ;
+	lcc-lr:identifies lcc-3166-2-au:Tasmania ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AU-VIC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-VIC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the state of Victoria in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:Victoria ;
+	lcc-lr:hasTag "AU-VIC" ;
+	lcc-lr:identifies lcc-3166-2-au:Victoria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AU-WA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "AU-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision code for the state of Western Australia in the country of Australia" ;
+	lcc-lr:denotes lcc-3166-2-au:WesternAustralia ;
+	lcc-lr:hasTag "AU-WA" ;
+	lcc-lr:identifies lcc-3166-2-au:WesternAustralia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-au:AshmoreAndCartierIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Ashmore and Cartier Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The territory of Ashmore and Cartier Islands in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Ashmore and Cartier Islands"@en ;
+	lcc-cr:hasFrenchShortName "Îles Ashmore-et-Cartier"@fr ;
+	lcc-cr:hasNumericRegionCode "1009" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:AustralianCapitalTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Australian Capital Territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The territory of Australian Capital Territory in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Australian Capital Territory"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:CoralSeaIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Coral Sea Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The territory of Coral Sea Islands in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Coral Sea Islands"@en ;
+	lcc-cr:hasFrenchShortName "Îles de la Mer de Corail"@fr ;
+	lcc-cr:hasNumericRegionCode "1046" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:LordHoweIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Lord Howe Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The territory of Lord Howe Island in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Lord Howe Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Lord Howe"@fr ;
+	lcc-cr:hasNumericRegionCode "1107" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:MacquarieIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Macquarie Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The territory of Macquarie Island in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Macquarie Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Macquarie"@fr ;
+	lcc-cr:hasNumericRegionCode "1111" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:NewSouthWales
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New South Wales" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The state of New South Wales in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "New South Wales"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:NorthernTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern Territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The territory of Northern Territory in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Northern Territory"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:Queensland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Queensland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The state of Queensland in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Queensland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:SouthAustralia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "South Australia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The state of South Australia in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "South Australia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision category state in the country of Australia" ;
+	.
+
+lcc-3166-2-au:Tasmania
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tasmania" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The state of Tasmania in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Tasmania"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "subdivision category territory in the country of Australia" ;
+	.
+
+lcc-3166-2-au:Victoria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Victoria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The state of Victoria in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Victoria"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+
+lcc-3166-2-au:WesternAustralia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western Australia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-AU/> ;
+	skos:definition "The state of Western Australia in the country of Australia" ;
+	lcc-cr:hasEnglishShortName "Western Australia"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-au:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:Australia ;
+	.
+

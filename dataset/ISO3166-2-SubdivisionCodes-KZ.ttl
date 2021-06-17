@@ -1,0 +1,632 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-kz: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Kazakhstan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-kz" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Kazakhstan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KZ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	.
+
+lcc-3166-2-kz:AktjubinskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aktjubinskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Aktjubinskaja oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Aktjubinskaja oblast'"@ru ,
+		"Aktyubinskaya oblast'"@ru ,
+		"Aqtöbe oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:Almaty
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Almaty" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The city of Almaty in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Almaty"@kk ,
+		"Almaty"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:AlmatyOblysy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Almaty oblysy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Almaty oblysy in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Almatinskaja oblast'"@ru ,
+		"Almatinskaya oblast'"@ru ,
+		"Almaty oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:AqmolaOblysy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aqmola oblysy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Aqmola oblysy in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Akmolinskaja oblast'"@ru ,
+		"Akmolinskaya oblast'"@ru ,
+		"Aqmola oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:Astana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Astana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The city of Astana in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Astana"@kk ,
+		"Astana"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:AtyrauskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Atyrauskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Atyrauskaja oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Atyrauskaja oblast'"@ru ,
+		"Atyrauskaya oblast'"@ru ,
+		"Atyraū oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:Bajkonyr
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bajkonyr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The city of Bajkonyr in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Bajkonyr"@ru ,
+		"Baykonyr"@ru ,
+		"Bayqongyr"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision category city in the country of Kazakhstan" ;
+	.
+
+lcc-3166-2-kz:KZ-AKM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-AKM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Aqmola oblysy in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:AqmolaOblysy ;
+	lcc-lr:hasTag "KZ-AKM" ;
+	lcc-lr:identifies lcc-3166-2-kz:AqmolaOblysy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-AKT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-AKT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Aktjubinskaja oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:AktjubinskajaOblast ;
+	lcc-lr:hasTag "KZ-AKT" ;
+	lcc-lr:identifies lcc-3166-2-kz:AktjubinskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-ALA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-ALA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the city of Almaty in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:Almaty ;
+	lcc-lr:hasTag "KZ-ALA" ;
+	lcc-lr:identifies lcc-3166-2-kz:Almaty ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-ALM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-ALM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Almaty oblysy in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:AlmatyOblysy ;
+	lcc-lr:hasTag "KZ-ALM" ;
+	lcc-lr:identifies lcc-3166-2-kz:AlmatyOblysy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-AST
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-AST" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the city of Astana in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:Astana ;
+	lcc-lr:hasTag "KZ-AST" ;
+	lcc-lr:identifies lcc-3166-2-kz:Astana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-ATY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-ATY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Atyrauskaja oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:AtyrauskajaOblast ;
+	lcc-lr:hasTag "KZ-ATY" ;
+	lcc-lr:identifies lcc-3166-2-kz:AtyrauskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-BAY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-BAY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the city of Bajkonyr in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:Bajkonyr ;
+	lcc-lr:hasTag "KZ-BAY" ;
+	lcc-lr:identifies lcc-3166-2-kz:Bajkonyr ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-KAR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-KAR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Qaraghandy oblysy in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:QaraghandyOblysy ;
+	lcc-lr:hasTag "KZ-KAR" ;
+	lcc-lr:identifies lcc-3166-2-kz:QaraghandyOblysy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-KUS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-KUS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Kostanayskaya oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:KostanayskayaOblast ;
+	lcc-lr:hasTag "KZ-KUS" ;
+	lcc-lr:identifies lcc-3166-2-kz:KostanayskayaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-KZY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-KZY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Kyzylordinskaja oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:KyzylordinskajaOblast ;
+	lcc-lr:hasTag "KZ-KZY" ;
+	lcc-lr:identifies lcc-3166-2-kz:KyzylordinskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-MAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-MAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Mangistauskaya oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:MangistauskayaOblast ;
+	lcc-lr:hasTag "KZ-MAN" ;
+	lcc-lr:identifies lcc-3166-2-kz:MangistauskayaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-PAV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-PAV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Pavlodarskaja oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:PavlodarskajaOblast ;
+	lcc-lr:hasTag "KZ-PAV" ;
+	lcc-lr:identifies lcc-3166-2-kz:PavlodarskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-SEV
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-SEV" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Severo-Kazakhstanskaya oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:Severo-KazakhstanskayaOblast ;
+	lcc-lr:hasTag "KZ-SEV" ;
+	lcc-lr:identifies lcc-3166-2-kz:Severo-KazakhstanskayaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-SHY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-SHY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the city of Šimkent in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:Simkent ;
+	lcc-lr:hasTag "KZ-SHY" ;
+	lcc-lr:identifies lcc-3166-2-kz:Simkent ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-VOS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-VOS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Vostočno-Kazahstanskaja oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:Vostocno-KazahstanskajaOblast ;
+	lcc-lr:hasTag "KZ-VOS" ;
+	lcc-lr:identifies lcc-3166-2-kz:Vostocno-KazahstanskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-YUZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-YUZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Türkistan oblysy in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:TurkistanOblysy ;
+	lcc-lr:hasTag "KZ-YUZ" ;
+	lcc-lr:identifies lcc-3166-2-kz:TurkistanOblysy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-ZAP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-ZAP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Zapadno-Kazahstanskaja oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:Zapadno-KazahstanskajaOblast ;
+	lcc-lr:hasTag "KZ-ZAP" ;
+	lcc-lr:identifies lcc-3166-2-kz:Zapadno-KazahstanskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KZ-ZHA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KZ-ZHA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision code for the region of Žambylskaja oblast' in the country of Kazakhstan" ;
+	lcc-lr:denotes lcc-3166-2-kz:ZambylskajaOblast ;
+	lcc-lr:hasTag "KZ-ZHA" ;
+	lcc-lr:identifies lcc-3166-2-kz:ZambylskajaOblast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kz:KostanayskayaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kostanayskaya oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Kostanayskaya oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Kostanajskaja oblast'"@ru ,
+		"Kostanayskaya oblast'"@ru ,
+		"Qostanay oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:KyzylordinskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kyzylordinskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Kyzylordinskaja oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Kyzylordinskaja oblast'"@ru ,
+		"Kyzylordinskaya oblast'"@ru ,
+		"Qyzylorda oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:MangistauskayaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mangistauskaya oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Mangistauskaya oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Mangghystaū oblysy"@kk ,
+		"Mangistauskaya oblast'"@ru ,
+		"Mangystauskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:PavlodarskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pavlodarskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Pavlodarskaja oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Pavlodar oblysy"@kk ,
+		"Pavlodarskaja oblast'"@ru ,
+		"Pavlodarskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:QaraghandyOblysy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qaraghandy oblysy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Qaraghandy oblysy in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Karagandinskaja oblast'"@ru ,
+		"Karagandinskaya oblast'"@ru ,
+		"Qaraghandy oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "subdivision category region in the country of Kazakhstan" ;
+	.
+
+lcc-3166-2-kz:Severo-KazakhstanskayaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Severo-Kazakhstanskaya oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Severo-Kazakhstanskaya oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Severo-Kazahstanskaja oblast'"@ru ,
+		"Severo-Kazakhstanskaya oblast'"@ru ,
+		"Soltüstik Qazaqstan oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:Simkent
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šimkent" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The city of Šimkent in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Shymkent"@kk ,
+		"Shymkent"@ru ,
+		"Šimkent"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:TurkistanOblysy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Türkistan oblysy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Türkistan oblysy in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Turkestankaya oblast'"@ru ,
+		"Turkestanskaja oblast'"@ru ,
+		"Türkistan oblysy"@kk
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:Vostocno-KazahstanskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vostočno-Kazahstanskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Vostočno-Kazahstanskaja oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Shyghys Qazaqstan oblysy"@kk ,
+		"Vostochno-Kazakhstanskaya oblast'"@ru ,
+		"Vostočno-Kazahstanskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:ZambylskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Žambylskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Žambylskaja oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Zhambyl oblysy"@kk ,
+		"Zhambylskaya oblast'"@ru ,
+		"Žambylskaja oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-2-kz:Zapadno-KazahstanskajaOblast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zapadno-Kazahstanskaja oblast'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KZ/> ;
+	skos:definition "The region of Zapadno-Kazahstanskaja oblast' in the country of Kazakhstan" ;
+	lcc-cr:hasLocalShortName
+		"Batys Qazaqstan oblysy"@kk ,
+		"Zapadno-Kazahstanskaja oblast'"@ru ,
+		"Zapadno-Kazakhstanskaya oblast'"@ru
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-kz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kazakhstan ;
+	.
+

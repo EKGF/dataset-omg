@@ -1,0 +1,1123 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-in: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for India Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-in" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for India, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IN.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	.
+
+lcc-3166-2-in:AmindiviIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Amindivi Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The territory of Amindivi Islands in the country of India" ;
+	lcc-cr:hasEnglishShortName "Amindivi Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Amindivi"@fr ;
+	lcc-cr:hasNumericRegionCode "1226" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:AndamanAndNicobarIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Andaman and Nicobar Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The Union territory of Andaman and Nicobar Islands in the country of India" ;
+	lcc-cr:hasEnglishShortName "Andaman and Nicobar Islands"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:AndamanIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Andaman Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The territory of Andaman Islands in the country of India" ;
+	lcc-cr:hasEnglishShortName "Andaman Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Andaman"@fr ;
+	lcc-cr:hasNumericRegionCode "1003" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:AndhraPradesh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Andhra Pradesh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Andhra Pradesh in the country of India" ;
+	lcc-cr:hasEnglishShortName "Andhra Pradesh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:ArunachalPradesh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arunachal Pradesh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Arunachal Pradesh in the country of India" ;
+	lcc-cr:hasEnglishShortName "Arunachal Pradesh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Assam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Assam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Assam in the country of India" ;
+	lcc-cr:hasEnglishShortName "Assam"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Bihar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bihar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Bihar in the country of India" ;
+	lcc-cr:hasEnglishShortName "Bihar"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Chandigarh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chandigarh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The Union territory of Chandigarh in the country of India" ;
+	lcc-cr:hasEnglishShortName "Chandigarh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Chhattisgarh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chhattisgarh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Chhattisgarh in the country of India" ;
+	lcc-cr:hasEnglishShortName "Chhattisgarh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:DadraAndNagarHaveli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dadra and Nagar Haveli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The Union territory of Dadra and Nagar Haveli in the country of India" ;
+	lcc-cr:hasEnglishShortName "Dadra and Nagar Haveli"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:DamanAndDiu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Daman and Diu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The Union territory of Daman and Diu in the country of India" ;
+	lcc-cr:hasEnglishShortName "Daman and Diu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Delhi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Delhi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The Union territory of Delhi in the country of India" ;
+	lcc-cr:hasEnglishShortName "Delhi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Goa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Goa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Goa in the country of India" ;
+	lcc-cr:hasEnglishShortName "Goa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Gujarat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gujarat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Gujarat in the country of India" ;
+	lcc-cr:hasEnglishShortName "Gujarat"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Haryana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Haryana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Haryana in the country of India" ;
+	lcc-cr:hasEnglishShortName "Haryana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:HimachalPradesh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Himachal Pradesh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Himachal Pradesh in the country of India" ;
+	lcc-cr:hasEnglishShortName "Himachal Pradesh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:IN-AN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the Union territory of Andaman and Nicobar Islands in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:AndamanAndNicobarIslands ;
+	lcc-lr:hasTag "IN-AN" ;
+	lcc-lr:identifies lcc-3166-2-in:AndamanAndNicobarIslands ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-AP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-AP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Andhra Pradesh in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:AndhraPradesh ;
+	lcc-lr:hasTag "IN-AP" ;
+	lcc-lr:identifies lcc-3166-2-in:AndhraPradesh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Arunachal Pradesh in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:ArunachalPradesh ;
+	lcc-lr:hasTag "IN-AR" ;
+	lcc-lr:identifies lcc-3166-2-in:ArunachalPradesh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-AS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-AS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Assam in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Assam ;
+	lcc-lr:hasTag "IN-AS" ;
+	lcc-lr:identifies lcc-3166-2-in:Assam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Bihar in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Bihar ;
+	lcc-lr:hasTag "IN-BR" ;
+	lcc-lr:identifies lcc-3166-2-in:Bihar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-CH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-CH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the Union territory of Chandigarh in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Chandigarh ;
+	lcc-lr:hasTag "IN-CH" ;
+	lcc-lr:identifies lcc-3166-2-in:Chandigarh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-CT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-CT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Chhattisgarh in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Chhattisgarh ;
+	lcc-lr:hasTag "IN-CT" ;
+	lcc-lr:identifies lcc-3166-2-in:Chhattisgarh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-DD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-DD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the Union territory of Daman and Diu in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:DamanAndDiu ;
+	lcc-lr:hasTag "IN-DD" ;
+	lcc-lr:identifies lcc-3166-2-in:DamanAndDiu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-DL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-DL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the Union territory of Delhi in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Delhi ;
+	lcc-lr:hasTag "IN-DL" ;
+	lcc-lr:identifies lcc-3166-2-in:Delhi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-DN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-DN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the Union territory of Dadra and Nagar Haveli in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:DadraAndNagarHaveli ;
+	lcc-lr:hasTag "IN-DN" ;
+	lcc-lr:identifies lcc-3166-2-in:DadraAndNagarHaveli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-GA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-GA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Goa in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Goa ;
+	lcc-lr:hasTag "IN-GA" ;
+	lcc-lr:identifies lcc-3166-2-in:Goa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-GJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-GJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Gujarat in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Gujarat ;
+	lcc-lr:hasTag "IN-GJ" ;
+	lcc-lr:identifies lcc-3166-2-in:Gujarat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-HP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-HP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Himachal Pradesh in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:HimachalPradesh ;
+	lcc-lr:hasTag "IN-HP" ;
+	lcc-lr:identifies lcc-3166-2-in:HimachalPradesh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-HR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-HR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Haryana in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Haryana ;
+	lcc-lr:hasTag "IN-HR" ;
+	lcc-lr:identifies lcc-3166-2-in:Haryana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-JH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-JH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Jharkhand in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Jharkhand ;
+	lcc-lr:hasTag "IN-JH" ;
+	lcc-lr:identifies lcc-3166-2-in:Jharkhand ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-JK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-JK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Jammu and Kashmir in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:JammuAndKashmir ;
+	lcc-lr:hasTag "IN-JK" ;
+	lcc-lr:identifies lcc-3166-2-in:JammuAndKashmir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-KA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Karnataka in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Karnataka ;
+	lcc-lr:hasTag "IN-KA" ;
+	lcc-lr:identifies lcc-3166-2-in:Karnataka ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-KL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-KL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Kerala in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Kerala ;
+	lcc-lr:hasTag "IN-KL" ;
+	lcc-lr:identifies lcc-3166-2-in:Kerala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-LD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-LD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the Union territory of Lakshadweep in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Lakshadweep ;
+	lcc-lr:hasTag "IN-LD" ;
+	lcc-lr:identifies lcc-3166-2-in:Lakshadweep ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-MH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-MH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Maharashtra in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Maharashtra ;
+	lcc-lr:hasTag "IN-MH" ;
+	lcc-lr:identifies lcc-3166-2-in:Maharashtra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-ML
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-ML" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Meghalaya in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Meghalaya ;
+	lcc-lr:hasTag "IN-ML" ;
+	lcc-lr:identifies lcc-3166-2-in:Meghalaya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-MN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-MN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Manipur in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Manipur ;
+	lcc-lr:hasTag "IN-MN" ;
+	lcc-lr:identifies lcc-3166-2-in:Manipur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-MP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-MP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Madhya Pradesh in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:MadhyaPradesh ;
+	lcc-lr:hasTag "IN-MP" ;
+	lcc-lr:identifies lcc-3166-2-in:MadhyaPradesh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-MZ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-MZ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Mizoram in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Mizoram ;
+	lcc-lr:hasTag "IN-MZ" ;
+	lcc-lr:identifies lcc-3166-2-in:Mizoram ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-NL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-NL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Nagaland in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Nagaland ;
+	lcc-lr:hasTag "IN-NL" ;
+	lcc-lr:identifies lcc-3166-2-in:Nagaland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-OR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-OR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Odisha in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Odisha ;
+	lcc-lr:hasTag "IN-OR" ;
+	lcc-lr:identifies lcc-3166-2-in:Odisha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-PB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-PB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Punjab in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Punjab ;
+	lcc-lr:hasTag "IN-PB" ;
+	lcc-lr:identifies lcc-3166-2-in:Punjab ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-PY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-PY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the Union territory of Puducherry in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Puducherry ;
+	lcc-lr:hasTag "IN-PY" ;
+	lcc-lr:identifies lcc-3166-2-in:Puducherry ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-RJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-RJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Rajasthan in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Rajasthan ;
+	lcc-lr:hasTag "IN-RJ" ;
+	lcc-lr:identifies lcc-3166-2-in:Rajasthan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-SK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-SK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Sikkim in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Sikkim ;
+	lcc-lr:hasTag "IN-SK" ;
+	lcc-lr:identifies lcc-3166-2-in:Sikkim ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-TG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-TG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Telangana in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Telangana ;
+	lcc-lr:hasTag "IN-TG" ;
+	lcc-lr:identifies lcc-3166-2-in:Telangana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-TN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-TN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Tamil Nadu in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:TamilNadu ;
+	lcc-lr:hasTag "IN-TN" ;
+	lcc-lr:identifies lcc-3166-2-in:TamilNadu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-TR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-TR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Tripura in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Tripura ;
+	lcc-lr:hasTag "IN-TR" ;
+	lcc-lr:identifies lcc-3166-2-in:Tripura ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-UP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-UP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Uttar Pradesh in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:UttarPradesh ;
+	lcc-lr:hasTag "IN-UP" ;
+	lcc-lr:identifies lcc-3166-2-in:UttarPradesh ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-UT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-UT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of Uttarakhand in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:Uttarakhand ;
+	lcc-lr:hasTag "IN-UT" ;
+	lcc-lr:identifies lcc-3166-2-in:Uttarakhand ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:IN-WB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IN-WB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision code for the state of West Bengal in the country of India" ;
+	lcc-lr:denotes lcc-3166-2-in:WestBengal ;
+	lcc-lr:hasTag "IN-WB" ;
+	lcc-lr:identifies lcc-3166-2-in:WestBengal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-in:JammuAndKashmir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jammu and Kashmir" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Jammu and Kashmir in the country of India" ;
+	lcc-cr:hasEnglishShortName "Jammu and Kashmir"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Jharkhand
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jharkhand" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Jharkhand in the country of India" ;
+	lcc-cr:hasEnglishShortName "Jharkhand"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Karnataka
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karnataka" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Karnataka in the country of India" ;
+	lcc-cr:hasEnglishShortName "Karnataka"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Kerala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kerala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Kerala in the country of India" ;
+	lcc-cr:hasEnglishShortName "Kerala"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:LaccadiveIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Laccadive Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The territory of Laccadive Islands in the country of India" ;
+	lcc-cr:hasEnglishShortName "Laccadive Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Laquedives"@fr ;
+	lcc-cr:hasNumericRegionCode "1101" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Lakshadweep
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lakshadweep" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The Union territory of Lakshadweep in the country of India" ;
+	lcc-cr:hasEnglishShortName "Lakshadweep"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:MadhyaPradesh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madhya Pradesh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Madhya Pradesh in the country of India" ;
+	lcc-cr:hasEnglishShortName "Madhya Pradesh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Maharashtra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maharashtra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Maharashtra in the country of India" ;
+	lcc-cr:hasEnglishShortName "Maharashtra"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Manipur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manipur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Manipur in the country of India" ;
+	lcc-cr:hasEnglishShortName "Manipur"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Meghalaya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Meghalaya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Meghalaya in the country of India" ;
+	lcc-cr:hasEnglishShortName "Meghalaya"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:MinicoyIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Minicoy Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The territory of Minicoy Island in the country of India" ;
+	lcc-cr:hasEnglishShortName "Minicoy Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Minicoy"@fr ;
+	lcc-cr:hasNumericRegionCode "1128" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Mizoram
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mizoram" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Mizoram in the country of India" ;
+	lcc-cr:hasEnglishShortName "Mizoram"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Nagaland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nagaland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Nagaland in the country of India" ;
+	lcc-cr:hasEnglishShortName "Nagaland"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:NicobarIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Nicobar Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The territory of Nicobar Islands in the country of India" ;
+	lcc-cr:hasEnglishShortName "Nicobar Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Nicobar"@fr ;
+	lcc-cr:hasNumericRegionCode "1138" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Odisha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Odisha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Odisha in the country of India" ;
+	lcc-cr:hasEnglishShortName "Odisha"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Puducherry
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Puducherry" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The Union territory of Puducherry in the country of India" ;
+	lcc-cr:hasEnglishShortName "Puducherry"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:UnionTerritory ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Punjab
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Punjab" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Punjab in the country of India" ;
+	lcc-cr:hasEnglishShortName "Punjab"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Rajasthan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rajasthan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Rajasthan in the country of India" ;
+	lcc-cr:hasEnglishShortName "Rajasthan"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Sikkim
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sikkim" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Sikkim in the country of India" ;
+	lcc-cr:hasEnglishShortName "Sikkim"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision category state in the country of India" ;
+	.
+
+lcc-3166-2-in:TamilNadu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tamil Nadu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Tamil Nadu in the country of India" ;
+	lcc-cr:hasEnglishShortName "Tamil Nadu"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Telangana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Telangana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Telangana in the country of India" ;
+	lcc-cr:hasEnglishShortName "Telangana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Tripura
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tripura" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Tripura in the country of India" ;
+	lcc-cr:hasEnglishShortName "Tripura"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:UnionTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "Union territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "subdivision category Union territory in the country of India" ;
+	.
+
+lcc-3166-2-in:UttarPradesh
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uttar Pradesh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Uttar Pradesh in the country of India" ;
+	lcc-cr:hasEnglishShortName "Uttar Pradesh"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:Uttarakhand
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uttarakhand" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of Uttarakhand in the country of India" ;
+	lcc-cr:hasEnglishShortName "Uttarakhand"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+
+lcc-3166-2-in:WestBengal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West Bengal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IN/> ;
+	skos:definition "The state of West Bengal in the country of India" ;
+	lcc-cr:hasEnglishShortName "West Bengal"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-in:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:India ;
+	.
+

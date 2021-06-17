@@ -1,0 +1,708 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-td: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Chad Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-td" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Chad, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-TD.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	.
+
+lcc-3166-2-td:BahrAlGhazal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baḩr al Ghazāl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Baḩr al Ghazāl in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Bahr el Ghazal"@fr ;
+	lcc-cr:hasLocalShortName "Baḩr al Ghazāl"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Batha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Batha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Batha in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Batha"@fr ;
+	lcc-cr:hasLocalShortName "Al Baţḩah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Burku
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Būrkū" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Būrkū in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Borkou"@fr ;
+	lcc-cr:hasLocalShortName "Būrkū"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Ennedi-Est
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ennedi-Est" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Ennedi-Est in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Ennedi-Est"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Ennedi-Ouest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ennedi-Ouest" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Ennedi-Ouest in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Ennedi-Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Guera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Guéra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Guéra in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Guéra"@fr ;
+	lcc-cr:hasLocalShortName "Qīrā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:HajjarLamis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩajjar Lamīs" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Ḩajjar Lamīs in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Hadjer Lamis"@fr ;
+	lcc-cr:hasLocalShortName "Ḩajjar Lamīs"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Kanim
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kānim" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Kānim in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Kanem"@fr ;
+	lcc-cr:hasLocalShortName "Kānim"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Lac
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lac" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Lac in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Lac"@fr ;
+	lcc-cr:hasLocalShortName "Al Buḩayrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Logone-Occidental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Logone-Occidental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Logone-Occidental in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Logone-Occidental"@fr ;
+	lcc-cr:hasLocalShortName "Lūqūn al Gharbī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:LuqunAshSharqi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lūqūn ash Sharqī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Lūqūn ash Sharqī in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Logone-Oriental"@fr ;
+	lcc-cr:hasLocalShortName "Lūqūn ash Sharqī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:MadinatInjamina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Madīnat Injamīnā" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Madīnat Injamīnā in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Ville de Ndjamena"@fr ;
+	lcc-cr:hasLocalShortName "Madīnat Injamīnā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Mandoul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mandoul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Mandoul in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Mandoul"@fr ;
+	lcc-cr:hasLocalShortName "Māndūl"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:MayuKibbiAlGharbi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Māyū Kībbī al Gharbī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Māyū Kībbī al Gharbī in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Mayo-Kebbi-Ouest"@fr ;
+	lcc-cr:hasLocalShortName "Māyū Kībbī al Gharbī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:MayuKibbiAshSharqi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Māyū Kībbī ash Sharqī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Māyū Kībbī ash Sharqī in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Mayo-Kebbi-Est"@fr ;
+	lcc-cr:hasLocalShortName "Māyū Kībbī ash Sharqī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision category region in the country of Chad" ;
+	.
+
+lcc-3166-2-td:Salamat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Salamat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Salamat in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Salamat"@fr ;
+	lcc-cr:hasLocalShortName "Salāmāt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:ShariAlAwsat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shārī al Awsaţ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Shārī al Awsaţ in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Moyen-Chari"@fr ;
+	lcc-cr:hasLocalShortName "Shārī al Awsaţ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:ShariBaqirmi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Shārī Bāqirmī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Shārī Bāqirmī in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Chari-Baguirmi"@fr ;
+	lcc-cr:hasLocalShortName "Shārī Bāqirmī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Sila
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sila" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Sila in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Sila"@fr ;
+	lcc-cr:hasLocalShortName "Sīlā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:TD-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Batha in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Batha ;
+	lcc-lr:hasTag "TD-BA" ;
+	lcc-lr:identifies lcc-3166-2-td:Batha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-BG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-BG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Baḩr al Ghazāl in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:BahrAlGhazal ;
+	lcc-lr:hasTag "TD-BG" ;
+	lcc-lr:identifies lcc-3166-2-td:BahrAlGhazal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-BO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-BO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Būrkū in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Burku ;
+	lcc-lr:hasTag "TD-BO" ;
+	lcc-lr:identifies lcc-3166-2-td:Burku ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-CB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-CB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Shārī Bāqirmī in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:ShariBaqirmi ;
+	lcc-lr:hasTag "TD-CB" ;
+	lcc-lr:identifies lcc-3166-2-td:ShariBaqirmi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-EE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-EE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Ennedi-Est in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Ennedi-Est ;
+	lcc-lr:hasTag "TD-EE" ;
+	lcc-lr:identifies lcc-3166-2-td:Ennedi-Est ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-EO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-EO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Ennedi-Ouest in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Ennedi-Ouest ;
+	lcc-lr:hasTag "TD-EO" ;
+	lcc-lr:identifies lcc-3166-2-td:Ennedi-Ouest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-GR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-GR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Guéra in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Guera ;
+	lcc-lr:hasTag "TD-GR" ;
+	lcc-lr:identifies lcc-3166-2-td:Guera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-HL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-HL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Ḩajjar Lamīs in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:HajjarLamis ;
+	lcc-lr:hasTag "TD-HL" ;
+	lcc-lr:identifies lcc-3166-2-td:HajjarLamis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-KA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Kānim in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Kanim ;
+	lcc-lr:hasTag "TD-KA" ;
+	lcc-lr:identifies lcc-3166-2-td:Kanim ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-LC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-LC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Lac in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Lac ;
+	lcc-lr:hasTag "TD-LC" ;
+	lcc-lr:identifies lcc-3166-2-td:Lac ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-LO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-LO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Logone-Occidental in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Logone-Occidental ;
+	lcc-lr:hasTag "TD-LO" ;
+	lcc-lr:identifies lcc-3166-2-td:Logone-Occidental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-LR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-LR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Lūqūn ash Sharqī in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:LuqunAshSharqi ;
+	lcc-lr:hasTag "TD-LR" ;
+	lcc-lr:identifies lcc-3166-2-td:LuqunAshSharqi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Mandoul in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Mandoul ;
+	lcc-lr:hasTag "TD-MA" ;
+	lcc-lr:identifies lcc-3166-2-td:Mandoul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-MC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-MC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Shārī al Awsaţ in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:ShariAlAwsat ;
+	lcc-lr:hasTag "TD-MC" ;
+	lcc-lr:identifies lcc-3166-2-td:ShariAlAwsat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-ME
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-ME" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Māyū Kībbī ash Sharqī in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:MayuKibbiAshSharqi ;
+	lcc-lr:hasTag "TD-ME" ;
+	lcc-lr:identifies lcc-3166-2-td:MayuKibbiAshSharqi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-MO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-MO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Māyū Kībbī al Gharbī in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:MayuKibbiAlGharbi ;
+	lcc-lr:hasTag "TD-MO" ;
+	lcc-lr:identifies lcc-3166-2-td:MayuKibbiAlGharbi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-ND
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-ND" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Madīnat Injamīnā in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:MadinatInjamina ;
+	lcc-lr:hasTag "TD-ND" ;
+	lcc-lr:identifies lcc-3166-2-td:MadinatInjamina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-OD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-OD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Waddāy in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Wadday ;
+	lcc-lr:hasTag "TD-OD" ;
+	lcc-lr:identifies lcc-3166-2-td:Wadday ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Salamat in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Salamat ;
+	lcc-lr:hasTag "TD-SA" ;
+	lcc-lr:identifies lcc-3166-2-td:Salamat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-SI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-SI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Sila in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Sila ;
+	lcc-lr:hasTag "TD-SI" ;
+	lcc-lr:identifies lcc-3166-2-td:Sila ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Tānjilī in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Tanjili ;
+	lcc-lr:hasTag "TD-TA" ;
+	lcc-lr:identifies lcc-3166-2-td:Tanjili ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-TI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-TI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Tibastī in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:Tibasti ;
+	lcc-lr:hasTag "TD-TI" ;
+	lcc-lr:identifies lcc-3166-2-td:Tibasti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:TD-WF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "TD-WF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "subdivision code for the region of Wadi Fira in the country of Chad" ;
+	lcc-lr:denotes lcc-3166-2-td:WadiFira ;
+	lcc-lr:hasTag "TD-WF" ;
+	lcc-lr:identifies lcc-3166-2-td:WadiFira ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-td:Tanjili
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tānjilī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Tānjilī in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Tandjilé"@fr ;
+	lcc-cr:hasLocalShortName "Tānjilī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Tibasti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tibastī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Tibastī in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Tibesti"@fr ;
+	lcc-cr:hasLocalShortName "Tibastī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:Wadday
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Waddāy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Waddāy in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Ouaddaï"@fr ;
+	lcc-cr:hasLocalShortName "Waddāy"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+
+lcc-3166-2-td:WadiFira
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wadi Fira" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-TD/> ;
+	skos:definition "The region of Wadi Fira in the country of Chad" ;
+	lcc-cr:hasFrenchShortName "Wadi Fira"@fr ;
+	lcc-cr:hasLocalShortName "Wādī Fīrā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-td:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Chad ;
+	.
+

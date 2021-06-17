@@ -1,0 +1,440 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ca: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Canada Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ca" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Canada, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CA.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	.
+
+lcc-3166-2-ca:Alberta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alberta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Alberta in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Alberta"@en ;
+	lcc-cr:hasFrenchShortName "Alberta"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:BritishColumbia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "British Columbia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of British Columbia in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "British Columbia"@en ;
+	lcc-cr:hasFrenchShortName "Colombie-Britannique"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:CA-AB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-AB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Alberta in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:Alberta ;
+	lcc-lr:hasTag "CA-AB" ;
+	lcc-lr:identifies lcc-3166-2-ca:Alberta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-BC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-BC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of British Columbia in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:BritishColumbia ;
+	lcc-lr:hasTag "CA-BC" ;
+	lcc-lr:identifies lcc-3166-2-ca:BritishColumbia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-MB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-MB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Manitoba in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:Manitoba ;
+	lcc-lr:hasTag "CA-MB" ;
+	lcc-lr:identifies lcc-3166-2-ca:Manitoba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-NB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-NB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of New Brunswick in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:NewBrunswick ;
+	lcc-lr:hasTag "CA-NB" ;
+	lcc-lr:identifies lcc-3166-2-ca:NewBrunswick ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-NL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-NL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Newfoundland and Labrador in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:NewfoundlandAndLabrador ;
+	lcc-lr:hasTag "CA-NL" ;
+	lcc-lr:identifies lcc-3166-2-ca:NewfoundlandAndLabrador ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-NS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-NS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Nova Scotia in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:NovaScotia ;
+	lcc-lr:hasTag "CA-NS" ;
+	lcc-lr:identifies lcc-3166-2-ca:NovaScotia ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-NT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-NT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the territory of Northwest Territories in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:NorthwestTerritories ;
+	lcc-lr:hasTag "CA-NT" ;
+	lcc-lr:identifies lcc-3166-2-ca:NorthwestTerritories ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-NU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-NU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the territory of Nunavut in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:Nunavut ;
+	lcc-lr:hasTag "CA-NU" ;
+	lcc-lr:identifies lcc-3166-2-ca:Nunavut ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-ON
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-ON" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Ontario in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:Ontario ;
+	lcc-lr:hasTag "CA-ON" ;
+	lcc-lr:identifies lcc-3166-2-ca:Ontario ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-PE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-PE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Prince Edward Island in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:PrinceEdwardIsland ;
+	lcc-lr:hasTag "CA-PE" ;
+	lcc-lr:identifies lcc-3166-2-ca:PrinceEdwardIsland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-QC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-QC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Quebec in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:Quebec ;
+	lcc-lr:hasTag "CA-QC" ;
+	lcc-lr:identifies lcc-3166-2-ca:Quebec ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-SK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-SK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the province of Saskatchewan in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:Saskatchewan ;
+	lcc-lr:hasTag "CA-SK" ;
+	lcc-lr:identifies lcc-3166-2-ca:Saskatchewan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:CA-YT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CA-YT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision code for the territory of Yukon in the country of Canada" ;
+	lcc-lr:denotes lcc-3166-2-ca:Yukon ;
+	lcc-lr:hasTag "CA-YT" ;
+	lcc-lr:identifies lcc-3166-2-ca:Yukon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ca:Manitoba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manitoba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Manitoba in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Manitoba"@en ;
+	lcc-cr:hasFrenchShortName "Manitoba"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:NewBrunswick
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "New Brunswick" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of New Brunswick in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "New Brunswick"@en ;
+	lcc-cr:hasFrenchShortName "Nouveau-Brunswick"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:NewfoundlandAndLabrador
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Newfoundland and Labrador" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Newfoundland and Labrador in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Newfoundland and Labrador"@en ;
+	lcc-cr:hasFrenchShortName "Terre-Neuve-et-Labrador"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:NorthwestTerritories
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northwest Territories" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The territory of Northwest Territories in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Northwest Territories"@en ;
+	lcc-cr:hasFrenchShortName "Territoires du Nord-Ouest"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:NovaScotia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nova Scotia" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Nova Scotia in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Nova Scotia"@en ;
+	lcc-cr:hasFrenchShortName "Nouvelle-Écosse"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:Nunavut
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nunavut" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The territory of Nunavut in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Nunavut"@en ;
+	lcc-cr:hasFrenchShortName "Nunavut"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:Ontario
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ontario" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Ontario in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Ontario"@en ;
+	lcc-cr:hasFrenchShortName "Ontario"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:PrinceEdwardIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prince Edward Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Prince Edward Island in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Prince Edward Island"@en ;
+	lcc-cr:hasFrenchShortName "Île-du-Prince-Édouard"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision category province in the country of Canada" ;
+	.
+
+lcc-3166-2-ca:Quebec
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Quebec" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Quebec in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Quebec"@en ;
+	lcc-cr:hasFrenchShortName "Québec"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:Saskatchewan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saskatchewan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The province of Saskatchewan in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Saskatchewan"@en ;
+	lcc-cr:hasFrenchShortName "Saskatchewan"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+
+lcc-3166-2-ca:Territory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "subdivision category territory in the country of Canada" ;
+	.
+
+lcc-3166-2-ca:Yukon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yukon" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CA/> ;
+	skos:definition "The territory of Yukon in the country of Canada" ;
+	lcc-cr:hasEnglishShortName "Yukon"@en ;
+	lcc-cr:hasFrenchShortName "Yukon"@fr ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ca:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:Canada ;
+	.
+

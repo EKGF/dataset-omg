@@ -1,0 +1,458 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-nr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Nauru Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-nr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Nauru, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	.
+
+lcc-3166-2-nr:Aiwo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Aiwo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Aiwo in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Aiwo"@en ;
+	lcc-cr:hasLocalShortName "Aiwo"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Anabar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anabar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Anabar in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Anabar"@en ;
+	lcc-cr:hasLocalShortName "Anabar"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Anetan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anetan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Anetan in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Anetan"@en ;
+	lcc-cr:hasLocalShortName "Anetan"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Anibare
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anibare" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Anibare in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Anibare"@en ;
+	lcc-cr:hasLocalShortName "Anibare"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Baitsi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baitsi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Baitsi in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Baitsi"@en ;
+	lcc-cr:hasLocalShortName "Baitsi"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Boe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Boe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Boe in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Boe"@en ;
+	lcc-cr:hasLocalShortName "Boe"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Buada
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Buada" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Buada in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Buada"@en ;
+	lcc-cr:hasLocalShortName "Buada"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Denigomodu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Denigomodu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Denigomodu in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Denigomodu"@en ;
+	lcc-cr:hasLocalShortName "Denigomodu"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision category district in the country of Nauru" ;
+	.
+
+lcc-3166-2-nr:Ewa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ewa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Ewa in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Ewa"@en ;
+	lcc-cr:hasLocalShortName "Ewa"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Ijuw
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ijuw" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Ijuw in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Ijuw"@en ;
+	lcc-cr:hasLocalShortName "Ijuw"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Meneng
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Meneng" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Meneng in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Meneng"@en ;
+	lcc-cr:hasLocalShortName "Meneng"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:NR-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Aiwo in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Aiwo ;
+	lcc-lr:hasTag "NR-01" ;
+	lcc-lr:identifies lcc-3166-2-nr:Aiwo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Anabar in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Anabar ;
+	lcc-lr:hasTag "NR-02" ;
+	lcc-lr:identifies lcc-3166-2-nr:Anabar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Anetan in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Anetan ;
+	lcc-lr:hasTag "NR-03" ;
+	lcc-lr:identifies lcc-3166-2-nr:Anetan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Anibare in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Anibare ;
+	lcc-lr:hasTag "NR-04" ;
+	lcc-lr:identifies lcc-3166-2-nr:Anibare ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Baitsi in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Baitsi ;
+	lcc-lr:hasTag "NR-05" ;
+	lcc-lr:identifies lcc-3166-2-nr:Baitsi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Boe in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Boe ;
+	lcc-lr:hasTag "NR-06" ;
+	lcc-lr:identifies lcc-3166-2-nr:Boe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Buada in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Buada ;
+	lcc-lr:hasTag "NR-07" ;
+	lcc-lr:identifies lcc-3166-2-nr:Buada ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Denigomodu in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Denigomodu ;
+	lcc-lr:hasTag "NR-08" ;
+	lcc-lr:identifies lcc-3166-2-nr:Denigomodu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Ewa in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Ewa ;
+	lcc-lr:hasTag "NR-09" ;
+	lcc-lr:identifies lcc-3166-2-nr:Ewa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Ijuw in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Ijuw ;
+	lcc-lr:hasTag "NR-10" ;
+	lcc-lr:identifies lcc-3166-2-nr:Ijuw ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Meneng in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Meneng ;
+	lcc-lr:hasTag "NR-11" ;
+	lcc-lr:identifies lcc-3166-2-nr:Meneng ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Nibok in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Nibok ;
+	lcc-lr:hasTag "NR-12" ;
+	lcc-lr:identifies lcc-3166-2-nr:Nibok ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Uaboe in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Uaboe ;
+	lcc-lr:hasTag "NR-13" ;
+	lcc-lr:identifies lcc-3166-2-nr:Uaboe ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:NR-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NR-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "subdivision code for the district of Yaren in the country of Nauru" ;
+	lcc-lr:denotes lcc-3166-2-nr:Yaren ;
+	lcc-lr:hasTag "NR-14" ;
+	lcc-lr:identifies lcc-3166-2-nr:Yaren ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nr:Nibok
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nibok" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Nibok in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Nibok"@en ;
+	lcc-cr:hasLocalShortName "Nibok"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Uaboe
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uaboe" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Uaboe in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Uaboe"@en ;
+	lcc-cr:hasLocalShortName "Uaboe"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-2-nr:Yaren
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Yaren" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NR/> ;
+	skos:definition "The district of Yaren in the country of Nauru" ;
+	lcc-cr:hasEnglishShortName "Yaren"@en ;
+	lcc-cr:hasLocalShortName "Yaren"@na ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Nauru ;
+	.
+

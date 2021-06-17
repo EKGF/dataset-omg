@@ -1,0 +1,561 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-iq: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Iraq Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-iq" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Iraq, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IQ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	.
+
+lcc-3166-2-iq:AlAnbar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Anbār" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Al Anbār in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Anbār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:AlBasrah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Başrah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Al Başrah in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Başrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:AlMuthanna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Muthanná" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Al Muthanná in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Muthanná"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:AlQadisiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Qādisīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Al Qādisīyah in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Al Qādisīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:AnNajaf
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "An Najaf" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of An Najaf in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "An Najaf"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Babil
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bābil" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Bābil in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Bābil"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Baghdad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Baghdād" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Baghdād in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Baghdād"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:DhiQar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dhī Qār" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Dhī Qār in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Dhī Qār"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Dihok
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dihok" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Dihok in the country of Iraq" ;
+	lcc-cr:hasLocalShortName
+		"Dahūk"@ar ,
+		"Dihok"@ku
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Diyala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Diyālá" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Diyālá in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Diyālá"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Governorate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "governorate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision category governorate in the country of Iraq" ;
+	.
+
+lcc-3166-2-iq:Hewler
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hewlêr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Hewlêr in the country of Iraq" ;
+	lcc-cr:hasLocalShortName
+		"Arbīl"@ar ,
+		"Hewlêr"@ku
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:IQ-AN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Al Anbār in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:AlAnbar ;
+	lcc-lr:hasTag "IQ-AN" ;
+	lcc-lr:identifies lcc-3166-2-iq:AlAnbar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Hewlêr in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Hewler ;
+	lcc-lr:hasTag "IQ-AR" ;
+	lcc-lr:identifies lcc-3166-2-iq:Hewler ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Al Başrah in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:AlBasrah ;
+	lcc-lr:hasTag "IQ-BA" ;
+	lcc-lr:identifies lcc-3166-2-iq:AlBasrah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-BB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-BB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Bābil in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Babil ;
+	lcc-lr:hasTag "IQ-BB" ;
+	lcc-lr:identifies lcc-3166-2-iq:Babil ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-BG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-BG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Baghdād in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Baghdad ;
+	lcc-lr:hasTag "IQ-BG" ;
+	lcc-lr:identifies lcc-3166-2-iq:Baghdad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-DA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-DA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Dihok in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Dihok ;
+	lcc-lr:hasTag "IQ-DA" ;
+	lcc-lr:identifies lcc-3166-2-iq:Dihok ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-DI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-DI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Diyālá in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Diyala ;
+	lcc-lr:hasTag "IQ-DI" ;
+	lcc-lr:identifies lcc-3166-2-iq:Diyala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-DQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-DQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Dhī Qār in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:DhiQar ;
+	lcc-lr:hasTag "IQ-DQ" ;
+	lcc-lr:identifies lcc-3166-2-iq:DhiQar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-KA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Karbalā’ in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Karbala ;
+	lcc-lr:hasTag "IQ-KA" ;
+	lcc-lr:identifies lcc-3166-2-iq:Karbala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-KI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-KI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Kirkūk in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Kirkuk ;
+	lcc-lr:hasTag "IQ-KI" ;
+	lcc-lr:identifies lcc-3166-2-iq:Kirkuk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Maysān in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Maysan ;
+	lcc-lr:hasTag "IQ-MA" ;
+	lcc-lr:identifies lcc-3166-2-iq:Maysan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-MU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Al Muthanná in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:AlMuthanna ;
+	lcc-lr:hasTag "IQ-MU" ;
+	lcc-lr:identifies lcc-3166-2-iq:AlMuthanna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-NA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-NA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of An Najaf in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:AnNajaf ;
+	lcc-lr:hasTag "IQ-NA" ;
+	lcc-lr:identifies lcc-3166-2-iq:AnNajaf ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-NI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Nīnawá in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Ninawa ;
+	lcc-lr:hasTag "IQ-NI" ;
+	lcc-lr:identifies lcc-3166-2-iq:Ninawa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-QA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-QA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Al Qādisīyah in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:AlQadisiyah ;
+	lcc-lr:hasTag "IQ-QA" ;
+	lcc-lr:identifies lcc-3166-2-iq:AlQadisiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-SD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-SD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Şalāḩ ad Dīn in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:SalahAdDin ;
+	lcc-lr:hasTag "IQ-SD" ;
+	lcc-lr:identifies lcc-3166-2-iq:SalahAdDin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-SU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Slêmanî in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Slemani ;
+	lcc-lr:hasTag "IQ-SU" ;
+	lcc-lr:identifies lcc-3166-2-iq:Slemani ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:IQ-WA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IQ-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "subdivision code for the governorate of Wāsiţ in the country of Iraq" ;
+	lcc-lr:denotes lcc-3166-2-iq:Wasit ;
+	lcc-lr:hasTag "IQ-WA" ;
+	lcc-lr:identifies lcc-3166-2-iq:Wasit ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-iq:Karbala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karbalā’" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Karbalā’ in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Karbalā’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Kirkuk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kirkūk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Kirkūk in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Kirkūk"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Maysan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Maysān" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Maysān in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Maysān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Ninawa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nīnawá" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Nīnawá in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Nīnawá"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:SalahAdDin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Şalāḩ ad Dīn" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Şalāḩ ad Dīn in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Şalāḩ ad Dīn"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Slemani
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Slêmanî" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Slêmanî in the country of Iraq" ;
+	lcc-cr:hasLocalShortName
+		"As Sulaymānīyah"@ar ,
+		"Slêmanî"@ku
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-2-iq:Wasit
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wāsiţ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IQ/> ;
+	skos:definition "The governorate of Wāsiţ in the country of Iraq" ;
+	lcc-cr:hasLocalShortName "Wāsiţ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-iq:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Iraq ;
+	.
+

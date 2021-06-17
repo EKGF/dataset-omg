@@ -1,0 +1,444 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-na: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Namibia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-na" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Namibia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NA.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	.
+
+lcc-3166-2-na:Erongo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Erongo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Erongo in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Erongo"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Hardap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hardap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Hardap in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Hardap"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Karas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Karas in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Karas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:KavangoEast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kavango East" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Kavango East in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Kavango East"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:KavangoWest
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kavango West" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Kavango West in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Kavango West"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Khomas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Khomas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Khomas in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Khomas"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Kunene
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kunene" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Kunene in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Kunene"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:NA-CA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-CA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Zambezi in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Zambezi ;
+	lcc-lr:hasTag "NA-CA" ;
+	lcc-lr:identifies lcc-3166-2-na:Zambezi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-ER
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-ER" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Erongo in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Erongo ;
+	lcc-lr:hasTag "NA-ER" ;
+	lcc-lr:identifies lcc-3166-2-na:Erongo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-HA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Hardap in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Hardap ;
+	lcc-lr:hasTag "NA-HA" ;
+	lcc-lr:identifies lcc-3166-2-na:Hardap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-KA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-KA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Karas in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Karas ;
+	lcc-lr:hasTag "NA-KA" ;
+	lcc-lr:identifies lcc-3166-2-na:Karas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-KE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-KE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Kavango East in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:KavangoEast ;
+	lcc-lr:hasTag "NA-KE" ;
+	lcc-lr:identifies lcc-3166-2-na:KavangoEast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-KH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-KH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Khomas in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Khomas ;
+	lcc-lr:hasTag "NA-KH" ;
+	lcc-lr:identifies lcc-3166-2-na:Khomas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-KU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-KU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Kunene in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Kunene ;
+	lcc-lr:hasTag "NA-KU" ;
+	lcc-lr:identifies lcc-3166-2-na:Kunene ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-KW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-KW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Kavango West in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:KavangoWest ;
+	lcc-lr:hasTag "NA-KW" ;
+	lcc-lr:identifies lcc-3166-2-na:KavangoWest ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-OD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-OD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Otjozondjupa in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Otjozondjupa ;
+	lcc-lr:hasTag "NA-OD" ;
+	lcc-lr:identifies lcc-3166-2-na:Otjozondjupa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-OH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-OH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Omaheke in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Omaheke ;
+	lcc-lr:hasTag "NA-OH" ;
+	lcc-lr:identifies lcc-3166-2-na:Omaheke ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-ON
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-ON" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Oshana in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Oshana ;
+	lcc-lr:hasTag "NA-ON" ;
+	lcc-lr:identifies lcc-3166-2-na:Oshana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-OS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-OS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Omusati in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Omusati ;
+	lcc-lr:hasTag "NA-OS" ;
+	lcc-lr:identifies lcc-3166-2-na:Omusati ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-OT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-OT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Oshikoto in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Oshikoto ;
+	lcc-lr:hasTag "NA-OT" ;
+	lcc-lr:identifies lcc-3166-2-na:Oshikoto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:NA-OW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NA-OW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision code for the region of Ohangwena in the country of Namibia" ;
+	lcc-lr:denotes lcc-3166-2-na:Ohangwena ;
+	lcc-lr:hasTag "NA-OW" ;
+	lcc-lr:identifies lcc-3166-2-na:Ohangwena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-na:Ohangwena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ohangwena" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Ohangwena in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Ohangwena"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Omaheke
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Omaheke" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Omaheke in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Omaheke"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Omusati
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Omusati" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Omusati in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Omusati"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Oshana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oshana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Oshana in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Oshana"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Oshikoto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Oshikoto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Oshikoto in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Oshikoto"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Otjozondjupa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Otjozondjupa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Otjozondjupa in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Otjozondjupa"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-2-na:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "subdivision category region in the country of Namibia" ;
+	.
+
+lcc-3166-2-na:Zambezi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zambezi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NA/> ;
+	skos:definition "The region of Zambezi in the country of Namibia" ;
+	lcc-cr:hasEnglishShortName "Zambezi"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-na:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Namibia ;
+	.
+

@@ -1,0 +1,415 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-gq: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Equatorial Guinea Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-gq" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Equatorial Guinea, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-GQ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	.
+
+lcc-3166-2-gq:Annobon
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Annobón" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The province of Annobón in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Annobon"@fr ;
+	lcc-cr:hasLocalShortName
+		"Annobón"@es ,
+		"Ano Bom"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-gq:RegionInsulaire ;
+	.
+
+lcc-3166-2-gq:AnnobonIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Annobón Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The territory of Annobón Island in the country of Equatorial Guinea" ;
+	lcc-cr:hasEnglishShortName "Annobón Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île d'Annobón"@fr ;
+	lcc-cr:hasNumericRegionCode "1006" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:EquatorialGuinea ;
+	.
+
+lcc-3166-2-gq:BiokoIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Bioko Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The territory of Bioko Island in the country of Equatorial Guinea" ;
+	lcc-cr:hasEnglishShortName "Bioko Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île de Bioko"@fr ;
+	lcc-cr:hasNumericRegionCode "1023" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:EquatorialGuinea ;
+	.
+
+lcc-3166-2-gq:BiokoNorte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bioko Norte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The province of Bioko Norte in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Bioko Nord"@fr ;
+	lcc-cr:hasLocalShortName
+		"Bioko Norte"@es ,
+		"Bioko Norte"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-gq:RegionInsulaire ;
+	.
+
+lcc-3166-2-gq:BiokoSud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bioko Sud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The province of Bioko Sud in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Bioko Sud"@fr ;
+	lcc-cr:hasLocalShortName
+		"Bioko Sul"@pt ,
+		"Bioko Sur"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-gq:RegionInsulaire ;
+	.
+
+lcc-3166-2-gq:CentroSul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Centro Sul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The province of Centro Sul in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Centro Sud"@fr ;
+	lcc-cr:hasLocalShortName
+		"Centro Sul"@pt ,
+		"Centro Sur"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-gq:RegionContinental ;
+	.
+
+lcc-3166-2-gq:ContinentalRegion
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Continental Region (Rio Muni)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The territory of Continental Region (Rio Muni) in the country of Equatorial Guinea" ;
+	lcc-cr:hasEnglishShortName "Continental Region (Rio Muni)"@en ;
+	lcc-cr:hasFrenchShortName "Région Continentale (Rio Muni)"@fr ;
+	lcc-cr:hasNumericRegionCode "1045" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:EquatorialGuinea ;
+	.
+
+lcc-3166-2-gq:GQ-AN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-AN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the province of Annobón in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:Annobon ;
+	lcc-lr:hasTag "GQ-AN" ;
+	lcc-lr:identifies lcc-3166-2-gq:Annobon ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-BN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-BN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the province of Bioko Norte in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:BiokoNorte ;
+	lcc-lr:hasTag "GQ-BN" ;
+	lcc-lr:identifies lcc-3166-2-gq:BiokoNorte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-BS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-BS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the province of Bioko Sud in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:BiokoSud ;
+	lcc-lr:hasTag "GQ-BS" ;
+	lcc-lr:identifies lcc-3166-2-gq:BiokoSud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the region of Región Continental in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:RegionContinental ;
+	lcc-lr:hasTag "GQ-C" ;
+	lcc-lr:identifies lcc-3166-2-gq:RegionContinental ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-CS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-CS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the province of Centro Sul in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:CentroSul ;
+	lcc-lr:hasTag "GQ-CS" ;
+	lcc-lr:identifies lcc-3166-2-gq:CentroSul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-I
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-I" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the region of Région Insulaire in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:RegionInsulaire ;
+	lcc-lr:hasTag "GQ-I" ;
+	lcc-lr:identifies lcc-3166-2-gq:RegionInsulaire ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-KN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-KN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the province of Kié-Ntem in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:Kie-Ntem ;
+	lcc-lr:hasTag "GQ-KN" ;
+	lcc-lr:identifies lcc-3166-2-gq:Kie-Ntem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-LI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-LI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the province of Littoral in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:Littoral ;
+	lcc-lr:hasTag "GQ-LI" ;
+	lcc-lr:identifies lcc-3166-2-gq:Littoral ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:GQ-WN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "GQ-WN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision code for the province of Wele-Nzas in the country of Equatorial Guinea" ;
+	lcc-lr:denotes lcc-3166-2-gq:Wele-Nzas ;
+	lcc-lr:hasTag "GQ-WN" ;
+	lcc-lr:identifies lcc-3166-2-gq:Wele-Nzas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-gq:Kie-Ntem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kié-Ntem" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The province of Kié-Ntem in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Kié-Ntem"@fr ;
+	lcc-cr:hasLocalShortName
+		"Kié-Ntem"@es ,
+		"Kié-Ntem"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-gq:RegionContinental ;
+	.
+
+lcc-3166-2-gq:Littoral
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Littoral" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The province of Littoral in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Littoral"@fr ;
+	lcc-cr:hasLocalShortName
+		"Litoral"@es ,
+		"Litoral"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-gq:RegionContinental ;
+	.
+
+lcc-3166-2-gq:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision category province in the country of Equatorial Guinea" ;
+	.
+
+lcc-3166-2-gq:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "subdivision category region in the country of Equatorial Guinea" ;
+	.
+
+lcc-3166-2-gq:RegionContinental
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Región Continental" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The region of Región Continental in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Région Continentale"@fr ;
+	lcc-cr:hasLocalShortName
+		"Região Continental"@pt ,
+		"Región Continental"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:EquatorialGuinea ;
+	.
+
+lcc-3166-2-gq:RegionInsulaire
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Région Insulaire" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The region of Région Insulaire in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Région Insulaire"@fr ;
+	lcc-cr:hasLocalShortName
+		"Região Insular"@pt ,
+		"Región Insular"@es
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:EquatorialGuinea ;
+	.
+
+lcc-3166-2-gq:RioMuni
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Rio Muni" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The territory of Rio Muni in the country of Equatorial Guinea" ;
+	lcc-cr:hasEnglishShortName "Rio Muni"@en ;
+	lcc-cr:hasFrenchShortName "Rio Muni"@fr ;
+	lcc-cr:hasNumericRegionCode "1158" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:EquatorialGuinea ;
+	.
+
+lcc-3166-2-gq:Wele-Nzas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wele-Nzas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-GQ/> ;
+	skos:definition "The province of Wele-Nzas in the country of Equatorial Guinea" ;
+	lcc-cr:hasFrenchShortName "Wele-Nzas"@fr ;
+	lcc-cr:hasLocalShortName
+		"Wele-Nzas"@es ,
+		"Wele-Nzas"@pt
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-gq:Province ;
+	lcc-cr:isSubregionOf lcc-3166-2-gq:RegionContinental ;
+	.
+

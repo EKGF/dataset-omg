@@ -1,0 +1,2516 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-cz: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Czechia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-cz" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Czechia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-CZ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	.
+
+lcc-3166-2-cz:Benesov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Benešov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Benešov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Benešov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Beroun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Beroun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Beroun in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Beroun"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Blansko
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Blansko" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Blansko in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Blansko"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihomoravskyKraj ;
+	.
+
+lcc-3166-2-cz:Breclav
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Břeclav" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Břeclav in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Břeclav"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihomoravskyKraj ;
+	.
+
+lcc-3166-2-cz:Brno-mesto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brno-město" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Brno-město in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Brno-město"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihomoravskyKraj ;
+	.
+
+lcc-3166-2-cz:Brno-venkov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brno-venkov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Brno-venkov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Brno-venkov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihomoravskyKraj ;
+	.
+
+lcc-3166-2-cz:Bruntal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bruntál" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Bruntál in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Bruntál"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:MoravskoslezskyKraj ;
+	.
+
+lcc-3166-2-cz:CZ-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the capital city of Praha, Hlavní mešto in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Praha ;
+	lcc-lr:hasTag "CZ-10" ;
+	lcc-lr:identifies lcc-3166-2-cz:Praha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Středočeský kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:StredoceskyKraj ;
+	lcc-lr:hasTag "CZ-20" ;
+	lcc-lr:identifies lcc-3166-2-cz:StredoceskyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-201
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-201" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Benešov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Benesov ;
+	lcc-lr:hasTag "CZ-201" ;
+	lcc-lr:identifies lcc-3166-2-cz:Benesov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-202
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-202" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Beroun in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Beroun ;
+	lcc-lr:hasTag "CZ-202" ;
+	lcc-lr:identifies lcc-3166-2-cz:Beroun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-203
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-203" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Kladno in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Kladno ;
+	lcc-lr:hasTag "CZ-203" ;
+	lcc-lr:identifies lcc-3166-2-cz:Kladno ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-204
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-204" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Kolín in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Kolin ;
+	lcc-lr:hasTag "CZ-204" ;
+	lcc-lr:identifies lcc-3166-2-cz:Kolin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-205
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-205" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Kutná Hora in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:KutnaHora ;
+	lcc-lr:hasTag "CZ-205" ;
+	lcc-lr:identifies lcc-3166-2-cz:KutnaHora ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-206
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-206" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Mělník in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Melnik ;
+	lcc-lr:hasTag "CZ-206" ;
+	lcc-lr:identifies lcc-3166-2-cz:Melnik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-207
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-207" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Mladá Boleslav in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:MladaBoleslav ;
+	lcc-lr:hasTag "CZ-207" ;
+	lcc-lr:identifies lcc-3166-2-cz:MladaBoleslav ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-208
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-208" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Nymburk in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Nymburk ;
+	lcc-lr:hasTag "CZ-208" ;
+	lcc-lr:identifies lcc-3166-2-cz:Nymburk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-209
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-209" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Praha-východ in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Praha-vychod ;
+	lcc-lr:hasTag "CZ-209" ;
+	lcc-lr:identifies lcc-3166-2-cz:Praha-vychod ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-20A
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-20A" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Praha-západ in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Praha-zapad ;
+	lcc-lr:hasTag "CZ-20A" ;
+	lcc-lr:identifies lcc-3166-2-cz:Praha-zapad ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-20B
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-20B" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Příbram in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Pribram ;
+	lcc-lr:hasTag "CZ-20B" ;
+	lcc-lr:identifies lcc-3166-2-cz:Pribram ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-20C
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-20C" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Rakovník in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Rakovnik ;
+	lcc-lr:hasTag "CZ-20C" ;
+	lcc-lr:identifies lcc-3166-2-cz:Rakovnik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-31
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Jihočeský kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:JihoceskyKraj ;
+	lcc-lr:hasTag "CZ-31" ;
+	lcc-lr:identifies lcc-3166-2-cz:JihoceskyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-311
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-311" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of České Budějovice in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:CeskeBudejovice ;
+	lcc-lr:hasTag "CZ-311" ;
+	lcc-lr:identifies lcc-3166-2-cz:CeskeBudejovice ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-312
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-312" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Český Krumlov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:CeskyKrumlov ;
+	lcc-lr:hasTag "CZ-312" ;
+	lcc-lr:identifies lcc-3166-2-cz:CeskyKrumlov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-313
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-313" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Jindřichův Hradec in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:JindrichuvHradec ;
+	lcc-lr:hasTag "CZ-313" ;
+	lcc-lr:identifies lcc-3166-2-cz:JindrichuvHradec ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-314
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-314" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Písek in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Pisek ;
+	lcc-lr:hasTag "CZ-314" ;
+	lcc-lr:identifies lcc-3166-2-cz:Pisek ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-315
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-315" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Prachatice in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Prachatice ;
+	lcc-lr:hasTag "CZ-315" ;
+	lcc-lr:identifies lcc-3166-2-cz:Prachatice ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-316
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-316" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Strakonice in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Strakonice ;
+	lcc-lr:hasTag "CZ-316" ;
+	lcc-lr:identifies lcc-3166-2-cz:Strakonice ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-317
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-317" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Tábor in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Tabor ;
+	lcc-lr:hasTag "CZ-317" ;
+	lcc-lr:identifies lcc-3166-2-cz:Tabor ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Plzeňský kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:PlzenskyKraj ;
+	lcc-lr:hasTag "CZ-32" ;
+	lcc-lr:identifies lcc-3166-2-cz:PlzenskyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-321
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-321" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Domažlice in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Domazlice ;
+	lcc-lr:hasTag "CZ-321" ;
+	lcc-lr:identifies lcc-3166-2-cz:Domazlice ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-322
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-322" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Klatovy in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Klatovy ;
+	lcc-lr:hasTag "CZ-322" ;
+	lcc-lr:identifies lcc-3166-2-cz:Klatovy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-323
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-323" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Plzeň-město in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Plzen-mesto ;
+	lcc-lr:hasTag "CZ-323" ;
+	lcc-lr:identifies lcc-3166-2-cz:Plzen-mesto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-324
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-324" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Plzeň-jih in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Plzen-jih ;
+	lcc-lr:hasTag "CZ-324" ;
+	lcc-lr:identifies lcc-3166-2-cz:Plzen-jih ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-325
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-325" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Plzeň-sever in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Plzen-sever ;
+	lcc-lr:hasTag "CZ-325" ;
+	lcc-lr:identifies lcc-3166-2-cz:Plzen-sever ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-326
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-326" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Rokycany in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Rokycany ;
+	lcc-lr:hasTag "CZ-326" ;
+	lcc-lr:identifies lcc-3166-2-cz:Rokycany ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-327
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-327" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Tachov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Tachov ;
+	lcc-lr:hasTag "CZ-327" ;
+	lcc-lr:identifies lcc-3166-2-cz:Tachov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Karlovarský kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:KarlovarskyKraj ;
+	lcc-lr:hasTag "CZ-41" ;
+	lcc-lr:identifies lcc-3166-2-cz:KarlovarskyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-411
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-411" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Cheb in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Cheb ;
+	lcc-lr:hasTag "CZ-411" ;
+	lcc-lr:identifies lcc-3166-2-cz:Cheb ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-412
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-412" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Karlovy Vary in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:KarlovyVary ;
+	lcc-lr:hasTag "CZ-412" ;
+	lcc-lr:identifies lcc-3166-2-cz:KarlovyVary ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-413
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-413" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Sokolov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Sokolov ;
+	lcc-lr:hasTag "CZ-413" ;
+	lcc-lr:identifies lcc-3166-2-cz:Sokolov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-42
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Ústecký kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:UsteckyKraj ;
+	lcc-lr:hasTag "CZ-42" ;
+	lcc-lr:identifies lcc-3166-2-cz:UsteckyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-421
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-421" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Děčín in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Decin ;
+	lcc-lr:hasTag "CZ-421" ;
+	lcc-lr:identifies lcc-3166-2-cz:Decin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-422
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-422" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Chomutov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Chomutov ;
+	lcc-lr:hasTag "CZ-422" ;
+	lcc-lr:identifies lcc-3166-2-cz:Chomutov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-423
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-423" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Litoměřice in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Litomerice ;
+	lcc-lr:hasTag "CZ-423" ;
+	lcc-lr:identifies lcc-3166-2-cz:Litomerice ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-424
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-424" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Louny in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Louny ;
+	lcc-lr:hasTag "CZ-424" ;
+	lcc-lr:identifies lcc-3166-2-cz:Louny ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-425
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-425" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Most in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Most ;
+	lcc-lr:hasTag "CZ-425" ;
+	lcc-lr:identifies lcc-3166-2-cz:Most ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-426
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-426" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Teplice in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Teplice ;
+	lcc-lr:hasTag "CZ-426" ;
+	lcc-lr:identifies lcc-3166-2-cz:Teplice ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-427
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-427" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Ústí nad Labem in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:UstiNadLabem ;
+	lcc-lr:hasTag "CZ-427" ;
+	lcc-lr:identifies lcc-3166-2-cz:UstiNadLabem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-51
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Liberecký kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:LibereckyKraj ;
+	lcc-lr:hasTag "CZ-51" ;
+	lcc-lr:identifies lcc-3166-2-cz:LibereckyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-511
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-511" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Česká Lípa in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:CeskaLipa ;
+	lcc-lr:hasTag "CZ-511" ;
+	lcc-lr:identifies lcc-3166-2-cz:CeskaLipa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-512
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-512" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Jablonec nad Nisou in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:JablonecNadNisou ;
+	lcc-lr:hasTag "CZ-512" ;
+	lcc-lr:identifies lcc-3166-2-cz:JablonecNadNisou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-513
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-513" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Liberec in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Liberec ;
+	lcc-lr:hasTag "CZ-513" ;
+	lcc-lr:identifies lcc-3166-2-cz:Liberec ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-514
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-514" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Semily in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Semily ;
+	lcc-lr:hasTag "CZ-514" ;
+	lcc-lr:identifies lcc-3166-2-cz:Semily ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-52
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Královéhradecký kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:KralovehradeckyKraj ;
+	lcc-lr:hasTag "CZ-52" ;
+	lcc-lr:identifies lcc-3166-2-cz:KralovehradeckyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-521
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-521" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Hradec Králové in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:HradecKralove ;
+	lcc-lr:hasTag "CZ-521" ;
+	lcc-lr:identifies lcc-3166-2-cz:HradecKralove ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-522
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-522" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Jičín in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Jicin ;
+	lcc-lr:hasTag "CZ-522" ;
+	lcc-lr:identifies lcc-3166-2-cz:Jicin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-523
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-523" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Náchod in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Nachod ;
+	lcc-lr:hasTag "CZ-523" ;
+	lcc-lr:identifies lcc-3166-2-cz:Nachod ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-524
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-524" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Rychnov nad Kněžnou in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:RychnovNadKneznou ;
+	lcc-lr:hasTag "CZ-524" ;
+	lcc-lr:identifies lcc-3166-2-cz:RychnovNadKneznou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-525
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-525" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Trutnov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Trutnov ;
+	lcc-lr:hasTag "CZ-525" ;
+	lcc-lr:identifies lcc-3166-2-cz:Trutnov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-53
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Pardubický kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:PardubickyKraj ;
+	lcc-lr:hasTag "CZ-53" ;
+	lcc-lr:identifies lcc-3166-2-cz:PardubickyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-531
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-531" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Chrudim in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Chrudim ;
+	lcc-lr:hasTag "CZ-531" ;
+	lcc-lr:identifies lcc-3166-2-cz:Chrudim ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-532
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-532" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Pardubice in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Pardubice ;
+	lcc-lr:hasTag "CZ-532" ;
+	lcc-lr:identifies lcc-3166-2-cz:Pardubice ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-533
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-533" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Svitavy in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Svitavy ;
+	lcc-lr:hasTag "CZ-533" ;
+	lcc-lr:identifies lcc-3166-2-cz:Svitavy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-534
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-534" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Ústí nad Orlicí in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:UstiNadOrlici ;
+	lcc-lr:hasTag "CZ-534" ;
+	lcc-lr:identifies lcc-3166-2-cz:UstiNadOrlici ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-63
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Kraj Vysočina in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:KrajVysocina ;
+	lcc-lr:hasTag "CZ-63" ;
+	lcc-lr:identifies lcc-3166-2-cz:KrajVysocina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-631
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-631" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Havlíčkův Brod in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:HavlickuvBrod ;
+	lcc-lr:hasTag "CZ-631" ;
+	lcc-lr:identifies lcc-3166-2-cz:HavlickuvBrod ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-632
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-632" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Jihlava in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Jihlava ;
+	lcc-lr:hasTag "CZ-632" ;
+	lcc-lr:identifies lcc-3166-2-cz:Jihlava ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-633
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-633" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Pelhřimov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Pelhrimov ;
+	lcc-lr:hasTag "CZ-633" ;
+	lcc-lr:identifies lcc-3166-2-cz:Pelhrimov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-634
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-634" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Třebíč in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Trebic ;
+	lcc-lr:hasTag "CZ-634" ;
+	lcc-lr:identifies lcc-3166-2-cz:Trebic ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-635
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-635" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Žďár nad Sázavou in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:ZdarNadSazavou ;
+	lcc-lr:hasTag "CZ-635" ;
+	lcc-lr:identifies lcc-3166-2-cz:ZdarNadSazavou ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-64
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-64" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Jihomoravský kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:JihomoravskyKraj ;
+	lcc-lr:hasTag "CZ-64" ;
+	lcc-lr:identifies lcc-3166-2-cz:JihomoravskyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-641
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-641" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Blansko in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Blansko ;
+	lcc-lr:hasTag "CZ-641" ;
+	lcc-lr:identifies lcc-3166-2-cz:Blansko ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-642
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-642" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Brno-město in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Brno-mesto ;
+	lcc-lr:hasTag "CZ-642" ;
+	lcc-lr:identifies lcc-3166-2-cz:Brno-mesto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-643
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-643" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Brno-venkov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Brno-venkov ;
+	lcc-lr:hasTag "CZ-643" ;
+	lcc-lr:identifies lcc-3166-2-cz:Brno-venkov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-644
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-644" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Břeclav in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Breclav ;
+	lcc-lr:hasTag "CZ-644" ;
+	lcc-lr:identifies lcc-3166-2-cz:Breclav ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-645
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-645" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Hodonín in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Hodonin ;
+	lcc-lr:hasTag "CZ-645" ;
+	lcc-lr:identifies lcc-3166-2-cz:Hodonin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-646
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-646" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Vyškov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Vyskov ;
+	lcc-lr:hasTag "CZ-646" ;
+	lcc-lr:identifies lcc-3166-2-cz:Vyskov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-647
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-647" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Znojmo in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Znojmo ;
+	lcc-lr:hasTag "CZ-647" ;
+	lcc-lr:identifies lcc-3166-2-cz:Znojmo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-71
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Olomoucký kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:OlomouckyKraj ;
+	lcc-lr:hasTag "CZ-71" ;
+	lcc-lr:identifies lcc-3166-2-cz:OlomouckyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-711
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-711" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Jeseník in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Jesenik ;
+	lcc-lr:hasTag "CZ-711" ;
+	lcc-lr:identifies lcc-3166-2-cz:Jesenik ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-712
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-712" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Olomouc in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Olomouc ;
+	lcc-lr:hasTag "CZ-712" ;
+	lcc-lr:identifies lcc-3166-2-cz:Olomouc ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-713
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-713" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Prostějov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Prostejov ;
+	lcc-lr:hasTag "CZ-713" ;
+	lcc-lr:identifies lcc-3166-2-cz:Prostejov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-714
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-714" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Přerov in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Prerov ;
+	lcc-lr:hasTag "CZ-714" ;
+	lcc-lr:identifies lcc-3166-2-cz:Prerov ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-715
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-715" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Šumperk in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Sumperk ;
+	lcc-lr:hasTag "CZ-715" ;
+	lcc-lr:identifies lcc-3166-2-cz:Sumperk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-72
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Zlínský kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:ZlinskyKraj ;
+	lcc-lr:hasTag "CZ-72" ;
+	lcc-lr:identifies lcc-3166-2-cz:ZlinskyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-721
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-721" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Kroměříž in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Kromeriz ;
+	lcc-lr:hasTag "CZ-721" ;
+	lcc-lr:identifies lcc-3166-2-cz:Kromeriz ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-722
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-722" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Uherské Hradiště in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:UherskeHradiste ;
+	lcc-lr:hasTag "CZ-722" ;
+	lcc-lr:identifies lcc-3166-2-cz:UherskeHradiste ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-723
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-723" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Vsetín in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Vsetin ;
+	lcc-lr:hasTag "CZ-723" ;
+	lcc-lr:identifies lcc-3166-2-cz:Vsetin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-724
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-724" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Zlín in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Zlin ;
+	lcc-lr:hasTag "CZ-724" ;
+	lcc-lr:identifies lcc-3166-2-cz:Zlin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-80
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-80" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the region of Moravskoslezský kraj in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:MoravskoslezskyKraj ;
+	lcc-lr:hasTag "CZ-80" ;
+	lcc-lr:identifies lcc-3166-2-cz:MoravskoslezskyKraj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-801
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-801" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Bruntál in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Bruntal ;
+	lcc-lr:hasTag "CZ-801" ;
+	lcc-lr:identifies lcc-3166-2-cz:Bruntal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-802
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-802" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Frýdek Místek in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:FrydekMistek ;
+	lcc-lr:hasTag "CZ-802" ;
+	lcc-lr:identifies lcc-3166-2-cz:FrydekMistek ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-803
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-803" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Karviná in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Karvina ;
+	lcc-lr:hasTag "CZ-803" ;
+	lcc-lr:identifies lcc-3166-2-cz:Karvina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-804
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-804" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Nový Jičín in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:NovyJicin ;
+	lcc-lr:hasTag "CZ-804" ;
+	lcc-lr:identifies lcc-3166-2-cz:NovyJicin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-805
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-805" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Opava in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Opava ;
+	lcc-lr:hasTag "CZ-805" ;
+	lcc-lr:identifies lcc-3166-2-cz:Opava ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CZ-806
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "CZ-806" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision code for the district of Ostrava-město in the country of Czechia" ;
+	lcc-lr:denotes lcc-3166-2-cz:Ostrava-mesto ;
+	lcc-lr:hasTag "CZ-806" ;
+	lcc-lr:identifies lcc-3166-2-cz:Ostrava-mesto ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-cz:CapitalCity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "capital city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision category capital city in the country of Czechia" ;
+	.
+
+lcc-3166-2-cz:CeskaLipa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Česká Lípa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Česká Lípa in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Česká Lípa"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:LibereckyKraj ;
+	.
+
+lcc-3166-2-cz:CeskeBudejovice
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "České Budějovice" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of České Budějovice in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "České Budějovice"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihoceskyKraj ;
+	.
+
+lcc-3166-2-cz:CeskyKrumlov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Český Krumlov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Český Krumlov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Český Krumlov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Cheb
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Cheb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Cheb in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Cheb"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KarlovarskyKraj ;
+	.
+
+lcc-3166-2-cz:Chomutov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chomutov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Chomutov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Chomutov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:UsteckyKraj ;
+	.
+
+lcc-3166-2-cz:Chrudim
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chrudim" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Chrudim in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Chrudim"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PardubickyKraj ;
+	.
+
+lcc-3166-2-cz:Decin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Děčín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Děčín in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Děčín"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:UsteckyKraj ;
+	.
+
+lcc-3166-2-cz:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision category district in the country of Czechia" ;
+	.
+
+lcc-3166-2-cz:Domazlice
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Domažlice" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Domažlice in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Domažlice"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PlzenskyKraj ;
+	.
+
+lcc-3166-2-cz:FrydekMistek
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Frýdek Místek" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Frýdek Místek in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Frýdek Místek"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:MoravskoslezskyKraj ;
+	.
+
+lcc-3166-2-cz:HavlickuvBrod
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Havlíčkův Brod" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Havlíčkův Brod in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Havlíčkův Brod"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KrajVysocina ;
+	.
+
+lcc-3166-2-cz:Hodonin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hodonín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Hodonín in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Hodonín"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihomoravskyKraj ;
+	.
+
+lcc-3166-2-cz:HradecKralove
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hradec Králové" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Hradec Králové in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Hradec Králové"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KralovehradeckyKraj ;
+	.
+
+lcc-3166-2-cz:JablonecNadNisou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jablonec nad Nisou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Jablonec nad Nisou in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Jablonec nad Nisou"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:LibereckyKraj ;
+	.
+
+lcc-3166-2-cz:Jesenik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jeseník" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Jeseník in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Jeseník"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:OlomouckyKraj ;
+	.
+
+lcc-3166-2-cz:Jicin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jičín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Jičín in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Jičín"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KralovehradeckyKraj ;
+	.
+
+lcc-3166-2-cz:Jihlava
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jihlava" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Jihlava in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Jihlava"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KrajVysocina ;
+	.
+
+lcc-3166-2-cz:JihoceskyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jihočeský kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Jihočeský kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Jihočeský kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:JihomoravskyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jihomoravský kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Jihomoravský kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Jihomoravský kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:JindrichuvHradec
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jindřichův Hradec" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Jindřichův Hradec in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Jindřichův Hradec"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihoceskyKraj ;
+	.
+
+lcc-3166-2-cz:KarlovarskyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karlovarský kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Karlovarský kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Karlovarský kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:KarlovyVary
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karlovy Vary" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Karlovy Vary in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Karlovy Vary"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KarlovarskyKraj ;
+	.
+
+lcc-3166-2-cz:Karvina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Karviná" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Karviná in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Karviná"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:MoravskoslezskyKraj ;
+	.
+
+lcc-3166-2-cz:Kladno
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kladno" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Kladno in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Kladno"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Klatovy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Klatovy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Klatovy in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Klatovy"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PlzenskyKraj ;
+	.
+
+lcc-3166-2-cz:Kolin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kolín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Kolín in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Kolín"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:KrajVysocina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kraj Vysočina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Kraj Vysočina in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Kraj Vysočina"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:KralovehradeckyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Královéhradecký kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Královéhradecký kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Královéhradecký kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Kromeriz
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kroměříž" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Kroměříž in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Kroměříž"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:ZlinskyKraj ;
+	.
+
+lcc-3166-2-cz:KutnaHora
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kutná Hora" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Kutná Hora in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Kutná Hora"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Liberec
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Liberec" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Liberec in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Liberec"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:LibereckyKraj ;
+	.
+
+lcc-3166-2-cz:LibereckyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Liberecký kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Liberecký kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Liberecký kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Litomerice
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Litoměřice" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Litoměřice in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Litoměřice"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:UsteckyKraj ;
+	.
+
+lcc-3166-2-cz:Louny
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Louny" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Louny in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Louny"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:UsteckyKraj ;
+	.
+
+lcc-3166-2-cz:Melnik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mělník" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Mělník in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Mělník"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:MladaBoleslav
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mladá Boleslav" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Mladá Boleslav in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Mladá Boleslav"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:MoravskoslezskyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Moravskoslezský kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Moravskoslezský kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Moravskoslezský kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Most
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Most" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Most in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Most"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:UsteckyKraj ;
+	.
+
+lcc-3166-2-cz:Nachod
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Náchod" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Náchod in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Náchod"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KralovehradeckyKraj ;
+	.
+
+lcc-3166-2-cz:NovyJicin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nový Jičín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Nový Jičín in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Nový Jičín"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:MoravskoslezskyKraj ;
+	.
+
+lcc-3166-2-cz:Nymburk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nymburk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Nymburk in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Nymburk"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Olomouc
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Olomouc" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Olomouc in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Olomouc"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:OlomouckyKraj ;
+	.
+
+lcc-3166-2-cz:OlomouckyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Olomoucký kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Olomoucký kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Olomoucký kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Opava
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Opava" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Opava in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Opava"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:MoravskoslezskyKraj ;
+	.
+
+lcc-3166-2-cz:Ostrava-mesto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ostrava-město" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Ostrava-město in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Ostrava-město"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:MoravskoslezskyKraj ;
+	.
+
+lcc-3166-2-cz:Pardubice
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pardubice" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Pardubice in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Pardubice"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PardubickyKraj ;
+	.
+
+lcc-3166-2-cz:PardubickyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pardubický kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Pardubický kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Pardubický kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Pelhrimov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pelhřimov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Pelhřimov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Pelhřimov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KrajVysocina ;
+	.
+
+lcc-3166-2-cz:Pisek
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Písek" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Písek in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Písek"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Plzen-jih
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plzeň-jih" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Plzeň-jih in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Plzeň-jih"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PlzenskyKraj ;
+	.
+
+lcc-3166-2-cz:Plzen-mesto
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plzeň-město" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Plzeň-město in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Plzeň-město"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PlzenskyKraj ;
+	.
+
+lcc-3166-2-cz:Plzen-sever
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plzeň-sever" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Plzeň-sever in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Plzeň-sever"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PlzenskyKraj ;
+	.
+
+lcc-3166-2-cz:PlzenskyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plzeňský kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Plzeňský kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Plzeňský kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Prachatice
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prachatice" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Prachatice in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Prachatice"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Praha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Praha, Hlavní mešto" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The capital city of Praha, Hlavní mešto in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Praha, Hlavní mešto"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:CapitalCity ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Praha-vychod
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Praha-východ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Praha-východ in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Praha-východ"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Praha-zapad
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Praha-západ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Praha-západ in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Praha-západ"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Prerov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Přerov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Přerov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Přerov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:OlomouckyKraj ;
+	.
+
+lcc-3166-2-cz:Pribram
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Příbram" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Příbram in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Příbram"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Prostejov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prostějov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Prostějov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Prostějov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:OlomouckyKraj ;
+	.
+
+lcc-3166-2-cz:Rakovnik
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rakovník" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Rakovník in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Rakovník"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:StredoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "subdivision category region in the country of Czechia" ;
+	.
+
+lcc-3166-2-cz:Rokycany
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rokycany" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Rokycany in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Rokycany"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PlzenskyKraj ;
+	.
+
+lcc-3166-2-cz:RychnovNadKneznou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rychnov nad Kněžnou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Rychnov nad Kněžnou in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Rychnov nad Kněžnou"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KralovehradeckyKraj ;
+	.
+
+lcc-3166-2-cz:Semily
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Semily" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Semily in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Semily"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:LibereckyKraj ;
+	.
+
+lcc-3166-2-cz:Sokolov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sokolov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Sokolov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Sokolov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KarlovarskyKraj ;
+	.
+
+lcc-3166-2-cz:Strakonice
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Strakonice" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Strakonice in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Strakonice"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihoceskyKraj ;
+	.
+
+lcc-3166-2-cz:StredoceskyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Středočeský kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Středočeský kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Středočeský kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Sumperk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šumperk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Šumperk in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Šumperk"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:OlomouckyKraj ;
+	.
+
+lcc-3166-2-cz:Svitavy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Svitavy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Svitavy in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Svitavy"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PardubickyKraj ;
+	.
+
+lcc-3166-2-cz:Tabor
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tábor" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Tábor in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Tábor"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihoceskyKraj ;
+	.
+
+lcc-3166-2-cz:Tachov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tachov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Tachov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Tachov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PlzenskyKraj ;
+	.
+
+lcc-3166-2-cz:Teplice
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Teplice" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Teplice in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Teplice"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:UsteckyKraj ;
+	.
+
+lcc-3166-2-cz:Trebic
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Třebíč" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Třebíč in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Třebíč"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KrajVysocina ;
+	.
+
+lcc-3166-2-cz:Trutnov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trutnov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Trutnov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Trutnov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KralovehradeckyKraj ;
+	.
+
+lcc-3166-2-cz:UherskeHradiste
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uherské Hradiště" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Uherské Hradiště in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Uherské Hradiště"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:ZlinskyKraj ;
+	.
+
+lcc-3166-2-cz:UsteckyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ústecký kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Ústecký kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Ústecký kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:UstiNadLabem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ústí nad Labem" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Ústí nad Labem in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Ústí nad Labem"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:UsteckyKraj ;
+	.
+
+lcc-3166-2-cz:UstiNadOrlici
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ústí nad Orlicí" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Ústí nad Orlicí in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Ústí nad Orlicí"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:PardubickyKraj ;
+	.
+
+lcc-3166-2-cz:Vsetin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vsetín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Vsetín in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Vsetín"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:ZlinskyKraj ;
+	.
+
+lcc-3166-2-cz:Vyskov
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vyškov" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Vyškov in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Vyškov"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihomoravskyKraj ;
+	.
+
+lcc-3166-2-cz:ZdarNadSazavou
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Žďár nad Sázavou" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Žďár nad Sázavou in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Žďár nad Sázavou"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:KrajVysocina ;
+	.
+
+lcc-3166-2-cz:Zlin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zlín" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Zlín in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Zlín"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:ZlinskyKraj ;
+	.
+
+lcc-3166-2-cz:ZlinskyKraj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zlínský kraj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The region of Zlínský kraj in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Zlínský kraj"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-2-cz:Znojmo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Znojmo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CZ/> ;
+	skos:definition "The district of Znojmo in the country of Czechia" ;
+	lcc-cr:hasLocalShortName "Znojmo"@cs ;
+	lcc-cr:isClassifiedBy lcc-3166-2-cz:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-cz:JihomoravskyKraj ;
+	.
+

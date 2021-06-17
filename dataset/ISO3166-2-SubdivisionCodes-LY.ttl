@@ -1,0 +1,660 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ly: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Libya Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ly" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Libya, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	.
+
+lcc-3166-2-ly:AlButnan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Buţnān" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Buţnān in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Buţnān"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlJabalAlAkhdar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jabal al Akhḑar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Jabal al Akhḑar in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jabal al Akhḑar"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlJabalAlGharbi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jabal al Gharbī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Jabal al Gharbī in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jabal al Gharbī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlJafarah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jafārah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Jafārah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jafārah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlJufrah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jufrah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Jufrah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Jufrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlKufrah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Kufrah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Kufrah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Kufrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlMarj
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Marj" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Marj in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Marj"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlMarqab
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Marqab" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Marqab in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Marqab"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AlWahat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Wāḩāt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Al Wāḩāt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Al Wāḩāt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AnNuqatAlKhams
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "An Nuqāţ al Khams" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of An Nuqāţ al Khams in the country of Libya" ;
+	lcc-cr:hasLocalShortName "An Nuqāţ al Khams"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:AzZawiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Az Zāwiyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Az Zāwiyah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Az Zāwiyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Banghazi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Banghāzī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Banghāzī in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Banghāzī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Darnah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Darnah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Darnah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Darnah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Ghat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ghāt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Ghāt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Ghāt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:LY-BA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-BA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Banghāzī in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Banghazi ;
+	lcc-lr:hasTag "LY-BA" ;
+	lcc-lr:identifies lcc-3166-2-ly:Banghazi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-BU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-BU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Buţnān in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlButnan ;
+	lcc-lr:hasTag "LY-BU" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlButnan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-DR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-DR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Darnah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Darnah ;
+	lcc-lr:hasTag "LY-DR" ;
+	lcc-lr:identifies lcc-3166-2-ly:Darnah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-GT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-GT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Ghāt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Ghat ;
+	lcc-lr:hasTag "LY-GT" ;
+	lcc-lr:identifies lcc-3166-2-ly:Ghat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Jabal al Akhḑar in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlJabalAlAkhdar ;
+	lcc-lr:hasTag "LY-JA" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlJabalAlAkhdar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Jabal al Gharbī in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlJabalAlGharbi ;
+	lcc-lr:hasTag "LY-JG" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlJabalAlGharbi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Jafārah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlJafarah ;
+	lcc-lr:hasTag "LY-JI" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlJafarah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-JU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-JU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Jufrah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlJufrah ;
+	lcc-lr:hasTag "LY-JU" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlJufrah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-KF
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-KF" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Kufrah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlKufrah ;
+	lcc-lr:hasTag "LY-KF" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlKufrah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Marqab in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlMarqab ;
+	lcc-lr:hasTag "LY-MB" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlMarqab ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Mişrātah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Misratah ;
+	lcc-lr:hasTag "LY-MI" ;
+	lcc-lr:identifies lcc-3166-2-ly:Misratah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Marj in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlMarj ;
+	lcc-lr:hasTag "LY-MJ" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlMarj ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-MQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-MQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Murzuq in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Murzuq ;
+	lcc-lr:hasTag "LY-MQ" ;
+	lcc-lr:identifies lcc-3166-2-ly:Murzuq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-NL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-NL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Nālūt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Nalut ;
+	lcc-lr:hasTag "LY-NL" ;
+	lcc-lr:identifies lcc-3166-2-ly:Nalut ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-NQ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-NQ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of An Nuqāţ al Khams in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AnNuqatAlKhams ;
+	lcc-lr:hasTag "LY-NQ" ;
+	lcc-lr:identifies lcc-3166-2-ly:AnNuqatAlKhams ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-SB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-SB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Sabhā in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Sabha ;
+	lcc-lr:hasTag "LY-SB" ;
+	lcc-lr:identifies lcc-3166-2-ly:Sabha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-SR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-SR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Surt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Surt ;
+	lcc-lr:hasTag "LY-SR" ;
+	lcc-lr:identifies lcc-3166-2-ly:Surt ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-TB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-TB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Ţarābulus in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:Tarabulus ;
+	lcc-lr:hasTag "LY-TB" ;
+	lcc-lr:identifies lcc-3166-2-ly:Tarabulus ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-WA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Al Wāḩāt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AlWahat ;
+	lcc-lr:hasTag "LY-WA" ;
+	lcc-lr:identifies lcc-3166-2-ly:AlWahat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-WD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-WD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Wādī al Ḩayāt in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:WadiAlHayat ;
+	lcc-lr:hasTag "LY-WD" ;
+	lcc-lr:identifies lcc-3166-2-ly:WadiAlHayat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-WS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-WS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Wādī ash Shāţi’ in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:WadiAshShati ;
+	lcc-lr:hasTag "LY-WS" ;
+	lcc-lr:identifies lcc-3166-2-ly:WadiAshShati ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:LY-ZA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LY-ZA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision code for the popularate of Az Zāwiyah in the country of Libya" ;
+	lcc-lr:denotes lcc-3166-2-ly:AzZawiyah ;
+	lcc-lr:hasTag "LY-ZA" ;
+	lcc-lr:identifies lcc-3166-2-ly:AzZawiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ly:Misratah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mişrātah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Mişrātah in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Mişrātah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Murzuq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Murzuq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Murzuq in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Murzuq"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Nalut
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nālūt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Nālūt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Nālūt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Popularate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "popularate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "subdivision category popularate in the country of Libya" ;
+	.
+
+lcc-3166-2-ly:Sabha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sabhā" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Sabhā in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Sabhā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Surt
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Surt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Surt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Surt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:Tarabulus
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ţarābulus" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Ţarābulus in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Ţarābulus"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:WadiAlHayat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wādī al Ḩayāt" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Wādī al Ḩayāt in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Wādī al Ḩayāt"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+
+lcc-3166-2-ly:WadiAshShati
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wādī ash Shāţi’" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LY/> ;
+	skos:definition "The popularate of Wādī ash Shāţi’ in the country of Libya" ;
+	lcc-cr:hasLocalShortName "Wādī ash Shāţi’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ly:Popularate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Libya ;
+	.
+

@@ -1,0 +1,1986 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-lt: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Lithuania Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-lt" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Lithuania, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	.
+
+lcc-3166-2-lt:Akmene
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Akmenė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Akmenė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Akmenė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:AlytausApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alytaus apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Alytaus apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Alytaus apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:AlytausMiestas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alytaus miestas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The city municipality of Alytaus miestas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Alytaus miestas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:CityMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Alytus
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Alytus" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Alytus in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Alytus"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Anyksciai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anykščiai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Anykščiai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Anykščiai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Birstono
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Birštono" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Birštono in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Birštono"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Birzai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Biržai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Biržai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Biržai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:CityMunicipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision category city municipality in the country of Lithuania" ;
+	.
+
+lcc-3166-2-lt:County
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "county" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision category county in the country of Lithuania" ;
+	.
+
+lcc-3166-2-lt:DistrictMunicipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision category district municipality in the country of Lithuania" ;
+	.
+
+lcc-3166-2-lt:Druskininkai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Druskininkai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Druskininkai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Druskininkai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Elektrenai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Elektrėnai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Elektrėnai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Elektrėnai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Ignalina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ignalina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Ignalina in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Ignalina"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Jonava
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jonava" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Jonava in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Jonava"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Joniskis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Joniškis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Joniškis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Joniškis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Jurbarkas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jurbarkas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Jurbarkas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Jurbarkas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Kaisiadorys
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaišiadorys" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Kaišiadorys in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kaišiadorys"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Kalvarijos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalvarijos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Kalvarijos in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kalvarijos"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Kaunas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kaunas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Kaunas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kaunas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:KaunoApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kauno apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Kauno apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kauno apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:KaunoMiestas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kauno miestas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The city municipality of Kauno miestas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kauno miestas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:CityMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:KazluRudos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kazlų Rūdos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Kazlų Rūdos in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kazlų Rūdos"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Kedainiai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kėdainiai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Kėdainiai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kėdainiai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Kelme
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kelmė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Kelmė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kelmė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Klaipeda
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Klaipėda" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Klaipėda in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Klaipėda"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:KlaipedosApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Klaipėdos apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Klaipėdos apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Klaipėdos apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:KlaipedosMiestas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Klaipėdos miestas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The city municipality of Klaipėdos miestas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Klaipėdos miestas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:CityMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Kretinga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kretinga" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Kretinga in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kretinga"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Kupiskis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kupiškis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Kupiškis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Kupiškis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:LT-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Akmenė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Akmene ;
+	lcc-lr:hasTag "LT-01" ;
+	lcc-lr:identifies lcc-3166-2-lt:Akmene ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the city municipality of Alytaus miestas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:AlytausMiestas ;
+	lcc-lr:hasTag "LT-02" ;
+	lcc-lr:identifies lcc-3166-2-lt:AlytausMiestas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Alytus in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Alytus ;
+	lcc-lr:hasTag "LT-03" ;
+	lcc-lr:identifies lcc-3166-2-lt:Alytus ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Anykščiai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Anyksciai ;
+	lcc-lr:hasTag "LT-04" ;
+	lcc-lr:identifies lcc-3166-2-lt:Anyksciai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Birštono in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Birstono ;
+	lcc-lr:hasTag "LT-05" ;
+	lcc-lr:identifies lcc-3166-2-lt:Birstono ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Biržai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Birzai ;
+	lcc-lr:hasTag "LT-06" ;
+	lcc-lr:identifies lcc-3166-2-lt:Birzai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Druskininkai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Druskininkai ;
+	lcc-lr:hasTag "LT-07" ;
+	lcc-lr:identifies lcc-3166-2-lt:Druskininkai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Elektrėnai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Elektrenai ;
+	lcc-lr:hasTag "LT-08" ;
+	lcc-lr:identifies lcc-3166-2-lt:Elektrenai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Ignalina in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Ignalina ;
+	lcc-lr:hasTag "LT-09" ;
+	lcc-lr:identifies lcc-3166-2-lt:Ignalina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Jonava in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Jonava ;
+	lcc-lr:hasTag "LT-10" ;
+	lcc-lr:identifies lcc-3166-2-lt:Jonava ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Joniškis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Joniskis ;
+	lcc-lr:hasTag "LT-11" ;
+	lcc-lr:identifies lcc-3166-2-lt:Joniskis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Jurbarkas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Jurbarkas ;
+	lcc-lr:hasTag "LT-12" ;
+	lcc-lr:identifies lcc-3166-2-lt:Jurbarkas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Kaišiadorys in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Kaisiadorys ;
+	lcc-lr:hasTag "LT-13" ;
+	lcc-lr:identifies lcc-3166-2-lt:Kaisiadorys ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Kalvarijos in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Kalvarijos ;
+	lcc-lr:hasTag "LT-14" ;
+	lcc-lr:identifies lcc-3166-2-lt:Kalvarijos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the city municipality of Kauno miestas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:KaunoMiestas ;
+	lcc-lr:hasTag "LT-15" ;
+	lcc-lr:identifies lcc-3166-2-lt:KaunoMiestas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Kaunas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Kaunas ;
+	lcc-lr:hasTag "LT-16" ;
+	lcc-lr:identifies lcc-3166-2-lt:Kaunas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Kazlų Rūdos in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:KazluRudos ;
+	lcc-lr:hasTag "LT-17" ;
+	lcc-lr:identifies lcc-3166-2-lt:KazluRudos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Kėdainiai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Kedainiai ;
+	lcc-lr:hasTag "LT-18" ;
+	lcc-lr:identifies lcc-3166-2-lt:Kedainiai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Kelmė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Kelme ;
+	lcc-lr:hasTag "LT-19" ;
+	lcc-lr:identifies lcc-3166-2-lt:Kelme ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the city municipality of Klaipėdos miestas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:KlaipedosMiestas ;
+	lcc-lr:hasTag "LT-20" ;
+	lcc-lr:identifies lcc-3166-2-lt:KlaipedosMiestas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Klaipėda in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Klaipeda ;
+	lcc-lr:hasTag "LT-21" ;
+	lcc-lr:identifies lcc-3166-2-lt:Klaipeda ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Kretinga in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Kretinga ;
+	lcc-lr:hasTag "LT-22" ;
+	lcc-lr:identifies lcc-3166-2-lt:Kretinga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Kupiškis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Kupiskis ;
+	lcc-lr:hasTag "LT-23" ;
+	lcc-lr:identifies lcc-3166-2-lt:Kupiskis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-24
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Lazdijai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Lazdijai ;
+	lcc-lr:hasTag "LT-24" ;
+	lcc-lr:identifies lcc-3166-2-lt:Lazdijai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Marijampolė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Marijampole ;
+	lcc-lr:hasTag "LT-25" ;
+	lcc-lr:identifies lcc-3166-2-lt:Marijampole ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Mažeikiai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Mazeikiai ;
+	lcc-lr:hasTag "LT-26" ;
+	lcc-lr:identifies lcc-3166-2-lt:Mazeikiai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-27
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Molėtai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Moletai ;
+	lcc-lr:hasTag "LT-27" ;
+	lcc-lr:identifies lcc-3166-2-lt:Moletai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-28
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Neringa in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Neringa ;
+	lcc-lr:hasTag "LT-28" ;
+	lcc-lr:identifies lcc-3166-2-lt:Neringa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-29
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Pagėgiai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Pagegiai ;
+	lcc-lr:hasTag "LT-29" ;
+	lcc-lr:identifies lcc-3166-2-lt:Pagegiai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-30
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Pakruojis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Pakruojis ;
+	lcc-lr:hasTag "LT-30" ;
+	lcc-lr:identifies lcc-3166-2-lt:Pakruojis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-31
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the city municipality of Palangos miestas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:PalangosMiestas ;
+	lcc-lr:hasTag "LT-31" ;
+	lcc-lr:identifies lcc-3166-2-lt:PalangosMiestas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the city municipality of Panevėžio miestas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:PanevezioMiestas ;
+	lcc-lr:hasTag "LT-32" ;
+	lcc-lr:identifies lcc-3166-2-lt:PanevezioMiestas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-33
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Panevėžys in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Panevezys ;
+	lcc-lr:hasTag "LT-33" ;
+	lcc-lr:identifies lcc-3166-2-lt:Panevezys ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-34
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Pasvalys in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Pasvalys ;
+	lcc-lr:hasTag "LT-34" ;
+	lcc-lr:identifies lcc-3166-2-lt:Pasvalys ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-35
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Plungė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Plunge ;
+	lcc-lr:hasTag "LT-35" ;
+	lcc-lr:identifies lcc-3166-2-lt:Plunge ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-36
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Prienai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Prienai ;
+	lcc-lr:hasTag "LT-36" ;
+	lcc-lr:identifies lcc-3166-2-lt:Prienai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-37
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Radviliškis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Radviliskis ;
+	lcc-lr:hasTag "LT-37" ;
+	lcc-lr:identifies lcc-3166-2-lt:Radviliskis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-38
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Raseiniai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Raseiniai ;
+	lcc-lr:hasTag "LT-38" ;
+	lcc-lr:identifies lcc-3166-2-lt:Raseiniai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-39
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Rietavo in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Rietavo ;
+	lcc-lr:hasTag "LT-39" ;
+	lcc-lr:identifies lcc-3166-2-lt:Rietavo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-40
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Rokiškis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Rokiskis ;
+	lcc-lr:hasTag "LT-40" ;
+	lcc-lr:identifies lcc-3166-2-lt:Rokiskis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Šakiai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Sakiai ;
+	lcc-lr:hasTag "LT-41" ;
+	lcc-lr:identifies lcc-3166-2-lt:Sakiai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-42
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Šalčininkai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Salcininkai ;
+	lcc-lr:hasTag "LT-42" ;
+	lcc-lr:identifies lcc-3166-2-lt:Salcininkai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-43
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the city municipality of Šiaulių miestas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:SiauliuMiestas ;
+	lcc-lr:hasTag "LT-43" ;
+	lcc-lr:identifies lcc-3166-2-lt:SiauliuMiestas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-44
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Šiauliai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Siauliai ;
+	lcc-lr:hasTag "LT-44" ;
+	lcc-lr:identifies lcc-3166-2-lt:Siauliai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-45
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Šilalė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Silale ;
+	lcc-lr:hasTag "LT-45" ;
+	lcc-lr:identifies lcc-3166-2-lt:Silale ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-46
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Šilutė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Silute ;
+	lcc-lr:hasTag "LT-46" ;
+	lcc-lr:identifies lcc-3166-2-lt:Silute ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-47
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Širvintos in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Sirvintos ;
+	lcc-lr:hasTag "LT-47" ;
+	lcc-lr:identifies lcc-3166-2-lt:Sirvintos ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-48
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Skuodas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Skuodas ;
+	lcc-lr:hasTag "LT-48" ;
+	lcc-lr:identifies lcc-3166-2-lt:Skuodas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-49
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Švenčionys in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Svencionys ;
+	lcc-lr:hasTag "LT-49" ;
+	lcc-lr:identifies lcc-3166-2-lt:Svencionys ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-50
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Tauragė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Taurage ;
+	lcc-lr:hasTag "LT-50" ;
+	lcc-lr:identifies lcc-3166-2-lt:Taurage ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-51
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Telšiai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Telsiai ;
+	lcc-lr:hasTag "LT-51" ;
+	lcc-lr:identifies lcc-3166-2-lt:Telsiai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-52
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Trakai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Trakai ;
+	lcc-lr:hasTag "LT-52" ;
+	lcc-lr:identifies lcc-3166-2-lt:Trakai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-53
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Ukmergė in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Ukmerge ;
+	lcc-lr:hasTag "LT-53" ;
+	lcc-lr:identifies lcc-3166-2-lt:Ukmerge ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-54
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-54" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Utena in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Utena ;
+	lcc-lr:hasTag "LT-54" ;
+	lcc-lr:identifies lcc-3166-2-lt:Utena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-55
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Varėna in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Varena ;
+	lcc-lr:hasTag "LT-55" ;
+	lcc-lr:identifies lcc-3166-2-lt:Varena ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-56
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Vilkaviškis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Vilkaviskis ;
+	lcc-lr:hasTag "LT-56" ;
+	lcc-lr:identifies lcc-3166-2-lt:Vilkaviskis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-57
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the city municipality of Vilniaus miestas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:VilniausMiestas ;
+	lcc-lr:hasTag "LT-57" ;
+	lcc-lr:identifies lcc-3166-2-lt:VilniausMiestas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-58
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-58" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Vilnius in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Vilnius ;
+	lcc-lr:hasTag "LT-58" ;
+	lcc-lr:identifies lcc-3166-2-lt:Vilnius ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-59
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the municipality of Visaginas in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Visaginas ;
+	lcc-lr:hasTag "LT-59" ;
+	lcc-lr:identifies lcc-3166-2-lt:Visaginas ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-60
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-60" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the district municipality of Zarasai in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:Zarasai ;
+	lcc-lr:hasTag "LT-60" ;
+	lcc-lr:identifies lcc-3166-2-lt:Zarasai ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-AL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-AL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Alytaus apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:AlytausApskritis ;
+	lcc-lr:hasTag "LT-AL" ;
+	lcc-lr:identifies lcc-3166-2-lt:AlytausApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-KL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-KL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Klaipėdos apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:KlaipedosApskritis ;
+	lcc-lr:hasTag "LT-KL" ;
+	lcc-lr:identifies lcc-3166-2-lt:KlaipedosApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-KU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-KU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Kauno apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:KaunoApskritis ;
+	lcc-lr:hasTag "LT-KU" ;
+	lcc-lr:identifies lcc-3166-2-lt:KaunoApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-MR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-MR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Marijampolės apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:MarijampolesApskritis ;
+	lcc-lr:hasTag "LT-MR" ;
+	lcc-lr:identifies lcc-3166-2-lt:MarijampolesApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-PN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-PN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Panevėžio apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:PanevezioApskritis ;
+	lcc-lr:hasTag "LT-PN" ;
+	lcc-lr:identifies lcc-3166-2-lt:PanevezioApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Šiaulių apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:SiauliuApskritis ;
+	lcc-lr:hasTag "LT-SA" ;
+	lcc-lr:identifies lcc-3166-2-lt:SiauliuApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Tauragės apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:TauragesApskritis ;
+	lcc-lr:hasTag "LT-TA" ;
+	lcc-lr:identifies lcc-3166-2-lt:TauragesApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-TE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-TE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Telšių apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:TelsiuApskritis ;
+	lcc-lr:hasTag "LT-TE" ;
+	lcc-lr:identifies lcc-3166-2-lt:TelsiuApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-UT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-UT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Utenos apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:UtenosApskritis ;
+	lcc-lr:hasTag "LT-UT" ;
+	lcc-lr:identifies lcc-3166-2-lt:UtenosApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:LT-VL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LT-VL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision code for the county of Vilniaus apskritis in the country of Lithuania" ;
+	lcc-lr:denotes lcc-3166-2-lt:VilniausApskritis ;
+	lcc-lr:hasTag "LT-VL" ;
+	lcc-lr:identifies lcc-3166-2-lt:VilniausApskritis ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lt:Lazdijai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lazdijai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Lazdijai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Lazdijai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Marijampole
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marijampolė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Marijampolė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Marijampolė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:MarijampolesApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marijampolės apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Marijampolės apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Marijampolės apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Mazeikiai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mažeikiai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Mažeikiai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Mažeikiai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Moletai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Molėtai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Molėtai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Molėtai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Municipality
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "municipality" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "subdivision category municipality in the country of Lithuania" ;
+	.
+
+lcc-3166-2-lt:Neringa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Neringa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Neringa in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Neringa"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Pagegiai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pagėgiai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Pagėgiai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Pagėgiai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Pakruojis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pakruojis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Pakruojis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Pakruojis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:PalangosMiestas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Palangos miestas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The city municipality of Palangos miestas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Palangos miestas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:CityMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:PanevezioApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Panevėžio apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Panevėžio apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Panevėžio apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:PanevezioMiestas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Panevėžio miestas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The city municipality of Panevėžio miestas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Panevėžio miestas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:CityMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Panevezys
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Panevėžys" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Panevėžys in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Panevėžys"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Pasvalys
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pasvalys" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Pasvalys in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Pasvalys"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Plunge
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Plungė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Plungė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Plungė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Prienai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Prienai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Prienai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Prienai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Radviliskis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Radviliškis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Radviliškis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Radviliškis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Raseiniai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Raseiniai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Raseiniai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Raseiniai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Rietavo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rietavo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Rietavo in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Rietavo"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Rokiskis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rokiškis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Rokiškis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Rokiškis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Sakiai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šakiai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Šakiai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Šakiai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Salcininkai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šalčininkai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Šalčininkai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Šalčininkai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Siauliai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šiauliai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Šiauliai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Šiauliai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:SiauliuApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šiaulių apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Šiaulių apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Šiaulių apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:SiauliuMiestas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šiaulių miestas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The city municipality of Šiaulių miestas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Šiaulių miestas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:CityMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Silale
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šilalė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Šilalė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Šilalė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Silute
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Šilutė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Šilutė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Šilutė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Sirvintos
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Širvintos" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Širvintos in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Širvintos"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Skuodas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Skuodas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Skuodas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Skuodas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Svencionys
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Švenčionys" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Švenčionys in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Švenčionys"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Taurage
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tauragė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Tauragė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Tauragė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:TauragesApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tauragės apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Tauragės apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Tauragės apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Telsiai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Telšiai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Telšiai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Telšiai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:TelsiuApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Telšių apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Telšių apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Telšių apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Trakai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trakai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Trakai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Trakai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Ukmerge
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ukmergė" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Ukmergė in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Ukmergė"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Utena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Utena" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Utena in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Utena"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:UtenosApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Utenos apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Utenos apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Utenos apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Varena
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Varėna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Varėna in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Varėna"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Vilkaviskis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vilkaviškis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Vilkaviškis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Vilkaviškis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:VilniausApskritis
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vilniaus apskritis" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The county of Vilniaus apskritis in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Vilniaus apskritis"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:County ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:VilniausMiestas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vilniaus miestas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The city municipality of Vilniaus miestas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Vilniaus miestas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:CityMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Vilnius
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vilnius" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Vilnius in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Vilnius"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Visaginas
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Visaginas" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The municipality of Visaginas in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Visaginas"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:Municipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-2-lt:Zarasai
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Zarasai" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LT/> ;
+	skos:definition "The district municipality of Zarasai in the country of Lithuania" ;
+	lcc-cr:hasLocalShortName "Zarasai"@lt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lt:DistrictMunicipality ;
+	lcc-cr:isSubregionOf lcc-3166-1:Lithuania ;
+	.
+

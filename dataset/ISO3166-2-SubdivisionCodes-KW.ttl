@@ -1,0 +1,228 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-kw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Kuwait Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-kw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Kuwait, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-KW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	.
+
+lcc-3166-2-kw:AlAhmadi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Aḩmadī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "The governorate of Al Aḩmadī in the country of Kuwait" ;
+	lcc-cr:hasLocalShortName "Al Aḩmadī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kw:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kuwait ;
+	.
+
+lcc-3166-2-kw:AlAsimah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al ‘Āşimah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "The governorate of Al ‘Āşimah in the country of Kuwait" ;
+	lcc-cr:hasLocalShortName "Al ‘Āşimah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kw:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kuwait ;
+	.
+
+lcc-3166-2-kw:AlFarwaniyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Farwānīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "The governorate of Al Farwānīyah in the country of Kuwait" ;
+	lcc-cr:hasLocalShortName "Al Farwānīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kw:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kuwait ;
+	.
+
+lcc-3166-2-kw:AlJahra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Jahrā’" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "The governorate of Al Jahrā’ in the country of Kuwait" ;
+	lcc-cr:hasLocalShortName "Al Jahrā’"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kw:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kuwait ;
+	.
+
+lcc-3166-2-kw:Governorate
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "governorate" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "subdivision category governorate in the country of Kuwait" ;
+	.
+
+lcc-3166-2-kw:Hawalli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩawallī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "The governorate of Ḩawallī in the country of Kuwait" ;
+	lcc-cr:hasLocalShortName "Ḩawallī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kw:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kuwait ;
+	.
+
+lcc-3166-2-kw:KW-AH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KW-AH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "subdivision code for the governorate of Al Aḩmadī in the country of Kuwait" ;
+	lcc-lr:denotes lcc-3166-2-kw:AlAhmadi ;
+	lcc-lr:hasTag "KW-AH" ;
+	lcc-lr:identifies lcc-3166-2-kw:AlAhmadi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kw:KW-FA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KW-FA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "subdivision code for the governorate of Al Farwānīyah in the country of Kuwait" ;
+	lcc-lr:denotes lcc-3166-2-kw:AlFarwaniyah ;
+	lcc-lr:hasTag "KW-FA" ;
+	lcc-lr:identifies lcc-3166-2-kw:AlFarwaniyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kw:KW-HA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KW-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "subdivision code for the governorate of Ḩawallī in the country of Kuwait" ;
+	lcc-lr:denotes lcc-3166-2-kw:Hawalli ;
+	lcc-lr:hasTag "KW-HA" ;
+	lcc-lr:identifies lcc-3166-2-kw:Hawalli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kw:KW-JA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KW-JA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "subdivision code for the governorate of Al Jahrā’ in the country of Kuwait" ;
+	lcc-lr:denotes lcc-3166-2-kw:AlJahra ;
+	lcc-lr:hasTag "KW-JA" ;
+	lcc-lr:identifies lcc-3166-2-kw:AlJahra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kw:KW-KU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KW-KU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "subdivision code for the governorate of Al ‘Āşimah in the country of Kuwait" ;
+	lcc-lr:denotes lcc-3166-2-kw:AlAsimah ;
+	lcc-lr:hasTag "KW-KU" ;
+	lcc-lr:identifies lcc-3166-2-kw:AlAsimah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kw:KW-MU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "KW-MU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "subdivision code for the governorate of Mubārak al Kabīr in the country of Kuwait" ;
+	lcc-lr:denotes lcc-3166-2-kw:MubarakAlKabir ;
+	lcc-lr:hasTag "KW-MU" ;
+	lcc-lr:identifies lcc-3166-2-kw:MubarakAlKabir ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-kw:MubarakAlKabir
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mubārak al Kabīr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-KW/> ;
+	skos:definition "The governorate of Mubārak al Kabīr in the country of Kuwait" ;
+	lcc-cr:hasLocalShortName "Mubārak al Kabīr"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-kw:Governorate ;
+	lcc-cr:isSubregionOf lcc-3166-1:Kuwait ;
+	.
+

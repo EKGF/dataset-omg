@@ -1,0 +1,273 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-vc: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Saint Vincent and the Grenadines Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-vc" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Saint Vincent and the Grenadines, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-VC.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	.
+
+lcc-3166-2-vc:Bequia
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Bequia (principal island)" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The territory of Bequia (principal island) in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Bequia (principal island)"@en ;
+	lcc-cr:hasFrenchShortName "Bequia (Île principale)"@fr ;
+	lcc-cr:hasNumericRegionCode "1022" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:Charlotte
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Charlotte" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The parish of Charlotte in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Charlotte"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vc:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:Grenadines
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Grenadines" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The parish of Grenadines in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Grenadines"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vc:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:NorthernGrenadineIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Northern Grenadine Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The territory of Northern Grenadine Islands in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Northern Grenadine Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Grenadines du Nord"@fr ;
+	lcc-cr:hasNumericRegionCode "1075" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:Parish
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "parish" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "subdivision category parish in the country of Saint Vincent and the Grenadines" ;
+	.
+
+lcc-3166-2-vc:SaintAndrew
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Andrew" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The parish of Saint Andrew in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Saint Andrew"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vc:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:SaintDavid
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint David" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The parish of Saint David in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Saint David"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vc:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:SaintGeorge
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint George" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The parish of Saint George in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Saint George"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vc:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:SaintPatrick
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Patrick" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The parish of Saint Patrick in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Saint Patrick"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-vc:Parish ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:SaintVincentIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Saint Vincent Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "The territory of Saint Vincent Island in the country of Saint Vincent and the Grenadines" ;
+	lcc-cr:hasEnglishShortName "Saint Vincent Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Saint-Vincent"@fr ;
+	lcc-cr:hasNumericRegionCode "1176" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-2-vc:VC-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VC-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "subdivision code for the parish of Charlotte in the country of Saint Vincent and the Grenadines" ;
+	lcc-lr:denotes lcc-3166-2-vc:Charlotte ;
+	lcc-lr:hasTag "VC-01" ;
+	lcc-lr:identifies lcc-3166-2-vc:Charlotte ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vc:VC-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VC-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "subdivision code for the parish of Saint Andrew in the country of Saint Vincent and the Grenadines" ;
+	lcc-lr:denotes lcc-3166-2-vc:SaintAndrew ;
+	lcc-lr:hasTag "VC-02" ;
+	lcc-lr:identifies lcc-3166-2-vc:SaintAndrew ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vc:VC-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VC-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "subdivision code for the parish of Saint David in the country of Saint Vincent and the Grenadines" ;
+	lcc-lr:denotes lcc-3166-2-vc:SaintDavid ;
+	lcc-lr:hasTag "VC-03" ;
+	lcc-lr:identifies lcc-3166-2-vc:SaintDavid ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vc:VC-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VC-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "subdivision code for the parish of Saint George in the country of Saint Vincent and the Grenadines" ;
+	lcc-lr:denotes lcc-3166-2-vc:SaintGeorge ;
+	lcc-lr:hasTag "VC-04" ;
+	lcc-lr:identifies lcc-3166-2-vc:SaintGeorge ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vc:VC-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VC-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "subdivision code for the parish of Saint Patrick in the country of Saint Vincent and the Grenadines" ;
+	lcc-lr:denotes lcc-3166-2-vc:SaintPatrick ;
+	lcc-lr:hasTag "VC-05" ;
+	lcc-lr:identifies lcc-3166-2-vc:SaintPatrick ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-vc:VC-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "VC-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-VC/> ;
+	skos:definition "subdivision code for the parish of Grenadines in the country of Saint Vincent and the Grenadines" ;
+	lcc-lr:denotes lcc-3166-2-vc:Grenadines ;
+	lcc-lr:hasTag "VC-06" ;
+	lcc-lr:identifies lcc-3166-2-vc:Grenadines ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+

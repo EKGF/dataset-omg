@@ -1,0 +1,1130 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-lk: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Sri Lanka Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-lk" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Sri Lanka, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LK.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	.
+
+lcc-3166-2-lk:Ampara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ampara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Ampara in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Ampara"@en ;
+	lcc-cr:hasLocalShortName
+		"Ampāra"@si ,
+		"Ampāṟai"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:WesternProvince ;
+	.
+
+lcc-3166-2-lk:Anuradhapura
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anuradhapura" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Anuradhapura in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Anuradhapura"@en ;
+	lcc-cr:hasLocalShortName
+		"Anurādhapura"@si ,
+		"Anurātapuram"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:WesternProvince ;
+	.
+
+lcc-3166-2-lk:Badulla
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Badulla" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Badulla in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Badulla"@en ;
+	lcc-cr:hasLocalShortName
+		"Badulla"@si ,
+		"Patuḷai"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:WesternProvince ;
+	.
+
+lcc-3166-2-lk:Batticaloa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Batticaloa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Batticaloa in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Batticaloa"@en ;
+	lcc-cr:hasLocalShortName
+		"Maḍakalapuva"@si ,
+		"Maṭṭakkaḷappu"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:CentralProvince ;
+	.
+
+lcc-3166-2-lk:CentralProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of Central Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Central Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Madhyama paḷāta"@si ,
+		"Mattiya mākāṇam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:Colombo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Colombo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Colombo in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Colombo"@en ;
+	lcc-cr:hasLocalShortName
+		"Kŏl̮umpu"@ta ,
+		"Kŏḷamba"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:CentralProvince ;
+	.
+
+lcc-3166-2-lk:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision category district in the country of Sri Lanka" ;
+	.
+
+lcc-3166-2-lk:EasternProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of Eastern Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Eastern Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Kil̮akku mākāṇam"@ta ,
+		"Næ̆gĕnahira paḷāta"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:Galle
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Galle" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Galle in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Galle"@en ;
+	lcc-cr:hasLocalShortName
+		"Gālla"@si ,
+		"Kāli"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:CentralProvince ;
+	.
+
+lcc-3166-2-lk:Gampaha
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gampaha" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Gampaha in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Gampaha"@en ;
+	lcc-cr:hasLocalShortName
+		"Gampaha"@si ,
+		"Kampahā"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:SouthernProvince ;
+	.
+
+lcc-3166-2-lk:Hambantota
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hambantota" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Hambantota in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Hambantota"@en ;
+	lcc-cr:hasLocalShortName
+		"Ampāntōṭṭai"@ta ,
+		"Hambantŏṭa"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:SouthernProvince ;
+	.
+
+lcc-3166-2-lk:Jaffna
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jaffna" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Jaffna in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Jaffna"@en ;
+	lcc-cr:hasLocalShortName
+		"Yāl̮ppāṇam"@ta ,
+		"Yāpanaya"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:SouthernProvince ;
+	.
+
+lcc-3166-2-lk:Kalutara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalutara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Kalutara in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Kalutara"@en ;
+	lcc-cr:hasLocalShortName
+		"Kaḷutara"@si ,
+		"Kaḷuttuṟai"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthernProvince ;
+	.
+
+lcc-3166-2-lk:Kandy
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kandy" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Kandy in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Kandy"@en ;
+	lcc-cr:hasLocalShortName
+		"Kaṇṭi"@ta ,
+		"Mahanuvara"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthernProvince ;
+	.
+
+lcc-3166-2-lk:Kegalla
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kegalla" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Kegalla in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Kegalla"@en ;
+	lcc-cr:hasLocalShortName
+		"Kekālai"@ta ,
+		"Kægalla"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthernProvince ;
+	.
+
+lcc-3166-2-lk:Kilinochchi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kilinochchi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Kilinochchi in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Kilinochchi"@en ;
+	lcc-cr:hasLocalShortName
+		"Kilinŏchchi"@si ,
+		"Kiḷinochchi"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthernProvince ;
+	.
+
+lcc-3166-2-lk:Kurunegala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kurunegala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Kurunegala in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Kurunegala"@en ;
+	lcc-cr:hasLocalShortName
+		"Kurunākal"@ta ,
+		"Kuruṇægala"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthernProvince ;
+	.
+
+lcc-3166-2-lk:LK-1
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-1" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of Western Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:WesternProvince ;
+	lcc-lr:hasTag "LK-1" ;
+	lcc-lr:identifies lcc-3166-2-lk:WesternProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Colombo in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Colombo ;
+	lcc-lr:hasTag "LK-11" ;
+	lcc-lr:identifies lcc-3166-2-lk:Colombo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Gampaha in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Gampaha ;
+	lcc-lr:hasTag "LK-12" ;
+	lcc-lr:identifies lcc-3166-2-lk:Gampaha ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Kalutara in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Kalutara ;
+	lcc-lr:hasTag "LK-13" ;
+	lcc-lr:identifies lcc-3166-2-lk:Kalutara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-2
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-2" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of Central Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:CentralProvince ;
+	lcc-lr:hasTag "LK-2" ;
+	lcc-lr:identifies lcc-3166-2-lk:CentralProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Kandy in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Kandy ;
+	lcc-lr:hasTag "LK-21" ;
+	lcc-lr:identifies lcc-3166-2-lk:Kandy ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Matale in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Matale ;
+	lcc-lr:hasTag "LK-22" ;
+	lcc-lr:identifies lcc-3166-2-lk:Matale ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Nuwara Eliya in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:NuwaraEliya ;
+	lcc-lr:hasTag "LK-23" ;
+	lcc-lr:identifies lcc-3166-2-lk:NuwaraEliya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-3
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-3" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of Southern Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:SouthernProvince ;
+	lcc-lr:hasTag "LK-3" ;
+	lcc-lr:identifies lcc-3166-2-lk:SouthernProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-31
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Galle in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Galle ;
+	lcc-lr:hasTag "LK-31" ;
+	lcc-lr:identifies lcc-3166-2-lk:Galle ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Matara in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Matara ;
+	lcc-lr:hasTag "LK-32" ;
+	lcc-lr:identifies lcc-3166-2-lk:Matara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-33
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Hambantota in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Hambantota ;
+	lcc-lr:hasTag "LK-33" ;
+	lcc-lr:identifies lcc-3166-2-lk:Hambantota ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-4
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-4" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of Northern Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:NorthernProvince ;
+	lcc-lr:hasTag "LK-4" ;
+	lcc-lr:identifies lcc-3166-2-lk:NorthernProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Jaffna in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Jaffna ;
+	lcc-lr:hasTag "LK-41" ;
+	lcc-lr:identifies lcc-3166-2-lk:Jaffna ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-42
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Kilinochchi in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Kilinochchi ;
+	lcc-lr:hasTag "LK-42" ;
+	lcc-lr:identifies lcc-3166-2-lk:Kilinochchi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-43
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Mannar in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Mannar ;
+	lcc-lr:hasTag "LK-43" ;
+	lcc-lr:identifies lcc-3166-2-lk:Mannar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-44
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Vavuniya in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Vavuniya ;
+	lcc-lr:hasTag "LK-44" ;
+	lcc-lr:identifies lcc-3166-2-lk:Vavuniya ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-45
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Mullaittivu in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Mullaittivu ;
+	lcc-lr:hasTag "LK-45" ;
+	lcc-lr:identifies lcc-3166-2-lk:Mullaittivu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-5
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-5" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of Eastern Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:EasternProvince ;
+	lcc-lr:hasTag "LK-5" ;
+	lcc-lr:identifies lcc-3166-2-lk:EasternProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-51
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Batticaloa in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Batticaloa ;
+	lcc-lr:hasTag "LK-51" ;
+	lcc-lr:identifies lcc-3166-2-lk:Batticaloa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-52
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Ampara in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Ampara ;
+	lcc-lr:hasTag "LK-52" ;
+	lcc-lr:identifies lcc-3166-2-lk:Ampara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-53
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Trincomalee in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Trincomalee ;
+	lcc-lr:hasTag "LK-53" ;
+	lcc-lr:identifies lcc-3166-2-lk:Trincomalee ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-6
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-6" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of North Western Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:NorthWesternProvince ;
+	lcc-lr:hasTag "LK-6" ;
+	lcc-lr:identifies lcc-3166-2-lk:NorthWesternProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-61
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Kurunegala in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Kurunegala ;
+	lcc-lr:hasTag "LK-61" ;
+	lcc-lr:identifies lcc-3166-2-lk:Kurunegala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-62
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-62" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Puttalam in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Puttalam ;
+	lcc-lr:hasTag "LK-62" ;
+	lcc-lr:identifies lcc-3166-2-lk:Puttalam ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-7
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-7" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of North Central Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:NorthCentralProvince ;
+	lcc-lr:hasTag "LK-7" ;
+	lcc-lr:identifies lcc-3166-2-lk:NorthCentralProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-71
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-71" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Anuradhapura in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Anuradhapura ;
+	lcc-lr:hasTag "LK-71" ;
+	lcc-lr:identifies lcc-3166-2-lk:Anuradhapura ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-72
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-72" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Polonnaruwa in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Polonnaruwa ;
+	lcc-lr:hasTag "LK-72" ;
+	lcc-lr:identifies lcc-3166-2-lk:Polonnaruwa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-8
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-8" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of Uva Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:UvaProvince ;
+	lcc-lr:hasTag "LK-8" ;
+	lcc-lr:identifies lcc-3166-2-lk:UvaProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-81
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-81" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Badulla in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Badulla ;
+	lcc-lr:hasTag "LK-81" ;
+	lcc-lr:identifies lcc-3166-2-lk:Badulla ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-82
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-82" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Monaragala in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Monaragala ;
+	lcc-lr:hasTag "LK-82" ;
+	lcc-lr:identifies lcc-3166-2-lk:Monaragala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-9
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-9" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the province of Sabaragamuwa Province in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:SabaragamuwaProvince ;
+	lcc-lr:hasTag "LK-9" ;
+	lcc-lr:identifies lcc-3166-2-lk:SabaragamuwaProvince ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-91
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-91" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Ratnapura in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Ratnapura ;
+	lcc-lr:hasTag "LK-91" ;
+	lcc-lr:identifies lcc-3166-2-lk:Ratnapura ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:LK-92
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LK-92" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision code for the district of Kegalla in the country of Sri Lanka" ;
+	lcc-lr:denotes lcc-3166-2-lk:Kegalla ;
+	lcc-lr:hasTag "LK-92" ;
+	lcc-lr:identifies lcc-3166-2-lk:Kegalla ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lk:Mannar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mannar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Mannar in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Mannar"@en ;
+	lcc-cr:hasLocalShortName
+		"Mannārama"@si ,
+		"Maṉṉār"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:EasternProvince ;
+	.
+
+lcc-3166-2-lk:Matale
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matale" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Matale in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Matale"@en ;
+	lcc-cr:hasLocalShortName
+		"Mātale"@si ,
+		"Māttaḷai"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:EasternProvince ;
+	.
+
+lcc-3166-2-lk:Matara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Matara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Matara in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Matara"@en ;
+	lcc-cr:hasLocalShortName
+		"Mātara"@si ,
+		"Māttaṛai"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:EasternProvince ;
+	.
+
+lcc-3166-2-lk:Monaragala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Monaragala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Monaragala in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Monaragala"@en ;
+	lcc-cr:hasLocalShortName
+		"Mŏṇarāgala"@si ,
+		"Mŏṉarākalai"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthWesternProvince ;
+	.
+
+lcc-3166-2-lk:Mullaittivu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mullaittivu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Mullaittivu in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Mullaittivu"@en ;
+	lcc-cr:hasLocalShortName
+		"Mulativ"@si ,
+		"Mullaittīvu"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthWesternProvince ;
+	.
+
+lcc-3166-2-lk:NorthCentralProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Central Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of North Central Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "North Central Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Uturumæ̆da paḷāta"@si ,
+		"Vaṭamattiya mākāṇam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:NorthWesternProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "North Western Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of North Western Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "North Western Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Vayamba paḷāta"@si ,
+		"Vaṭamel mākāṇam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:NorthernProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of Northern Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Northern Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Uturu paḷāta"@si ,
+		"Vaṭakku mākāṇam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:NuwaraEliya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nuwara Eliya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Nuwara Eliya in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Nuwara Eliya"@en ;
+	lcc-cr:hasLocalShortName
+		"Nuvara Ĕliya"@si ,
+		"Nuvarĕliyā"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthCentralProvince ;
+	.
+
+lcc-3166-2-lk:Polonnaruwa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Polonnaruwa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Polonnaruwa in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Polonnaruwa"@en ;
+	lcc-cr:hasLocalShortName
+		"Pŏlaṉṉaṛuvai"@ta ,
+		"Pŏḷŏnnaruva"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:NorthCentralProvince ;
+	.
+
+lcc-3166-2-lk:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "subdivision category province in the country of Sri Lanka" ;
+	.
+
+lcc-3166-2-lk:Puttalam
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Puttalam" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Puttalam in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Puttalam"@en ;
+	lcc-cr:hasLocalShortName
+		"Puttalama"@si ,
+		"Puttaḷam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:UvaProvince ;
+	.
+
+lcc-3166-2-lk:Ratnapura
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ratnapura" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Ratnapura in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Ratnapura"@en ;
+	lcc-cr:hasLocalShortName
+		"Irattiṉapuri"@ta ,
+		"Ratnapura"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:UvaProvince ;
+	.
+
+lcc-3166-2-lk:SabaragamuwaProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sabaragamuwa Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of Sabaragamuwa Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Sabaragamuwa Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Chappirakamuva mākāṇam"@ta ,
+		"Sabaragamuva paḷāta"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:SouthernProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of Southern Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Southern Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Dakuṇu paḷāta"@si ,
+		"Tĕṉ mākāṇam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:Trincomalee
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Trincomalee" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Trincomalee in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Trincomalee"@en ;
+	lcc-cr:hasLocalShortName
+		"Tirukŏṇamalai"@ta ,
+		"Trikuṇāmalaya"@si
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:SabaragamuwaProvince ;
+	.
+
+lcc-3166-2-lk:UvaProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Uva Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of Uva Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Uva Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Ūva paḷāta"@si ,
+		"Ūvā mākāṇam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-2-lk:Vavuniya
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vavuniya" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The district of Vavuniya in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Vavuniya"@en ;
+	lcc-cr:hasLocalShortName
+		"Vavuniyāva"@si ,
+		"Vavuṉiyā"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:District ;
+	lcc-cr:isSubregionOf lcc-3166-2-lk:SabaragamuwaProvince ;
+	.
+
+lcc-3166-2-lk:WesternProvince
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western Province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LK/> ;
+	skos:definition "The province of Western Province in the country of Sri Lanka" ;
+	lcc-cr:hasEnglishShortName "Western Province"@en ;
+	lcc-cr:hasLocalShortName
+		"Basnāhira paḷāta"@si ,
+		"Mel mākāṇam"@ta
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-lk:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SriLanka ;
+	.
+

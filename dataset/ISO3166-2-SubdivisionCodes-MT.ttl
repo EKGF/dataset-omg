@@ -1,0 +1,1970 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-mt: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Malta Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-mt" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Malta, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-MT.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	.
+
+lcc-3166-2-mt:Attard
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Attard" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Attard in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Attard"@en ;
+	lcc-cr:hasLocalShortName "Attard"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Balzan
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Balzan" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Balzan in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Balzan"@en ;
+	lcc-cr:hasLocalShortName "Balzan"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Birgu
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Birgu" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Birgu in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Birgu"@en ;
+	lcc-cr:hasLocalShortName "Birgu"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Birkirkara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Birkirkara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Birkirkara in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Birkirkara"@en ;
+	lcc-cr:hasLocalShortName "Birkirkara"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Birzebbuga
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Birżebbuġa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Birżebbuġa in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Birżebbuġa"@en ;
+	lcc-cr:hasLocalShortName "Birżebbuġa"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Bormla
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bormla" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Bormla in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Bormla"@en ;
+	lcc-cr:hasLocalShortName "Bormla"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Dingli
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dingli" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Dingli in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Dingli"@en ;
+	lcc-cr:hasLocalShortName "Dingli"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Fgura
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fgura" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Fgura in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Fgura"@en ;
+	lcc-cr:hasLocalShortName "Fgura"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Floriana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Floriana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Floriana in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Floriana"@en ;
+	lcc-cr:hasLocalShortName "Floriana"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Fontana
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Fontana" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Fontana in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Fontana"@en ;
+	lcc-cr:hasLocalShortName "Fontana"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Gajnsielem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Għajnsielem" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Għajnsielem in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Għajnsielem"@en ;
+	lcc-cr:hasLocalShortName "Għajnsielem"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Garb
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Għarb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Għarb in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Għarb"@en ;
+	lcc-cr:hasLocalShortName "Għarb"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Gargur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Għargħur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Għargħur in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Għargħur"@en ;
+	lcc-cr:hasLocalShortName "Għargħur"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Gasri
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Għasri" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Għasri in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Għasri"@en ;
+	lcc-cr:hasLocalShortName "Għasri"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Gaxaq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Għaxaq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Għaxaq in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Għaxaq"@en ;
+	lcc-cr:hasLocalShortName "Għaxaq"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Gudja
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gudja" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Gudja in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Gudja"@en ;
+	lcc-cr:hasLocalShortName "Gudja"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Gzira
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gżira" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Gżira in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Gżira"@en ;
+	lcc-cr:hasLocalShortName "Gżira"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Iklin
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Iklin" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Iklin in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Iklin"@en ;
+	lcc-cr:hasLocalShortName "Iklin"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Isla
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Isla" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Isla in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Isla"@en ;
+	lcc-cr:hasLocalShortName "Isla"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Kalkara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kalkara" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Kalkara in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Kalkara"@en ;
+	lcc-cr:hasLocalShortName "Kalkara"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Kercem
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kerċem" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Kerċem in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Kerċem"@en ;
+	lcc-cr:hasLocalShortName "Kerċem"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Kirkop
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Kirkop" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Kirkop in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Kirkop"@en ;
+	lcc-cr:hasLocalShortName "Kirkop"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Lija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Lija in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Lija"@en ;
+	lcc-cr:hasLocalShortName "Lija"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:LocalCouncil
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "local council" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision category local council in the country of Malta" ;
+	.
+
+lcc-3166-2-mt:Luqa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Luqa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Luqa in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Luqa"@en ;
+	lcc-cr:hasLocalShortName "Luqa"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:MT-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Attard in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Attard ;
+	lcc-lr:hasTag "MT-01" ;
+	lcc-lr:identifies lcc-3166-2-mt:Attard ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Balzan in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Balzan ;
+	lcc-lr:hasTag "MT-02" ;
+	lcc-lr:identifies lcc-3166-2-mt:Balzan ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Birgu in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Birgu ;
+	lcc-lr:hasTag "MT-03" ;
+	lcc-lr:identifies lcc-3166-2-mt:Birgu ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Birkirkara in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Birkirkara ;
+	lcc-lr:hasTag "MT-04" ;
+	lcc-lr:identifies lcc-3166-2-mt:Birkirkara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Birżebbuġa in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Birzebbuga ;
+	lcc-lr:hasTag "MT-05" ;
+	lcc-lr:identifies lcc-3166-2-mt:Birzebbuga ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Bormla in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Bormla ;
+	lcc-lr:hasTag "MT-06" ;
+	lcc-lr:identifies lcc-3166-2-mt:Bormla ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Dingli in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Dingli ;
+	lcc-lr:hasTag "MT-07" ;
+	lcc-lr:identifies lcc-3166-2-mt:Dingli ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Fgura in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Fgura ;
+	lcc-lr:hasTag "MT-08" ;
+	lcc-lr:identifies lcc-3166-2-mt:Fgura ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-09
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-09" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Floriana in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Floriana ;
+	lcc-lr:hasTag "MT-09" ;
+	lcc-lr:identifies lcc-3166-2-mt:Floriana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Fontana in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Fontana ;
+	lcc-lr:hasTag "MT-10" ;
+	lcc-lr:identifies lcc-3166-2-mt:Fontana ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Gudja in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Gudja ;
+	lcc-lr:hasTag "MT-11" ;
+	lcc-lr:identifies lcc-3166-2-mt:Gudja ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Gżira in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Gzira ;
+	lcc-lr:hasTag "MT-12" ;
+	lcc-lr:identifies lcc-3166-2-mt:Gzira ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-13
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-13" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Għajnsielem in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Gajnsielem ;
+	lcc-lr:hasTag "MT-13" ;
+	lcc-lr:identifies lcc-3166-2-mt:Gajnsielem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-14
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-14" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Għarb in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Garb ;
+	lcc-lr:hasTag "MT-14" ;
+	lcc-lr:identifies lcc-3166-2-mt:Garb ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-15
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-15" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Għargħur in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Gargur ;
+	lcc-lr:hasTag "MT-15" ;
+	lcc-lr:identifies lcc-3166-2-mt:Gargur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-16
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-16" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Għasri in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Gasri ;
+	lcc-lr:hasTag "MT-16" ;
+	lcc-lr:identifies lcc-3166-2-mt:Gasri ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-17
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-17" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Għaxaq in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Gaxaq ;
+	lcc-lr:hasTag "MT-17" ;
+	lcc-lr:identifies lcc-3166-2-mt:Gaxaq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-18
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-18" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Ħamrun in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:amrun ;
+	lcc-lr:hasTag "MT-18" ;
+	lcc-lr:identifies lcc-3166-2-mt:amrun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-19
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-19" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Iklin in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Iklin ;
+	lcc-lr:hasTag "MT-19" ;
+	lcc-lr:identifies lcc-3166-2-mt:Iklin ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-20
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-20" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Isla in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Isla ;
+	lcc-lr:hasTag "MT-20" ;
+	lcc-lr:identifies lcc-3166-2-mt:Isla ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-21
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-21" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Kalkara in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Kalkara ;
+	lcc-lr:hasTag "MT-21" ;
+	lcc-lr:identifies lcc-3166-2-mt:Kalkara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-22
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-22" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Kerċem in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Kercem ;
+	lcc-lr:hasTag "MT-22" ;
+	lcc-lr:identifies lcc-3166-2-mt:Kercem ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-23
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-23" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Kirkop in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Kirkop ;
+	lcc-lr:hasTag "MT-23" ;
+	lcc-lr:identifies lcc-3166-2-mt:Kirkop ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-24
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-24" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Lija in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Lija ;
+	lcc-lr:hasTag "MT-24" ;
+	lcc-lr:identifies lcc-3166-2-mt:Lija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-25
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-25" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Luqa in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Luqa ;
+	lcc-lr:hasTag "MT-25" ;
+	lcc-lr:identifies lcc-3166-2-mt:Luqa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-26
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-26" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Marsa in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Marsa ;
+	lcc-lr:hasTag "MT-26" ;
+	lcc-lr:identifies lcc-3166-2-mt:Marsa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-27
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-27" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Marsaskala in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Marsaskala ;
+	lcc-lr:hasTag "MT-27" ;
+	lcc-lr:identifies lcc-3166-2-mt:Marsaskala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-28
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-28" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Marsaxlokk in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Marsaxlokk ;
+	lcc-lr:hasTag "MT-28" ;
+	lcc-lr:identifies lcc-3166-2-mt:Marsaxlokk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-29
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-29" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Mdina in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Mdina ;
+	lcc-lr:hasTag "MT-29" ;
+	lcc-lr:identifies lcc-3166-2-mt:Mdina ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-30
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-30" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Mellieħa in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Melliea ;
+	lcc-lr:hasTag "MT-30" ;
+	lcc-lr:identifies lcc-3166-2-mt:Melliea ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-31
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-31" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Mġarr in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Mgarr ;
+	lcc-lr:hasTag "MT-31" ;
+	lcc-lr:identifies lcc-3166-2-mt:Mgarr ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-32
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-32" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Mosta in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Mosta ;
+	lcc-lr:hasTag "MT-32" ;
+	lcc-lr:identifies lcc-3166-2-mt:Mosta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-33
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-33" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Mqabba in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Mqabba ;
+	lcc-lr:hasTag "MT-33" ;
+	lcc-lr:identifies lcc-3166-2-mt:Mqabba ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-34
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-34" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Msida in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Msida ;
+	lcc-lr:hasTag "MT-34" ;
+	lcc-lr:identifies lcc-3166-2-mt:Msida ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-35
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-35" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Mtarfa in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Mtarfa ;
+	lcc-lr:hasTag "MT-35" ;
+	lcc-lr:identifies lcc-3166-2-mt:Mtarfa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-36
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-36" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Munxar in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Munxar ;
+	lcc-lr:hasTag "MT-36" ;
+	lcc-lr:identifies lcc-3166-2-mt:Munxar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-37
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-37" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Nadur in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Nadur ;
+	lcc-lr:hasTag "MT-37" ;
+	lcc-lr:identifies lcc-3166-2-mt:Nadur ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-38
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-38" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Naxxar in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Naxxar ;
+	lcc-lr:hasTag "MT-38" ;
+	lcc-lr:identifies lcc-3166-2-mt:Naxxar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-39
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-39" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Paola in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Paola ;
+	lcc-lr:hasTag "MT-39" ;
+	lcc-lr:identifies lcc-3166-2-mt:Paola ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-40
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-40" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Pembroke in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Pembroke ;
+	lcc-lr:hasTag "MT-40" ;
+	lcc-lr:identifies lcc-3166-2-mt:Pembroke ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-41
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-41" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Pietà in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Pieta ;
+	lcc-lr:hasTag "MT-41" ;
+	lcc-lr:identifies lcc-3166-2-mt:Pieta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-42
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-42" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Qala in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Qala ;
+	lcc-lr:hasTag "MT-42" ;
+	lcc-lr:identifies lcc-3166-2-mt:Qala ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-43
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-43" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Qormi in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Qormi ;
+	lcc-lr:hasTag "MT-43" ;
+	lcc-lr:identifies lcc-3166-2-mt:Qormi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-44
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-44" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Qrendi in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Qrendi ;
+	lcc-lr:hasTag "MT-44" ;
+	lcc-lr:identifies lcc-3166-2-mt:Qrendi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-45
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-45" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Rabat Gozo in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:RabatGozo ;
+	lcc-lr:hasTag "MT-45" ;
+	lcc-lr:identifies lcc-3166-2-mt:RabatGozo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-46
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-46" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Rabat Malta in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:RabatMalta ;
+	lcc-lr:hasTag "MT-46" ;
+	lcc-lr:identifies lcc-3166-2-mt:RabatMalta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-47
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-47" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Safi in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Safi ;
+	lcc-lr:hasTag "MT-47" ;
+	lcc-lr:identifies lcc-3166-2-mt:Safi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-48
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-48" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Saint Julian's in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:SaintJulians ;
+	lcc-lr:hasTag "MT-48" ;
+	lcc-lr:identifies lcc-3166-2-mt:SaintJulians ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-49
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-49" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Saint John in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:SaintJohn ;
+	lcc-lr:hasTag "MT-49" ;
+	lcc-lr:identifies lcc-3166-2-mt:SaintJohn ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-50
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-50" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Saint Lawrence in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:SaintLawrence ;
+	lcc-lr:hasTag "MT-50" ;
+	lcc-lr:identifies lcc-3166-2-mt:SaintLawrence ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-51
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-51" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Saint Paul's Bay in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:SaintPaulsBay ;
+	lcc-lr:hasTag "MT-51" ;
+	lcc-lr:identifies lcc-3166-2-mt:SaintPaulsBay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-52
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-52" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Sannat in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Sannat ;
+	lcc-lr:hasTag "MT-52" ;
+	lcc-lr:identifies lcc-3166-2-mt:Sannat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-53
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-53" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Saint Lucia's in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:SaintLucias ;
+	lcc-lr:hasTag "MT-53" ;
+	lcc-lr:identifies lcc-3166-2-mt:SaintLucias ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-54
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-54" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Santa Venera in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:SantaVenera ;
+	lcc-lr:hasTag "MT-54" ;
+	lcc-lr:identifies lcc-3166-2-mt:SantaVenera ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-55
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-55" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Siġġiewi in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Siggiewi ;
+	lcc-lr:hasTag "MT-55" ;
+	lcc-lr:identifies lcc-3166-2-mt:Siggiewi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-56
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-56" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Sliema in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Sliema ;
+	lcc-lr:hasTag "MT-56" ;
+	lcc-lr:identifies lcc-3166-2-mt:Sliema ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-57
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-57" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Swieqi in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Swieqi ;
+	lcc-lr:hasTag "MT-57" ;
+	lcc-lr:identifies lcc-3166-2-mt:Swieqi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-58
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-58" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Ta' Xbiex in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:TaXbiex ;
+	lcc-lr:hasTag "MT-58" ;
+	lcc-lr:identifies lcc-3166-2-mt:TaXbiex ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-59
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-59" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Tarxien in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Tarxien ;
+	lcc-lr:hasTag "MT-59" ;
+	lcc-lr:identifies lcc-3166-2-mt:Tarxien ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-60
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-60" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Valletta in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Valletta ;
+	lcc-lr:hasTag "MT-60" ;
+	lcc-lr:identifies lcc-3166-2-mt:Valletta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-61
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-61" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Xagħra in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Xagra ;
+	lcc-lr:hasTag "MT-61" ;
+	lcc-lr:identifies lcc-3166-2-mt:Xagra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-62
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-62" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Xewkija in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Xewkija ;
+	lcc-lr:hasTag "MT-62" ;
+	lcc-lr:identifies lcc-3166-2-mt:Xewkija ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-63
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-63" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Xgħajra in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Xgajra ;
+	lcc-lr:hasTag "MT-63" ;
+	lcc-lr:identifies lcc-3166-2-mt:Xgajra ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-64
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-64" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Żabbar in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Zabbar ;
+	lcc-lr:hasTag "MT-64" ;
+	lcc-lr:identifies lcc-3166-2-mt:Zabbar ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-65
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-65" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Żebbuġ Gozo in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:ZebbugGozo ;
+	lcc-lr:hasTag "MT-65" ;
+	lcc-lr:identifies lcc-3166-2-mt:ZebbugGozo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-66
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-66" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Żebbuġ Malta in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:ZebbugMalta ;
+	lcc-lr:hasTag "MT-66" ;
+	lcc-lr:identifies lcc-3166-2-mt:ZebbugMalta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-67
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-67" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Żejtun in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Zejtun ;
+	lcc-lr:hasTag "MT-67" ;
+	lcc-lr:identifies lcc-3166-2-mt:Zejtun ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:MT-68
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "MT-68" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "subdivision code for the local council of Żurrieq in the country of Malta" ;
+	lcc-lr:denotes lcc-3166-2-mt:Zurrieq ;
+	lcc-lr:hasTag "MT-68" ;
+	lcc-lr:identifies lcc-3166-2-mt:Zurrieq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-mt:Marsa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marsa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Marsa in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Marsa"@en ;
+	lcc-cr:hasLocalShortName "Marsa"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Marsaskala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marsaskala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Marsaskala in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Marsaskala"@en ;
+	lcc-cr:hasLocalShortName "Marsaskala"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Marsaxlokk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marsaxlokk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Marsaxlokk in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Marsaxlokk"@en ;
+	lcc-cr:hasLocalShortName "Marsaxlokk"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Mdina
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mdina" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Mdina in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Mdina"@en ;
+	lcc-cr:hasLocalShortName "Mdina"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Melliea
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mellieħa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Mellieħa in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Mellieħa"@en ;
+	lcc-cr:hasLocalShortName "Mellieħa"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Mgarr
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mġarr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Mġarr in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Mġarr"@en ;
+	lcc-cr:hasLocalShortName "Mġarr"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Mosta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mosta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Mosta in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Mosta"@en ;
+	lcc-cr:hasLocalShortName "Mosta"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Mqabba
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mqabba" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Mqabba in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Mqabba"@en ;
+	lcc-cr:hasLocalShortName "Mqabba"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Msida
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Msida" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Msida in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Msida"@en ;
+	lcc-cr:hasLocalShortName "Msida"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Mtarfa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Mtarfa" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Mtarfa in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Mtarfa"@en ;
+	lcc-cr:hasLocalShortName "Mtarfa"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Munxar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Munxar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Munxar in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Munxar"@en ;
+	lcc-cr:hasLocalShortName "Munxar"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Nadur
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nadur" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Nadur in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Nadur"@en ;
+	lcc-cr:hasLocalShortName "Nadur"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Naxxar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Naxxar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Naxxar in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Naxxar"@en ;
+	lcc-cr:hasLocalShortName "Naxxar"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Paola
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paola" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Paola in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Paola"@en ;
+	lcc-cr:hasLocalShortName "Paola"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Pembroke
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pembroke" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Pembroke in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Pembroke"@en ;
+	lcc-cr:hasLocalShortName "Pembroke"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Pieta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Pietà" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Pietà in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Pietà"@en ;
+	lcc-cr:hasLocalShortName "Pietà"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Qala
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qala" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Qala in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Qala"@en ;
+	lcc-cr:hasLocalShortName "Qala"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Qormi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qormi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Qormi in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Qormi"@en ;
+	lcc-cr:hasLocalShortName "Qormi"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Qrendi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Qrendi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Qrendi in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Qrendi"@en ;
+	lcc-cr:hasLocalShortName "Qrendi"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:RabatGozo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rabat Gozo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Rabat Gozo in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Rabat Gozo"@en ;
+	lcc-cr:hasLocalShortName "Rabat Għawdex"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:RabatMalta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rabat Malta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Rabat Malta in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Rabat Malta"@en ;
+	lcc-cr:hasLocalShortName "Rabat Malta"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Safi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Safi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Safi in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Safi"@en ;
+	lcc-cr:hasLocalShortName "Safi"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:SaintJohn
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint John" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Saint John in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Saint John"@en ;
+	lcc-cr:hasLocalShortName "San Ġwann"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:SaintJulians
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Julian's" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Saint Julian's in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Saint Julian's"@en ;
+	lcc-cr:hasLocalShortName "San Ġiljan"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:SaintLawrence
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Lawrence" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Saint Lawrence in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Saint Lawrence"@en ;
+	lcc-cr:hasLocalShortName "San Lawrenz"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:SaintLucias
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Lucia's" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Saint Lucia's in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Saint Lucia's"@en ;
+	lcc-cr:hasLocalShortName "Santa Luċija"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:SaintPaulsBay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saint Paul's Bay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Saint Paul's Bay in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Saint Paul's Bay"@en ;
+	lcc-cr:hasLocalShortName "San Pawl il-Baħar"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Sannat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sannat" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Sannat in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Sannat"@en ;
+	lcc-cr:hasLocalShortName "Sannat"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:SantaVenera
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Santa Venera" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Santa Venera in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Santa Venera"@en ;
+	lcc-cr:hasLocalShortName "Santa Venera"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Siggiewi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Siġġiewi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Siġġiewi in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Siġġiewi"@en ;
+	lcc-cr:hasLocalShortName "Siġġiewi"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Sliema
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sliema" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Sliema in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Sliema"@en ;
+	lcc-cr:hasLocalShortName "Sliema"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Swieqi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Swieqi" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Swieqi in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Swieqi"@en ;
+	lcc-cr:hasLocalShortName "Swieqi"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:TaXbiex
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ta' Xbiex" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Ta' Xbiex in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Ta' Xbiex"@en ;
+	lcc-cr:hasLocalShortName "Ta' Xbiex"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Tarxien
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tarxien" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Tarxien in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Tarxien"@en ;
+	lcc-cr:hasLocalShortName "Tarxien"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Valletta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Valletta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Valletta in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Valletta"@en ;
+	lcc-cr:hasLocalShortName "Valletta"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Xagra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xagħra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Xagħra in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Xagħra"@en ;
+	lcc-cr:hasLocalShortName "Xagħra"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Xewkija
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xewkija" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Xewkija in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Xewkija"@en ;
+	lcc-cr:hasLocalShortName "Xewkija"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Xgajra
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Xgħajra" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Xgħajra in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Xgħajra"@en ;
+	lcc-cr:hasLocalShortName "Xgħajra"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Zabbar
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Żabbar" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Żabbar in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Żabbar"@en ;
+	lcc-cr:hasLocalShortName "Żabbar"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:ZebbugGozo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Żebbuġ Gozo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Żebbuġ Gozo in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Żebbuġ Gozo"@en ;
+	lcc-cr:hasLocalShortName "Żebbuġ Għawdex"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:ZebbugMalta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Żebbuġ Malta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Żebbuġ Malta in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Żebbuġ Malta"@en ;
+	lcc-cr:hasLocalShortName "Żebbuġ Malta"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Zejtun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Żejtun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Żejtun in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Żejtun"@en ;
+	lcc-cr:hasLocalShortName "Żejtun"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:Zurrieq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Żurrieq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Żurrieq in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Żurrieq"@en ;
+	lcc-cr:hasLocalShortName "Żurrieq"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+
+lcc-3166-2-mt:amrun
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ħamrun" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-MT/> ;
+	skos:definition "The local council of Ħamrun in the country of Malta" ;
+	lcc-cr:hasEnglishShortName "Ħamrun"@en ;
+	lcc-cr:hasLocalShortName "Ħamrun"@mt ;
+	lcc-cr:isClassifiedBy lcc-3166-2-mt:LocalCouncil ;
+	lcc-cr:isSubregionOf lcc-3166-1:Malta ;
+	.
+

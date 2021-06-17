@@ -1,0 +1,336 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-lc: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Saint Lucia Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-lc" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Saint Lucia, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-LC.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	.
+
+lcc-3166-2-lc:AnseLaRaye
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Anse la Raye" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Anse la Raye in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Anse la Raye"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:Canaries
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Canaries" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Canaries in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Canaries"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:Castries
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Castries" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Castries in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Castries"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:Choiseul
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Choiseul" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Choiseul in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Choiseul"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:Dennery
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dennery" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Dennery in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Dennery"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision category district in the country of Saint Lucia" ;
+	.
+
+lcc-3166-2-lc:GrosIslet
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gros Islet" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Gros Islet in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Gros Islet"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:LC-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Anse la Raye in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:AnseLaRaye ;
+	lcc-lr:hasTag "LC-01" ;
+	lcc-lr:identifies lcc-3166-2-lc:AnseLaRaye ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Castries in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:Castries ;
+	lcc-lr:hasTag "LC-02" ;
+	lcc-lr:identifies lcc-3166-2-lc:Castries ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Choiseul in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:Choiseul ;
+	lcc-lr:hasTag "LC-03" ;
+	lcc-lr:identifies lcc-3166-2-lc:Choiseul ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Dennery in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:Dennery ;
+	lcc-lr:hasTag "LC-05" ;
+	lcc-lr:identifies lcc-3166-2-lc:Dennery ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-06
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-06" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Gros Islet in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:GrosIslet ;
+	lcc-lr:hasTag "LC-06" ;
+	lcc-lr:identifies lcc-3166-2-lc:GrosIslet ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-07
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-07" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Laborie in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:Laborie ;
+	lcc-lr:hasTag "LC-07" ;
+	lcc-lr:identifies lcc-3166-2-lc:Laborie ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-08
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-08" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Micoud in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:Micoud ;
+	lcc-lr:hasTag "LC-08" ;
+	lcc-lr:identifies lcc-3166-2-lc:Micoud ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-10
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-10" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Soufrière in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:Soufriere ;
+	lcc-lr:hasTag "LC-10" ;
+	lcc-lr:identifies lcc-3166-2-lc:Soufriere ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-11
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-11" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Vieux Fort in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:VieuxFort ;
+	lcc-lr:hasTag "LC-11" ;
+	lcc-lr:identifies lcc-3166-2-lc:VieuxFort ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:LC-12
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "LC-12" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "subdivision code for the district of Canaries in the country of Saint Lucia" ;
+	lcc-lr:denotes lcc-3166-2-lc:Canaries ;
+	lcc-lr:hasTag "LC-12" ;
+	lcc-lr:identifies lcc-3166-2-lc:Canaries ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-lc:Laborie
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Laborie" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Laborie in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Laborie"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:Micoud
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Micoud" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Micoud in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Micoud"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:Soufriere
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Soufrière" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Soufrière in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Soufrière"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-2-lc:VieuxFort
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Vieux Fort" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-LC/> ;
+	skos:definition "The district of Vieux Fort in the country of Saint Lucia" ;
+	lcc-cr:hasEnglishShortName "Vieux Fort"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-lc:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:SaintLucia ;
+	.
+

@@ -1,0 +1,336 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-ss: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for South Sudan Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-ss" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for South Sudan, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SS.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	.
+
+lcc-3166-2-ss:CentralEquatoria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Central Equatoria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Central Equatoria in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Central Equatoria"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:EasternEquatoria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern Equatoria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Eastern Equatoria in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Eastern Equatoria"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:Jonglei
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jonglei" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Jonglei in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Jonglei"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:Lakes
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Lakes" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Lakes in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Lakes"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:NorthernBahrElGhazal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern Bahr el Ghazal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Northern Bahr el Ghazal in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Northern Bahr el Ghazal"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:SS-BN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-BN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Northern Bahr el Ghazal in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:NorthernBahrElGhazal ;
+	lcc-lr:hasTag "SS-BN" ;
+	lcc-lr:identifies lcc-3166-2-ss:NorthernBahrElGhazal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-BW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-BW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Western Bahr el  Ghazal in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:WesternBahrElGhazal ;
+	lcc-lr:hasTag "SS-BW" ;
+	lcc-lr:identifies lcc-3166-2-ss:WesternBahrElGhazal ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-EC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-EC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Central Equatoria in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:CentralEquatoria ;
+	lcc-lr:hasTag "SS-EC" ;
+	lcc-lr:identifies lcc-3166-2-ss:CentralEquatoria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-EE
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-EE" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Eastern Equatoria in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:EasternEquatoria ;
+	lcc-lr:hasTag "SS-EE" ;
+	lcc-lr:identifies lcc-3166-2-ss:EasternEquatoria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-EW
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-EW" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Western Equatoria in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:WesternEquatoria ;
+	lcc-lr:hasTag "SS-EW" ;
+	lcc-lr:identifies lcc-3166-2-ss:WesternEquatoria ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-JG
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-JG" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Jonglei in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:Jonglei ;
+	lcc-lr:hasTag "SS-JG" ;
+	lcc-lr:identifies lcc-3166-2-ss:Jonglei ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-LK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-LK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Lakes in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:Lakes ;
+	lcc-lr:hasTag "SS-LK" ;
+	lcc-lr:identifies lcc-3166-2-ss:Lakes ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-NU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-NU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Upper Nile in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:UpperNile ;
+	lcc-lr:hasTag "SS-NU" ;
+	lcc-lr:identifies lcc-3166-2-ss:UpperNile ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-UY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-UY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Unity in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:Unity ;
+	lcc-lr:hasTag "SS-UY" ;
+	lcc-lr:identifies lcc-3166-2-ss:Unity ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:SS-WR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SS-WR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision code for the state of Warrap in the country of South Sudan" ;
+	lcc-lr:denotes lcc-3166-2-ss:Warrap ;
+	lcc-lr:hasTag "SS-WR" ;
+	lcc-lr:identifies lcc-3166-2-ss:Warrap ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-ss:State
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "state" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "subdivision category state in the country of South Sudan" ;
+	.
+
+lcc-3166-2-ss:Unity
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Unity" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Unity in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Unity"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:UpperNile
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Upper Nile" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Upper Nile in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Upper Nile"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:Warrap
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Warrap" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Warrap in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Warrap"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:WesternBahrElGhazal
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western Bahr el  Ghazal" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Western Bahr el  Ghazal in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Western Bahr el  Ghazal"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-2-ss:WesternEquatoria
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western Equatoria" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SS/> ;
+	skos:definition "The state of Western Equatoria in the country of South Sudan" ;
+	lcc-cr:hasEnglishShortName "Western Equatoria"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-ss:State ;
+	lcc-cr:isSubregionOf lcc-3166-1:SouthSudan ;
+	.
+

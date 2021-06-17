@@ -1,0 +1,624 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-nz: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for New Zealand Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-nz" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for New Zealand, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-NZ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	.
+
+lcc-3166-2-nz:AntipodesIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Antipodes Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The territory of Antipodes Islands in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Antipodes Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Antipodes"@fr ;
+	lcc-cr:hasNumericRegionCode "1007" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Auckland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Auckland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Auckland in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Auckland"@en ;
+	lcc-cr:hasLocalShortName "Tāmaki-makau-rau"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:AucklandIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Auckland Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The territory of Auckland Islands in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Auckland Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Auckland"@fr ;
+	lcc-cr:hasNumericRegionCode "1010" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:BayOfPlenty
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Bay of Plenty" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Bay of Plenty in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Bay of Plenty"@en ;
+	lcc-cr:hasLocalShortName "Te Moana a Toi Te Huatahi"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:CampbellIsland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Campbell Island" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The territory of Campbell Island in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Campbell Island"@en ;
+	lcc-cr:hasFrenchShortName "l'Île Campbell"@fr ;
+	lcc-cr:hasNumericRegionCode "1033" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Canterbury
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Canterbury" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Canterbury in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Canterbury"@en ;
+	lcc-cr:hasLocalShortName "Waitaha"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:ChathamIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Chatham Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The territory of Chatham Islands in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Chatham Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Chatham"@fr ;
+	lcc-cr:hasNumericRegionCode "1041" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:ChathamIslandsTerritory
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Chatham Islands Territory" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The special island authority of Chatham Islands Territory in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Chatham Islands Territory"@en ;
+	lcc-cr:hasLocalShortName "Wharekauri"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:SpecialIslandAuthority ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Gisborne
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Gisborne" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Gisborne in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Gisborne"@en ;
+	lcc-cr:hasLocalShortName "Tūranga nui a Kiwa"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:HawkesBay
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Hawke's Bay" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Hawke's Bay in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Hawke's Bay"@en ;
+	lcc-cr:hasLocalShortName "Te Matau a Māui"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:KermadecIslands
+	a
+		owl:NamedIndividual ,
+		lcc-cr:Territory
+		;
+	rdfs:label "Kermadec Islands" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The territory of Kermadec Islands in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Kermadec Islands"@en ;
+	lcc-cr:hasFrenchShortName "les Îles Kermadec"@fr ;
+	lcc-cr:hasNumericRegionCode "1097" ;
+	lcc-cr:isClassifiedBy lcc-3166-2:Territory ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Manawatu-Wanganui
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Manawatu-Wanganui" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Manawatu-Wanganui in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Manawatu-Wanganui"@en ;
+	lcc-cr:hasLocalShortName "Manawatu Whanganui"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Marlborough
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marlborough" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Marlborough in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Marlborough"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:NZ-AUK
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-AUK" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Auckland in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Auckland ;
+	lcc-lr:hasTag "NZ-AUK" ;
+	lcc-lr:identifies lcc-3166-2-nz:Auckland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-BOP
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-BOP" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Bay of Plenty in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:BayOfPlenty ;
+	lcc-lr:hasTag "NZ-BOP" ;
+	lcc-lr:identifies lcc-3166-2-nz:BayOfPlenty ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-CAN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-CAN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Canterbury in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Canterbury ;
+	lcc-lr:hasTag "NZ-CAN" ;
+	lcc-lr:identifies lcc-3166-2-nz:Canterbury ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-CIT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-CIT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the special island authority of Chatham Islands Territory in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:ChathamIslandsTerritory ;
+	lcc-lr:hasTag "NZ-CIT" ;
+	lcc-lr:identifies lcc-3166-2-nz:ChathamIslandsTerritory ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-GIS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-GIS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Gisborne in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Gisborne ;
+	lcc-lr:hasTag "NZ-GIS" ;
+	lcc-lr:identifies lcc-3166-2-nz:Gisborne ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-HKB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-HKB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Hawke's Bay in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:HawkesBay ;
+	lcc-lr:hasTag "NZ-HKB" ;
+	lcc-lr:identifies lcc-3166-2-nz:HawkesBay ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-MBH
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-MBH" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Marlborough in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Marlborough ;
+	lcc-lr:hasTag "NZ-MBH" ;
+	lcc-lr:identifies lcc-3166-2-nz:Marlborough ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-MWT
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-MWT" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Manawatu-Wanganui in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Manawatu-Wanganui ;
+	lcc-lr:hasTag "NZ-MWT" ;
+	lcc-lr:identifies lcc-3166-2-nz:Manawatu-Wanganui ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-NSN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-NSN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Nelson in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Nelson ;
+	lcc-lr:hasTag "NZ-NSN" ;
+	lcc-lr:identifies lcc-3166-2-nz:Nelson ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-NTL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-NTL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Northland in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Northland ;
+	lcc-lr:hasTag "NZ-NTL" ;
+	lcc-lr:identifies lcc-3166-2-nz:Northland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-OTA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-OTA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Otago in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Otago ;
+	lcc-lr:hasTag "NZ-OTA" ;
+	lcc-lr:identifies lcc-3166-2-nz:Otago ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-STL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-STL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Southland in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Southland ;
+	lcc-lr:hasTag "NZ-STL" ;
+	lcc-lr:identifies lcc-3166-2-nz:Southland ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-TAS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-TAS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Tasman in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Tasman ;
+	lcc-lr:hasTag "NZ-TAS" ;
+	lcc-lr:identifies lcc-3166-2-nz:Tasman ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-TKI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-TKI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Taranaki in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Taranaki ;
+	lcc-lr:hasTag "NZ-TKI" ;
+	lcc-lr:identifies lcc-3166-2-nz:Taranaki ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-WGN
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-WGN" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Wellington in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Wellington ;
+	lcc-lr:hasTag "NZ-WGN" ;
+	lcc-lr:identifies lcc-3166-2-nz:Wellington ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-WKO
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-WKO" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of Waikato in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:Waikato ;
+	lcc-lr:hasTag "NZ-WKO" ;
+	lcc-lr:identifies lcc-3166-2-nz:Waikato ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:NZ-WTC
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "NZ-WTC" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision code for the region of West Coast in the country of New Zealand" ;
+	lcc-lr:denotes lcc-3166-2-nz:WestCoast ;
+	lcc-lr:hasTag "NZ-WTC" ;
+	lcc-lr:identifies lcc-3166-2-nz:WestCoast ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-nz:Nelson
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nelson" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Nelson in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Nelson"@en ;
+	lcc-cr:hasLocalShortName "Whakatū"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Northland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Northland in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Northland"@en ;
+	lcc-cr:hasLocalShortName "Te Tai tokerau"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Otago
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Otago" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Otago in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Otago"@en ;
+	lcc-cr:hasLocalShortName "Ō Tākou"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision category region in the country of New Zealand" ;
+	.
+
+lcc-3166-2-nz:Southland
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southland" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Southland in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Southland"@en ;
+	lcc-cr:hasLocalShortName "Murihiku"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:SpecialIslandAuthority
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "special island authority" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "subdivision category special island authority in the country of New Zealand" ;
+	.
+
+lcc-3166-2-nz:Taranaki
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Taranaki" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Taranaki in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Taranaki"@en ;
+	lcc-cr:hasLocalShortName "Taranaki"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Tasman
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tasman" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Tasman in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Tasman"@en ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Waikato
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Waikato" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Waikato in the country of New Zealand" ;
+	lcc-cr:hasLocalShortName "Waikato"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:Wellington
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wellington" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of Wellington in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "Wellington"@en ;
+	lcc-cr:hasLocalShortName "Te Whanga-nui-a-Tara"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-2-nz:WestCoast
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "West Coast" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-NZ/> ;
+	skos:definition "The region of West Coast in the country of New Zealand" ;
+	lcc-cr:hasEnglishShortName "West Coast"@en ;
+	lcc-cr:hasLocalShortName "Te Taihau ā uru"@mi ;
+	lcc-cr:isClassifiedBy lcc-3166-2-nz:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:NewZealand ;
+	.
+

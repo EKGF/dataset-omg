@@ -1,0 +1,1281 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+
+@base <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-1-adj: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes-Adjunct/>
+	a owl:Ontology ;
+	rdfs:label "ISO 3166-1 Country Codes Adjunct Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00" ;
+	dct:license "http://www.omg.org/techprocess/ab/SpecificationMetadata/MITLicense"^^xsd:anyURI ;
+	sm:copyright """Copyright (c) 2019 Object Management Group, Inc.
+        Copyright (c) 2018-2019 Adaptive Inc.
+      """ ;
+	sm:fileAbbreviation "lcc-3166-1-adj" ;
+	sm:fileAbstract "This ontology represents an additional set of URIs for ISO 3166-1 countries, based on their 2-char codes." ;
+	sm:filename "ISO3166-1-CountryCodes-Adjunct.rdf" ;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/ISO3166-1-CountryCodes-Adjunct/> ;
+	skos:changeNote "This ontology was added by the LCC 1.1 RTF" ;
+	.
+
+lcc-3166-1-adj:AD
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Andorra ;
+	.
+
+lcc-3166-1-adj:AE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:UnitedArabEmirates ;
+	.
+
+lcc-3166-1-adj:AF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Afghanistan ;
+	.
+
+lcc-3166-1-adj:AG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:AntiguaAndBarbuda ;
+	.
+
+lcc-3166-1-adj:AI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Anguilla ;
+	.
+
+lcc-3166-1-adj:AL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Albania ;
+	.
+
+lcc-3166-1-adj:AM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Armenia ;
+	.
+
+lcc-3166-1-adj:AO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Angola ;
+	.
+
+lcc-3166-1-adj:AQ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Antarctica ;
+	.
+
+lcc-3166-1-adj:AR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Argentina ;
+	.
+
+lcc-3166-1-adj:AS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:AmericanSamoa ;
+	.
+
+lcc-3166-1-adj:AT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Austria ;
+	.
+
+lcc-3166-1-adj:AU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Australia ;
+	.
+
+lcc-3166-1-adj:AW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Aruba ;
+	.
+
+lcc-3166-1-adj:AX
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:AlandIslands ;
+	.
+
+lcc-3166-1-adj:AZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Azerbaijan ;
+	.
+
+lcc-3166-1-adj:BA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:BosniaAndHerzegovina ;
+	.
+
+lcc-3166-1-adj:BB
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Barbados ;
+	.
+
+lcc-3166-1-adj:BD
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bangladesh ;
+	.
+
+lcc-3166-1-adj:BE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Belgium ;
+	.
+
+lcc-3166-1-adj:BF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:BurkinaFaso ;
+	.
+
+lcc-3166-1-adj:BG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bulgaria ;
+	.
+
+lcc-3166-1-adj:BH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bahrain ;
+	.
+
+lcc-3166-1-adj:BI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Burundi ;
+	.
+
+lcc-3166-1-adj:BJ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Benin ;
+	.
+
+lcc-3166-1-adj:BL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaintBarthelemy ;
+	.
+
+lcc-3166-1-adj:BM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bermuda ;
+	.
+
+lcc-3166-1-adj:BN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:BruneiDarussalam ;
+	.
+
+lcc-3166-1-adj:BO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bolivia ;
+	.
+
+lcc-3166-1-adj:BQ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bonaire ;
+	.
+
+lcc-3166-1-adj:BR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Brazil ;
+	.
+
+lcc-3166-1-adj:BS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bahamas ;
+	.
+
+lcc-3166-1-adj:BT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Bhutan ;
+	.
+
+lcc-3166-1-adj:BV
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:BouvetIsland ;
+	.
+
+lcc-3166-1-adj:BW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Botswana ;
+	.
+
+lcc-3166-1-adj:BY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Belarus ;
+	.
+
+lcc-3166-1-adj:BZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Belize ;
+	.
+
+lcc-3166-1-adj:CA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Canada ;
+	.
+
+lcc-3166-1-adj:CC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CocosKeelingIslands ;
+	.
+
+lcc-3166-1-adj:CD
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CongoDemocraticRepublicOf ;
+	.
+
+lcc-3166-1-adj:CF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CentralAfricanRepublic ;
+	.
+
+lcc-3166-1-adj:CG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Congo ;
+	.
+
+lcc-3166-1-adj:CH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Switzerland ;
+	.
+
+lcc-3166-1-adj:CI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CoteDIvoire ;
+	.
+
+lcc-3166-1-adj:CK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CookIslands ;
+	.
+
+lcc-3166-1-adj:CL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Chile ;
+	.
+
+lcc-3166-1-adj:CM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Cameroon ;
+	.
+
+lcc-3166-1-adj:CN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:China ;
+	.
+
+lcc-3166-1-adj:CO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Colombia ;
+	.
+
+lcc-3166-1-adj:CR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CostaRica ;
+	.
+
+lcc-3166-1-adj:CU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Cuba ;
+	.
+
+lcc-3166-1-adj:CV
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CaboVerde ;
+	.
+
+lcc-3166-1-adj:CW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Curacao ;
+	.
+
+lcc-3166-1-adj:CX
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:ChristmasIsland ;
+	.
+
+lcc-3166-1-adj:CY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Cyprus ;
+	.
+
+lcc-3166-1-adj:CZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Czechia ;
+	.
+
+lcc-3166-1-adj:DE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Germany ;
+	.
+
+lcc-3166-1-adj:DJ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Djibouti ;
+	.
+
+lcc-3166-1-adj:DK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Denmark ;
+	.
+
+lcc-3166-1-adj:DM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Dominica ;
+	.
+
+lcc-3166-1-adj:DO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:DominicanRepublic ;
+	.
+
+lcc-3166-1-adj:DZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Algeria ;
+	.
+
+lcc-3166-1-adj:EC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Ecuador ;
+	.
+
+lcc-3166-1-adj:EE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Estonia ;
+	.
+
+lcc-3166-1-adj:EG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Egypt ;
+	.
+
+lcc-3166-1-adj:EH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:WesternSahara ;
+	.
+
+lcc-3166-1-adj:ER
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Eritrea ;
+	.
+
+lcc-3166-1-adj:ES
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Spain ;
+	.
+
+lcc-3166-1-adj:ET
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Ethiopia ;
+	.
+
+lcc-3166-1-adj:FI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Finland ;
+	.
+
+lcc-3166-1-adj:FJ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Fiji ;
+	.
+
+lcc-3166-1-adj:FK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:FalklandIslands ;
+	.
+
+lcc-3166-1-adj:FM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Micronesia ;
+	.
+
+lcc-3166-1-adj:FO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:FaroeIslands ;
+	.
+
+lcc-3166-1-adj:FR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:France ;
+	.
+
+lcc-3166-1-adj:GA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Gabon ;
+	.
+
+lcc-3166-1-adj:GB
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:UnitedKingdomOfGreatBritainAndNorthernIreland ;
+	.
+
+lcc-3166-1-adj:GD
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Grenada ;
+	.
+
+lcc-3166-1-adj:GE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Georgia ;
+	.
+
+lcc-3166-1-adj:GF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:FrenchGuiana ;
+	.
+
+lcc-3166-1-adj:GG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Guernsey ;
+	.
+
+lcc-3166-1-adj:GH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Ghana ;
+	.
+
+lcc-3166-1-adj:GI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Gibraltar ;
+	.
+
+lcc-3166-1-adj:GL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Greenland ;
+	.
+
+lcc-3166-1-adj:GM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Gambia ;
+	.
+
+lcc-3166-1-adj:GN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Guinea ;
+	.
+
+lcc-3166-1-adj:GP
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Guadeloupe ;
+	.
+
+lcc-3166-1-adj:GQ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:EquatorialGuinea ;
+	.
+
+lcc-3166-1-adj:GR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Greece ;
+	.
+
+lcc-3166-1-adj:GS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SouthGeorgiaAndTheSouthSandwichIslands ;
+	.
+
+lcc-3166-1-adj:GT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Guatemala ;
+	.
+
+lcc-3166-1-adj:GU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Guam ;
+	.
+
+lcc-3166-1-adj:GW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Guinea-Bissau ;
+	.
+
+lcc-3166-1-adj:GY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Guyana ;
+	.
+
+lcc-3166-1-adj:HK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:HongKong ;
+	.
+
+lcc-3166-1-adj:HM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:HeardIslandAndMcDonaldIslands ;
+	.
+
+lcc-3166-1-adj:HN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Honduras ;
+	.
+
+lcc-3166-1-adj:HR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Croatia ;
+	.
+
+lcc-3166-1-adj:HT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Haiti ;
+	.
+
+lcc-3166-1-adj:HU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Hungary ;
+	.
+
+lcc-3166-1-adj:ID
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Indonesia ;
+	.
+
+lcc-3166-1-adj:IE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Ireland ;
+	.
+
+lcc-3166-1-adj:IL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Israel ;
+	.
+
+lcc-3166-1-adj:IM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:IsleOfMan ;
+	.
+
+lcc-3166-1-adj:IN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:India ;
+	.
+
+lcc-3166-1-adj:IO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:BritishIndianOceanTerritory ;
+	.
+
+lcc-3166-1-adj:IQ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Iraq ;
+	.
+
+lcc-3166-1-adj:IR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Iran ;
+	.
+
+lcc-3166-1-adj:IS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Iceland ;
+	.
+
+lcc-3166-1-adj:IT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Italy ;
+	.
+
+lcc-3166-1-adj:JE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Jersey ;
+	.
+
+lcc-3166-1-adj:JM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Jamaica ;
+	.
+
+lcc-3166-1-adj:JO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Jordan ;
+	.
+
+lcc-3166-1-adj:JP
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Japan ;
+	.
+
+lcc-3166-1-adj:KE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Kenya ;
+	.
+
+lcc-3166-1-adj:KG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Kyrgyzstan ;
+	.
+
+lcc-3166-1-adj:KH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Cambodia ;
+	.
+
+lcc-3166-1-adj:KI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Kiribati ;
+	.
+
+lcc-3166-1-adj:KM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Comoros ;
+	.
+
+lcc-3166-1-adj:KN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaintKittsAndNevis ;
+	.
+
+lcc-3166-1-adj:KP
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:KoreaDemocraticPeoplesRepublicOf ;
+	.
+
+lcc-3166-1-adj:KR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:KoreaRepublicOf ;
+	.
+
+lcc-3166-1-adj:KW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Kuwait ;
+	.
+
+lcc-3166-1-adj:KY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:CaymanIslands ;
+	.
+
+lcc-3166-1-adj:KZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Kazakhstan ;
+	.
+
+lcc-3166-1-adj:LA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:LaoPeoplesDemocraticRepublic ;
+	.
+
+lcc-3166-1-adj:LB
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Lebanon ;
+	.
+
+lcc-3166-1-adj:LC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaintLucia ;
+	.
+
+lcc-3166-1-adj:LI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Liechtenstein ;
+	.
+
+lcc-3166-1-adj:LK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SriLanka ;
+	.
+
+lcc-3166-1-adj:LR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Liberia ;
+	.
+
+lcc-3166-1-adj:LS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Lesotho ;
+	.
+
+lcc-3166-1-adj:LT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Lithuania ;
+	.
+
+lcc-3166-1-adj:LU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Luxembourg ;
+	.
+
+lcc-3166-1-adj:LV
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Latvia ;
+	.
+
+lcc-3166-1-adj:LY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Libya ;
+	.
+
+lcc-3166-1-adj:MA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Morocco ;
+	.
+
+lcc-3166-1-adj:MC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Monaco ;
+	.
+
+lcc-3166-1-adj:MD
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Moldova ;
+	.
+
+lcc-3166-1-adj:ME
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Montenegro ;
+	.
+
+lcc-3166-1-adj:MF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaintMartin ;
+	.
+
+lcc-3166-1-adj:MG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Madagascar ;
+	.
+
+lcc-3166-1-adj:MH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:MarshallIslands ;
+	.
+
+lcc-3166-1-adj:MK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Macedonia ;
+	.
+
+lcc-3166-1-adj:ML
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Mali ;
+	.
+
+lcc-3166-1-adj:MM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Myanmar ;
+	.
+
+lcc-3166-1-adj:MN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Mongolia ;
+	.
+
+lcc-3166-1-adj:MO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Macao ;
+	.
+
+lcc-3166-1-adj:MP
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:NorthernMarianaIslands ;
+	.
+
+lcc-3166-1-adj:MQ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Martinique ;
+	.
+
+lcc-3166-1-adj:MR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Mauritania ;
+	.
+
+lcc-3166-1-adj:MS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Montserrat ;
+	.
+
+lcc-3166-1-adj:MT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Malta ;
+	.
+
+lcc-3166-1-adj:MU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Mauritius ;
+	.
+
+lcc-3166-1-adj:MV
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Maldives ;
+	.
+
+lcc-3166-1-adj:MW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Malawi ;
+	.
+
+lcc-3166-1-adj:MX
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Mexico ;
+	.
+
+lcc-3166-1-adj:MY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Malaysia ;
+	.
+
+lcc-3166-1-adj:MZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Mozambique ;
+	.
+
+lcc-3166-1-adj:NA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Namibia ;
+	.
+
+lcc-3166-1-adj:NC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:NewCaledonia ;
+	.
+
+lcc-3166-1-adj:NE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Niger ;
+	.
+
+lcc-3166-1-adj:NF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:NorfolkIsland ;
+	.
+
+lcc-3166-1-adj:NG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Nigeria ;
+	.
+
+lcc-3166-1-adj:NI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Nicaragua ;
+	.
+
+lcc-3166-1-adj:NL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Netherlands ;
+	.
+
+lcc-3166-1-adj:NO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Norway ;
+	.
+
+lcc-3166-1-adj:NP
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Nepal ;
+	.
+
+lcc-3166-1-adj:NR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Nauru ;
+	.
+
+lcc-3166-1-adj:NU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Niue ;
+	.
+
+lcc-3166-1-adj:NZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:NewZealand ;
+	.
+
+lcc-3166-1-adj:OM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Oman ;
+	.
+
+lcc-3166-1-adj:PA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Panama ;
+	.
+
+lcc-3166-1-adj:PE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Peru ;
+	.
+
+lcc-3166-1-adj:PF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:FrenchPolynesia ;
+	.
+
+lcc-3166-1-adj:PG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:PapuaNewGuinea ;
+	.
+
+lcc-3166-1-adj:PH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Philippines ;
+	.
+
+lcc-3166-1-adj:PK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Pakistan ;
+	.
+
+lcc-3166-1-adj:PL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Poland ;
+	.
+
+lcc-3166-1-adj:PM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaintPierreAndMiquelon ;
+	.
+
+lcc-3166-1-adj:PN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Pitcairn ;
+	.
+
+lcc-3166-1-adj:PR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:PuertoRico ;
+	.
+
+lcc-3166-1-adj:PS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Palestine ;
+	.
+
+lcc-3166-1-adj:PT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Portugal ;
+	.
+
+lcc-3166-1-adj:PW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Palau ;
+	.
+
+lcc-3166-1-adj:PY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Paraguay ;
+	.
+
+lcc-3166-1-adj:QA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Qatar ;
+	.
+
+lcc-3166-1-adj:RE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Reunion ;
+	.
+
+lcc-3166-1-adj:RO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Romania ;
+	.
+
+lcc-3166-1-adj:RS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Serbia ;
+	.
+
+lcc-3166-1-adj:RU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:RussianFederation ;
+	.
+
+lcc-3166-1-adj:RW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Rwanda ;
+	.
+
+lcc-3166-1-adj:SA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaudiArabia ;
+	.
+
+lcc-3166-1-adj:SB
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SolomonIslands ;
+	.
+
+lcc-3166-1-adj:SC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Seychelles ;
+	.
+
+lcc-3166-1-adj:SD
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Sudan ;
+	.
+
+lcc-3166-1-adj:SE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Sweden ;
+	.
+
+lcc-3166-1-adj:SG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Singapore ;
+	.
+
+lcc-3166-1-adj:SH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaintHelena ;
+	.
+
+lcc-3166-1-adj:SI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Slovenia ;
+	.
+
+lcc-3166-1-adj:SJ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SvalbardAndJanMayen ;
+	.
+
+lcc-3166-1-adj:SK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Slovakia ;
+	.
+
+lcc-3166-1-adj:SL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SierraLeone ;
+	.
+
+lcc-3166-1-adj:SM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SanMarino ;
+	.
+
+lcc-3166-1-adj:SN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Senegal ;
+	.
+
+lcc-3166-1-adj:SO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Somalia ;
+	.
+
+lcc-3166-1-adj:SR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-1-adj:SS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SouthSudan ;
+	.
+
+lcc-3166-1-adj:ST
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaoTomeAndPrincipe ;
+	.
+
+lcc-3166-1-adj:SV
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:ElSalvador ;
+	.
+
+lcc-3166-1-adj:SX
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SintMaarten ;
+	.
+
+lcc-3166-1-adj:SY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-1-adj:SZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Eswatini ;
+	.
+
+lcc-3166-1-adj:TC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:TurksAndCaicosIslands ;
+	.
+
+lcc-3166-1-adj:TD
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Chad ;
+	.
+
+lcc-3166-1-adj:TF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:FrenchSouthernTerritories ;
+	.
+
+lcc-3166-1-adj:TG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Togo ;
+	.
+
+lcc-3166-1-adj:TH
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Thailand ;
+	.
+
+lcc-3166-1-adj:TJ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Tajikistan ;
+	.
+
+lcc-3166-1-adj:TK
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Tokelau ;
+	.
+
+lcc-3166-1-adj:TL
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Timor-Leste ;
+	.
+
+lcc-3166-1-adj:TM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Turkmenistan ;
+	.
+
+lcc-3166-1-adj:TN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Tunisia ;
+	.
+
+lcc-3166-1-adj:TO
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Tonga ;
+	.
+
+lcc-3166-1-adj:TR
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Turkey ;
+	.
+
+lcc-3166-1-adj:TT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:TrinidadAndTobago ;
+	.
+
+lcc-3166-1-adj:TV
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Tuvalu ;
+	.
+
+lcc-3166-1-adj:TW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Taiwan ;
+	.
+
+lcc-3166-1-adj:TZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Tanzania ;
+	.
+
+lcc-3166-1-adj:UA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Ukraine ;
+	.
+
+lcc-3166-1-adj:UG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Uganda ;
+	.
+
+lcc-3166-1-adj:UM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:UnitedStatesMinorOutlyingIslands ;
+	.
+
+lcc-3166-1-adj:US
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:UnitedStatesOfAmerica ;
+	.
+
+lcc-3166-1-adj:UY
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Uruguay ;
+	.
+
+lcc-3166-1-adj:UZ
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Uzbekistan ;
+	.
+
+lcc-3166-1-adj:VA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:HolySee ;
+	.
+
+lcc-3166-1-adj:VC
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SaintVincentAndTheGrenadines ;
+	.
+
+lcc-3166-1-adj:VE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Venezuela ;
+	.
+
+lcc-3166-1-adj:VG
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:VirginIslandsBritish ;
+	.
+
+lcc-3166-1-adj:VI
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:VirginIslandsUS ;
+	.
+
+lcc-3166-1-adj:VN
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:VietNam ;
+	.
+
+lcc-3166-1-adj:VU
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Vanuatu ;
+	.
+
+lcc-3166-1-adj:WF
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:WallisAndFutuna ;
+	.
+
+lcc-3166-1-adj:WS
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Samoa ;
+	.
+
+lcc-3166-1-adj:YE
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Yemen ;
+	.
+
+lcc-3166-1-adj:YT
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Mayotte ;
+	.
+
+lcc-3166-1-adj:ZA
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:SouthAfrica ;
+	.
+
+lcc-3166-1-adj:ZM
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Zambia ;
+	.
+
+lcc-3166-1-adj:ZW
+	a lcc-cr:Country ;
+	owl:sameAs lcc-3166-1:Zimbabwe ;
+	.
+

@@ -1,0 +1,221 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-rw: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Rwanda Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-rw" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Rwanda, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-RW.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	.
+
+lcc-3166-2-rw:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "subdivision category city in the country of Rwanda" ;
+	.
+
+lcc-3166-2-rw:CityOfKigali
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "City of Kigali" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "The city of City of Kigali in the country of Rwanda" ;
+	lcc-cr:hasEnglishShortName "City of Kigali"@en ;
+	lcc-cr:hasFrenchShortName "Ville de Kigali"@fr ;
+	lcc-cr:hasLocalShortName "Umujyi wa Kigali"@rw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-rw:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Rwanda ;
+	.
+
+lcc-3166-2-rw:Eastern
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Eastern" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "The province of Eastern in the country of Rwanda" ;
+	lcc-cr:hasEnglishShortName "Eastern"@en ;
+	lcc-cr:hasFrenchShortName "Est"@fr ;
+	lcc-cr:hasLocalShortName "Iburasirazuba"@rw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-rw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Rwanda ;
+	.
+
+lcc-3166-2-rw:Northern
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Northern" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "The province of Northern in the country of Rwanda" ;
+	lcc-cr:hasEnglishShortName "Northern"@en ;
+	lcc-cr:hasFrenchShortName "Nord"@fr ;
+	lcc-cr:hasLocalShortName "Amajyaruguru"@rw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-rw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Rwanda ;
+	.
+
+lcc-3166-2-rw:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "subdivision category province in the country of Rwanda" ;
+	.
+
+lcc-3166-2-rw:RW-01
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RW-01" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "subdivision code for the city of City of Kigali in the country of Rwanda" ;
+	lcc-lr:denotes lcc-3166-2-rw:CityOfKigali ;
+	lcc-lr:hasTag "RW-01" ;
+	lcc-lr:identifies lcc-3166-2-rw:CityOfKigali ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-rw:RW-02
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RW-02" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "subdivision code for the province of Eastern in the country of Rwanda" ;
+	lcc-lr:denotes lcc-3166-2-rw:Eastern ;
+	lcc-lr:hasTag "RW-02" ;
+	lcc-lr:identifies lcc-3166-2-rw:Eastern ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-rw:RW-03
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RW-03" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "subdivision code for the province of Northern in the country of Rwanda" ;
+	lcc-lr:denotes lcc-3166-2-rw:Northern ;
+	lcc-lr:hasTag "RW-03" ;
+	lcc-lr:identifies lcc-3166-2-rw:Northern ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-rw:RW-04
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RW-04" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "subdivision code for the province of Western in the country of Rwanda" ;
+	lcc-lr:denotes lcc-3166-2-rw:Western ;
+	lcc-lr:hasTag "RW-04" ;
+	lcc-lr:identifies lcc-3166-2-rw:Western ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-rw:RW-05
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "RW-05" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "subdivision code for the province of Southern in the country of Rwanda" ;
+	lcc-lr:denotes lcc-3166-2-rw:Southern ;
+	lcc-lr:hasTag "RW-05" ;
+	lcc-lr:identifies lcc-3166-2-rw:Southern ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-rw:Southern
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Southern" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "The province of Southern in the country of Rwanda" ;
+	lcc-cr:hasEnglishShortName "Southern"@en ;
+	lcc-cr:hasFrenchShortName "Sud"@fr ;
+	lcc-cr:hasLocalShortName "Amajyepfo"@rw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-rw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Rwanda ;
+	.
+
+lcc-3166-2-rw:Western
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Western" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-RW/> ;
+	skos:definition "The province of Western in the country of Rwanda" ;
+	lcc-cr:hasEnglishShortName "Western"@en ;
+	lcc-cr:hasFrenchShortName "Ouest"@fr ;
+	lcc-cr:hasLocalShortName "Iburengerazuba"@rw ;
+	lcc-cr:isClassifiedBy lcc-3166-2-rw:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:Rwanda ;
+	.
+

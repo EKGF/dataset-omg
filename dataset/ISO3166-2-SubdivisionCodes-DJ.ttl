@@ -1,0 +1,244 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-dj: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Djibouti Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-dj" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Djibouti, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-DJ.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	.
+
+lcc-3166-2-dj:AliSabih
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "‘Alī Şabīḩ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "The region of ‘Alī Şabīḩ in the country of Djibouti" ;
+	lcc-cr:hasFrenchShortName "Ali Sabieh"@fr ;
+	lcc-cr:hasLocalShortName "‘Alī Şabīḩ"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dj:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Djibouti ;
+	.
+
+lcc-3166-2-dj:Arta
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Arta" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "The region of Arta in the country of Djibouti" ;
+	lcc-cr:hasFrenchShortName "Arta"@fr ;
+	lcc-cr:hasLocalShortName "‘Artā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dj:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Djibouti ;
+	.
+
+lcc-3166-2-dj:Awbuk
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Awbūk" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "The region of Awbūk in the country of Djibouti" ;
+	lcc-cr:hasFrenchShortName "Obock"@fr ;
+	lcc-cr:hasLocalShortName "Awbūk"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dj:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Djibouti ;
+	.
+
+lcc-3166-2-dj:City
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "city" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision category city in the country of Djibouti" ;
+	.
+
+lcc-3166-2-dj:DJ-AR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DJ-AR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision code for the region of Arta in the country of Djibouti" ;
+	lcc-lr:denotes lcc-3166-2-dj:Arta ;
+	lcc-lr:hasTag "DJ-AR" ;
+	lcc-lr:identifies lcc-3166-2-dj:Arta ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dj:DJ-AS
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DJ-AS" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision code for the region of ‘Alī Şabīḩ in the country of Djibouti" ;
+	lcc-lr:denotes lcc-3166-2-dj:AliSabih ;
+	lcc-lr:hasTag "DJ-AS" ;
+	lcc-lr:identifies lcc-3166-2-dj:AliSabih ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dj:DJ-DI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DJ-DI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision code for the region of Dikhīl in the country of Djibouti" ;
+	lcc-lr:denotes lcc-3166-2-dj:Dikhil ;
+	lcc-lr:hasTag "DJ-DI" ;
+	lcc-lr:identifies lcc-3166-2-dj:Dikhil ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dj:DJ-DJ
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DJ-DJ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision code for the city of Jībūtī in the country of Djibouti" ;
+	lcc-lr:denotes lcc-3166-2-dj:Jibuti ;
+	lcc-lr:hasTag "DJ-DJ" ;
+	lcc-lr:identifies lcc-3166-2-dj:Jibuti ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dj:DJ-OB
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DJ-OB" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision code for the region of Awbūk in the country of Djibouti" ;
+	lcc-lr:denotes lcc-3166-2-dj:Awbuk ;
+	lcc-lr:hasTag "DJ-OB" ;
+	lcc-lr:identifies lcc-3166-2-dj:Awbuk ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dj:DJ-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "DJ-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision code for the region of Tadjourah in the country of Djibouti" ;
+	lcc-lr:denotes lcc-3166-2-dj:Tadjourah ;
+	lcc-lr:hasTag "DJ-TA" ;
+	lcc-lr:identifies lcc-3166-2-dj:Tadjourah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-dj:Dikhil
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dikhīl" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "The region of Dikhīl in the country of Djibouti" ;
+	lcc-cr:hasFrenchShortName "Dikhil"@fr ;
+	lcc-cr:hasLocalShortName "Dikhīl"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dj:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Djibouti ;
+	.
+
+lcc-3166-2-dj:Jibuti
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Jībūtī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "The city of Jībūtī in the country of Djibouti" ;
+	lcc-cr:hasFrenchShortName "Djibouti"@fr ;
+	lcc-cr:hasLocalShortName "Jībūtī"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dj:City ;
+	lcc-cr:isSubregionOf lcc-3166-1:Djibouti ;
+	.
+
+lcc-3166-2-dj:Region
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "region" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "subdivision category region in the country of Djibouti" ;
+	.
+
+lcc-3166-2-dj:Tadjourah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tadjourah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-DJ/> ;
+	skos:definition "The region of Tadjourah in the country of Djibouti" ;
+	lcc-cr:hasFrenchShortName "Tadjourah"@fr ;
+	lcc-cr:hasLocalShortName "Tājūrah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-dj:Region ;
+	lcc-cr:isSubregionOf lcc-3166-1:Djibouti ;
+	.
+

@@ -1,0 +1,20 @@
+name: build-image
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set short_sha output
+        id: vars
+        run: echo "::set-output name=sha_short::$(git rev-parse --short=7 HEAD)"
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v1.1.0
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_PASSWORD }}
+          repository: ekgf/dataset-omg
+          tags: ${{ steps.vars.outputs.sha_short }}
+          always_pull: true

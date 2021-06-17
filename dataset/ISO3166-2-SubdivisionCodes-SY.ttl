@@ -1,0 +1,444 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sy: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Syrian Arab Republic Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sy" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Syrian Arab Republic, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SY.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	.
+
+lcc-3166-2-sy:AlHasakah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Ḩasakah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Al Ḩasakah in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Al Ḩasakah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:AlLadhiqiyah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Lādhiqīyah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Al Lādhiqīyah in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Al Lādhiqīyah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:AlQunaytirah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Qunayţirah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Al Qunayţirah in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Al Qunayţirah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:ArRaqqah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ar Raqqah" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Ar Raqqah in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Ar Raqqah"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:AsSuwayda
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "As Suwaydā'" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of As Suwaydā' in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "As Suwaydā'"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:Dara
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dar'ā" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Dar'ā in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Dar'ā"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:DayrAzZawr
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dayr az Zawr" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Dayr az Zawr in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Dayr az Zawr"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:Dimashq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Dimashq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Dimashq in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Dimashq"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:Halab
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩalab" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Ḩalab in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Ḩalab"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:Hamah
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩamāh" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Ḩamāh in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Ḩamāh"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:Hims
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩimş" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Ḩimş in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Ḩimş"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:Idlib
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Idlib" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Idlib in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Idlib"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:Province
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "province" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision category province in the country of Syrian Arab Republic" ;
+	.
+
+lcc-3166-2-sy:RifDimashq
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Rīf Dimashq" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Rīf Dimashq in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Rīf Dimashq"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+
+lcc-3166-2-sy:SY-DI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-DI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Dimashq in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:Dimashq ;
+	lcc-lr:hasTag "SY-DI" ;
+	lcc-lr:identifies lcc-3166-2-sy:Dimashq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-DR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-DR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Dar'ā in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:Dara ;
+	lcc-lr:hasTag "SY-DR" ;
+	lcc-lr:identifies lcc-3166-2-sy:Dara ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-DY
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-DY" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Dayr az Zawr in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:DayrAzZawr ;
+	lcc-lr:hasTag "SY-DY" ;
+	lcc-lr:identifies lcc-3166-2-sy:DayrAzZawr ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-HA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Al Ḩasakah in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:AlHasakah ;
+	lcc-lr:hasTag "SY-HA" ;
+	lcc-lr:identifies lcc-3166-2-sy:AlHasakah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-HI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-HI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Ḩimş in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:Hims ;
+	lcc-lr:hasTag "SY-HI" ;
+	lcc-lr:identifies lcc-3166-2-sy:Hims ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-HL
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-HL" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Ḩalab in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:Halab ;
+	lcc-lr:hasTag "SY-HL" ;
+	lcc-lr:identifies lcc-3166-2-sy:Halab ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-HM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-HM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Ḩamāh in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:Hamah ;
+	lcc-lr:hasTag "SY-HM" ;
+	lcc-lr:identifies lcc-3166-2-sy:Hamah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-ID
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-ID" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Idlib in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:Idlib ;
+	lcc-lr:hasTag "SY-ID" ;
+	lcc-lr:identifies lcc-3166-2-sy:Idlib ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-LA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-LA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Al Lādhiqīyah in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:AlLadhiqiyah ;
+	lcc-lr:hasTag "SY-LA" ;
+	lcc-lr:identifies lcc-3166-2-sy:AlLadhiqiyah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-QU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-QU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Al Qunayţirah in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:AlQunaytirah ;
+	lcc-lr:hasTag "SY-QU" ;
+	lcc-lr:identifies lcc-3166-2-sy:AlQunaytirah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-RA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-RA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Ar Raqqah in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:ArRaqqah ;
+	lcc-lr:hasTag "SY-RA" ;
+	lcc-lr:identifies lcc-3166-2-sy:ArRaqqah ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-RD
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-RD" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Rīf Dimashq in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:RifDimashq ;
+	lcc-lr:hasTag "SY-RD" ;
+	lcc-lr:identifies lcc-3166-2-sy:RifDimashq ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-SU
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-SU" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of As Suwaydā' in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:AsSuwayda ;
+	lcc-lr:hasTag "SY-SU" ;
+	lcc-lr:identifies lcc-3166-2-sy:AsSuwayda ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:SY-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SY-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "subdivision code for the province of Ţarţūs in the country of Syrian Arab Republic" ;
+	lcc-lr:denotes lcc-3166-2-sy:Tartus ;
+	lcc-lr:hasTag "SY-TA" ;
+	lcc-lr:identifies lcc-3166-2-sy:Tartus ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sy:Tartus
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ţarţūs" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SY/> ;
+	skos:definition "The province of Ţarţūs in the country of Syrian Arab Republic" ;
+	lcc-cr:hasLocalShortName "Ţarţūs"@ar ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sy:Province ;
+	lcc-cr:isSubregionOf lcc-3166-1:SyrianArabRepublic ;
+	.
+

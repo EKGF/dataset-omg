@@ -1,0 +1,336 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-sr: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Suriname Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-sr" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Suriname, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-SR.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	.
+
+lcc-3166-2-sr:Brokopondo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Brokopondo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Brokopondo in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Brokopondo"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:Commewijne
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Commewijne" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Commewijne in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Commewijne"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:Coronie
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Coronie" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Coronie in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Coronie"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision category district in the country of Suriname" ;
+	.
+
+lcc-3166-2-sr:Marowijne
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Marowijne" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Marowijne in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Marowijne"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:Nickerie
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Nickerie" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Nickerie in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Nickerie"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:Para
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Para" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Para in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Para"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:Paramaribo
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Paramaribo" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Paramaribo in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Paramaribo"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:SR-BR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-BR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Brokopondo in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Brokopondo ;
+	lcc-lr:hasTag "SR-BR" ;
+	lcc-lr:identifies lcc-3166-2-sr:Brokopondo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-CM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-CM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Commewijne in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Commewijne ;
+	lcc-lr:hasTag "SR-CM" ;
+	lcc-lr:identifies lcc-3166-2-sr:Commewijne ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-CR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-CR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Coronie in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Coronie ;
+	lcc-lr:hasTag "SR-CR" ;
+	lcc-lr:identifies lcc-3166-2-sr:Coronie ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-MA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-MA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Marowijne in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Marowijne ;
+	lcc-lr:hasTag "SR-MA" ;
+	lcc-lr:identifies lcc-3166-2-sr:Marowijne ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-NI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-NI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Nickerie in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Nickerie ;
+	lcc-lr:hasTag "SR-NI" ;
+	lcc-lr:identifies lcc-3166-2-sr:Nickerie ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-PM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-PM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Paramaribo in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Paramaribo ;
+	lcc-lr:hasTag "SR-PM" ;
+	lcc-lr:identifies lcc-3166-2-sr:Paramaribo ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-PR
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-PR" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Para in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Para ;
+	lcc-lr:hasTag "SR-PR" ;
+	lcc-lr:identifies lcc-3166-2-sr:Para ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-SA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-SA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Saramacca in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Saramacca ;
+	lcc-lr:hasTag "SR-SA" ;
+	lcc-lr:identifies lcc-3166-2-sr:Saramacca ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-SI
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-SI" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Sipaliwini in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Sipaliwini ;
+	lcc-lr:hasTag "SR-SI" ;
+	lcc-lr:identifies lcc-3166-2-sr:Sipaliwini ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:SR-WA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "SR-WA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "subdivision code for the district of Wanica in the country of Suriname" ;
+	lcc-lr:denotes lcc-3166-2-sr:Wanica ;
+	lcc-lr:hasTag "SR-WA" ;
+	lcc-lr:identifies lcc-3166-2-sr:Wanica ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-sr:Saramacca
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Saramacca" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Saramacca in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Saramacca"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:Sipaliwini
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Sipaliwini" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Sipaliwini in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Sipaliwini"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+
+lcc-3166-2-sr:Wanica
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Wanica" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-SR/> ;
+	skos:definition "The district of Wanica in the country of Suriname" ;
+	lcc-cr:hasLocalShortName "Wanica"@nl ;
+	lcc-cr:isClassifiedBy lcc-3166-2-sr:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Suriname ;
+	.
+

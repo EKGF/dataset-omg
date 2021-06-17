@@ -1,0 +1,246 @@
+# baseURI: https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/
+# imports: https://www.omg.org/spec/LCC/Countries/CountryRepresentation/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/
+# imports: https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/
+# imports: https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/
+
+@base <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix lcc-3166-1: <https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> .
+@prefix lcc-3166-2: <https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> .
+@prefix lcc-3166-2-il: <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> .
+@prefix lcc-cr: <https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> .
+@prefix lcc-lr: <https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sm: <http://www.omg.org/techprocess/ab/SpecificationMetadata/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/>
+	a owl:Ontology ;
+	rdfs:label " ISO 3166-2 Subdivision Codes for Israel Ontology" ;
+	dct:issued "2019-02-14T00:48:51.124818+01:00"^^xsd:dateTime ;
+	dct:license sm:MITLicense ;
+	sm:contentLanguage
+		"http://www.omg.org/spec/ODM/"^^xsd:anyURI ,
+		"http://www.w3.org/standards/techs/owl#w3c_all"^^xsd:anyURI
+		;
+	sm:copyright """Copyright (c) 2015-2019 Object Management Group, Inc.
+          Copyright (c) 2015-2019 Adaptive Inc.
+          Copyright (c) 2015-2019 Thematix Partners LLC
+          Copyright (c) 2015-2017 Unisys
+        """ ;
+	sm:dependsOn
+		"https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/"^^xsd:anyURI ,
+		"https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/"^^xsd:anyURI
+		;
+	sm:fileAbbreviation "lcc-3166-2-il" ;
+	sm:fileAbstract "This ontology represents the subset of the ISO 3166 standard that includes the actual ISO 3166-2 subdivision codes for Israel, with the ontology and codes for the other parts of the standard represented in models that this ontology depends on." ;
+	sm:filename "ISO3166-2-SubdivisionCodes-IL.rdf" ;
+	rdfs:seeAlso
+		<https://www.omg.org/spec/LCC/AboutLCC/> ,
+		<https://www.omg.org/spec/LCC/Countries/AboutCountries/>
+		;
+	owl:imports
+		<https://www.omg.org/spec/LCC/Countries/CountryRepresentation/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-1-CountryCodes/> ,
+		<https://www.omg.org/spec/LCC/Countries/ISO3166-2-SubdivisionCodes/> ,
+		<https://www.omg.org/spec/LCC/Languages/LanguageRepresentation/>
+		;
+	owl:versionIRI <https://www.omg.org/spec/LCC/20190201/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	.
+
+lcc-3166-2-il:AlAwsat
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Awsaţ" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "The district of Al Awsaţ in the country of Israel" ;
+	lcc-cr:hasLocalShortName
+		"Al Awsaţ"@ar ,
+		"HaMerkaz"@he
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-il:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Israel ;
+	.
+
+lcc-3166-2-il:AlJanubi
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Janūbī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "The district of Al Janūbī in the country of Israel" ;
+	lcc-cr:hasLocalShortName
+		"Al Janūbī"@ar ,
+		"HaDarom"@he
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-il:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Israel ;
+	.
+
+lcc-3166-2-il:AlQuds
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Al Quds" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "The district of Al Quds in the country of Israel" ;
+	lcc-cr:hasLocalShortName
+		"Al Quds"@ar ,
+		"Yerushalayim"@he
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-il:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Israel ;
+	.
+
+lcc-3166-2-il:AshShamali
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ash Shamālī" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "The district of Ash Shamālī in the country of Israel" ;
+	lcc-cr:hasLocalShortName
+		"Ash Shamālī"@ar ,
+		"HaTsafon"@he
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-il:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Israel ;
+	.
+
+lcc-3166-2-il:District
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionKind
+		;
+	rdfs:label "district" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "subdivision category district in the country of Israel" ;
+	.
+
+lcc-3166-2-il:Hayfa
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Ḩayfā" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "The district of Ḩayfā in the country of Israel" ;
+	lcc-cr:hasLocalShortName
+		"H̱efa"@he ,
+		"Ḩayfā"@ar
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-il:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Israel ;
+	.
+
+lcc-3166-2-il:IL-D
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IL-D" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "subdivision code for the district of Al Janūbī in the country of Israel" ;
+	lcc-lr:denotes lcc-3166-2-il:AlJanubi ;
+	lcc-lr:hasTag "IL-D" ;
+	lcc-lr:identifies lcc-3166-2-il:AlJanubi ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-il:IL-HA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IL-HA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "subdivision code for the district of Ḩayfā in the country of Israel" ;
+	lcc-lr:denotes lcc-3166-2-il:Hayfa ;
+	lcc-lr:hasTag "IL-HA" ;
+	lcc-lr:identifies lcc-3166-2-il:Hayfa ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-il:IL-JM
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IL-JM" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "subdivision code for the district of Al Quds in the country of Israel" ;
+	lcc-lr:denotes lcc-3166-2-il:AlQuds ;
+	lcc-lr:hasTag "IL-JM" ;
+	lcc-lr:identifies lcc-3166-2-il:AlQuds ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-il:IL-M
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IL-M" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "subdivision code for the district of Al Awsaţ in the country of Israel" ;
+	lcc-lr:denotes lcc-3166-2-il:AlAwsat ;
+	lcc-lr:hasTag "IL-M" ;
+	lcc-lr:identifies lcc-3166-2-il:AlAwsat ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-il:IL-TA
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IL-TA" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "subdivision code for the district of Tall Abīb in the country of Israel" ;
+	lcc-lr:denotes lcc-3166-2-il:TallAbib ;
+	lcc-lr:hasTag "IL-TA" ;
+	lcc-lr:identifies lcc-3166-2-il:TallAbib ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-il:IL-Z
+	a
+		owl:NamedIndividual ,
+		lcc-cr:GeographicRegionIdentifier
+		;
+	rdfs:label "IL-Z" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "subdivision code for the district of Ash Shamālī in the country of Israel" ;
+	lcc-lr:denotes lcc-3166-2-il:AshShamali ;
+	lcc-lr:hasTag "IL-Z" ;
+	lcc-lr:identifies lcc-3166-2-il:AshShamali ;
+	lcc-lr:isMemberOf lcc-3166-2:ISO3166-2-CodeSet ;
+	.
+
+lcc-3166-2-il:TallAbib
+	a
+		owl:NamedIndividual ,
+		lcc-cr:CountrySubdivision
+		;
+	rdfs:label "Tall Abīb" ;
+	rdfs:isDefinedBy <https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-IL/> ;
+	skos:definition "The district of Tall Abīb in the country of Israel" ;
+	lcc-cr:hasLocalShortName
+		"Tall Abīb"@ar ,
+		"Tel Aviv"@he
+		;
+	lcc-cr:isClassifiedBy lcc-3166-2-il:District ;
+	lcc-cr:isSubregionOf lcc-3166-1:Israel ;
+	.
+
